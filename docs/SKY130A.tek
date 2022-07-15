@@ -1,0 +1,136 @@
+; ASITIC STACK UP Definition File
+; SKY130A OpenPDK
+
+<chip>
+	chipx = 512 ; Arbitrary
+	chipy = 512 
+	fftx = 256  ； Xfft size
+	ffty = 256
+	TechFile = SKY130A.tek
+	TechPath = .
+	freq = 24
+	eddy = 0    ; Eddy Current Calculation is disabled
+
+<layer> 0       ; P- Bulk
+	rho = 1e-3  ; Unknown, using generic value for P- Si Bulk / ohms-cm
+	t   = 700   ; Unknown, using arbitrary value / um
+	eps = 11.9  ; Unknown, using generic value for P- Si / 
+	
+<layer> 1       ; Silicon Oxide
+	rho = 1e10  ; Using generic values
+	t   = 11.8
+	eps = 4.2   ; Due to stress, the lower & thinner layers have smaller epsilon
+
+; Note: The process has 5 Metal Layers & 1 lead (?) local interconnect layer
+; The lead layer is ignored due to its poor performance. It should be left blank or shorted to M1&2. For the actual implementation, the 3 bottom layers are always grounded to provide shielding.
+
+; Lead
+<metal> 0   
+	layer = 1       ; Inside Oxide
+	rsh   = 12800   ; Sheet Resistance, Unit is mOhms / Square
+					; PS this is horrible
+	t     = 0.1     ; Thickness / um
+	d     = 0.9361  ; Distance from bottom of the layer (1)
+	name  = li
+	color = LightSkyBlue1
+
+<metal> 1
+	layer = 1       ; Inside Oxide
+	rsh   = 125
+	t     = 0.36    ; Thickness / um
+	d     = 1.3761  ; Distance from bottom of the layer (1)
+	name  = M1
+	color = Plum
+
+<metal> 2
+	layer = 1       ; Inside Oxide
+	rsh   = 125
+	t     = 0.36    ; Thickness / um
+	d     = 2.7861  ; Distance from bottom of the layer (1)
+	name  = M2
+	color = PaleVioletRed
+
+<metal> 3
+	layer = 1       ; Inside Oxide
+	rsh   = 47
+	t     = 0.845   ; Thickness / um
+	d     = 2.7861  ; Distance from bottom of the layer (1)
+	name  = M3
+	color = Silver
+
+<metal> 4
+	layer = 1       ; Inside Oxide
+	rsh   = 47
+	t     = 0.845   ; Thickness / um
+	d     = 4.0211  ; Distance from bottom of the layer (1)
+	name  = M4
+	color = Cyan
+
+; This is unfortunately complicated: The top surface is covered by Thin Oxide + Nitride instead of Thick SiO2, maybe I should avoid using this layer entirely
+<metal> 5
+	layer = 1       ; Inside Oxide
+	rsh   = 29
+	t     = 1.26    ; Thickness / um
+	d     = 5.3711  ; Distance from bottom of the layer (1)
+	name  = M5
+	color = Purple
+
+; VIA Definitaions
+; r is obtained from the document "SKY130 (SkyWater PDK) -- Stackup Capacitance Data [public]"
+<via> 0             ; mcon, aka viali
+	top    = 1
+	bottom = 0
+	r      = 9.3    ; Resistance per Via
+	width  = 0.17
+	space  = 0.19
+	overplot1 = 0.3  ; Minimum distance to bottom ?
+	overplot2 = 0.3  ; Minimum distance to top ?
+	name   = viali
+	color  = MediumBlue
+
+<via> 1             ; via, aka viam1
+	top    = 2
+	bottom = 1
+	r      = 4.5     ; Resistance per Via
+	width  = 0.26
+	space  = 0.06    ; ?
+	overplot1 = 0    ; Minimum distance to bottom ?
+	overplot2 = 0    ; Minimum distance to top ?
+	name   = viam1
+	color  = Magenta
+
+<via> 2             ; via2, aka viam2
+	top    = 3
+	bottom = 2
+	r      = 3.41   ; Resistance per Via
+	width  = 0.28
+	space  = 0.12
+	overplot1 = 0.025    ; Minimum distance to bottom ??
+	overplot2 = 0.025    ; Minimum distance to top ??
+	name   = viam2
+	color  = MediumBlue
+
+<via> 3             ; via3, aka viam3
+	top    = 4
+	bottom = 3
+	r      = 3.41   ; Resistance per Via
+	width  = 0.32
+	space  =  0.08
+	overplot1 = 0.03  ; Minimum distance to bottom ???
+	overplot2 = 0.005 ; Minimum distance to top ???
+	name   = viam3
+	color  = MediumBlue
+	
+<via> 4             ; via4, aka viam4
+	top    = 5
+	bottom = 4
+	r      = 0.38   ; Resistance per Via
+	width  = 1.18
+	space  = 0.42
+	overplot1 = 0.12  ; Minimum distance to bottom
+	overplot2 = 0.12  ; Minimum distance to top
+	name   = viam4
+	color  = MediumBlue
+
+; The "overplot" values are quite random, what the hell
+; The top contact (rdlcon) is ignored
