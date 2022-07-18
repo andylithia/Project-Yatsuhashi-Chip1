@@ -218,7 +218,7 @@ set to_pdf {ps2pdf -dAutoRotatePages=/None}
 ###########################################################################
 #### editor must not detach from launching shell (-f mandatory for gvim)
 #### default for linux: gvim -f
-# set editor {gvim -f -geometry 90x28}
+set editor {gvim -f -geometry 90x28}
 # set editor { xterm -geometry 100x40 -e nano }
 # set editor { xterm -geometry 100x40 -e pico }
 

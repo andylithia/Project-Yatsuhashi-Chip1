@@ -108,7 +108,7 @@
 	overplot1 = 0.025    ; Minimum distance to bottom ??
 	overplot2 = 0.025    ; Minimum distance to top ??
 	name   = viam2
-	color  = MediumBlue
+	color  = Coral
 
 <via> 3             ; via3, aka viam3
 	top    = 4
@@ -119,7 +119,7 @@
 	overplot1 = 0.03  ; Minimum distance to bottom ???
 	overplot2 = 0.005 ; Minimum distance to top ???
 	name   = viam3
-	color  = MediumBlue
+	color  = Crismon
 	
 <via> 4             ; via4, aka viam4
 	top    = 5
@@ -130,7 +130,7 @@
 	overplot1 = 0.12  ; Minimum distance to bottom
 	overplot2 = 0.12  ; Minimum distance to top
 	name   = viam4
-	color  = MediumBlue
+	color  = CadetBlue
 
 ; The "overplot" values are quite random, what the hell
 ; The top contact (rdlcon) is ignored
