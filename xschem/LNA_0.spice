@@ -1,0 +1,56 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA_0.spice
+**.subckt LNA_0
+C1 net1 net5 1u m=1
+VDD net6 GND 1.6
+V2 net3 GND dc 0 ac 0 portnum 2 z0 50
+V1 net5 GND dc 0 ac 0 portnum 1 z0 50
+C2 net3 net9 10p m=1
+XM1 net2 net1 net4 GND sky130_fd_pr__nfet_01v8 L=L W=W nf=NF ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+Ldeg1 net4 GND 2.3n m=1
+Lout1 net6 net9 10n m=1
+XM2 net8 net6 net7 GND sky130_fd_pr__nfet_01v8 L=L W=W nf=NF ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+Ldeg2 net7 GND 3n m=1
+Lout2 net6 net8 3n m=1
+R1 vbias net1 1k m=1
+XM3 net9 net6 net10 GND sky130_fd_pr__nfet_01v8 L=L W=W1 nf=NF ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+Lcpl1 net10 net2 5n m=1
+Ibias net6 vbias 50u
+XM4 vbias vbias GND GND sky130_fd_pr__nfet_01v8 L=L W=W nf=NF ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+C3 vbias GND 100p m=1
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+.param L=0.5
+.param W=3
+.param W1=5
+.param NF=5
+.param M=2
+.op
+.sp dec 100 1e9 100e9 0
+.control
+run
+display
+plot mag(S_1_1) mag(S_1_2) mag(S_2_2) mag(S_2_1)
+plot S_1_1 smithgrid
+print @m.xm1.msky130_fd_pr__nfet_01v8[id]
+print @m.xm1.msky130_fd_pr__nfet_01v8[vgs]
+print @m.xm1.msky130_fd_pr__nfet_01v8[vds]
+print @m.xm3.msky130_fd_pr__nfet_01v8[vgs]
+print @m.xm3.msky130_fd_pr__nfet_01v8[vds]
+print @m.xm3.msky130_fd_pr__nfet_01v8[id]
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

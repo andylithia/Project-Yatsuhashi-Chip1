@@ -1,0 +1,28 @@
+* SPICE3 file created from captuner_complete_1.ext - technology: sky130A
+
+X0 D2 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=5e+06u
+X1 D2 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE sky130_fd_pr__cap_mim_m3_1 l=1e+06u w=5e+06u
+X2 D2 D1 sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=5e+06u
+X3 D2 D1 sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=5e+06u
+X4 D2 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_3/SOURCE sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=5e+06u
+C0 D2 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE 2.04fF
+C1 D2 D1 6.12fF
+C2 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE bot 3.85fF
+C3 D2 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_3/SOURCE 2.94fF
+C4 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE bot 3.84fF
+C5 D1 bot 5.57fF
+C6 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_3/SOURCE bot 3.83fF
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 bot sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 bot sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/GATE
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_3 bot sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_3/GATE
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_3/SOURCE sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 bot sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/GATE
++ D1 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+C7 D2 sub 2.45fF **FLOATING
+C8 bot sub 2.33fF
+C9 D1 sub 4.34fF
+C10 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_3/SOURCE sub 3.73fF
+C11 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE sub 3.22fF
+C12 sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE sub 3.27fF

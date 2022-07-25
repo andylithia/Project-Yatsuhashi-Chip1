@@ -1,0 +1,10 @@
+* SPICE3 file created from nfet_3x_2.ext - technology: sky130A
+
+C0 G S 3.66fF
+C1 D S 11.10fF
+C2 G D 2.81fF
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+C3 S 0 7.01fF
+C4 G 0 2.01fF

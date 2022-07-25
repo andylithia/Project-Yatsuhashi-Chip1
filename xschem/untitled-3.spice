@@ -1,0 +1,29 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/untitled-3.sch
+**.subckt untitled-3
+XM1 GND net1 GND GND sky130_fd_pr__nfet_01v8 L=0.3 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+V1 net1 GND dc 1.2 ac 1 portnum 1 z0 50
+C1 net2 GND 20f m=1
+V2 net2 GND dc 1.2 ac 1 portnum 2 z0 50
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+
+* .sp dec 1000 0.01e9 100e9 0
+.probe I(xm1)
+.probe I(C1)
+.ac dec 1000 0.01e9 10e9
+.control
+run
+display
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

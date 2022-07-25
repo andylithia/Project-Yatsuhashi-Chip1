@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1658291242
+use sky130_fd_pr__nfet_01v8_AKH2KQ  sky130_fd_pr__nfet_01v8_AKH2KQ_0
+timestamp 1658291242
+transform 1 0 559 0 1 666
+box -612 -719 612 719
+<< end >>

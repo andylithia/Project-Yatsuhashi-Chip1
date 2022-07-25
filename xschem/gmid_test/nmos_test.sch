@@ -84,7 +84,7 @@ while w_test le w_stop
   * plot @m.xm1.msky130_fd_pr__nfet_01v8[id]
   * plot @m.xm1.msky130_fd_pr__nfet_01v8[vth]
   set filetype=ascii
-  write ./gnid_test/data_L\{$&l_test\}_W\{$&w_test\}.raw
+  write ./gmid_test/data_L\{$&l_test\}_W\{$&w_test\}.raw
   let l_test = l_test + delta_l
  end
  let w_test = w_test + delta_w
@@ -95,6 +95,6 @@ C {devices/code.sym} -260 -150 0 0 {name=TT_MODELS only_toplevel=false
 format="tcleval(@value )" value=".lib \\\\$::SKYWATER_MODELS\\\\/sky130.lib.spice tt
 .include \\\\$::PDKPATH\\\\/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice"}
 C {devices/vsource.sym} -40 50 0 0 {name=VGS value=0.9}
-C {devices/vsource.sym} 150 20 0 0 {name=VDD value=1}
+C {devices/vsource.sym} 150 20 0 0 {name=VDD value=1.8}
 C {devices/lab_pin.sym} 60 -60 0 0 {name=l2 sig_type=std_logic lab=vds}
 C {devices/lab_pin.sym} -40 10 0 0 {name=l3 sig_type=std_logic lab=vgs}

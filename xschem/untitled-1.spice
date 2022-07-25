@@ -1,0 +1,32 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/untitled-1.sch
+**.subckt untitled-1
+XM1 net1 net2 GND GND sky130_fd_pr__nfet_01v8 L=0.6 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+V1 net2 GND 1.3
+V2 net1 GND 1.8
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+.param L=0.15
+.param W=1
+.param NF=1
+.op
+.control
+save @m.xm1.msky130_fd_pr__nfet_01v8[gm]
+save @m.xm1.msky130_fd_pr__nfet_01v8[id]
+save @m.xm1.msky130_fd_pr__nfet_01v8[gds]
+save @m.xm1.msky130_fd_pr__nfet_01v8[cgs]
+save @m.xm1.msky130_fd_pr__nfet_01v8[cgb]
+save @m.xm1.msky130_fd_pr__nfet_01v8[cgd]
+save @m.xm1.msky130_fd_pr__nfet_01v8[vth]
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

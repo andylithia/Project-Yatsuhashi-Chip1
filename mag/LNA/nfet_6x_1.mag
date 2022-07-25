@@ -1,0 +1,12 @@
+magic
+tech sky130A
+timestamp 1658632193
+use nfet_3x_1  nfet_3x_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/LNA
+timestamp 1658631798
+transform 1 0 0 0 -1 706
+box 0 -30 1040 705
+use nfet_3x_1  nfet_3x_1_1
+timestamp 1658631798
+transform 1 0 0 0 1 -643
+box 0 -30 1040 705
+<< end >>

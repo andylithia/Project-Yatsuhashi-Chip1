@@ -1,0 +1,15 @@
+* NGSPICE file created from nfet_6x_1.ext - technology: sky130A
+
+.subckt sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE
+X0 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=4.242e+12p pd=3.198e+07u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
+X1 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+.ends
+
+.subckt nfet_6x_1
+Xsky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_0 D G2 S VSUBS sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_1 D G2 S VSUBS sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_2 D G2 S VSUBS sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15
+.ends
+

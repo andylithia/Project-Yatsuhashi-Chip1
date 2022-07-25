@@ -4,7 +4,7 @@ XM1 vds vgs GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * 
 + pd='2*int((nf+1)/2) * (W + 0.29)' ps='2*int((nf+2)/2) * (W + 0.29)' nrd='0.29 / W / nf' nrs='0.29 / W / nf'
 + sa=0 sb=0 sd=0 mult=1 m=1
 VGS vgs GND 0.9
-VDD vds GND 1
+VDD vds GND 1.8
 **** begin user architecture code
 
 
