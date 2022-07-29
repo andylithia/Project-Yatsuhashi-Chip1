@@ -1,0 +1,2407 @@
+** sch_path:
+*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/test_carry_lookahead.sch
+**.subckt test_carry_lookahead
+x3[255] A[255] B[255] CARRY[254] VSS VSS VCC VCC CARRY[255] S1[255] sky130_fd_sc_hd__fah_1
+x3[254] A[254] B[254] CARRY[253] VSS VSS VCC VCC CARRY[254] S1[254] sky130_fd_sc_hd__fah_1
+x3[253] A[253] B[253] CARRY[252] VSS VSS VCC VCC CARRY[253] S1[253] sky130_fd_sc_hd__fah_1
+x3[252] A[252] B[252] CARRY[251] VSS VSS VCC VCC CARRY[252] S1[252] sky130_fd_sc_hd__fah_1
+x3[251] A[251] B[251] CARRY[250] VSS VSS VCC VCC CARRY[251] S1[251] sky130_fd_sc_hd__fah_1
+x3[250] A[250] B[250] CARRY[249] VSS VSS VCC VCC CARRY[250] S1[250] sky130_fd_sc_hd__fah_1
+x3[249] A[249] B[249] CARRY[248] VSS VSS VCC VCC CARRY[249] S1[249] sky130_fd_sc_hd__fah_1
+x3[248] A[248] B[248] CARRY[247] VSS VSS VCC VCC CARRY[248] S1[248] sky130_fd_sc_hd__fah_1
+x3[247] A[247] B[247] CARRY[246] VSS VSS VCC VCC CARRY[247] S1[247] sky130_fd_sc_hd__fah_1
+x3[246] A[246] B[246] CARRY[245] VSS VSS VCC VCC CARRY[246] S1[246] sky130_fd_sc_hd__fah_1
+x3[245] A[245] B[245] CARRY[244] VSS VSS VCC VCC CARRY[245] S1[245] sky130_fd_sc_hd__fah_1
+x3[244] A[244] B[244] CARRY[243] VSS VSS VCC VCC CARRY[244] S1[244] sky130_fd_sc_hd__fah_1
+x3[243] A[243] B[243] CARRY[242] VSS VSS VCC VCC CARRY[243] S1[243] sky130_fd_sc_hd__fah_1
+x3[242] A[242] B[242] CARRY[241] VSS VSS VCC VCC CARRY[242] S1[242] sky130_fd_sc_hd__fah_1
+x3[241] A[241] B[241] CARRY[240] VSS VSS VCC VCC CARRY[241] S1[241] sky130_fd_sc_hd__fah_1
+x3[240] A[240] B[240] CARRY[239] VSS VSS VCC VCC CARRY[240] S1[240] sky130_fd_sc_hd__fah_1
+x3[239] A[239] B[239] CARRY[238] VSS VSS VCC VCC CARRY[239] S1[239] sky130_fd_sc_hd__fah_1
+x3[238] A[238] B[238] CARRY[237] VSS VSS VCC VCC CARRY[238] S1[238] sky130_fd_sc_hd__fah_1
+x3[237] A[237] B[237] CARRY[236] VSS VSS VCC VCC CARRY[237] S1[237] sky130_fd_sc_hd__fah_1
+x3[236] A[236] B[236] CARRY[235] VSS VSS VCC VCC CARRY[236] S1[236] sky130_fd_sc_hd__fah_1
+x3[235] A[235] B[235] CARRY[234] VSS VSS VCC VCC CARRY[235] S1[235] sky130_fd_sc_hd__fah_1
+x3[234] A[234] B[234] CARRY[233] VSS VSS VCC VCC CARRY[234] S1[234] sky130_fd_sc_hd__fah_1
+x3[233] A[233] B[233] CARRY[232] VSS VSS VCC VCC CARRY[233] S1[233] sky130_fd_sc_hd__fah_1
+x3[232] A[232] B[232] CARRY[231] VSS VSS VCC VCC CARRY[232] S1[232] sky130_fd_sc_hd__fah_1
+x3[231] A[231] B[231] CARRY[230] VSS VSS VCC VCC CARRY[231] S1[231] sky130_fd_sc_hd__fah_1
+x3[230] A[230] B[230] CARRY[229] VSS VSS VCC VCC CARRY[230] S1[230] sky130_fd_sc_hd__fah_1
+x3[229] A[229] B[229] CARRY[228] VSS VSS VCC VCC CARRY[229] S1[229] sky130_fd_sc_hd__fah_1
+x3[228] A[228] B[228] CARRY[227] VSS VSS VCC VCC CARRY[228] S1[228] sky130_fd_sc_hd__fah_1
+x3[227] A[227] B[227] CARRY[226] VSS VSS VCC VCC CARRY[227] S1[227] sky130_fd_sc_hd__fah_1
+x3[226] A[226] B[226] CARRY[225] VSS VSS VCC VCC CARRY[226] S1[226] sky130_fd_sc_hd__fah_1
+x3[225] A[225] B[225] CARRY[224] VSS VSS VCC VCC CARRY[225] S1[225] sky130_fd_sc_hd__fah_1
+x3[224] A[224] B[224] CARRY[223] VSS VSS VCC VCC CARRY[224] S1[224] sky130_fd_sc_hd__fah_1
+x3[223] A[223] B[223] CARRY[222] VSS VSS VCC VCC CARRY[223] S1[223] sky130_fd_sc_hd__fah_1
+x3[222] A[222] B[222] CARRY[221] VSS VSS VCC VCC CARRY[222] S1[222] sky130_fd_sc_hd__fah_1
+x3[221] A[221] B[221] CARRY[220] VSS VSS VCC VCC CARRY[221] S1[221] sky130_fd_sc_hd__fah_1
+x3[220] A[220] B[220] CARRY[219] VSS VSS VCC VCC CARRY[220] S1[220] sky130_fd_sc_hd__fah_1
+x3[219] A[219] B[219] CARRY[218] VSS VSS VCC VCC CARRY[219] S1[219] sky130_fd_sc_hd__fah_1
+x3[218] A[218] B[218] CARRY[217] VSS VSS VCC VCC CARRY[218] S1[218] sky130_fd_sc_hd__fah_1
+x3[217] A[217] B[217] CARRY[216] VSS VSS VCC VCC CARRY[217] S1[217] sky130_fd_sc_hd__fah_1
+x3[216] A[216] B[216] CARRY[215] VSS VSS VCC VCC CARRY[216] S1[216] sky130_fd_sc_hd__fah_1
+x3[215] A[215] B[215] CARRY[214] VSS VSS VCC VCC CARRY[215] S1[215] sky130_fd_sc_hd__fah_1
+x3[214] A[214] B[214] CARRY[213] VSS VSS VCC VCC CARRY[214] S1[214] sky130_fd_sc_hd__fah_1
+x3[213] A[213] B[213] CARRY[212] VSS VSS VCC VCC CARRY[213] S1[213] sky130_fd_sc_hd__fah_1
+x3[212] A[212] B[212] CARRY[211] VSS VSS VCC VCC CARRY[212] S1[212] sky130_fd_sc_hd__fah_1
+x3[211] A[211] B[211] CARRY[210] VSS VSS VCC VCC CARRY[211] S1[211] sky130_fd_sc_hd__fah_1
+x3[210] A[210] B[210] CARRY[209] VSS VSS VCC VCC CARRY[210] S1[210] sky130_fd_sc_hd__fah_1
+x3[209] A[209] B[209] CARRY[208] VSS VSS VCC VCC CARRY[209] S1[209] sky130_fd_sc_hd__fah_1
+x3[208] A[208] B[208] CARRY[207] VSS VSS VCC VCC CARRY[208] S1[208] sky130_fd_sc_hd__fah_1
+x3[207] A[207] B[207] CARRY[206] VSS VSS VCC VCC CARRY[207] S1[207] sky130_fd_sc_hd__fah_1
+x3[206] A[206] B[206] CARRY[205] VSS VSS VCC VCC CARRY[206] S1[206] sky130_fd_sc_hd__fah_1
+x3[205] A[205] B[205] CARRY[204] VSS VSS VCC VCC CARRY[205] S1[205] sky130_fd_sc_hd__fah_1
+x3[204] A[204] B[204] CARRY[203] VSS VSS VCC VCC CARRY[204] S1[204] sky130_fd_sc_hd__fah_1
+x3[203] A[203] B[203] CARRY[202] VSS VSS VCC VCC CARRY[203] S1[203] sky130_fd_sc_hd__fah_1
+x3[202] A[202] B[202] CARRY[201] VSS VSS VCC VCC CARRY[202] S1[202] sky130_fd_sc_hd__fah_1
+x3[201] A[201] B[201] CARRY[200] VSS VSS VCC VCC CARRY[201] S1[201] sky130_fd_sc_hd__fah_1
+x3[200] A[200] B[200] CARRY[199] VSS VSS VCC VCC CARRY[200] S1[200] sky130_fd_sc_hd__fah_1
+x3[199] A[199] B[199] CARRY[198] VSS VSS VCC VCC CARRY[199] S1[199] sky130_fd_sc_hd__fah_1
+x3[198] A[198] B[198] CARRY[197] VSS VSS VCC VCC CARRY[198] S1[198] sky130_fd_sc_hd__fah_1
+x3[197] A[197] B[197] CARRY[196] VSS VSS VCC VCC CARRY[197] S1[197] sky130_fd_sc_hd__fah_1
+x3[196] A[196] B[196] CARRY[195] VSS VSS VCC VCC CARRY[196] S1[196] sky130_fd_sc_hd__fah_1
+x3[195] A[195] B[195] CARRY[194] VSS VSS VCC VCC CARRY[195] S1[195] sky130_fd_sc_hd__fah_1
+x3[194] A[194] B[194] CARRY[193] VSS VSS VCC VCC CARRY[194] S1[194] sky130_fd_sc_hd__fah_1
+x3[193] A[193] B[193] CARRY[192] VSS VSS VCC VCC CARRY[193] S1[193] sky130_fd_sc_hd__fah_1
+x3[192] A[192] B[192] CARRY[191] VSS VSS VCC VCC CARRY[192] S1[192] sky130_fd_sc_hd__fah_1
+x3[191] A[191] B[191] CARRY[190] VSS VSS VCC VCC CARRY[191] S1[191] sky130_fd_sc_hd__fah_1
+x3[190] A[190] B[190] CARRY[189] VSS VSS VCC VCC CARRY[190] S1[190] sky130_fd_sc_hd__fah_1
+x3[189] A[189] B[189] CARRY[188] VSS VSS VCC VCC CARRY[189] S1[189] sky130_fd_sc_hd__fah_1
+x3[188] A[188] B[188] CARRY[187] VSS VSS VCC VCC CARRY[188] S1[188] sky130_fd_sc_hd__fah_1
+x3[187] A[187] B[187] CARRY[186] VSS VSS VCC VCC CARRY[187] S1[187] sky130_fd_sc_hd__fah_1
+x3[186] A[186] B[186] CARRY[185] VSS VSS VCC VCC CARRY[186] S1[186] sky130_fd_sc_hd__fah_1
+x3[185] A[185] B[185] CARRY[184] VSS VSS VCC VCC CARRY[185] S1[185] sky130_fd_sc_hd__fah_1
+x3[184] A[184] B[184] CARRY[183] VSS VSS VCC VCC CARRY[184] S1[184] sky130_fd_sc_hd__fah_1
+x3[183] A[183] B[183] CARRY[182] VSS VSS VCC VCC CARRY[183] S1[183] sky130_fd_sc_hd__fah_1
+x3[182] A[182] B[182] CARRY[181] VSS VSS VCC VCC CARRY[182] S1[182] sky130_fd_sc_hd__fah_1
+x3[181] A[181] B[181] CARRY[180] VSS VSS VCC VCC CARRY[181] S1[181] sky130_fd_sc_hd__fah_1
+x3[180] A[180] B[180] CARRY[179] VSS VSS VCC VCC CARRY[180] S1[180] sky130_fd_sc_hd__fah_1
+x3[179] A[179] B[179] CARRY[178] VSS VSS VCC VCC CARRY[179] S1[179] sky130_fd_sc_hd__fah_1
+x3[178] A[178] B[178] CARRY[177] VSS VSS VCC VCC CARRY[178] S1[178] sky130_fd_sc_hd__fah_1
+x3[177] A[177] B[177] CARRY[176] VSS VSS VCC VCC CARRY[177] S1[177] sky130_fd_sc_hd__fah_1
+x3[176] A[176] B[176] CARRY[175] VSS VSS VCC VCC CARRY[176] S1[176] sky130_fd_sc_hd__fah_1
+x3[175] A[175] B[175] CARRY[174] VSS VSS VCC VCC CARRY[175] S1[175] sky130_fd_sc_hd__fah_1
+x3[174] A[174] B[174] CARRY[173] VSS VSS VCC VCC CARRY[174] S1[174] sky130_fd_sc_hd__fah_1
+x3[173] A[173] B[173] CARRY[172] VSS VSS VCC VCC CARRY[173] S1[173] sky130_fd_sc_hd__fah_1
+x3[172] A[172] B[172] CARRY[171] VSS VSS VCC VCC CARRY[172] S1[172] sky130_fd_sc_hd__fah_1
+x3[171] A[171] B[171] CARRY[170] VSS VSS VCC VCC CARRY[171] S1[171] sky130_fd_sc_hd__fah_1
+x3[170] A[170] B[170] CARRY[169] VSS VSS VCC VCC CARRY[170] S1[170] sky130_fd_sc_hd__fah_1
+x3[169] A[169] B[169] CARRY[168] VSS VSS VCC VCC CARRY[169] S1[169] sky130_fd_sc_hd__fah_1
+x3[168] A[168] B[168] CARRY[167] VSS VSS VCC VCC CARRY[168] S1[168] sky130_fd_sc_hd__fah_1
+x3[167] A[167] B[167] CARRY[166] VSS VSS VCC VCC CARRY[167] S1[167] sky130_fd_sc_hd__fah_1
+x3[166] A[166] B[166] CARRY[165] VSS VSS VCC VCC CARRY[166] S1[166] sky130_fd_sc_hd__fah_1
+x3[165] A[165] B[165] CARRY[164] VSS VSS VCC VCC CARRY[165] S1[165] sky130_fd_sc_hd__fah_1
+x3[164] A[164] B[164] CARRY[163] VSS VSS VCC VCC CARRY[164] S1[164] sky130_fd_sc_hd__fah_1
+x3[163] A[163] B[163] CARRY[162] VSS VSS VCC VCC CARRY[163] S1[163] sky130_fd_sc_hd__fah_1
+x3[162] A[162] B[162] CARRY[161] VSS VSS VCC VCC CARRY[162] S1[162] sky130_fd_sc_hd__fah_1
+x3[161] A[161] B[161] CARRY[160] VSS VSS VCC VCC CARRY[161] S1[161] sky130_fd_sc_hd__fah_1
+x3[160] A[160] B[160] CARRY[159] VSS VSS VCC VCC CARRY[160] S1[160] sky130_fd_sc_hd__fah_1
+x3[159] A[159] B[159] CARRY[158] VSS VSS VCC VCC CARRY[159] S1[159] sky130_fd_sc_hd__fah_1
+x3[158] A[158] B[158] CARRY[157] VSS VSS VCC VCC CARRY[158] S1[158] sky130_fd_sc_hd__fah_1
+x3[157] A[157] B[157] CARRY[156] VSS VSS VCC VCC CARRY[157] S1[157] sky130_fd_sc_hd__fah_1
+x3[156] A[156] B[156] CARRY[155] VSS VSS VCC VCC CARRY[156] S1[156] sky130_fd_sc_hd__fah_1
+x3[155] A[155] B[155] CARRY[154] VSS VSS VCC VCC CARRY[155] S1[155] sky130_fd_sc_hd__fah_1
+x3[154] A[154] B[154] CARRY[153] VSS VSS VCC VCC CARRY[154] S1[154] sky130_fd_sc_hd__fah_1
+x3[153] A[153] B[153] CARRY[152] VSS VSS VCC VCC CARRY[153] S1[153] sky130_fd_sc_hd__fah_1
+x3[152] A[152] B[152] CARRY[151] VSS VSS VCC VCC CARRY[152] S1[152] sky130_fd_sc_hd__fah_1
+x3[151] A[151] B[151] CARRY[150] VSS VSS VCC VCC CARRY[151] S1[151] sky130_fd_sc_hd__fah_1
+x3[150] A[150] B[150] CARRY[149] VSS VSS VCC VCC CARRY[150] S1[150] sky130_fd_sc_hd__fah_1
+x3[149] A[149] B[149] CARRY[148] VSS VSS VCC VCC CARRY[149] S1[149] sky130_fd_sc_hd__fah_1
+x3[148] A[148] B[148] CARRY[147] VSS VSS VCC VCC CARRY[148] S1[148] sky130_fd_sc_hd__fah_1
+x3[147] A[147] B[147] CARRY[146] VSS VSS VCC VCC CARRY[147] S1[147] sky130_fd_sc_hd__fah_1
+x3[146] A[146] B[146] CARRY[145] VSS VSS VCC VCC CARRY[146] S1[146] sky130_fd_sc_hd__fah_1
+x3[145] A[145] B[145] CARRY[144] VSS VSS VCC VCC CARRY[145] S1[145] sky130_fd_sc_hd__fah_1
+x3[144] A[144] B[144] CARRY[143] VSS VSS VCC VCC CARRY[144] S1[144] sky130_fd_sc_hd__fah_1
+x3[143] A[143] B[143] CARRY[142] VSS VSS VCC VCC CARRY[143] S1[143] sky130_fd_sc_hd__fah_1
+x3[142] A[142] B[142] CARRY[141] VSS VSS VCC VCC CARRY[142] S1[142] sky130_fd_sc_hd__fah_1
+x3[141] A[141] B[141] CARRY[140] VSS VSS VCC VCC CARRY[141] S1[141] sky130_fd_sc_hd__fah_1
+x3[140] A[140] B[140] CARRY[139] VSS VSS VCC VCC CARRY[140] S1[140] sky130_fd_sc_hd__fah_1
+x3[139] A[139] B[139] CARRY[138] VSS VSS VCC VCC CARRY[139] S1[139] sky130_fd_sc_hd__fah_1
+x3[138] A[138] B[138] CARRY[137] VSS VSS VCC VCC CARRY[138] S1[138] sky130_fd_sc_hd__fah_1
+x3[137] A[137] B[137] CARRY[136] VSS VSS VCC VCC CARRY[137] S1[137] sky130_fd_sc_hd__fah_1
+x3[136] A[136] B[136] CARRY[135] VSS VSS VCC VCC CARRY[136] S1[136] sky130_fd_sc_hd__fah_1
+x3[135] A[135] B[135] CARRY[134] VSS VSS VCC VCC CARRY[135] S1[135] sky130_fd_sc_hd__fah_1
+x3[134] A[134] B[134] CARRY[133] VSS VSS VCC VCC CARRY[134] S1[134] sky130_fd_sc_hd__fah_1
+x3[133] A[133] B[133] CARRY[132] VSS VSS VCC VCC CARRY[133] S1[133] sky130_fd_sc_hd__fah_1
+x3[132] A[132] B[132] CARRY[131] VSS VSS VCC VCC CARRY[132] S1[132] sky130_fd_sc_hd__fah_1
+x3[131] A[131] B[131] CARRY[130] VSS VSS VCC VCC CARRY[131] S1[131] sky130_fd_sc_hd__fah_1
+x3[130] A[130] B[130] CARRY[129] VSS VSS VCC VCC CARRY[130] S1[130] sky130_fd_sc_hd__fah_1
+x3[129] A[129] B[129] CARRY[128] VSS VSS VCC VCC CARRY[129] S1[129] sky130_fd_sc_hd__fah_1
+x3[128] A[128] B[128] CARRY[127] VSS VSS VCC VCC CARRY[128] S1[128] sky130_fd_sc_hd__fah_1
+x3[127] A[127] B[127] CARRY[126] VSS VSS VCC VCC CARRY[127] S1[127] sky130_fd_sc_hd__fah_1
+x3[126] A[126] B[126] CARRY[125] VSS VSS VCC VCC CARRY[126] S1[126] sky130_fd_sc_hd__fah_1
+x3[125] A[125] B[125] CARRY[124] VSS VSS VCC VCC CARRY[125] S1[125] sky130_fd_sc_hd__fah_1
+x3[124] A[124] B[124] CARRY[123] VSS VSS VCC VCC CARRY[124] S1[124] sky130_fd_sc_hd__fah_1
+x3[123] A[123] B[123] CARRY[122] VSS VSS VCC VCC CARRY[123] S1[123] sky130_fd_sc_hd__fah_1
+x3[122] A[122] B[122] CARRY[121] VSS VSS VCC VCC CARRY[122] S1[122] sky130_fd_sc_hd__fah_1
+x3[121] A[121] B[121] CARRY[120] VSS VSS VCC VCC CARRY[121] S1[121] sky130_fd_sc_hd__fah_1
+x3[120] A[120] B[120] CARRY[119] VSS VSS VCC VCC CARRY[120] S1[120] sky130_fd_sc_hd__fah_1
+x3[119] A[119] B[119] CARRY[118] VSS VSS VCC VCC CARRY[119] S1[119] sky130_fd_sc_hd__fah_1
+x3[118] A[118] B[118] CARRY[117] VSS VSS VCC VCC CARRY[118] S1[118] sky130_fd_sc_hd__fah_1
+x3[117] A[117] B[117] CARRY[116] VSS VSS VCC VCC CARRY[117] S1[117] sky130_fd_sc_hd__fah_1
+x3[116] A[116] B[116] CARRY[115] VSS VSS VCC VCC CARRY[116] S1[116] sky130_fd_sc_hd__fah_1
+x3[115] A[115] B[115] CARRY[114] VSS VSS VCC VCC CARRY[115] S1[115] sky130_fd_sc_hd__fah_1
+x3[114] A[114] B[114] CARRY[113] VSS VSS VCC VCC CARRY[114] S1[114] sky130_fd_sc_hd__fah_1
+x3[113] A[113] B[113] CARRY[112] VSS VSS VCC VCC CARRY[113] S1[113] sky130_fd_sc_hd__fah_1
+x3[112] A[112] B[112] CARRY[111] VSS VSS VCC VCC CARRY[112] S1[112] sky130_fd_sc_hd__fah_1
+x3[111] A[111] B[111] CARRY[110] VSS VSS VCC VCC CARRY[111] S1[111] sky130_fd_sc_hd__fah_1
+x3[110] A[110] B[110] CARRY[109] VSS VSS VCC VCC CARRY[110] S1[110] sky130_fd_sc_hd__fah_1
+x3[109] A[109] B[109] CARRY[108] VSS VSS VCC VCC CARRY[109] S1[109] sky130_fd_sc_hd__fah_1
+x3[108] A[108] B[108] CARRY[107] VSS VSS VCC VCC CARRY[108] S1[108] sky130_fd_sc_hd__fah_1
+x3[107] A[107] B[107] CARRY[106] VSS VSS VCC VCC CARRY[107] S1[107] sky130_fd_sc_hd__fah_1
+x3[106] A[106] B[106] CARRY[105] VSS VSS VCC VCC CARRY[106] S1[106] sky130_fd_sc_hd__fah_1
+x3[105] A[105] B[105] CARRY[104] VSS VSS VCC VCC CARRY[105] S1[105] sky130_fd_sc_hd__fah_1
+x3[104] A[104] B[104] CARRY[103] VSS VSS VCC VCC CARRY[104] S1[104] sky130_fd_sc_hd__fah_1
+x3[103] A[103] B[103] CARRY[102] VSS VSS VCC VCC CARRY[103] S1[103] sky130_fd_sc_hd__fah_1
+x3[102] A[102] B[102] CARRY[101] VSS VSS VCC VCC CARRY[102] S1[102] sky130_fd_sc_hd__fah_1
+x3[101] A[101] B[101] CARRY[100] VSS VSS VCC VCC CARRY[101] S1[101] sky130_fd_sc_hd__fah_1
+x3[100] A[100] B[100] CARRY[99] VSS VSS VCC VCC CARRY[100] S1[100] sky130_fd_sc_hd__fah_1
+x3[99] A[99] B[99] CARRY[98] VSS VSS VCC VCC CARRY[99] S1[99] sky130_fd_sc_hd__fah_1
+x3[98] A[98] B[98] CARRY[97] VSS VSS VCC VCC CARRY[98] S1[98] sky130_fd_sc_hd__fah_1
+x3[97] A[97] B[97] CARRY[96] VSS VSS VCC VCC CARRY[97] S1[97] sky130_fd_sc_hd__fah_1
+x3[96] A[96] B[96] CARRY[95] VSS VSS VCC VCC CARRY[96] S1[96] sky130_fd_sc_hd__fah_1
+x3[95] A[95] B[95] CARRY[94] VSS VSS VCC VCC CARRY[95] S1[95] sky130_fd_sc_hd__fah_1
+x3[94] A[94] B[94] CARRY[93] VSS VSS VCC VCC CARRY[94] S1[94] sky130_fd_sc_hd__fah_1
+x3[93] A[93] B[93] CARRY[92] VSS VSS VCC VCC CARRY[93] S1[93] sky130_fd_sc_hd__fah_1
+x3[92] A[92] B[92] CARRY[91] VSS VSS VCC VCC CARRY[92] S1[92] sky130_fd_sc_hd__fah_1
+x3[91] A[91] B[91] CARRY[90] VSS VSS VCC VCC CARRY[91] S1[91] sky130_fd_sc_hd__fah_1
+x3[90] A[90] B[90] CARRY[89] VSS VSS VCC VCC CARRY[90] S1[90] sky130_fd_sc_hd__fah_1
+x3[89] A[89] B[89] CARRY[88] VSS VSS VCC VCC CARRY[89] S1[89] sky130_fd_sc_hd__fah_1
+x3[88] A[88] B[88] CARRY[87] VSS VSS VCC VCC CARRY[88] S1[88] sky130_fd_sc_hd__fah_1
+x3[87] A[87] B[87] CARRY[86] VSS VSS VCC VCC CARRY[87] S1[87] sky130_fd_sc_hd__fah_1
+x3[86] A[86] B[86] CARRY[85] VSS VSS VCC VCC CARRY[86] S1[86] sky130_fd_sc_hd__fah_1
+x3[85] A[85] B[85] CARRY[84] VSS VSS VCC VCC CARRY[85] S1[85] sky130_fd_sc_hd__fah_1
+x3[84] A[84] B[84] CARRY[83] VSS VSS VCC VCC CARRY[84] S1[84] sky130_fd_sc_hd__fah_1
+x3[83] A[83] B[83] CARRY[82] VSS VSS VCC VCC CARRY[83] S1[83] sky130_fd_sc_hd__fah_1
+x3[82] A[82] B[82] CARRY[81] VSS VSS VCC VCC CARRY[82] S1[82] sky130_fd_sc_hd__fah_1
+x3[81] A[81] B[81] CARRY[80] VSS VSS VCC VCC CARRY[81] S1[81] sky130_fd_sc_hd__fah_1
+x3[80] A[80] B[80] CARRY[79] VSS VSS VCC VCC CARRY[80] S1[80] sky130_fd_sc_hd__fah_1
+x3[79] A[79] B[79] CARRY[78] VSS VSS VCC VCC CARRY[79] S1[79] sky130_fd_sc_hd__fah_1
+x3[78] A[78] B[78] CARRY[77] VSS VSS VCC VCC CARRY[78] S1[78] sky130_fd_sc_hd__fah_1
+x3[77] A[77] B[77] CARRY[76] VSS VSS VCC VCC CARRY[77] S1[77] sky130_fd_sc_hd__fah_1
+x3[76] A[76] B[76] CARRY[75] VSS VSS VCC VCC CARRY[76] S1[76] sky130_fd_sc_hd__fah_1
+x3[75] A[75] B[75] CARRY[74] VSS VSS VCC VCC CARRY[75] S1[75] sky130_fd_sc_hd__fah_1
+x3[74] A[74] B[74] CARRY[73] VSS VSS VCC VCC CARRY[74] S1[74] sky130_fd_sc_hd__fah_1
+x3[73] A[73] B[73] CARRY[72] VSS VSS VCC VCC CARRY[73] S1[73] sky130_fd_sc_hd__fah_1
+x3[72] A[72] B[72] CARRY[71] VSS VSS VCC VCC CARRY[72] S1[72] sky130_fd_sc_hd__fah_1
+x3[71] A[71] B[71] CARRY[70] VSS VSS VCC VCC CARRY[71] S1[71] sky130_fd_sc_hd__fah_1
+x3[70] A[70] B[70] CARRY[69] VSS VSS VCC VCC CARRY[70] S1[70] sky130_fd_sc_hd__fah_1
+x3[69] A[69] B[69] CARRY[68] VSS VSS VCC VCC CARRY[69] S1[69] sky130_fd_sc_hd__fah_1
+x3[68] A[68] B[68] CARRY[67] VSS VSS VCC VCC CARRY[68] S1[68] sky130_fd_sc_hd__fah_1
+x3[67] A[67] B[67] CARRY[66] VSS VSS VCC VCC CARRY[67] S1[67] sky130_fd_sc_hd__fah_1
+x3[66] A[66] B[66] CARRY[65] VSS VSS VCC VCC CARRY[66] S1[66] sky130_fd_sc_hd__fah_1
+x3[65] A[65] B[65] CARRY[64] VSS VSS VCC VCC CARRY[65] S1[65] sky130_fd_sc_hd__fah_1
+x3[64] A[64] B[64] CARRY[63] VSS VSS VCC VCC CARRY[64] S1[64] sky130_fd_sc_hd__fah_1
+x3[63] A[63] B[63] CARRY[62] VSS VSS VCC VCC CARRY[63] S1[63] sky130_fd_sc_hd__fah_1
+x3[62] A[62] B[62] CARRY[61] VSS VSS VCC VCC CARRY[62] S1[62] sky130_fd_sc_hd__fah_1
+x3[61] A[61] B[61] CARRY[60] VSS VSS VCC VCC CARRY[61] S1[61] sky130_fd_sc_hd__fah_1
+x3[60] A[60] B[60] CARRY[59] VSS VSS VCC VCC CARRY[60] S1[60] sky130_fd_sc_hd__fah_1
+x3[59] A[59] B[59] CARRY[58] VSS VSS VCC VCC CARRY[59] S1[59] sky130_fd_sc_hd__fah_1
+x3[58] A[58] B[58] CARRY[57] VSS VSS VCC VCC CARRY[58] S1[58] sky130_fd_sc_hd__fah_1
+x3[57] A[57] B[57] CARRY[56] VSS VSS VCC VCC CARRY[57] S1[57] sky130_fd_sc_hd__fah_1
+x3[56] A[56] B[56] CARRY[55] VSS VSS VCC VCC CARRY[56] S1[56] sky130_fd_sc_hd__fah_1
+x3[55] A[55] B[55] CARRY[54] VSS VSS VCC VCC CARRY[55] S1[55] sky130_fd_sc_hd__fah_1
+x3[54] A[54] B[54] CARRY[53] VSS VSS VCC VCC CARRY[54] S1[54] sky130_fd_sc_hd__fah_1
+x3[53] A[53] B[53] CARRY[52] VSS VSS VCC VCC CARRY[53] S1[53] sky130_fd_sc_hd__fah_1
+x3[52] A[52] B[52] CARRY[51] VSS VSS VCC VCC CARRY[52] S1[52] sky130_fd_sc_hd__fah_1
+x3[51] A[51] B[51] CARRY[50] VSS VSS VCC VCC CARRY[51] S1[51] sky130_fd_sc_hd__fah_1
+x3[50] A[50] B[50] CARRY[49] VSS VSS VCC VCC CARRY[50] S1[50] sky130_fd_sc_hd__fah_1
+x3[49] A[49] B[49] CARRY[48] VSS VSS VCC VCC CARRY[49] S1[49] sky130_fd_sc_hd__fah_1
+x3[48] A[48] B[48] CARRY[47] VSS VSS VCC VCC CARRY[48] S1[48] sky130_fd_sc_hd__fah_1
+x3[47] A[47] B[47] CARRY[46] VSS VSS VCC VCC CARRY[47] S1[47] sky130_fd_sc_hd__fah_1
+x3[46] A[46] B[46] CARRY[45] VSS VSS VCC VCC CARRY[46] S1[46] sky130_fd_sc_hd__fah_1
+x3[45] A[45] B[45] CARRY[44] VSS VSS VCC VCC CARRY[45] S1[45] sky130_fd_sc_hd__fah_1
+x3[44] A[44] B[44] CARRY[43] VSS VSS VCC VCC CARRY[44] S1[44] sky130_fd_sc_hd__fah_1
+x3[43] A[43] B[43] CARRY[42] VSS VSS VCC VCC CARRY[43] S1[43] sky130_fd_sc_hd__fah_1
+x3[42] A[42] B[42] CARRY[41] VSS VSS VCC VCC CARRY[42] S1[42] sky130_fd_sc_hd__fah_1
+x3[41] A[41] B[41] CARRY[40] VSS VSS VCC VCC CARRY[41] S1[41] sky130_fd_sc_hd__fah_1
+x3[40] A[40] B[40] CARRY[39] VSS VSS VCC VCC CARRY[40] S1[40] sky130_fd_sc_hd__fah_1
+x3[39] A[39] B[39] CARRY[38] VSS VSS VCC VCC CARRY[39] S1[39] sky130_fd_sc_hd__fah_1
+x3[38] A[38] B[38] CARRY[37] VSS VSS VCC VCC CARRY[38] S1[38] sky130_fd_sc_hd__fah_1
+x3[37] A[37] B[37] CARRY[36] VSS VSS VCC VCC CARRY[37] S1[37] sky130_fd_sc_hd__fah_1
+x3[36] A[36] B[36] CARRY[35] VSS VSS VCC VCC CARRY[36] S1[36] sky130_fd_sc_hd__fah_1
+x3[35] A[35] B[35] CARRY[34] VSS VSS VCC VCC CARRY[35] S1[35] sky130_fd_sc_hd__fah_1
+x3[34] A[34] B[34] CARRY[33] VSS VSS VCC VCC CARRY[34] S1[34] sky130_fd_sc_hd__fah_1
+x3[33] A[33] B[33] CARRY[32] VSS VSS VCC VCC CARRY[33] S1[33] sky130_fd_sc_hd__fah_1
+x3[32] A[32] B[32] CARRY[31] VSS VSS VCC VCC CARRY[32] S1[32] sky130_fd_sc_hd__fah_1
+x3[31] A[31] B[31] CARRY[30] VSS VSS VCC VCC CARRY[31] S1[31] sky130_fd_sc_hd__fah_1
+x3[30] A[30] B[30] CARRY[29] VSS VSS VCC VCC CARRY[30] S1[30] sky130_fd_sc_hd__fah_1
+x3[29] A[29] B[29] CARRY[28] VSS VSS VCC VCC CARRY[29] S1[29] sky130_fd_sc_hd__fah_1
+x3[28] A[28] B[28] CARRY[27] VSS VSS VCC VCC CARRY[28] S1[28] sky130_fd_sc_hd__fah_1
+x3[27] A[27] B[27] CARRY[26] VSS VSS VCC VCC CARRY[27] S1[27] sky130_fd_sc_hd__fah_1
+x3[26] A[26] B[26] CARRY[25] VSS VSS VCC VCC CARRY[26] S1[26] sky130_fd_sc_hd__fah_1
+x3[25] A[25] B[25] CARRY[24] VSS VSS VCC VCC CARRY[25] S1[25] sky130_fd_sc_hd__fah_1
+x3[24] A[24] B[24] CARRY[23] VSS VSS VCC VCC CARRY[24] S1[24] sky130_fd_sc_hd__fah_1
+x3[23] A[23] B[23] CARRY[22] VSS VSS VCC VCC CARRY[23] S1[23] sky130_fd_sc_hd__fah_1
+x3[22] A[22] B[22] CARRY[21] VSS VSS VCC VCC CARRY[22] S1[22] sky130_fd_sc_hd__fah_1
+x3[21] A[21] B[21] CARRY[20] VSS VSS VCC VCC CARRY[21] S1[21] sky130_fd_sc_hd__fah_1
+x3[20] A[20] B[20] CARRY[19] VSS VSS VCC VCC CARRY[20] S1[20] sky130_fd_sc_hd__fah_1
+x3[19] A[19] B[19] CARRY[18] VSS VSS VCC VCC CARRY[19] S1[19] sky130_fd_sc_hd__fah_1
+x3[18] A[18] B[18] CARRY[17] VSS VSS VCC VCC CARRY[18] S1[18] sky130_fd_sc_hd__fah_1
+x3[17] A[17] B[17] CARRY[16] VSS VSS VCC VCC CARRY[17] S1[17] sky130_fd_sc_hd__fah_1
+x3[16] A[16] B[16] CARRY[15] VSS VSS VCC VCC CARRY[16] S1[16] sky130_fd_sc_hd__fah_1
+x3[15] A[15] B[15] CARRY[14] VSS VSS VCC VCC CARRY[15] S1[15] sky130_fd_sc_hd__fah_1
+x3[14] A[14] B[14] CARRY[13] VSS VSS VCC VCC CARRY[14] S1[14] sky130_fd_sc_hd__fah_1
+x3[13] A[13] B[13] CARRY[12] VSS VSS VCC VCC CARRY[13] S1[13] sky130_fd_sc_hd__fah_1
+x3[12] A[12] B[12] CARRY[11] VSS VSS VCC VCC CARRY[12] S1[12] sky130_fd_sc_hd__fah_1
+x3[11] A[11] B[11] CARRY[10] VSS VSS VCC VCC CARRY[11] S1[11] sky130_fd_sc_hd__fah_1
+x3[10] A[10] B[10] CARRY[9] VSS VSS VCC VCC CARRY[10] S1[10] sky130_fd_sc_hd__fah_1
+x3[9] A[9] B[9] CARRY[8] VSS VSS VCC VCC CARRY[9] S1[9] sky130_fd_sc_hd__fah_1
+x3[8] A[8] B[8] CARRY[7] VSS VSS VCC VCC CARRY[8] S1[8] sky130_fd_sc_hd__fah_1
+x3[7] A[7] B[7] CARRY[6] VSS VSS VCC VCC CARRY[7] S1[7] sky130_fd_sc_hd__fah_1
+x3[6] A[6] B[6] CARRY[5] VSS VSS VCC VCC CARRY[6] S1[6] sky130_fd_sc_hd__fah_1
+x3[5] A[5] B[5] CARRY[4] VSS VSS VCC VCC CARRY[5] S1[5] sky130_fd_sc_hd__fah_1
+x3[4] A[4] B[4] CARRY[3] VSS VSS VCC VCC CARRY[4] S1[4] sky130_fd_sc_hd__fah_1
+x3[3] A[3] B[3] CARRY[2] VSS VSS VCC VCC CARRY[3] S1[3] sky130_fd_sc_hd__fah_1
+x3[2] A[2] B[2] CARRY[1] VSS VSS VCC VCC CARRY[2] S1[2] sky130_fd_sc_hd__fah_1
+x3[1] A[1] B[1] CARRY[0] VSS VSS VCC VCC CARRY[1] S1[1] sky130_fd_sc_hd__fah_1
+x3[0] A[0] B[0] CIN VSS VSS VCC VCC CARRY[0] S1[0] sky130_fd_sc_hd__fah_1
+x1 A[255] A[254] A[253] A[252] A[251] A[250] A[249] A[248] A[247] A[246] A[245] A[244] A[243] A[242]
++ A[241] A[240] A[239] A[238] A[237] A[236] A[235] A[234] A[233] A[232] A[231] A[230] A[229] A[228] A[227]
++ A[226] A[225] A[224] A[223] A[222] A[221] A[220] A[219] A[218] A[217] A[216] A[215] A[214] A[213] A[212]
++ A[211] A[210] A[209] A[208] A[207] A[206] A[205] A[204] A[203] A[202] A[201] A[200] A[199] A[198] A[197]
++ A[196] A[195] A[194] A[193] A[192] A[191] A[190] A[189] A[188] A[187] A[186] A[185] A[184] A[183] A[182]
++ A[181] A[180] A[179] A[178] A[177] A[176] A[175] A[174] A[173] A[172] A[171] A[170] A[169] A[168] A[167]
++ A[166] A[165] A[164] A[163] A[162] A[161] A[160] A[159] A[158] A[157] A[156] A[155] A[154] A[153] A[152]
++ A[151] A[150] A[149] A[148] A[147] A[146] A[145] A[144] A[143] A[142] A[141] A[140] A[139] A[138] A[137]
++ A[136] A[135] A[134] A[133] A[132] A[131] A[130] A[129] A[128] A[127] A[126] A[125] A[124] A[123] A[122]
++ A[121] A[120] A[119] A[118] A[117] A[116] A[115] A[114] A[113] A[112] A[111] A[110] A[109] A[108] A[107]
++ A[106] A[105] A[104] A[103] A[102] A[101] A[100] A[99] A[98] A[97] A[96] A[95] A[94] A[93] A[92] A[91]
++ A[90] A[89] A[88] A[87] A[86] A[85] A[84] A[83] A[82] A[81] A[80] A[79] A[78] A[77] A[76] A[75] A[74]
++ A[73] A[72] A[71] A[70] A[69] A[68] A[67] A[66] A[65] A[64] A[63] A[62] A[61] A[60] A[59] A[58] A[57]
++ A[56] A[55] A[54] A[53] A[52] A[51] A[50] A[49] A[48] A[47] A[46] A[45] A[44] A[43] A[42] A[41] A[40]
++ A[39] A[38] A[37] A[36] A[35] A[34] A[33] A[32] A[31] A[30] A[29] A[28] A[27] A[26] A[25] A[24] A[23]
++ A[22] A[21] A[20] A[19] A[18] A[17] A[16] A[15] A[14] A[13] A[12] A[11] A[10] A[9] A[8] A[7] A[6] A[5]
++ A[4] A[3] A[2] A[1] A[0] S3[255] S3[254] S3[253] S3[252] S3[251] S3[250] S3[249] S3[248] S3[247] S3[246]
++ S3[245] S3[244] S3[243] S3[242] S3[241] S3[240] S3[239] S3[238] S3[237] S3[236] S3[235] S3[234] S3[233]
++ S3[232] S3[231] S3[230] S3[229] S3[228] S3[227] S3[226] S3[225] S3[224] S3[223] S3[222] S3[221] S3[220]
++ S3[219] S3[218] S3[217] S3[216] S3[215] S3[214] S3[213] S3[212] S3[211] S3[210] S3[209] S3[208] S3[207]
++ S3[206] S3[205] S3[204] S3[203] S3[202] S3[201] S3[200] S3[199] S3[198] S3[197] S3[196] S3[195] S3[194]
++ S3[193] S3[192] S3[191] S3[190] S3[189] S3[188] S3[187] S3[186] S3[185] S3[184] S3[183] S3[182] S3[181]
++ S3[180] S3[179] S3[178] S3[177] S3[176] S3[175] S3[174] S3[173] S3[172] S3[171] S3[170] S3[169] S3[168]
++ S3[167] S3[166] S3[165] S3[164] S3[163] S3[162] S3[161] S3[160] S3[159] S3[158] S3[157] S3[156] S3[155]
++ S3[154] S3[153] S3[152] S3[151] S3[150] S3[149] S3[148] S3[147] S3[146] S3[145] S3[144] S3[143] S3[142]
++ S3[141] S3[140] S3[139] S3[138] S3[137] S3[136] S3[135] S3[134] S3[133] S3[132] S3[131] S3[130] S3[129]
++ S3[128] S3[127] S3[126] S3[125] S3[124] S3[123] S3[122] S3[121] S3[120] S3[119] S3[118] S3[117] S3[116]
++ S3[115] S3[114] S3[113] S3[112] S3[111] S3[110] S3[109] S3[108] S3[107] S3[106] S3[105] S3[104] S3[103]
++ S3[102] S3[101] S3[100] S3[99] S3[98] S3[97] S3[96] S3[95] S3[94] S3[93] S3[92] S3[91] S3[90] S3[89] S3[88]
++ S3[87] S3[86] S3[85] S3[84] S3[83] S3[82] S3[81] S3[80] S3[79] S3[78] S3[77] S3[76] S3[75] S3[74] S3[73]
++ S3[72] S3[71] S3[70] S3[69] S3[68] S3[67] S3[66] S3[65] S3[64] S3[63] S3[62] S3[61] S3[60] S3[59] S3[58]
++ S3[57] S3[56] S3[55] S3[54] S3[53] S3[52] S3[51] S3[50] S3[49] S3[48] S3[47] S3[46] S3[45] S3[44] S3[43]
++ S3[42] S3[41] S3[40] S3[39] S3[38] S3[37] S3[36] S3[35] S3[34] S3[33] S3[32] S3[31] S3[30] S3[29] S3[28]
++ S3[27] S3[26] S3[25] S3[24] S3[23] S3[22] S3[21] S3[20] S3[19] S3[18] S3[17] S3[16] S3[15] S3[14] S3[13]
++ S3[12] S3[11] S3[10] S3[9] S3[8] S3[7] S3[6] S3[5] S3[4] S3[3] S3[2] S3[1] S3[0] B[255] B[254] B[253]
++ B[252] B[251] B[250] B[249] B[248] B[247] B[246] B[245] B[244] B[243] B[242] B[241] B[240] B[239] B[238]
++ B[237] B[236] B[235] B[234] B[233] B[232] B[231] B[230] B[229] B[228] B[227] B[226] B[225] B[224] B[223]
++ B[222] B[221] B[220] B[219] B[218] B[217] B[216] B[215] B[214] B[213] B[212] B[211] B[210] B[209] B[208]
++ B[207] B[206] B[205] B[204] B[203] B[202] B[201] B[200] B[199] B[198] B[197] B[196] B[195] B[194] B[193]
++ B[192] B[191] B[190] B[189] B[188] B[187] B[186] B[185] B[184] B[183] B[182] B[181] B[180] B[179] B[178]
++ B[177] B[176] B[175] B[174] B[173] B[172] B[171] B[170] B[169] B[168] B[167] B[166] B[165] B[164] B[163]
++ B[162] B[161] B[160] B[159] B[158] B[157] B[156] B[155] B[154] B[153] B[152] B[151] B[150] B[149] B[148]
++ B[147] B[146] B[145] B[144] B[143] B[142] B[141] B[140] B[139] B[138] B[137] B[136] B[135] B[134] B[133]
++ B[132] B[131] B[130] B[129] B[128] B[127] B[126] B[125] B[124] B[123] B[122] B[121] B[120] B[119] B[118]
++ B[117] B[116] B[115] B[114] B[113] B[112] B[111] B[110] B[109] B[108] B[107] B[106] B[105] B[104] B[103]
++ B[102] B[101] B[100] B[99] B[98] B[97] B[96] B[95] B[94] B[93] B[92] B[91] B[90] B[89] B[88] B[87] B[86]
++ B[85] B[84] B[83] B[82] B[81] B[80] B[79] B[78] B[77] B[76] B[75] B[74] B[73] B[72] B[71] B[70] B[69]
++ B[68] B[67] B[66] B[65] B[64] B[63] B[62] B[61] B[60] B[59] B[58] B[57] B[56] B[55] B[54] B[53] B[52]
++ B[51] B[50] B[49] B[48] B[47] B[46] B[45] B[44] B[43] B[42] B[41] B[40] B[39] B[38] B[37] B[36] B[35]
++ B[34] B[33] B[32] B[31] B[30] B[29] B[28] B[27] B[26] B[25] B[24] B[23] B[22] B[21] B[20] B[19] B[18]
++ B[17] B[16] B[15] B[14] B[13] B[12] B[11] B[10] B[9] B[8] B[7] B[6] B[5] B[4] B[3] B[2] B[1] B[0] COUT3
++ SG3 CIN SP3 adder_256bit
+.save  v(a[255])
+.save  v(a[254])
+.save  v(a[253])
+.save  v(a[252])
+.save  v(a[251])
+.save  v(a[250])
+.save  v(a[249])
+.save  v(a[248])
+.save  v(a[247])
+.save  v(a[246])
+.save  v(a[245])
+.save  v(a[244])
+.save  v(a[243])
+.save  v(a[242])
+.save  v(a[241])
+.save  v(a[240])
+.save  v(a[239])
+.save  v(a[238])
+.save  v(a[237])
+.save  v(a[236])
+.save  v(a[235])
+.save  v(a[234])
+.save  v(a[233])
+.save  v(a[232])
+.save  v(a[231])
+.save  v(a[230])
+.save  v(a[229])
+.save  v(a[228])
+.save  v(a[227])
+.save  v(a[226])
+.save  v(a[225])
+.save  v(a[224])
+.save  v(a[223])
+.save  v(a[222])
+.save  v(a[221])
+.save  v(a[220])
+.save  v(a[219])
+.save  v(a[218])
+.save  v(a[217])
+.save  v(a[216])
+.save  v(a[215])
+.save  v(a[214])
+.save  v(a[213])
+.save  v(a[212])
+.save  v(a[211])
+.save  v(a[210])
+.save  v(a[209])
+.save  v(a[208])
+.save  v(a[207])
+.save  v(a[206])
+.save  v(a[205])
+.save  v(a[204])
+.save  v(a[203])
+.save  v(a[202])
+.save  v(a[201])
+.save  v(a[200])
+.save  v(a[199])
+.save  v(a[198])
+.save  v(a[197])
+.save  v(a[196])
+.save  v(a[195])
+.save  v(a[194])
+.save  v(a[193])
+.save  v(a[192])
+.save  v(a[191])
+.save  v(a[190])
+.save  v(a[189])
+.save  v(a[188])
+.save  v(a[187])
+.save  v(a[186])
+.save  v(a[185])
+.save  v(a[184])
+.save  v(a[183])
+.save  v(a[182])
+.save  v(a[181])
+.save  v(a[180])
+.save  v(a[179])
+.save  v(a[178])
+.save  v(a[177])
+.save  v(a[176])
+.save  v(a[175])
+.save  v(a[174])
+.save  v(a[173])
+.save  v(a[172])
+.save  v(a[171])
+.save  v(a[170])
+.save  v(a[169])
+.save  v(a[168])
+.save  v(a[167])
+.save  v(a[166])
+.save  v(a[165])
+.save  v(a[164])
+.save  v(a[163])
+.save  v(a[162])
+.save  v(a[161])
+.save  v(a[160])
+.save  v(a[159])
+.save  v(a[158])
+.save  v(a[157])
+.save  v(a[156])
+.save  v(a[155])
+.save  v(a[154])
+.save  v(a[153])
+.save  v(a[152])
+.save  v(a[151])
+.save  v(a[150])
+.save  v(a[149])
+.save  v(a[148])
+.save  v(a[147])
+.save  v(a[146])
+.save  v(a[145])
+.save  v(a[144])
+.save  v(a[143])
+.save  v(a[142])
+.save  v(a[141])
+.save  v(a[140])
+.save  v(a[139])
+.save  v(a[138])
+.save  v(a[137])
+.save  v(a[136])
+.save  v(a[135])
+.save  v(a[134])
+.save  v(a[133])
+.save  v(a[132])
+.save  v(a[131])
+.save  v(a[130])
+.save  v(a[129])
+.save  v(a[128])
+.save  v(a[127])
+.save  v(a[126])
+.save  v(a[125])
+.save  v(a[124])
+.save  v(a[123])
+.save  v(a[122])
+.save  v(a[121])
+.save  v(a[120])
+.save  v(a[119])
+.save  v(a[118])
+.save  v(a[117])
+.save  v(a[116])
+.save  v(a[115])
+.save  v(a[114])
+.save  v(a[113])
+.save  v(a[112])
+.save  v(a[111])
+.save  v(a[110])
+.save  v(a[109])
+.save  v(a[108])
+.save  v(a[107])
+.save  v(a[106])
+.save  v(a[105])
+.save  v(a[104])
+.save  v(a[103])
+.save  v(a[102])
+.save  v(a[101])
+.save  v(a[100])
+.save  v(a[99])
+.save  v(a[98])
+.save  v(a[97])
+.save  v(a[96])
+.save  v(a[95])
+.save  v(a[94])
+.save  v(a[93])
+.save  v(a[92])
+.save  v(a[91])
+.save  v(a[90])
+.save  v(a[89])
+.save  v(a[88])
+.save  v(a[87])
+.save  v(a[86])
+.save  v(a[85])
+.save  v(a[84])
+.save  v(a[83])
+.save  v(a[82])
+.save  v(a[81])
+.save  v(a[80])
+.save  v(a[79])
+.save  v(a[78])
+.save  v(a[77])
+.save  v(a[76])
+.save  v(a[75])
+.save  v(a[74])
+.save  v(a[73])
+.save  v(a[72])
+.save  v(a[71])
+.save  v(a[70])
+.save  v(a[69])
+.save  v(a[68])
+.save  v(a[67])
+.save  v(a[66])
+.save  v(a[65])
+.save  v(a[64])
+.save  v(a[63])
+.save  v(a[62])
+.save  v(a[61])
+.save  v(a[60])
+.save  v(a[59])
+.save  v(a[58])
+.save  v(a[57])
+.save  v(a[56])
+.save  v(a[55])
+.save  v(a[54])
+.save  v(a[53])
+.save  v(a[52])
+.save  v(a[51])
+.save  v(a[50])
+.save  v(a[49])
+.save  v(a[48])
+.save  v(a[47])
+.save  v(a[46])
+.save  v(a[45])
+.save  v(a[44])
+.save  v(a[43])
+.save  v(a[42])
+.save  v(a[41])
+.save  v(a[40])
+.save  v(a[39])
+.save  v(a[38])
+.save  v(a[37])
+.save  v(a[36])
+.save  v(a[35])
+.save  v(a[34])
+.save  v(a[33])
+.save  v(a[32])
+.save  v(a[31])
+.save  v(a[30])
+.save  v(a[29])
+.save  v(a[28])
+.save  v(a[27])
+.save  v(a[26])
+.save  v(a[25])
+.save  v(a[24])
+.save  v(a[23])
+.save  v(a[22])
+.save  v(a[21])
+.save  v(a[20])
+.save  v(a[19])
+.save  v(a[18])
+.save  v(a[17])
+.save  v(a[16])
+.save  v(a[15])
+.save  v(a[14])
+.save  v(a[13])
+.save  v(a[12])
+.save  v(a[11])
+.save  v(a[10])
+.save  v(a[9])
+.save  v(a[8])
+.save  v(a[7])
+.save  v(a[6])
+.save  v(a[5])
+.save  v(a[4])
+.save  v(a[3])
+.save  v(a[2])
+.save  v(a[1])
+.save  v(a[0])
+.save  v(b[255])
+.save  v(b[254])
+.save  v(b[253])
+.save  v(b[252])
+.save  v(b[251])
+.save  v(b[250])
+.save  v(b[249])
+.save  v(b[248])
+.save  v(b[247])
+.save  v(b[246])
+.save  v(b[245])
+.save  v(b[244])
+.save  v(b[243])
+.save  v(b[242])
+.save  v(b[241])
+.save  v(b[240])
+.save  v(b[239])
+.save  v(b[238])
+.save  v(b[237])
+.save  v(b[236])
+.save  v(b[235])
+.save  v(b[234])
+.save  v(b[233])
+.save  v(b[232])
+.save  v(b[231])
+.save  v(b[230])
+.save  v(b[229])
+.save  v(b[228])
+.save  v(b[227])
+.save  v(b[226])
+.save  v(b[225])
+.save  v(b[224])
+.save  v(b[223])
+.save  v(b[222])
+.save  v(b[221])
+.save  v(b[220])
+.save  v(b[219])
+.save  v(b[218])
+.save  v(b[217])
+.save  v(b[216])
+.save  v(b[215])
+.save  v(b[214])
+.save  v(b[213])
+.save  v(b[212])
+.save  v(b[211])
+.save  v(b[210])
+.save  v(b[209])
+.save  v(b[208])
+.save  v(b[207])
+.save  v(b[206])
+.save  v(b[205])
+.save  v(b[204])
+.save  v(b[203])
+.save  v(b[202])
+.save  v(b[201])
+.save  v(b[200])
+.save  v(b[199])
+.save  v(b[198])
+.save  v(b[197])
+.save  v(b[196])
+.save  v(b[195])
+.save  v(b[194])
+.save  v(b[193])
+.save  v(b[192])
+.save  v(b[191])
+.save  v(b[190])
+.save  v(b[189])
+.save  v(b[188])
+.save  v(b[187])
+.save  v(b[186])
+.save  v(b[185])
+.save  v(b[184])
+.save  v(b[183])
+.save  v(b[182])
+.save  v(b[181])
+.save  v(b[180])
+.save  v(b[179])
+.save  v(b[178])
+.save  v(b[177])
+.save  v(b[176])
+.save  v(b[175])
+.save  v(b[174])
+.save  v(b[173])
+.save  v(b[172])
+.save  v(b[171])
+.save  v(b[170])
+.save  v(b[169])
+.save  v(b[168])
+.save  v(b[167])
+.save  v(b[166])
+.save  v(b[165])
+.save  v(b[164])
+.save  v(b[163])
+.save  v(b[162])
+.save  v(b[161])
+.save  v(b[160])
+.save  v(b[159])
+.save  v(b[158])
+.save  v(b[157])
+.save  v(b[156])
+.save  v(b[155])
+.save  v(b[154])
+.save  v(b[153])
+.save  v(b[152])
+.save  v(b[151])
+.save  v(b[150])
+.save  v(b[149])
+.save  v(b[148])
+.save  v(b[147])
+.save  v(b[146])
+.save  v(b[145])
+.save  v(b[144])
+.save  v(b[143])
+.save  v(b[142])
+.save  v(b[141])
+.save  v(b[140])
+.save  v(b[139])
+.save  v(b[138])
+.save  v(b[137])
+.save  v(b[136])
+.save  v(b[135])
+.save  v(b[134])
+.save  v(b[133])
+.save  v(b[132])
+.save  v(b[131])
+.save  v(b[130])
+.save  v(b[129])
+.save  v(b[128])
+.save  v(b[127])
+.save  v(b[126])
+.save  v(b[125])
+.save  v(b[124])
+.save  v(b[123])
+.save  v(b[122])
+.save  v(b[121])
+.save  v(b[120])
+.save  v(b[119])
+.save  v(b[118])
+.save  v(b[117])
+.save  v(b[116])
+.save  v(b[115])
+.save  v(b[114])
+.save  v(b[113])
+.save  v(b[112])
+.save  v(b[111])
+.save  v(b[110])
+.save  v(b[109])
+.save  v(b[108])
+.save  v(b[107])
+.save  v(b[106])
+.save  v(b[105])
+.save  v(b[104])
+.save  v(b[103])
+.save  v(b[102])
+.save  v(b[101])
+.save  v(b[100])
+.save  v(b[99])
+.save  v(b[98])
+.save  v(b[97])
+.save  v(b[96])
+.save  v(b[95])
+.save  v(b[94])
+.save  v(b[93])
+.save  v(b[92])
+.save  v(b[91])
+.save  v(b[90])
+.save  v(b[89])
+.save  v(b[88])
+.save  v(b[87])
+.save  v(b[86])
+.save  v(b[85])
+.save  v(b[84])
+.save  v(b[83])
+.save  v(b[82])
+.save  v(b[81])
+.save  v(b[80])
+.save  v(b[79])
+.save  v(b[78])
+.save  v(b[77])
+.save  v(b[76])
+.save  v(b[75])
+.save  v(b[74])
+.save  v(b[73])
+.save  v(b[72])
+.save  v(b[71])
+.save  v(b[70])
+.save  v(b[69])
+.save  v(b[68])
+.save  v(b[67])
+.save  v(b[66])
+.save  v(b[65])
+.save  v(b[64])
+.save  v(b[63])
+.save  v(b[62])
+.save  v(b[61])
+.save  v(b[60])
+.save  v(b[59])
+.save  v(b[58])
+.save  v(b[57])
+.save  v(b[56])
+.save  v(b[55])
+.save  v(b[54])
+.save  v(b[53])
+.save  v(b[52])
+.save  v(b[51])
+.save  v(b[50])
+.save  v(b[49])
+.save  v(b[48])
+.save  v(b[47])
+.save  v(b[46])
+.save  v(b[45])
+.save  v(b[44])
+.save  v(b[43])
+.save  v(b[42])
+.save  v(b[41])
+.save  v(b[40])
+.save  v(b[39])
+.save  v(b[38])
+.save  v(b[37])
+.save  v(b[36])
+.save  v(b[35])
+.save  v(b[34])
+.save  v(b[33])
+.save  v(b[32])
+.save  v(b[31])
+.save  v(b[30])
+.save  v(b[29])
+.save  v(b[28])
+.save  v(b[27])
+.save  v(b[26])
+.save  v(b[25])
+.save  v(b[24])
+.save  v(b[23])
+.save  v(b[22])
+.save  v(b[21])
+.save  v(b[20])
+.save  v(b[19])
+.save  v(b[18])
+.save  v(b[17])
+.save  v(b[16])
+.save  v(b[15])
+.save  v(b[14])
+.save  v(b[13])
+.save  v(b[12])
+.save  v(b[11])
+.save  v(b[10])
+.save  v(b[9])
+.save  v(b[8])
+.save  v(b[7])
+.save  v(b[6])
+.save  v(b[5])
+.save  v(b[4])
+.save  v(b[3])
+.save  v(b[2])
+.save  v(b[1])
+.save  v(b[0])
+.save  v(cin)
+.save  v(s3[255])
+.save  v(s3[254])
+.save  v(s3[253])
+.save  v(s3[252])
+.save  v(s3[251])
+.save  v(s3[250])
+.save  v(s3[249])
+.save  v(s3[248])
+.save  v(s3[247])
+.save  v(s3[246])
+.save  v(s3[245])
+.save  v(s3[244])
+.save  v(s3[243])
+.save  v(s3[242])
+.save  v(s3[241])
+.save  v(s3[240])
+.save  v(s3[239])
+.save  v(s3[238])
+.save  v(s3[237])
+.save  v(s3[236])
+.save  v(s3[235])
+.save  v(s3[234])
+.save  v(s3[233])
+.save  v(s3[232])
+.save  v(s3[231])
+.save  v(s3[230])
+.save  v(s3[229])
+.save  v(s3[228])
+.save  v(s3[227])
+.save  v(s3[226])
+.save  v(s3[225])
+.save  v(s3[224])
+.save  v(s3[223])
+.save  v(s3[222])
+.save  v(s3[221])
+.save  v(s3[220])
+.save  v(s3[219])
+.save  v(s3[218])
+.save  v(s3[217])
+.save  v(s3[216])
+.save  v(s3[215])
+.save  v(s3[214])
+.save  v(s3[213])
+.save  v(s3[212])
+.save  v(s3[211])
+.save  v(s3[210])
+.save  v(s3[209])
+.save  v(s3[208])
+.save  v(s3[207])
+.save  v(s3[206])
+.save  v(s3[205])
+.save  v(s3[204])
+.save  v(s3[203])
+.save  v(s3[202])
+.save  v(s3[201])
+.save  v(s3[200])
+.save  v(s3[199])
+.save  v(s3[198])
+.save  v(s3[197])
+.save  v(s3[196])
+.save  v(s3[195])
+.save  v(s3[194])
+.save  v(s3[193])
+.save  v(s3[192])
+.save  v(s3[191])
+.save  v(s3[190])
+.save  v(s3[189])
+.save  v(s3[188])
+.save  v(s3[187])
+.save  v(s3[186])
+.save  v(s3[185])
+.save  v(s3[184])
+.save  v(s3[183])
+.save  v(s3[182])
+.save  v(s3[181])
+.save  v(s3[180])
+.save  v(s3[179])
+.save  v(s3[178])
+.save  v(s3[177])
+.save  v(s3[176])
+.save  v(s3[175])
+.save  v(s3[174])
+.save  v(s3[173])
+.save  v(s3[172])
+.save  v(s3[171])
+.save  v(s3[170])
+.save  v(s3[169])
+.save  v(s3[168])
+.save  v(s3[167])
+.save  v(s3[166])
+.save  v(s3[165])
+.save  v(s3[164])
+.save  v(s3[163])
+.save  v(s3[162])
+.save  v(s3[161])
+.save  v(s3[160])
+.save  v(s3[159])
+.save  v(s3[158])
+.save  v(s3[157])
+.save  v(s3[156])
+.save  v(s3[155])
+.save  v(s3[154])
+.save  v(s3[153])
+.save  v(s3[152])
+.save  v(s3[151])
+.save  v(s3[150])
+.save  v(s3[149])
+.save  v(s3[148])
+.save  v(s3[147])
+.save  v(s3[146])
+.save  v(s3[145])
+.save  v(s3[144])
+.save  v(s3[143])
+.save  v(s3[142])
+.save  v(s3[141])
+.save  v(s3[140])
+.save  v(s3[139])
+.save  v(s3[138])
+.save  v(s3[137])
+.save  v(s3[136])
+.save  v(s3[135])
+.save  v(s3[134])
+.save  v(s3[133])
+.save  v(s3[132])
+.save  v(s3[131])
+.save  v(s3[130])
+.save  v(s3[129])
+.save  v(s3[128])
+.save  v(s3[127])
+.save  v(s3[126])
+.save  v(s3[125])
+.save  v(s3[124])
+.save  v(s3[123])
+.save  v(s3[122])
+.save  v(s3[121])
+.save  v(s3[120])
+.save  v(s3[119])
+.save  v(s3[118])
+.save  v(s3[117])
+.save  v(s3[116])
+.save  v(s3[115])
+.save  v(s3[114])
+.save  v(s3[113])
+.save  v(s3[112])
+.save  v(s3[111])
+.save  v(s3[110])
+.save  v(s3[109])
+.save  v(s3[108])
+.save  v(s3[107])
+.save  v(s3[106])
+.save  v(s3[105])
+.save  v(s3[104])
+.save  v(s3[103])
+.save  v(s3[102])
+.save  v(s3[101])
+.save  v(s3[100])
+.save  v(s3[99])
+.save  v(s3[98])
+.save  v(s3[97])
+.save  v(s3[96])
+.save  v(s3[95])
+.save  v(s3[94])
+.save  v(s3[93])
+.save  v(s3[92])
+.save  v(s3[91])
+.save  v(s3[90])
+.save  v(s3[89])
+.save  v(s3[88])
+.save  v(s3[87])
+.save  v(s3[86])
+.save  v(s3[85])
+.save  v(s3[84])
+.save  v(s3[83])
+.save  v(s3[82])
+.save  v(s3[81])
+.save  v(s3[80])
+.save  v(s3[79])
+.save  v(s3[78])
+.save  v(s3[77])
+.save  v(s3[76])
+.save  v(s3[75])
+.save  v(s3[74])
+.save  v(s3[73])
+.save  v(s3[72])
+.save  v(s3[71])
+.save  v(s3[70])
+.save  v(s3[69])
+.save  v(s3[68])
+.save  v(s3[67])
+.save  v(s3[66])
+.save  v(s3[65])
+.save  v(s3[64])
+.save  v(s3[63])
+.save  v(s3[62])
+.save  v(s3[61])
+.save  v(s3[60])
+.save  v(s3[59])
+.save  v(s3[58])
+.save  v(s3[57])
+.save  v(s3[56])
+.save  v(s3[55])
+.save  v(s3[54])
+.save  v(s3[53])
+.save  v(s3[52])
+.save  v(s3[51])
+.save  v(s3[50])
+.save  v(s3[49])
+.save  v(s3[48])
+.save  v(s3[47])
+.save  v(s3[46])
+.save  v(s3[45])
+.save  v(s3[44])
+.save  v(s3[43])
+.save  v(s3[42])
+.save  v(s3[41])
+.save  v(s3[40])
+.save  v(s3[39])
+.save  v(s3[38])
+.save  v(s3[37])
+.save  v(s3[36])
+.save  v(s3[35])
+.save  v(s3[34])
+.save  v(s3[33])
+.save  v(s3[32])
+.save  v(s3[31])
+.save  v(s3[30])
+.save  v(s3[29])
+.save  v(s3[28])
+.save  v(s3[27])
+.save  v(s3[26])
+.save  v(s3[25])
+.save  v(s3[24])
+.save  v(s3[23])
+.save  v(s3[22])
+.save  v(s3[21])
+.save  v(s3[20])
+.save  v(s3[19])
+.save  v(s3[18])
+.save  v(s3[17])
+.save  v(s3[16])
+.save  v(s3[15])
+.save  v(s3[14])
+.save  v(s3[13])
+.save  v(s3[12])
+.save  v(s3[11])
+.save  v(s3[10])
+.save  v(s3[9])
+.save  v(s3[8])
+.save  v(s3[7])
+.save  v(s3[6])
+.save  v(s3[5])
+.save  v(s3[4])
+.save  v(s3[3])
+.save  v(s3[2])
+.save  v(s3[1])
+.save  v(s3[0])
+.save  v(cout3)
+.save  v(carry[255])
+.save  v(carry[254])
+.save  v(carry[253])
+.save  v(carry[252])
+.save  v(carry[251])
+.save  v(carry[250])
+.save  v(carry[249])
+.save  v(carry[248])
+.save  v(carry[247])
+.save  v(carry[246])
+.save  v(carry[245])
+.save  v(carry[244])
+.save  v(carry[243])
+.save  v(carry[242])
+.save  v(carry[241])
+.save  v(carry[240])
+.save  v(carry[239])
+.save  v(carry[238])
+.save  v(carry[237])
+.save  v(carry[236])
+.save  v(carry[235])
+.save  v(carry[234])
+.save  v(carry[233])
+.save  v(carry[232])
+.save  v(carry[231])
+.save  v(carry[230])
+.save  v(carry[229])
+.save  v(carry[228])
+.save  v(carry[227])
+.save  v(carry[226])
+.save  v(carry[225])
+.save  v(carry[224])
+.save  v(carry[223])
+.save  v(carry[222])
+.save  v(carry[221])
+.save  v(carry[220])
+.save  v(carry[219])
+.save  v(carry[218])
+.save  v(carry[217])
+.save  v(carry[216])
+.save  v(carry[215])
+.save  v(carry[214])
+.save  v(carry[213])
+.save  v(carry[212])
+.save  v(carry[211])
+.save  v(carry[210])
+.save  v(carry[209])
+.save  v(carry[208])
+.save  v(carry[207])
+.save  v(carry[206])
+.save  v(carry[205])
+.save  v(carry[204])
+.save  v(carry[203])
+.save  v(carry[202])
+.save  v(carry[201])
+.save  v(carry[200])
+.save  v(carry[199])
+.save  v(carry[198])
+.save  v(carry[197])
+.save  v(carry[196])
+.save  v(carry[195])
+.save  v(carry[194])
+.save  v(carry[193])
+.save  v(carry[192])
+.save  v(carry[191])
+.save  v(carry[190])
+.save  v(carry[189])
+.save  v(carry[188])
+.save  v(carry[187])
+.save  v(carry[186])
+.save  v(carry[185])
+.save  v(carry[184])
+.save  v(carry[183])
+.save  v(carry[182])
+.save  v(carry[181])
+.save  v(carry[180])
+.save  v(carry[179])
+.save  v(carry[178])
+.save  v(carry[177])
+.save  v(carry[176])
+.save  v(carry[175])
+.save  v(carry[174])
+.save  v(carry[173])
+.save  v(carry[172])
+.save  v(carry[171])
+.save  v(carry[170])
+.save  v(carry[169])
+.save  v(carry[168])
+.save  v(carry[167])
+.save  v(carry[166])
+.save  v(carry[165])
+.save  v(carry[164])
+.save  v(carry[163])
+.save  v(carry[162])
+.save  v(carry[161])
+.save  v(carry[160])
+.save  v(carry[159])
+.save  v(carry[158])
+.save  v(carry[157])
+.save  v(carry[156])
+.save  v(carry[155])
+.save  v(carry[154])
+.save  v(carry[153])
+.save  v(carry[152])
+.save  v(carry[151])
+.save  v(carry[150])
+.save  v(carry[149])
+.save  v(carry[148])
+.save  v(carry[147])
+.save  v(carry[146])
+.save  v(carry[145])
+.save  v(carry[144])
+.save  v(carry[143])
+.save  v(carry[142])
+.save  v(carry[141])
+.save  v(carry[140])
+.save  v(carry[139])
+.save  v(carry[138])
+.save  v(carry[137])
+.save  v(carry[136])
+.save  v(carry[135])
+.save  v(carry[134])
+.save  v(carry[133])
+.save  v(carry[132])
+.save  v(carry[131])
+.save  v(carry[130])
+.save  v(carry[129])
+.save  v(carry[128])
+.save  v(carry[127])
+.save  v(carry[126])
+.save  v(carry[125])
+.save  v(carry[124])
+.save  v(carry[123])
+.save  v(carry[122])
+.save  v(carry[121])
+.save  v(carry[120])
+.save  v(carry[119])
+.save  v(carry[118])
+.save  v(carry[117])
+.save  v(carry[116])
+.save  v(carry[115])
+.save  v(carry[114])
+.save  v(carry[113])
+.save  v(carry[112])
+.save  v(carry[111])
+.save  v(carry[110])
+.save  v(carry[109])
+.save  v(carry[108])
+.save  v(carry[107])
+.save  v(carry[106])
+.save  v(carry[105])
+.save  v(carry[104])
+.save  v(carry[103])
+.save  v(carry[102])
+.save  v(carry[101])
+.save  v(carry[100])
+.save  v(carry[99])
+.save  v(carry[98])
+.save  v(carry[97])
+.save  v(carry[96])
+.save  v(carry[95])
+.save  v(carry[94])
+.save  v(carry[93])
+.save  v(carry[92])
+.save  v(carry[91])
+.save  v(carry[90])
+.save  v(carry[89])
+.save  v(carry[88])
+.save  v(carry[87])
+.save  v(carry[86])
+.save  v(carry[85])
+.save  v(carry[84])
+.save  v(carry[83])
+.save  v(carry[82])
+.save  v(carry[81])
+.save  v(carry[80])
+.save  v(carry[79])
+.save  v(carry[78])
+.save  v(carry[77])
+.save  v(carry[76])
+.save  v(carry[75])
+.save  v(carry[74])
+.save  v(carry[73])
+.save  v(carry[72])
+.save  v(carry[71])
+.save  v(carry[70])
+.save  v(carry[69])
+.save  v(carry[68])
+.save  v(carry[67])
+.save  v(carry[66])
+.save  v(carry[65])
+.save  v(carry[64])
+.save  v(carry[63])
+.save  v(carry[62])
+.save  v(carry[61])
+.save  v(carry[60])
+.save  v(carry[59])
+.save  v(carry[58])
+.save  v(carry[57])
+.save  v(carry[56])
+.save  v(carry[55])
+.save  v(carry[54])
+.save  v(carry[53])
+.save  v(carry[52])
+.save  v(carry[51])
+.save  v(carry[50])
+.save  v(carry[49])
+.save  v(carry[48])
+.save  v(carry[47])
+.save  v(carry[46])
+.save  v(carry[45])
+.save  v(carry[44])
+.save  v(carry[43])
+.save  v(carry[42])
+.save  v(carry[41])
+.save  v(carry[40])
+.save  v(carry[39])
+.save  v(carry[38])
+.save  v(carry[37])
+.save  v(carry[36])
+.save  v(carry[35])
+.save  v(carry[34])
+.save  v(carry[33])
+.save  v(carry[32])
+.save  v(carry[31])
+.save  v(carry[30])
+.save  v(carry[29])
+.save  v(carry[28])
+.save  v(carry[27])
+.save  v(carry[26])
+.save  v(carry[25])
+.save  v(carry[24])
+.save  v(carry[23])
+.save  v(carry[22])
+.save  v(carry[21])
+.save  v(carry[20])
+.save  v(carry[19])
+.save  v(carry[18])
+.save  v(carry[17])
+.save  v(carry[16])
+.save  v(carry[15])
+.save  v(carry[14])
+.save  v(carry[13])
+.save  v(carry[12])
+.save  v(carry[11])
+.save  v(carry[10])
+.save  v(carry[9])
+.save  v(carry[8])
+.save  v(carry[7])
+.save  v(carry[6])
+.save  v(carry[5])
+.save  v(carry[4])
+.save  v(carry[3])
+.save  v(carry[2])
+.save  v(carry[1])
+.save  v(carry[0])
+.save  v(s1[255])
+.save  v(s1[254])
+.save  v(s1[253])
+.save  v(s1[252])
+.save  v(s1[251])
+.save  v(s1[250])
+.save  v(s1[249])
+.save  v(s1[248])
+.save  v(s1[247])
+.save  v(s1[246])
+.save  v(s1[245])
+.save  v(s1[244])
+.save  v(s1[243])
+.save  v(s1[242])
+.save  v(s1[241])
+.save  v(s1[240])
+.save  v(s1[239])
+.save  v(s1[238])
+.save  v(s1[237])
+.save  v(s1[236])
+.save  v(s1[235])
+.save  v(s1[234])
+.save  v(s1[233])
+.save  v(s1[232])
+.save  v(s1[231])
+.save  v(s1[230])
+.save  v(s1[229])
+.save  v(s1[228])
+.save  v(s1[227])
+.save  v(s1[226])
+.save  v(s1[225])
+.save  v(s1[224])
+.save  v(s1[223])
+.save  v(s1[222])
+.save  v(s1[221])
+.save  v(s1[220])
+.save  v(s1[219])
+.save  v(s1[218])
+.save  v(s1[217])
+.save  v(s1[216])
+.save  v(s1[215])
+.save  v(s1[214])
+.save  v(s1[213])
+.save  v(s1[212])
+.save  v(s1[211])
+.save  v(s1[210])
+.save  v(s1[209])
+.save  v(s1[208])
+.save  v(s1[207])
+.save  v(s1[206])
+.save  v(s1[205])
+.save  v(s1[204])
+.save  v(s1[203])
+.save  v(s1[202])
+.save  v(s1[201])
+.save  v(s1[200])
+.save  v(s1[199])
+.save  v(s1[198])
+.save  v(s1[197])
+.save  v(s1[196])
+.save  v(s1[195])
+.save  v(s1[194])
+.save  v(s1[193])
+.save  v(s1[192])
+.save  v(s1[191])
+.save  v(s1[190])
+.save  v(s1[189])
+.save  v(s1[188])
+.save  v(s1[187])
+.save  v(s1[186])
+.save  v(s1[185])
+.save  v(s1[184])
+.save  v(s1[183])
+.save  v(s1[182])
+.save  v(s1[181])
+.save  v(s1[180])
+.save  v(s1[179])
+.save  v(s1[178])
+.save  v(s1[177])
+.save  v(s1[176])
+.save  v(s1[175])
+.save  v(s1[174])
+.save  v(s1[173])
+.save  v(s1[172])
+.save  v(s1[171])
+.save  v(s1[170])
+.save  v(s1[169])
+.save  v(s1[168])
+.save  v(s1[167])
+.save  v(s1[166])
+.save  v(s1[165])
+.save  v(s1[164])
+.save  v(s1[163])
+.save  v(s1[162])
+.save  v(s1[161])
+.save  v(s1[160])
+.save  v(s1[159])
+.save  v(s1[158])
+.save  v(s1[157])
+.save  v(s1[156])
+.save  v(s1[155])
+.save  v(s1[154])
+.save  v(s1[153])
+.save  v(s1[152])
+.save  v(s1[151])
+.save  v(s1[150])
+.save  v(s1[149])
+.save  v(s1[148])
+.save  v(s1[147])
+.save  v(s1[146])
+.save  v(s1[145])
+.save  v(s1[144])
+.save  v(s1[143])
+.save  v(s1[142])
+.save  v(s1[141])
+.save  v(s1[140])
+.save  v(s1[139])
+.save  v(s1[138])
+.save  v(s1[137])
+.save  v(s1[136])
+.save  v(s1[135])
+.save  v(s1[134])
+.save  v(s1[133])
+.save  v(s1[132])
+.save  v(s1[131])
+.save  v(s1[130])
+.save  v(s1[129])
+.save  v(s1[128])
+.save  v(s1[127])
+.save  v(s1[126])
+.save  v(s1[125])
+.save  v(s1[124])
+.save  v(s1[123])
+.save  v(s1[122])
+.save  v(s1[121])
+.save  v(s1[120])
+.save  v(s1[119])
+.save  v(s1[118])
+.save  v(s1[117])
+.save  v(s1[116])
+.save  v(s1[115])
+.save  v(s1[114])
+.save  v(s1[113])
+.save  v(s1[112])
+.save  v(s1[111])
+.save  v(s1[110])
+.save  v(s1[109])
+.save  v(s1[108])
+.save  v(s1[107])
+.save  v(s1[106])
+.save  v(s1[105])
+.save  v(s1[104])
+.save  v(s1[103])
+.save  v(s1[102])
+.save  v(s1[101])
+.save  v(s1[100])
+.save  v(s1[99])
+.save  v(s1[98])
+.save  v(s1[97])
+.save  v(s1[96])
+.save  v(s1[95])
+.save  v(s1[94])
+.save  v(s1[93])
+.save  v(s1[92])
+.save  v(s1[91])
+.save  v(s1[90])
+.save  v(s1[89])
+.save  v(s1[88])
+.save  v(s1[87])
+.save  v(s1[86])
+.save  v(s1[85])
+.save  v(s1[84])
+.save  v(s1[83])
+.save  v(s1[82])
+.save  v(s1[81])
+.save  v(s1[80])
+.save  v(s1[79])
+.save  v(s1[78])
+.save  v(s1[77])
+.save  v(s1[76])
+.save  v(s1[75])
+.save  v(s1[74])
+.save  v(s1[73])
+.save  v(s1[72])
+.save  v(s1[71])
+.save  v(s1[70])
+.save  v(s1[69])
+.save  v(s1[68])
+.save  v(s1[67])
+.save  v(s1[66])
+.save  v(s1[65])
+.save  v(s1[64])
+.save  v(s1[63])
+.save  v(s1[62])
+.save  v(s1[61])
+.save  v(s1[60])
+.save  v(s1[59])
+.save  v(s1[58])
+.save  v(s1[57])
+.save  v(s1[56])
+.save  v(s1[55])
+.save  v(s1[54])
+.save  v(s1[53])
+.save  v(s1[52])
+.save  v(s1[51])
+.save  v(s1[50])
+.save  v(s1[49])
+.save  v(s1[48])
+.save  v(s1[47])
+.save  v(s1[46])
+.save  v(s1[45])
+.save  v(s1[44])
+.save  v(s1[43])
+.save  v(s1[42])
+.save  v(s1[41])
+.save  v(s1[40])
+.save  v(s1[39])
+.save  v(s1[38])
+.save  v(s1[37])
+.save  v(s1[36])
+.save  v(s1[35])
+.save  v(s1[34])
+.save  v(s1[33])
+.save  v(s1[32])
+.save  v(s1[31])
+.save  v(s1[30])
+.save  v(s1[29])
+.save  v(s1[28])
+.save  v(s1[27])
+.save  v(s1[26])
+.save  v(s1[25])
+.save  v(s1[24])
+.save  v(s1[23])
+.save  v(s1[22])
+.save  v(s1[21])
+.save  v(s1[20])
+.save  v(s1[19])
+.save  v(s1[18])
+.save  v(s1[17])
+.save  v(s1[16])
+.save  v(s1[15])
+.save  v(s1[14])
+.save  v(s1[13])
+.save  v(s1[12])
+.save  v(s1[11])
+.save  v(s1[10])
+.save  v(s1[9])
+.save  v(s1[8])
+.save  v(s1[7])
+.save  v(s1[6])
+.save  v(s1[5])
+.save  v(s1[4])
+.save  v(s1[3])
+.save  v(s1[2])
+.save  v(s1[1])
+.save  v(s1[0])
+.save  v(vcc)
+C14[255] S1[255] 0 5f m=1
+C14[254] S1[254] 0 5f m=1
+C14[253] S1[253] 0 5f m=1
+C14[252] S1[252] 0 5f m=1
+C14[251] S1[251] 0 5f m=1
+C14[250] S1[250] 0 5f m=1
+C14[249] S1[249] 0 5f m=1
+C14[248] S1[248] 0 5f m=1
+C14[247] S1[247] 0 5f m=1
+C14[246] S1[246] 0 5f m=1
+C14[245] S1[245] 0 5f m=1
+C14[244] S1[244] 0 5f m=1
+C14[243] S1[243] 0 5f m=1
+C14[242] S1[242] 0 5f m=1
+C14[241] S1[241] 0 5f m=1
+C14[240] S1[240] 0 5f m=1
+C14[239] S1[239] 0 5f m=1
+C14[238] S1[238] 0 5f m=1
+C14[237] S1[237] 0 5f m=1
+C14[236] S1[236] 0 5f m=1
+C14[235] S1[235] 0 5f m=1
+C14[234] S1[234] 0 5f m=1
+C14[233] S1[233] 0 5f m=1
+C14[232] S1[232] 0 5f m=1
+C14[231] S1[231] 0 5f m=1
+C14[230] S1[230] 0 5f m=1
+C14[229] S1[229] 0 5f m=1
+C14[228] S1[228] 0 5f m=1
+C14[227] S1[227] 0 5f m=1
+C14[226] S1[226] 0 5f m=1
+C14[225] S1[225] 0 5f m=1
+C14[224] S1[224] 0 5f m=1
+C14[223] S1[223] 0 5f m=1
+C14[222] S1[222] 0 5f m=1
+C14[221] S1[221] 0 5f m=1
+C14[220] S1[220] 0 5f m=1
+C14[219] S1[219] 0 5f m=1
+C14[218] S1[218] 0 5f m=1
+C14[217] S1[217] 0 5f m=1
+C14[216] S1[216] 0 5f m=1
+C14[215] S1[215] 0 5f m=1
+C14[214] S1[214] 0 5f m=1
+C14[213] S1[213] 0 5f m=1
+C14[212] S1[212] 0 5f m=1
+C14[211] S1[211] 0 5f m=1
+C14[210] S1[210] 0 5f m=1
+C14[209] S1[209] 0 5f m=1
+C14[208] S1[208] 0 5f m=1
+C14[207] S1[207] 0 5f m=1
+C14[206] S1[206] 0 5f m=1
+C14[205] S1[205] 0 5f m=1
+C14[204] S1[204] 0 5f m=1
+C14[203] S1[203] 0 5f m=1
+C14[202] S1[202] 0 5f m=1
+C14[201] S1[201] 0 5f m=1
+C14[200] S1[200] 0 5f m=1
+C14[199] S1[199] 0 5f m=1
+C14[198] S1[198] 0 5f m=1
+C14[197] S1[197] 0 5f m=1
+C14[196] S1[196] 0 5f m=1
+C14[195] S1[195] 0 5f m=1
+C14[194] S1[194] 0 5f m=1
+C14[193] S1[193] 0 5f m=1
+C14[192] S1[192] 0 5f m=1
+C14[191] S1[191] 0 5f m=1
+C14[190] S1[190] 0 5f m=1
+C14[189] S1[189] 0 5f m=1
+C14[188] S1[188] 0 5f m=1
+C14[187] S1[187] 0 5f m=1
+C14[186] S1[186] 0 5f m=1
+C14[185] S1[185] 0 5f m=1
+C14[184] S1[184] 0 5f m=1
+C14[183] S1[183] 0 5f m=1
+C14[182] S1[182] 0 5f m=1
+C14[181] S1[181] 0 5f m=1
+C14[180] S1[180] 0 5f m=1
+C14[179] S1[179] 0 5f m=1
+C14[178] S1[178] 0 5f m=1
+C14[177] S1[177] 0 5f m=1
+C14[176] S1[176] 0 5f m=1
+C14[175] S1[175] 0 5f m=1
+C14[174] S1[174] 0 5f m=1
+C14[173] S1[173] 0 5f m=1
+C14[172] S1[172] 0 5f m=1
+C14[171] S1[171] 0 5f m=1
+C14[170] S1[170] 0 5f m=1
+C14[169] S1[169] 0 5f m=1
+C14[168] S1[168] 0 5f m=1
+C14[167] S1[167] 0 5f m=1
+C14[166] S1[166] 0 5f m=1
+C14[165] S1[165] 0 5f m=1
+C14[164] S1[164] 0 5f m=1
+C14[163] S1[163] 0 5f m=1
+C14[162] S1[162] 0 5f m=1
+C14[161] S1[161] 0 5f m=1
+C14[160] S1[160] 0 5f m=1
+C14[159] S1[159] 0 5f m=1
+C14[158] S1[158] 0 5f m=1
+C14[157] S1[157] 0 5f m=1
+C14[156] S1[156] 0 5f m=1
+C14[155] S1[155] 0 5f m=1
+C14[154] S1[154] 0 5f m=1
+C14[153] S1[153] 0 5f m=1
+C14[152] S1[152] 0 5f m=1
+C14[151] S1[151] 0 5f m=1
+C14[150] S1[150] 0 5f m=1
+C14[149] S1[149] 0 5f m=1
+C14[148] S1[148] 0 5f m=1
+C14[147] S1[147] 0 5f m=1
+C14[146] S1[146] 0 5f m=1
+C14[145] S1[145] 0 5f m=1
+C14[144] S1[144] 0 5f m=1
+C14[143] S1[143] 0 5f m=1
+C14[142] S1[142] 0 5f m=1
+C14[141] S1[141] 0 5f m=1
+C14[140] S1[140] 0 5f m=1
+C14[139] S1[139] 0 5f m=1
+C14[138] S1[138] 0 5f m=1
+C14[137] S1[137] 0 5f m=1
+C14[136] S1[136] 0 5f m=1
+C14[135] S1[135] 0 5f m=1
+C14[134] S1[134] 0 5f m=1
+C14[133] S1[133] 0 5f m=1
+C14[132] S1[132] 0 5f m=1
+C14[131] S1[131] 0 5f m=1
+C14[130] S1[130] 0 5f m=1
+C14[129] S1[129] 0 5f m=1
+C14[128] S1[128] 0 5f m=1
+C14[127] S1[127] 0 5f m=1
+C14[126] S1[126] 0 5f m=1
+C14[125] S1[125] 0 5f m=1
+C14[124] S1[124] 0 5f m=1
+C14[123] S1[123] 0 5f m=1
+C14[122] S1[122] 0 5f m=1
+C14[121] S1[121] 0 5f m=1
+C14[120] S1[120] 0 5f m=1
+C14[119] S1[119] 0 5f m=1
+C14[118] S1[118] 0 5f m=1
+C14[117] S1[117] 0 5f m=1
+C14[116] S1[116] 0 5f m=1
+C14[115] S1[115] 0 5f m=1
+C14[114] S1[114] 0 5f m=1
+C14[113] S1[113] 0 5f m=1
+C14[112] S1[112] 0 5f m=1
+C14[111] S1[111] 0 5f m=1
+C14[110] S1[110] 0 5f m=1
+C14[109] S1[109] 0 5f m=1
+C14[108] S1[108] 0 5f m=1
+C14[107] S1[107] 0 5f m=1
+C14[106] S1[106] 0 5f m=1
+C14[105] S1[105] 0 5f m=1
+C14[104] S1[104] 0 5f m=1
+C14[103] S1[103] 0 5f m=1
+C14[102] S1[102] 0 5f m=1
+C14[101] S1[101] 0 5f m=1
+C14[100] S1[100] 0 5f m=1
+C14[99] S1[99] 0 5f m=1
+C14[98] S1[98] 0 5f m=1
+C14[97] S1[97] 0 5f m=1
+C14[96] S1[96] 0 5f m=1
+C14[95] S1[95] 0 5f m=1
+C14[94] S1[94] 0 5f m=1
+C14[93] S1[93] 0 5f m=1
+C14[92] S1[92] 0 5f m=1
+C14[91] S1[91] 0 5f m=1
+C14[90] S1[90] 0 5f m=1
+C14[89] S1[89] 0 5f m=1
+C14[88] S1[88] 0 5f m=1
+C14[87] S1[87] 0 5f m=1
+C14[86] S1[86] 0 5f m=1
+C14[85] S1[85] 0 5f m=1
+C14[84] S1[84] 0 5f m=1
+C14[83] S1[83] 0 5f m=1
+C14[82] S1[82] 0 5f m=1
+C14[81] S1[81] 0 5f m=1
+C14[80] S1[80] 0 5f m=1
+C14[79] S1[79] 0 5f m=1
+C14[78] S1[78] 0 5f m=1
+C14[77] S1[77] 0 5f m=1
+C14[76] S1[76] 0 5f m=1
+C14[75] S1[75] 0 5f m=1
+C14[74] S1[74] 0 5f m=1
+C14[73] S1[73] 0 5f m=1
+C14[72] S1[72] 0 5f m=1
+C14[71] S1[71] 0 5f m=1
+C14[70] S1[70] 0 5f m=1
+C14[69] S1[69] 0 5f m=1
+C14[68] S1[68] 0 5f m=1
+C14[67] S1[67] 0 5f m=1
+C14[66] S1[66] 0 5f m=1
+C14[65] S1[65] 0 5f m=1
+C14[64] S1[64] 0 5f m=1
+C14[63] S1[63] 0 5f m=1
+C14[62] S1[62] 0 5f m=1
+C14[61] S1[61] 0 5f m=1
+C14[60] S1[60] 0 5f m=1
+C14[59] S1[59] 0 5f m=1
+C14[58] S1[58] 0 5f m=1
+C14[57] S1[57] 0 5f m=1
+C14[56] S1[56] 0 5f m=1
+C14[55] S1[55] 0 5f m=1
+C14[54] S1[54] 0 5f m=1
+C14[53] S1[53] 0 5f m=1
+C14[52] S1[52] 0 5f m=1
+C14[51] S1[51] 0 5f m=1
+C14[50] S1[50] 0 5f m=1
+C14[49] S1[49] 0 5f m=1
+C14[48] S1[48] 0 5f m=1
+C14[47] S1[47] 0 5f m=1
+C14[46] S1[46] 0 5f m=1
+C14[45] S1[45] 0 5f m=1
+C14[44] S1[44] 0 5f m=1
+C14[43] S1[43] 0 5f m=1
+C14[42] S1[42] 0 5f m=1
+C14[41] S1[41] 0 5f m=1
+C14[40] S1[40] 0 5f m=1
+C14[39] S1[39] 0 5f m=1
+C14[38] S1[38] 0 5f m=1
+C14[37] S1[37] 0 5f m=1
+C14[36] S1[36] 0 5f m=1
+C14[35] S1[35] 0 5f m=1
+C14[34] S1[34] 0 5f m=1
+C14[33] S1[33] 0 5f m=1
+C14[32] S1[32] 0 5f m=1
+C14[31] S1[31] 0 5f m=1
+C14[30] S1[30] 0 5f m=1
+C14[29] S1[29] 0 5f m=1
+C14[28] S1[28] 0 5f m=1
+C14[27] S1[27] 0 5f m=1
+C14[26] S1[26] 0 5f m=1
+C14[25] S1[25] 0 5f m=1
+C14[24] S1[24] 0 5f m=1
+C14[23] S1[23] 0 5f m=1
+C14[22] S1[22] 0 5f m=1
+C14[21] S1[21] 0 5f m=1
+C14[20] S1[20] 0 5f m=1
+C14[19] S1[19] 0 5f m=1
+C14[18] S1[18] 0 5f m=1
+C14[17] S1[17] 0 5f m=1
+C14[16] S1[16] 0 5f m=1
+C14[15] S1[15] 0 5f m=1
+C14[14] S1[14] 0 5f m=1
+C14[13] S1[13] 0 5f m=1
+C14[12] S1[12] 0 5f m=1
+C14[11] S1[11] 0 5f m=1
+C14[10] S1[10] 0 5f m=1
+C14[9] S1[9] 0 5f m=1
+C14[8] S1[8] 0 5f m=1
+C14[7] S1[7] 0 5f m=1
+C14[6] S1[6] 0 5f m=1
+C14[5] S1[5] 0 5f m=1
+C14[4] S1[4] 0 5f m=1
+C14[3] S1[3] 0 5f m=1
+C14[2] S1[2] 0 5f m=1
+C14[1] S1[1] 0 5f m=1
+C14[0] S1[0] 0 5f m=1
+C1[255] CARRY[255] 0 5f m=1
+C1[254] CARRY[254] 0 5f m=1
+C1[253] CARRY[253] 0 5f m=1
+C1[252] CARRY[252] 0 5f m=1
+C1[251] CARRY[251] 0 5f m=1
+C1[250] CARRY[250] 0 5f m=1
+C1[249] CARRY[249] 0 5f m=1
+C1[248] CARRY[248] 0 5f m=1
+C1[247] CARRY[247] 0 5f m=1
+C1[246] CARRY[246] 0 5f m=1
+C1[245] CARRY[245] 0 5f m=1
+C1[244] CARRY[244] 0 5f m=1
+C1[243] CARRY[243] 0 5f m=1
+C1[242] CARRY[242] 0 5f m=1
+C1[241] CARRY[241] 0 5f m=1
+C1[240] CARRY[240] 0 5f m=1
+C1[239] CARRY[239] 0 5f m=1
+C1[238] CARRY[238] 0 5f m=1
+C1[237] CARRY[237] 0 5f m=1
+C1[236] CARRY[236] 0 5f m=1
+C1[235] CARRY[235] 0 5f m=1
+C1[234] CARRY[234] 0 5f m=1
+C1[233] CARRY[233] 0 5f m=1
+C1[232] CARRY[232] 0 5f m=1
+C1[231] CARRY[231] 0 5f m=1
+C1[230] CARRY[230] 0 5f m=1
+C1[229] CARRY[229] 0 5f m=1
+C1[228] CARRY[228] 0 5f m=1
+C1[227] CARRY[227] 0 5f m=1
+C1[226] CARRY[226] 0 5f m=1
+C1[225] CARRY[225] 0 5f m=1
+C1[224] CARRY[224] 0 5f m=1
+C1[223] CARRY[223] 0 5f m=1
+C1[222] CARRY[222] 0 5f m=1
+C1[221] CARRY[221] 0 5f m=1
+C1[220] CARRY[220] 0 5f m=1
+C1[219] CARRY[219] 0 5f m=1
+C1[218] CARRY[218] 0 5f m=1
+C1[217] CARRY[217] 0 5f m=1
+C1[216] CARRY[216] 0 5f m=1
+C1[215] CARRY[215] 0 5f m=1
+C1[214] CARRY[214] 0 5f m=1
+C1[213] CARRY[213] 0 5f m=1
+C1[212] CARRY[212] 0 5f m=1
+C1[211] CARRY[211] 0 5f m=1
+C1[210] CARRY[210] 0 5f m=1
+C1[209] CARRY[209] 0 5f m=1
+C1[208] CARRY[208] 0 5f m=1
+C1[207] CARRY[207] 0 5f m=1
+C1[206] CARRY[206] 0 5f m=1
+C1[205] CARRY[205] 0 5f m=1
+C1[204] CARRY[204] 0 5f m=1
+C1[203] CARRY[203] 0 5f m=1
+C1[202] CARRY[202] 0 5f m=1
+C1[201] CARRY[201] 0 5f m=1
+C1[200] CARRY[200] 0 5f m=1
+C1[199] CARRY[199] 0 5f m=1
+C1[198] CARRY[198] 0 5f m=1
+C1[197] CARRY[197] 0 5f m=1
+C1[196] CARRY[196] 0 5f m=1
+C1[195] CARRY[195] 0 5f m=1
+C1[194] CARRY[194] 0 5f m=1
+C1[193] CARRY[193] 0 5f m=1
+C1[192] CARRY[192] 0 5f m=1
+C1[191] CARRY[191] 0 5f m=1
+C1[190] CARRY[190] 0 5f m=1
+C1[189] CARRY[189] 0 5f m=1
+C1[188] CARRY[188] 0 5f m=1
+C1[187] CARRY[187] 0 5f m=1
+C1[186] CARRY[186] 0 5f m=1
+C1[185] CARRY[185] 0 5f m=1
+C1[184] CARRY[184] 0 5f m=1
+C1[183] CARRY[183] 0 5f m=1
+C1[182] CARRY[182] 0 5f m=1
+C1[181] CARRY[181] 0 5f m=1
+C1[180] CARRY[180] 0 5f m=1
+C1[179] CARRY[179] 0 5f m=1
+C1[178] CARRY[178] 0 5f m=1
+C1[177] CARRY[177] 0 5f m=1
+C1[176] CARRY[176] 0 5f m=1
+C1[175] CARRY[175] 0 5f m=1
+C1[174] CARRY[174] 0 5f m=1
+C1[173] CARRY[173] 0 5f m=1
+C1[172] CARRY[172] 0 5f m=1
+C1[171] CARRY[171] 0 5f m=1
+C1[170] CARRY[170] 0 5f m=1
+C1[169] CARRY[169] 0 5f m=1
+C1[168] CARRY[168] 0 5f m=1
+C1[167] CARRY[167] 0 5f m=1
+C1[166] CARRY[166] 0 5f m=1
+C1[165] CARRY[165] 0 5f m=1
+C1[164] CARRY[164] 0 5f m=1
+C1[163] CARRY[163] 0 5f m=1
+C1[162] CARRY[162] 0 5f m=1
+C1[161] CARRY[161] 0 5f m=1
+C1[160] CARRY[160] 0 5f m=1
+C1[159] CARRY[159] 0 5f m=1
+C1[158] CARRY[158] 0 5f m=1
+C1[157] CARRY[157] 0 5f m=1
+C1[156] CARRY[156] 0 5f m=1
+C1[155] CARRY[155] 0 5f m=1
+C1[154] CARRY[154] 0 5f m=1
+C1[153] CARRY[153] 0 5f m=1
+C1[152] CARRY[152] 0 5f m=1
+C1[151] CARRY[151] 0 5f m=1
+C1[150] CARRY[150] 0 5f m=1
+C1[149] CARRY[149] 0 5f m=1
+C1[148] CARRY[148] 0 5f m=1
+C1[147] CARRY[147] 0 5f m=1
+C1[146] CARRY[146] 0 5f m=1
+C1[145] CARRY[145] 0 5f m=1
+C1[144] CARRY[144] 0 5f m=1
+C1[143] CARRY[143] 0 5f m=1
+C1[142] CARRY[142] 0 5f m=1
+C1[141] CARRY[141] 0 5f m=1
+C1[140] CARRY[140] 0 5f m=1
+C1[139] CARRY[139] 0 5f m=1
+C1[138] CARRY[138] 0 5f m=1
+C1[137] CARRY[137] 0 5f m=1
+C1[136] CARRY[136] 0 5f m=1
+C1[135] CARRY[135] 0 5f m=1
+C1[134] CARRY[134] 0 5f m=1
+C1[133] CARRY[133] 0 5f m=1
+C1[132] CARRY[132] 0 5f m=1
+C1[131] CARRY[131] 0 5f m=1
+C1[130] CARRY[130] 0 5f m=1
+C1[129] CARRY[129] 0 5f m=1
+C1[128] CARRY[128] 0 5f m=1
+C1[127] CARRY[127] 0 5f m=1
+C1[126] CARRY[126] 0 5f m=1
+C1[125] CARRY[125] 0 5f m=1
+C1[124] CARRY[124] 0 5f m=1
+C1[123] CARRY[123] 0 5f m=1
+C1[122] CARRY[122] 0 5f m=1
+C1[121] CARRY[121] 0 5f m=1
+C1[120] CARRY[120] 0 5f m=1
+C1[119] CARRY[119] 0 5f m=1
+C1[118] CARRY[118] 0 5f m=1
+C1[117] CARRY[117] 0 5f m=1
+C1[116] CARRY[116] 0 5f m=1
+C1[115] CARRY[115] 0 5f m=1
+C1[114] CARRY[114] 0 5f m=1
+C1[113] CARRY[113] 0 5f m=1
+C1[112] CARRY[112] 0 5f m=1
+C1[111] CARRY[111] 0 5f m=1
+C1[110] CARRY[110] 0 5f m=1
+C1[109] CARRY[109] 0 5f m=1
+C1[108] CARRY[108] 0 5f m=1
+C1[107] CARRY[107] 0 5f m=1
+C1[106] CARRY[106] 0 5f m=1
+C1[105] CARRY[105] 0 5f m=1
+C1[104] CARRY[104] 0 5f m=1
+C1[103] CARRY[103] 0 5f m=1
+C1[102] CARRY[102] 0 5f m=1
+C1[101] CARRY[101] 0 5f m=1
+C1[100] CARRY[100] 0 5f m=1
+C1[99] CARRY[99] 0 5f m=1
+C1[98] CARRY[98] 0 5f m=1
+C1[97] CARRY[97] 0 5f m=1
+C1[96] CARRY[96] 0 5f m=1
+C1[95] CARRY[95] 0 5f m=1
+C1[94] CARRY[94] 0 5f m=1
+C1[93] CARRY[93] 0 5f m=1
+C1[92] CARRY[92] 0 5f m=1
+C1[91] CARRY[91] 0 5f m=1
+C1[90] CARRY[90] 0 5f m=1
+C1[89] CARRY[89] 0 5f m=1
+C1[88] CARRY[88] 0 5f m=1
+C1[87] CARRY[87] 0 5f m=1
+C1[86] CARRY[86] 0 5f m=1
+C1[85] CARRY[85] 0 5f m=1
+C1[84] CARRY[84] 0 5f m=1
+C1[83] CARRY[83] 0 5f m=1
+C1[82] CARRY[82] 0 5f m=1
+C1[81] CARRY[81] 0 5f m=1
+C1[80] CARRY[80] 0 5f m=1
+C1[79] CARRY[79] 0 5f m=1
+C1[78] CARRY[78] 0 5f m=1
+C1[77] CARRY[77] 0 5f m=1
+C1[76] CARRY[76] 0 5f m=1
+C1[75] CARRY[75] 0 5f m=1
+C1[74] CARRY[74] 0 5f m=1
+C1[73] CARRY[73] 0 5f m=1
+C1[72] CARRY[72] 0 5f m=1
+C1[71] CARRY[71] 0 5f m=1
+C1[70] CARRY[70] 0 5f m=1
+C1[69] CARRY[69] 0 5f m=1
+C1[68] CARRY[68] 0 5f m=1
+C1[67] CARRY[67] 0 5f m=1
+C1[66] CARRY[66] 0 5f m=1
+C1[65] CARRY[65] 0 5f m=1
+C1[64] CARRY[64] 0 5f m=1
+C1[63] CARRY[63] 0 5f m=1
+C1[62] CARRY[62] 0 5f m=1
+C1[61] CARRY[61] 0 5f m=1
+C1[60] CARRY[60] 0 5f m=1
+C1[59] CARRY[59] 0 5f m=1
+C1[58] CARRY[58] 0 5f m=1
+C1[57] CARRY[57] 0 5f m=1
+C1[56] CARRY[56] 0 5f m=1
+C1[55] CARRY[55] 0 5f m=1
+C1[54] CARRY[54] 0 5f m=1
+C1[53] CARRY[53] 0 5f m=1
+C1[52] CARRY[52] 0 5f m=1
+C1[51] CARRY[51] 0 5f m=1
+C1[50] CARRY[50] 0 5f m=1
+C1[49] CARRY[49] 0 5f m=1
+C1[48] CARRY[48] 0 5f m=1
+C1[47] CARRY[47] 0 5f m=1
+C1[46] CARRY[46] 0 5f m=1
+C1[45] CARRY[45] 0 5f m=1
+C1[44] CARRY[44] 0 5f m=1
+C1[43] CARRY[43] 0 5f m=1
+C1[42] CARRY[42] 0 5f m=1
+C1[41] CARRY[41] 0 5f m=1
+C1[40] CARRY[40] 0 5f m=1
+C1[39] CARRY[39] 0 5f m=1
+C1[38] CARRY[38] 0 5f m=1
+C1[37] CARRY[37] 0 5f m=1
+C1[36] CARRY[36] 0 5f m=1
+C1[35] CARRY[35] 0 5f m=1
+C1[34] CARRY[34] 0 5f m=1
+C1[33] CARRY[33] 0 5f m=1
+C1[32] CARRY[32] 0 5f m=1
+C1[31] CARRY[31] 0 5f m=1
+C1[30] CARRY[30] 0 5f m=1
+C1[29] CARRY[29] 0 5f m=1
+C1[28] CARRY[28] 0 5f m=1
+C1[27] CARRY[27] 0 5f m=1
+C1[26] CARRY[26] 0 5f m=1
+C1[25] CARRY[25] 0 5f m=1
+C1[24] CARRY[24] 0 5f m=1
+C1[23] CARRY[23] 0 5f m=1
+C1[22] CARRY[22] 0 5f m=1
+C1[21] CARRY[21] 0 5f m=1
+C1[20] CARRY[20] 0 5f m=1
+C1[19] CARRY[19] 0 5f m=1
+C1[18] CARRY[18] 0 5f m=1
+C1[17] CARRY[17] 0 5f m=1
+C1[16] CARRY[16] 0 5f m=1
+C1[15] CARRY[15] 0 5f m=1
+C1[14] CARRY[14] 0 5f m=1
+C1[13] CARRY[13] 0 5f m=1
+C1[12] CARRY[12] 0 5f m=1
+C1[11] CARRY[11] 0 5f m=1
+C1[10] CARRY[10] 0 5f m=1
+C1[9] CARRY[9] 0 5f m=1
+C1[8] CARRY[8] 0 5f m=1
+C1[7] CARRY[7] 0 5f m=1
+C1[6] CARRY[6] 0 5f m=1
+C1[5] CARRY[5] 0 5f m=1
+C1[4] CARRY[4] 0 5f m=1
+C1[3] CARRY[3] 0 5f m=1
+C1[2] CARRY[2] 0 5f m=1
+C1[1] CARRY[1] 0 5f m=1
+C1[0] CARRY[0] 0 5f m=1
+**** begin user architecture code
+ .lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  sky130_tests/adder_256bit.sym # of pins=7
+** sym_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_256bit.sym
+** sch_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_256bit.sch
+.subckt adder_256bit  A[255] A[254] A[253] A[252] A[251] A[250] A[249] A[248] A[247] A[246] A[245]
++ A[244] A[243] A[242] A[241] A[240] A[239] A[238] A[237] A[236] A[235] A[234] A[233] A[232] A[231] A[230]
++ A[229] A[228] A[227] A[226] A[225] A[224] A[223] A[222] A[221] A[220] A[219] A[218] A[217] A[216] A[215]
++ A[214] A[213] A[212] A[211] A[210] A[209] A[208] A[207] A[206] A[205] A[204] A[203] A[202] A[201] A[200]
++ A[199] A[198] A[197] A[196] A[195] A[194] A[193] A[192] A[191] A[190] A[189] A[188] A[187] A[186] A[185]
++ A[184] A[183] A[182] A[181] A[180] A[179] A[178] A[177] A[176] A[175] A[174] A[173] A[172] A[171] A[170]
++ A[169] A[168] A[167] A[166] A[165] A[164] A[163] A[162] A[161] A[160] A[159] A[158] A[157] A[156] A[155]
++ A[154] A[153] A[152] A[151] A[150] A[149] A[148] A[147] A[146] A[145] A[144] A[143] A[142] A[141] A[140]
++ A[139] A[138] A[137] A[136] A[135] A[134] A[133] A[132] A[131] A[130] A[129] A[128] A[127] A[126] A[125]
++ A[124] A[123] A[122] A[121] A[120] A[119] A[118] A[117] A[116] A[115] A[114] A[113] A[112] A[111] A[110]
++ A[109] A[108] A[107] A[106] A[105] A[104] A[103] A[102] A[101] A[100] A[99] A[98] A[97] A[96] A[95] A[94]
++ A[93] A[92] A[91] A[90] A[89] A[88] A[87] A[86] A[85] A[84] A[83] A[82] A[81] A[80] A[79] A[78] A[77]
++ A[76] A[75] A[74] A[73] A[72] A[71] A[70] A[69] A[68] A[67] A[66] A[65] A[64] A[63] A[62] A[61] A[60]
++ A[59] A[58] A[57] A[56] A[55] A[54] A[53] A[52] A[51] A[50] A[49] A[48] A[47] A[46] A[45] A[44] A[43]
++ A[42] A[41] A[40] A[39] A[38] A[37] A[36] A[35] A[34] A[33] A[32] A[31] A[30] A[29] A[28] A[27] A[26]
++ A[25] A[24] A[23] A[22] A[21] A[20] A[19] A[18] A[17] A[16] A[15] A[14] A[13] A[12] A[11] A[10] A[9] A[8]
++ A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] S[255] S[254] S[253] S[252] S[251] S[250] S[249] S[248] S[247]
++ S[246] S[245] S[244] S[243] S[242] S[241] S[240] S[239] S[238] S[237] S[236] S[235] S[234] S[233] S[232]
++ S[231] S[230] S[229] S[228] S[227] S[226] S[225] S[224] S[223] S[222] S[221] S[220] S[219] S[218] S[217]
++ S[216] S[215] S[214] S[213] S[212] S[211] S[210] S[209] S[208] S[207] S[206] S[205] S[204] S[203] S[202]
++ S[201] S[200] S[199] S[198] S[197] S[196] S[195] S[194] S[193] S[192] S[191] S[190] S[189] S[188] S[187]
++ S[186] S[185] S[184] S[183] S[182] S[181] S[180] S[179] S[178] S[177] S[176] S[175] S[174] S[173] S[172]
++ S[171] S[170] S[169] S[168] S[167] S[166] S[165] S[164] S[163] S[162] S[161] S[160] S[159] S[158] S[157]
++ S[156] S[155] S[154] S[153] S[152] S[151] S[150] S[149] S[148] S[147] S[146] S[145] S[144] S[143] S[142]
++ S[141] S[140] S[139] S[138] S[137] S[136] S[135] S[134] S[133] S[132] S[131] S[130] S[129] S[128] S[127]
++ S[126] S[125] S[124] S[123] S[122] S[121] S[120] S[119] S[118] S[117] S[116] S[115] S[114] S[113] S[112]
++ S[111] S[110] S[109] S[108] S[107] S[106] S[105] S[104] S[103] S[102] S[101] S[100] S[99] S[98] S[97]
++ S[96] S[95] S[94] S[93] S[92] S[91] S[90] S[89] S[88] S[87] S[86] S[85] S[84] S[83] S[82] S[81] S[80]
++ S[79] S[78] S[77] S[76] S[75] S[74] S[73] S[72] S[71] S[70] S[69] S[68] S[67] S[66] S[65] S[64] S[63]
++ S[62] S[61] S[60] S[59] S[58] S[57] S[56] S[55] S[54] S[53] S[52] S[51] S[50] S[49] S[48] S[47] S[46]
++ S[45] S[44] S[43] S[42] S[41] S[40] S[39] S[38] S[37] S[36] S[35] S[34] S[33] S[32] S[31] S[30] S[29]
++ S[28] S[27] S[26] S[25] S[24] S[23] S[22] S[21] S[20] S[19] S[18] S[17] S[16] S[15] S[14] S[13] S[12]
++ S[11] S[10] S[9] S[8] S[7] S[6] S[5] S[4] S[3] S[2] S[1] S[0] B[255] B[254] B[253] B[252] B[251] B[250]
++ B[249] B[248] B[247] B[246] B[245] B[244] B[243] B[242] B[241] B[240] B[239] B[238] B[237] B[236] B[235]
++ B[234] B[233] B[232] B[231] B[230] B[229] B[228] B[227] B[226] B[225] B[224] B[223] B[222] B[221] B[220]
++ B[219] B[218] B[217] B[216] B[215] B[214] B[213] B[212] B[211] B[210] B[209] B[208] B[207] B[206] B[205]
++ B[204] B[203] B[202] B[201] B[200] B[199] B[198] B[197] B[196] B[195] B[194] B[193] B[192] B[191] B[190]
++ B[189] B[188] B[187] B[186] B[185] B[184] B[183] B[182] B[181] B[180] B[179] B[178] B[177] B[176] B[175]
++ B[174] B[173] B[172] B[171] B[170] B[169] B[168] B[167] B[166] B[165] B[164] B[163] B[162] B[161] B[160]
++ B[159] B[158] B[157] B[156] B[155] B[154] B[153] B[152] B[151] B[150] B[149] B[148] B[147] B[146] B[145]
++ B[144] B[143] B[142] B[141] B[140] B[139] B[138] B[137] B[136] B[135] B[134] B[133] B[132] B[131] B[130]
++ B[129] B[128] B[127] B[126] B[125] B[124] B[123] B[122] B[121] B[120] B[119] B[118] B[117] B[116] B[115]
++ B[114] B[113] B[112] B[111] B[110] B[109] B[108] B[107] B[106] B[105] B[104] B[103] B[102] B[101] B[100]
++ B[99] B[98] B[97] B[96] B[95] B[94] B[93] B[92] B[91] B[90] B[89] B[88] B[87] B[86] B[85] B[84] B[83]
++ B[82] B[81] B[80] B[79] B[78] B[77] B[76] B[75] B[74] B[73] B[72] B[71] B[70] B[69] B[68] B[67] B[66]
++ B[65] B[64] B[63] B[62] B[61] B[60] B[59] B[58] B[57] B[56] B[55] B[54] B[53] B[52] B[51] B[50] B[49]
++ B[48] B[47] B[46] B[45] B[44] B[43] B[42] B[41] B[40] B[39] B[38] B[37] B[36] B[35] B[34] B[33] B[32]
++ B[31] B[30] B[29] B[28] B[27] B[26] B[25] B[24] B[23] B[22] B[21] B[20] B[19] B[18] B[17] B[16] B[15]
++ B[14] B[13] B[12] B[11] B[10] B[9] B[8] B[7] B[6] B[5] B[4] B[3] B[2] B[1] B[0] COUT SG CIN SP
+*.ipin
+*+ A[255],A[254],A[253],A[252],A[251],A[250],A[249],A[248],A[247],A[246],A[245],A[244],A[243],A[242],A[241],A[240],A[239],A[238],A[237],A[236],A[235],A[234],A[233],A[232],A[231],A[230],A[229],A[228],A[227],A[226],A[225],A[224],A[223],A[222],A[221],A[220],A[219],A[218],A[217],A[216],A[215],A[214],A[213],A[212],A[211],A[210],A[209],A[208],A[207],A[206],A[205],A[204],A[203],A[202],A[201],A[200],A[199],A[198],A[197],A[196],A[195],A[194],A[193],A[192],A[191],A[190],A[189],A[188],A[187],A[186],A[185],A[184],A[183],A[182],A[181],A[180],A[179],A[178],A[177],A[176],A[175],A[174],A[173],A[172],A[171],A[170],A[169],A[168],A[167],A[166],A[165],A[164],A[163],A[162],A[161],A[160],A[159],A[158],A[157],A[156],A[155],A[154],A[153],A[152],A[151],A[150],A[149],A[148],A[147],A[146],A[145],A[144],A[143],A[142],A[141],A[140],A[139],A[138],A[137],A[136],A[135],A[134],A[133],A[132],A[131],A[130],A[129],A[128],A[127],A[126],A[125],A[124],A[123],A[122],A[121],A[120],A[119],A[118],A[117],A[116],A[115],A[114],A[113],A[112],A[111],A[110],A[109],A[108],A[107],A[106],A[105],A[104],A[103],A[102],A[101],A[100],A[99],A[98],A[97],A[96],A[95],A[94],A[93],A[92],A[91],A[90],A[89],A[88],A[87],A[86],A[85],A[84],A[83],A[82],A[81],A[80],A[79],A[78],A[77],A[76],A[75],A[74],A[73],A[72],A[71],A[70],A[69],A[68],A[67],A[66],A[65],A[64],A[63],A[62],A[61],A[60],A[59],A[58],A[57],A[56],A[55],A[54],A[53],A[52],A[51],A[50],A[49],A[48],A[47],A[46],A[45],A[44],A[43],A[42],A[41],A[40],A[39],A[38],A[37],A[36],A[35],A[34],A[33],A[32],A[31],A[30],A[29],A[28],A[27],A[26],A[25],A[24],A[23],A[22],A[21],A[20],A[19],A[18],A[17],A[16],A[15],A[14],A[13],A[12],A[11],A[10],A[9],A[8],A[7],A[6],A[5],A[4],A[3],A[2],A[1],A[0]
+*.ipin
+*+ B[255],B[254],B[253],B[252],B[251],B[250],B[249],B[248],B[247],B[246],B[245],B[244],B[243],B[242],B[241],B[240],B[239],B[238],B[237],B[236],B[235],B[234],B[233],B[232],B[231],B[230],B[229],B[228],B[227],B[226],B[225],B[224],B[223],B[222],B[221],B[220],B[219],B[218],B[217],B[216],B[215],B[214],B[213],B[212],B[211],B[210],B[209],B[208],B[207],B[206],B[205],B[204],B[203],B[202],B[201],B[200],B[199],B[198],B[197],B[196],B[195],B[194],B[193],B[192],B[191],B[190],B[189],B[188],B[187],B[186],B[185],B[184],B[183],B[182],B[181],B[180],B[179],B[178],B[177],B[176],B[175],B[174],B[173],B[172],B[171],B[170],B[169],B[168],B[167],B[166],B[165],B[164],B[163],B[162],B[161],B[160],B[159],B[158],B[157],B[156],B[155],B[154],B[153],B[152],B[151],B[150],B[149],B[148],B[147],B[146],B[145],B[144],B[143],B[142],B[141],B[140],B[139],B[138],B[137],B[136],B[135],B[134],B[133],B[132],B[131],B[130],B[129],B[128],B[127],B[126],B[125],B[124],B[123],B[122],B[121],B[120],B[119],B[118],B[117],B[116],B[115],B[114],B[113],B[112],B[111],B[110],B[109],B[108],B[107],B[106],B[105],B[104],B[103],B[102],B[101],B[100],B[99],B[98],B[97],B[96],B[95],B[94],B[93],B[92],B[91],B[90],B[89],B[88],B[87],B[86],B[85],B[84],B[83],B[82],B[81],B[80],B[79],B[78],B[77],B[76],B[75],B[74],B[73],B[72],B[71],B[70],B[69],B[68],B[67],B[66],B[65],B[64],B[63],B[62],B[61],B[60],B[59],B[58],B[57],B[56],B[55],B[54],B[53],B[52],B[51],B[50],B[49],B[48],B[47],B[46],B[45],B[44],B[43],B[42],B[41],B[40],B[39],B[38],B[37],B[36],B[35],B[34],B[33],B[32],B[31],B[30],B[29],B[28],B[27],B[26],B[25],B[24],B[23],B[22],B[21],B[20],B[19],B[18],B[17],B[16],B[15],B[14],B[13],B[12],B[11],B[10],B[9],B[8],B[7],B[6],B[5],B[4],B[3],B[2],B[1],B[0]
+*.ipin CIN
+*.opin
+*+ S[255],S[254],S[253],S[252],S[251],S[250],S[249],S[248],S[247],S[246],S[245],S[244],S[243],S[242],S[241],S[240],S[239],S[238],S[237],S[236],S[235],S[234],S[233],S[232],S[231],S[230],S[229],S[228],S[227],S[226],S[225],S[224],S[223],S[222],S[221],S[220],S[219],S[218],S[217],S[216],S[215],S[214],S[213],S[212],S[211],S[210],S[209],S[208],S[207],S[206],S[205],S[204],S[203],S[202],S[201],S[200],S[199],S[198],S[197],S[196],S[195],S[194],S[193],S[192],S[191],S[190],S[189],S[188],S[187],S[186],S[185],S[184],S[183],S[182],S[181],S[180],S[179],S[178],S[177],S[176],S[175],S[174],S[173],S[172],S[171],S[170],S[169],S[168],S[167],S[166],S[165],S[164],S[163],S[162],S[161],S[160],S[159],S[158],S[157],S[156],S[155],S[154],S[153],S[152],S[151],S[150],S[149],S[148],S[147],S[146],S[145],S[144],S[143],S[142],S[141],S[140],S[139],S[138],S[137],S[136],S[135],S[134],S[133],S[132],S[131],S[130],S[129],S[128],S[127],S[126],S[125],S[124],S[123],S[122],S[121],S[120],S[119],S[118],S[117],S[116],S[115],S[114],S[113],S[112],S[111],S[110],S[109],S[108],S[107],S[106],S[105],S[104],S[103],S[102],S[101],S[100],S[99],S[98],S[97],S[96],S[95],S[94],S[93],S[92],S[91],S[90],S[89],S[88],S[87],S[86],S[85],S[84],S[83],S[82],S[81],S[80],S[79],S[78],S[77],S[76],S[75],S[74],S[73],S[72],S[71],S[70],S[69],S[68],S[67],S[66],S[65],S[64],S[63],S[62],S[61],S[60],S[59],S[58],S[57],S[56],S[55],S[54],S[53],S[52],S[51],S[50],S[49],S[48],S[47],S[46],S[45],S[44],S[43],S[42],S[41],S[40],S[39],S[38],S[37],S[36],S[35],S[34],S[33],S[32],S[31],S[30],S[29],S[28],S[27],S[26],S[25],S[24],S[23],S[22],S[21],S[20],S[19],S[18],S[17],S[16],S[15],S[14],S[13],S[12],S[11],S[10],S[9],S[8],S[7],S[6],S[5],S[4],S[3],S[2],S[1],S[0]
+*.opin COUT
+*.opin SP
+*.opin SG
+x0[3] A[255] A[254] A[253] A[252] A[251] A[250] A[249] A[248] A[247] A[246] A[245] A[244] A[243]
++ A[242] A[241] A[240] A[239] A[238] A[237] A[236] A[235] A[234] A[233] A[232] A[231] A[230] A[229] A[228]
++ A[227] A[226] A[225] A[224] A[223] A[222] A[221] A[220] A[219] A[218] A[217] A[216] A[215] A[214] A[213]
++ A[212] A[211] A[210] A[209] A[208] A[207] A[206] A[205] A[204] A[203] A[202] A[201] A[200] A[199] A[198]
++ A[197] A[196] A[195] A[194] A[193] A[192] S[255] S[254] S[253] S[252] S[251] S[250] S[249] S[248] S[247]
++ S[246] S[245] S[244] S[243] S[242] S[241] S[240] S[239] S[238] S[237] S[236] S[235] S[234] S[233] S[232]
++ S[231] S[230] S[229] S[228] S[227] S[226] S[225] S[224] S[223] S[222] S[221] S[220] S[219] S[218] S[217]
++ S[216] S[215] S[214] S[213] S[212] S[211] S[210] S[209] S[208] S[207] S[206] S[205] S[204] S[203] S[202]
++ S[201] S[200] S[199] S[198] S[197] S[196] S[195] S[194] S[193] S[192] B[255] B[254] B[253] B[252] B[251]
++ B[250] B[249] B[248] B[247] B[246] B[245] B[244] B[243] B[242] B[241] B[240] B[239] B[238] B[237] B[236]
++ B[235] B[234] B[233] B[232] B[231] B[230] B[229] B[228] B[227] B[226] B[225] B[224] B[223] B[222] B[221]
++ B[220] B[219] B[218] B[217] B[216] B[215] B[214] B[213] B[212] B[211] B[210] B[209] B[208] B[207] B[206]
++ B[205] B[204] B[203] B[202] B[201] B[200] B[199] B[198] B[197] B[196] B[195] B[194] B[193] B[192] net1[3]
++ G[3] C3 P[3] adder_64bit
+x0[2] A[191] A[190] A[189] A[188] A[187] A[186] A[185] A[184] A[183] A[182] A[181] A[180] A[179]
++ A[178] A[177] A[176] A[175] A[174] A[173] A[172] A[171] A[170] A[169] A[168] A[167] A[166] A[165] A[164]
++ A[163] A[162] A[161] A[160] A[159] A[158] A[157] A[156] A[155] A[154] A[153] A[152] A[151] A[150] A[149]
++ A[148] A[147] A[146] A[145] A[144] A[143] A[142] A[141] A[140] A[139] A[138] A[137] A[136] A[135] A[134]
++ A[133] A[132] A[131] A[130] A[129] A[128] S[191] S[190] S[189] S[188] S[187] S[186] S[185] S[184] S[183]
++ S[182] S[181] S[180] S[179] S[178] S[177] S[176] S[175] S[174] S[173] S[172] S[171] S[170] S[169] S[168]
++ S[167] S[166] S[165] S[164] S[163] S[162] S[161] S[160] S[159] S[158] S[157] S[156] S[155] S[154] S[153]
++ S[152] S[151] S[150] S[149] S[148] S[147] S[146] S[145] S[144] S[143] S[142] S[141] S[140] S[139] S[138]
++ S[137] S[136] S[135] S[134] S[133] S[132] S[131] S[130] S[129] S[128] B[191] B[190] B[189] B[188] B[187]
++ B[186] B[185] B[184] B[183] B[182] B[181] B[180] B[179] B[178] B[177] B[176] B[175] B[174] B[173] B[172]
++ B[171] B[170] B[169] B[168] B[167] B[166] B[165] B[164] B[163] B[162] B[161] B[160] B[159] B[158] B[157]
++ B[156] B[155] B[154] B[153] B[152] B[151] B[150] B[149] B[148] B[147] B[146] B[145] B[144] B[143] B[142]
++ B[141] B[140] B[139] B[138] B[137] B[136] B[135] B[134] B[133] B[132] B[131] B[130] B[129] B[128] net1[2]
++ G[2] C2 P[2] adder_64bit
+x0[1] A[127] A[126] A[125] A[124] A[123] A[122] A[121] A[120] A[119] A[118] A[117] A[116] A[115]
++ A[114] A[113] A[112] A[111] A[110] A[109] A[108] A[107] A[106] A[105] A[104] A[103] A[102] A[101] A[100]
++ A[99] A[98] A[97] A[96] A[95] A[94] A[93] A[92] A[91] A[90] A[89] A[88] A[87] A[86] A[85] A[84] A[83]
++ A[82] A[81] A[80] A[79] A[78] A[77] A[76] A[75] A[74] A[73] A[72] A[71] A[70] A[69] A[68] A[67] A[66]
++ A[65] A[64] S[127] S[126] S[125] S[124] S[123] S[122] S[121] S[120] S[119] S[118] S[117] S[116] S[115]
++ S[114] S[113] S[112] S[111] S[110] S[109] S[108] S[107] S[106] S[105] S[104] S[103] S[102] S[101] S[100]
++ S[99] S[98] S[97] S[96] S[95] S[94] S[93] S[92] S[91] S[90] S[89] S[88] S[87] S[86] S[85] S[84] S[83]
++ S[82] S[81] S[80] S[79] S[78] S[77] S[76] S[75] S[74] S[73] S[72] S[71] S[70] S[69] S[68] S[67] S[66]
++ S[65] S[64] B[127] B[126] B[125] B[124] B[123] B[122] B[121] B[120] B[119] B[118] B[117] B[116] B[115]
++ B[114] B[113] B[112] B[111] B[110] B[109] B[108] B[107] B[106] B[105] B[104] B[103] B[102] B[101] B[100]
++ B[99] B[98] B[97] B[96] B[95] B[94] B[93] B[92] B[91] B[90] B[89] B[88] B[87] B[86] B[85] B[84] B[83]
++ B[82] B[81] B[80] B[79] B[78] B[77] B[76] B[75] B[74] B[73] B[72] B[71] B[70] B[69] B[68] B[67] B[66]
++ B[65] B[64] net1[1] G[1] C1 P[1] adder_64bit
+x0[0] A[63] A[62] A[61] A[60] A[59] A[58] A[57] A[56] A[55] A[54] A[53] A[52] A[51] A[50] A[49]
++ A[48] A[47] A[46] A[45] A[44] A[43] A[42] A[41] A[40] A[39] A[38] A[37] A[36] A[35] A[34] A[33] A[32]
++ A[31] A[30] A[29] A[28] A[27] A[26] A[25] A[24] A[23] A[22] A[21] A[20] A[19] A[18] A[17] A[16] A[15]
++ A[14] A[13] A[12] A[11] A[10] A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] S[63] S[62] S[61] S[60]
++ S[59] S[58] S[57] S[56] S[55] S[54] S[53] S[52] S[51] S[50] S[49] S[48] S[47] S[46] S[45] S[44] S[43]
++ S[42] S[41] S[40] S[39] S[38] S[37] S[36] S[35] S[34] S[33] S[32] S[31] S[30] S[29] S[28] S[27] S[26]
++ S[25] S[24] S[23] S[22] S[21] S[20] S[19] S[18] S[17] S[16] S[15] S[14] S[13] S[12] S[11] S[10] S[9] S[8]
++ S[7] S[6] S[5] S[4] S[3] S[2] S[1] S[0] B[63] B[62] B[61] B[60] B[59] B[58] B[57] B[56] B[55] B[54]
++ B[53] B[52] B[51] B[50] B[49] B[48] B[47] B[46] B[45] B[44] B[43] B[42] B[41] B[40] B[39] B[38] B[37]
++ B[36] B[35] B[34] B[33] B[32] B[31] B[30] B[29] B[28] B[27] B[26] B[25] B[24] B[23] B[22] B[21] B[20]
++ B[19] B[18] B[17] B[16] B[15] B[14] B[13] B[12] B[11] B[10] B[9] B[8] B[7] B[6] B[5] B[4] B[3] B[2] B[1]
++ B[0] net1[0] G[0] CIN P[0] adder_64bit
+x2 SG SP C1 P[3] P[2] P[1] P[0] C2 G[3] G[2] G[1] G[0] C3 COUT CIN cla_4bits
+.ends
+
+
+* expanding   symbol:  sky130_tests/adder_64bit.sym # of pins=7
+** sym_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_64bit.sym
+** sch_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_64bit.sch
+.subckt adder_64bit  A[63] A[62] A[61] A[60] A[59] A[58] A[57] A[56] A[55] A[54] A[53] A[52] A[51]
++ A[50] A[49] A[48] A[47] A[46] A[45] A[44] A[43] A[42] A[41] A[40] A[39] A[38] A[37] A[36] A[35] A[34]
++ A[33] A[32] A[31] A[30] A[29] A[28] A[27] A[26] A[25] A[24] A[23] A[22] A[21] A[20] A[19] A[18] A[17]
++ A[16] A[15] A[14] A[13] A[12] A[11] A[10] A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] S[63] S[62]
++ S[61] S[60] S[59] S[58] S[57] S[56] S[55] S[54] S[53] S[52] S[51] S[50] S[49] S[48] S[47] S[46] S[45]
++ S[44] S[43] S[42] S[41] S[40] S[39] S[38] S[37] S[36] S[35] S[34] S[33] S[32] S[31] S[30] S[29] S[28]
++ S[27] S[26] S[25] S[24] S[23] S[22] S[21] S[20] S[19] S[18] S[17] S[16] S[15] S[14] S[13] S[12] S[11]
++ S[10] S[9] S[8] S[7] S[6] S[5] S[4] S[3] S[2] S[1] S[0] B[63] B[62] B[61] B[60] B[59] B[58] B[57] B[56]
++ B[55] B[54] B[53] B[52] B[51] B[50] B[49] B[48] B[47] B[46] B[45] B[44] B[43] B[42] B[41] B[40] B[39]
++ B[38] B[37] B[36] B[35] B[34] B[33] B[32] B[31] B[30] B[29] B[28] B[27] B[26] B[25] B[24] B[23] B[22]
++ B[21] B[20] B[19] B[18] B[17] B[16] B[15] B[14] B[13] B[12] B[11] B[10] B[9] B[8] B[7] B[6] B[5] B[4]
++ B[3] B[2] B[1] B[0] COUT SG CIN SP
+*.ipin
+*+ A[63],A[62],A[61],A[60],A[59],A[58],A[57],A[56],A[55],A[54],A[53],A[52],A[51],A[50],A[49],A[48],A[47],A[46],A[45],A[44],A[43],A[42],A[41],A[40],A[39],A[38],A[37],A[36],A[35],A[34],A[33],A[32],A[31],A[30],A[29],A[28],A[27],A[26],A[25],A[24],A[23],A[22],A[21],A[20],A[19],A[18],A[17],A[16],A[15],A[14],A[13],A[12],A[11],A[10],A[9],A[8],A[7],A[6],A[5],A[4],A[3],A[2],A[1],A[0]
+*.ipin
+*+ B[63],B[62],B[61],B[60],B[59],B[58],B[57],B[56],B[55],B[54],B[53],B[52],B[51],B[50],B[49],B[48],B[47],B[46],B[45],B[44],B[43],B[42],B[41],B[40],B[39],B[38],B[37],B[36],B[35],B[34],B[33],B[32],B[31],B[30],B[29],B[28],B[27],B[26],B[25],B[24],B[23],B[22],B[21],B[20],B[19],B[18],B[17],B[16],B[15],B[14],B[13],B[12],B[11],B[10],B[9],B[8],B[7],B[6],B[5],B[4],B[3],B[2],B[1],B[0]
+*.ipin CIN
+*.opin
+*+ S[63],S[62],S[61],S[60],S[59],S[58],S[57],S[56],S[55],S[54],S[53],S[52],S[51],S[50],S[49],S[48],S[47],S[46],S[45],S[44],S[43],S[42],S[41],S[40],S[39],S[38],S[37],S[36],S[35],S[34],S[33],S[32],S[31],S[30],S[29],S[28],S[27],S[26],S[25],S[24],S[23],S[22],S[21],S[20],S[19],S[18],S[17],S[16],S[15],S[14],S[13],S[12],S[11],S[10],S[9],S[8],S[7],S[6],S[5],S[4],S[3],S[2],S[1],S[0]
+*.opin SP
+*.opin SG
+*.opin COUT
+x0[3] A[63] A[62] A[61] A[60] A[59] A[58] A[57] A[56] A[55] A[54] A[53] A[52] A[51] A[50] A[49]
++ A[48] S[63] S[62] S[61] S[60] S[59] S[58] S[57] S[56] S[55] S[54] S[53] S[52] S[51] S[50] S[49] S[48]
++ B[63] B[62] B[61] B[60] B[59] B[58] B[57] B[56] B[55] B[54] B[53] B[52] B[51] B[50] B[49] B[48] net1[3]
++ G[3] C3 P[3] adder_16bit
+x0[2] A[47] A[46] A[45] A[44] A[43] A[42] A[41] A[40] A[39] A[38] A[37] A[36] A[35] A[34] A[33]
++ A[32] S[47] S[46] S[45] S[44] S[43] S[42] S[41] S[40] S[39] S[38] S[37] S[36] S[35] S[34] S[33] S[32]
++ B[47] B[46] B[45] B[44] B[43] B[42] B[41] B[40] B[39] B[38] B[37] B[36] B[35] B[34] B[33] B[32] net1[2]
++ G[2] C2 P[2] adder_16bit
+x0[1] A[31] A[30] A[29] A[28] A[27] A[26] A[25] A[24] A[23] A[22] A[21] A[20] A[19] A[18] A[17]
++ A[16] S[31] S[30] S[29] S[28] S[27] S[26] S[25] S[24] S[23] S[22] S[21] S[20] S[19] S[18] S[17] S[16]
++ B[31] B[30] B[29] B[28] B[27] B[26] B[25] B[24] B[23] B[22] B[21] B[20] B[19] B[18] B[17] B[16] net1[1]
++ G[1] C1 P[1] adder_16bit
+x0[0] A[15] A[14] A[13] A[12] A[11] A[10] A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] S[15]
++ S[14] S[13] S[12] S[11] S[10] S[9] S[8] S[7] S[6] S[5] S[4] S[3] S[2] S[1] S[0] B[15] B[14] B[13] B[12]
++ B[11] B[10] B[9] B[8] B[7] B[6] B[5] B[4] B[3] B[2] B[1] B[0] net1[0] G[0] CIN P[0] adder_16bit
+x2 SG SP C1 P[3] P[2] P[1] P[0] C2 G[3] G[2] G[1] G[0] C3 COUT CIN cla_4bits
+.ends
+
+
+* expanding   symbol:  sky130_tests/cla_4bits.sym # of pins=9
+** sym_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/cla_4bits.sym
+** sch_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/cla_4bits.sch
+.subckt cla_4bits  SG SP C1 P[3] P[2] P[1] P[0] C2 G[3] G[2] G[1] G[0] C3 C4 C0
+*.ipin P[3],P[2],P[1],P[0]
+*.ipin G[3],G[2],G[1],G[0]
+*.ipin C0
+*.opin C4
+*.opin C3
+*.opin C2
+*.opin C1
+*.opin SG
+*.opin SP
+x1 P[0] VSS VSS VCC VCC net4 sky130_fd_sc_hd__inv_1
+x2 net5 VSS VSS VCC VCC C1 sky130_fd_sc_hd__inv_1
+x3 P[1] VSS VSS VCC VCC net2 sky130_fd_sc_hd__inv_1
+x4 net8 VSS VSS VCC VCC C3 sky130_fd_sc_hd__inv_1
+x5 G[1] VSS VSS VCC VCC net3 sky130_fd_sc_hd__inv_1
+x6 net12 VSS VSS VCC VCC net13 sky130_fd_sc_hd__inv_1
+x7 G[1] P[2] G[2] VSS VSS VCC VCC net12 sky130_fd_sc_hd__a21oi_1
+x8 P[3] net13 G[3] VSS VSS VCC VCC net14 sky130_fd_sc_hd__a21oi_1
+x9 C0 P[0] G[0] VSS VSS VCC VCC net5 sky130_fd_sc_hd__a21oi_1
+x10 P[2] C2 G[2] VSS VSS VCC VCC net8 sky130_fd_sc_hd__a21oi_1
+x11 G[0] VSS VSS VCC VCC net1 sky130_fd_sc_hd__inv_1
+x12 net2 net5 net3 VSS VSS VCC VCC C2 sky130_fd_sc_hd__o21ai_1
+x13 net5 net10 net14 VSS VSS VCC VCC C4 sky130_fd_sc_hd__o21ai_1
+x14 net1 net10 net14 VSS VSS VCC VCC SG sky130_fd_sc_hd__o21ai_1
+x15 net4 net10 VSS VSS VCC VCC SP sky130_fd_sc_hd__nor2_1
+x16 P[1] P[2] P[3] VSS VSS VCC VCC net10 sky130_fd_sc_hd__nand3_1
+C2 net4 0 5f m=1
+C1 net10 0 5f m=1
+C3 net1 0 5f m=1
+C4 net14 0 5f m=1
+C5 net2 0 5f m=1
+C6 net5 0 5f m=1
+C7 net3 0 5f m=1
+C8 net8 0 5f m=1
+C9 net13 0 5f m=1
+C10 net12 0 5f m=1
+C11 SP 0 5f m=1
+C12 SG 0 5f m=1
+C13 C1 0 5f m=1
+C14 C2 0 5f m=1
+C15 C3 0 5f m=1
+C16 C4 0 5f m=1
+.ends
+
+
+* expanding   symbol:  sky130_tests/adder_16bit.sym # of pins=7
+** sym_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_16bit.sym
+** sch_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_16bit.sch
+.subckt adder_16bit  A[15] A[14] A[13] A[12] A[11] A[10] A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2]
++ A[1] A[0] S[15] S[14] S[13] S[12] S[11] S[10] S[9] S[8] S[7] S[6] S[5] S[4] S[3] S[2] S[1] S[0] B[15]
++ B[14] B[13] B[12] B[11] B[10] B[9] B[8] B[7] B[6] B[5] B[4] B[3] B[2] B[1] B[0] COUT SG CIN SP
+*.ipin A[15],A[14],A[13],A[12],A[11],A[10],A[9],A[8],A[7],A[6],A[5],A[4],A[3],A[2],A[1],A[0]
+*.ipin B[15],B[14],B[13],B[12],B[11],B[10],B[9],B[8],B[7],B[6],B[5],B[4],B[3],B[2],B[1],B[0]
+*.ipin CIN
+*.opin S[15],S[14],S[13],S[12],S[11],S[10],S[9],S[8],S[7],S[6],S[5],S[4],S[3],S[2],S[1],S[0]
+*.opin SP
+*.opin SG
+*.opin COUT
+x0[3] A[15] A[14] A[13] A[12] S[15] S[14] S[13] S[12] B[15] B[14] B[13] B[12] net1[3] G[3] C3 P[3]
++ adder_4bit
+x0[2] A[11] A[10] A[9] A[8] S[11] S[10] S[9] S[8] B[11] B[10] B[9] B[8] net1[2] G[2] C2 P[2]
++ adder_4bit
+x0[1] A[7] A[6] A[5] A[4] S[7] S[6] S[5] S[4] B[7] B[6] B[5] B[4] net1[1] G[1] C1 P[1] adder_4bit
+x0[0] A[3] A[2] A[1] A[0] S[3] S[2] S[1] S[0] B[3] B[2] B[1] B[0] net1[0] G[0] CIN P[0] adder_4bit
+x2 SG SP C1 P[3] P[2] P[1] P[0] C2 G[3] G[2] G[1] G[0] C3 COUT CIN cla_4bits
+.ends
+
+
+* expanding   symbol:  sky130_tests/adder_4bit.sym # of pins=7
+** sym_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_4bit.sym
+** sch_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_4bit.sch
+.subckt adder_4bit  A[3] A[2] A[1] A[0] S[3] S[2] S[1] S[0] B[3] B[2] B[1] B[0] COUT SG CIN SP
+*.ipin A[3],A[2],A[1],A[0]
+*.ipin B[3],B[2],B[1],B[0]
+*.ipin CIN
+*.opin S[3],S[2],S[1],S[0]
+*.opin SP
+*.opin SG
+*.opin COUT
+x2 SG SP C1 P[3] P[2] P[1] P[0] C2 G[3] G[2] G[1] G[0] C3 COUT CIN cla_4bits
+x0[3] S[3] A[3] B[3] G[3] C3 P[3] adder_1bit
+x0[2] S[2] A[2] B[2] G[2] C2 P[2] adder_1bit
+x0[1] S[1] A[1] B[1] G[1] C1 P[1] adder_1bit
+x0[0] S[0] A[0] B[0] G[0] CIN P[0] adder_1bit
+.ends
+
+
+* expanding   symbol:  sky130_tests/adder_1bit.sym # of pins=6
+** sym_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_1bit.sym
+** sch_path: /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/xschem/sky130_tests/adder_1bit.sch
+.subckt adder_1bit  S A B G CIN P
+*.ipin A
+*.ipin B
+*.ipin CIN
+*.opin S
+*.opin P
+*.opin G
+x4 A B VSS VSS VCC VCC G sky130_fd_sc_hd__and2_1
+x2 A B VSS VSS VCC VCC P sky130_fd_sc_hd__xor2_1
+x3 P CIN VSS VSS VCC VCC S sky130_fd_sc_hd__xor2_1
+C1 G 0 5f m=1
+C2 P 0 5f m=1
+C3 S 0 5f m=1
+.ends
+
+.GLOBAL VCC
+.GLOBAL VSS
+**** begin user architecture code
+
+
+*.option method=gear
+
+
+.param VCC=1.8
+
+.include stimuli.cir
+.control
+* save all
+tran 0.4n 250n uic
+write test_carry_lookahead.raw
+.endc
+
+
+**** end user architecture code
+.end

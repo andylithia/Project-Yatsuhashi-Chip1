@@ -1,39 +1,47 @@
 ** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/untitled-5.sch
 **.subckt untitled-5
-
-
-
-XC3 nin net2 GND sky130_fd_pr__cap_vpp_01p8x01p8_m1m2_noshield
-R1 net1 nin 1k m=1
-V1 net2 GND 1.2
-V2 net1 GND DC 1.8 AC 1
+XM5 nop net5 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=10
+XM1 net1 net6 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=10
+Lload1 vsp net3 0.4n m=1
+Lload2 net4 vsp 0.4n m=1
+V1 net2 GND 0.9
+I1 net2 net1 PULSE(0 10n 1n 10p 10p 1n 2)
+R2 nop net6 3 m=1
+R3 net5 net1 3 m=1
+R1 net1 net3 1 m=1
+I2 net2 vsp 10m
+K1 Lload1 Lload2 0.9
+R5 nop net1 200 m=1
+R6 nop net4 1 m=1
+C1 nop net1 100f m=1
+C2 GND net1 10f m=1
+C3 GND nop 10f m=1
 **** begin user architecture code
-.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice ff
 * .include
 *+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 
-.subckt  sky130_fd_pr__cap_vpp_01p8x01p8_m1m2_noshield c0 c1 b
-.param  mult = 1.0    ctot_a = {7.833e-16*sky130_fd_pr__cap_vpp_01p8x01p8_m1m2_noshield__cor+0.85105/sqrt(mult/0.50527)*MC_MM_SWITCH*AGAUSS(0,0.0183,1)*7.833e-16*sky130_fd_pr__cap_vpp_01p8x01p8_m1m2_noshield__cor}
-+  cli2s = {4.548e-17*cli2s_vpp}  rat_m2 = 0.596  rat_m1 = 0.387  rat_m1li = 0.017  cap_m2 = {rat_m2*ctot_a}
-+  cap_m1 = {rat_m1*ctot_a}  cap_m1li = {rat_m1li*ctot_a}  nvia_c0 = 8.0  nvia_c1 = 4.0  ncon_c0 = 16.0
-rm21 c0 a1 r = {28*rm2}
-ccmvpp1p8x1p8 a1 c1  c = {cap_m2}
-rvia1 c0 d0 r = {rcvia/nvia_c0}
-rvia2 c1 d1 r = {rcvia/nvia_c1}
-rm11 d0 b1 r = {22*rm1}
-cm1 b1 d1 c = {cap_m1}
-rcon d0 e0 r = {rcl1/ncon_c0}
-rli1 e0 f0 r = {rl1}
-cli2b f0 b c = {cli2s}
-cm1li d1 e0 c = {cap_m1li}
-.ends sky130_fd_pr__cap_vpp_01p8x01p8_m1m2_noshield
-.ac dec 1000 10k 10e9
 
+.subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
+X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p
++ ps=3.198e+07u w=5.05e+06u l=150000u
+X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p
++ ps=2.14e+07u w=5.05e+06u l=150000u
+X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u
++ l=150000u
+X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+.ends
+.options savecurrents
+.tran 1ps 20ns
 .control
 run
 display
-plot v(nin)
+plot v(nop)
+plot v(nmid)
+plot @I1[i]
 .endc
 
 

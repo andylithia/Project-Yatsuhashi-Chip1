@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1658696863
+timestamp 1658893076
 << metal1 >>
 rect 26 1310 1266 1380
 rect 26 100 84 1310
@@ -127,15 +127,15 @@ rect 1020 -40 1060 40
 rect 1130 -40 1150 40
 rect 140 -60 1150 -40
 use sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 ~/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_pr/mag
-timestamp 1649977179
+timestamp 1658893076
 transform 1 0 -10 0 1 -10
 box 10 10 514 1204
 use sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1
-timestamp 1649977179
+timestamp 1658893076
 transform -1 0 908 0 1 -10
 box 10 10 514 1204
 use sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2
-timestamp 1649977179
+timestamp 1658893076
 transform 1 0 778 0 1 -10
 box 10 10 514 1204
 << labels >>

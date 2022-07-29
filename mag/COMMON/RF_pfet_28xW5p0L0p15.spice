@@ -1,0 +1,14 @@
+* SPICE3 file created from /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON/RF_pfet_28xW5p0L0p15.ext - technology: sky130A
+
+C0 G S 2.91fF
+C1 SD S 44.03fF
+C2 SD G 2.68fF
+Xsky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0 SD G S sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1 SD G S sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2 SD G S sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3 SD G S sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4 SD G S sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5 SD G S sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6 SD G S sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+C3 G VSUBS 2.12fF
+C4 S VSUBS 12.44fF

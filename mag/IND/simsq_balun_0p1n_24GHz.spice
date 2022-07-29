@@ -1,0 +1,5 @@
+* SPICE3 file created from /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/mag/IND/simsq_balun_0p1n_24GHz.ext - technology: sky130A
+
+C0 C G 45.93fF
+C1 C VSUBS 7.79fF
+C2 G VSUBS 122.30fF

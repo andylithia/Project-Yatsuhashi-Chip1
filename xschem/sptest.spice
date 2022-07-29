@@ -1,0 +1,29 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/sptest.sch
+**.subckt sptest
+V2 net1 GND dc 0 ac 1 portnum 1 z0 50
+V1 net2 GND dc 0 ac 1 portnum 2 z0 50
+L3 net3 net2 5n m=1
+C3 GND net1 1.76p m=1
+L1 GND net1 2.6n m=1
+C1 net1 net3 1p m=1
+**** begin user architecture code
+
+
+.sp dec 1000 1e9 10e9 1
+* .ac dec 1000 1e9 10e9
+.control
+run
+display
+* let z11=50*(1+s_1_1)/(1-s_1_1)
+* let z22=50*(1+s_2_2)/(1-s_2_2)
+* plot real(z11) real(z22)
+* plot imag(z11) imag(z22)
+plot db(S_1_1) db(S_2_2) db(S_2_1)
+plot S_1_1 smithgrid
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

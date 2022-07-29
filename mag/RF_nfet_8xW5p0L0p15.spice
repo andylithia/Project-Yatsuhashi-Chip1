@@ -1,0 +1,19 @@
+* SPICE3 file created from RF_nfet_8xW5p0L0p15.ext - technology: sky130A
+
+X0 S G SD S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 S G SD S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 SD G S S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 SD G S S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 S G SD S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 S G SD S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 SD G S S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X7 SD G S S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X8 S G SD S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 S G SD S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 SD G S S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 SD G S S sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+Xsky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p15_0 sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p15_0/DRAIN
++ sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p15_0/GATE sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p15_0/SOURCE
++ sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p15
+C0 G S 3.13fF **FLOATING
+C1 SD S 20.08fF **FLOATING

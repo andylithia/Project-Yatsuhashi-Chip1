@@ -1,0 +1,51 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/untitled-6.sch
+**.subckt untitled-6
+XM5 net2 net4 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+XM1 vop LOn net1 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+XM2 von LOp net1 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+Ltfm2 net2 net1 1n m=1
+C1 net3 vop 1p m=1
+R1 net3 vop 1k m=1
+C2 net3 von 1p m=1
+R2 net3 von 1k m=1
+V1 net3 GND 1.8
+V2 LOn GND SIN(0.9 1.8 5G 0 0 180)
+V3 LOp GND SIN(0.9 1.8 5G 0 0 0)
+V4 net4 GND SIN(0.9 0.5 5.1G 0 0 0)
+XM3 net6 net7 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+XM4 vop LOp net5 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+XM6 von LOn net5 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+Ltfm1 net6 net5 1n m=1
+V5 net7 GND SIN(0.9 0.5 5.1G 0 0 180)
+**** begin user architecture code
+
+
+.subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
+X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p
++ ps=3.198e+07u w=5.05e+06u l=150000u
+X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p
++ ps=2.14e+07u w=5.05e+06u l=150000u
+X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u
++ l=150000u
+X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+.ends
+.options savecurrents
+.tran 0.1ps 100ns
+.control
+run
+display
+plot v(von)
+plot v(nmid)
+.endc
+
+
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice ss
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

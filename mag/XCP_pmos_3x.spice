@@ -1,0 +1,12 @@
+* SPICE3 file created from XCP_pmos_3x.ext - technology: sky130A
+
+C0 G1 SUB 32.29fF
+C1 G2 SUB 32.17fF
+C2 G1 G2 10.38fF
+Xsky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15_0 G1 G2 SUB sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15_1 G1 G2 SUB sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15_2 G1 G2 SUB sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15_3 G2 G1 SUB sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15_4 G2 G1 SUB sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15
+Xsky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15_5 G2 G1 SUB sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15
+C3 SUB VSUBS 16.61fF

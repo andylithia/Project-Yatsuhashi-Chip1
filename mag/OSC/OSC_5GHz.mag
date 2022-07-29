@@ -1,0 +1,118 @@
+magic
+tech sky130A
+timestamp 1659105195
+<< error_s >>
+rect -1450 1175 -750 1245
+rect -1350 1055 -750 1125
+rect -2250 875 -1650 895
+rect -2200 835 -2125 855
+rect -1650 835 -1610 855
+rect -2200 795 -2125 815
+rect -1650 795 -1610 815
+rect -1570 775 -1525 1025
+rect -1450 895 -1405 1050
+rect -1450 825 -750 895
+rect -2250 755 -1650 775
+rect -1570 705 -1400 775
+rect -1470 595 -1400 705
+rect -1570 575 -1400 595
+rect -1350 705 -750 775
+rect -1350 475 -1280 705
+rect -1450 455 -1280 475
+<< metal1 >>
+rect -625 875 -620 905
+rect -105 875 -100 905
+rect -625 870 -100 875
+rect 155 750 1330 755
+rect -605 705 -80 710
+rect -605 675 -600 705
+rect -85 675 -80 705
+rect 155 695 160 750
+rect 1320 695 1330 750
+rect 155 690 1330 695
+rect -605 670 -80 675
+<< via1 >>
+rect -620 875 -105 905
+rect 170 855 1330 910
+rect -600 675 -85 705
+rect 160 695 1320 750
+<< metal2 >>
+rect -85 995 0 1005
+rect -85 935 -80 995
+rect -5 935 0 995
+rect -85 930 0 935
+rect -625 910 1335 915
+rect -625 905 50 910
+rect -625 875 -620 905
+rect -105 875 50 905
+rect -625 860 50 875
+rect 125 860 170 910
+rect -625 855 170 860
+rect 1330 855 1335 910
+rect -625 845 1335 855
+rect 155 750 1330 755
+rect 155 745 160 750
+rect -5 740 160 745
+rect -605 735 160 740
+rect -605 705 -80 735
+rect -605 675 -600 705
+rect -85 685 -80 705
+rect -5 695 160 735
+rect 1320 695 1330 750
+rect -5 690 1330 695
+rect -5 685 0 690
+rect -85 680 0 685
+rect -85 675 -65 680
+rect -605 670 -65 675
+rect 30 665 130 670
+rect 30 655 50 665
+rect -75 615 50 655
+rect 125 615 130 665
+rect -75 610 130 615
+<< via2 >>
+rect -80 935 -5 995
+rect 50 860 125 910
+rect -80 685 -5 735
+rect 50 615 125 665
+<< metal3 >>
+rect -85 995 55 1015
+rect -85 935 -80 995
+rect -5 955 55 995
+rect -5 935 0 955
+rect -85 735 0 935
+rect -85 685 -80 735
+rect -5 685 0 735
+rect -85 680 0 685
+rect 45 910 130 915
+rect 45 860 50 910
+rect 125 860 130 910
+rect 45 665 130 860
+rect 45 625 50 665
+rect 35 615 50 625
+rect 125 615 130 665
+rect 35 580 130 615
+use RF_nfet_8xW5p0L0p15  RF_nfet_8xW5p0L0p15_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1659104816
+transform 1 0 -435 0 1 -1100
+box -250 1105 430 1790
+use RF_nfet_8xW5p0L0p15  RF_nfet_8xW5p0L0p15_1
+timestamp 1659104816
+transform 1 0 -455 0 -1 2680
+box -250 1105 430 1790
+use RF_pfet_28xW5p0L0p15  RF_pfet_28xW5p0L0p15_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1659064067
+transform 1 0 -490 0 1 50
+box 490 -50 1940 693
+use RF_pfet_28xW5p0L0p15  RF_pfet_28xW5p0L0p15_1
+timestamp 1659064067
+transform 1 0 -481 0 -1 1545
+box 490 -50 1940 693
+use captuner_complete_1  captuner_complete_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1659105195
+transform -1 0 -2400 0 1 -275
+box -1650 500 -150 1700
+use square_ind_1p12n_5GHz  square_ind_1p12n_5GHz_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
+timestamp 1659057364
+transform 0 1 1970 -1 0 2239
+box 0 -400 10000 10000
+<< end >>

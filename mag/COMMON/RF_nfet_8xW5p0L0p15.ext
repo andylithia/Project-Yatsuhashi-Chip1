@@ -1,0 +1,37 @@
+timestamp 1659106999
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2 1 0 187 0 1 2289
+use sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1 1 0 -157 0 1 2289
+use sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0 1 0 -501 0 1 2289
+node "SD" 2 489.521 -340 3420 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 88800 2380 0 0 0 0 0 0 0 0
+node "m1_n5_3417#" 0 24.1316 -5 3417 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1452 176 0 0 0 0 0 0 0 0 0 0
+node "G" 2 526.553 -340 3520 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63000 2220 0 0 0 0 0 0 0 0 0 0
+node "a_n316_3429#" 1314 668.965 -316 3429 pc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7754 810 0 0 35564 2160 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "S" 0 0 -490 2230 ppd 0 0 0 0 0 0 0 0 0 0 270000 7180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 197500 7060 440992 8068 0 0 0 0 0 0 0 0 0 0
+cap "SD" "G" 39.5075
+cap "m1_n5_3417#" "SD" 19.7934
+cap "SD" "a_n316_3429#" 41.3666
+cap "m1_n5_3417#" "G" 32.9108
+cap "G" "a_n316_3429#" 23.0134
+cap "m1_n5_3417#" "a_n316_3429#" 14.0246
+cap "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 36.5841
+cap "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 277.21
+cap "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 152.354
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" -1399.39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9854 -1150 0 0 -29376 -1932 -63106 -3018 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "m1_n5_3417#"
+merge "m1_n5_3417#" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G"
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "G"
+merge "G" "a_n316_3429#"
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" -4167.28 0 0 0 0 0 0 0 0 -113120 -4264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -69224 -4208 -240132 -12182 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS"
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D"
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS"
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D"
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "S"
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" -1553.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -106005 -3156 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S"
+merge "sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "SD"
