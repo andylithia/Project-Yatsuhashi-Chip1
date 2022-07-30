@@ -1,0 +1,63 @@
+magic
+tech sky130A
+timestamp 1659147692
+<< metal3 >>
+rect -125 625 50 650
+rect -125 350 -100 625
+rect 25 350 50 625
+rect -125 325 50 350
+<< via3 >>
+rect 650 725 700 1000
+rect -100 350 25 625
+rect 780 600 830 880
+<< metal4 >>
+rect 600 2200 2400 3000
+rect 600 1600 1000 2200
+rect 650 1200 950 1600
+rect 100 1050 950 1200
+rect 625 1000 725 1050
+rect 625 725 650 1000
+rect 700 725 725 1000
+rect 625 700 725 725
+rect 770 880 860 900
+rect -125 625 50 650
+rect -125 350 -100 625
+rect 25 525 50 625
+rect 770 600 780 880
+rect 830 600 860 880
+rect 770 525 860 600
+rect 25 375 860 525
+rect 25 350 950 375
+rect -125 325 950 350
+rect 650 0 950 325
+rect 600 -600 1000 0
+rect 600 -1400 2400 -600
+use XCP_1  XCP_1_0
+timestamp 1659108117
+transform 1 0 720 0 1 0
+box -720 0 1459 1595
+use captuner_complete_2  captuner_complete_2_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1659146707
+transform 0 1 -1000 -1 0 1525
+box -575 -1250 1375 1250
+use sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1  sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_0 ~/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_pr/mag
+timestamp 1649977179
+transform 1 0 325 0 1 1650
+box 0 0 858 784
+use sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1  sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1
+timestamp 1649977179
+transform 1 0 1250 0 1 1650
+box 0 0 858 784
+use sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1  sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_2
+timestamp 1649977179
+transform 1 0 325 0 1 -875
+box 0 0 858 784
+use sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1  sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3
+timestamp 1649977179
+transform 1 0 1250 0 1 -875
+box 0 0 858 784
+use square_ind_1p12n_5GHz_mod  square_ind_1p12n_5GHz_mod_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
+timestamp 1659145761
+transform 0 1 2500 -1 0 5800
+box -200 -400 10000 10000
+<< end >>

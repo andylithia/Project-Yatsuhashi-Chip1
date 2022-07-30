@@ -1,0 +1,8 @@
+* SPICE3 file created from sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered.ext - technology: sky130A
+
+X0 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 S D 9.91fF
+C1 D B 2.61fF **FLOATING

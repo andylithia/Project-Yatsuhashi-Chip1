@@ -1,0 +1,33 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/fet_impedance_tb.sch
+**.subckt fet_impedance_tb
+V1 net2 GND 1
+V2 net1 GND 1.8
+R1 net2 vdd 0.1m m=1
+XM1 vdd net1 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2
+XM2 GND GND vdd net1 sky130_fd_pr__pfet_01v8 L=0.15 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=4 m=4
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice ff
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+
+.options savecurrents
+* .tran 1ps 20ns
+.dc V1 0 1.8 0.1
+.control
+run
+display
+* print @m.xm1.msky130_fd_pr__nfet_05v0_nvt[id]
+plot v(vdd)/@r1[i]
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

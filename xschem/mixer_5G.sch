@@ -43,11 +43,11 @@ lab=von}
 N 1310 -1110 1370 -1110 {
 lab=von}
 N 600 -1130 600 -1100 {
-lab=xxx}
+lab=vop}
 N 540 -1130 540 -1110 {
-lab=xxx}
+lab=vop}
 N 540 -1110 600 -1110 {
-lab=xxx}
+lab=vop}
 N 540 -1210 540 -1190 {
 lab=#net3}
 N 540 -1210 850 -1210 {
@@ -113,7 +113,7 @@ lab=GND}
 N 1250 -700 1250 -670 {
 lab=GND}
 N 1410 -1000 1480 -1000 {
-lab=LOp}
+lab=LOn}
 N 1080 -770 1080 -740 {
 lab=#net7}
 N 1080 -770 1210 -770 {
@@ -141,19 +141,19 @@ lab=von}
 N 1370 -1100 1370 -1030 {
 lab=von}
 N 600 -1100 600 -1030 {
-lab=xxx}
+lab=vop}
 N 850 -1060 850 -1030 {
 lab=von}
 N 850 -1060 1310 -1110 {
 lab=von}
 N 1120 -1060 1120 -1030 {
-lab=xxx}
+lab=vop}
 N 600 -1110 1120 -1060 {
-lab=xxx}
+lab=vop}
 N 360 -1210 360 -1140 {
 lab=#net3}
 N 450 -1110 540 -1110 {
-lab=xxx}
+lab=vop}
 C {devices/code_shown.sym} 2010 -1000 0 0 {name=s2 only_toplevel=false value="
 .subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
 X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p ps=3.198e+07u w=5.05e+06u l=150000u
@@ -187,7 +187,7 @@ device=inductor}
 C {devices/gnd.sym} 730 -670 0 0 {name=l1 lab=GND}
 C {devices/capa.sym} 600 -1160 0 0 {name=C1
 m=1
-value=1p
+value=2p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/res.sym} 540 -1160 0 0 {name=R1
@@ -197,7 +197,7 @@ device=resistor
 m=1}
 C {devices/capa.sym} 1370 -1160 0 0 {name=C2
 m=1
-value=1p
+value=2p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/res.sym} 1310 -1160 0 0 {name=R2
@@ -207,9 +207,9 @@ device=resistor
 m=1}
 C {devices/vsource.sym} 360 -850 0 0 {name=V1 value=1.8
 }
-C {devices/vsource.sym} 430 -850 0 0 {name=V2 value="SIN(0.9 1.8 5G 0 0 180)"
+C {devices/vsource.sym} 430 -850 0 0 {name=V2 value="SIN(0.9 0.9 5G 0 0 180)"
 }
-C {devices/vsource.sym} 960 -850 0 0 {name=V3 value="SIN(0.9 1.8 5G 0 0 0)"
+C {devices/vsource.sym} 960 -850 0 0 {name=V3 value="SIN(0.9 0.9 5G 0 0 0)"
 }
 C {devices/lab_wire.sym} 480 -1000 0 0 {name=l2 sig_type=std_logic lab=LOn}
 C {devices/lab_wire.sym} 940 -1000 0 0 {name=l3 sig_type=std_logic lab=LOp}
@@ -225,7 +225,6 @@ value=1n
 footprint=1206
 device=inductor}
 C {devices/gnd.sym} 1250 -670 0 0 {name=l5 lab=GND}
-C {devices/lab_wire.sym} 1460 -1000 0 0 {name=l6 sig_type=std_logic lab=LOp}
 C {devices/vsource.sym} 1080 -710 0 0 {name=V5 value="SIN(0.9 0.5 5.1G 0 0 180)"
 }
 C {devices/lab_wire.sym} 480 -1110 0 0 {name=l7 sig_type=std_logic lab=vop}
