@@ -16,7 +16,7 @@ N 120 -430 120 -400 {
 lab=n_ds1}
 N 10 -370 80 -370 {
 lab=vgate1}
-N 870 -510 870 -490 {
+N 810 -510 810 -490 {
 lab=GND}
 N 180 -370 180 -320 {
 lab=#net1}
@@ -52,12 +52,12 @@ N 60 -560 60 -540 {
 lab=#net5}
 N 120 -600 220 -600 {
 lab=#net7}
-N 850 -600 870 -600 {
-lab=#net8}
-N 870 -600 870 -570 {
-lab=#net8}
+N 790 -600 810 -600 {
+lab=vout}
+N 810 -600 810 -570 {
+lab=vout}
 N -360 -140 -360 -100 {
-lab=#net9}
+lab=vin}
 N -690 -370 -660 -370 {
 lab=GND}
 N -690 -370 -690 -310 {
@@ -105,19 +105,19 @@ lab=#net6}
 N 320 -340 340 -340 {
 lab=#net6}
 N 380 -400 380 -370 {
-lab=#net10}
+lab=#net8}
 N 470 -470 470 -310 {
-lab=#net11}
+lab=#net9}
 N 420 -220 530 -220 {
 lab=#net6}
 N 570 -400 570 -250 {
-lab=#net12}
+lab=#net10}
 N 520 -160 630 -160 {
-lab=#net6}
+lab=GND}
 N 570 -190 570 -120 {
 lab=GND}
 N 670 -470 670 -190 {
-lab=#net13}
+lab=#net11}
 N 380 -270 380 -100 {
 lab=GND}
 N 380 -100 670 -100 {
@@ -141,7 +141,7 @@ lab=GND}
 N 570 -180 590 -180 {
 lab=GND}
 N 320 -160 520 -160 {
-lab=#net6}
+lab=GND}
 N 320 -220 420 -220 {
 lab=#net6}
 N 380 -600 380 -460 {
@@ -168,8 +168,6 @@ N -430 -220 -360 -220 {
 lab=#net3}
 N 380 -600 670 -600 {
 lab=#net7}
-N 670 -600 790 -600 {
-lab=#net7}
 N 360 -600 380 -600 {
 lab=#net7}
 N -280 170 -280 210 {
@@ -189,19 +187,19 @@ lab=#net6}
 N -340 140 -320 140 {
 lab=#net6}
 N -280 80 -280 110 {
-lab=#net14}
+lab=#net12}
 N -190 10 -190 170 {
-lab=#net15}
+lab=#net13}
 N -240 260 -130 260 {
 lab=#net6}
 N -90 80 -90 230 {
-lab=#net16}
+lab=#net14}
 N -140 320 -30 320 {
 lab=GND}
 N -90 290 -90 360 {
 lab=#net2}
 N 10 10 10 290 {
-lab=#net17}
+lab=#net15}
 N -280 210 -280 380 {
 lab=#net2}
 N -280 380 10 380 {
@@ -255,19 +253,19 @@ lab=#net2}
 N -340 410 -260 410 {
 lab=GND}
 N 120 -800 120 -780 {
-lab=#net18}
+lab=#net16}
 N 120 -720 120 -690 {
-lab=#net19}
+lab=#net17}
 N -50 -860 120 -860 {
 lab=#net6}
 N -50 -860 -50 -710 {
 lab=#net6}
 N 120 -710 230 -730 {
-lab=#net19}
+lab=#net17}
 N 120 -220 180 -220 {
 lab=#net1}
 N 120 -100 120 -80 {
-lab=#net20}
+lab=#net18}
 N 120 -20 120 20 {
 lab=GND}
 N 120 -220 120 -160 {
@@ -284,18 +282,36 @@ N -750 -860 -50 -860 {
 lab=#net6}
 N -750 -860 -750 -670 {
 lab=#net6}
-N 120 -860 320 -860 {
-lab=#net6}
-N -660 -530 -660 -520 {
+N 320 -160 320 -100 {
 lab=GND}
-N -340 140 -340 260 {
+N 320 -860 320 -220 {
+lab=#net6}
+N 120 -860 320 -860 {
 lab=#net6}
 N -340 320 -340 410 {
 lab=GND}
-N -340 140 -300 -860 {
+N -660 -530 -660 -520 {
+lab=GND}
+N -340 -860 -340 260 {
 lab=#net6}
-N 320 -860 320 -160 {
-lab=#net6}
+N 670 -600 690 -600 {
+lab=#net7}
+N 750 -600 790 -600 {
+lab=vout}
+N -140 -390 -140 -370 {
+lab=vgate1}
+N -140 -600 -140 -510 {
+lab=#net7}
+N -140 -600 120 -600 {
+lab=#net7}
+N -550 -50 -530 -50 {
+lab=vsrc}
+N -550 -50 -550 -20 {
+lab=vsrc}
+N -470 -50 -360 -50 {
+lab=vin}
+N -360 -100 -360 -50 {
+lab=vin}
 C {devices/code.sym} 1220 -840 0 0 {name=TT_MODELS only_toplevel=false
 format="tcleval(@value )" value=".lib \\\\$::SKYWATER_MODELS\\\\/sky130.lib.spice tt
 * .include \\\\$::PDKPATH\\\\/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
@@ -309,33 +325,25 @@ X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w
 X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 .ends
-.sp dec 1000 1e9 10e9 1
-* .ac dec 1000 0.01e9 100e9 
+.tran 1ps 100ns
 .control
 run
 display
-let z11=50*(1+s_1_1)/(1-s_1_1)
-let z22=50*(1+s_2_2)/(1-s_2_2)
-plot real(z11) real(z22)
-plot imag(z11) imag(z22)
-plot db(S_1_1) db(S_2_2) db(S_2_1)
+plot vin
+plot vout
+
 .endc
 "}
 C {devices/gnd.sym} 120 20 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} -750 -640 0 0 {name=V1 value=1.8}
 C {devices/gnd.sym} -750 -610 0 0 {name=l3 lab=GND}
-C {devices/gnd.sym} -360 -40 0 0 {name=l6 lab=GND}
+C {devices/gnd.sym} -550 40 0 0 {name=l6 lab=GND}
 C {devices/lab_wire.sym} 80 -370 0 0 {name=l8 sig_type=std_logic lab=vgate1}
 C {devices/lab_wire.sym} -470 -370 0 0 {name=l9 sig_type=std_logic lab=vbias1}
 C {devices/lab_wire.sym} 120 -410 0 0 {name=l10 sig_type=std_logic lab=n_ds1}
-C {devices/gnd.sym} 870 -490 0 0 {name=l5 lab=GND}
-C {devices/vsource.sym} -360 -70 0 0 {name=V2 value="dc 0 ac 1 portnum 1 z0 50"
-}
-C {devices/vsource.sym} 870 -540 0 0 {name=V3 value="dc 0 ac 1 portnum 2 z0 50"
-}
 C {devices/ind.sym} 120 -270 0 0 {name=Ldeg3
 m=1
-value=0.7n
+value=0.3n
 footprint=1206
 device=inductor}
 C {devices/capa.sym} -360 -170 0 0 {name=C2
@@ -345,7 +353,7 @@ value=1n
 footprint=1206
 device="ceramic capacitor"}
 C {devices/res.sym} -440 -370 1 0 {name=R1
-value=5k
+value=2k
 footprint=1206
 device=resistor
 m=1}
@@ -398,7 +406,7 @@ C {devices/nmos4.sym} 450 -280 0 0 {name=XM4 model=sky130_fd_pr__rf_nfet_01v8_bM
 C {devices/nmos4.sym} 550 -220 0 0 {name=XM6 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1}
 C {devices/nmos4.sym} 650 -160 0 0 {name=XM7 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1}
 C {devices/gnd.sym} 380 -60 0 0 {name=l7 lab=GND}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 820 -600 1 0 {name=C12 model=cap_mim_m3_1 W=10 L=6 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 720 -600 1 0 {name=C12 model=cap_mim_m3_1 W=10 L=6 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 60 -510 0 0 {name=C1 model=cap_mim_m3_1 W=10 L=10 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -590 -340 0 0 {name=C7 model=cap_mim_m3_1 W=20 L=10 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -280 50 0 0 {name=C13 model=cap_mim_m3_1 W=7 L=1 MF=1 spiceprefix=X}
@@ -444,3 +452,25 @@ value=10p
 
 footprint=1206
 device="ceramic capacitor"}
+C {devices/res.sym} -140 -480 2 0 {name=R5
+value=2k
+footprint=1206
+device=resistor
+m=1}
+C {sky130_fd_pr/cap_mim_m3_1.sym} -140 -420 0 0 {name=C17 model=cap_mim_m3_1 W=10 L=100 MF=1 spiceprefix=X}
+C {devices/vsource.sym} -550 10 0 0 {name=V4 value="dc 0 ac 1 SIN(0 0.01 5G)"
+}
+C {devices/res.sym} -500 -50 1 0 {name=R6
+value=50
+footprint=1206
+device=resistor
+m=1}
+C {devices/res.sym} 810 -540 2 0 {name=R7
+value=50
+footprint=1206
+device=resistor
+m=1}
+C {devices/gnd.sym} 810 -490 0 0 {name=l5 lab=GND}
+C {devices/lab_wire.sym} 810 -600 0 0 {name=l16 sig_type=std_logic lab=vout}
+C {devices/lab_wire.sym} -420 -50 0 0 {name=l17 sig_type=std_logic lab=vin}
+C {devices/lab_wire.sym} -550 -50 0 0 {name=l18 sig_type=std_logic lab=vsrc}

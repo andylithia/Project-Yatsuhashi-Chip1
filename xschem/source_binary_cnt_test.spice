@@ -1,0 +1,21 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/source_binary_cnt_test.sch
+**.subckt source_binary_cnt_test
+V5 VC0 GND PULSE(0 1.8 10n 0.1n 0.1n 10n 20n)
+V1 VC1 GND PULSE(0 1.8 20n 0.1n 0.1n 20n 40n)
+V2 VC2 GND PULSE(0 1.8 40n 0.1n 0.1n 40n 80n)
+V3 VC3 GND PULSE(0 1.8 80n 0.1n 0.1n 80n 160n)
+V4 VC4 GND PULSE(0 1.8 160n 0.1n 0.1n 160n 320n)
+**** begin user architecture code
+
+
+.options savecurrents
+.tran 1ps 320ns
+.control
+run
+display
+.endc
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

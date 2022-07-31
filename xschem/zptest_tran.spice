@@ -1,0 +1,78 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/zptest_tran.sch
+**.subckt zptest_tran
+V1 net6 GND 1.8
+Ldeg3 net2 net1 0.3n m=1
+C2 net3 vin 1n m=1
+R1 vgate1 vbias1 2k m=1
+C4 net3 GND 50f m=1
+Ldeg1 vgate1 net4 2n m=1
+Ldeg4 net4 net3 1n m=1
+C6 net4 GND 50f m=1
+R2 net5 net6 2k m=1
+I0 GND vbias1 1m
+Ldeg2 net17 net7 3n m=1
+XM5 n_ds1 vgate1 net2 net1 sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6
+XM1 vbias1 vbias1 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XM2 net7 net5 n_ds1 net1 sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6
+XC5 net7 net8 sky130_fd_pr__cap_mim_m3_1 W=5 L=1 MF=1 m=1
+XC10 net7 net9 sky130_fd_pr__cap_mim_m3_1 W=5 L=2 MF=1 m=1
+XC9 net7 net10 sky130_fd_pr__cap_mim_m3_1 W=5 L=4 MF=1 m=1
+XC11 net7 net11 sky130_fd_pr__cap_mim_m3_1 W=5 L=8 MF=1 m=1
+XM3 net8 net6 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XM4 net9 net6 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XM6 net10 net6 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XM7 net11 GND GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XC12 vout net7 sky130_fd_pr__cap_mim_m3_1 W=10 L=6 MF=1 m=1
+XC1 net5 GND sky130_fd_pr__cap_mim_m3_1 W=10 L=10 MF=1 m=1
+XC7 vbias1 GND sky130_fd_pr__cap_mim_m3_1 W=20 L=10 MF=1 m=1
+XC13 vgate1 net12 sky130_fd_pr__cap_mim_m3_1 W=7 L=1 MF=1 m=1
+XC14 vgate1 net13 sky130_fd_pr__cap_mim_m3_1 W=7 L=2 MF=1 m=1
+XC15 vgate1 net14 sky130_fd_pr__cap_mim_m3_1 W=7 L=4 MF=1 m=1
+XC16 vgate1 net15 sky130_fd_pr__cap_mim_m3_1 W=7 L=8 MF=1 m=1
+XM8 net12 net6 net2 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XM9 net13 net6 net2 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XM10 net14 net6 net2 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XM11 net15 GND net2 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+Ldeg5 net16 net17 2n m=1
+R3 net16 net6 5 m=1
+C3 net17 GND 10p m=1
+Ldeg6 net18 GND 2n m=1
+R4 net18 net1 5 m=1
+C8 net1 GND 10p m=1
+R5 net19 net7 2k m=1
+XC17 net19 vgate1 sky130_fd_pr__cap_mim_m3_1 W=10 L=100 MF=1 m=1
+V4 vsrc GND dc 0 ac 1 SIN(0 0.01 5G)
+R6 vin vsrc 50 m=1
+R7 GND vout 50 m=1
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+
+.subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
+X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p
++ ps=3.198e+07u w=5.05e+06u l=150000u
+X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p
++ ps=2.14e+07u w=5.05e+06u l=150000u
+X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u
++ l=150000u
+X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+.ends
+.tran 1ps 100ns
+.control
+run
+display
+plot vin
+plot vout
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

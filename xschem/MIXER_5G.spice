@@ -1,0 +1,69 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/MIXER_5G.sch
+**.subckt MIXER_5G
+XM1 vop LOn vdl GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+XM2 von LOp vdl GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+C1 net1 vop 0.08p m=1
+R1 net1 vop 2k m=1
+C2 net1 von 0.08p m=1
+R2 net1 von 2k m=1
+V1 net1 GND 1.8
+V2 LOn GND SIN(0.9 0.9 5G 0 0 180)
+V3 LOp GND SIN(0.9 0.9 5G 0 0 0)
+V4 vsp GND SIN(0.9 0.01 5.1G 0 0 0)
+XM4 vop LOp net2 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+XM6 von LOn net2 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
+V5 vsn GND SIN(0.9 0.01 5.1G 0 0 180)
+L3 vgp net3 6.5n m=1
+L1 vgn net4 6.5n m=1
+L2 net6 GND 0.5n m=1
+L4 net5 GND 0.5n m=1
+R3 net3 vsp 50 m=1
+R4 net4 vsn 50 m=1
+XM7 vdl vgp net5 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6
+XM8 net2 vgn net6 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6
+L7 net7 vdl 1n m=1
+C3 net7 GND 100f m=1
+R5 net1 net7 200 m=1
+L8 net8 net2 1n m=1
+C4 net8 GND 100f m=1
+R6 net1 net8 200 m=1
+**** begin user architecture code
+
+
+.subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
+X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p
++ ps=3.198e+07u w=5.05e+06u l=150000u
+X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p
++ ps=2.14e+07u w=5.05e+06u l=150000u
+X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u
++ l=150000u
+X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+.ends
+* .options savecurrents
+.tran 0.1ps 20ns
+.control
+run
+display
+let vo = v(vop)-v(von)
+let vs = v(vsp)-v(vsn)
+let vg = v(vgp)-v(vgn)
+plot v(von) v(vop)
+plot vo
+plot vs
+plot vg
+fft vo vs vg
+plot db(vo) db(vs)
+
+.endc
+
+
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

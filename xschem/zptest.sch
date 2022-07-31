@@ -16,7 +16,7 @@ N 120 -430 120 -400 {
 lab=n_ds1}
 N 10 -370 80 -370 {
 lab=vgate1}
-N 870 -510 870 -490 {
+N 810 -510 810 -490 {
 lab=GND}
 N 180 -370 180 -320 {
 lab=#net1}
@@ -52,9 +52,9 @@ N 60 -560 60 -540 {
 lab=#net5}
 N 120 -600 220 -600 {
 lab=#net7}
-N 850 -600 870 -600 {
+N 790 -600 810 -600 {
 lab=#net8}
-N 870 -600 870 -570 {
+N 810 -600 810 -570 {
 lab=#net8}
 N -360 -140 -360 -100 {
 lab=#net9}
@@ -167,8 +167,6 @@ lab=#net4}
 N -430 -220 -360 -220 {
 lab=#net3}
 N 380 -600 670 -600 {
-lab=#net7}
-N 670 -600 790 -600 {
 lab=#net7}
 N 360 -600 380 -600 {
 lab=#net7}
@@ -296,6 +294,16 @@ N -660 -530 -660 -520 {
 lab=GND}
 N -340 -860 -340 260 {
 lab=#net6}
+N 670 -600 690 -600 {
+lab=#net7}
+N 750 -600 790 -600 {
+lab=#net8}
+N -140 -390 -140 -370 {
+lab=vgate1}
+N -140 -600 -140 -510 {
+lab=#net7}
+N -140 -600 120 -600 {
+lab=#net7}
 C {devices/code.sym} 1220 -840 0 0 {name=TT_MODELS only_toplevel=false
 format="tcleval(@value )" value=".lib \\\\$::SKYWATER_MODELS\\\\/sky130.lib.spice tt
 * .include \\\\$::PDKPATH\\\\/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
@@ -314,11 +322,26 @@ X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w
 .control
 run
 display
+
+let S11 = S_1_1
+let S21 = S_2_1
+let S12 = S_1_2
+let S22 = S_2_2
+
+* Stability
+let delta=S11*S22-S12*S21
+let K    = (1-mag(S11)^2-mag(S22)^2+mag(delta)^2)/(2*mag(S12*S21))
+let mu   = (1-mag(S11)^2)/(mag(S22-conj(S11)*delta)+mag(S21*S12))
+
 let z11=50*(1+s_1_1)/(1-s_1_1)
 let z22=50*(1+s_2_2)/(1-s_2_2)
 plot real(z11) real(z22)
 plot imag(z11) imag(z22)
 plot db(S_1_1) db(S_2_2) db(S_2_1)
+
+plot mag(delta)
+plot (K)
+plot (mu)
 .endc
 "}
 C {devices/gnd.sym} 120 20 0 0 {name=l1 lab=GND}
@@ -328,14 +351,14 @@ C {devices/gnd.sym} -360 -40 0 0 {name=l6 lab=GND}
 C {devices/lab_wire.sym} 80 -370 0 0 {name=l8 sig_type=std_logic lab=vgate1}
 C {devices/lab_wire.sym} -470 -370 0 0 {name=l9 sig_type=std_logic lab=vbias1}
 C {devices/lab_wire.sym} 120 -410 0 0 {name=l10 sig_type=std_logic lab=n_ds1}
-C {devices/gnd.sym} 870 -490 0 0 {name=l5 lab=GND}
+C {devices/gnd.sym} 810 -490 0 0 {name=l5 lab=GND}
 C {devices/vsource.sym} -360 -70 0 0 {name=V2 value="dc 0 ac 1 portnum 1 z0 50"
 }
-C {devices/vsource.sym} 870 -540 0 0 {name=V3 value="dc 0 ac 1 portnum 2 z0 50"
+C {devices/vsource.sym} 810 -540 0 0 {name=V3 value="dc 0 ac 1 portnum 2 z0 50"
 }
 C {devices/ind.sym} 120 -270 0 0 {name=Ldeg3
 m=1
-value=0.5n
+value=0.3n
 footprint=1206
 device=inductor}
 C {devices/capa.sym} -360 -170 0 0 {name=C2
@@ -345,7 +368,7 @@ value=1n
 footprint=1206
 device="ceramic capacitor"}
 C {devices/res.sym} -440 -370 1 0 {name=R1
-value=5k
+value=2k
 footprint=1206
 device=resistor
 m=1}
@@ -398,7 +421,7 @@ C {devices/nmos4.sym} 450 -280 0 0 {name=XM4 model=sky130_fd_pr__rf_nfet_01v8_bM
 C {devices/nmos4.sym} 550 -220 0 0 {name=XM6 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1}
 C {devices/nmos4.sym} 650 -160 0 0 {name=XM7 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1}
 C {devices/gnd.sym} 380 -60 0 0 {name=l7 lab=GND}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 820 -600 1 0 {name=C12 model=cap_mim_m3_1 W=10 L=6 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 720 -600 1 0 {name=C12 model=cap_mim_m3_1 W=10 L=6 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 60 -510 0 0 {name=C1 model=cap_mim_m3_1 W=10 L=10 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -590 -340 0 0 {name=C7 model=cap_mim_m3_1 W=20 L=10 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -280 50 0 0 {name=C13 model=cap_mim_m3_1 W=7 L=1 MF=1 spiceprefix=X}
@@ -444,3 +467,9 @@ value=10p
 
 footprint=1206
 device="ceramic capacitor"}
+C {devices/res.sym} -140 -480 2 0 {name=R5
+value=2k
+footprint=1206
+device=resistor
+m=1}
+C {sky130_fd_pr/cap_mim_m3_1.sym} -140 -420 0 0 {name=C17 model=cap_mim_m3_1 W=10 L=100 MF=1 spiceprefix=X}

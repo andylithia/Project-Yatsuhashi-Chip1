@@ -3,9 +3,9 @@
 V1 net6 GND 1.8
 V2 net9 GND dc 0 ac 1 portnum 1 z0 50
 V3 net8 GND dc 0 ac 1 portnum 2 z0 50
-Ldeg3 net2 net1 0.7n m=1
+Ldeg3 net2 net1 0.5n m=1
 C2 net3 net9 1n m=1
-R1 vgate1 vbias1 5k m=1
+R1 vgate1 vbias1 2k m=1
 C4 net3 GND 50f m=1
 Ldeg1 vgate1 net4 2n m=1
 Ldeg4 net4 net3 1n m=1
@@ -23,7 +23,7 @@ XC11 net7 net13 sky130_fd_pr__cap_mim_m3_1 W=5 L=8 MF=1 m=1
 XM3 net10 net6 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
 XM4 net11 net6 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
 XM6 net12 net6 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
-XM7 net13 net6 GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
+XM7 net13 GND GND GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1
 XC12 net8 net7 sky130_fd_pr__cap_mim_m3_1 W=10 L=6 MF=1 m=1
 XC1 net5 GND sky130_fd_pr__cap_mim_m3_1 W=10 L=10 MF=1 m=1
 XC7 vbias1 GND sky130_fd_pr__cap_mim_m3_1 W=20 L=10 MF=1 m=1
@@ -41,6 +41,8 @@ C3 net19 GND 10p m=1
 Ldeg6 net20 GND 2n m=1
 R4 net20 net1 5 m=1
 C8 net1 GND 10p m=1
+R5 net21 net7 2k m=1
+XC17 net21 vgate1 sky130_fd_pr__cap_mim_m3_1 W=10 L=100 MF=1 m=1
 **** begin user architecture code
 .lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 * .include
@@ -64,11 +66,26 @@ X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w
 .control
 run
 display
+
+let S11 = S_1_1
+let S21 = S_2_1
+let S12 = S_1_2
+let S22 = S_2_2
+
+* Stability
+let delta=S11*S22-S12*S21
+let K    = (1-mag(S11)^2-mag(S22)^2+mag(delta)^2)/(2*mag(S12*S21))
+let mu   = (1-mag(S11)^2)/(mag(S22-conj(S11)*delta)+mag(S21*S12))
+
 let z11=50*(1+s_1_1)/(1-s_1_1)
 let z22=50*(1+s_2_2)/(1-s_2_2)
 plot real(z11) real(z22)
 plot imag(z11) imag(z22)
 plot db(S_1_1) db(S_2_2) db(S_2_1)
+
+plot mag(delta)
+plot (K)
+plot (mu)
 .endc
 
 

@@ -1,0 +1,114 @@
+* SPICE3 file created from OSC_5GHz_wo_ind.ext - technology: sky130A
+
+X0 I2 G0 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 I2 G0 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S G0 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S G0 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 I2 G1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 I2 G1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S G1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X7 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S G1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X8 I2 G2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 I2 G2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S G2 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S G2 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X12 I2 G3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X13 I2 G3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X14 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S G3 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X15 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S G3 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X16 I2 G3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X17 I2 G3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X18 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S G3 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X19 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S G3 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X20 I2 G4 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X21 I2 G4 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X22 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S G4 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X23 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S G4 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X24 I2 G4 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X25 I2 G4 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X26 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S G4 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X27 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S G4 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X28 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=1e+07u
+X29 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S sky130_fd_pr__cap_mim_m3_1 l=1e+06u w=5e+06u
+X30 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S sky130_fd_pr__cap_mim_m3_1 l=8e+06u w=1e+07u
+X31 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S sky130_fd_pr__cap_mim_m3_1 l=1e+06u w=1e+07u
+X32 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=1e+07u
+X33 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X34 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X35 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X36 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X37 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X38 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X39 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X40 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X41 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X42 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X43 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X44 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X45 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X46 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X47 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X48 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X49 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X50 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X51 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X52 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X53 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X54 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X55 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X56 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S I2 10.36fF
+C1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S I1 2.57fF
+C2 I2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S 20.62fF
+C3 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S 4.41fF
+C4 G4 I2 2.69fF
+C5 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S I2 10.35fF
+C6 I2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S 21.16fF
+C7 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S I2 10.32fF
+C8 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S 8.73fF
+C9 VH I2 56.20fF
+C10 VH I1 56.69fF
+C11 I2 I1 20.88fF
+C12 I2 G3 2.54fF
+Xsky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_0 VL VH VL sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+Xsky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1 VL VH VL sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+Xsky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_2 VL VH VL sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0 I2 I1
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1 I2 I1
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2 I2 I1
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3 I2 I1
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4 I2 I1
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5 I2 I1
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6 I2 I1
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0 I1 I2
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1 I1 I2
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2 I1 I2
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3 I1 I2
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4 I1 I2
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5 I1 I2
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6 I1 I2
++ VH sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+Xsky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3 VL VH VL sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+C13 I1 VL 29.45fF
+C14 I2 VL 45.54fF
+C15 VH VL 543.94fF
+C16 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL 6.47fF **FLOATING
+C17 G4 VL 5.45fF **FLOATING
+C18 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL 2.68fF **FLOATING
+C19 G3 VL 4.98fF **FLOATING
+C20 G2 VL 3.01fF **FLOATING
+C21 G1 VL 2.97fF **FLOATING
+C22 G0 VL 3.07fF **FLOATING

@@ -1,0 +1,23 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/ring_osc.sch
+**.subckt ring_osc
+V1 VDD GND 1.8
+x1 Q GND GND VDD VDD net1 sky130_fd_sc_hd__inv_1
+x2 net1 GND GND VDD VDD net2 sky130_fd_sc_hd__inv_1
+x3 net2 GND GND VDD VDD Q sky130_fd_sc_hd__inv_1
+**** begin user architecture code
+
+
+.options savecurrents
+.tran 1ps 10ns
+.control
+run
+display
+.endc
+
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice ff
+.include /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
