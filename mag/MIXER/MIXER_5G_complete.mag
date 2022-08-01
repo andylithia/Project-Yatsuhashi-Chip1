@@ -1,0 +1,19 @@
+magic
+tech sky130A
+timestamp 1659324197
+<< error_s >>
+rect 2360 4260 3140 4270
+rect 2360 30 3140 40
+use MIXER_5G_core  MIXER_5G_core_0
+timestamp 1659323209
+transform 1 0 580 0 1 2400
+box -580 -2400 4940 1900
+use spiral_ind_0p630nH_5GHz_to_gnd_noPGS  spiral_ind_0p630nH_5GHz_to_gnd_noPGS_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
+timestamp 1659324110
+transform 0 1 -500 -1 0 12200
+box 0 -800 7900 6500
+use spiral_ind_0p630nH_5GHz_to_gnd_noPGS  spiral_ind_0p630nH_5GHz_to_gnd_noPGS_1
+timestamp 1659324110
+transform 0 1 -500 1 0 -7900
+box 0 -800 7900 6500
+<< end >>

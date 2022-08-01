@@ -1,0 +1,124 @@
+magic
+tech sky130A
+timestamp 1659305899
+<< metal3 >>
+rect 1030 1570 1600 1660
+rect 1030 1270 1150 1570
+rect 1030 1180 1600 1270
+rect 1720 570 2800 660
+rect 4170 575 4695 655
+rect 2190 270 2300 570
+rect 4585 270 4695 575
+rect 1720 180 2800 270
+rect 4170 190 4695 270
+rect -580 -40 340 -30
+rect -580 -180 120 -40
+rect 330 -180 340 -40
+rect -580 -190 340 -180
+rect -580 -320 340 -310
+rect -580 -460 120 -320
+rect 330 -460 340 -320
+rect -580 -470 340 -460
+rect 1720 -790 2800 -700
+rect 4170 -770 4695 -690
+rect 2190 -1090 2300 -790
+rect 4585 -1075 4695 -770
+rect 1720 -1180 2800 -1090
+rect 4170 -1155 4695 -1075
+rect 1030 -1790 1600 -1700
+rect 1030 -2090 1150 -1790
+rect 1030 -2180 1600 -2090
+<< via3 >>
+rect 120 -180 330 -40
+rect 120 -460 330 -320
+<< metal4 >>
+rect -480 910 1190 1040
+rect 1315 910 1455 1060
+rect 1805 910 1945 1060
+rect 3270 910 4940 1040
+rect -480 780 1950 910
+rect 2510 780 4940 910
+rect -480 -1280 -170 780
+rect 110 -40 2290 50
+rect 2480 30 4350 50
+rect 110 -180 120 -40
+rect 330 -70 2290 -40
+rect 330 -180 1950 -70
+rect 110 -190 1950 -180
+rect 110 -320 1950 -310
+rect 110 -460 120 -320
+rect 330 -350 1950 -320
+rect 330 -460 1780 -350
+rect 110 -530 1780 -460
+rect 2080 -430 2290 -70
+rect 2590 -150 4350 30
+rect 2510 -190 4350 -150
+rect 2510 -430 4350 -310
+rect 1960 -530 1980 -430
+rect 110 -550 1980 -530
+rect 2080 -550 4350 -430
+rect 4630 -1280 4940 780
+rect -480 -1410 1950 -1280
+rect 2510 -1410 4940 -1280
+rect -480 -1540 1190 -1410
+rect 2515 -1560 2655 -1410
+rect 3005 -1560 3145 -1410
+rect 3270 -1540 4940 -1410
+<< via4 >>
+rect 1780 -530 1960 -350
+rect 2410 -150 2590 30
+<< metal5 >>
+rect 2390 30 2610 50
+rect 2390 -130 2410 30
+rect 1760 -150 2410 -130
+rect 2590 -150 2610 30
+rect 1760 -350 2610 -150
+rect 1760 -530 1780 -350
+rect 1960 -380 2610 -350
+rect 1960 -530 1990 -380
+rect 1760 -550 1990 -530
+use OSC_5GHz_1  OSC_5GHz_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/OSC
+timestamp 1659241608
+transform 1 0 440 0 1 -3635
+box 5000 -1400 20650 8800
+use RF_nfet_12xW5p0L0p15_fingered_2x  RF_nfet_12xW5p0L0p15_fingered_2x_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/MIXER
+timestamp 1659304084
+transform 1 0 0 0 1 0
+box 0 0 2060 840
+use RF_nfet_12xW5p0L0p15_fingered_2x  RF_nfet_12xW5p0L0p15_fingered_2x_1
+timestamp 1659304084
+transform 1 0 2400 0 1 0
+box 0 0 2060 840
+use RF_nfet_12xW5p0L0p15_fingered_2x  RF_nfet_12xW5p0L0p15_fingered_2x_2
+timestamp 1659304084
+transform 1 0 1200 0 1 1000
+box 0 0 2060 840
+use RF_nfet_12xW5p0L0p15_fingered_2x  RF_nfet_12xW5p0L0p15_fingered_2x_3
+timestamp 1659304084
+transform 1 0 1200 0 -1 -1500
+box 0 0 2060 840
+use RF_nfet_12xW5p0L0p15_fingered_2x  RF_nfet_12xW5p0L0p15_fingered_2x_4
+timestamp 1659304084
+transform 1 0 2400 0 -1 -500
+box 0 0 2060 840
+use RF_nfet_12xW5p0L0p15_fingered_2x  RF_nfet_12xW5p0L0p15_fingered_2x_5
+timestamp 1659304084
+transform 1 0 0 0 -1 -500
+box 0 0 2060 840
+use lna_complete_1  lna_complete_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/LNA
+timestamp 1659151574
+transform -1 0 -9750 0 -1 14235
+box -15400 -13600 6050 11720
+use lna_complete_1  lna_complete_1_1
+timestamp 1659151574
+transform -1 0 -9910 0 1 -15415
+box -15400 -13600 6050 11720
+use spiral_ind_0p530nH_4ohms_5GHz  spiral_ind_0p530nH_4ohms_5GHz_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
+timestamp 1659290390
+transform 1 0 -920 0 1 2585
+box -200 -200 6500 6900
+use spiral_ind_0p530nH_4ohms_5GHz  spiral_ind_0p530nH_4ohms_5GHz_1
+timestamp 1659290390
+transform 1 0 -980 0 -1 -3210
+box -200 -200 6500 6900
+<< end >>

@@ -304,64 +304,51 @@ lab=vbiasn}
 N 1030 -560 1030 -550 {
 lab=GND}
 C {devices/code_shown.sym} 1540 -980 0 0 {name=s2 only_toplevel=false value="
-.subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
-X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p ps=3.198e+07u w=5.05e+06u l=150000u
-X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p ps=2.14e+07u w=5.05e+06u l=150000u
-X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+
+.subckt NFET_extract_1 SD1 SD2 G1 G2 SUB
+X0 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X7 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X8 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 SUB SD1 3.04fF
+C1 G2 SD2 3.72fF
+C2 G2 SD1 4.78fF
+C3 SD1 SD2 30.67fF
+C4 G2 SUB 2.48fF
+C5 G2 SUB 3.11fF 
+C6 SD1 SUB 6.93fF
 .ends
 
-.subckt NFET_extract D G S B 
-X0 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X1 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X2 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X3 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-C0 S D 9.91fF
-C1 D B 2.61fF
-.ends
+* Input Transconductance
+XMEXT_0_0 vdl S1 vgp vgp GND NFET_extract_1
+XMEXT_0_1 vdl S1 vgp vgp GND NFET_extract_1
+XMEXT_1_0 vdr S2 vgn vgn GND NFET_extract_1
+XMEXT_1_1 vdr S2 vgn vgn GND NFET_extract_1
 
-.subckt NFET_extract_1 D G S B
+* Current Source
 
- .subckt sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE
-  X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=1.414e+12p pd=1.066e+07u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
-  X1 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-  C0 SOURCE DRAIN 3.73fF
-  C1 SOURCE SUBSTRATE 2.58fF
- .ends
-
-C0 B G 2.85fF
-C1 S D 22.23fF
-C2 G D 5.77fF
-C3 S G 7.53fF
-Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-C4 S B 13.70fF
-C5 G B 3.35fF
-
-.ends
+XMEXT_IREF_0 vbiasn GND vbiasn vbiasn GND NFET_extract_1
+XMEXT_IREF_1 vbiasn GND vbiasn vbiasn GND NFET_extract_1
 
 
-XMEXT_0_0 vdl vgp S1 GND NFET_extract_1
-XMEXT_0_1 vdl vgp S1 GND NFET_extract_1
+* Switches
+XMEXT_l1_0 vop vdl LOn LOn GND NFET_extract_1
+XMEXT_l2_0 von vdl LOp LOp GND NFET_extract_1
+XMEXT_r1_0 vop vdr LOp LOp GND NFET_extract_1
+XMEXT_r2_0 von vdr LOn LOn GND NFET_extract_1
 
-XMEXT_1_0 vdr vgn S2 GND NFET_extract_1
-XMEXT_1_1 vdr vgn S2 GND NFET_extract_1
-
-XMEXT_l1_0 vop LOn vdl GND NFET_extract_1
-XMEXT_l2_0 von LOp vdl GND NFET_extract_1
-XMEXT_r1_0 vop LOp vdr GND NFET_extract_1
-XMEXT_r2_0 von LOn vdr GND NFET_extract_1
-
-XMEXT_l1_1 vop LOn vdl GND NFET_extract_1
-XMEXT_l2_1 von LOp vdl GND NFET_extract_1
-XMEXT_r1_1 vop LOp vdr GND NFET_extract_1
-XMEXT_r2_1 von LOn vdr GND NFET_extract_1
+XMEXT_l1_1 vop vdl LOn LOn GND NFET_extract_1
+XMEXT_l2_1 von vdl LOp LOp GND NFET_extract_1
+XMEXT_r1_1 vop vdr LOp LOp GND NFET_extract_1
+XMEXT_r2_1 von vdr LOn LOn GND NFET_extract_1
 .options savecurrents
 
 .tran 10ps 50ns
@@ -433,21 +420,21 @@ C {devices/vsource.sym} 960 -850 0 0 {name=V3 value="SIN(0.9 0.9 5G 0 0 0)"
 }
 C {devices/lab_wire.sym} 480 -1000 0 0 {name=l2 sig_type=std_logic lab=LOn}
 C {devices/lab_wire.sym} 940 -1000 0 0 {name=l3 sig_type=std_logic lab=LOp}
-C {devices/vsource.sym} 510 -590 0 0 {name=V4 value="SIN(0.9 0.1 5.1G 0 0 0)"
+C {devices/vsource.sym} 510 -590 0 0 {name=V4 value="SIN(0.9 0.01 5.1G 0 0 0)"
 }
 C {devices/lab_wire.sym} 1450 -1110 0 0 {name=l4 sig_type=std_logic lab=von}
 C {devices/gnd.sym} 1250 -550 0 0 {name=l5 lab=GND}
-C {devices/vsource.sym} 1030 -590 0 0 {name=V5 value="SIN(0.9 0.1 5.1G 0 0 180)"
+C {devices/vsource.sym} 1030 -590 0 0 {name=V5 value="SIN(0.9 0.01 5.1G 0 0 180)"
 }
 C {devices/lab_wire.sym} 480 -1110 0 0 {name=l7 sig_type=std_logic lab=vop}
 C {devices/ind.sym} 660 -770 1 0 {name=L3
 m=1
-value=5.5n
+value=6.5n
 footprint=1206
 device=inductor}
 C {devices/ind.sym} 1180 -770 1 0 {name=L1
 m=1
-value=5.5n
+value=6.5n
 footprint=1206
 device=inductor}
 C {devices/ind.sym} 1250 -590 0 0 {name=L2

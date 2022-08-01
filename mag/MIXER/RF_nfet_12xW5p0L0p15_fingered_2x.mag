@@ -1,0 +1,26 @@
+magic
+tech sky130A
+timestamp 1659322979
+<< metal3 >>
+rect 670 575 1370 655
+rect 890 270 930 575
+rect 1130 270 1170 575
+rect 660 190 1360 270
+<< metal4 >>
+rect 850 780 1200 840
+rect 990 390 1070 470
+rect 850 0 1200 60
+use RF_nfet_12xW5p0L0p15_fingered  RF_nfet_12xW5p0L0p15_fingered_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1659297343
+transform 1 0 5 0 1 90
+box -5 -90 1005 750
+use RF_nfet_12xW5p0L0p15_fingered  RF_nfet_12xW5p0L0p15_fingered_1
+timestamp 1659297343
+transform 1 0 1055 0 1 90
+box -5 -90 1005 750
+<< labels >>
+rlabel metal4 1010 390 1050 470 1 SUB
+rlabel metal4 900 780 1170 840 1 SD1
+rlabel metal4 900 0 1170 60 1 SD2
+rlabel metal3 1010 190 1050 270 1 G
+<< end >>

@@ -1,13 +1,15 @@
 ** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/zp_test2.sch
 **.subckt zp_test2
-XM3 net2 net5 net6 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
-V2 net3 GND DC 0.9 AC 0 portnum 2 z0 50
-V1 net1 GND DC 1.2 AC 0 portnum 1 z0 50
-L1 net6 GND 0.4n m=1
-C1 net3 net2 10p m=1
-L2 net4 net2 1n m=1
-V3 net4 GND DC 0.9
-L3 net5 net1 10n m=1
+V2 net1 GND DC 0.9 AC 0 portnum 2 z0 50
+V1 net4 GND DC 1 AC 0 portnum 1 z0 50
+L1 S GND 0.65n m=1
+C1 net1 D 10p m=1
+L2 net2 D 1n m=1
+V3 net2 GND DC 0.9
+L3 G net3 6.7n m=1
+I0 net2 vrefn 5m
+C2 net3 net4 1p m=1
+R1 vrefn net3 2k m=1
 **** begin user architecture code
 
 
@@ -22,6 +24,37 @@ X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0
 + l=150000u
 X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 .ends
+
+.subckt NFET_extract_1 SD1 SD2 G1 G2 SUB
+X0 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X7 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X8 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 SUB SD1 3.04fF
+C1 G2 SD2 3.72fF
+C2 G2 SD1 4.78fF
+C3 SD1 SD2 30.67fF
+C4 G2 SUB 2.48fF
+C5 G2 SUB 3.11fF
+C6 SD1 SUB 6.93fF
+.ends
+
+XMDUT_0 D S G G GND NFET_extract_1
+XMDUT_1 D S G G GND NFET_extract_1
+
+XMISRC_0 vrefn GND vrefn vrefn GND NFET_extract_1
+XMISRC_1 vrefn GND vrefn vrefn GND NFET_extract_1
+
+
+
 * .options savecurrents
 .sp dec 1000 1e9 10e9 1
 .control

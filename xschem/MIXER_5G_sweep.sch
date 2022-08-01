@@ -6,7 +6,6 @@ S {}
 E {}
 T {vvvv This should give you 1.8GHz} 550 -1250 0 0 0.4 0.4 {}
 T {vvvv Global Bias Generator} 60 -1280 0 0 0.4 0.4 {}
-T {^^^ Bias generator is also required here} 560 -470 0 0 0.4 0.4 {}
 N 600 -970 600 -910 {
 lab=vdl}
 N 600 -910 850 -910 {
@@ -123,20 +122,28 @@ N 1250 -560 1250 -550 {
 lab=GND}
 N 730 -560 730 -550 {
 lab=GND}
-N 510 -740 510 -720 {
+N 560 -820 560 -800 {
+lab=#net2}
+N 560 -820 610 -820 {
 lab=#net2}
 N 610 -820 610 -770 {
-lab=#net3}
+lab=#net2}
 N 610 -770 630 -770 {
+lab=#net2}
+N 1080 -820 1080 -800 {
 lab=#net3}
-N 1030 -740 1030 -720 {
-lab=#net4}
+N 1080 -820 1140 -820 {
+lab=#net3}
+N 1140 -820 1140 -770 {
+lab=#net3}
 N 1140 -770 1150 -770 {
-lab=#net5}
+lab=#net3}
+N 730 -710 770 -710 {
+lab=GND}
 N 770 -770 770 -710 {
 lab=GND}
 N 730 -680 730 -620 {
-lab=S1}
+lab=#net4}
 N 770 -710 770 -550 {
 lab=GND}
 N 730 -550 770 -550 {
@@ -147,8 +154,10 @@ N 1210 -770 1210 -710 {
 lab=vgn}
 N 1290 -770 1290 -710 {
 lab=GND}
+N 1250 -710 1290 -710 {
+lab=GND}
 N 1250 -680 1250 -620 {
-lab=S2}
+lab=#net5}
 N 1290 -710 1290 -550 {
 lab=GND}
 N 1250 -550 1290 -550 {
@@ -207,33 +216,37 @@ N 730 -870 730 -810 {
 lab=vdl}
 N 1250 -870 1250 -810 {
 lab=vdr}
-N 510 -660 510 -620 {
+N 560 -640 560 -550 {
+lab=GND}
+N 560 -740 560 -700 {
 lab=vsp}
-N 1030 -660 1030 -620 {
+N 1080 -640 1080 -550 {
+lab=GND}
+N 1080 -740 1080 -700 {
 lab=vsn}
 N 150 -1210 360 -1210 {
 lab=#net1}
-N 60 -1210 60 -1150 {
+N 150 -1210 150 -1150 {
 lab=#net1}
-N 40 -1120 60 -1120 {
+N 130 -1120 150 -1120 {
 lab=#net1}
-N 40 -1210 40 -1120 {
+N 130 -1210 130 -1120 {
 lab=#net1}
-N 40 -1210 60 -1210 {
+N 130 -1210 150 -1210 {
 lab=#net1}
-N 60 -1090 60 -1030 {
+N 150 -1090 150 -1030 {
 lab=vbias}
-N 60 -970 60 -550 {
+N 150 -970 150 -550 {
 lab=GND}
 N 150 -550 360 -550 {
 lab=GND}
-N 60 -1060 130 -1060 {
+N 150 -1060 220 -1060 {
 lab=vbias}
-N 130 -1120 130 -1060 {
+N 220 -1120 220 -1060 {
 lab=vbias}
-N 100 -1120 130 -1120 {
+N 190 -1120 220 -1120 {
 lab=vbias}
-N 130 -1120 200 -1120 {
+N 220 -1120 290 -1120 {
 lab=vbias}
 N 700 -1150 730 -1150 {
 lab=#net1}
@@ -249,60 +262,6 @@ N 1250 -1150 1270 -1150 {
 lab=#net1}
 N 1270 -1210 1270 -1150 {
 lab=#net1}
-N 330 -1120 350 -1120 {
-lab=#net1}
-N 350 -1210 350 -1120 {
-lab=#net1}
-N 330 -1210 330 -1150 {
-lab=#net1}
-N 330 -1090 330 -710 {
-lab=vbiasn}
-N 330 -750 380 -750 {
-lab=vbiasn}
-N 380 -750 380 -680 {
-lab=vbiasn}
-N 60 -1210 150 -1210 {
-lab=#net1}
-N 60 -550 150 -550 {
-lab=GND}
-N 260 -1120 290 -1120 {
-lab=#net10}
-N 510 -560 510 -550 {
-lab=GND}
-N 510 -770 530 -770 {
-lab=#net2}
-N 510 -770 510 -740 {
-lab=#net2}
-N 590 -770 610 -770 {
-lab=#net3}
-N 590 -820 610 -820 {
-lab=#net3}
-N 460 -820 530 -820 {
-lab=vbiasn}
-N 330 -650 330 -550 {
-lab=GND}
-N 310 -680 330 -680 {
-lab=GND}
-N 310 -680 310 -550 {
-lab=GND}
-N 370 -680 400 -680 {
-lab=vbiasn}
-N 1130 -820 1130 -770 {
-lab=#net5}
-N 1130 -770 1150 -770 {
-lab=#net5}
-N 1030 -770 1050 -770 {
-lab=#net4}
-N 1030 -770 1030 -740 {
-lab=#net4}
-N 1110 -770 1130 -770 {
-lab=#net5}
-N 1110 -820 1130 -820 {
-lab=#net5}
-N 980 -820 1050 -820 {
-lab=vbiasn}
-N 1030 -560 1030 -550 {
-lab=GND}
 C {devices/code_shown.sym} 1540 -980 0 0 {name=s2 only_toplevel=false value="
 .subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
 X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p ps=3.198e+07u w=5.05e+06u l=150000u
@@ -312,87 +271,36 @@ X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w
 X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 .ends
-
-.subckt NFET_extract D G S B 
-X0 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X1 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X2 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X3 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-C0 S D 9.91fF
-C1 D B 2.61fF
-.ends
-
-.subckt NFET_extract_1 D G S B
-
- .subckt sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE
-  X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=1.414e+12p pd=1.066e+07u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
-  X1 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-  C0 SOURCE DRAIN 3.73fF
-  C1 SOURCE SUBSTRATE 2.58fF
- .ends
-
-C0 B G 2.85fF
-C1 S D 22.23fF
-C2 G D 5.77fF
-C3 S G 7.53fF
-Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S B sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-C4 S B 13.70fF
-C5 G B 3.35fF
-
-.ends
-
-
-XMEXT_0_0 vdl vgp S1 GND NFET_extract_1
-XMEXT_0_1 vdl vgp S1 GND NFET_extract_1
-
-XMEXT_1_0 vdr vgn S2 GND NFET_extract_1
-XMEXT_1_1 vdr vgn S2 GND NFET_extract_1
-
-XMEXT_l1_0 vop LOn vdl GND NFET_extract_1
-XMEXT_l2_0 von LOp vdl GND NFET_extract_1
-XMEXT_r1_0 vop LOp vdr GND NFET_extract_1
-XMEXT_r2_0 von LOn vdr GND NFET_extract_1
-
-XMEXT_l1_1 vop LOn vdl GND NFET_extract_1
-XMEXT_l2_1 von LOp vdl GND NFET_extract_1
-XMEXT_r1_1 vop LOp vdr GND NFET_extract_1
-XMEXT_r2_1 von LOn vdr GND NFET_extract_1
-.options savecurrents
-
+* .options savecurrents
 .tran 10ps 50ns
 .control
-run
-display
-*let m_start = 9
-*let m_stop  = 14
-*let m_delta = 1
+* run
+* display
+let m_start = 9
+let m_stop  = 14
+let m_delta = 1
 let vo = v(vop)-v(von)
 let vs = v(vsp)-v(vsn)
 let vg = v(vgp)-v(vgn)
 
-*let m_var = m_start
-*while m_var le m_stop
-*  print m_var
-*  alter @m.xm1.msky130_fd_pr__pfet_01v8[m] = m_var
-*  alter @m.xm3.msky130_fd_pr__pfet_01v8[m] = m_var
+let m_var = m_start
+while m_var le m_stop
+  print m_var
+  alter @m.xm1.msky130_fd_pr__pfet_01v8[m] = m_var
+  alter @m.xm3.msky130_fd_pr__pfet_01v8[m] = m_var
   
-*  tran 10ps 50ns
-*  * plot v(von) v(vop)
-*  let vo = v(vop)-v(von)
-plot @l7[i]
-plot vo 
-*  let m_var = m_var + m_delta
-*end
+  tran 10ps 50ns
+  * plot v(von) v(vop)
+  let vo = v(vop)-v(von)
+  plot @l7[i]
+  plot vo 
+  let m_var = m_var + m_delta
+end
 
 
 * plot vo
-plot vs
-plot vg
+* plot vs
+* plot vg
 * fft vo vs vg
 * plot db(vo) db(vs)
 
@@ -404,10 +312,12 @@ C {devices/code.sym} 1520 -1150 0 0 {name=TT_MODELS only_toplevel=false
 format="tcleval(@value )" value=".lib \\\\$::SKYWATER_MODELS\\\\/sky130.lib.spice tt
 * .include \\\\$::PDKPATH\\\\/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 "}
+C {devices/nmos4.sym} 580 -1000 0 0 {name=XM1 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3}
+C {devices/nmos4.sym} 870 -1000 0 1 {name=XM2 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3}
 C {devices/gnd.sym} 730 -550 0 0 {name=l1 lab=GND}
 C {devices/capa.sym} 600 -1160 0 0 {name=C1
 m=1
-value=0.05p
+value=0.08p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/res.sym} 540 -1160 0 0 {name=R1
@@ -417,7 +327,7 @@ device=resistor
 m=1}
 C {devices/capa.sym} 1370 -1160 0 0 {name=C2
 m=1
-value=0.05p
+value=0.08p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/res.sym} 1310 -1160 0 0 {name=R2
@@ -433,43 +343,47 @@ C {devices/vsource.sym} 960 -850 0 0 {name=V3 value="SIN(0.9 0.9 5G 0 0 0)"
 }
 C {devices/lab_wire.sym} 480 -1000 0 0 {name=l2 sig_type=std_logic lab=LOn}
 C {devices/lab_wire.sym} 940 -1000 0 0 {name=l3 sig_type=std_logic lab=LOp}
-C {devices/vsource.sym} 510 -590 0 0 {name=V4 value="SIN(0.9 0.1 5.1G 0 0 0)"
+C {devices/vsource.sym} 560 -670 0 0 {name=V4 value="SIN(0.9 0.01 5.1G 0 0 0)"
 }
 C {devices/lab_wire.sym} 1450 -1110 0 0 {name=l4 sig_type=std_logic lab=von}
+C {devices/nmos4.sym} 1100 -1000 0 0 {name=XM4 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3}
+C {devices/nmos4.sym} 1390 -1000 0 1 {name=XM6 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3}
 C {devices/gnd.sym} 1250 -550 0 0 {name=l5 lab=GND}
-C {devices/vsource.sym} 1030 -590 0 0 {name=V5 value="SIN(0.9 0.1 5.1G 0 0 180)"
+C {devices/vsource.sym} 1080 -670 0 0 {name=V5 value="SIN(0.9 0.01 5.1G 0 0 180)"
 }
 C {devices/lab_wire.sym} 480 -1110 0 0 {name=l7 sig_type=std_logic lab=vop}
 C {devices/ind.sym} 660 -770 1 0 {name=L3
 m=1
-value=5.5n
+value=6.5n
 footprint=1206
 device=inductor}
 C {devices/ind.sym} 1180 -770 1 0 {name=L1
 m=1
-value=5.5n
+value=6.5n
 footprint=1206
 device=inductor}
 C {devices/ind.sym} 1250 -590 0 0 {name=L2
 m=1
-value=0.65n
+value=0.5n
 footprint=1206
 device=inductor}
 C {devices/ind.sym} 730 -590 0 0 {name=L4
 m=1
-value=0.65n
+value=0.5n
 footprint=1206
 device=inductor}
-C {devices/res.sym} 510 -690 0 0 {name=R3
+C {devices/res.sym} 560 -770 0 0 {name=R3
 value=50
 footprint=1206
 device=resistor
 m=1}
-C {devices/res.sym} 1030 -690 0 0 {name=R4
+C {devices/res.sym} 1080 -770 0 0 {name=R4
 value=50
 footprint=1206
 device=resistor
 m=1}
+C {devices/nmos4.sym} 710 -710 0 0 {name=XM7 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6}
+C {devices/nmos4.sym} 1230 -710 0 0 {name=XM8 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6}
 C {devices/ind.sym} 730 -1000 0 0 {name=L7
 m=1
 value=1n
@@ -477,7 +391,7 @@ footprint=1206
 device=inductor}
 C {devices/capa.sym} 680 -1020 0 0 {name=C3
 m=1
-value=50f
+value=100f
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} 680 -990 0 0 {name=l8 lab=GND}
@@ -488,17 +402,17 @@ footprint=1206
 device=inductor}
 C {devices/capa.sym} 1200 -1020 0 0 {name=C4
 m=1
-value=50f
+value=100f
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} 1200 -990 0 0 {name=l9 lab=GND}
-C {devices/lab_wire.sym} 510 -640 0 0 {name=l10 sig_type=std_logic lab=vsp}
+C {devices/lab_wire.sym} 560 -720 0 0 {name=l10 sig_type=std_logic lab=vsp}
 C {devices/lab_wire.sym} 690 -710 0 0 {name=l11 sig_type=std_logic lab=vgp}
-C {devices/lab_wire.sym} 1030 -630 0 0 {name=l12 sig_type=std_logic lab=vsn}
+C {devices/lab_wire.sym} 1080 -710 0 0 {name=l12 sig_type=std_logic lab=vsn}
 C {devices/lab_wire.sym} 1210 -710 0 0 {name=l13 sig_type=std_logic lab=vgn}
 C {devices/lab_wire.sym} 1210 -910 0 0 {name=l14 sig_type=std_logic lab=vdr}
 C {devices/lab_wire.sym} 710 -910 0 0 {name=l15 sig_type=std_logic lab=vdl}
-C {sky130_fd_pr/pfet_01v8.sym} 80 -1120 0 1 {name=M2
+C {sky130_fd_pr/pfet_01v8.sym} 170 -1120 0 1 {name=M2
 L=1
 W=10
 nf=1
@@ -512,13 +426,13 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/isource.sym} 60 -1000 0 0 {name=I0 value=1m}
-C {devices/lab_wire.sym} 170 -1120 0 0 {name=l6 sig_type=std_logic lab=vbias}
+C {devices/isource.sym} 150 -1000 0 0 {name=I0 value=1m}
+C {devices/lab_wire.sym} 260 -1120 0 0 {name=l6 sig_type=std_logic lab=vbias}
 C {sky130_fd_pr/pfet_01v8.sym} 750 -1150 0 1 {name=M1
 L=1
 W=10
 nf=1
-mult=10
+mult=12
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -537,7 +451,7 @@ C {sky130_fd_pr/pfet_01v8.sym} 1230 -1150 0 0 {name=M3
 L=1
 W=10
 nf=1
-mult=10
+mult=12
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -553,47 +467,3 @@ footprint=1206
 device=resistor
 m=1}
 C {devices/lab_wire.sym} 1000 -1150 0 0 {name=l16 sig_type=std_logic lab=vbias}
-C {devices/lab_wire.sym} 730 -680 0 0 {name=l18 sig_type=std_logic lab=S1}
-C {devices/lab_wire.sym} 1250 -680 0 0 {name=l20 sig_type=std_logic lab=S2}
-C {sky130_fd_pr/pfet_01v8.sym} 310 -1120 0 0 {name=M4
-L=1
-W=10
-nf=1
-mult=10
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {devices/res.sym} 230 -1120 1 0 {name=R7
-value=1k
-footprint=1206
-device=resistor
-m=1}
-C {devices/capa.sym} 560 -770 1 0 {name=C5
-m=1
-value=1p
-footprint=1206
-device="ceramic capacitor"}
-C {devices/res.sym} 560 -820 1 0 {name=R8
-value=2k
-footprint=1206
-device=resistor
-m=1}
-C {devices/lab_wire.sym} 380 -750 0 0 {name=l17 sig_type=std_logic lab=vbiasn}
-C {devices/lab_wire.sym} 510 -820 0 0 {name=l19 sig_type=std_logic lab=vbiasn}
-C {devices/capa.sym} 1080 -770 1 0 {name=C6
-m=1
-value=1p
-footprint=1206
-device="ceramic capacitor"}
-C {devices/res.sym} 1080 -820 1 0 {name=R9
-value=2k
-footprint=1206
-device=resistor
-m=1}
-C {devices/lab_wire.sym} 1030 -820 0 0 {name=l21 sig_type=std_logic lab=vbiasn}

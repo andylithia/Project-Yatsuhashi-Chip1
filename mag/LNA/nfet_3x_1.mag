@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1658631798
+timestamp 1659293969
 << metal1 >>
 rect 13 647 1015 705
 rect 13 50 42 647
@@ -344,15 +344,15 @@ rect 881 -10 901 25
 rect 941 -10 951 25
 rect 80 -21 951 -10
 rect 80 -30 950 -21
-use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_0 ~/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_pr/mag
+use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15#0  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_0 ~/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_pr/mag
 timestamp 1649977179
 transform 1 0 0 0 1 0
 box 0 0 338 597
-use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_1
+use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15#0  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_1
 timestamp 1649977179
 transform 1 0 345 0 1 0
 box 0 0 338 597
-use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_2
+use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15#0  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_2
 timestamp 1649977179
 transform 1 0 690 0 1 0
 box 0 0 338 597

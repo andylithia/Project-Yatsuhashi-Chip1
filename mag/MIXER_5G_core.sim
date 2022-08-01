@@ -1,0 +1,445 @@
+| units: 500000 tech: sky130A format: MIT
+x LO1 IF1 DL VL l=30 w=1010 x=462 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=290 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=376 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=204 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=1122 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=950 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=1036 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=864 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=1782 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=1610 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=1696 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=1524 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=2562 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=2390 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=2476 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=2304 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=3222 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=3050 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=3136 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=2964 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=3882 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF1 DL VL l=30 w=1010 x=3710 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=3796 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DL IF1 VL l=30 w=1010 x=3624 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=5262 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=5090 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=5176 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=5004 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=5922 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=5750 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=5836 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=5664 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=6582 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=6410 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=6496 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=6324 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=7362 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=7190 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=7276 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=7104 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=8022 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=7850 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=7936 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=7764 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=8682 y=336 sky130_fd_pr__nfet_01v8
+x LO1 IF2 DR VL l=30 w=1010 x=8510 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=8596 y=336 sky130_fd_pr__nfet_01v8
+x LO1 DR IF2 VL l=30 w=1010 x=8424 y=336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=2862 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=2690 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=2776 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=2604 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=3522 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=3350 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=3436 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=3264 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=4182 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=4010 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=4096 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=3924 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=4962 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=4790 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=4876 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=4704 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=5622 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=5450 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=5536 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=5364 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=6282 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 DL S1 VL l=30 w=1010 x=6110 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=6196 y=2336 sky130_fd_pr__nfet_01v8
+x RF1 S1 DL VL l=30 w=1010 x=6024 y=2336 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=2862 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=2690 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=2776 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=2604 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=3522 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=3350 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=3436 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=3264 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=4182 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=4010 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=4096 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=3924 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=4962 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=4790 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=4876 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=4704 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=5622 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=5450 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=5536 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=5364 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=6282 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 DR S2 VL l=30 w=1010 x=6110 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=6196 y=-3337 sky130_fd_pr__nfet_01v8
+x RF2 S2 DR VL l=30 w=1010 x=6024 y=-3337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=5262 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=5090 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=5176 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=5004 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=5922 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=5750 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=5836 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=5664 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=6582 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=6410 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=6496 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=6324 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=7362 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=7190 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=7276 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=7104 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=8022 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=7850 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=7936 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=7764 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=8682 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF1 DR VL l=30 w=1010 x=8510 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=8596 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DR IF1 VL l=30 w=1010 x=8424 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=462 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=290 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=376 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=204 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=1122 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=950 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=1036 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=864 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=1782 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=1610 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=1696 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=1524 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=2562 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=2390 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=2476 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=2304 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=3222 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=3050 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=3136 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=2964 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=3882 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 IF2 DL VL l=30 w=1010 x=3710 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=3796 y=-1337 sky130_fd_pr__nfet_01v8
+x LO2 DL IF2 VL l=30 w=1010 x=3624 y=-1337 sky130_fd_pr__nfet_01v8
+C DR LO2 13.43
+C VL LO2 18.60
+C DR S2 61.23
+C RF2 S2 11.64
+C S2 VL 8.39
+C RF1 DL 9.20
+C IF2 DL 62.18
+C IF1 DL 62.04
+C IF2 IF1 5.84
+C DR DL 2.42
+C RF1 S1 11.40
+C S1 DL 61.21
+C IF2 DR 61.34
+C RF1 VL 8.91
+C VL DL 28.22
+C DR IF1 61.22
+C IF2 VL 10.62
+C LO1 DL 12.40
+C VL IF1 10.07
+C IF2 LO1 9.87
+C DR RF2 8.93
+C LO1 IF1 9.47
+C DR VL 28.35
+C S1 VL 8.27
+C RF2 VL 8.96
+C DR LO1 12.66
+C LO1 VL 18.70
+C LO2 DL 11.81
+C IF2 LO2 9.51
+C LO2 IF1 9.76
+C LO2 GND 10.79
+R LO2 83914
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/G2
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/G1
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G2
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1
+= LO2 m3_3440_n2360#
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G2
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G2
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= LO2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1
+R VL 138769
+= VL VSUBS
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/VSUBS
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/VSUBS
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/VSUBS
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/VSUBS
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/VSUBS
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/VSUBS
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/a_592_156#
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SUB
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= VL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/a_592_156#
+C IF2 GND 2.95
+R IF2 67551
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD2
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= IF2 RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+C DL GND 28.79
+R DL 135370
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD2
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/SD2
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/SD1
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SD1
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= DL RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+C IF1 GND 3.29
+R IF1 67551
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SD2
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= IF1 RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+C DR GND 28.95
+R DR 135370
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD2
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/SD2
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= DR RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+C RF2 GND 5.34
+R RF2 41895
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/G
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/G2
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/G1
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/G2
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= RF2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/G1
+C S2 GND 14.00
+R S2 50597
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD1
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/SD1
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= S2 RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+C RF1 GND 5.31
+R RF1 41895
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/G
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/G2
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/G1
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/G2
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= RF1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/G1
+C S1 GND 13.72
+R S1 50597
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD1
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/SD1
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= S1 RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D
+C LO1 GND 10.80
+R LO1 83914
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G2
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G2
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/G
+= LO1 m3_3440_360#
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G2
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G2
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= LO1 RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1

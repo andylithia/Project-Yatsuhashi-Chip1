@@ -1,32 +1,36 @@
 ** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/MIXER_5G.sch
 **.subckt MIXER_5G
-XM1 vop LOn vdl GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
-XM2 von LOp vdl GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
-C1 net1 vop 0.08p m=1
+C1 net1 vop 0.05p m=1
 R1 net1 vop 2k m=1
-C2 net1 von 0.08p m=1
+C2 net1 von 0.05p m=1
 R2 net1 von 2k m=1
 V1 net1 GND 1.8
 V2 LOn GND SIN(0.9 0.9 5G 0 0 180)
 V3 LOp GND SIN(0.9 0.9 5G 0 0 0)
-V4 vsp GND SIN(0.9 0.01 5.1G 0 0 0)
-XM4 vop LOp net2 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
-XM6 von LOn net2 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3
-V5 vsn GND SIN(0.9 0.01 5.1G 0 0 180)
-L3 vgp net3 6.5n m=1
-L1 vgn net4 6.5n m=1
-L2 net6 GND 0.5n m=1
-L4 net5 GND 0.5n m=1
-R3 net3 vsp 50 m=1
-R4 net4 vsn 50 m=1
-XM7 vdl vgp net5 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6
-XM8 net2 vgn net6 GND sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6
-L7 net7 vdl 1n m=1
-C3 net7 GND 100f m=1
-R5 net1 net7 200 m=1
-L8 net8 net2 1n m=1
-C4 net8 GND 100f m=1
-R6 net1 net8 200 m=1
+V4 vsp GND SIN(0.9 0.1 5.1G 0 0 0)
+V5 vsn GND SIN(0.9 0.1 5.1G 0 0 180)
+L3 vgp net2 5.5n m=1
+L1 vgn net3 5.5n m=1
+L2 S2 GND 0.65n m=1
+L4 S1 GND 0.65n m=1
+R3 net2 vsp 50 m=1
+R4 net3 vsn 50 m=1
+L7 net4 vdl 1n m=1
+C3 net4 GND 50f m=1
+L8 net5 vdr 1n m=1
+C4 net5 GND 50f m=1
+XM2 vbias vbias net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2
+I0 vbias GND 1m
+XM1 net4 net6 net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=14 m=14
+R5 vbias net6 1k m=1
+XM3 net5 net7 net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=14 m=14
+R6 net7 vbias 1k m=1
 **** begin user architecture code
 
 
@@ -41,20 +45,99 @@ X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0
 + l=150000u
 X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 .ends
-* .options savecurrents
-.tran 0.1ps 20ns
+
+.subckt NFET_extract D G S B
+X0 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 S D 9.91fF
+C1 D B 2.61fF
+.ends
+
+.subckt NFET_extract_1 D G S B
+
+ .subckt sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE
+  X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=1.414e+12p pd=1.066e+07u as=2.828e+12p
++ ps=2.132e+07u w=5.05e+06u l=150000u
+  X1 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u
++ l=150000u
+  C0 SOURCE DRAIN 3.73fF
+  C1 SOURCE SUBSTRATE 2.58fF
+ .ends
+
+C0 B G 2.85fF
+C1 S D 22.23fF
+C2 G D 5.77fF
+C3 S G 7.53fF
+Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S B
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S B
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S B
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S B
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S B
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S B
++ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+C4 S B 13.70fF
+C5 G B 3.35fF
+
+.ends
+
+
+XMEXT_0_0 vdl vgp S1 GND NFET_extract_1
+XMEXT_0_1 vdl vgp S1 GND NFET_extract_1
+
+XMEXT_1_0 vdr vgn S2 GND NFET_extract_1
+XMEXT_1_1 vdr vgn S2 GND NFET_extract_1
+
+XMEXT_l1_0 vop LOn vdl GND NFET_extract_1
+XMEXT_l2_0 von LOp vdl GND NFET_extract_1
+XMEXT_r1_0 vop LOp vdr GND NFET_extract_1
+XMEXT_r2_0 von LOn vdr GND NFET_extract_1
+
+XMEXT_l1_1 vop LOn vdl GND NFET_extract_1
+XMEXT_l2_1 von LOp vdl GND NFET_extract_1
+XMEXT_r1_1 vop LOp vdr GND NFET_extract_1
+XMEXT_r2_1 von LOn vdr GND NFET_extract_1
+.options savecurrents
+
+.tran 10ps 50ns
 .control
 run
 display
+*let m_start = 9
+*let m_stop  = 14
+*let m_delta = 1
 let vo = v(vop)-v(von)
 let vs = v(vsp)-v(vsn)
 let vg = v(vgp)-v(vgn)
-plot v(von) v(vop)
+
+*let m_var = m_start
+*while m_var le m_stop
+*  print m_var
+*  alter @m.xm1.msky130_fd_pr__pfet_01v8[m] = m_var
+*  alter @m.xm3.msky130_fd_pr__pfet_01v8[m] = m_var
+
+*  tran 10ps 50ns
+*  * plot v(von) v(vop)
+*  let vo = v(vop)-v(von)
+plot @l7[i]
 plot vo
+*  let m_var = m_var + m_delta
+*end
+
+
+* plot vo
 plot vs
 plot vg
-fft vo vs vg
-plot db(vo) db(vs)
+* fft vo vs vg
+* plot db(vo) db(vs)
+
+
 
 .endc
 

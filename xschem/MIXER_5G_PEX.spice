@@ -1,0 +1,140 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/MIXER_5G_PEX.sch
+**.subckt MIXER_5G_PEX
+C1 net1 vop 0.05p m=1
+C2 net1 von 0.05p m=1
+V1 net1 GND 1.8
+V2 LOn GND SIN(0.9 0.9 5G 0 0 180)
+V3 LOp GND SIN(0.9 0.9 5G 0 0 0)
+V4 vsp GND SIN(0.9 0.01 5.1G 0 0 0)
+V5 vsn GND SIN(0.9 0.01 5.1G 0 0 180)
+L3 vgp net3 6.5n m=1
+L1 vgn net5 6.5n m=1
+L2 S2 GND 0.65n m=1
+L4 S1 GND 0.65n m=1
+R3 net2 vsp 50 m=1
+R4 net4 vsn 50 m=1
+L7 net6 vdl 1n m=1
+C3 net6 GND 50f m=1
+L8 net7 vdr 1n m=1
+C4 net7 GND 50f m=1
+XM2 vbias vbias net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2
+I0 vbias GND 1m
+XM1 net6 net8 net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=5 m=5
+R5 vbias net8 1k m=1
+XM3 net7 net9 net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=5 m=5
+R6 net9 vbias 1k m=1
+XM4 vbiasn net10 net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=10 m=10
+R7 net10 vbias 1k m=1
+C5 net3 net2 1p m=1
+R8 net3 vbiasn 2k m=1
+C6 net5 net4 1p m=1
+R9 net5 vbiasn 2k m=1
+XM5 vop vbias net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=5 m=5
+XM6 von vbias net1 net1 sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=5 m=5
+**** begin user architecture code
+
+
+
+.subckt NFET_extract_1 SD1 SD2 G1 G2 SUB
+X0 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X7 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X8 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 SUB SD1 3.04fF
+C1 G2 SD2 3.72fF
+C2 G2 SD1 4.78fF
+C3 SD1 SD2 30.67fF
+C4 G2 SUB 2.48fF
+C5 G2 SUB 3.11fF
+C6 SD1 SUB 6.93fF
+.ends
+
+* Input Transconductance
+XMEXT_0_0 vdl S1 vgp vgp GND NFET_extract_1
+XMEXT_0_1 vdl S1 vgp vgp GND NFET_extract_1
+XMEXT_1_0 vdr S2 vgn vgn GND NFET_extract_1
+XMEXT_1_1 vdr S2 vgn vgn GND NFET_extract_1
+
+* Current Source
+
+XMEXT_IREF_0 vbiasn GND vbiasn vbiasn GND NFET_extract_1
+XMEXT_IREF_1 vbiasn GND vbiasn vbiasn GND NFET_extract_1
+
+
+* Switches
+XMEXT_l1_0 vop vdl LOn LOn GND NFET_extract_1
+XMEXT_l2_0 von vdl LOp LOp GND NFET_extract_1
+XMEXT_r1_0 vop vdr LOp LOp GND NFET_extract_1
+XMEXT_r2_0 von vdr LOn LOn GND NFET_extract_1
+
+XMEXT_l1_1 vop vdl LOn LOn GND NFET_extract_1
+XMEXT_l2_1 von vdl LOp LOp GND NFET_extract_1
+XMEXT_r1_1 vop vdr LOp LOp GND NFET_extract_1
+XMEXT_r2_1 von vdr LOn LOn GND NFET_extract_1
+.options savecurrents
+
+.tran 10ps 50ns
+.control
+run
+display
+*let m_start = 9
+*let m_stop  = 14
+*let m_delta = 1
+let vo = v(vop)-v(von)
+let vs = v(vsp)-v(vsn)
+let vg = v(vgp)-v(vgn)
+
+*let m_var = m_start
+*while m_var le m_stop
+*  print m_var
+*  alter @m.xm1.msky130_fd_pr__pfet_01v8[m] = m_var
+*  alter @m.xm3.msky130_fd_pr__pfet_01v8[m] = m_var
+
+*  tran 10ps 50ns
+*  * plot v(von) v(vop)
+*  let vo = v(vop)-v(von)
+plot @l7[i]
+plot vo
+*  let m_var = m_var + m_delta
+*end
+
+
+* plot vo
+plot vs
+plot vg
+* fft vo vs vg
+* plot db(vo) db(vs)
+
+
+
+.endc
+
+
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

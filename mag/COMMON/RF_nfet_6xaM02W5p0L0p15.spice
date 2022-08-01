@@ -1,0 +1,14 @@
+* SPICE3 file created from /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON/RF_nfet_6xaM02W5p0L0p15.ext - technology: sky130A
+
+C0 S D 22.23fF
+C1 S G 7.53fF
+C2 G D 5.77fF
+C3 G B 2.85fF
+Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+C4 S 0 13.70fF
+C5 G 0 3.35fF

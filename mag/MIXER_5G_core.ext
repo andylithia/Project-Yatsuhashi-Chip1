@@ -1,0 +1,921 @@
+timestamp 1659323209
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use RF_nfet_12xW5p0L0p15_fingered_2x RF_nfet_12xW5p0L0p15_fingered_2x_5 1 0 0 0 -1 -1000
+use RF_nfet_12xW5p0L0p15_fingered_2x RF_nfet_12xW5p0L0p15_fingered_2x_4 1 0 4800 0 -1 -1000
+use RF_nfet_12xW5p0L0p15_fingered_2x RF_nfet_12xW5p0L0p15_fingered_2x_3 1 0 2400 0 -1 -3000
+use RF_nfet_12xW5p0L0p15_fingered_2x RF_nfet_12xW5p0L0p15_fingered_2x_2 1 0 2400 0 1 2000
+use RF_nfet_12xW5p0L0p15_fingered_2x RF_nfet_12xW5p0L0p15_fingered_2x_1 1 0 4800 0 1 0
+use RF_nfet_12xW5p0L0p15_fingered_2x RF_nfet_12xW5p0L0p15_fingered_2x_0 1 0 0 0 1 0
+node "S2" 1 1409.23 2620 -4740 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 662400 7720 0 0 0 0
+node "DR" 1 6220.13 5020 -2820 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6986400 29720 0 0 0 0
+node "DL" 1 6205.13 -960 -3080 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6986400 29720 0 0 0 0
+node "VL" 3 24225.2 500 -2050 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2205000 25200 27740000 136000 0 0
+node "S1" 1 1138.14 2620 3560 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 662400 7720 0 0 0 0
+node "RF2" 2 3208.65 2000 -4300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1486600 17060 0 0 0 0 0 0
+node "LO2" 1 1148.82 8340 -2310 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 470200 5620 0 0 0 0 0 0
+node "m3_3440_n2360#" 1 1932.21 3440 -2360 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 909600 10120 0 0 0 0 0 0
+node "IF2" 1 3738.5 -1160 -940 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 588800 4320 3624800 17160 1164800 5800 0 0
+node "IF1" 1 3717.03 -1160 -380 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 588800 4320 4204800 20320 0 0 0 0
+node "LO1" 1 1148.82 8340 380 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 470200 5620 0 0 0 0 0 0
+node "m3_3440_360#" 1 1941.29 3440 360 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 909600 10120 0 0 0 0 0 0
+node "RF1" 2 3220.17 2000 2400 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1480400 17020 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "LO2" "IF1" 64.6162
+cap "DR" "S2" 27.0417
+cap "IF1" "DL" 808.358
+cap "m3_3440_360#" "VL" 582.393
+cap "RF2" "DL" 240.266
+cap "IF1" "m3_3440_360#" 295.999
+cap "DR" "VL" 7920.01
+cap "IF1" "DR" 144.209
+cap "DL" "m3_3440_n2360#" 67.6647
+cap "IF2" "VL" 4543.42
+cap "RF1" "VL" 1150.72
+cap "DR" "RF2" 100.161
+cap "S1" "DL" 26.2222
+cap "IF1" "IF2" 3698.58
+cap "VL" "S2" 787.113
+cap "DR" "m3_3440_n2360#" 99.4967
+cap "DR" "LO1" 685.121
+cap "RF2" "S2" 414.767
+cap "m3_3440_360#" "DL" 79.8245
+cap "IF2" "m3_3440_n2360#" 284.412
+cap "IF1" "VL" 4155.99
+cap "IF2" "LO1" 64.6162
+cap "LO2" "DR" 685.486
+cap "DR" "DL" 27.3929
+cap "S1" "RF1" 277.762
+cap "RF2" "VL" 1156.17
+cap "LO2" "IF2" 14.6753
+cap "DR" "m3_3440_360#" 83.3019
+cap "IF2" "DL" 810.016
+cap "RF1" "DL" 311.065
+cap "VL" "m3_3440_n2360#" 612
+cap "VL" "LO1" 482.023
+cap "IF1" "m3_3440_n2360#" 323.946
+cap "IF1" "LO1" 14.6753
+cap "S1" "VL" 669.741
+cap "m3_3440_360#" "IF2" 329.967
+cap "m3_3440_360#" "RF1" 171.781
+cap "RF2" "m3_3440_n2360#" 178.518
+cap "LO2" "VL" 474.636
+cap "DR" "IF2" 136.621
+cap "DR" "RF1" 73.8057
+cap "VL" "DL" 7842.57
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 1.56652
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" 553.021
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 625.048
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" 216.733
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" 23.8901
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 2.14386
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 266.36
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 193.236
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 0.0684157
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" -83.0218
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 1.18579
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 41.8998
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" -65.0768
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 2.17838
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 0.124091
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 291.124
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 26.5828
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 0.355643
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 323.264
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 1.46935
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 1.81396
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 228.881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 0.178225
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 47.0389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 10.9963
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 1.78614
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 2.17838
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" -11.2828
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" -0.874423
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 1.46935
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 327.898
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" 23.5437
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" -154.443
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 204.402
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 287.452
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" -4.05697
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 1.13504
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 2.52299
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 1.18581
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 25.1379
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" -2.78981
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 1.56652
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 239.734
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 313.968
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 147.429
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 27.4913
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 96.4459
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 44.8416
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" 0.297838
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 195.264
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" 54.7934
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 17.8226
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 74.6087
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 106.601
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 233.682
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 276.286
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" -16.9495
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 385.068
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 11.7337
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 17.5424
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" -71.7555
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 101.158
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 148.992
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 102.363
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" -19.8349
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 516.462
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 122.847
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 31.9459
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 412.055
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 2.01702
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 1.17694
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 45.9637
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 8.22889
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 20.4109
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 24.969
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 124.418
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 78.6766
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 161.149
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 118.896
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 148.812
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 106.695
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 2.57774
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 85.7528
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 162.291
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 1.14393
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 56.6578
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 91.5501
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 296.356
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.0988148
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" -0.273562
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" -92.697
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.0468907
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 36.9937
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 385.324
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 30.0592
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 418.638
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 357.655
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" 78.1172
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 21.7886
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 168.708
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 762.92
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" 6.52385
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 2.96354
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 0.244282
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" 0.00425979
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 33.8236
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 1.14393
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 21.7111
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 71.8298
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" 0.0409202
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 26.5322
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 105.03
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 2.92709
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 332.029
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 54.2004
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 131.04
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 30.888
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 557.17
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 134.293
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" 66.9513
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" -50.2697
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 2.57774
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 492.132
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" 30.0501
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 1.86539
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 1.72682
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 99.4765
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 0.0899466
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" 1.82893
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 18.2484
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 13.2017
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 151.756
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 88.724
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 518.464
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 108.771
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 105.39
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 2.01702
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" -10.183
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 45.2502
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 105.41
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 1.25712
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 91.7612
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 21.744
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 586.635
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 198.764
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 262.116
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 60.2458
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 156.259
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" -69.3266
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 65.1509
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" 53.5187
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 52.5587
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" 207.374
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" -1.35508
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 202.902
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 50.1656
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 2.38172
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 5.58689
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" 99.0182
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 249.895
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 162.211
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" 1.98213
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 0.00292876
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 1.30135
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" 3.50365
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 1.8256
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 51.4285
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 1.72667
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" 14.5415
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 93.8415
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G1" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 4.20917
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 220.905
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 94.4955
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 47.8737
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 124.677
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 5.99815
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 32.281
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 8.17585
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 0.0310778
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 193.575
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 118.548
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 42.6955
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 201.206
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 5.67379
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 0.0202631
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 0.0744067
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 5.714
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 15.5623
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.0155389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" 9.63795
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 1.82288
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 4.62411
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 312.46
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 33.7363
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.634683
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.420725
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 7.77362
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.420725
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 527.606
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 29.6072
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" 0.464333
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 286.109
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 133.2
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 72.4364
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 0.0167234
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" -11.8991
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 59.2476
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 1.82232
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 11.651
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.60898
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 109.003
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.628484
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.0698849
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 1.93307
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 190.764
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 222.582
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G2" 26.5218
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 2.64787
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.213958
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.935161
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.15005
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" -30.5532
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 8.45526
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 105.803
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" -1.37036
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 100.174
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G2" 27.6328
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.328809
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 8.92037
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 203.345
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 52.0734
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 0.0137946
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.28462
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 383.96
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.0155389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 3.36127
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.213958
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 76.6902
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 26.283
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.935161
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.0155389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 1.6364
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 10.9565
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 42.0059
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 3.28462
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.420001
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 3.36127
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.130945
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 144.334
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 23.6374
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 0.529622
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 406.775
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 26.4902
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 8.34818
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 127.736
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 96.2885
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 0.0137946
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.628484
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 3.60898
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" 0.0336081
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 177.292
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" -27.8935
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 194.263
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 204.121
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 0.422336
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 1.82288
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 29.6139
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 284.899
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 1.82232
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 16.9785
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 0.636294
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 5.58237
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 34.3549
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 4.09304
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" -12.1272
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 525.733
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 7.77249
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00311248
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 55.5279
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 316.671
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.422336
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 0.0162384
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 1.22242
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 65.692
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 133.839
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.0155389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 101.282
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 148.677
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 0.0310778
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 137.103
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 105.723
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00663558
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 42.6955
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 43.7836
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" -109.134
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 2.38764
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 2.60889
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 69.5544
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 194.708
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 0.0207481
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 6.40135
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 218.529
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" 3.11808
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" 1.5266
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 120.673
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" 133.769
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 1.53115
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 12.1935
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 226.529
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 78.383
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G2" 0.00292876
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" 296.324
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" 87.802
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 49.0634
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 1.8256
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 14.5415
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 1.72667
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 84.9615
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G2" 1.98213
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 0.00292876
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/G2" 1.30135
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 96.7609
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 5.58689
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 163.558
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 2.38172
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 3.50365
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 155.132
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 5.67379
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 47.8737
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 173.948
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.0310778
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 118.548
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 42.6955
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 201.206
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" -0.783468
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 239.26
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 4.19244
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 0.0202631
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 133.307
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 5.99815
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 94.4955
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 32.281
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 8.17585
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" -11.9396
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 0.0167234
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 59.3451
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 511.556
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 1.82288
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 5.72236
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 258.252
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 33.7363
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 18.6972
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 1.82232
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 133.235
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 284.75
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 0.0155389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 7.77588
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 72.8292
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 29.6072
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 0.207062
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 179.363
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.0155389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 54.5419
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 169.431
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 232.745
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 318.227
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 27.6328
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" 75.256
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 6.29956
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -90.5815
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 2.35021
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 33.9963
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.60967
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 2.03599
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 105.639
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 48.6859
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 0.0137946
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.28532
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 53.1085
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 0.0703315
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 26.4416
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 291.235
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.0019765
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 7.46089
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 26.4902
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 165.799
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 5.98667
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 33.0411
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 6.22543
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 3.60967
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 2.35021
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 86.7756
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 0.0137946
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 164.663
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 24.0281
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 47.9528
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 7.29441
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 3.16091
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.114577
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.0155389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 181.789
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 3.28532
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 229.685
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 1.59617
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 29.6139
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 248.262
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 66.8268
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00311248
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 55.4968
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.0155389
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 288.05
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 7.7729
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 1.82288
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.0162384
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" -12.0984
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 5.58029
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 34.3549
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 133.828
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.508745
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 1.22242
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 508.913
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 1.82232
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 16.4929
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 2.60889
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00663558
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 2.38764
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 104.156
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" -109.734
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00855881
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.0207481
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 146.008
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 147.9
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 42.6955
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 3.2857
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 6.40135
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 230.925
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" 0.00974806
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 69.5544
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 43.7836
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 83.8099
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.0310778
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 3.61006
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 194.708
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 169.318
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 12.1935
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" 76.0504
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 115.435
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 84.8534
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G2" 3.11808
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" 0.00489019
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G2" 1.53115
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" 239.265
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G2" 0.00292876
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 1.5266
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 112.452
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 281.607
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 36.3726
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" 98.7216
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" 0.297838
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 51.9252
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" 57.1585
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 95.4153
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 106.601
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" 17.8226
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 259.352
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 225.063
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" -16.0916
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 39.5628
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 0.164617
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 36.8524
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 20.9796
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 46.7343
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 176.936
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 499.104
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 0.59415
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 523.175
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 58.99
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" -11.6234
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 110.65
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 17.2206
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 8.17971
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 0.95877
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 0.108324
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 28.7579
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 121.63
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 75.4126
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 40.8298
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 87.4183
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 77.6536
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 24.9416
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 45.098
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 2.73787
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 436.047
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 0.0351658
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 4.3733
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -43.9683
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 1.95893
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 54.7346
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 28.8536
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 63.8139
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 528.173
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 1.81437
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 435.38
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" 0.329234
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 0.0261447
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" 0.00939026
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 43.2975
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 54.1781
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 183.218
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 42.2554
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 75.0836
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 0.855259
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" -87.6524
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 40.0451
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 4.31475
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 447.92
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 746.498
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 1.81437
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 416.801
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 63.4734
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 85.1432
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 291.712
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 119.232
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" 0.0572883
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.103358
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 24.9316
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 266.785
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 60.9009
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 0.329234
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 123.948
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 180.02
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 14.9656
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 524.63
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 9.62401
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" -19.787
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 81.8838
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 22.8401
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 74.7326
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 188.096
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 451.693
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 0.164617
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 417.859
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 36.0181
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 8.21723
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 18.2208
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.406021
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 0.0340874
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 40.6326
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 61.0229
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 152.548
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 83.8795
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" -68.7268
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 243.674
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 200.331
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 272.245
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 64.3103
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" 58.4399
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 7.46368
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 71.8745
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" 278.748
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 0.461282
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 1.57143
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 1.11538
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 5.66342
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 5.66342
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 89.1279
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 5.66342
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 5.22511
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 5.68639
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1" 60.9466
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 40.4866
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 5.66281
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 1.98262
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 704.477
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 1.56652
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -110.056
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 55.2625
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 3.99391
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 250.789
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 1.98262
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 7.53157
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 5.16701
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 459.362
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 1.69989
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 272.81
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 1.18579
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 0.140415
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 371.498
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 7.36738
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 33.56
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 1.47034
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 5.92615
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 295.687
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 9.5326
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 345.998
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 0.759139
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 0.192922
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 0.971741
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 1.68415
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 5.13445
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 329.704
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 4.551
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 62.3147
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 0.971741
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 11.6059
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" -121.719
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 0.900706
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 79.0064
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 1.47034
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 54.1608
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 319.831
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 69.1155
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 15.2483
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 12.5982
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 298.728
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" 0.20017
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 0.235633
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 52.1353
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 32.3638
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 7.51625
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 5.92615
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 1.12425
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 7.98056
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" -97.3153
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 1.12425
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" -18.1057
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 1.81396
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" -0.498737
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 4.551
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 297.557
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 237.454
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 40.1424
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 0.185957
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 42.8429
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 1.8524
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 0.146168
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 5.6616
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 85.207
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" -1.06112
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 44.7058
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -0.0472919
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 5.92615
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 340.321
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 1.18581
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 14.0963
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 8.90134
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 4.89462
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -8.83447
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 1.56652
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 237.542
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 5.66342
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" 61.3467
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 1.23146
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 5.66342
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 5.66342
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 93.252
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 5.66342
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" 2.58446
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" 9.67009
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 4.43196
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 10.3879
+cap "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" 11.1804
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" -26517.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -913200 -17880 -200000 -1400 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "VL"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -6522.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -945600 -16720 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "DL"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" -1142.43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -439200 -7560 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "S2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/VSUBS" "RF_nfet_12xW5p0L0p15_fingered_2x_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/VSUBS" "RF_nfet_12xW5p0L0p15_fingered_2x_0/VSUBS"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/VSUBS" "RF_nfet_12xW5p0L0p15_fingered_2x_4/VSUBS"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/VSUBS" "RF_nfet_12xW5p0L0p15_fingered_2x_3/VSUBS"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/VSUBS" "RF_nfet_12xW5p0L0p15_fingered_2x_5/VSUBS"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/VSUBS" "VSUBS"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" -1154.31 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -439200 -7560 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "S1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" -3710.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -732000 -15040 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "IF1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" -3513.31 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -947600 -12460 0 0 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" "RF2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" -6384.74 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -945600 -16720 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_3/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "DR"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" -4072.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -732000 -15040 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "IF2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1" -3592.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -111400 -3320 0 0 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G2" "LO1"
+merge "LO1" "RF_nfet_12xW5p0L0p15_fingered_2x_1/G"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_0/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_0/G"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "m3_3440_360#"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" -3560.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -948400 -12480 0 0 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G" "RF1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G2" -3594.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -101400 -3200 0 0 0 0 0 0
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/G2"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/G2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/G"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "RF_nfet_12xW5p0L0p15_fingered_2x_5/G"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/G1" "LO2"
+merge "LO2" "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/G1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/G1" "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1"
+merge "RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/G1" "m3_3440_n2360#"

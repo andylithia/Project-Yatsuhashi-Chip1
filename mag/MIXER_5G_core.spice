@@ -1,0 +1,94 @@
+* NGSPICE file created from MIXER_5G_core.ext - technology: sky130A
+
+.subckt sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered G D B S
+X0 D G S B sky130_fd_pr__nfet_01v8 ad=4.242e+12p pd=3.198e+07u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
+X1 D G S B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 S G D B sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 D G 0.65fF
+C1 S G 0.73fF
+C2 S D 9.91fF
+C3 S B 0.19fF
+C4 D B 2.61fF
+C5 G B 0.97fF
+.ends
+
+.subckt RF_nfet_12xW5p0L0p15_fingered SD2 SUB SD1 G2
+Xsky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0 G2 SD1 SUB SD2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered
+Xsky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1 G2 SD1 SUB SD2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered
+Xsky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2 G2 SD1 SUB SD2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered
+C0 SD2 G2 1.53fF
+C1 G2 SD1 2.84fF
+C2 SD2 SD1 0.93fF
+C3 SD2 SUB 1.65fF
+C4 SD1 SUB 9.97fF
+C5 G2 SUB 5.59fF
+.ends
+
+.subckt RF_nfet_12xW5p0L0p15_fingered_2x G SD2 SUB SD1
+XRF_nfet_12xW5p0L0p15_fingered_0 SD2 SUB SD1 G RF_nfet_12xW5p0L0p15_fingered
+XRF_nfet_12xW5p0L0p15_fingered_1 SD2 SUB SD1 G RF_nfet_12xW5p0L0p15_fingered
+C0 G SD2 0.95fF
+C1 G SD1 1.32fF
+C2 SD1 SD2 -0.15fF
+C3 SD2 SUB 1.80fF
+C4 SD1 SUB 13.96fF
+C5 G SUB 6.76fF
+.ends
+
+.subckt MIXER_5G_core
+XRF_nfet_12xW5p0L0p15_fingered_2x_0 LO1 IF1 VL DL RF_nfet_12xW5p0L0p15_fingered_2x
+XRF_nfet_12xW5p0L0p15_fingered_2x_1 LO1 IF2 VL DR RF_nfet_12xW5p0L0p15_fingered_2x
+XRF_nfet_12xW5p0L0p15_fingered_2x_2 RF1 DL VL S1 RF_nfet_12xW5p0L0p15_fingered_2x
+XRF_nfet_12xW5p0L0p15_fingered_2x_3 RF2 DR VL S2 RF_nfet_12xW5p0L0p15_fingered_2x
+XRF_nfet_12xW5p0L0p15_fingered_2x_4 LO2 IF1 VL DR RF_nfet_12xW5p0L0p15_fingered_2x
+XRF_nfet_12xW5p0L0p15_fingered_2x_5 LO2 IF2 VL DL RF_nfet_12xW5p0L0p15_fingered_2x
+C0 DR S1 0.21fF
+C1 DR LO1 1.78fF
+C2 LO2 S2 0.25fF
+C3 DL LO2 0.92fF
+C4 IF2 LO2 1.13fF
+C5 IF1 RF2 0.04fF
+C6 DR IF1 0.02fF
+C7 DL S2 0.20fF
+C8 RF1 DL 0.81fF
+C9 LO2 LO1 0.41fF
+C10 DR RF2 0.54fF
+C11 IF2 S2 0.00fF
+C12 IF2 RF1 0.03fF
+C13 IF2 DL 0.99fF
+C14 RF1 S1 0.52fF
+C15 IF1 LO2 1.37fF
+C16 RF1 LO1 0.64fF
+C17 DL S1 0.02fF
+C18 DL LO1 1.51fF
+C19 IF2 S1 0.00fF
+C20 IF2 LO1 1.48fF
+C21 RF2 LO2 0.67fF
+C22 DR LO2 2.54fF
+C23 IF1 S2 0.00fF
+C24 RF1 IF1 0.04fF
+C25 DL IF1 0.85fF
+C26 S1 LO1 0.24fF
+C27 IF2 IF1 5.84fF
+C28 RF2 S2 0.76fF
+C29 DR S2 0.03fF
+C30 DR RF1 0.30fF
+C31 DL RF2 0.53fF
+C32 DR DL 2.42fF
+C33 S1 IF1 0.00fF
+C34 IF1 LO1 1.08fF
+C35 IF2 RF2 0.05fF
+C36 IF2 DR 0.15fF
+C37 IF2 VL 9.96fF
+C38 DL VL 42.60fF
+C39 LO2 VL 17.25fF
+C40 IF1 VL 9.76fF
+C41 DR VL 42.89fF
+C42 S2 VL 16.09fF
+C43 RF2 VL 8.23fF
+C44 S1 VL 15.68fF
+C45 RF1 VL 8.15fF
+C46 LO1 VL 17.36fF
+.ends
+
