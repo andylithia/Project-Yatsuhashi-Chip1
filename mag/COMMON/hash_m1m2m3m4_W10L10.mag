@@ -1,0 +1,43 @@
+magic
+tech sky130B
+timestamp 1659499267
+<< via3 >>
+rect 200 -150 300 -50
+rect 450 -150 550 -50
+rect 700 -150 800 -50
+rect 200 -400 300 -300
+rect 450 -400 550 -300
+rect 700 -400 800 -300
+rect 200 -650 300 -550
+rect 450 -650 550 -550
+rect 700 -650 800 -550
+<< metal4 >>
+rect 180 -50 260 -30
+rect 740 -50 820 -30
+rect 180 -110 200 -50
+rect 800 -110 820 -50
+rect 180 -650 200 -590
+rect 800 -650 820 -590
+rect 180 -670 260 -650
+rect 740 -670 820 -650
+use hash_m1m2m3_W5L5  hash_m1m2m3_W5L5_0
+timestamp 1659499267
+transform 1 0 0 0 1 500
+box 0 -850 500 -350
+use hash_m1m2m3_W5L5  hash_m1m2m3_W5L5_1
+timestamp 1659499267
+transform 1 0 0 0 1 0
+box 0 -850 500 -350
+use hash_m1m2m3_W5L5  hash_m1m2m3_W5L5_2
+timestamp 1659499267
+transform 1 0 500 0 1 0
+box 0 -850 500 -350
+use hash_m1m2m3_W5L5  hash_m1m2m3_W5L5_3
+timestamp 1659499267
+transform 1 0 500 0 1 500
+box 0 -850 500 -350
+use hash_m4_W10L10  hash_m4_W10L10_0
+timestamp 1659498593
+transform 1 0 0 0 1 0
+box 0 -850 1000 150
+<< end >>

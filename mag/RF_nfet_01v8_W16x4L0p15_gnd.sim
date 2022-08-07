@@ -1,0 +1,58 @@
+| units: 500000 tech: sky130B format: MIT
+x G D SS SS l=30 w=800 x=628 y=158 sky130_fd_pr__nfet_01v8
+x G SS D SS l=30 w=800 x=1299 y=158 sky130_fd_pr__nfet_01v8
+x G SS D SS l=30 w=800 x=340 y=158 sky130_fd_pr__nfet_01v8
+x G SS D SS l=30 w=800 x=915 y=158 sky130_fd_pr__nfet_01v8
+x G D SS SS l=30 w=800 x=1587 y=158 sky130_fd_pr__nfet_01v8
+x G SS D SS l=30 w=800 x=724 y=158 sky130_fd_pr__nfet_01v8
+x G D SS SS l=30 w=800 x=436 y=158 sky130_fd_pr__nfet_01v8
+x G SS D SS l=30 w=800 x=1491 y=158 sky130_fd_pr__nfet_01v8
+x G SS D SS l=30 w=800 x=148 y=158 sky130_fd_pr__nfet_01v8
+x G D SS SS l=30 w=800 x=820 y=158 sky130_fd_pr__nfet_01v8
+x G D SS SS l=30 w=800 x=1203 y=158 sky130_fd_pr__nfet_01v8
+x G D SS SS l=30 w=800 x=244 y=158 sky130_fd_pr__nfet_01v8
+x G SS D SS l=30 w=800 x=1107 y=158 sky130_fd_pr__nfet_01v8
+x G SS D SS l=30 w=800 x=532 y=158 sky130_fd_pr__nfet_01v8
+x G D SS SS l=30 w=800 x=1395 y=158 sky130_fd_pr__nfet_01v8
+x G D SS SS l=30 w=800 x=1011 y=158 sky130_fd_pr__nfet_01v8
+C G D 6.87
+C D GND 38.08
+R D 16043
+= D sky130_fd_pr__nfet_01v8_7RL2PV_0/a_639_n400#
+= D sky130_fd_pr__nfet_01v8_7RL2PV_0/a_447_n400#
+= D sky130_fd_pr__nfet_01v8_7RL2PV_0/a_255_n400#
+= D sky130_fd_pr__nfet_01v8_7RL2PV_0/a_63_n400#
+= D sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n129_n400#
+= D sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n321_n400#
+= D sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n513_n400#
+= D sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n705_n400#
+C G GND 10.38
+R G 25666
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_591_n488#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_399_n488#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_207_n488#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_15_n488#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n177_n488#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n369_n488#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n561_n488#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n753_n488#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_687_422#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_495_422#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_303_422#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_111_422#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n81_422#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n273_422#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n465_422#
+= G sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n657_422#
+R SS 52752
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_735_n400#
+= SS VSUBS
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_543_n400#
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_351_n400#
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_159_n400#
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n33_n400#
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n225_n400#
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n417_n400#
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n609_n400#
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n797_n400#
+= SS sky130_fd_pr__nfet_01v8_7RL2PV_0/a_n899_n574#

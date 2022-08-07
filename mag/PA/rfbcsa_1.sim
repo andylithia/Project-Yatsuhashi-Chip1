@@ -1,0 +1,87 @@
+| units: 500000 tech: sky130B format: MIT
+x NGATE NDRAIN VSUBS VSUBS l=30 w=1010 x=194 y=152 sky130_fd_pr__nfet_01v8
+x NGATE VSUBS NDRAIN VSUBS l=30 w=1010 x=280 y=152 sky130_fd_pr__nfet_01v8
+x NGATE NDRAIN VSUBS VSUBS l=30 w=1010 x=703 y=152 sky130_fd_pr__nfet_01v8
+x NGATE VSUBS NDRAIN VSUBS l=30 w=1010 x=617 y=152 sky130_fd_pr__nfet_01v8
+x NGATE NDRAIN VSUBS VSUBS l=30 w=1010 x=982 y=152 sky130_fd_pr__nfet_01v8
+x NGATE VSUBS NDRAIN VSUBS l=30 w=1010 x=1068 y=152 sky130_fd_pr__nfet_01v8
+x NGATE NDRAIN VSUBS VSUBS l=30 w=1010 x=1376 y=152 sky130_fd_pr__nfet_01v8
+x NGATE VSUBS NDRAIN VSUBS l=30 w=1010 x=1462 y=152 sky130_fd_pr__nfet_01v8
+x NGATE NDRAIN VSUBS VSUBS l=30 w=1010 x=1885 y=152 sky130_fd_pr__nfet_01v8
+x NGATE VSUBS NDRAIN VSUBS l=30 w=1010 x=1799 y=152 sky130_fd_pr__nfet_01v8
+x NGATE NDRAIN VSUBS VSUBS l=30 w=1010 x=2164 y=152 sky130_fd_pr__nfet_01v8
+x NGATE VSUBS NDRAIN VSUBS l=30 w=1010 x=2250 y=152 sky130_fd_pr__nfet_01v8
+r NDRAIN NGATE 0.000000
+C VSUBS NGATE 11.09
+C VSUBS NDRAIN 22.77
+C NDRAIN NGATE 10.11
+C m4_0_n18200# GND 8.31
+R sky130_fd_pr__res_generic_po_JFYRVD_0/a_n141_n284# 1002
+R VSUBS 61754
+= VSUBS hash_m1m2m3_W2p5L2p5_5/VSUBS
+= VSUBS hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#
+= VSUBS hash_m1m2m3_W2p5L2p5_0/VSUBS
+= VSUBS hash_m1m2m3_W2p5L2p5_1/VSUBS
+= VSUBS hash_m1m2m3_W2p5L2p5_2/VSUBS
+= VSUBS hash_m1m2m3_W2p5L2p5_3/VSUBS
+= VSUBS hash_m1m2m3_W2p5L2p5_4/VSUBS
+= VSUBS hash_m1m2m3_W2p5L2p5_6/VSUBS
+= VSUBS sky130_fd_pr__res_generic_po_JFYRVD_0/a_n271_n487#
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/D
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/D
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/DRAIN
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/D
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/DRAIN
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/B
+= VSUBS m2_n100_700#
+= VSUBS hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#
+= VSUBS hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#
+= VSUBS hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#
+= VSUBS hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#
+= VSUBS hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#
+= VSUBS hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#
+= VSUBS li_2540_1080#
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/VSUBS
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sub
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SUBSTRATE
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/m1_420_110#
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/VSUBS
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/m1_814_110#
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SUBSTRATE
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/m1_420_110#
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/VSUBS
+= VSUBS RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/m1_814_110#
+C NDRAIN GND 14.22
+R NDRAIN 33712
+= NDRAIN sky130_fd_pr__res_generic_po_JFYRVD_0/a_n141_n357#
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/S
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/S
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/S
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE
+= NDRAIN RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE
+C NGATE GND 3.28
+R NGATE 22609
+= NGATE sky130_fd_pr__res_generic_po_JFYRVD_0/a_75_284#
+= NGATE li_2880_910#
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/G
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/G
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/GATE
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/GATE
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/G
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/GATE
+= NGATE RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/GATE

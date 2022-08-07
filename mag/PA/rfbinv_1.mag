@@ -1,0 +1,172 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1659670937
+<< viali >>
+rect 200 880 320 980
+rect -60 160 60 240
+<< metal1 >>
+rect 180 980 340 1000
+rect 180 860 200 980
+rect 320 860 340 980
+rect 180 840 340 860
+rect -80 280 80 300
+rect -80 160 -60 280
+rect 60 160 80 280
+rect -80 140 80 160
+rect -2000 -300 -1950 50
+rect -1900 -300 -1850 50
+rect -1800 -300 -1750 50
+rect -1700 -300 -1650 50
+rect -1600 -300 -1550 50
+rect -1500 -300 -1450 50
+rect -1400 -300 -1350 50
+rect -1300 -300 -1250 50
+rect -1200 -300 -1150 50
+rect -1100 -300 -1050 50
+rect -1000 -300 -950 50
+rect -900 -300 -850 50
+rect -800 -300 -750 50
+rect -700 -300 -650 50
+rect -600 -300 -550 50
+rect -500 -300 -450 50
+rect -400 -300 -350 50
+rect -300 -300 -250 50
+rect -200 -320 -150 50
+rect -100 -400 500 -300
+rect 0 -600 500 -500
+rect 0 -800 500 -700
+<< via1 >>
+rect 200 880 320 980
+rect 200 860 320 880
+rect -60 240 60 280
+rect -60 160 60 240
+<< metal2 >>
+rect 180 980 340 1000
+rect 180 860 200 980
+rect 320 860 340 980
+rect 180 840 340 860
+rect -80 280 80 300
+rect -80 160 -60 280
+rect 60 160 80 280
+rect -80 140 80 160
+rect 350 26 3750 70
+rect 350 0 560 26
+rect -1860 -80 -1800 0
+rect -1760 -80 -1700 0
+rect -1360 -80 -1300 0
+rect -1260 -80 -1200 0
+rect -850 -80 -800 0
+rect -750 -80 -700 0
+rect -350 -80 -300 0
+rect -250 -80 -200 0
+rect -1860 -220 -200 -80
+rect 350 -140 520 0
+rect 3710 -30 3750 26
+rect 3700 -140 3750 -30
+rect 350 -200 3750 -140
+rect -1860 -300 -1800 -220
+rect -1760 -300 -1700 -220
+rect -1360 -300 -1300 -220
+rect -1260 -300 -1200 -220
+rect -850 -300 -800 -220
+rect -750 -300 -700 -220
+rect -350 -300 -300 -220
+rect -250 -300 -200 -220
+rect 0 -520 500 -440
+rect 0 -660 500 -580
+<< via2 >>
+rect 200 860 320 980
+rect -60 160 60 280
+rect 560 0 3710 26
+rect 520 -30 3710 0
+rect 520 -140 3700 -30
+<< metal3 >>
+rect -1800 1200 3550 1500
+rect 180 980 340 1200
+rect 180 860 200 980
+rect 320 860 340 980
+rect 180 840 340 860
+rect -240 280 497 320
+rect -240 160 -60 280
+rect 60 160 497 280
+rect -240 120 497 160
+rect 100 -20 350 120
+rect 550 26 3720 40
+rect 550 20 560 26
+rect 500 0 560 20
+rect 100 -840 360 -20
+rect 500 -140 520 0
+rect 3710 -30 3720 26
+rect 3700 -140 3720 -30
+rect 500 -160 3720 -140
+rect 100 -850 350 -840
+<< via3 >>
+rect 520 -140 3700 0
+<< metal4 >>
+rect 500 0 3720 20
+rect 500 -140 520 0
+rect 3700 -140 3720 0
+rect 500 -160 3720 -140
+use RF_nfet_01v8_W16x4L0p15_gnd  RF_nfet_01v8_W16x4L0p15_gnd_0
+timestamp 1659663400
+transform 1 0 -1947 0 1 60
+box -53 -60 1817 1200
+use RF_pfet_01v8_W32x4L0p15_vdd  RF_pfet_01v8_W32x4L0p15_vdd_0
+timestamp 1659665733
+transform -1 0 3779 0 1 600
+box 0 -600 3429 662
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1659499099
+transform 1 0 -2100 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_1
+timestamp 1659499099
+transform 1 0 -1600 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_2
+timestamp 1659499099
+transform 1 0 -1100 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_3
+timestamp 1659499099
+transform 1 0 -600 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_4
+timestamp 1659499099
+transform 1 0 400 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_5
+timestamp 1659499099
+transform 1 0 900 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_6
+timestamp 1659499099
+transform 1 0 1400 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_7
+timestamp 1659499099
+transform 1 0 1900 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_8
+timestamp 1659499099
+transform 1 0 2400 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_9
+timestamp 1659499099
+transform 1 0 2900 0 1 300
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_10
+timestamp 1659499099
+transform 1 0 3400 0 1 300
+box 100 -1100 600 -600
+use sky130_fd_pr__res_generic_po_6SBMHA  sky130_fd_pr__res_generic_po_6SBMHA_0
+timestamp 1659667157
+transform 1 0 130 0 1 577
+box -180 -377 180 377
+<< labels >>
+rlabel metal3 -1800 1250 3550 1500 1 Y
+rlabel metal3 100 -850 350 -800 1 A
+rlabel metal4 500 -160 3720 20 1 VHI
+rlabel metal2 -1860 -220 -200 -80 1 VLO
+<< end >>

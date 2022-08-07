@@ -1,0 +1,31 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/sptest_1.sch
+**.subckt sptest_1
+Vo net1 GND 0.9
+LRFC1 net2 net1 1n m=1
+C5 net3 net2 1p m=1
+V2 net4 GND dc 0.9 ac 1 portnum 1 z0 50
+C1 net2 net4 1n m=1
+V4 net3 GND DC 0.9 AC 0 portnum 2 z0 50
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+
+.options savecurrents
+
+* .tran 10ps 50ns
+.sp dec 1000 1G 10G 1
+.control
+run
+display
+
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

@@ -322,6 +322,8 @@ C0 S D 9.91fF
 C1 D B 2.61fF
 .ends
 
+* Extraction of 6xaM02 (12 finger) Transistors
+* wt=60um, L=0.15um
 .subckt NFET_extract_1 D G S B
 
  .subckt sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE

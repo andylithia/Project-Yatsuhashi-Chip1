@@ -1,0 +1,30 @@
+magic
+tech sky130B
+timestamp 1659499836
+<< via4 >>
+rect 970 440 1390 590
+rect 740 -60 890 360
+rect 1470 -60 1620 360
+rect 970 -290 1390 -140
+<< metal5 >>
+rect 680 590 1680 650
+rect 680 440 970 590
+rect 1390 440 1680 590
+rect 680 410 1680 440
+rect 680 360 920 410
+rect 680 -60 740 360
+rect 890 -60 920 360
+rect 680 -110 920 -60
+rect 1440 360 1680 410
+rect 1440 -60 1470 360
+rect 1620 -60 1680 360
+rect 1440 -110 1680 -60
+rect 680 -140 1680 -110
+rect 680 -290 970 -140
+rect 1390 -290 1680 -140
+rect 680 -350 1680 -290
+use hash_m1m2m3m4_W10L10  hash_m1m2m3m4_W10L10_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1659499267
+transform 1 0 680 0 1 500
+box 0 -850 1000 150
+<< end >>

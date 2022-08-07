@@ -303,6 +303,28 @@ N 980 -820 1050 -820 {
 lab=vbiasn}
 N 1030 -560 1030 -550 {
 lab=GND}
+N 520 -1160 540 -1160 {
+lab=#net1}
+N 520 -1210 520 -1160 {
+lab=#net1}
+N 580 -1230 580 -1160 {
+lab=vbias}
+N 580 -1230 900 -1230 {
+lab=vbias}
+N 900 -1230 900 -1150 {
+lab=vbias}
+N 1370 -1160 1390 -1160 {
+lab=#net1}
+N 1390 -1210 1390 -1160 {
+lab=#net1}
+N 1370 -1210 1390 -1210 {
+lab=#net1}
+N 1330 -1220 1330 -1160 {
+lab=vbias}
+N 1330 -1230 1330 -1220 {
+lab=vbias}
+N 900 -1230 1330 -1230 {
+lab=vbias}
 C {devices/code_shown.sym} 1540 -980 0 0 {name=s2 only_toplevel=false value="
 
 .subckt NFET_extract_1 SD1 SD2 G1 G2 SUB
@@ -397,21 +419,11 @@ m=1
 value=0.05p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/res.sym} 540 -1160 0 0 {name=R1
-value=2k
-footprint=1206
-device=resistor
-m=1}
-C {devices/capa.sym} 1370 -1160 0 0 {name=C2
+C {devices/capa.sym} 1310 -1160 0 0 {name=C2
 m=1
 value=0.05p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/res.sym} 1310 -1160 0 0 {name=R2
-value=2k
-footprint=1206
-device=resistor
-m=1}
 C {devices/vsource.sym} 360 -850 0 0 {name=V1 value=1.8
 }
 C {devices/vsource.sym} 430 -850 0 0 {name=V2 value="SIN(0.9 0.9 5G 0 0 180)"
@@ -505,7 +517,7 @@ C {sky130_fd_pr/pfet_01v8.sym} 750 -1150 0 1 {name=M1
 L=1
 W=10
 nf=1
-mult=10
+mult=5
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -524,7 +536,7 @@ C {sky130_fd_pr/pfet_01v8.sym} 1230 -1150 0 0 {name=M3
 L=1
 W=10
 nf=1
-mult=10
+mult=5
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -584,3 +596,31 @@ footprint=1206
 device=resistor
 m=1}
 C {devices/lab_wire.sym} 1030 -820 0 0 {name=l21 sig_type=std_logic lab=vbiasn}
+C {sky130_fd_pr/pfet_01v8.sym} 560 -1160 0 1 {name=M5
+L=1
+W=10
+nf=1
+mult=5
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 1350 -1160 0 0 {name=M6
+L=1
+W=10
+nf=1
+mult=5
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}

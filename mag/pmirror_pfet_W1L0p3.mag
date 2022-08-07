@@ -1,0 +1,19 @@
+magic
+tech sky130B
+timestamp 1659896371
+<< metal1 >>
+rect 45 150 80 185
+rect 80 130 110 135
+rect 106 35 110 130
+rect 80 30 110 35
+<< via1 >>
+rect 80 35 106 130
+<< metal2 >>
+rect 80 130 110 135
+rect 106 35 110 130
+rect 80 30 110 35
+use sky130_fd_pr__pfet_01v8_7G6J3C  sky130_fd_pr__pfet_01v8_7G6J3C_0
+timestamp 1659896371
+transform 1 0 62 0 1 99
+box -62 -99 62 82
+<< end >>

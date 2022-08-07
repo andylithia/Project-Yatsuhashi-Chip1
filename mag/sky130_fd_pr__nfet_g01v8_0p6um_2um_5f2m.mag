@@ -1,5 +1,5 @@
 magic
-tech sky130A
+tech sky130B
 magscale 1 2
 timestamp 1658291242
 use sky130_fd_pr__nfet_01v8_AKH2KQ  sky130_fd_pr__nfet_01v8_AKH2KQ_0

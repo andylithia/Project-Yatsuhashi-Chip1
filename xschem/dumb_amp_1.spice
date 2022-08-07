@@ -1,0 +1,57 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/dumb_amp_1.sch
+**.subckt dumb_amp_1
+XM1 net1 net3 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=16 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=4 m=4
+XM2 net1 net3 net2 net2 sky130_fd_pr__pfet_01v8 L=0.15 W=32 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=4 m=4
+V1 net2 GND 1.8
+R1 net1 net3 1k m=1
+V3 net5 GND DC 0.9 AC 0 portnum 2 z0 50
+V2 net4 GND DC 0.9 AC 0 portnum 1 z0 50
+C1 net3 net7 1.7p m=1
+C2 net5 net1 1.7p m=1
+C4 __UNCONNECTED_PIN__0 net6 2p m=1
+C5 net6 __UNCONNECTED_PIN__1 0.275p m=1
+L2 net6 GND 1.12n m=1
+C3 net7 net4 0.2p m=1
+L1 net7 GND 2.5n m=1
+L3 __UNCONNECTED_PIN__2 __UNCONNECTED_PIN__3 2n m=1
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+.sp dec 1000 1e9 10e9 1
+* .ac dec 1000 0.01e9 100e9
+.control
+run
+display
+let z11=50*(1+s_1_1)/(1-s_1_1)
+let z22=50*(1+s_2_2)/(1-s_2_2)
+let S11 = S_1_1
+let S21 = S_2_1
+let S12 = S_1_2
+let S22 = S_2_2
+
+* Stability
+let delta=S11*S22-S12*S21
+let K    = (1-mag(S11)^2-mag(S22)^2+mag(delta)^2)/(2*mag(S12*S21))
+let mu   = (1-mag(S11)^2)/(mag(S22-conj(S11)*delta)+mag(S21*S12))
+* plot real(z11) real(z22)
+* plot imag(z11) imag(z22)
+plot db(S_1_1) db(S_2_2) db(S_2_1)
+*
+plot db(K)
+plot mag(delta)
+plot db(mu)
+plot NF NFmin
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

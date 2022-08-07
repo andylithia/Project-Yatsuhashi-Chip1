@@ -1,0 +1,38 @@
+* SPICE3 file created from RF_pfet_01v8_W32x4L0p15_vdd.ext - technology: sky130B
+
+X0 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X1 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X2 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X3 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X4 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X5 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X6 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X7 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X8 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X9 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X10 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X11 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X12 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X13 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X14 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X15 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X16 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X17 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X18 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X19 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X20 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X21 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X22 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X23 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X24 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X25 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X26 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X27 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X28 D G SS SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X29 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X30 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X31 SS G D SS sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+C0 D SS 73.72fF
+C1 G D 14.17fF
+C2 G SS 19.82fF
+C3 SS SUB 16.45fF **FLOATING

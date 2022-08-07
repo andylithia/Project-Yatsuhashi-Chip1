@@ -1,0 +1,38 @@
+| units: 500000 tech: sky130B format: MIT
+x G2 SD2 SD1 SUB l=30 w=1010 x=452 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD2 SD1 SUB l=30 w=1010 x=280 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD1 SD2 SUB l=30 w=1010 x=366 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD1 SD2 SUB l=30 w=1010 x=194 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD2 SD1 SUB l=30 w=1010 x=1112 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD2 SD1 SUB l=30 w=1010 x=940 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD1 SD2 SUB l=30 w=1010 x=1026 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD1 SD2 SUB l=30 w=1010 x=854 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD2 SD1 SUB l=30 w=1010 x=1772 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD2 SD1 SUB l=30 w=1010 x=1600 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD1 SD2 SUB l=30 w=1010 x=1686 y=156 sky130_fd_pr__nfet_01v8
+x G2 SD1 SD2 SUB l=30 w=1010 x=1514 y=156 sky130_fd_pr__nfet_01v8
+C G2 SD1 4.50
+C SUB SD1 3.01
+C SD2 SD1 30.48
+C G2 SUB 2.28
+C G2 SD2 3.50
+C G2 GND 3.11
+R G2 20886
+= G2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/G
+= G2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G
+= G2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G
+= G2 G1
+R SUB 11174
+= SUB sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B
+= SUB sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B
+= SUB sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B
+= SUB a_592_156#
+R SD2 16688
+= SD2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
+= SD2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
+= SD2 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
+C SD1 GND 6.76
+R SD1 25165
+= SD1 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D
+= SD1 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D
+= SD1 sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D

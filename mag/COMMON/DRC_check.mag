@@ -1,0 +1,27 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1659839316
+<< metal1 >>
+rect 0 162 52 168
+rect 0 104 52 110
+rect 0 -10 60 50
+<< via1 >>
+rect 0 110 52 162
+<< metal2 >>
+rect 81 180 90 236
+rect 146 180 155 236
+rect 0 162 52 168
+rect 0 104 52 110
+rect 90 -10 150 50
+<< via2 >>
+rect 90 180 146 236
+<< metal3 >>
+rect 88 241 148 340
+rect 85 236 151 241
+rect 85 180 90 236
+rect 146 180 151 236
+rect 85 175 151 180
+rect 180 -10 280 90
+rect 390 -10 450 150
+<< end >>

@@ -1,9 +1,0 @@
-* SPICE3 file created from /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/mag/SKY130A_rf/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15.ext - technology: sky130A
-
-.subckt x/home/andylithia/openmpw/Project-Yatsuhashi-Chip1/mag/SKY130A_rf/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
-+ DRAIN GATE SOURCE SUBSTRATE
-X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=1.414e+12p pd=1.066e+07u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
-X1 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-C0 SOURCE DRAIN 3.73fF
-C1 SOURCE SUBSTRATE 2.58fF
-.ends

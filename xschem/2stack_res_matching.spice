@@ -1,0 +1,99 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/2stack_res_matching.sch
+**.subckt 2stack_res_matching
+V1 VDD GND 1.8
+Ldeg5 net1 VDDI 2n m=1
+R3 net1 VDD 3 m=1
+Ldeg6 net2 GND 2n m=1
+R4 net2 GNDI 3 m=1
+XC3 net9 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
+C8 GNDI GND 200f m=1
+C19 VDD VDDI 200f m=1
+R2 net9 VDDI 5 m=1
+XC4 net10 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
+R8 net10 VDDI 5 m=1
+V3 net3 GND 3.3
+L1 net7 voi 2n m=1
+L6 vout net4 1.3n m=1
+C7 net4 voi 1.6p m=1
+C1 voi GND 0.3p m=1
+R5 gd vbiasl 2k m=1
+XM3 voi gu vmid vmid sky130_fd_pr__nfet_03v3_nvt L=0.5 W=4 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=256 m=256
+R6 gu net8 2k m=1
+C5 gu GND 2p m=1
+R7 net3 net5 1m m=1
+XM2 vmid gd GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=64 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=8 m=8
+R11 vin net6 1m m=1
+R12 net5 net7 5 m=1
+C6 gd vin 3p m=1
+XM1 vbiasl vbiasl GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=64 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM4 vbiasu vbiasu vbiasl vbiasl sky130_fd_pr__nfet_03v3_nvt L=0.5 W=4 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=32 m=32
+I1 net3 vbiasu 2.7m
+C10 vbiasu GND 2p m=1
+C11 vbiasl GND 2p m=1
+R9 net8 vbiasu 1m m=1
+R1 vin GND 50 m=1
+V4 net6 GND dc 0.9 ac 1 portnum 1 z0 50
+V2 vout GND dc 0.9 ac 1 portnum 2 z0 50
+L2 GND vin 1.3n m=1
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+
+.options savecurrents
+* XMU_0 gu voi mid mid rf_nfet_6xaM02_extracted
+* XMU_1 gu voi mid mid rf_nfet_6xaM02_extracted
+* XMU_2 gu voi mid mid rf_nfet_6xaM02_extracted
+* XMU_3 gu voi mid mid rf_nfet_6xaM02_extracted
+* XMU_4 gu voi mid mid rf_nfet_6xaM02_extracted
+* XMU_5 gu voi mid mid rf_nfet_6xaM02_extracted
+* XMD_0 gd mid gnd gnd rf_nfet_6xaM02_extracted
+* XMD_1 gd mid gnd gnd rf_nfet_6xaM02_extracted
+* XMD_2 gd mid gnd gnd rf_nfet_6xaM02_extracted
+* XMD_3 gd mid gnd gnd rf_nfet_6xaM02_extracted
+* XMD_4 gd mid gnd gnd rf_nfet_6xaM02_extracted
+* XMD_5 gd mid gnd gnd rf_nfet_6xaM02_extracted
+* .tran 5ps 20ns
+.sp dec 1000 1e9 10e9 1
+.control
+run
+display
+plot @r5[i]
+let zout=@rload[r]
+let zin=50
+* meas TRAN vout_rms rms v(vout)
+* meas TRAN isp_hi_avg  avg @r7[i]
+* meas TRAN isp_mid_avg avg @r9[i]
+* meas TRAN vin_rms rms v(vin)
+* meas TRAN isp_1p8_avg avg @rsense2[i]
+* let psp_rms  = isp_hi_avg*3.6 + isp_mid_avg*2.2
+* let pout_rms = vout_rms^2/zout
+* let pin_rms  = vin_rms^2/zin
+* print psp_rms
+* print ((pout_rms-pin_rms)/psp_rms)*100
+* print 10*log10(pout_rms*1000)
+
+* plot gd vmid voi vout
+
+* let pout = mag(@rload[i]*vout)
+* let poutdbm = log10((pout/(1e-3))*10
+* plot pout
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.GLOBAL GNDI
+.end

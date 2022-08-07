@@ -1,0 +1,128 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/2stack_pa_complete.sch
+**.subckt 2stack_pa_complete
+V3 net1 GND 3.3
+L1 net4 voi 2n m=1
+L6 vout net2 1.3n m=1
+C7 net2 voi 1.6p m=1
+C1 voi GND 0.3p m=1
+R5 gd vbiasl 2k m=1
+XM3 voi gu vmid vmid sky130_fd_pr__nfet_03v3_nvt L=0.5 W=4 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=256 m=256
+R6 gu net6 2k m=1
+C5 gu GND 2p m=1
+R7 net1 net3 1m m=1
+XM2 vmid gd GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=64 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=8 m=8
+R12 net3 net4 5 m=1
+C6 gd net5 3p m=1
+XM1 vbiasl vbiasl GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=64 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM4 vbiasu vbiasu vbiasl vbiasl sky130_fd_pr__nfet_03v3_nvt L=0.5 W=4 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=32 m=32
+I1 net1 vbiasu 2.7m
+C10 vbiasu GND 2p m=1
+C11 vbiasl GND 2p m=1
+R9 net6 vbiasu 1m m=1
+R1 net5 GND 50 m=1
+L2 GND net5 1.3n m=1
+V4 VDD GND 1.8
+V5 vin GND SIN(0.9 0.9 5G)
+C2 g1 net11 1p m=1
+C9 net5 d1 2p m=1
+L3 net7 d1 1n m=1
+R10 net8 net7 5 m=1
+XM5 net8 net10 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=60 m=60
+XM6 net9 net9 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+I0 net9 GND 0.2m
+C12 net9 GND 1p m=1
+R11 net10 net9 1k m=1
+R14 vin net11 1k m=1
+R15 net11 GND 1k m=1
+R13 vout GND 50 m=1
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+.subckt dumb_amp_core_pex NGATE NDRAIN VSUBS
+.subckt sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE
+X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=1.414e+12p pd=1.066e+07u as=2.828e+12p
++ ps=2.132e+07u w=5.05e+06u l=150000u
+X1 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 DRAIN SOURCE 3.59fF
+C1 GATE SOURCE 0.46fF
+C2 DRAIN GATE 0.34fF
+C3 DRAIN SUBSTRATE 0.40fF
+C4 SOURCE SUBSTRATE 2.44fF
+C5 GATE SUBSTRATE 0.64fF
+.ends
+.subckt nfet_3x_2 D G S sub
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S sub sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S sub sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S sub sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+C0 G sub 1.34fF
+C1 S D -0.11fF
+C2 S G 2.13fF
+C3 G D 1.69fF
+C4 S sub -0.01fF
+C5 D sub -0.05fF
+C6 sub 0 -1.34fF
+C7 D 0 0.62fF
+C8 S 0 6.66fF
+C9 G 0 1.96fF
+.ends
+.subckt RF_nfet_6xaM02W5p0L0p15 G S D B
+Xnfet_3x_2_0 D G S B nfet_3x_2
+Xnfet_3x_2_1 D G S B nfet_3x_2
+C0 D B -0.02fF
+C1 G S 0.20fF
+C2 G B 0.06fF
+C3 G D 0.14fF
+C4 S B 0.02fF
+C5 D S 0.01fF
+C6 B 0 -3.73fF
+C7 D 0 1.02fF
+C8 S 0 13.03fF
+C9 G 0 3.30fF
+.ends
+.subckt sky130_fd_pr__res_generic_po_JFYRVD a_75_284# a_n141_n357# a_n271_n487#
+R0 a_n141_n357# a_75_284# sky130_fd_pr__res_generic_po w=330000u l=6.2e+06u
+C0 a_n141_n357# a_n271_n487# 0.14fF
+C1 a_75_284# a_n271_n487# 0.14fF
+.ends
+XRF_nfet_6xaM02W5p0L0p15_0 NGATE NDRAIN VSUBS VSUBS RF_nfet_6xaM02W5p0L0p15
+Xsky130_fd_pr__res_generic_po_JFYRVD_0 NGATE NDRAIN VSUBS sky130_fd_pr__res_generic_po_JFYRVD
+C0 VSUBS NDRAIN 1.42fF
+C1 NGATE VSUBS 2.81fF
+C2 NGATE NDRAIN 2.91fF
+C5 NDRAIN VSUBS 14.22fF
+C6 NGATE VSUBS 3.28fF
+.ends
+
+XDAPEX G1 D1 GND dumb_amp_core_pex
+
+
+.options savecurrents
+.tran 10ps 20ns
+* .sp dec 1000 1e9 10e9 1
+.control
+run
+display
+
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

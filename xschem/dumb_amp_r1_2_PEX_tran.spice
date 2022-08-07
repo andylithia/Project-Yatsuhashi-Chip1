@@ -1,0 +1,163 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/dumb_amp_r1_2_PEX_tran.sch
+**.subckt dumb_amp_r1_2_PEX_tran
+V1 VDD GND 1.8
+V2 net4 GND SIN(0.9 0.9 5G)
+C1 g net3 1p m=1
+C2 vout d 2p m=1
+L1 net1 d 1n m=1
+R2 net5 net1 5 m=1
+XM2 net2 net2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+I0 net2 GND 0.1m
+C3 net2 GND 1p m=1
+R1 vout GND 150 m=1
+R4 net4 net3 1k m=1
+R5 net3 GND 1k m=1
+x1 g d GND dumb_amp_r1_2_core_PEX
+x2 VDD VDD VDD VDD VDD VDD net2 net5 pmirror_tunable_64x
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+
+* .ac dec 1000 0.01e9 100e9
+.tran 10ps 10ns
+.control
+run
+display
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  dumb_amp_r1_2_core_PEX.sym # of pins=3
+** sym_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/dumb_amp_r1_2_core_PEX.sym
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/dumb_amp_r1_2_core_PEX.sch
+.subckt dumb_amp_r1_2_core_PEX  G D GND
+*.iopin G
+*.iopin D
+*.iopin GND
+**** begin user architecture code
+
+.subckt dumb_amp_core_pex NGATE NDRAIN VSUBS
+.subckt sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE
+X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=1.414e+12p pd=1.066e+07u as=2.828e+12p
++ ps=2.132e+07u w=5.05e+06u l=150000u
+X1 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 DRAIN SOURCE 3.59fF
+C1 GATE SOURCE 0.46fF
+C2 DRAIN GATE 0.34fF
+C3 DRAIN SUBSTRATE 0.40fF
+C4 SOURCE SUBSTRATE 2.44fF
+C5 GATE SUBSTRATE 0.64fF
+.ends
+.subckt nfet_3x_2 D G S sub
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S sub sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S sub sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+Xsky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S sub sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+C0 G sub 1.34fF
+C1 S D -0.11fF
+C2 S G 2.13fF
+C3 G D 1.69fF
+C4 S sub -0.01fF
+C5 D sub -0.05fF
+C6 sub 0 -1.34fF
+C7 D 0 0.62fF
+C8 S 0 6.66fF
+C9 G 0 1.96fF
+.ends
+.subckt RF_nfet_6xaM02W5p0L0p15 G S D B
+Xnfet_3x_2_0 D G S B nfet_3x_2
+Xnfet_3x_2_1 D G S B nfet_3x_2
+C0 D B -0.02fF
+C1 G S 0.20fF
+C2 G B 0.06fF
+C3 G D 0.14fF
+C4 S B 0.02fF
+C5 D S 0.01fF
+C6 B 0 -3.73fF
+C7 D 0 1.02fF
+C8 S 0 13.03fF
+C9 G 0 3.30fF
+.ends
+.subckt sky130_fd_pr__res_generic_po_JFYRVD a_75_284# a_n141_n357# a_n271_n487#
+R0 a_n141_n357# a_75_284# sky130_fd_pr__res_generic_po w=330000u l=6.2e+06u
+C0 a_n141_n357# a_n271_n487# 0.14fF
+C1 a_75_284# a_n271_n487# 0.14fF
+.ends
+XRF_nfet_6xaM02W5p0L0p15_0 NGATE NDRAIN VSUBS VSUBS RF_nfet_6xaM02W5p0L0p15
+Xsky130_fd_pr__res_generic_po_JFYRVD_0 NGATE NDRAIN VSUBS sky130_fd_pr__res_generic_po_JFYRVD
+C0 VSUBS NDRAIN 1.42fF
+C1 NGATE VSUBS 2.81fF
+C2 NGATE NDRAIN 2.91fF
+C5 NDRAIN VSUBS 14.22fF
+C6 NGATE VSUBS 3.28fF
+.ends
+
+XDUT G D GND dumb_amp_core_pex
+
+
+**** end user architecture code
+.ends
+
+
+* expanding   symbol:  pmirror_tunable_64x.sym # of pins=8
+** sym_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x.sym
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x.sch
+.subckt pmirror_tunable_64x  VHI G0 G1 G4 G2 G3 VREF IOUT
+*.ipin G0
+*.ipin G1
+*.ipin G2
+*.ipin G3
+*.ipin G4
+*.ipin VREF
+*.iopin VHI
+*.iopin IOUT
+XM3 IOUT net1 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2
+XM5 net1 net6 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+R3 net1 VREF 1k m=1
+R1 net6 G0 1k m=1
+XM1 IOUT net2 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=4 m=4
+XM2 net2 net7 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+R2 net2 VREF 1k m=1
+R4 net7 G1 1k m=1
+XM4 IOUT net3 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=8 m=8
+XM6 net3 net8 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+R5 net3 VREF 1k m=1
+R6 net8 G2 1k m=1
+XM7 IOUT net4 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=16 m=16
+XM8 net4 net9 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+R7 net4 VREF 1k m=1
+R8 net9 G3 1k m=1
+XM9 IOUT net5 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=32 m=32
+XM10 net5 net10 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+R9 net5 VREF 1k m=1
+R10 net10 G4 1k m=1
+.ends
+
+.GLOBAL GND
+.end

@@ -1,0 +1,61 @@
+* SPICE3 file created from rfbinv_1.ext - technology: sky130B
+
+R0 A Y sky130_fd_pr__res_generic_po w=460000u l=6.54e+06u
+X0 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X1 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X2 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X3 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X4 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X5 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X6 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X7 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X8 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X9 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X10 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X11 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X12 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X13 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X14 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X15 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X16 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X17 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X18 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X19 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X20 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X21 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X22 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X23 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X24 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X25 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X26 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X27 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X28 Y A VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X29 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X30 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X31 VHI A Y VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X32 VLO A Y VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X33 Y A VLO VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X34 Y A VLO VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X35 Y A VLO VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X36 VLO A Y VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X37 Y A VLO VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X38 VLO A Y VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X39 Y A VLO VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X40 Y A VLO VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X41 VLO A Y VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X42 VLO A Y VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X43 VLO A Y VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X44 Y A VLO VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X45 Y A VLO VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X46 VLO A Y VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X47 VLO A Y VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+C0 VLO Y 37.95fF
+C1 VLO VHI 5.31fF
+C2 VLO A 10.01fF
+C3 Y VHI 74.69fF
+C4 A Y 21.97fF
+C5 A VHI 23.59fF
+C6 VLO 0 8.21fF **FLOATING
+C7 Y 0 2.50fF **FLOATING
+C8 A 0 2.76fF **FLOATING
+C9 VHI 0 14.48fF **FLOATING

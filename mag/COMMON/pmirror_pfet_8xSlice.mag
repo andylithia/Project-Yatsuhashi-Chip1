@@ -1,0 +1,171 @@
+magic
+tech sky130B
+timestamp 1659898741
+<< error_s >>
+rect 0 568 15 704
+rect 18 586 33 686
+rect 212 586 226 686
+rect 230 568 244 704
+rect 0 383 15 519
+rect 18 401 33 501
+rect 212 401 226 501
+rect 230 383 244 519
+rect 0 198 15 334
+rect 18 216 33 316
+rect 212 216 226 316
+rect 230 198 244 334
+rect 0 13 15 149
+rect 18 31 33 131
+rect 212 31 226 131
+rect 230 13 244 149
+rect 0 -149 15 -13
+rect 18 -131 33 -31
+rect 212 -131 226 -31
+rect 230 -149 244 -13
+rect 0 -334 15 -198
+rect 18 -316 33 -216
+rect 212 -316 226 -216
+rect 230 -334 244 -198
+rect 0 -519 15 -383
+rect 18 -501 33 -401
+rect 212 -501 226 -401
+rect 230 -519 244 -383
+rect 0 -704 15 -568
+rect 18 -686 33 -586
+rect 212 -686 226 -586
+rect 230 -704 244 -568
+<< nwell >>
+rect 110 -740 135 740
+<< metal1 >>
+rect 135 685 165 690
+rect 135 590 139 685
+rect 135 585 165 590
+rect 135 500 165 505
+rect 135 405 139 500
+rect 135 400 165 405
+rect 135 315 165 320
+rect 135 220 139 315
+rect 135 215 165 220
+rect 135 130 165 135
+rect 135 35 139 130
+rect 135 30 165 35
+rect 135 -35 165 -30
+rect 135 -130 139 -35
+rect 135 -135 165 -130
+rect 135 -220 165 -215
+rect 135 -315 139 -220
+rect 135 -320 165 -315
+rect 135 -405 165 -400
+rect 135 -500 139 -405
+rect 135 -505 165 -500
+rect 135 -590 165 -585
+rect 135 -685 139 -590
+rect 135 -690 165 -685
+<< via1 >>
+rect 139 590 165 685
+rect 139 405 165 500
+rect 139 220 165 315
+rect 139 35 165 130
+rect 139 -130 165 -35
+rect 139 -315 165 -220
+rect 139 -500 165 -405
+rect 139 -685 165 -590
+<< metal2 >>
+rect 105 690 140 740
+rect 105 685 165 690
+rect 80 590 139 685
+rect 105 585 165 590
+rect 105 505 140 585
+rect 105 500 165 505
+rect 80 405 139 500
+rect 105 400 165 405
+rect 105 320 140 400
+rect 105 315 165 320
+rect 80 220 139 315
+rect 105 215 165 220
+rect 105 135 140 215
+rect 105 130 165 135
+rect 80 35 139 130
+rect 105 30 165 35
+rect 105 -30 140 30
+rect 105 -35 165 -30
+rect 80 -130 139 -35
+rect 105 -135 165 -130
+rect 105 -215 140 -135
+rect 105 -220 165 -215
+rect 80 -315 139 -220
+rect 105 -320 165 -315
+rect 105 -400 140 -320
+rect 105 -405 165 -400
+rect 80 -500 139 -405
+rect 105 -505 165 -500
+rect 105 -585 140 -505
+rect 105 -590 165 -585
+rect 80 -685 139 -590
+rect 105 -690 165 -685
+rect 105 -740 140 -690
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_0
+timestamp 1659896591
+transform 1 0 0 0 1 0
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_1
+timestamp 1659896591
+transform 1 0 120 0 1 0
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_2
+timestamp 1659896591
+transform 1 0 120 0 -1 0
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_3
+timestamp 1659896591
+transform 1 0 0 0 -1 0
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_4
+timestamp 1659896591
+transform 1 0 120 0 -1 -185
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_5
+timestamp 1659896591
+transform 1 0 0 0 -1 -185
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_6
+timestamp 1659896591
+transform 1 0 120 0 1 185
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_7
+timestamp 1659896591
+transform 1 0 0 0 1 185
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_8
+timestamp 1659896591
+transform 1 0 0 0 1 555
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_9
+timestamp 1659896591
+transform 1 0 120 0 1 555
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_10
+timestamp 1659896591
+transform 1 0 120 0 1 370
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_11
+timestamp 1659896591
+transform 1 0 0 0 1 370
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_12
+timestamp 1659896591
+transform 1 0 120 0 -1 -370
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_13
+timestamp 1659896591
+transform 1 0 0 0 -1 -370
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_14
+timestamp 1659896591
+transform 1 0 120 0 -1 -555
+box 0 0 124 185
+use pmirror_pfet_W1L0p3_flat  pmirror_pfet_W1L0p3_flat_15
+timestamp 1659896591
+transform 1 0 0 0 -1 -555
+box 0 0 124 185
+<< end >>

@@ -1,0 +1,3 @@
+[submodule "RISU64"]
+	path = RISU64
+	url = https://github.com/zephray/RISU64

@@ -27,7 +27,8 @@
 
 #### Allow user environment to override the path to the PDK
 if {[catch {set PDKPATH $env(PDKPATH)}]} {
-    set PDKPATH "/usr/share/pdk/sky130A"
+    # set PDKPATH "/usr/share/pdk/sky130A"
+    set PDKPATH "/usr/share/pdk/sky130B"
 }
 #### Flush any previous definition
 set XSCHEM_LIBRARY_PATH {}

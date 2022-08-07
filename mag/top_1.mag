@@ -1,5 +1,5 @@
 magic
-tech sky130A
+tech sky130B
 timestamp 1659151574
 use OSC_5GHz_1  OSC_5GHz_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/OSC
 timestamp 1659147692

@@ -1,0 +1,138 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/2stack_2_sp.sch
+**.subckt 2stack_2_sp
+V1 VDD GND 1.8
+Ldeg5 net1 VDDI 2n m=1
+R3 net1 VDD 3 m=1
+Ldeg6 net2 GND 2n m=1
+R4 net2 GNDI 3 m=1
+XC3 net11 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
+C8 GNDI GND 200f m=1
+C19 VDD VDDI 200f m=1
+R2 net11 VDDI 5 m=1
+XC4 net12 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
+R8 net12 VDDI 5 m=1
+V2 vs GND DC 0 AC 0 portnum 1 z0 50
+x2 vbias vbias GND GND rf_nfet_6xaM02_extracted
+I0 VDDI vbias 5m
+R1 __UNCONNECTED_PIN__0 vbias 1k m=1
+C2 vbias GND 2p m=1
+V3 net3 GND 3.3
+L1 net9 voi 2n m=1
+L6 vout net4 1.3n m=1
+C7 net4 voi 1.6p m=1
+C1 voi GND 0.3p m=1
+V4 net5 GND 1.3
+R5 gd net6 2k m=1
+V5 net6 GND 0.9
+XM3 voi gu vmid vmid sky130_fd_pr__nfet_03v3_nvt L=0.5 W=4 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=256 m=256
+R6 gu net8 2k m=1
+C5 gu GND 2p m=1
+R7 net3 net7 1m m=1
+R9 net5 net8 1m m=1
+XM2 vmid gd GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=64 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=8 m=8
+R11 vin vs 1m m=1
+R12 net7 net9 5 m=1
+V6 vout GND DC 0 AC 0 portnum 2 z0 50
+C6 gd net10 3p m=1
+C9 net10 vin 0.2p m=1
+L2 net10 GND 1n m=1
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+
+
+.options savecurrents
+.sp dec 1000 1G 10G
+.control
+run
+display
+plot S_1_1 smithgrid
+let Rbase=50
+wrs2p test.s2p
+
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  rf_nfet_6xaM02_extracted.sym # of pins=4
+** sym_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/rf_nfet_6xaM02_extracted.sym
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/rf_nfet_6xaM02_extracted.sch
+.subckt rf_nfet_6xaM02_extracted  G DS1 DS2 SUB
+*.iopin G
+*.iopin DS1
+*.iopin DS2
+*.iopin SUB
+**** begin user architecture code
+
+
+* Extraction of 6xaM02 (12 finger) Transistors
+* wt=60um, L=0.15um
+.subckt NFET_extract_1 SD1 G2 SD2 SUB
+
+* .subckt sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE
+*  X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=1.414e+12p pd=1.066e+07u as=2.828e+12p
+*+ ps=2.132e+07u w=5.05e+06u l=150000u
+*  X1 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u
+*+ l=150000u
+*  C0 SOURCE DRAIN 3.73fF
+*  C1 SOURCE SUBSTRATE 2.58fF
+* .ends
+
+X0 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X7 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X8 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 SD2 G2 SD1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 SD2 G2 3.50fF
+C1 SUB SD1 3.01fF
+C2 G2 SD1 4.50fF
+C3 G2 SUB 2.28fF
+C4 SD2 SD1 30.48fF
+C5 G2 SUB 3.11fF
+C6 SD1 SUB 6.76fF
+
+* C0 B G 2.85fF
+* C1 S D 22.23fF
+* C2 G D 5.77fF
+* C3 S G 7.53fF
+* Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S B
+*+ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+* Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S B
+*+ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+* Xnfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S B
+*+ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+* Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 D G S B
+*+ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+* Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1 D G S B
+*+ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+* Xnfet_3x_2_1/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2 D G S B
+*+ sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15
+* C4 S B 13.70fF
+* C5 G B 3.35fF
+
+.ends
+
+XM0 DS1 G DS2 SUB NFET_extract_1
+
+
+**** end user architecture code
+.ends
+
+.GLOBAL GND
+.GLOBAL GNDI
+.end
