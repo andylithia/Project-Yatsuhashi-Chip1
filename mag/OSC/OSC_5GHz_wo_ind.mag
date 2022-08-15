@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1659407200
+timestamp 1660307541
 << metal1 >>
 rect 580 3220 1400 3359
 rect 2330 3300 2530 4860
@@ -310,7 +310,7 @@ rect 3900 -1600 4000 -1200
 rect -5800 -1800 4000 -1600
 rect -400 -2400 4000 -1800
 use XCP_1  XCP_1_0
-timestamp 1659108117
+timestamp 1660307541
 transform 1 0 1440 0 1 0
 box -1440 0 2918 3190
 use captuner_complete_2  captuner_complete_2_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON

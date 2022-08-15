@@ -86,24 +86,24 @@ x pmirror_pfet_64x_flat_0/G16 VHI IOUT VHI l=60 w=200 x=1434 y=2092 sky130_fd_pr
 x pmirror_pfet_64x_flat_0/G8 VHI IOUT VHI l=60 w=200 x=474 y=1722 sky130_fd_pr__pfet_01v8
 x pmirror_pfet_64x_flat_0/G4 VHI IOUT VHI l=60 w=200 x=954 y=1722 sky130_fd_pr__pfet_01v8
 x G32 pmirror_pfet_64x_flat_0/G32 VHI VHI l=30 w=600 x=2786 y=518 sky130_fd_pr__pfet_01v8
-x G16 pmirror_pfet_64x_flat_0/G8 VHI VHI l=30 w=600 x=3101 y=519 sky130_fd_pr__pfet_01v8
+x G16 pmirror_pfet_64x_flat_0/G16 VHI VHI l=30 w=600 x=3101 y=519 sky130_fd_pr__pfet_01v8
 x G2 pmirror_pfet_64x_flat_0/G2 VHI VHI l=30 w=600 x=3416 y=520 sky130_fd_pr__pfet_01v8
 x G4 pmirror_pfet_64x_flat_0/G4 VHI VHI l=30 w=600 x=3731 y=520 sky130_fd_pr__pfet_01v8
 x G8 pmirror_pfet_64x_flat_0/G8 VHI VHI l=30 w=600 x=4046 y=520 sky130_fd_pr__pfet_01v8
-C pmirror_pfet_64x_flat_0/G8 pmirror_pfet_64x_flat_0/G4 3.24
-C VHI IREF 4.53
-C VHI pmirror_pfet_64x_flat_0/G16 4.93
-C pmirror_pfet_64x_flat_0/G2 VHI 4.48
-C pmirror_pfet_64x_flat_0/G32 pmirror_pfet_64x_flat_0/G16 3.74
-C pmirror_pfet_64x_flat_0/G32 VHI 15.40
-C pmirror_pfet_64x_flat_0/G8 pmirror_pfet_64x_flat_0/G16 4.66
-C pmirror_pfet_64x_flat_0/G8 VHI 10.15
 C pmirror_pfet_64x_flat_0/G2 pmirror_pfet_64x_flat_0/G4 2.55
-C VHI pmirror_pfet_64x_flat_0/G4 4.30
-C IOUT pmirror_pfet_64x_flat_0/G16 2.36
-C IOUT VHI 24.04
+C pmirror_pfet_64x_flat_0/G4 pmirror_pfet_64x_flat_0/G8 3.21
+C VHI pmirror_pfet_64x_flat_0/G16 8.14
+C IOUT VHI 24.06
+C pmirror_pfet_64x_flat_0/G4 VHI 4.30
+C pmirror_pfet_64x_flat_0/G32 VHI 15.40
+C pmirror_pfet_64x_flat_0/G2 VHI 4.47
+C VHI pmirror_pfet_64x_flat_0/G8 7.07
 C pmirror_pfet_64x_flat_0/G2 IREF 2.13
-C IOUT pmirror_pfet_64x_flat_0/G32 5.39
+C IOUT pmirror_pfet_64x_flat_0/G16 2.44
+C pmirror_pfet_64x_flat_0/G32 pmirror_pfet_64x_flat_0/G16 4.20
+C IREF VHI 4.53
+C IOUT pmirror_pfet_64x_flat_0/G32 5.38
+C pmirror_pfet_64x_flat_0/G8 pmirror_pfet_64x_flat_0/G16 4.68
 R G8 1344
 = G8 sky130_fd_pr__pfet_01v8_Y3CBJH_4/a_n33_n397#
 = G8 m1_4020_1150#
@@ -119,13 +119,12 @@ R G16 1344
 R G32 1344
 = G32 sky130_fd_pr__pfet_01v8_Y3CBJH_0/a_n33_n397#
 = G32 m1_2760_1150#
-R pmirror_pfet_64x_flat_0/G8 8365
-= pmirror_pfet_64x_flat_0/G8 sky130_fd_pr__pfet_01v8_Y3CBJH_1/a_n73_n300#
-= pmirror_pfet_64x_flat_0/G8 sky130_fd_pr__pfet_01v8_Y3CBJH_4/a_n73_n300#
-= pmirror_pfet_64x_flat_0/G8 sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_n194_n482#
-= pmirror_pfet_64x_flat_0/G8 m1_3010_510#
-= pmirror_pfet_64x_flat_0/G8 m1_3170_2390#
-C VHI GND 46.10
+R pmirror_pfet_64x_flat_0/G16 8992
+= pmirror_pfet_64x_flat_0/G16 sky130_fd_pr__pfet_01v8_Y3CBJH_1/a_n73_n300#
+= pmirror_pfet_64x_flat_0/G16 sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_n512_n482#
+= pmirror_pfet_64x_flat_0/G16 m1_3010_510#
+= pmirror_pfet_64x_flat_0/G16 m1_3170_2710#
+C VHI GND 46.03
 R VHI 189658
 = VHI sky130_fd_pr__pfet_01v8_Y3CBJH_1/a_15_n300#
 = VHI li_2660_3120#
@@ -165,9 +164,10 @@ R pmirror_pfet_64x_flat_0/G4 3994
 = pmirror_pfet_64x_flat_0/G4 sky130_fd_pr__pfet_01v8_Y3CBJH_3/a_n73_n300#
 = pmirror_pfet_64x_flat_0/G4 sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_124_n482#
 = pmirror_pfet_64x_flat_0/G4 m1_3170_2080#
-R pmirror_pfet_64x_flat_0/G16 6700
-= pmirror_pfet_64x_flat_0/G16 sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_n512_n482#
-= pmirror_pfet_64x_flat_0/G16 m1_3170_2710#
+R pmirror_pfet_64x_flat_0/G8 5654
+= pmirror_pfet_64x_flat_0/G8 sky130_fd_pr__pfet_01v8_Y3CBJH_4/a_n73_n300#
+= pmirror_pfet_64x_flat_0/G8 sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_n194_n482#
+= pmirror_pfet_64x_flat_0/G8 m1_3170_2390#
 R IOUT 77541
 = IOUT pmirror_pfet_64x_flat_0/IOUT
 R sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_760_n50# 2857

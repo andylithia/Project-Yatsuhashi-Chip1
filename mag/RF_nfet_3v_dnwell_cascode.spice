@@ -1,0 +1,141 @@
+* SPICE3 file created from RF_nfet_3v_dnwell_cascode.ext - technology: sky130B
+
+X0 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X1 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X2 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X3 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X4 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X5 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X6 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X7 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X8 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X9 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X10 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X11 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X12 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X13 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X14 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X15 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X16 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X17 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X18 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X19 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X20 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X21 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X22 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X23 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X24 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X25 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X26 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X27 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X28 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X29 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X30 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X31 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X32 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X33 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X34 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X35 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X36 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X37 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X38 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X39 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X40 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X41 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X42 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X43 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X44 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X45 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X46 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X47 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X48 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X49 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X50 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X51 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X52 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X53 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X54 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X55 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X56 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X57 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X58 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X59 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X60 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X61 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X62 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X63 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X64 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X65 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X66 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X67 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X68 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X69 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X70 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X71 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X72 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X73 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X74 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X75 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X76 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X77 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X78 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X79 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X80 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X81 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X82 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X83 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X84 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X85 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X86 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X87 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X88 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X89 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X90 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X91 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X92 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X93 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X94 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X95 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X96 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X97 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X98 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X99 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X100 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X101 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X102 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X103 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X104 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X105 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X106 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X107 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X108 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X109 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X110 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X111 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X112 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X113 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X114 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X115 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X116 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X117 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X118 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X119 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X120 SB G2 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X121 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X122 SB G1 D SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X123 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X124 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X125 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X126 D G1 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+X127 D G2 SB SB sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
+C0 G2 DNW 3.24fF
+C1 G1 DNW 2.83fF
+C2 D SB 192.62fF
+C3 D G2 21.62fF
+C4 G1 D 21.60fF
+C5 G2 SB 28.78fF
+C6 G1 SB 27.19fF
+C7 SB DNW 92.89fF
+C8 DNW VSUBS 112.24fF
+C9 G1 VSUBS 3.49fF **FLOATING
+C10 G2 VSUBS 3.45fF **FLOATING

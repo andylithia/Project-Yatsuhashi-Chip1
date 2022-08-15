@@ -87,22 +87,22 @@ X83 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u
 X84 IOUT pmirror_pfet_64x_flat_0/G8 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
 X85 IOUT pmirror_pfet_64x_flat_0/G4 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
 X86 VHI G32 pmirror_pfet_64x_flat_0/G32 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
-X87 VHI G16 pmirror_pfet_64x_flat_0/G8 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X87 VHI G16 pmirror_pfet_64x_flat_0/G16 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
 X88 VHI G2 pmirror_pfet_64x_flat_0/G2 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
 X89 VHI G4 pmirror_pfet_64x_flat_0/G4 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
 X90 VHI G8 pmirror_pfet_64x_flat_0/G8 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
-C0 VHI pmirror_pfet_64x_flat_0/G8 10.15fF
-C1 pmirror_pfet_64x_flat_0/G16 IOUT 2.36fF
-C2 pmirror_pfet_64x_flat_0/G4 VHI 4.30fF
-C3 pmirror_pfet_64x_flat_0/G2 IREF 2.13fF
-C4 pmirror_pfet_64x_flat_0/G16 pmirror_pfet_64x_flat_0/G8 4.66fF
-C5 pmirror_pfet_64x_flat_0/G4 pmirror_pfet_64x_flat_0/G8 3.24fF
-C6 pmirror_pfet_64x_flat_0/G2 VHI 4.48fF
-C7 pmirror_pfet_64x_flat_0/G4 pmirror_pfet_64x_flat_0/G2 2.55fF
+C0 VHI pmirror_pfet_64x_flat_0/G2 4.47fF
+C1 VHI pmirror_pfet_64x_flat_0/G16 8.14fF
+C2 pmirror_pfet_64x_flat_0/G16 pmirror_pfet_64x_flat_0/G8 4.68fF
+C3 VHI pmirror_pfet_64x_flat_0/G32 15.40fF
+C4 IOUT pmirror_pfet_64x_flat_0/G16 2.44fF
+C5 IOUT pmirror_pfet_64x_flat_0/G32 5.38fF
+C6 VHI pmirror_pfet_64x_flat_0/G4 4.30fF
+C7 pmirror_pfet_64x_flat_0/G4 pmirror_pfet_64x_flat_0/G8 3.21fF
 C8 VHI IREF 4.53fF
-C9 VHI pmirror_pfet_64x_flat_0/G32 15.40fF
-C10 IOUT pmirror_pfet_64x_flat_0/G32 5.39fF
-C11 pmirror_pfet_64x_flat_0/G16 pmirror_pfet_64x_flat_0/G32 3.74fF
-C12 VHI IOUT 24.04fF
-C13 pmirror_pfet_64x_flat_0/G16 VHI 4.93fF
-C14 VHI VSUBS 46.10fF **FLOATING
+C9 pmirror_pfet_64x_flat_0/G2 pmirror_pfet_64x_flat_0/G4 2.55fF
+C10 VHI pmirror_pfet_64x_flat_0/G8 7.07fF
+C11 pmirror_pfet_64x_flat_0/G32 pmirror_pfet_64x_flat_0/G16 4.20fF
+C12 pmirror_pfet_64x_flat_0/G2 IREF 2.13fF
+C13 IOUT VHI 24.06fF
+C14 VHI VSUBS 46.03fF **FLOATING

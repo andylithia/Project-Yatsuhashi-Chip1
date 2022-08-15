@@ -1,0 +1,203 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1660307541
+<< metal1 >>
+rect -380 9500 120 9600
+rect 480 5120 980 5140
+rect 100 5100 120 5120
+rect 620 5100 1120 5120
+rect 100 5080 1120 5100
+rect 5440 5080 6440 5100
+rect 5780 -200 6180 -180
+rect 300 -220 700 -200
+rect -540 -340 -100 -260
+rect 300 -380 320 -220
+rect 580 -380 700 -220
+rect 5780 -360 5900 -200
+rect 6160 -360 6180 -200
+rect 6600 -340 7040 -260
+rect 5780 -380 6180 -360
+rect 300 -400 700 -380
+<< via1 >>
+rect 320 -380 580 -220
+rect 5900 -360 6160 -200
+<< metal2 >>
+rect 260 5080 480 5100
+rect 760 5080 980 5100
+rect 5580 5080 5800 5100
+rect 6080 5080 6300 5100
+rect 5880 -100 6180 -80
+rect 300 -120 600 -100
+rect 300 -380 320 -120
+rect 580 -380 600 -120
+rect 5880 -360 5900 -100
+rect 6160 -360 6180 -100
+rect 5880 -380 6180 -360
+rect 300 -400 600 -380
+<< via2 >>
+rect 320 -220 580 -120
+rect 320 -380 580 -220
+rect 5900 -200 6160 -100
+rect 5900 -360 6160 -200
+<< metal3 >>
+rect 1800 9600 4800 10000
+rect 1400 4900 5200 4940
+rect 1400 4700 1440 4900
+rect 5160 4700 5200 4900
+rect 300 -100 500 520
+rect 820 460 5640 480
+rect 820 220 840 460
+rect 5620 220 5640 460
+rect 820 200 5640 220
+rect 5980 -80 6180 540
+rect 5880 -100 6180 -80
+rect 300 -120 600 -100
+rect 300 -380 320 -120
+rect 580 -380 600 -120
+rect 5880 -360 5900 -100
+rect 6160 -360 6180 -100
+rect 5880 -380 6180 -360
+rect 300 -400 600 -380
+<< via3 >>
+rect 1440 4640 5160 4900
+rect 840 220 5620 460
+<< metal4 >>
+rect 1400 4900 5220 5500
+rect 1400 4640 1440 4900
+rect 5160 4640 5220 4900
+rect 1400 4620 5220 4640
+rect 820 460 5640 480
+rect 820 300 840 460
+rect 800 220 840 300
+rect 5620 300 5640 460
+rect 5620 220 5700 300
+rect 800 -500 5700 220
+use RF_nfet_3v_dnwell_cascode  RF_nfet_3v_dnwell_cascode_0
+timestamp 1660275428
+transform 1 0 -4080 0 1 4140
+box 4120 -4180 10580 980
+use RF_nfet_driver_64x8  RF_nfet_driver_64x8_0
+timestamp 1660307541
+transform 0 1 3400 -1 0 9600
+box -400 -3800 4400 3560
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1660275339
+transform 1 0 6340 0 1 6200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_1
+timestamp 1660275339
+transform 1 0 6340 0 1 5700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_2
+timestamp 1660275339
+transform 1 0 6340 0 1 5200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_3
+timestamp 1660275339
+transform 1 0 6340 0 1 4700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_4
+timestamp 1660275339
+transform 1 0 6340 0 1 4200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_5
+timestamp 1660275339
+transform 1 0 6340 0 1 3700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_6
+timestamp 1660275339
+transform 1 0 6340 0 1 3200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_7
+timestamp 1660275339
+transform 1 0 6340 0 1 2700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_8
+timestamp 1660275339
+transform 1 0 6340 0 1 2200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_9
+timestamp 1660275339
+transform 1 0 6340 0 1 1700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_10
+timestamp 1660275339
+transform 1 0 6340 0 1 1200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_11
+timestamp 1660275339
+transform 1 0 -480 0 1 6200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_12
+timestamp 1660275339
+transform 1 0 -480 0 1 5700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_13
+timestamp 1660275339
+transform 1 0 -480 0 1 5200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_14
+timestamp 1660275339
+transform 1 0 -480 0 1 4700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_15
+timestamp 1660275339
+transform 1 0 -480 0 1 4200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_16
+timestamp 1660275339
+transform 1 0 -480 0 1 3700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_17
+timestamp 1660275339
+transform 1 0 -480 0 1 3200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_18
+timestamp 1660275339
+transform 1 0 -480 0 1 2700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_19
+timestamp 1660275339
+transform 1 0 -480 0 1 2200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_20
+timestamp 1660275339
+transform 1 0 -480 0 1 1700
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_21
+timestamp 1660275339
+transform 1 0 -480 0 1 1200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_22
+timestamp 1660275339
+transform 1 0 20 0 1 6200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_23
+timestamp 1660275339
+transform 1 0 520 0 1 6200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_24
+timestamp 1660275339
+transform 1 0 5840 0 1 6200
+box 100 -1100 600 -600
+use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_25
+timestamp 1660275339
+transform 1 0 5340 0 1 6200
+box 100 -1100 600 -600
+use sky130_fd_pr__res_high_po_0p35_ZE2H5K  sky130_fd_pr__res_high_po_0p35_ZE2H5K_0
+timestamp 1660277336
+transform 0 1 198 -1 0 -299
+box -201 -898 201 898
+use sky130_fd_pr__res_high_po_0p35_ZE2H5K  sky130_fd_pr__res_high_po_0p35_ZE2H5K_1
+timestamp 1660277336
+transform 0 1 6298 -1 0 -299
+box -201 -898 201 898
+<< labels >>
+rlabel metal4 820 200 5640 480 1 DRAIN
+rlabel metal4 1400 4620 5220 5500 1 MID
+rlabel metal3 1800 9600 4800 10000 1 GATE
+rlabel metal1 -380 9500 120 9600 1 VSUB
+rlabel metal1 -540 -340 -100 -260 1 TOPBIAS_L
+rlabel metal1 6600 -340 7040 -260 1 TOPBIAS_R
+<< end >>

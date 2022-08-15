@@ -1,0 +1,8 @@
+magic
+tech sky130B
+timestamp 1660524083
+use octa_ind_compact_1_0  octa_ind_compact_1_0_0
+timestamp 1660524083
+transform 1 0 -10000 0 1 -10000
+box -9650 -7000 7350 7000
+<< end >>

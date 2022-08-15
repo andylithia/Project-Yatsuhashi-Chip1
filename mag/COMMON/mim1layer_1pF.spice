@@ -1,0 +1,6 @@
+* SPICE3 file created from /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON/mim2layer_1pF.ext - technology: sky130B
+
+X0 TOP BOT sky130_fd_pr__cap_mim_m3_1 l=2e+07u w=2.4e+07u
+C0 TOP BOT 43.01fF
+C1 TOP VSUBS 2.69fF **FLOATING
+C2 BOT VSUBS 10.38fF **FLOATING

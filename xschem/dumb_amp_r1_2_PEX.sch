@@ -6,86 +6,82 @@ S {}
 E {}
 N 460 640 460 660 {
 lab=GND}
-N 220 680 220 690 {
+N 120 660 120 670 {
 lab=GND}
-N 600 480 610 480 {
+N 710 480 720 480 {
 lab=#net1}
-N 610 480 610 500 {
+N 720 480 720 500 {
 lab=#net1}
-N 610 560 610 610 {
+N 720 560 720 610 {
 lab=GND}
-N 20 190 160 190 {
-lab=VDD}
 N 560 480 600 480 {
 lab=#net1}
-N 530 580 530 650 {
-lab=GND}
-N 460 650 530 650 {
-lab=GND}
 N 460 480 500 480 {
 lab=d}
-N 440 480 470 480 {
-lab=d}
-N 370 480 380 480 {
-lab=g}
 N 460 360 460 380 {
 lab=#net2}
-N 460 270 460 300 {
+N 280 330 280 370 {
 lab=#net3}
-N 230 270 230 310 {
-lab=#net4}
-N 210 240 230 240 {
-lab=VDD}
-N 210 190 210 240 {
-lab=VDD}
-N 210 190 230 190 {
-lab=VDD}
-N 230 190 230 210 {
-lab=VDD}
-N 460 240 480 240 {
-lab=VDD}
-N 480 190 480 240 {
-lab=VDD}
-N 460 190 480 190 {
-lab=VDD}
-N 460 190 460 210 {
-lab=VDD}
-N 310 190 460 190 {
-lab=VDD}
-N 160 190 210 190 {
-lab=VDD}
-N 230 370 230 400 {
+N 280 430 280 460 {
 lab=GND}
-N 290 240 290 280 {
+N 120 560 120 600 {
 lab=#net4}
-N 230 280 290 280 {
+N 120 560 140 560 {
 lab=#net4}
-N 300 580 330 580 {
-lab=g}
-N 320 480 370 480 {
-lab=g}
-N 220 580 220 620 {
-lab=#net5}
-N 220 580 240 580 {
-lab=#net5}
-N -70 430 -70 530 {
+N 0 270 0 370 {
 lab=GND}
-N -70 190 -70 370 {
+N 0 30 0 210 {
 lab=VDD}
-N -70 190 100 190 {
+N 0 30 170 30 {
 lab=VDD}
-N 270 240 290 240 {
-lab=#net4}
-N 230 190 310 190 {
-lab=VDD}
-N 290 240 310 240 {
-lab=#net4}
-N 370 240 420 240 {
-lab=#net6}
-N 320 480 320 580 {
-lab=g}
 N 460 440 460 480 {
 lab=d}
+N 460 480 460 510 {
+lab=d}
+N 200 560 400 560 {
+lab=g}
+N 460 610 460 640 {
+lab=GND}
+N 330 310 330 350 {
+lab=#net3}
+N 280 310 330 310 {
+lab=#net3}
+N 280 310 280 330 {
+lab=#net3}
+N 310 280 310 310 {
+lab=#net3}
+N 460 280 460 300 {
+lab=#net5}
+N 170 30 310 30 {
+lab=VDD}
+N 310 30 310 140 {
+lab=VDD}
+N 530 220 560 220 {
+lab=GND}
+N 560 220 560 240 {
+lab=GND}
+N 200 170 230 170 {
+lab=VDD}
+N 200 170 200 190 {
+lab=VDD}
+N 200 190 230 190 {
+lab=VDD}
+N 200 190 200 210 {
+lab=VDD}
+N 200 210 230 210 {
+lab=VDD}
+N 200 210 200 230 {
+lab=VDD}
+N 200 230 230 230 {
+lab=VDD}
+N 200 230 200 250 {
+lab=VDD}
+N 200 250 230 250 {
+lab=VDD}
+N 200 170 310 100 {
+lab=VDD}
+N 600 480 710 480 {
+lab=#net1}
 C {devices/code.sym} 740 -115 0 0 {name=TT_MODELS only_toplevel=false
 format="tcleval(@value )" value=".lib \\\\$::SKYWATER_MODELS\\\\/sky130.lib.spice tt
 * .include \\\\$::PDKPATH\\\\/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
@@ -183,24 +179,24 @@ plot db(mu)
 plot NF NFmin
 .endc
 "}
-C {devices/vsource.sym} -70 400 0 0 {name=V1 value=1.8}
+C {devices/vsource.sym} 0 240 0 0 {name=V1 value=1.8}
 C {devices/gnd.sym} 460 660 0 0 {name=l1 lab=GND}
-C {devices/gnd.sym} -70 530 0 0 {name=l2 lab=GND}
-C {devices/vsource.sym} 610 530 0 0 {name=V3 value="DC 0.9 AC 0 portnum 2 z0 50"}
-C {devices/vsource.sym} 220 650 0 0 {name=V2 value="DC 0.9 AC 0 portnum 1 z0 50"}
-C {devices/capa.sym} 270 580 1 0 {name=C1
+C {devices/gnd.sym} 0 370 0 0 {name=l2 lab=GND}
+C {devices/vsource.sym} 720 530 0 0 {name=V3 value="DC 0.9 AC 0 portnum 2 z0 50"}
+C {devices/vsource.sym} 120 630 0 0 {name=V2 value="DC 0.9 AC 0 portnum 1 z0 50"}
+C {devices/capa.sym} 170 560 1 0 {name=C1
 m=1
 value=1p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/gnd.sym} 220 690 0 0 {name=l3 lab=GND}
+C {devices/gnd.sym} 120 670 0 0 {name=l3 lab=GND}
 C {devices/capa.sym} 530 480 1 0 {name=C2
 m=1
-value=2p
+value=1n
 footprint=1206
 device="ceramic capacitor"}
-C {devices/gnd.sym} 610 610 0 0 {name=l4 lab=GND}
-C {devices/lab_wire.sym} 20 190 0 0 {name=l7 sig_type=std_logic lab=VDD}
+C {devices/gnd.sym} 720 610 0 0 {name=l4 lab=GND}
+C {devices/lab_wire.sym} 90 30 0 0 {name=l7 sig_type=std_logic lab=VDD}
 C {devices/ind.sym} 460 410 0 0 {name=L1
 m=1
 value=1n
@@ -211,46 +207,16 @@ value=5
 footprint=1206
 device=resistor
 m=1}
-C {devices/lab_wire.sym} 370 480 0 0 {name=l5 sig_type=std_logic lab=g}
+C {devices/lab_wire.sym} 380 560 0 0 {name=l5 sig_type=std_logic lab=g}
 C {devices/lab_wire.sym} 460 480 0 0 {name=l8 sig_type=std_logic lab=d}
-C {sky130_fd_pr/pfet_01v8.sym} 440 240 0 0 {name=M1
-L=0.15
-W=1
-nf=1
-mult=60
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8.sym} 250 240 0 1 {name=M2
-L=0.15
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {devices/isource.sym} 230 340 0 0 {name=I0 value=0.1m}
-C {devices/gnd.sym} 230 400 0 0 {name=l9 lab=GND}
-C {devices/capa.sym} 290 310 0 0 {name=C3
+C {devices/isource.sym} 280 400 0 0 {name=I0 value=0.1m}
+C {devices/gnd.sym} 280 460 0 0 {name=l9 lab=GND}
+C {devices/capa.sym} 330 380 0 0 {name=C3
 m=1
 value=1p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/gnd.sym} 290 340 0 0 {name=l10 lab=GND}
-C {devices/res.sym} 340 240 1 0 {name=R3
-value=1k
-footprint=1206
-device=resistor
-m=1}
+C {devices/gnd.sym} 330 410 0 0 {name=l10 lab=GND}
+C {dumb_amp_r1_2_core_PEX.sym} 460 630 0 0 {name=x1}
+C {pmirror_tunable_64x_PEX.sym} 380 210 0 0 {name=x2}
+C {devices/gnd.sym} 560 240 0 0 {name=l6 lab=GND}

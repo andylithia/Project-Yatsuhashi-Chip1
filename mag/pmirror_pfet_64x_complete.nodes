@@ -3,13 +3,13 @@ G4 3710 390 m1
 G2 3390 390 m1
 G16 3080 390 m1
 G32 2760 390 m1
-pmirror_pfet_64x_flat_0/G8 471 1301 p
+pmirror_pfet_64x_flat_0/G16 471 931 p
 VHI 50 160 v0
 pmirror_pfet_64x_flat_0/G32 471 192 p
 IREF 3280 1460 m1
 pmirror_pfet_64x_flat_0/G2 951 1301 p
 pmirror_pfet_64x_flat_0/G4 951 1953 p
-pmirror_pfet_64x_flat_0/G16 471 931 p
+pmirror_pfet_64x_flat_0/G8 471 1301 p
 IOUT 590 3190 m2
 sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_760_n50# 3288 1526 xres
 sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_442_n50# 3288 1844 xres

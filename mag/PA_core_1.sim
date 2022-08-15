@@ -1,0 +1,886 @@
+| units: 500000 tech: sky130B format: MIT
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=3104 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=3735 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2472 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1840 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2472 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=3104 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3261 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4683 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1524 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=5315 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2946 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4051 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2946 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1366 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=5157 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4367 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=734 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3893 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2946 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1998 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=5157 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2314 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=5473 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=892 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2788 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=3419 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3261 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2630 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4525 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1840 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4999 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1366 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=3104 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=734 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3577 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1050 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=5315 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4999 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4525 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2788 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4209 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=5631 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1050 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4051 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=734 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=5157 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2314 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1208 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4683 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3261 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2472 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4209 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4841 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1682 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1524 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1050 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3577 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=892 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3893 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=5473 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4683 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1682 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1208 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4051 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=5157 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2788 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4841 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=3419 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2946 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3893 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4367 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=5473 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=892 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2156 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4051 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1208 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2314 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4209 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3577 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2630 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=3419 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2156 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4525 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1840 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4367 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=3735 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=3735 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=3104 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4525 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=3735 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4841 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2788 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3893 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=734 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=5631 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1366 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4999 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1840 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=5631 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4367 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1998 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3261 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1524 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4841 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=3577 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1682 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=892 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1208 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1682 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4683 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=5631 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2156 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2630 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=4999 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1366 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=3419 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2156 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=5315 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=1524 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=4209 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 DRAIN MID MID l=100 w=800 x=2472 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1050 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 DRAIN MID MID l=100 w=800 x=5315 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1998 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2630 y=3677 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=1998 y=624 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G1 MID DRAIN MID l=100 w=800 x=5473 y=2659 sky130_fd_pr__nfet_03v3_nvt
+x RF_nfet_3v_dnwell_cascode_0/G2 MID DRAIN MID l=100 w=800 x=2314 y=1642 sky130_fd_pr__nfet_03v3_nvt
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=6562 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=6734 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=6648 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=6820 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=6218 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=6390 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=6304 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=6476 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=5874 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=6046 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=5960 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=6132 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=6562 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=6734 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=6648 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=6820 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=6218 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=6390 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=6304 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=6476 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=5874 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=6046 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=5960 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=6132 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=6562 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=6734 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=6648 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=6820 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=6218 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=6390 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=6304 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=6476 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=5874 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=6046 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=5960 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=6132 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=9142 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=9314 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=9228 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=9400 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=8798 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=8970 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=8884 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=9056 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=8454 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=8626 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=8540 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=8712 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=9142 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=9314 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=9228 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=9400 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=8798 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=8970 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=8884 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=9056 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=8454 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=8626 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=8540 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=8712 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=9142 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=9314 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=9228 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=9400 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=8798 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=8970 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=8884 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=9056 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=8454 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=8626 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=8540 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=8712 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=9142 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=9314 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=9228 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=9400 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=8798 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=8970 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=8884 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=9056 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=8454 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=8626 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=8540 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=8712 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=7391 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=7219 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=7305 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=7133 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=7735 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=7563 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=7649 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=7477 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=8079 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=7907 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=7993 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=7821 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=7391 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=7219 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=7305 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=7133 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=7735 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=7563 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=7649 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=7477 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=8079 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=6298 y=7907 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=7993 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=6298 y=7821 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=7391 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=7219 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=7305 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=7133 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=7735 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=7563 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=7649 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=7477 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=8079 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=3671 y=7907 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=7993 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=3671 y=7821 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=7391 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=7219 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=7305 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=7133 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=7735 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=7563 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=7649 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=7477 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=8079 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=2898 y=7907 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=7993 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=2898 y=7821 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=6562 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=6734 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=6648 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=6820 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=6218 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=6390 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=6304 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=6476 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=5874 sky130_fd_pr__nfet_01v8
+x GATE MID VSUB VSUB l=30 w=1010 x=271 y=6046 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=5960 sky130_fd_pr__nfet_01v8
+x GATE VSUB MID VSUB l=30 w=1010 x=271 y=6132 sky130_fd_pr__nfet_01v8
+x sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n300# TOPBIAS_L RF_nfet_3v_dnwell_cascode_0/G2 VSUB l=600 w=0 x=-101 y=-266 sky130_fd_pr__res_high_po_0p35
+x sky130_fd_pr__res_high_po_0p35_ZE2H5K_1/a_n35_n300# RF_nfet_3v_dnwell_cascode_0/G1 TOPBIAS_R VSUB l=600 w=0 x=5999 y=-266 sky130_fd_pr__res_high_po_0p35
+C RF_nfet_3v_dnwell_cascode_0/G1 VSUB 4.64
+C DRAIN VSUB 3.98
+C VSUB GATE 27.73
+C RF_nfet_3v_dnwell_cascode_0/G1 DRAIN 22.62
+C VSUB MID 355.73
+C RF_nfet_3v_dnwell_cascode_0/G1 MID 27.80
+C DRAIN MID 194.17
+C GATE MID 34.68
+C RF_nfet_3v_dnwell_cascode_0/G2 VSUB 4.80
+C RF_nfet_3v_dnwell_cascode_0/G2 DRAIN 22.66
+C RF_nfet_3v_dnwell_cascode_0/G2 MID 29.29
+R sky130_fd_pr__res_high_po_0p35_ZE2H5K_1/a_n35_n300# 2741
+R TOPBIAS_R 188
+= TOPBIAS_R sky130_fd_pr__res_high_po_0p35_ZE2H5K_1/a_n35_300#
+R TOPBIAS_L 188
+= TOPBIAS_L sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n732#
+R sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n300# 2741
+C GATE GND 17.76
+R GATE 255016
+= GATE RF_nfet_driver_64x8_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/a_n316_3429#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/m1_n5_3417#
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G
+= GATE RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/a_n316_3429#
+C VSUB GND 85.58
+R VSUB 474695
+= VSUB hash_m1m2m3_W2p5L2p5_25/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_24/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_0/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_2/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_1/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_23/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_22/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_11/VSUBS
+= VSUB VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_13/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_12/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_5/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_4/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_3/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_16/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_15/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_14/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_6/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_8/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_7/VSUBS
+= VSUB sky130_fd_pr__res_high_po_0p35_ZE2H5K_1/a_n165_n862#
+= VSUB hash_m1m2m3_W2p5L2p5_10/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_9/VSUBS
+= VSUB RF_nfet_3v_dnwell_cascode_0/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_17/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_19/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_18/VSUBS
+= VSUB sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#
+= VSUB hash_m1m2m3_W2p5L2p5_21/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_20/VSUBS
+= VSUB hash_m1m2m3_W2p5L2p5_25/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/SG
+= VSUB RF_nfet_3v_dnwell_cascode_0/DNW
+= VSUB hash_m1m2m3_W2p5L2p5_24/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_23/m1_100_n1100#
+= VSUB m2_6080_5080#
+= VSUB m2_5580_5080#
+= VSUB hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#
+= VSUB m1_5440_5080#
+= VSUB hash_m1m2m3_W2p5L2p5_22/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#
+= VSUB m2_760_5080#
+= VSUB m2_260_5080#
+= VSUB m1_100_5080#
+= VSUB hash_m1m2m3_W2p5L2p5_13/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_12/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_16/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_15/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_8/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_7/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_10/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_21/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_17/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_19/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_18/m1_100_n1100#
+= VSUB hash_m1m2m3_W2p5L2p5_20/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_7/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_7/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_6/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_5/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_4/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_3/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_22/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_22/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_21/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_21/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_20/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_20/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_19/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_19/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_18/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_18/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_17/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_17/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_15/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_15/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_8/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_8/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_14/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_13/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_13/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_12/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_12/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_11/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_10/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_10/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_9/VSUBS
+= VSUB RF_nfet_driver_64x8_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#
+= VSUB RF_nfet_driver_64x8_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/S
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/VSUBS
+= VSUB RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
+R MID 400107
+= MID RF_nfet_driver_64x8_0/D
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S
+= MID RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S
+= MID w_326_246#
+= MID RF_nfet_3v_dnwell_cascode_0/SB
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1867_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1551_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1235_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_919_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_603_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_287_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n29_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n345_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n661_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n977_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1293_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1609_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1925_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2241_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2557_1127#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1867_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1551_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1235_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1867_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1551_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1235_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1867_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1551_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1235_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_919_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_603_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_287_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n29_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_919_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_603_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_287_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n29_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_919_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_603_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_287_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n29_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n345_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n661_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n977_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1293_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1609_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1925_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2241_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2557_n1927#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n345_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n661_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n977_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1293_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1609_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1925_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2241_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2557_n909#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n345_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n661_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n977_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1293_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1609_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1925_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2241_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2557_109#
+= MID RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2691_n2149#
+= MID RF_nfet_3v_dnwell_cascode_0/w_4406_n3894#
+R DRAIN 136937
+= DRAIN RF_nfet_3v_dnwell_cascode_0/D
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2025_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1709_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1393_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1077_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_761_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_445_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_129_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n187_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n503_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n819_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1135_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1451_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1767_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2083_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2399_1127#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2025_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1709_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1393_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2025_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1709_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1393_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2025_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1709_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1393_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1077_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_761_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_445_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_129_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n187_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1077_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_761_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_445_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_129_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n187_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1077_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_761_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_445_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_129_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n187_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n503_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n819_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1135_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1451_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1767_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2083_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2399_n1927#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n503_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n819_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1135_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1451_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1767_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2083_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2399_n909#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n503_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n819_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1135_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1451_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1767_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2083_109#
+= DRAIN RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2399_109#
+C RF_nfet_3v_dnwell_cascode_0/G1 GND 4.12
+R RF_nfet_3v_dnwell_cascode_0/G1 45058
+= RF_nfet_3v_dnwell_cascode_0/G1 m1_5780_n380#
+= RF_nfet_3v_dnwell_cascode_0/G1 sky130_fd_pr__res_high_po_0p35_ZE2H5K_1/a_n35_n732#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2399_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2241_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2083_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1925_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1767_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1609_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1451_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1293_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1135_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_977_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_819_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_661_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_503_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_345_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_187_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_1039#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2399_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2241_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2083_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1925_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1767_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1609_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1451_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1293_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2399_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2241_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2083_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1925_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1767_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1609_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1451_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1293_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2399_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2241_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2083_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1925_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1767_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1609_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1451_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1293_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1135_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_977_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_819_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_661_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_503_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_345_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_187_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1135_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_977_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_819_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_661_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_503_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_345_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_187_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1135_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_977_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_819_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_661_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_503_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_345_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_187_21#
+= RF_nfet_3v_dnwell_cascode_0/G1 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_21#
+C RF_nfet_3v_dnwell_cascode_0/G2 GND 4.07
+R RF_nfet_3v_dnwell_cascode_0/G2 45058
+= RF_nfet_3v_dnwell_cascode_0/G2 m1_300_n400#
+= RF_nfet_3v_dnwell_cascode_0/G2 sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n129_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n287_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n445_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n603_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n761_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n919_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1077_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1235_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1393_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1551_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1709_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1867_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2025_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2183_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2341_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_1039#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n129_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n129_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n129_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n287_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n445_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n603_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n761_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n919_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1077_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1235_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1393_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1551_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1709_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1867_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2025_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2183_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2341_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n2015#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n287_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n445_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n603_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n761_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n919_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1077_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1235_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1393_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1551_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1709_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1867_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2025_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2183_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2341_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n287_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n445_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n603_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n761_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n919_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1077_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1235_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1393_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1551_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1709_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1867_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2025_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2183_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2341_21#
+= RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_21#

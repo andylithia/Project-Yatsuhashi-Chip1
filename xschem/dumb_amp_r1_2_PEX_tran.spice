@@ -1,21 +1,18 @@
 ** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/dumb_amp_r1_2_PEX_tran.sch
 **.subckt dumb_amp_r1_2_PEX_tran
 V1 VDD GND 1.8
-V2 net4 GND SIN(0.9 0.9 5G)
-C1 g net3 1p m=1
 C2 vout d 2p m=1
 L1 net1 d 1n m=1
 R2 net5 net1 5 m=1
-XM2 net2 net2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
 I0 net2 GND 0.1m
-C3 net2 GND 1p m=1
 R1 vout GND 150 m=1
-R4 net4 net3 1k m=1
+R4 net4 net3 0.5k m=1
 R5 net3 GND 1k m=1
 x1 g d GND dumb_amp_r1_2_core_PEX
-x2 VDD VDD VDD VDD VDD VDD net2 net5 pmirror_tunable_64x
+x2 VDD VDD VDD GND VDD net2 net5 VDD VDD pmirror_tunable_64x_PEX
+C1 g net3 0.5p m=1
+x3 VDD VDD net4 net6 VDD VDD VDD VDD GND OSC_LF1_PEX_u
+R3 net6 GND 1.5k m=1
 **** begin user architecture code
 .lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
 * .include
@@ -24,7 +21,7 @@ x2 VDD VDD VDD VDD VDD VDD net2 net5 pmirror_tunable_64x
 
 
 * .ac dec 1000 0.01e9 100e9
-.tran 10ps 10ns
+.tran 1ps 10ns
 .control
 run
 display
@@ -105,58 +102,403 @@ XDUT G D GND dumb_amp_core_pex
 .ends
 
 
-* expanding   symbol:  pmirror_tunable_64x.sym # of pins=8
-** sym_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x.sym
-** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x.sch
-.subckt pmirror_tunable_64x  VHI G0 G1 G4 G2 G3 VREF IOUT
-*.ipin G0
-*.ipin G1
+* expanding   symbol:  pmirror_tunable_64x_PEX.sym # of pins=9
+** sym_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x_PEX.sym
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x_PEX.sch
+.subckt pmirror_tunable_64x_PEX  VHI G2 G4 VSUBS G8 IREF IOUT G16 G32
 *.ipin G2
-*.ipin G3
 *.ipin G4
-*.ipin VREF
+*.ipin G8
+*.ipin G16
+*.ipin G32
 *.iopin VHI
+*.iopin VSUBS
+*.iopin IREF
 *.iopin IOUT
-XM3 IOUT net1 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=2 m=2
-XM5 net1 net6 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-R3 net1 VREF 1k m=1
-R1 net6 G0 1k m=1
-XM1 IOUT net2 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=4 m=4
-XM2 net2 net7 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-R2 net2 VREF 1k m=1
-R4 net7 G1 1k m=1
-XM4 IOUT net3 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=8 m=8
-XM6 net3 net8 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-R5 net3 VREF 1k m=1
-R6 net8 G2 1k m=1
-XM7 IOUT net4 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=16 m=16
-XM8 net4 net9 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-R7 net4 VREF 1k m=1
-R8 net9 G3 1k m=1
-XM9 IOUT net5 VHI VHI sky130_fd_pr__pfet_01v8 L=0.3 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=32 m=32
-XM10 net5 net10 VHI VHI sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-R9 net5 VREF 1k m=1
-R10 net10 G4 1k m=1
+**** begin user architecture code
+
+* SPICE3 file created from pmirror_pfet_64x_complete.ext - technology: sky130B
+.subckt DUT VHI IREF IOUT G2 G4 G8 G16 G32 VSUBS
+X0 pmirror_pfet_64x_flat_0/G32 IREF VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=500000u
+X1 pmirror_pfet_64x_flat_0/G4 IREF VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=500000u
+X2 pmirror_pfet_64x_flat_0/G8 IREF VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=500000u
+X3 pmirror_pfet_64x_flat_0/G2 IREF VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=500000u
+X5 pmirror_pfet_64x_flat_0/G16 IREF VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=500000u
+X6 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X7 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X8 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X9 VHI pmirror_pfet_64x_flat_0/G16 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X10 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X11 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X12 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X13 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X14 IOUT pmirror_pfet_64x_flat_0/G8 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X15 IOUT pmirror_pfet_64x_flat_0/G2 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X16 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X17 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X18 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X19 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X20 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X21 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X22 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X23 VHI pmirror_pfet_64x_flat_0/G8 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X24 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X25 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X26 VHI pmirror_pfet_64x_flat_0/G16 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X27 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=1p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X28 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X29 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X30 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X31 VHI pmirror_pfet_64x_flat_0/G8 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X32 VHI pmirror_pfet_64x_flat_0/G8 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X33 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X34 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X35 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X36 VHI pmirror_pfet_64x_flat_0/G16 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X37 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X38 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X39 VHI pmirror_pfet_64x_flat_0/G4 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X40 VHI pmirror_pfet_64x_flat_0/G4 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X41 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X42 VHI pmirror_pfet_64x_flat_0/G8 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X43 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X44 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X45 VHI pmirror_pfet_64x_flat_0/G16 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X46 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X47 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X48 VHI pmirror_pfet_64x_flat_0/G2 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X49 VHI VHI IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X50 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X51 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X52 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X53 VHI pmirror_pfet_64x_flat_0/G16 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X54 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X55 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X56 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X57 VHI pmirror_pfet_64x_flat_0/G16 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X58 VHI pmirror_pfet_64x_flat_0/G16 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X59 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X60 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X61 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X62 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X63 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X64 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X65 VHI pmirror_pfet_64x_flat_0/G16 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X66 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X67 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X68 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X69 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X70 IOUT pmirror_pfet_64x_flat_0/G4 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X71 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X72 IOUT pmirror_pfet_64x_flat_0/G8 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X73 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X74 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X75 IOUT pmirror_pfet_64x_flat_0/G32 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X76 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X77 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X78 VHI VHI VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X79 IREF IREF VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=300000u
+X80 IOUT pmirror_pfet_64x_flat_0/G8 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X81 VHI pmirror_pfet_64x_flat_0/G32 IOUT VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X82 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X83 IOUT pmirror_pfet_64x_flat_0/G16 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u
++ w=1e+06u l=300000u
+X84 IOUT pmirror_pfet_64x_flat_0/G8 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X85 IOUT pmirror_pfet_64x_flat_0/G4 VHI VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u
++ l=300000u
+X86 VHI G32 pmirror_pfet_64x_flat_0/G32 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u
++ l=150000u
+X87 VHI G16 pmirror_pfet_64x_flat_0/G8 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u
++ l=150000u
+X88 VHI G2 pmirror_pfet_64x_flat_0/G2 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u
++ l=150000u
+X89 VHI G4 pmirror_pfet_64x_flat_0/G4 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u
++ l=150000u
+X90 VHI G8 pmirror_pfet_64x_flat_0/G8 VHI sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u
++ l=150000u
+C0 VHI pmirror_pfet_64x_flat_0/G8 10.15fF
+C1 pmirror_pfet_64x_flat_0/G16 IOUT 2.36fF
+C2 pmirror_pfet_64x_flat_0/G4 VHI 4.30fF
+C3 pmirror_pfet_64x_flat_0/G2 IREF 2.13fF
+C4 pmirror_pfet_64x_flat_0/G16 pmirror_pfet_64x_flat_0/G8 4.66fF
+C5 pmirror_pfet_64x_flat_0/G4 pmirror_pfet_64x_flat_0/G8 3.24fF
+C6 pmirror_pfet_64x_flat_0/G2 VHI 4.48fF
+C7 pmirror_pfet_64x_flat_0/G4 pmirror_pfet_64x_flat_0/G2 2.55fF
+C8 VHI IREF 4.53fF
+C9 VHI pmirror_pfet_64x_flat_0/G32 15.40fF
+C10 IOUT pmirror_pfet_64x_flat_0/G32 5.39fF
+C11 pmirror_pfet_64x_flat_0/G16 pmirror_pfet_64x_flat_0/G32 3.74fF
+C12 VHI IOUT 24.04fF
+C13 pmirror_pfet_64x_flat_0/G16 VHI 4.93fF
+C14 VHI VSUBS 46.10fF
+.ends
+
+XDUT VHI IREF IOUT G2 G4 G8 G16 G32 VSUBS DUT
+
+
+**** end user architecture code
+.ends
+
+
+* expanding   symbol:  OSC_LF1_PEX_u.sym # of pins=9
+** sym_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/OSC_LF1_PEX_u.sym
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/OSC_LF1_PEX_u.sch
+.subckt OSC_LF1_PEX_u  VDD VC4 G1 G2 VC3 VC2 VC1 VC0 GND
+*.ipin VC0
+*.ipin VC1
+*.ipin VC2
+*.ipin VC3
+*.ipin VC4
+*.iopin GND
+*.iopin VDD
+*.opin G1
+*.opin G2
+**** begin user architecture code
+
+
+
+
+
+
+**** COMPLETE *****
+
+.subckt COMPLETE VH VL I1 I2 G0 G1 G2 G3 G4
+
+.subckt sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15 DRAIN GATE SOURCE
+X0 DRAIN GATE SOURCE SOURCE sky130_fd_pr__pfet_01v8 ad=2.8e+12p pd=2.112e+07u as=4.05e+12p
++ ps=3.162e+07u w=5e+06u l=150000u
+X1 SOURCE GATE DRAIN SOURCE sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+X2 SOURCE GATE DRAIN SOURCE sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+X3 DRAIN GATE SOURCE SOURCE sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+C0 DRAIN SOURCE 6.07fF
+.ends
+
+X0 I2 G0 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 I2 G0 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S G0 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S G0 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 I2 G1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 I2 G1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S G1 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X7 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S G1 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X8 I2 G2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 I2 G2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S G2 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S G2 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X12 I2 G3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X13 I2 G3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X14 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S G3 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X15 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S G3 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X16 I2 G3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X17 I2 G3 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X18 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S G3 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X19 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S G3 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X20 I2 G4 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X21 I2 G4 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X22 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S G4 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X23 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S G4 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X24 I2 G4 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X25 I2 G4 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X26 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S G4 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X27 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S G4 I2 VL
++ sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X28 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S
++ sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=1e+07u
+X29 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S
++ sky130_fd_pr__cap_mim_m3_1 l=1e+06u w=5e+06u
+X30 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S
++ sky130_fd_pr__cap_mim_m3_1 l=8e+06u w=1e+07u
+X31 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S
++ sky130_fd_pr__cap_mim_m3_1 l=1e+06u w=1e+07u
+X32 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S
++ sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=1e+07u
+X33 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X34 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X35 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X36 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X37 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X38 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X39 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X40 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X41 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X42 VL I1 I2 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X43 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X44 I2 I1 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X45 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X46 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X47 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X48 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X49 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X50 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X51 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X52 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X53 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X54 VL I2 I1 VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X55 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X56 I1 I2 VL VL sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S I2 10.36fF
+C1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S I1 2.57fF
+C2 I2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S 20.62fF
+C3 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S 4.41fF
+C4 G4 I2 2.69fF
+C5 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S I2 10.35fF
+C6 I2 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S 21.16fF
+C7 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S I2 10.32fF
+C8 I1 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S 8.73fF
+C9 VH I2 56.20fF
+C10 VH I1 56.69fF
+C11 I2 I1 20.88fF
+C12 I2 G3 2.54fF
+Xsky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_0 VL VH VL
++ sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+Xsky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1 VL VH VL
++ sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+Xsky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_2 VL VH VL
++ sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0 I2 I1  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1 I2 I1  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2 I2 I1  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3 I2 I1  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4 I2 I1  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5 I2 I1  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6 I2 I1  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0 I1 I2  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1 I1 I2  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2 I1 I2  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3 I1 I2  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4 I1 I2  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5 I1 I2  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+XXCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6 I1 I2  VH
++ sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15
+Xsky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3 VL VH VL
++ sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+C13 I1 VL 29.45fF
+C14 I2 VL 45.54fF
+C15 VH VL 543.94fF
+C16 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_6/S VL 6.47fF
+C17 G4 VL 5.45fF
+C18 captuner_complete_2_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_4/S VL 2.68fF
+C19 G3 VL 4.98fF
+C20 G2 VL 3.01fF
+C21 G1 VL 2.97fF
+C22 G0 VL 3.07fF
+
+.ends
+
+**** Instantiate ****
+
+* XU_XCP VDD GND G1 G2 XCP
+* XU_CAPTUNE G1 G2 GND VC0 VC1 VC2 VC3 VC4 CAPTUNE
+
+XU_COMPLETE VDD GND G1 G2 VC0 VC1 VC2 VC3 VC4 COMPLETE
+
+
+
+
+**** end user architecture code
+I1 VDD G1 PULSE(0 10n 1n 10p 10p 1n 2)
+L1 G2 net1 1.939n m=1
+R1 net1 G1 9.6 m=1
 .ends
 
 .GLOBAL GND
