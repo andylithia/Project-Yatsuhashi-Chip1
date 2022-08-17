@@ -1,0 +1,20 @@
+* NGSPICE file created from nfet_diode_1.ext - technology: sky130B
+
+.subckt sky130_fd_pr__nfet_01v8_6H2JGK a_63_n800# a_n225_n800# a_111_822# a_n321_n800#
++ a_207_n888# a_n369_n888# a_n33_n800# a_303_822# a_15_n888# a_n81_822# a_n177_n888#
++ a_159_n800# a_n515_n974# a_n273_822# a_255_n800# a_n413_n800# a_351_n800# a_n129_n800#
+X0 a_n129_n800# a_n177_n888# a_n225_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=2.64e+12p pd=1.666e+07u as=2.64e+12p ps=1.666e+07u w=8e+06u l=150000u
+X1 a_351_n800# a_303_822# a_255_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=2.48e+12p pd=1.662e+07u as=2.64e+12p ps=1.666e+07u w=8e+06u l=150000u
+X2 a_n33_n800# a_n81_822# a_n129_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=2.64e+12p pd=1.666e+07u as=0p ps=0u w=8e+06u l=150000u
+X3 a_255_n800# a_207_n888# a_159_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.64e+12p ps=1.666e+07u w=8e+06u l=150000u
+X4 a_n321_n800# a_n369_n888# a_n413_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=2.64e+12p pd=1.666e+07u as=2.48e+12p ps=1.662e+07u w=8e+06u l=150000u
+X5 a_159_n800# a_111_822# a_63_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.64e+12p ps=1.666e+07u w=8e+06u l=150000u
+X6 a_n225_n800# a_n273_822# a_n321_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=8e+06u l=150000u
+X7 a_63_n800# a_15_n888# a_n33_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=8e+06u l=150000u
+.ends
+
+.subckt nfet_diode_1
+Xsky130_fd_pr__nfet_01v8_6H2JGK_0 IREF_L GND IREF_L IREF_L IREF_L IREF_L GND IREF_L
++ IREF_L IREF_L IREF_L GND VSUBS IREF_L IREF_L GND GND IREF_L sky130_fd_pr__nfet_01v8_6H2JGK
+.ends
+

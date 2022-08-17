@@ -1,0 +1,387 @@
+timestamp 1660705664
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use nfet_diode_1 nfet_diode_1_0 1 0 40 0 1 0
+use PA_core_1 PA_core_1_0 0 -1 10000 1 0 700
+use sky130_fd_pr__res_high_po_0p35_ZE2H5K sky130_fd_pr__res_high_po_0p35_ZE2H5K_0 1 0 101 0 1 6798
+use hash_m1m2m3m4_W20L20_flat hash_m1m2m3m4_W20L20_flat_1 1 0 5900 0 1 7640
+use hash_m1m2m3m4_W20L20_flat hash_m1m2m3m4_W20L20_flat_0 1 0 1900 0 1 7640
+parameters sky130_fd_pr__cap_mim_m3_1 w=w l=l
+parameters sky130_fd_pr__cap_mim_m3_2 w=w l=l
+node "m5_7000_n42000#" 0 8657.1 7000 -42000 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16000000 34000 0 0
+node "m5_27100_1900#" 0 5294.03 27100 1900 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15800000 15900 0 0
+node "m5_n1000_18400#" 0 1104.9 -1000 18400 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4000000 8000 0 0
+node "m5_n23000_16000#" 0 149526 -23000 16000 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 332000000 542000 0 0
+node "OUTPUT" 0 72471.1 10200 1800 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 229720000 109600 108560000 56400 0 0
+node "c1_4100_n3700#" 0 2640.14 4100 -3700 mim 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15060000 17000 0 0 0 0
+node "GND" 0 9521.27 -4150 8250 mim 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25652561 27678 17440000 23600 0 0
+node "m3_1500_7600#" 0 762.994 1500 7600 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 541600 3800 0 0 0 0 0 0
+node "INPUT" 1 16382.4 0 6100 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80000 1200 80000 1200 21510000 29000 8400000 11600 14400000 15600 0 0
+node "VGATE_CAS" 3 18277.9 10200 200 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80000 1600 80000 1600 19720000 39600 3440000 12800 19200000 21600 0 0
+node "m1_0_7100#" 1 20327.2 0 7100 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100000 1400 100000 1400 22560000 21400 22320000 26800 22841000 21520 0 0
+node "m1_1540_8040#" 6 1382.3 1540 8040 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 287200 7340 0 0 0 0 0 0 0 0 0 0
+node "w_5166_1026#" 5647 0 5166 1026 pw 27014144 20952 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "w_5166_1026#" "VGATE_CAS" 96.6115
+cap "m3_1500_7600#" "GND" 872.611
+cap "m3_1500_7600#" "m1_1540_8040#" 230.598
+cap "w_5166_1026#" "OUTPUT" 413.318
+cap "INPUT" "GND" 593.575
+cap "m1_1540_8040#" "GND" 334.273
+cap "m3_1500_7600#" "m1_0_7100#" 82.1335
+cap "w_5166_1026#" "c1_4100_n3700#" 7.0471
+cap "INPUT" "m1_0_7100#" 2255.14
+cap "GND" "m1_0_7100#" 60000.9
+cap "m1_1540_8040#" "m1_0_7100#" 40.2288
+cap "OUTPUT" "VGATE_CAS" 4180.48
+cap "c1_4100_n3700#" "VGATE_CAS" 53446.8
+cap "m5_n1000_18400#" "m1_0_7100#" 7661.2
+cap "w_5166_1026#" "GND" 317.92
+device csubckt sky130_fd_pr__cap_mim_m3_2 4100 -3700 4101 -3699 w=3800 l=3200 "None" "VGATE_CAS" 13200 0 "c1_4100_n3700#" 1010 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 -4150 8250 -4149 8251 w=4500 l=3100 "None" "m1_0_7100#" 14800 0 "GND" 1010 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 4100 -3700 4101 -3699 w=3800 l=3200 "None" "c1_4100_n3700#" 13200 0 "VGATE_CAS" 1010 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -4150 8250 -4149 8251 w=4500 l=3100 "None" "GND" 14800 0 "m1_0_7100#" 1010 0
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "VGATE_CAS" 0.599421
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 0.72732
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.365392
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S" 83.3485
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.56915
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S" 115.014
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "VGATE_CAS" 184.004
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "VGATE_CAS" 220.017
+cap "w_5166_1026#" "VGATE_CAS" -1.27646
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "VGATE_CAS" 1.29868
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "w_5166_1026#" -0.155725
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" 3.2895
+cap "VGATE_CAS" "w_5166_1026#" -0.167847
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "VGATE_CAS" 2.7997
+cap "c1_4100_n3700#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" 4.65283
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "VGATE_CAS" 5.79766
+cap "c1_4100_n3700#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 235.6
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 403.285
+cap "w_5166_1026#" "c1_4100_n3700#" -0.22162
+cap "w_5166_1026#" "VGATE_CAS" -1.71871
+cap "PA_core_1_0/w_326_246#" "c1_4100_n3700#" -0.0310828
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 496.478
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "c1_4100_n3700#" 0.664275
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "c1_4100_n3700#" 41.1547
+cap "PA_core_1_0/w_326_246#" "VGATE_CAS" -1.08168
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2557_1127#" 0.0632096
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "VGATE_CAS" 9.38698
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" 64.4715
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 238.05
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" 43.2599
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2557_n909#" 0.0560818
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/w_326_246#" 0.732147
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/SD" 0.0576292
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S" 156.612
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/G" "VGATE_CAS" 0.162576
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/SD" 0.0203645
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/G" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S" 11.7766
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S" 83.5611
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/G" 0.245023
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/SD" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S" 19.6719
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.433356
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "VGATE_CAS" 81.795
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "VGATE_CAS" 0.274012
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "VGATE_CAS" 210.126
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "VGATE_CAS" 0.237616
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "VGATE_CAS" 0.726308
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "c1_4100_n3700#" 139.159
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "c1_4100_n3700#" 0.612826
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "VGATE_CAS" 294.945
+cap "c1_4100_n3700#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 18.3224
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2557_1127#" "VGATE_CAS" 0.00324461
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "VGATE_CAS" 329.916
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "c1_4100_n3700#" 0.0875466
+cap "PA_core_1_0/w_326_246#" "VGATE_CAS" 0.0751761
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/TOPBIAS_L" 0.0861483
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G2" "VGATE_CAS" 1.35989
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" "PA_core_1_0/DRAIN" 1.89274
+cap "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" "PA_core_1_0/TOPBIAS_L" 74.4813
+cap "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" -3.55261
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/TOPBIAS_L" 178.761
+cap "PA_core_1_0/w_326_246#" "PA_core_1_0/TOPBIAS_L" 0.30221
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2557_n909#" "PA_core_1_0/TOPBIAS_L" 0.00289044
+cap "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" 2.12131
+cap "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" "PA_core_1_0/DRAIN" 2.10243
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" 164.941
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" 99.6345
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/DRAIN" 4.3001
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/DRAIN" 0.218043
+cap "PA_core_1_0/w_326_246#" "PA_core_1_0/TOPBIAS_L" -0.712026
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/TOPBIAS_L" 51.5264
+cap "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" "PA_core_1_0/TOPBIAS_L" 21.7983
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n2015#" "PA_core_1_0/TOPBIAS_L" 25.3095
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" 4.12838
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n2015#" 5.08716
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/TOPBIAS_L" 1.38425
+cap "PA_core_1_0/VSUB" "PA_core_1_0/GATE" 23.7753
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" "PA_core_1_0/GATE" 58.4215
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" "PA_core_1_0/GATE" 0.297305
+cap "PA_core_1_0/VSUB" "PA_core_1_0/GATE" 10.3808
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/G" 0.000921938
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1609_n909#" 0.332267
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" 8.52006
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/TOPBIAS_L" 55.5409
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/TOPBIAS_L" 46.9432
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" 3.92745
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/w_326_246#" -94.228
+cap "PA_core_1_0/w_326_246#" "PA_core_1_0/TOPBIAS_L" 1.39361
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1293_n909#" 0.337798
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" -0.822136
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" 4.84178
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n1925_n909#" 0.335958
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 81.7846
+cap "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" "PA_core_1_0/DRAIN" 1.26324
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n2015#" 8.32054
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/TOPBIAS_L" 74.902
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/w_326_246#" 4.46556
+cap "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" "PA_core_1_0/TOPBIAS_L" 9.04711
+cap "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/DRAIN" 75.204
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n2015#" "PA_core_1_0/DRAIN" 0.714124
+cap "PA_core_1_0/GATE" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" 75.9204
+cap "PA_core_1_0/GATE" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/S" 102.707
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" "PA_core_1_0/GATE" 15.8863
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/S" "PA_core_1_0/GATE" 68.6464
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n977_n909#" "PA_core_1_0/DRAIN" 0.334118
+cap "PA_core_1_0/DRAIN" "w_5166_1026#" -131.919
+cap "VGATE_CAS" "PA_core_1_0/DRAIN" 32.7833
+cap "VGATE_CAS" "w_5166_1026#" 1.39361
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" "PA_core_1_0/DRAIN" 9.54285
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n29_n909#" 0.61097
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n997#" "VGATE_CAS" 0.327986
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n661_n909#" "PA_core_1_0/DRAIN" 0.338718
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" "PA_core_1_0/DRAIN" 2.19632
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/DRAIN" 117.658
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "VGATE_CAS" 50.2975
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n345_n909#" "PA_core_1_0/DRAIN" 0.335958
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" 0.0742116
+cap "PA_core_1_0/DRAIN" "VGATE_CAS" 95.5913
+cap "w_5166_1026#" "VGATE_CAS" 4.35026
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n2015#" "VGATE_CAS" 0.387002
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "VGATE_CAS" 74.3771
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_n2499_n2015#" "VGATE_CAS" 1.63719
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/S" "PA_core_1_0/GATE" 127.086
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "PA_core_1_0/GATE" 135.994
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/S" "PA_core_1_0/GATE" 34.2232
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "PA_core_1_0/GATE" 16.6236
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1235_n909#" "PA_core_1_0/DRAIN" 0.335958
+cap "VGATE_CAS" "w_5166_1026#" 1.39361
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1551_n909#" 0.332267
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 50.2975
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" 11.9806
+cap "PA_core_1_0/DRAIN" "w_5166_1026#" -131.919
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_603_n909#" "PA_core_1_0/DRAIN" 0.334118
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 117.658
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_287_n909#" 0.337798
+cap "VGATE_CAS" "PA_core_1_0/DRAIN" 32.7833
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" 0.412123
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_919_n909#" "PA_core_1_0/DRAIN" 0.338718
+cap "VGATE_CAS" "w_5166_1026#" 4.3313
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n2015#" 2.03306
+cap "VGATE_CAS" "PA_core_1_0/DRAIN" 95.5913
+cap "VGATE_CAS" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" 74.3771
+cap "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#" "nfet_diode_1_0/GND" 2.13709
+cap "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#" "PA_core_1_0/GATE" 11.7488
+cap "PA_core_1_0/GATE" "nfet_diode_1_0/GND" 510.943
+cap "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 0.976574
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "nfet_diode_1_0/GND" 33.7795
+cap "PA_core_1_0/GATE" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 528.233
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "nfet_diode_1_0/sky130_fd_pr__nfet_01v8_6H2JGK_0/a_303_822#" 0.427981
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "PA_core_1_0/GATE" 36.6036
+cap "PA_core_1_0/GATE" "nfet_diode_1_0/GND" 67.608
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "nfet_diode_1_0/sky130_fd_pr__nfet_01v8_6H2JGK_0/a_111_822#" 0.0370816
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "nfet_diode_1_0/GND" 26.4775
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#" 1.87372
+cap "nfet_diode_1_0/GND" "PA_core_1_0/MID" 17.017
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/SG" "PA_core_1_0/MID" 6.38584
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "PA_core_1_0/MID" 86.6587
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2025_1127#" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.00362018
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" 73.5599
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_1127#" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 4.51791
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/MID" 62.8543
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_1127#" 6.02518
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" 100.524
+cap "GND" "PA_core_1_0/MID" 11.6678
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_1127#" 1.56055
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" 17.7949
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2025_1127#" 0.00542879
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_1127#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 1.43854
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_1127#" 5.50399
+cap "GND" "w_5166_1026#" 6.09294
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" 18.0676
+cap "PA_core_1_0/DRAIN" "GND" 1.68956
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" 2.27374e-13
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_1127#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 22.1297
+cap "w_5166_1026#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 39.5992
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 95.837
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 6.21182
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_1127#" 0.507262
+cap "PA_core_1_0/DRAIN" "w_5166_1026#" -37.6912
+cap "PA_core_1_0/DRAIN" "GND" 5.67243
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "w_5166_1026#" 11.0416
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_n909#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 0.224092
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_n909#" 0.673247
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" "PA_core_1_0/TOPBIAS_R" 66.6462
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/w_326_246#" -1.31482
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 45.442
+cap "PA_core_1_0/TOPBIAS_R" "w_5166_1026#" 1.01745
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_n909#" 3.51451
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/TOPBIAS_R" 52.3051
+cap "PA_core_1_0/w_326_246#" "PA_core_1_0/TOPBIAS_R" 11.1805
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/TOPBIAS_R" 35.728
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" "w_5166_1026#" 0.429474
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" "GND" 9.72953
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1867_n909#" "PA_core_1_0/DRAIN" 0.337798
+cap "GND" "w_5166_1026#" 1.72393
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" 3.21877
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_n909#" "GND" 0.0690813
+cap "PA_core_1_0/w_326_246#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" -3.60701
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n997#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 83.9771
+cap "PA_core_1_0/TOPBIAS_R" "w_5166_1026#" 2.08725
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/DRAIN" 75.9548
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/w_326_246#" 16.4712
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_29_n2015#" 32.8264
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 70.7817
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" 0.039743
+cap "nfet_diode_1_0/GND" "nfet_diode_1_0/IREF_L" 1580.85
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" 62.9987
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "nfet_diode_1_0/GND" 6.34436
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" "nfet_diode_1_0/IREF_L" 21.9569
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" "nfet_diode_1_0/IREF_L" 7.91749
+cap "nfet_diode_1_0/IREF_L" "nfet_diode_1_0/GND" 1159.14
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 0.00271904
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" 76.8662
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 45.1313
+cap "nfet_diode_1_0/IREF_L" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" 23.7005
+cap "nfet_diode_1_0/IREF_L" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 18.442
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 29.2141
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 79.561
+cap "nfet_diode_1_0/GND" "nfet_diode_1_0/IREF_L" 33.3053
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/SG" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/SD" 17.1307
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/SG" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/G" 40.1083
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 68.2697
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 91.9344
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2025_1127#" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.108624
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_1127#" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 14.7591
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "GND" 2312.48
+cap "GND" "w_5166_1026#" 22.2664
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "w_5166_1026#" 106.668
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_1127#" 19.965
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2341_1127#" 14.5578
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" "GND" 76.4292
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" 62.5944
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2025_1127#" 0.157568
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_1127#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 20.1928
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_1127#" 10.4294
+cap "GND" "w_5166_1026#" -16.6255
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_1127#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 4.42454
+cap "w_5166_1026#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 68.7131
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" "GND" 70.0511
+cap "PA_core_1_0/w_326_246#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 1.32094
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/G1" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 55.945
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/TOPBIAS_R" 1.79896
+cap "GND" "PA_core_1_0/DRAIN" 21.7674
+cap "PA_core_1_0/DRAIN" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 11.8951
+cap "GND" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 2155.41
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_1127#" 32.253
+cap "PA_core_1_0/w_326_246#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 64.3546
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1451_n997#" 29.0641
+cap "PA_core_1_0/w_326_246#" "PA_core_1_0/TOPBIAS_R" 41.3704
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_n909#" 4.90178
+cap "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_n909#" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 1.14789
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1451_n997#" 21.4431
+cap "GND" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 908.652
+cap "GND" "PA_core_1_0/DRAIN" 14.5874
+cap "PA_core_1_0/TOPBIAS_R" "GND" 5.34856
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_1451_n997#" 49.4734
+cap "GND" "w_5166_1026#" -4.98538
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "PA_core_1_0/DRAIN" 3.43783
+cap "PA_core_1_0/w_326_246#" "GND" 10.0671
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 134.587
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/DRAIN" 5.67989
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2499_n909#" 4.57533
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "w_5166_1026#" 23.1179
+cap "GND" "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/sky130_fd_pr__nfet_03v3_nvt_EV757D_0/a_2183_n909#" 1.47924
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/w_326_246#" 7.26387
+cap "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" 27.752
+cap "nfet_diode_1_0/IREF_L" "nfet_diode_1_0/GND" 1032.83
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "nfet_diode_1_0/GND" 0.0029111
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.0012169
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "nfet_diode_1_0/GND" 0.0330461
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.00665904
+cap "nfet_diode_1_0/GND" "nfet_diode_1_0/IREF_L" 773.47
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" 0.00293529
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.10585
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "nfet_diode_1_0/GND" 0.063621
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.0161368
+cap "nfet_diode_1_0/GND" "nfet_diode_1_0/IREF_L" 34.5046
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "nfet_diode_1_0/GND" 0.0330461
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.0330461
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" 0.0431989
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.0295606
+cap "nfet_diode_1_0/GND" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.126367
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "nfet_diode_1_0/GND" 0.0777925
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_5/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "nfet_diode_1_0/GND" 0.0298532
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "PA_core_1_0/RF_nfet_driver_64x8_0/SG" 0.0331564
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "PA_core_1_0/RF_nfet_driver_64x8_0/SG" 0.00348549
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "PA_core_1_0/RF_nfet_driver_64x8_0/SG" 0.0330461
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "PA_core_1_0/RF_nfet_driver_64x8_0/SG" 0.116575
+cap "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "PA_core_1_0/RF_nfet_driver_64x8_0/SG" 0.086948
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "GND" 2555.66
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "GND" 2523.56
+cap "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "GND" 1098.01
+cap "nfet_diode_1_0/sky130_fd_pr__nfet_01v8_6H2JGK_0/a_n369_n888#" "nfet_diode_1_0/GND" 1.90483
+cap "nfet_diode_1_0/IREF_L" "nfet_diode_1_0/GND" 70.3972
+cap "nfet_diode_1_0/GND" "nfet_diode_1_0/sky130_fd_pr__nfet_01v8_6H2JGK_0/a_207_n888#" 2.065
+cap "nfet_diode_1_0/GND" "nfet_diode_1_0/sky130_fd_pr__nfet_01v8_6H2JGK_0/a_15_n888#" 2.01161
+cap "nfet_diode_1_0/sky130_fd_pr__nfet_01v8_6H2JGK_0/a_n177_n888#" "nfet_diode_1_0/GND" 1.95822
+cap "nfet_diode_1_0/IREF_L" "nfet_diode_1_0/GND" 106.397
+cap "GND" "hash_m1m2m3m4_W20L20_flat_1/m1_0_0#" 14.939
+cap "GND" "hash_m1m2m3m4_W20L20_flat_1/m1_0_0#" 17.6118
+cap "hash_m1m2m3m4_W20L20_flat_1/m1_0_0#" "GND" 11.344
+cap "hash_m1m2m3m4_W20L20_flat_0/m1_0_0#" "m1_0_7100#" 4.49025
+cap "hash_m1m2m3m4_W20L20_flat_0/m1_0_0#" "m1_0_7100#" 92.805
+cap "m1_0_7100#" "hash_m1m2m3m4_W20L20_flat_0/m1_0_0#" 3.54668
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n732#" -2125.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19650 -886 0 0 -600000 -6400 0 0 0 0 0 0
+merge "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n732#" "PA_core_1_0/GATE"
+merge "PA_core_1_0/GATE" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G" "INPUT"
+merge "PA_core_1_0/TOPBIAS_R" "PA_core_1_0/TOPBIAS_L" -7842.81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32000 -1120 0 0 -6760000 -14800 -1200000 -5200 -6400000 -9000 0 0
+merge "PA_core_1_0/TOPBIAS_L" "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n732#"
+merge "PA_core_1_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n732#" "VGATE_CAS"
+merge "hash_m1m2m3m4_W20L20_flat_1/VSUBS" "hash_m1m2m3m4_W20L20_flat_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hash_m1m2m3m4_W20L20_flat_0/VSUBS" "nfet_diode_1_0/VSUBS"
+merge "nfet_diode_1_0/VSUBS" "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#"
+merge "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n165_n862#" "PA_core_1_0/VSUBS"
+merge "PA_core_1_0/VSUBS" "VSUBS"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_9/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/S" -35982.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48800 -28860 0 -10560 -106000 -31000 -10058161 -28640 -4916000 -13520 0 0
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_2/S" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#"
+merge "PA_core_1_0/hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "hash_m1m2m3m4_W20L20_flat_1/m1_0_0#"
+merge "hash_m1m2m3m4_W20L20_flat_1/m1_0_0#" "hash_m1m2m3m4_W20L20_flat_0/m1_0_0#"
+merge "hash_m1m2m3m4_W20L20_flat_0/m1_0_0#" "PA_core_1_0/RF_nfet_driver_64x8_0/SG"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/SG" "GND"
+merge "GND" "nfet_diode_1_0/GND"
+merge "nfet_diode_1_0/GND" "m3_1500_7600#"
+merge "m3_1500_7600#" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/S"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/S" "m1_1540_8040#"
+merge "m1_1540_8040#" "nfet_diode_1_0/li_430_7640#"
+merge "nfet_diode_1_0/IREF_L" "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#" -7211.39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21050 -942 0 0 -3025800 -11522 -3644661 -7724 -2989400 -7842 0 0
+merge "sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#" "m1_0_7100#"
+merge "PA_core_1_0/DRAIN" "OUTPUT" -2621.48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1866000 -15101 0 0 0 0
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/SD" -660.118 -35052900 -27020 0 0 0 0 0 0 0 0 0 0 0 0 -322712 -11128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -223466 -11141 -351600 -11130 0 0 0 0 0 0 0 0 0 0
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/SD" "PA_core_1_0/MID"
+merge "PA_core_1_0/MID" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/SD"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/SD" "PA_core_1_0/w_326_246#"
+merge "PA_core_1_0/w_326_246#" "w_5166_1026#"
+merge "PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" -1122.63 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1622400 -3320 0 0 0 0
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_4/S" "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D"
+merge "PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "PA_core_1_0/VSUB"
+merge "PA_core_1_0/VSUB" "c1_4100_n3700#"

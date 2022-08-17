@@ -1,4 +1,8 @@
-* SPICE3 file created from PA_core_1.ext - technology: sky130B
+* NGSPICE file created from PA_complete_without_ind.ext - technology: sky130B
+
+.subckt sky130_fd_pr__res_high_po_0p35_ZE2H5K a_n35_300# a_n165_n862# a_n35_n732#
+X0 a_n35_n732# a_n35_300# a_n165_n862# sky130_fd_pr__res_high_po_0p35 l=3e+06u
+.ends
 
 .subckt sky130_fd_pr__nfet_03v3_nvt_EV757D a_977_n997# a_n1135_1127# a_603_n1927#
 + a_n2557_n909# a_n1551_21# a_2241_n2015# a_n445_n997# a_2183_109# a_1235_109# a_n2083_109#
@@ -170,7 +174,7 @@ X126 a_2341_109# a_2241_21# a_2183_109# a_n2691_n2149# sky130_fd_pr__nfet_03v3_n
 X127 a_n819_n909# a_n919_n997# a_n977_n909# a_n2691_n2149# sky130_fd_pr__nfet_03v3_nvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=500000u
 .ends
 
-.subckt RF_nfet_3v_dnwell_cascode D G2 G1 SB DNW VSUBS
+.subckt RF_nfet_3v_dnwell_cascode D G2 G1 SB DNW
 Xsky130_fd_pr__nfet_03v3_nvt_EV757D_0 G1 D SB SB G2 G1 G2 SB SB D SB G1 G2 D G2 D
 + SB SB G2 D G2 D G1 G2 G1 D D SB D G1 D G1 D G2 G1 SB G1 D G2 D D SB G1 D SB G1 G1
 + G2 G1 G2 SB G2 G2 G1 SB G2 G1 G2 G1 SB G2 SB D G1 SB G2 G2 SB SB D G1 SB G1 D G2
@@ -181,19 +185,6 @@ Xsky130_fd_pr__nfet_03v3_nvt_EV757D_0 G1 D SB SB G2 G1 G2 SB SB D SB G1 G2 D G2 
 + SB G1 G1 SB D SB G2 SB G1 G2 SB D SB G2 G1 G1 D SB SB D G2 G1 D G2 G1 SB G2 D D
 + G1 D G1 SB G1 SB D D G2 D G2 SB D G2 G1 D D SB D G1 SB SB G2 SB G1 G1 G2 SB D G2
 + SB G2 D G2 G2 SB D G2 G2 sky130_fd_pr__nfet_03v3_nvt_EV757D
-C0 G1 D 19.92fF
-C1 DNW G1 2.85fF
-C2 G2 SB 27.04fF
-C3 SB G1 25.45fF
-C4 G2 D 19.94fF
-C5 SB D 132.51fF
-C6 G2 DNW 3.39fF
-C7 SB DNW 92.93fF
-C8 SB VSUBS -3.31fF
-C9 DNW VSUBS 112.06fF
-C10 D VSUBS -2.56fF
-C11 G1 VSUBS 3.47fF
-C12 G2 VSUBS 3.41fF
 .ends
 
 .subckt sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap G D S VSUBS
@@ -201,14 +192,12 @@ X0 D G S VSUBS sky130_fd_pr__nfet_01v8 ad=4.242e+12p pd=3.198e+07u as=2.828e+12p
 X1 D G S VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 X2 S G D VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 X3 S G D VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-C0 S D 6.34fF
 .ends
 
 .subckt RF_nfet_8xW5p0L0p15 G S SD
 Xsky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0 G S SD S sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap
 Xsky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1 G S SD S sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap
 Xsky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2 G S SD S sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap
-C0 G 0 2.12fF
 .ends
 
 .subckt RF_nfet_driver_64x8 G D SG
@@ -224,33 +213,43 @@ XRF_nfet_8xW5p0L0p15_5 G SG D RF_nfet_8xW5p0L0p15
 XRF_nfet_8xW5p0L0p15_6 G SG D RF_nfet_8xW5p0L0p15
 XRF_nfet_8xW5p0L0p15_7 G SG D RF_nfet_8xW5p0L0p15
 XRF_nfet_8xW5p0L0p15_8 G SG D RF_nfet_8xW5p0L0p15
-C0 SG G 14.51fF
-C1 SG D 24.68fF
-C2 G D 18.33fF
-C3 D 0 -3.92fF
-C4 SG 0 -25.16fF
-C5 G 0 17.76fF
 .ends
 
-.subckt sky130_fd_pr__res_high_po_0p35_ZE2H5K a_n35_300# a_n165_n862# a_n35_n732#
-X0 a_n35_n732# a_n35_300# a_n165_n862# sky130_fd_pr__res_high_po_0p35 l=3e+06u
-.ends
-
-.subckt PA_core_1
+.subckt PA_core_1 DRAIN TOPBIAS_R GATE TOPBIAS_L MID VSUB
 XRF_nfet_3v_dnwell_cascode_0 DRAIN RF_nfet_3v_dnwell_cascode_0/G2 RF_nfet_3v_dnwell_cascode_0/G1
-+ MID VSUB VSUB RF_nfet_3v_dnwell_cascode
++ MID VSUB RF_nfet_3v_dnwell_cascode
 XRF_nfet_driver_64x8_0 GATE MID VSUB RF_nfet_driver_64x8
 Xsky130_fd_pr__res_high_po_0p35_ZE2H5K_0 RF_nfet_3v_dnwell_cascode_0/G2 VSUB TOPBIAS_L
 + sky130_fd_pr__res_high_po_0p35_ZE2H5K
 Xsky130_fd_pr__res_high_po_0p35_ZE2H5K_1 TOPBIAS_R VSUB RF_nfet_3v_dnwell_cascode_0/G1
 + sky130_fd_pr__res_high_po_0p35_ZE2H5K
-C0 VSUB DRAIN 2.00fF
-C1 MID VSUB 6.73fF
-C2 VSUB 0 85.58fF
-C3 GATE 0 17.76fF
-C4 MID 0 -11.48fF
-C5 DRAIN 0 -2.02fF
-C6 RF_nfet_3v_dnwell_cascode_0/G1 0 4.12fF
-C7 RF_nfet_3v_dnwell_cascode_0/G2 0 4.07fF
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_6H2JGK a_63_n800# a_n225_n800# a_111_822# a_n321_n800#
++ a_207_n888# a_n369_n888# a_n33_n800# a_303_822# a_15_n888# a_n81_822# a_n177_n888#
++ a_159_n800# a_n515_n974# a_n273_822# a_255_n800# a_n413_n800# a_351_n800# a_n129_n800#
+X0 a_n129_n800# a_n177_n888# a_n225_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=2.64e+12p pd=1.666e+07u as=2.64e+12p ps=1.666e+07u w=8e+06u l=150000u
+X1 a_351_n800# a_303_822# a_255_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=2.48e+12p pd=1.662e+07u as=2.64e+12p ps=1.666e+07u w=8e+06u l=150000u
+X2 a_n33_n800# a_n81_822# a_n129_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=2.64e+12p pd=1.666e+07u as=0p ps=0u w=8e+06u l=150000u
+X3 a_255_n800# a_207_n888# a_159_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.64e+12p ps=1.666e+07u w=8e+06u l=150000u
+X4 a_n321_n800# a_n369_n888# a_n413_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=2.64e+12p pd=1.666e+07u as=2.48e+12p ps=1.662e+07u w=8e+06u l=150000u
+X5 a_159_n800# a_111_822# a_63_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.64e+12p ps=1.666e+07u w=8e+06u l=150000u
+X6 a_n225_n800# a_n273_822# a_n321_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=8e+06u l=150000u
+X7 a_63_n800# a_15_n888# a_n33_n800# a_n515_n974# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=8e+06u l=150000u
+.ends
+
+.subckt nfet_diode_1 IREF_L GND VSUBS
+Xsky130_fd_pr__nfet_01v8_6H2JGK_0 IREF_L GND IREF_L IREF_L IREF_L IREF_L GND IREF_L
++ IREF_L IREF_L IREF_L GND VSUBS IREF_L IREF_L GND GND IREF_L sky130_fd_pr__nfet_01v8_6H2JGK
+.ends
+
+.subckt PA_complete_without_ind
+Xsky130_fd_pr__res_high_po_0p35_ZE2H5K_0 nfet_diode_1_0/IREF_L GND INPUT sky130_fd_pr__res_high_po_0p35_ZE2H5K
+XPA_core_1_0 OUTPUT VGATE_CAS INPUT VGATE_CAS PA_core_1_0/MID GND PA_core_1
+Xnfet_diode_1_0 nfet_diode_1_0/IREF_L GND GND nfet_diode_1
+X0 VGATE_CAS GND sky130_fd_pr__cap_mim_m3_2 l=1.6e+07u w=1.9e+07u
+X1 GND VGATE_CAS sky130_fd_pr__cap_mim_m3_1 l=1.6e+07u w=1.9e+07u
+X2 nfet_diode_1_0/IREF_L GND sky130_fd_pr__cap_mim_m3_2 l=1.55e+07u w=2.25e+07u
+X3 GND nfet_diode_1_0/IREF_L sky130_fd_pr__cap_mim_m3_1 l=1.55e+07u w=2.25e+07u
 .ends
 

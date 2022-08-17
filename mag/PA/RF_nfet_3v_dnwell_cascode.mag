@@ -2433,5 +2433,5 @@ rlabel metal3 4640 480 9920 660 1 SB
 rlabel metal3 10060 -3630 10160 450 1 G1
 rlabel metal3 4470 -3630 4570 450 1 G2
 rlabel metal3 4900 -3780 9720 -3680 1 D
-rlabel nwell 4160 860 10540 940 1 DNW
+rlabel metal2 4160 860 10540 940 1 DNW
 << end >>
