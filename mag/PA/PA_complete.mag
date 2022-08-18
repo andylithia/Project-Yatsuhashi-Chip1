@@ -1,27 +1,43 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1660708745
+timestamp 1660794129
+<< via3 >>
+rect -1400 2600 -600 6600
+<< metal4 >>
+rect -2800 11800 -800 13200
+rect -1600 6600 -400 6800
+rect -1600 2600 -1400 6600
+rect -600 2600 -400 6600
+rect -1600 2400 -400 2600
+rect 16200 4800 58000 5000
+rect 16200 200 35400 4800
+rect 52400 200 58000 4800
+rect 16200 0 58000 200
+<< via4 >>
+rect -1400 2600 -600 6600
+rect 35400 200 52400 4800
 << metal5 >>
-rect -23000 47000 17000 48000
-rect -23000 16000 -22000 47000
-rect 16000 33000 17000 47000
-rect 16000 32000 71000 33000
-rect 70000 5000 71000 32000
-rect 66000 -9000 71000 5000
-rect 64000 -11000 71000 -9000
-rect 70000 -26000 71000 -11000
-rect 26231 -27000 71000 -26000
+rect 17200 9600 21200 13400
+rect -6600 6600 -400 6800
+rect -6600 5800 -1400 6600
+rect -1600 2600 -1400 5800
+rect -600 2600 -400 6600
+rect -1600 2400 -400 2600
+rect 35200 4800 58000 5000
+rect 35200 200 35400 4800
+rect 52400 200 58000 4800
+rect 35200 0 58000 200
 use PA_complete_without_ind  PA_complete_without_ind_0
-timestamp 1660708695
+timestamp 1660793996
 transform 1 0 1 0 1 0
-box -23000 -42000 71000 48000
+box -9600 -4000 17800 12600
 use octa_ind_3t_140_160_flat  octa_ind_3t_140_160_flat_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
 timestamp 1660524083
-transform 0 -1 -23000 1 0 47900
+transform 0 -1 -24800 1 0 49100
 box -39300 -34000 -5300 -6000
-use octa_ind_thick_1p8n_flat  octa_ind_thick_1p8n_flat_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
-timestamp 1659752630
-transform -1 0 20600 0 -1 -16800
-box -51300 -45000 3200 5000
+use octa_ind_thick_1p8n_flat_mod1  octa_ind_thick_1p8n_flat_mod1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
+timestamp 1660790920
+transform 1 0 64500 0 1 23000
+box -47300 -45000 2700 5000
 << end >>

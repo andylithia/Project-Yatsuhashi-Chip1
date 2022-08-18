@@ -1,0 +1,8 @@
+magic
+tech sky130B
+timestamp 1660789662
+use rfbcsa_1  rfbcsa_1_0
+timestamp 1660789662
+transform 1 0 125 0 1 8900
+box -325 -400 1920 1000
+<< end >>

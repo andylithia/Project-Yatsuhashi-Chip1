@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1660307541
+timestamp 1660789662
 << metal1 >>
 rect -380 9500 120 9600
 rect 480 5120 980 5140
@@ -78,7 +78,7 @@ timestamp 1660275428
 transform 1 0 -4080 0 1 4140
 box 4120 -4180 10580 980
 use RF_nfet_driver_64x8  RF_nfet_driver_64x8_0
-timestamp 1660307541
+timestamp 1660789662
 transform 0 1 3400 -1 0 9600
 box -400 -3800 4400 3560
 use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON

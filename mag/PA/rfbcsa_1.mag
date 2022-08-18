@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1660307541
+timestamp 1660789662
 << pwell >>
 rect 2400 100 3014 1146
 << locali >>
@@ -92,11 +92,8 @@ rect 2840 160 2850 340
 rect 2650 -80 2850 160
 rect 600 -610 3840 -80
 rect 600 -800 2000 -610
-rect 200 -8500 2000 -8400
-rect 100 -8600 2100 -8500
-rect 0 -18200 2200 -8600
 use RF_nfet_6xaM02W5p0L0p15  RF_nfet_6xaM02W5p0L0p15_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
-timestamp 1659754370
+timestamp 1660736647
 transform 1 0 0 0 1 0
 box 0 0 2474 1440
 use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON

@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1659326284
+timestamp 1660736647
 << error_s >>
 rect 2360 4260 3140 4270
 rect 2360 30 3140 40
@@ -9,15 +9,15 @@ timestamp 1659323209
 transform 1 0 580 0 1 2400
 box -580 -2400 4940 1900
 use OSC_5GHz_1  OSC_5GHz_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/OSC
-timestamp 1659241608
+timestamp 1660526289
 transform 1 0 900 0 1 -1200
-box 5000 -1400 20650 8800
+box 5000 -7400 36200 15600
 use lna_complete_1  lna_complete_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/LNA
-timestamp 1659151574
+timestamp 1660736647
 transform -1 0 -10950 0 -1 15720
 box -15400 -13600 6050 11720
 use lna_complete_1  lna_complete_1_1
-timestamp 1659151574
+timestamp 1660736647
 transform -1 0 -10950 0 1 -11400
 box -15400 -13600 6050 11720
 use spiral_ind_0p630nH_5GHz_to_gnd_noPGS  spiral_ind_0p630nH_5GHz_to_gnd_noPGS_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND

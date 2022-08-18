@@ -1,9 +1,0 @@
-magic
-tech sky130A
-magscale 1 2
-timestamp 1658894378
-use sky130_fd_pr__pfet_01v8_XTWSWD  sky130_fd_pr__pfet_01v8_XTWSWD_0
-timestamp 1658894378
-transform 1 0 243 0 1 1166
-box -296 -1219 296 1219
-<< end >>
