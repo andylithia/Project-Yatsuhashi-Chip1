@@ -60,13 +60,7 @@ N -815 -290 -815 -260 {
 lab=#net4}
 N -815 -300 -815 -290 {
 lab=#net4}
-N -260 -300 -260 -240 {
-lab=#net3}
-N -260 -240 -250 -240 {
-lab=#net3}
 N -210 -300 -190 -300 {
-lab=GNDI}
-N -210 -240 -170 -240 {
 lab=GNDI}
 N -170 -240 -170 -170 {
 lab=GNDI}
@@ -82,27 +76,15 @@ N -330 -600 -200 -600 {
 lab=#net5}
 N -270 -570 -250 -570 {
 lab=VDDI}
-N -260 -570 -260 -510 {
-lab=VDDI}
-N -260 -510 -250 -510 {
-lab=VDDI}
 N -310 -570 -270 -570 {
 lab=VDDI}
 N -310 -720 -310 -570 {
 lab=VDDI}
 N -200 -600 -160 -600 {
 lab=#net5}
-N -590 -380 -560 -380 {
-lab=GNDI}
 N -590 -440 -590 -380 {
 lab=GNDI}
 N -590 -440 -560 -440 {
-lab=GNDI}
-N -510 -440 -510 -380 {
-lab=Vref}
-N -520 -380 -510 -380 {
-lab=Vref}
-N -560 -350 -560 -290 {
 lab=GNDI}
 N -560 -120 -490 -120 {
 lab=GNDI}
@@ -128,10 +110,6 @@ N -20 -600 110 -600 {
 lab=#net9}
 N 40 -570 60 -570 {
 lab=VDDI}
-N 50 -570 50 -510 {
-lab=VDDI}
-N 50 -510 60 -510 {
-lab=VDDI}
 N 100 -570 120 -570 {
 lab=GNDI}
 N 0 -570 40 -570 {
@@ -141,8 +119,6 @@ lab=VDDI}
 N 110 -600 150 -600 {
 lab=#net9}
 N 120 -570 120 -510 {
-lab=GNDI}
-N 100 -510 120 -510 {
 lab=GNDI}
 N 100 -630 100 -600 {
 lab=#net9}
@@ -170,15 +146,9 @@ N 50 -300 60 -300 {
 lab=#net11}
 N -130 -720 -0 -720 {
 lab=VDDI}
-N 100 -240 140 -240 {
-lab=GNDI}
 N 100 -300 140 -300 {
 lab=GNDI}
-N 50 -240 60 -240 {
-lab=#net11}
 N 40 -300 50 -300 {
-lab=#net11}
-N 40 -300 40 -240 {
 lab=#net11}
 N -280 -120 90 -120 {
 lab=GNDI}
@@ -186,14 +156,10 @@ N 90 -120 190 -120 {
 lab=GNDI}
 N -170 -510 -170 -300 {
 lab=GNDI}
-N -210 -510 -170 -510 {
-lab=GNDI}
 N -210 -570 -170 -570 {
 lab=GNDI}
 N -170 -570 -170 -510 {
 lab=GNDI}
-N 40 -240 50 -240 {
-lab=#net11}
 N 30 -300 40 -300 {
 lab=#net11}
 N 100 -420 100 -330 {
@@ -258,6 +224,18 @@ N 0 -720 220 -720 {
 lab=VDDI}
 N -560 -720 -310 -720 {
 lab=VDDI}
+N 100 -270 100 -210 {
+lab=#net16}
+N -210 -270 -210 -210 {
+lab=#net17}
+N -560 -330 -560 -290 {
+lab=GNDI}
+N -560 -410 -560 -330 {
+lab=GNDI}
+N -210 -540 -210 -480 {
+lab=#net18}
+N 100 -540 100 -480 {
+lab=#net19}
 C {devices/code.sym} 310 -885 0 0 {name=TT_MODELS only_toplevel=false
 format="tcleval(@value )" value=".lib \\\\$::SKYWATER_MODELS\\\\/sky130.lib.spice tt
 * .include \\\\$::PDKPATH\\\\/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
@@ -302,7 +280,7 @@ C {devices/gnd.sym} -800 -640 0 0 {name=l3 lab=GND}
 C {devices/vsource.sym} -815 -230 0 0 {name=V2 value="dc 0.9 ac 1 portnum 1 z0 50"
 }
 C {devices/isource.sym} -560 -560 0 0 {name=I0 value=1.1m}
-C {devices/nmos4.sym} -540 -440 0 1 {name=XM1 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1}
+C {devices/nmos4.sym} -540 -440 0 1 {name=XM1 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=1}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -490 -410 0 0 {name=C7 model=cap_mim_m3_1 W=20 L=30 MF=1 spiceprefix=X}
 C {devices/ind.sym} -710 -950 0 0 {name=Ldeg5
 m=1
@@ -324,7 +302,7 @@ value=3
 footprint=1206
 device=resistor
 m=1}
-C {devices/nmos4.sym} -230 -300 0 0 {name=XM12 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3}
+C {devices/nmos4.sym} -230 -300 0 0 {name=XM12 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=3}
 C {devices/capa.sym} -130 -600 1 0 {name=C17
 m=1
 value=1p
@@ -363,7 +341,6 @@ value=3k
 footprint=1206
 device=resistor
 m=1}
-C {devices/nmos4.sym} -230 -240 0 0 {name=XM4 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3}
 C {devices/capa.sym} -775 -300 1 0 {name=C1
 m=1
 value=1n
@@ -375,15 +352,13 @@ value=150f
 footprint=1206
 device="ceramic capacitor"}
 C {devices/res.sym} -330 -540 2 0 {name=R6
-value=4k
+value=3k
 
 footprint=1206
 device=resistor
 m=1}
-C {devices/nmos4.sym} -230 -570 0 0 {name=XM3 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6}
-C {devices/nmos4.sym} -230 -510 0 0 {name=XM6 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6}
+C {devices/nmos4.sym} -230 -570 0 0 {name=XM3 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=6}
 C {devices/lab_wire.sym} -310 -720 0 0 {name=l12 sig_type=std_logic lab=VDDI}
-C {devices/nmos4.sym} -540 -380 0 1 {name=XM7 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=1}
 C {devices/ind.sym} -690 -300 1 0 {name=Ldeg1
 m=1
 value=3n
@@ -391,7 +366,7 @@ footprint=1206
 device=inductor}
 C {devices/ind.sym} -210 -450 0 0 {name=L1
 m=1
-value=0.5n
+value=1n
 footprint=1206
 device=inductor}
 C {devices/ind.sym} -300 -300 1 0 {name=Ldeg2
@@ -399,7 +374,6 @@ m=1
 value=1.5n
 footprint=1206
 device=inductor}
-C {devices/nmos4.sym} 80 -240 0 0 {name=XM2 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3}
 C {devices/vsource.sym} 220 -490 0 0 {name=V3 value="DC 0.9 AC 0 portnum 2 z0 50"}
 C {devices/ind.sym} 100 -180 0 0 {name=L5
 m=1
@@ -416,7 +390,7 @@ value=3k
 footprint=1206
 device=resistor
 m=1}
-C {devices/nmos4.sym} 80 -300 0 0 {name=XM5 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=3}
+C {devices/nmos4.sym} 80 -300 0 0 {name=XM5 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=3}
 C {sky130_fd_pr/cap_mim_m3_1.sym} -400 -820 0 0 {name=C4 model=cap_mim_m3_1 W=40 L=60 MF=8 spiceprefix=X}
 C {devices/res.sym} -400 -880 2 0 {name=R8
 value=5
@@ -434,17 +408,16 @@ value=200f
 footprint=1206
 device="ceramic capacitor"}
 C {devices/res.sym} -30 -540 2 0 {name=R9
-value=4k
+value=3k
 
 footprint=1206
 device=resistor
 m=1}
-C {devices/nmos4.sym} 80 -570 0 0 {name=XM8 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6}
-C {devices/nmos4.sym} 80 -510 0 0 {name=XM9 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=6}
+C {devices/nmos4.sym} 80 -570 0 0 {name=XM8 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=6}
 C {devices/lab_wire.sym} 0 -720 0 0 {name=l5 sig_type=std_logic lab=VDDI}
 C {devices/ind.sym} 100 -450 0 0 {name=L6
 m=1
-value=0.5n
+value=1n
 footprint=1206
 device=inductor}
 C {devices/capa.sym} 180 -600 1 0 {name=C5

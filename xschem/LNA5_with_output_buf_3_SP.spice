@@ -1,50 +1,37 @@
-** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA5_with_output_buf_2.sch
-**.subckt LNA5_with_output_buf_2
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA5_with_output_buf_3_SP.sch
+**.subckt LNA5_with_output_buf_3_SP
 V1 VDD GND 1.8
 V2 net4 GND dc 0.9 ac 1 portnum 1 z0 50
-I0 VDDI Vref 1.1m
+I0 VDDI Vref 1m
 XM1 Vref Vref GNDI GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=1
 XC7 Vref GNDI sky130_fd_pr__cap_mim_m3_1 W=20 L=30 MF=1 m=1
 Ldeg5 net1 VDDI 2n m=1
 R3 net1 VDD 3 m=1
 Ldeg6 net2 GND 2n m=1
 R4 net2 GNDI 3 m=1
-XM12 net8 net3 net17 GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=3
-C17 net13 net5 1p m=1
+XM12 net9 net3 net11 GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=4
+C17 net13 net5 0.3p m=1
 L2 VDDI net5 2.5n m=1
-XC3 net20 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
+XC3 net14 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
 C8 GNDI GND 200f m=1
 C19 VDD VDDI 200f m=1
-R2 net20 VDDI 5 m=1
-R5 net6 Vref 3k m=1
+R2 net14 VDDI 5 m=1
+R5 net8 Vref 3k m=1
 C1 net7 net4 1n m=1
 C6 net5 VDDI 150f m=1
 R6 net10 net5 3k m=1
-XM3 net5 VDDI net18 GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=6
-Ldeg1 net6 net7 3n m=1
-L1 net18 net8 1n m=1
-Ldeg2 net3 net6 1.5n m=1
-V3 net15 GNDI DC 0.9 AC 0 portnum 2 z0 50
-L5 net16 GNDI 0.1n m=1
-L7 net11 net13 1.4n m=1
-R1 net13 Vref 3k m=1
-XM5 net12 net11 net16 GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=3
-XC4 net21 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
-R8 net21 VDDI 5 m=1
-L3 VDDI net9 2.5n m=1
-C2 net9 VDDI 200f m=1
-R9 net14 net9 3k m=1
-XM8 net9 VDDI net19 GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=6
-L6 net19 net12 1n m=1
-C5 net15 net9 200f m=1
-C9 net13 net14 1p m=1
-C10 net6 net10 1p m=1
-L4 net17 GNDI 0.1n m=1
+XM3 net5 net6 net12 GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.3u m=6
+Ldeg1 net8 net7 4n m=1
+L1 net12 net9 1n m=1
+Ldeg2 net3 net8 1.5n m=1
+XC4 net15 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
+R8 net15 VDDI 5 m=1
+C10 net8 net10 1p m=1
+L4 net11 GNDI 0.15n m=1
+V3 net13 GNDI dc 0.9 ac 1 portnum 2 z0 50
+R1 net6 VDDI 3k m=1
+C2 GNDI net6 0.15p m=1
 **** begin user architecture code
-.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
-* .include
-*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
-
 
 
 .subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
@@ -58,7 +45,7 @@ X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0
 + l=150000u
 X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
 .ends
-.sp dec 1000 1e9 10e9 1
+.sp dec 1000 0.1e9 100e9 1
 * .ac dec 1000 0.01e9 100e9
 .control
 run
@@ -84,6 +71,10 @@ plot db(mu)
 plot NF NFmin
 .endc
 
+
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 **** end user architecture code
 **.ends
