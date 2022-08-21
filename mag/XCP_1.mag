@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1661043730
+timestamp 1661123328
 << metal1 >>
 rect -695 1555 -675 1560
 rect -695 1000 -690 1555
@@ -108,11 +108,11 @@ timestamp 1659929390
 transform 1 0 -435 0 -1 2680
 box -253 1105 435 1790
 use RF_pfet_28xW5p0L0p15  RF_pfet_28xW5p0L0p15_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
-timestamp 1661043730
+timestamp 1661123328
 transform 1 0 -490 0 1 50
 box 490 -50 1940 693
 use RF_pfet_28xW5p0L0p15  RF_pfet_28xW5p0L0p15_1
-timestamp 1661043730
+timestamp 1661123328
 transform 1 0 -481 0 -1 1545
 box 490 -50 1940 693
 << labels >>
