@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1660736821
+timestamp 1661045303
 << mvpsubdiff >>
 rect 345740 628255 345764 629032
 rect 371078 628255 371102 629032
@@ -974,16 +974,12 @@ rect -100 704000 584100 704100
 rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
-use VGA_complete_1  VGA_complete_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/PA
-timestamp 1660736647
-transform 1 0 106304 0 1 598400
-box -66304 -26400 83100 63600
-use top_2  top_2_0
-timestamp 1660736647
-transform 1 0 74000 0 1 522000
-box -34000 -50000 74200 58640
+use TX_top  TX_top_0
+timestamp 1661045303
+transform 1 0 296524 0 1 361932
+box -87500 -36200 96500 55900
 use user_analog_proj_example  user_analog_proj_example_0
-timestamp 1639841760
+timestamp 1661043730
 transform 1 0 345668 0 -1 627114
 box -59 -22 25476 8324
 << labels >>

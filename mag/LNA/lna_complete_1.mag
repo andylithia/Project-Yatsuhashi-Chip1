@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1660736647
+timestamp 1661043730
 << metal2 >>
 rect -508 2208 -381 2680
 rect -2020 2100 -1760 2140
@@ -287,43 +287,43 @@ timestamp 1658705077
 transform 1 0 -13800 0 1 -800
 box 0 -1000 1200 2400
 use captuner_complete_1  captuner_complete_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
-timestamp 1660736647
+timestamp 1661043730
 transform 1 0 6100 0 1 -800
 box -3300 1000 -300 3400
 use captuner_complete_1  captuner_complete_1_1
-timestamp 1660736647
+timestamp 1661043730
 transform -1 0 -4300 0 1 -3600
 box -3300 1000 -300 3400
 use nfet_3x_2  nfet_3x_2_0
-timestamp 1660736647
+timestamp 1661043730
 transform 1 0 -400 0 1 60
 box 0 -60 1292 1380
 use nfet_3x_2  nfet_3x_2_1
-timestamp 1660736647
+timestamp 1661043730
 transform 1 0 -400 0 -1 2780
 box 0 -60 1292 1380
 use nfet_3x_2  nfet_3x_2_2
-timestamp 1660736647
+timestamp 1661043730
 transform -1 0 -488 0 1 60
 box 0 -60 1292 1380
 use nfet_3x_2  nfet_3x_2_3
-timestamp 1660736647
+timestamp 1661043730
 transform -1 0 -488 0 -1 2780
 box 0 -60 1292 1380
 use sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top  sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top_0 ~/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_pr/mag
-timestamp 1649977179
+timestamp 1644511149
 transform 1 0 -7340 0 1 1780
 box 0 0 4498 4610
 use sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top  sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top_1
-timestamp 1649977179
+timestamp 1644511149
 transform 1 0 -11960 0 1 1780
 box 0 0 4498 4610
 use sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top  sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top_2
-timestamp 1649977179
+timestamp 1644511149
 transform 1 0 -3400 0 1 -8100
 box 0 0 4498 4610
 use sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top  sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top_3
-timestamp 1649977179
+timestamp 1644511149
 transform 1 0 -3400 0 1 -12900
 box 0 0 4498 4610
 use square_ind_0p502n_5GHz  square_ind_0p502n_5GHz_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND

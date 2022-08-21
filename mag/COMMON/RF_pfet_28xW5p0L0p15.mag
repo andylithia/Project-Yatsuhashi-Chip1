@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1659106999
+timestamp 1661043730
 << nwell >>
 rect 1060 -80 3880 1180
 << nsubdiff >>
@@ -353,31 +353,31 @@ rect 2380 -100 2440 -40
 << metal3 >>
 rect 980 1060 3600 1120
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15  sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0 ~/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_pr/mag
-timestamp 1659106999
+timestamp 1644511149
 transform 1 0 1200 0 1 97
 box 0 -97 466 1135
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15  sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1
-timestamp 1659106999
+timestamp 1644511149
 transform -1 0 2010 0 1 97
 box 0 -97 466 1135
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15  sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2
-timestamp 1659106999
+timestamp 1644511149
 transform 1 0 1888 0 1 97
 box 0 -97 466 1135
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15  sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3
-timestamp 1659106999
+timestamp 1644511149
 transform -1 0 2698 0 1 97
 box 0 -97 466 1135
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15  sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4
-timestamp 1659106999
+timestamp 1644511149
 transform 1 0 2920 0 1 97
 box 0 -97 466 1135
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15  sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5
-timestamp 1659106999
+timestamp 1644511149
 transform -1 0 3730 0 1 97
 box 0 -97 466 1135
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15  sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6
-timestamp 1659106999
+timestamp 1644511149
 transform -1 0 3042 0 1 97
 box 0 -97 466 1135
 << labels >>
