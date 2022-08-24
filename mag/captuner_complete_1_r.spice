@@ -1,0 +1,26 @@
+* SPICE3 file created from captuner_complete_1_r.ext - technology: sky130B
+
+X0 BOT_C1 G1 BOT SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 BOT G4 BOT_C4 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 BOT G1 BOT_C1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 TOP BOT_C4 sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=4e+06u
+X4 BOT_C2 G2 BOT SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 TOP BOT_C8 sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=8e+06u
+X6 BOT G8 BOT_C8 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X7 TOP BOT_C2 sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=2.5e+06u
+X8 TOP BOT_C1 sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2.5e+06u
+X9 BOT_C8 G8 BOT SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 BOT G2 BOT_C2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 BOT_C4 G4 BOT SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 TOP BOT_C4 2.59fF
+C1 TOP BOT_C8 4.40fF
+C2 BOT_C1 BOT 4.68fF
+C3 BOT_C4 BOT 4.32fF
+C4 BOT_C2 BOT 4.44fF
+C5 BOT_C8 BOT 5.33fF
+C6 TOP SUB 3.24fF **FLOATING
+C7 BOT_C4 SUB 4.57fF **FLOATING
+C8 BOT_C8 SUB 5.31fF **FLOATING
+C9 BOT_C1 SUB 4.01fF **FLOATING
+C10 BOT SUB 5.67fF **FLOATING
+C11 BOT_C2 SUB 4.42fF **FLOATING

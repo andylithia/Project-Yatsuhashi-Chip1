@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1661126463
+timestamp 1661140795
 << mvpsubdiff >>
 rect 345740 628255 345764 629032
 rect 371078 628255 371102 629032
@@ -974,10 +974,14 @@ rect -100 704000 584100 704100
 rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
-use TX_top  TX_top_0
-timestamp 1661126463
-transform 1 0 296524 0 1 361932
-box -87500 -36200 96500 55900
+use captuner_complete_1  captuner_complete_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1661137621
+transform 1 0 344740 0 1 343896
+box -3300 1000 -300 3400
+use captuner_complete_1_r  captuner_complete_1_r_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+timestamp 1661140372
+transform 1 0 337468 0 1 346070
+box -640 -1200 2480 2400
 use user_analog_proj_example  user_analog_proj_example_0
 timestamp 1661043730
 transform 1 0 345668 0 -1 627114

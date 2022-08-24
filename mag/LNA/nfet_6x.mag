@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1658628487
+timestamp 1661136785
 << error_s >>
 rect 487 1224 511 1244
 rect 485 1190 511 1224
@@ -209,20 +209,16 @@ rect 1038 361 1050 597
 rect 338 100 350 336
 rect 688 100 700 336
 rect 1038 100 1050 336
-use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_0 ../SKY130A_rf
-timestamp 1649977179
+use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_0 ~/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_pr/mag
+timestamp 1653785680
 transform 1 0 0 0 1 50
 box 0 0 676 1194
 use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_1
-timestamp 1649977179
+timestamp 1653785680
 transform 1 0 700 0 1 50
 box 0 0 676 1194
 use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_2
-timestamp 1649977179
+timestamp 1653785680
 transform 1 0 350 0 1 50
-box 0 0 676 1194
-use sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_3
-timestamp 1649977179
-transform 1 0 1540 0 1 654
 box 0 0 676 1194
 << end >>
