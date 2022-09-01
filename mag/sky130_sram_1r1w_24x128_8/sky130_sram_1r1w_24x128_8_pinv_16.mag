@@ -1,0 +1,53 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< nwell >>
+rect -36 679 404 1471
+<< poly >>
+rect 114 702 144 1113
+rect 81 636 144 702
+rect 114 149 144 636
+<< locali >>
+rect 0 1397 368 1431
+rect 62 1218 96 1397
+rect 266 1297 300 1397
+rect 64 636 98 702
+rect 162 686 196 1284
+rect 162 652 213 686
+rect 162 54 196 652
+rect 62 17 96 54
+rect 266 17 300 104
+rect 0 -17 368 17
+use sky130_sram_1r1w_24x128_8_contact_15  sky130_sram_1r1w_24x128_8_contact_15_0
+timestamp 1661296025
+transform 1 0 48 0 1 636
+box 0 0 66 66
+use sky130_sram_1r1w_24x128_8_contact_28  sky130_sram_1r1w_24x128_8_contact_28_0
+timestamp 1661296025
+transform 1 0 258 0 1 1256
+box -59 -43 109 125
+use sky130_sram_1r1w_24x128_8_contact_29  sky130_sram_1r1w_24x128_8_contact_29_0
+timestamp 1661296025
+transform 1 0 258 0 1 63
+box -26 -26 76 108
+use sky130_sram_1r1w_24x128_8_nmos_m1_w0_360_sli_dli_da_p  sky130_sram_1r1w_24x128_8_nmos_m1_w0_360_sli_dli_da_p_0
+timestamp 1661296025
+transform 1 0 54 0 1 51
+box -26 -26 176 98
+use sky130_sram_1r1w_24x128_8_pmos_m1_w1_120_sli_dli_da_p  sky130_sram_1r1w_24x128_8_pmos_m1_w1_120_sli_dli_da_p_0
+timestamp 1661296025
+transform 1 0 54 0 1 1139
+box -59 -54 209 278
+<< labels >>
+rlabel locali s 81 669 81 669 4 A
+port 1 nsew
+rlabel locali s 196 669 196 669 4 Z
+port 2 nsew
+rlabel locali s 184 0 184 0 4 gnd
+port 3 nsew
+rlabel locali s 184 1414 184 1414 4 vdd
+port 4 nsew
+<< properties >>
+string FIXED_BBOX 0 0 368 1414
+<< end >>

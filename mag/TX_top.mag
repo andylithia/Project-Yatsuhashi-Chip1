@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1661137828
+timestamp 1661836362
 << metal1 >>
 rect 16000 13700 20000 13900
 rect -13500 13300 -11500 13400
@@ -2337,6 +2337,7 @@ rect -16620 -7500 -16380 -7480
 rect -16120 -7500 -15880 -7480
 rect -15620 -7500 -15380 -7480
 rect -15120 -7500 -15000 -7480
+rect -28000 -8100 -27500 -7600
 rect -23500 -7700 -15000 -7500
 rect -23500 -7720 -23380 -7700
 rect -23120 -7720 -22880 -7700
@@ -7612,6 +7613,7 @@ rect -22600 -1300 -22400 8000
 rect -17600 7900 -17400 8800
 rect -23400 -1400 -22400 -1300
 rect -22300 7700 -17400 7900
+rect -28000 -8100 -27500 -7600
 rect -23400 -8300 -23200 -1400
 rect -22300 -1500 -22100 7700
 rect -17200 7600 -17000 8800
@@ -7828,15 +7830,15 @@ timestamp 1660959839
 transform 1 0 26000 0 1 -35600
 box -2000 -600 6800 7400
 use OSC_5GHz_1  OSC_5GHz_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/OSC
-timestamp 1661123328
+timestamp 1661649873
 transform -1 0 -3300 0 1 5900
-box 10000 -14800 72400 31200
+box 10000 -21000 68022 34000
 use PA_complete  PA_complete_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/PA
 timestamp 1661127237
 transform 1 0 14099 0 1 2080
 box -18800 -26000 70600 43800
 use VGA_complete_1  VGA_complete_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/PA
-timestamp 1661123328
+timestamp 1661836362
 transform 1 0 500 0 1 -15300
 box -21500 -7100 11600 21400
 use hash_m1m2m3_W2p5L2p5#0  hash_m1m2m3_W2p5L2p5_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
@@ -9129,7 +9131,7 @@ transform 1 0 -27500 0 1 35900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_4
 timestamp 1659501637
-transform 1 0 -79500 0 1 35900
+transform 1 0 -83500 0 1 31900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_5
 timestamp 1659501637
@@ -9141,11 +9143,11 @@ transform 1 0 -19500 0 1 19900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_7
 timestamp 1659501637
-transform 1 0 -19500 0 1 23900
+transform 1 0 -27500 0 1 27900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_8
 timestamp 1659501637
-transform 1 0 -19500 0 1 27900
+transform 1 0 -23500 0 1 19900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_9
 timestamp 1659501637
@@ -9197,7 +9199,7 @@ transform 1 0 19500 0 1 -9600
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_21
 timestamp 1659501637
-transform 1 0 -79500 0 1 -8100
+transform 1 0 -83500 0 1 -12100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_22
 timestamp 1659501637
@@ -9205,19 +9207,19 @@ transform 1 0 -71500 0 1 -16100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_23
 timestamp 1659501637
-transform 1 0 -67500 0 1 -16100
+transform 1 0 -83500 0 1 35900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_24
 timestamp 1659501637
-transform 1 0 -63500 0 1 -16100
+transform 1 0 -83500 0 1 39900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_25
 timestamp 1659501637
-transform 1 0 -59500 0 1 -16100
+transform 1 0 -83500 0 1 43900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_26
 timestamp 1659501637
-transform 1 0 -55500 0 1 -16100
+transform 1 0 -83500 0 1 47900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_27
 timestamp 1659501637
@@ -9225,31 +9227,43 @@ transform 1 0 -29500 0 1 -29600
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_28
 timestamp 1659501637
-transform 1 0 -51500 0 1 -16100
+transform 1 0 -83500 0 1 51900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_29
 timestamp 1659501637
-transform 1 0 -47500 0 1 -16100
+transform 1 0 -83500 0 1 -16100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_30
 timestamp 1659501637
-transform 1 0 -43500 0 1 -16100
+transform 1 0 -83500 0 1 -20100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_31
 timestamp 1659501637
-transform 1 0 -39500 0 1 -16100
+transform 1 0 -83500 0 1 -24100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_32
 timestamp 1659501637
 transform 1 0 -35500 0 1 -16100
 box 0 0 4000 4000
+use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_33
+timestamp 1659501637
+transform 1 0 -83500 0 1 -28100
+box 0 0 4000 4000
+use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_34
+timestamp 1659501637
+transform 1 0 -27500 0 1 23900
+box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_35
 timestamp 1659501637
 transform 1 0 -31500 0 1 -12100
 box 0 0 4000 4000
+use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_36
+timestamp 1659501637
+transform 1 0 -63500 0 1 43900
+box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_37
 timestamp 1659501637
-transform 1 0 -31500 0 1 -8100
+transform 1 0 -27500 0 1 19900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_38
 timestamp 1659501637
@@ -9257,7 +9271,7 @@ transform 1 0 -27500 0 1 -8100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_39
 timestamp 1659501637
-transform 1 0 -35500 0 1 -12100
+transform 1 0 -59500 0 1 43900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_40
 timestamp 1659501637
@@ -9265,19 +9279,19 @@ transform 1 0 -27500 0 1 -4100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_41
 timestamp 1659501637
-transform 1 0 -79500 0 1 31900
+transform 1 0 -55500 0 1 43900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_42
 timestamp 1659501637
-transform 1 0 -75500 0 1 35900
+transform 1 0 -51500 0 1 43900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_43
 timestamp 1659501637
-transform 1 0 -75500 0 1 31900
+transform 1 0 -47500 0 1 43900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_44
 timestamp 1659501637
-transform 1 0 -79500 0 1 27900
+transform 1 0 -43500 0 1 43900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_45
 timestamp 1659501637
@@ -9289,19 +9303,31 @@ transform 1 0 -31500 0 1 35900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_47
 timestamp 1659501637
-transform 1 0 -27500 0 1 31900
+transform 1 0 -39500 0 1 43900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_48
 timestamp 1659501637
-transform 1 0 -23500 0 1 27900
+transform 1 0 -27500 0 1 -100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_49
 timestamp 1659501637
 transform 1 0 76500 0 1 27900
 box 0 0 4000 4000
+use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_50
+timestamp 1659501637
+transform 1 0 -35500 0 1 43900
+box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_51
 timestamp 1659501637
 transform 1 0 84500 0 1 19900
+box 0 0 4000 4000
+use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_52
+timestamp 1659501637
+transform 1 0 -35500 0 1 39900
+box 0 0 4000 4000
+use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_53
+timestamp 1659501637
+transform 1 0 -27500 0 1 31900
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_55
 timestamp 1659501637
@@ -9479,30 +9505,6 @@ use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_103
 timestamp 1659501637
 transform 1 0 -35500 0 1 -28100
 box 0 0 4000 4000
-use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_104
-timestamp 1659501637
-transform 1 0 -47500 0 1 -28100
-box 0 0 4000 4000
-use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_105
-timestamp 1659501637
-transform 1 0 -43500 0 1 -28100
-box 0 0 4000 4000
-use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_106
-timestamp 1659501637
-transform 1 0 -55500 0 1 -28100
-box 0 0 4000 4000
-use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_107
-timestamp 1659501637
-transform 1 0 -51500 0 1 -28100
-box 0 0 4000 4000
-use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_108
-timestamp 1659501637
-transform 1 0 -63500 0 1 -28100
-box 0 0 4000 4000
-use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_109
-timestamp 1659501637
-transform 1 0 -59500 0 1 -28100
-box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_110
 timestamp 1659501637
 transform 1 0 -71500 0 1 -28100
@@ -9518,14 +9520,6 @@ box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_113
 timestamp 1659501637
 transform 1 0 -75500 0 1 -28100
-box 0 0 4000 4000
-use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_114
-timestamp 1659501637
-transform 1 0 -87500 0 1 -28100
-box 0 0 4000 4000
-use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_115
-timestamp 1659501637
-transform 1 0 -83500 0 1 -28100
 box 0 0 4000 4000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_116
 timestamp 1659501637
@@ -9617,7 +9611,7 @@ transform 1 0 24500 0 1 47900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_15
 timestamp 1660792292
-transform 1 0 -39500 0 1 39900
+transform 1 0 -63500 0 1 -28100
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_16
 timestamp 1660792292
@@ -9625,7 +9619,7 @@ transform 1 0 -47500 0 1 47900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_17
 timestamp 1660792292
-transform 1 0 -47500 0 1 39900
+transform 1 0 -55500 0 1 -28100
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_18
 timestamp 1660792292
@@ -9633,7 +9627,7 @@ transform 1 0 -55500 0 1 47900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_19
 timestamp 1660792292
-transform 1 0 -55500 0 1 39900
+transform 1 0 -47500 0 1 -28100
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_20
 timestamp 1660792292
@@ -9641,7 +9635,7 @@ transform 1 0 -63500 0 1 47900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_21
 timestamp 1660792292
-transform 1 0 -63500 0 1 39900
+transform 1 0 -23500 0 1 23900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_22
 timestamp 1660792292
@@ -9659,45 +9653,29 @@ use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_25
 timestamp 1660792292
 transform 1 0 -79500 0 1 39900
 box 0 0 8000 8000
-use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_26
-timestamp 1660792292
-transform 1 0 -87500 0 1 47900
-box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_27
 timestamp 1660792292
-transform 1 0 -87500 0 1 39900
+transform 1 0 -83500 0 1 -8100
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_28
 timestamp 1660792292
-transform 1 0 -87500 0 1 31900
+transform 1 0 -83500 0 1 -100
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_29
 timestamp 1660792292
-transform 1 0 -87500 0 1 23900
+transform 1 0 -83500 0 1 7900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_30
 timestamp 1660792292
-transform 1 0 -87500 0 1 15900
+transform 1 0 -83500 0 1 15900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_31
 timestamp 1660792292
-transform 1 0 -87500 0 1 7900
+transform 1 0 -83500 0 1 23900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_32
 timestamp 1660792292
-transform 1 0 -87500 0 1 -100
-box 0 0 8000 8000
-use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_33
-timestamp 1660792292
-transform 1 0 -87500 0 1 -8100
-box 0 0 8000 8000
-use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_34
-timestamp 1660792292
-transform 1 0 -87500 0 1 -16100
-box 0 0 8000 8000
-use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_35
-timestamp 1660792292
-transform 1 0 -87500 0 1 -24100
+transform 1 0 -79500 0 1 31900
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_36
 timestamp 1660792292
@@ -9710,18 +9688,6 @@ box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_38
 timestamp 1660792292
 transform 1 0 -71500 0 1 -24100
-box 0 0 8000 8000
-use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_39
-timestamp 1660792292
-transform 1 0 -63500 0 1 -24100
-box 0 0 8000 8000
-use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_40
-timestamp 1660792292
-transform 1 0 -55500 0 1 -24100
-box 0 0 8000 8000
-use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_41
-timestamp 1660792292
-transform 1 0 -47500 0 1 -24100
 box 0 0 8000 8000
 use hash_m1m2m3m4_W80L80_flat  hash_m1m2m3m4_W80L80_flat_42
 timestamp 1660792292

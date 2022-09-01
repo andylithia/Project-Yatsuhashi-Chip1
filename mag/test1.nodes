@@ -1,0 +1,4 @@
+nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN 224 152 ndif
+nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE 138 152 ndif
+nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE 151 60 p
+nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE 26 152 ppd

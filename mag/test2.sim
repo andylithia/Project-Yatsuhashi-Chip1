@@ -1,0 +1,10 @@
+| units: 500000 tech: sky130B format: MIT
+r B1 B 0.000000
+r A1 B 0.000000
+R B1 81
+R a_162665_n2148# 241
+R A1 81
+R a_n2450_n1687# 241
+C B GND 218.81
+R B 389
+R a_n2580_n1890# 24113

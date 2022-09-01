@@ -1,5 +1,5 @@
 magic
-tech $PDK
+tech sky130B
 magscale 1 2
 timestamp 1606502073
 << metal4 >>
@@ -26,8 +26,8 @@ rect 2881 -3059 2923 3059
 rect 3159 -3059 3201 3059
 rect 2881 -3101 3201 -3059
 << properties >>
-string gencell sky130_fd_pr__cap_mim_m3_2
 string FIXED_BBOX -3179 -3100 3021 3100
-string parameters w 30.00 l 30.00 val 920.4 carea 1.00 cperi 0.17 nx 1 ny 1 dummy 0 square 0 lmin 2.00 wmin 2.00 lmax 30.0 wmax 30.0 dc 0 bconnect 1 tconnect 1 ccov +90
+string gencell sky130_fd_pr__cap_mim_m3_2
 string library sky130
+string parameters w 30.00 l 30.00 val 920.4 carea 1.00 cperi 0.17 nx 1 ny 1 dummy 0 square 0 lmin 2.00 wmin 2.00 lmax 30.0 wmax 30.0 dc 0 bconnect 1 tconnect 1 ccov +90
 << end >>

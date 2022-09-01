@@ -1,0 +1,14 @@
+* NGSPICE file created from test2.ext - technology: sky130B
+
+
+* Top level circuit test2
+
+R0 B1 B sky130_fd_pr__res_generic_po w=330000u l=1.65e+06u
+R1 A1 B sky130_fd_pr__res_generic_po w=330000u l=1.65e+06u
+C0 B B1 0.12fF
+C1 B A1 0.15fF
+C2 B1 a_n2580_n1890# 0.76fF
+C3 A1 a_n2580_n1890# 0.92fF
+C4 B a_n2580_n1890# 218.81fF
+.end
+

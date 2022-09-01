@@ -1,11 +1,26 @@
-* NGSPICE file created from sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15.ext - technology: sky130A
-*
-.subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15 DRAIN GATE SOURCE SUBSTRATE
-X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p ps=3.198e+07u w=5.05e+06u l=150000u
-X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p ps=2.14e+07u w=5.05e+06u l=150000u
-X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
-.ends
-
+timestamp 1661374315
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+node "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 16671 911.868 224 152 ndif 0 0 0 0 0 0 0 0 339360 12792 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 207672 12624 310128 12552 1167728 5892 0 0 0 0 0 0 0 0
+node "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 33608 13020.6 138 152 ndif 0 0 0 0 0 0 0 0 678720 25584 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 415344 25248 620256 25104 1167728 5892 0 0 0 0 0 0 0 0
+node "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 22370 6048.89 151 60 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 549120 31104 0 0 82416 5664 346104 8448 316800 8160 1045000 18844 0 0 0 0 0 0
+substrate "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" 0 0 26 152 ppd 0 0 0 0 0 0 0 0 0 0 410060 14952 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230860 14056 660800 21924 0 0 0 0 0 0 0 0 0 0
+cap "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 21364.5
+cap "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 5532.3
+cap "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 7199.64
+device msubckt sky130_fd_pr__nfet_01v8 2250 152 2251 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 2164 152 2165 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 1856 152 1857 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 1770 152 1771 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 1462 152 1463 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 1376 152 1377 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 1068 152 1069 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 982 152 983 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 674 152 675 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 588 152 589 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 280 152 281 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0
+device msubckt sky130_fd_pr__nfet_01v8 194 152 195 153 l=30 w=1010 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/GATE" 60 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" 1010 0 "nfet_3x_2_0/sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" 1010 0

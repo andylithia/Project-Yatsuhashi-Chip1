@@ -1,0 +1,81 @@
+* NGSPICE file created from flat.ext - technology: sky130B
+
+.subckt flat
+X0 S1 G_TOP VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=9.898e+12p pd=7.462e+07u as=1.414e+13p ps=1.066e+08u w=5.05e+06u l=150000u
+X1 SS VIN D1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=5.656e+12p pd=4.264e+07u as=7.07e+12p ps=5.33e+07u w=5.05e+06u l=150000u
+X2 VHI BIAS_TOP sky130_fd_pr__cap_mim_m3_2 l=4.4e+07u w=5e+07u
+X3 VOUT G_TOP S1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SS VIN D1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 D1 VIN SS BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 VHI a_n6328_16092# sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2.5e+06u
+X7 D1 VIN SS BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+R0 BIAS_TOP G_TOP sky130_fd_pr__res_generic_po w=330000u l=1.28e+07u
+X8 S1 G_TOP VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 SS VIN D1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 D1 VIN SS BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 BIAS_TOP VHI sky130_fd_pr__cap_mim_m3_1 l=4.4e+07u w=5e+07u
+X12 BIAS_TOP BIAS_TOP sky130_fd_pr__cap_mim_m3_2 l=7.5e+06u w=4.5e+06u
+X13 VIN BIAS_TOP sky130_fd_pr__cap_mim_m3_2 l=1.15e+07u w=9.5e+06u
+X14 S1 G_TOP VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X15 VOUT G_TOP S1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X16 D1 VIN SS BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X17 VOUT G_TOP S1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X18 BIAS_TOP BIAS_TOP sky130_fd_pr__cap_mim_m3_1 l=7.5e+06u w=4.5e+06u
+X19 a_n6328_16092# G1 VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=0p ps=0u w=5.05e+06u l=150000u
+X20 a_n5540_16092# G4 VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=0p ps=0u w=5.05e+06u l=150000u
+X21 S1 G_TOP VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+R1 RFB_MID VOUT sky130_fd_pr__res_generic_po w=330000u l=1.28e+07u
+X22 VOUT G2 a_n6722_16092# BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
+X23 VOUT G8 a_n5934_16092# BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
+X24 VOUT G_TOP S1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X25 BIAS_TOP VIN sky130_fd_pr__cap_mim_m3_1 l=1.15e+07u w=9.5e+06u
+X26 S1 G_TOP VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X27 VOUT G_TOP S1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X28 VOUT G_TOP S1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X29 S1 G_TOP VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X30 VHI a_n5934_16092# sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=8e+06u
+X31 VIN RFB_MID sky130_fd_pr__cap_mim_m3_2 l=2.05e+07u w=1.15e+07u
+X32 VOUT G1 a_n6328_16092# BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X33 VOUT G4 a_n5540_16092# BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X34 a_n5934_16092# G8 VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+R2 BIAS_BOT VIN sky130_fd_pr__res_generic_po w=330000u l=2.068e+07u
+X35 RFB_MID VIN sky130_fd_pr__cap_mim_m3_1 l=2.05e+07u w=1.15e+07u
+X36 VHI a_n5540_16092# sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=4e+06u
+X37 VHI a_n6722_16092# sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=2.5e+06u
+X38 a_n6722_16092# G2 VOUT BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X39 SS VIN D1 BIAS_TOP sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 S1 VOUT 20.16fF
+C1 SS D1 13.20fF
+C2 a_n6328_16092# VHI 1.11fF
+C3 SS VIN 7.60fF
+C4 a_n6722_16092# VHI 1.71fF
+C5 VOUT a_n6328_16092# 3.57fF
+C6 a_n5934_16092# VHI 4.77fF
+C7 SS m5_n800_n3000# 4.96fF
+C8 a_n6722_16092# VOUT 3.54fF
+C9 G_TOP VOUT 2.66fF
+C10 VOUT VHI 1.26fF
+C11 a_n5540_16092# VHI 2.49fF
+C12 VOUT a_n5934_16092# 4.73fF
+C13 D1 VIN 1.74fF
+C14 G_TOP S1 1.40fF
+C15 a_n5540_16092# VOUT 3.94fF
+C16 RFB_MID VIN 40.52fF
+C17 VHI BIAS_TOP 422.33fF
+C18 SS BIAS_TOP 9.48fF
+C19 D1 BIAS_TOP 14.87fF
+C20 VIN BIAS_TOP 47.51fF
+C21 RFB_MID BIAS_TOP 5.85fF
+C22 S1 BIAS_TOP 14.45fF
+C23 G_TOP BIAS_TOP 4.06fF
+C24 a_n5540_16092# BIAS_TOP 3.87fF
+C25 a_n5934_16092# BIAS_TOP 3.33fF
+C26 a_n6328_16092# BIAS_TOP 3.14fF
+C27 VOUT BIAS_TOP 53.61fF
+C28 a_n6722_16092# BIAS_TOP 3.39fF
+C29 G4 BIAS_TOP 1.28fF
+C30 G8 BIAS_TOP 1.10fF
+C31 G1 BIAS_TOP 1.06fF
+C32 G2 BIAS_TOP 1.29fF
+.ends
+

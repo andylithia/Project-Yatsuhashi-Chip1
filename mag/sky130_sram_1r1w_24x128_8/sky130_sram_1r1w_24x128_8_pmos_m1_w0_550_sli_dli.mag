@@ -1,0 +1,35 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< nwell >>
+rect -54 -54 204 164
+<< scpmos >>
+rect 60 0 90 110
+<< pdiff >>
+rect 0 0 60 110
+rect 90 0 150 110
+<< poly >>
+rect 60 110 90 136
+rect 60 -26 90 0
+<< locali >>
+rect 8 22 42 88
+rect 108 22 142 88
+use sky130_sram_1r1w_24x128_8_contact_11  sky130_sram_1r1w_24x128_8_contact_11_0
+timestamp 1661296025
+transform 1 0 100 0 1 22
+box -59 -51 109 117
+use sky130_sram_1r1w_24x128_8_contact_11  sky130_sram_1r1w_24x128_8_contact_11_1
+timestamp 1661296025
+transform 1 0 0 0 1 22
+box -59 -51 109 117
+<< labels >>
+rlabel poly s 75 55 75 55 4 G
+port 1 nsew
+rlabel locali s 25 55 25 55 4 S
+port 2 nsew
+rlabel locali s 125 55 125 55 4 D
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -54 -54 204 164
+<< end >>

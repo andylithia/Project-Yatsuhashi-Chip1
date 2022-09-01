@@ -3,7 +3,7 @@
 V1 net6 GND 1.8
 V2 net9 GND dc 0 ac 1 portnum 1 z0 50
 V3 net8 GND dc 0 ac 1 portnum 2 z0 50
-Ldeg3 net2 net1 0.5n m=1
+Ldeg3 net2 net1 0.3n m=1
 C2 net3 net9 1n m=1
 R1 vgate1 vbias1 2k m=1
 C4 net3 GND 50f m=1
@@ -44,9 +44,9 @@ C8 net1 GND 10p m=1
 R5 net21 net7 2k m=1
 XC17 net21 vgate1 sky130_fd_pr__cap_mim_m3_1 W=10 L=100 MF=1 m=1
 **** begin user architecture code
-.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
 * .include
-*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 
 

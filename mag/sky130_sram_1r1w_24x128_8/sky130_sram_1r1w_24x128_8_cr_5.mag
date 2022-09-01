@@ -1,0 +1,29 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< metal1 >>
+rect 51228 38563 53213 38591
+rect 51196 36268 51260 36320
+<< metal2 >>
+rect 53199 38577 53227 39952
+rect 51214 36294 51242 38577
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_0
+timestamp 1661296025
+transform 1 0 51199 0 1 36261
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_0
+timestamp 1661296025
+transform 1 0 53181 0 1 38545
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_1
+timestamp 1661296025
+transform 1 0 51196 0 1 36262
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_2
+timestamp 1661296025
+transform 1 0 51196 0 1 38545
+box 0 0 64 64
+<< properties >>
+string FIXED_BBOX 51196 36261 53245 39952
+<< end >>

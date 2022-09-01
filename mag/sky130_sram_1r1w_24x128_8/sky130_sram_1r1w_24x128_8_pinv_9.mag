@@ -1,0 +1,83 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< nwell >>
+rect -36 679 3644 1471
+<< poly >>
+rect 114 740 144 907
+rect 81 674 144 740
+rect 114 507 144 674
+<< locali >>
+rect 0 1397 3608 1431
+rect 62 1130 96 1397
+rect 274 1130 308 1397
+rect 490 1130 524 1397
+rect 706 1130 740 1397
+rect 922 1130 956 1397
+rect 1138 1130 1172 1397
+rect 1354 1130 1388 1397
+rect 1570 1130 1604 1397
+rect 1786 1130 1820 1397
+rect 2002 1130 2036 1397
+rect 2218 1130 2252 1397
+rect 2434 1130 2468 1397
+rect 2650 1130 2684 1397
+rect 2866 1130 2900 1397
+rect 3082 1130 3116 1397
+rect 3298 1130 3332 1397
+rect 3506 1297 3540 1397
+rect 64 674 98 740
+rect 1784 724 1818 1096
+rect 1784 690 1835 724
+rect 1784 318 1818 690
+rect 62 17 96 218
+rect 274 17 308 218
+rect 490 17 524 218
+rect 706 17 740 218
+rect 922 17 956 218
+rect 1138 17 1172 218
+rect 1354 17 1388 218
+rect 1570 17 1604 218
+rect 1786 17 1820 218
+rect 2002 17 2036 218
+rect 2218 17 2252 218
+rect 2434 17 2468 218
+rect 2650 17 2684 218
+rect 2866 17 2900 218
+rect 3082 17 3116 218
+rect 3298 17 3332 218
+rect 3506 17 3540 104
+rect 0 -17 3608 17
+use sky130_sram_1r1w_24x128_8_contact_15  sky130_sram_1r1w_24x128_8_contact_15_0
+timestamp 1661296025
+transform 1 0 48 0 1 674
+box 0 0 66 66
+use sky130_sram_1r1w_24x128_8_contact_28  sky130_sram_1r1w_24x128_8_contact_28_0
+timestamp 1661296025
+transform 1 0 3498 0 1 1256
+box -59 -43 109 125
+use sky130_sram_1r1w_24x128_8_contact_29  sky130_sram_1r1w_24x128_8_contact_29_0
+timestamp 1661296025
+transform 1 0 3498 0 1 63
+box -26 -26 76 108
+use sky130_sram_1r1w_24x128_8_nmos_m31_w2_000_sli_dli_da_p  sky130_sram_1r1w_24x128_8_nmos_m31_w2_000_sli_dli_da_p_0
+timestamp 1661296025
+transform 1 0 54 0 1 51
+box -26 -26 3416 456
+use sky130_sram_1r1w_24x128_8_pmos_m31_w2_000_sli_dli_da_p  sky130_sram_1r1w_24x128_8_pmos_m31_w2_000_sli_dli_da_p_0
+timestamp 1661296025
+transform 1 0 54 0 1 963
+box -59 -56 3449 454
+<< labels >>
+rlabel locali s 81 707 81 707 4 A
+port 1 nsew
+rlabel locali s 1818 707 1818 707 4 Z
+port 2 nsew
+rlabel locali s 1804 0 1804 0 4 gnd
+port 3 nsew
+rlabel locali s 1804 1414 1804 1414 4 vdd
+port 4 nsew
+<< properties >>
+string FIXED_BBOX 0 0 3608 1414
+<< end >>

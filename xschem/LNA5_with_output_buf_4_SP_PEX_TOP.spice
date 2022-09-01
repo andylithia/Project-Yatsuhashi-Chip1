@@ -1,0 +1,84 @@
+** sch_path:
+*+ /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA5_with_output_buf_4_SP_PEX_TOP.sch
+**.subckt LNA5_with_output_buf_4_SP_PEX_TOP
+V1 VDD GND 1.8
+V2 net4 GND dc 0.9 ac 1 portnum 1 z0 50
+I0 VDDI Vref 4m
+XM1 Vref Vref GNDI GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=2
+XC7 Vref GNDI sky130_fd_pr__cap_mim_m3_1 W=20 L=30 MF=1 m=1
+Ldeg5 net1 VDDI 2n m=1
+R3 net1 VDD 3 m=1
+Ldeg6 net2 GND 2n m=1
+R4 net2 GNDI 3 m=1
+XM12 vmid net3 net10 GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=8
+C17 net12 net5 0.3p m=1
+L2 VDDI net5 2.5n m=1
+XC3 net13 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
+C8 GNDI GND 200f m=1
+C19 VDD VDDI 200f m=1
+R2 net13 VDDI 5 m=1
+R5 net8 Vref 5k m=1
+C1 net7 net4 1n m=1
+C6 net5 VDDI 300f m=1
+R6 net9 net5 2k m=1
+XM3 net5 net6 net11 GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=12
+Ldeg1 net8 net7 2n m=1
+L1 net11 vmid 0.7n m=1
+Ldeg2 net3 net8 0.5n m=1
+XC4 net14 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
+R8 net14 VDDI 5 m=1
+C10 net8 net9 1p m=1
+L4 net10 GNDI 0.15n m=1
+V3 net12 GNDI dc 0.9 ac 1 portnum 2 z0 50
+R7 net6 VDDI 5k m=1
+C5 GNDI net6 50f m=1
+**** begin user architecture code
+
+
+.subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
+X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p
++ ps=3.198e+07u w=5.05e+06u l=150000u
+X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p
++ ps=2.14e+07u w=5.05e+06u l=150000u
+X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u
++ l=150000u
+X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+.ends
+.sp dec 1000 0.1e9 100e9 1
+* .ac dec 1000 0.01e9 100e9
+.control
+run
+display
+let z11=50*(1+s_1_1)/(1-s_1_1)
+let z22=50*(1+s_2_2)/(1-s_2_2)
+let S11 = S_1_1
+let S21 = S_2_1
+let S12 = S_1_2
+let S22 = S_2_2
+
+* Stability
+let delta=S11*S22-S12*S21
+let K    = (1-mag(S11)^2-mag(S22)^2+mag(delta)^2)/(2*mag(S12*S21))
+let mu   = (1-mag(S11)^2)/(mag(S22-conj(S11)*delta)+mag(S21*S12))
+* plot real(z11) real(z22)
+* plot imag(z11) imag(z22)
+plot db(S_1_1) db(S_2_2) db(S_2_1)
+
+plot db(K)
+plot mag(delta)
+plot db(mu)
+plot NF NFmin
+.endc
+
+
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.GLOBAL GNDI
+.end

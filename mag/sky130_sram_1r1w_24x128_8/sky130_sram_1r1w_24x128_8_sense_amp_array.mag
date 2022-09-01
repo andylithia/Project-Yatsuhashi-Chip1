@@ -1,0 +1,1538 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< metal1 >>
+rect 1960 2468 2024 2520
+rect 2065 1430 2099 2556
+rect 2141 1442 2169 2556
+rect 3208 2468 3272 2520
+rect 2288 2316 2352 2368
+rect 2206 1542 2270 1594
+rect 3313 1430 3347 2556
+rect 3389 1442 3417 2556
+rect 4456 2468 4520 2520
+rect 3536 2316 3600 2368
+rect 3454 1542 3518 1594
+rect 4561 1430 4595 2556
+rect 4637 1442 4665 2556
+rect 5704 2468 5768 2520
+rect 4784 2316 4848 2368
+rect 4702 1542 4766 1594
+rect 5809 1430 5843 2556
+rect 5885 1442 5913 2556
+rect 6952 2468 7016 2520
+rect 6032 2316 6096 2368
+rect 5950 1542 6014 1594
+rect 7057 1430 7091 2556
+rect 7133 1442 7161 2556
+rect 8200 2468 8264 2520
+rect 7280 2316 7344 2368
+rect 7198 1542 7262 1594
+rect 8305 1430 8339 2556
+rect 8381 1442 8409 2556
+rect 9448 2468 9512 2520
+rect 8528 2316 8592 2368
+rect 8446 1542 8510 1594
+rect 9553 1430 9587 2556
+rect 9629 1442 9657 2556
+rect 10696 2468 10760 2520
+rect 9776 2316 9840 2368
+rect 9694 1542 9758 1594
+rect 10801 1430 10835 2556
+rect 10877 1442 10905 2556
+rect 11944 2468 12008 2520
+rect 11024 2316 11088 2368
+rect 10942 1542 11006 1594
+rect 12049 1430 12083 2556
+rect 12125 1442 12153 2556
+rect 13192 2468 13256 2520
+rect 12272 2316 12336 2368
+rect 12190 1542 12254 1594
+rect 13297 1430 13331 2556
+rect 13373 1442 13401 2556
+rect 14440 2468 14504 2520
+rect 13520 2316 13584 2368
+rect 13438 1542 13502 1594
+rect 14545 1430 14579 2556
+rect 14621 1442 14649 2556
+rect 15688 2468 15752 2520
+rect 14768 2316 14832 2368
+rect 14686 1542 14750 1594
+rect 15793 1430 15827 2556
+rect 15869 1442 15897 2556
+rect 16936 2468 17000 2520
+rect 16016 2316 16080 2368
+rect 15934 1542 15998 1594
+rect 17041 1430 17075 2556
+rect 17117 1442 17145 2556
+rect 18184 2468 18248 2520
+rect 17264 2316 17328 2368
+rect 17182 1542 17246 1594
+rect 18289 1430 18323 2556
+rect 18365 1442 18393 2556
+rect 19432 2468 19496 2520
+rect 18512 2316 18576 2368
+rect 18430 1542 18494 1594
+rect 19537 1430 19571 2556
+rect 19613 1442 19641 2556
+rect 20680 2468 20744 2520
+rect 19760 2316 19824 2368
+rect 19678 1542 19742 1594
+rect 20785 1430 20819 2556
+rect 20861 1442 20889 2556
+rect 21928 2468 21992 2520
+rect 21008 2316 21072 2368
+rect 20926 1542 20990 1594
+rect 22033 1430 22067 2556
+rect 22109 1442 22137 2556
+rect 23176 2468 23240 2520
+rect 22256 2316 22320 2368
+rect 22174 1542 22238 1594
+rect 23281 1430 23315 2556
+rect 23357 1442 23385 2556
+rect 24424 2468 24488 2520
+rect 23504 2316 23568 2368
+rect 23422 1542 23486 1594
+rect 24529 1430 24563 2556
+rect 24605 1442 24633 2556
+rect 25672 2468 25736 2520
+rect 24752 2316 24816 2368
+rect 24670 1542 24734 1594
+rect 25777 1430 25811 2556
+rect 25853 1442 25881 2556
+rect 26920 2468 26984 2520
+rect 26000 2316 26064 2368
+rect 25918 1542 25982 1594
+rect 27025 1430 27059 2556
+rect 27101 1442 27129 2556
+rect 28168 2468 28232 2520
+rect 27248 2316 27312 2368
+rect 27166 1542 27230 1594
+rect 28273 1430 28307 2556
+rect 28349 1442 28377 2556
+rect 29416 2468 29480 2520
+rect 28496 2316 28560 2368
+rect 28414 1542 28478 1594
+rect 29521 1430 29555 2556
+rect 29597 1442 29625 2556
+rect 30664 2468 30728 2520
+rect 29744 2316 29808 2368
+rect 29662 1542 29726 1594
+rect 30769 1430 30803 2556
+rect 30845 1442 30873 2556
+rect 30992 2316 31056 2368
+rect 30910 1542 30974 1594
+rect 2218 704 2282 756
+rect 3466 704 3530 756
+rect 4714 704 4778 756
+rect 5962 704 6026 756
+rect 7210 704 7274 756
+rect 8458 704 8522 756
+rect 9706 704 9770 756
+rect 10954 704 11018 756
+rect 12202 704 12266 756
+rect 13450 704 13514 756
+rect 14698 704 14762 756
+rect 15946 704 16010 756
+rect 17194 704 17258 756
+rect 18442 704 18506 756
+rect 19690 704 19754 756
+rect 20938 704 21002 756
+rect 22186 704 22250 756
+rect 23434 704 23498 756
+rect 24682 704 24746 756
+rect 25930 704 25994 756
+rect 27178 704 27242 756
+rect 28426 704 28490 756
+rect 29674 704 29738 756
+rect 30922 704 30986 756
+rect 2218 382 2282 434
+rect 3466 382 3530 434
+rect 4714 382 4778 434
+rect 5962 382 6026 434
+rect 7210 382 7274 434
+rect 8458 382 8522 434
+rect 9706 382 9770 434
+rect 10954 382 11018 434
+rect 12202 382 12266 434
+rect 13450 382 13514 434
+rect 14698 382 14762 434
+rect 15946 382 16010 434
+rect 17194 382 17258 434
+rect 18442 382 18506 434
+rect 19690 382 19754 434
+rect 20938 382 21002 434
+rect 22186 382 22250 434
+rect 23434 382 23498 434
+rect 24682 382 24746 434
+rect 25930 382 25994 434
+rect 27178 382 27242 434
+rect 28426 382 28490 434
+rect 29674 382 29738 434
+rect 30922 382 30986 434
+rect 1973 0 2019 150
+rect 3221 0 3267 150
+rect 4469 0 4515 150
+rect 5717 0 5763 150
+rect 6965 0 7011 150
+rect 8213 0 8259 150
+rect 9461 0 9507 150
+rect 10709 0 10755 150
+rect 11957 0 12003 150
+rect 13205 0 13251 150
+rect 14453 0 14499 150
+rect 15701 0 15747 150
+rect 16949 0 16995 150
+rect 18197 0 18243 150
+rect 19445 0 19491 150
+rect 20693 0 20739 150
+rect 21941 0 21987 150
+rect 23189 0 23235 150
+rect 24437 0 24483 150
+rect 25685 0 25731 150
+rect 26933 0 26979 150
+rect 28181 0 28227 150
+rect 29429 0 29475 150
+rect 30677 0 30723 150
+<< metal2 >>
+rect 1964 2470 2020 2518
+rect 3212 2470 3268 2518
+rect 4460 2470 4516 2518
+rect 5708 2470 5764 2518
+rect 6956 2470 7012 2518
+rect 8204 2470 8260 2518
+rect 9452 2470 9508 2518
+rect 10700 2470 10756 2518
+rect 11948 2470 12004 2518
+rect 13196 2470 13252 2518
+rect 14444 2470 14500 2518
+rect 15692 2470 15748 2518
+rect 16940 2470 16996 2518
+rect 18188 2470 18244 2518
+rect 19436 2470 19492 2518
+rect 20684 2470 20740 2518
+rect 21932 2470 21988 2518
+rect 23180 2470 23236 2518
+rect 24428 2470 24484 2518
+rect 25676 2470 25732 2518
+rect 26924 2470 26980 2518
+rect 28172 2470 28228 2518
+rect 29420 2470 29476 2518
+rect 30668 2470 30724 2518
+rect 2292 2318 2348 2366
+rect 3540 2318 3596 2366
+rect 4788 2318 4844 2366
+rect 6036 2318 6092 2366
+rect 7284 2318 7340 2366
+rect 8532 2318 8588 2366
+rect 9780 2318 9836 2366
+rect 11028 2318 11084 2366
+rect 12276 2318 12332 2366
+rect 13524 2318 13580 2366
+rect 14772 2318 14828 2366
+rect 16020 2318 16076 2366
+rect 17268 2318 17324 2366
+rect 18516 2318 18572 2366
+rect 19764 2318 19820 2366
+rect 21012 2318 21068 2366
+rect 22260 2318 22316 2366
+rect 23508 2318 23564 2366
+rect 24756 2318 24812 2366
+rect 26004 2318 26060 2366
+rect 27252 2318 27308 2366
+rect 28500 2318 28556 2366
+rect 29748 2318 29804 2366
+rect 30996 2318 31052 2366
+rect 2210 1544 2266 1592
+rect 3458 1544 3514 1592
+rect 4706 1544 4762 1592
+rect 5954 1544 6010 1592
+rect 7202 1544 7258 1592
+rect 8450 1544 8506 1592
+rect 9698 1544 9754 1592
+rect 10946 1544 11002 1592
+rect 12194 1544 12250 1592
+rect 13442 1544 13498 1592
+rect 14690 1544 14746 1592
+rect 15938 1544 15994 1592
+rect 17186 1544 17242 1592
+rect 18434 1544 18490 1592
+rect 19682 1544 19738 1592
+rect 20930 1544 20986 1592
+rect 22178 1544 22234 1592
+rect 23426 1544 23482 1592
+rect 24674 1544 24730 1592
+rect 25922 1544 25978 1592
+rect 27170 1544 27226 1592
+rect 28418 1544 28474 1592
+rect 29666 1544 29722 1592
+rect 30914 1544 30970 1592
+rect 2222 706 2278 754
+rect 3470 706 3526 754
+rect 4718 706 4774 754
+rect 5966 706 6022 754
+rect 7214 706 7270 754
+rect 8462 706 8518 754
+rect 9710 706 9766 754
+rect 10958 706 11014 754
+rect 12206 706 12262 754
+rect 13454 706 13510 754
+rect 14702 706 14758 754
+rect 15950 706 16006 754
+rect 17198 706 17254 754
+rect 18446 706 18502 754
+rect 19694 706 19750 754
+rect 20942 706 20998 754
+rect 22190 706 22246 754
+rect 23438 706 23494 754
+rect 24686 706 24742 754
+rect 25934 706 25990 754
+rect 27182 706 27238 754
+rect 28430 706 28486 754
+rect 29678 706 29734 754
+rect 30926 706 30982 754
+rect 2222 384 2278 432
+rect 3470 384 3526 432
+rect 4718 384 4774 432
+rect 5966 384 6022 432
+rect 7214 384 7270 432
+rect 8462 384 8518 432
+rect 9710 384 9766 432
+rect 10958 384 11014 432
+rect 12206 384 12262 432
+rect 13454 384 13510 432
+rect 14702 384 14758 432
+rect 15950 384 16006 432
+rect 17198 384 17254 432
+rect 18446 384 18502 432
+rect 19694 384 19750 432
+rect 20942 384 20998 432
+rect 22190 384 22246 432
+rect 23438 384 23494 432
+rect 24686 384 24742 432
+rect 25934 384 25990 432
+rect 27182 384 27238 432
+rect 28430 384 28486 432
+rect 29678 384 29734 432
+rect 30926 384 30982 432
+<< metal3 >>
+rect 0 2464 31073 2524
+rect 33 2309 31106 2375
+rect 33 1535 31106 1601
+rect 33 697 31106 763
+rect 33 375 31106 441
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_0
+timestamp 1661296025
+transform 1 0 30573 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_1
+timestamp 1661296025
+transform 1 0 29325 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_2
+timestamp 1661296025
+transform 1 0 28077 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_3
+timestamp 1661296025
+transform 1 0 26829 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_4
+timestamp 1661296025
+transform 1 0 25581 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_5
+timestamp 1661296025
+transform 1 0 24333 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_6
+timestamp 1661296025
+transform 1 0 23085 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_7
+timestamp 1661296025
+transform 1 0 21837 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_8
+timestamp 1661296025
+transform 1 0 20589 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_9
+timestamp 1661296025
+transform 1 0 19341 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_10
+timestamp 1661296025
+transform 1 0 18093 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_11
+timestamp 1661296025
+transform 1 0 16845 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_12
+timestamp 1661296025
+transform 1 0 15597 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_13
+timestamp 1661296025
+transform 1 0 14349 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_14
+timestamp 1661296025
+transform 1 0 13101 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_15
+timestamp 1661296025
+transform 1 0 11853 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_16
+timestamp 1661296025
+transform 1 0 10605 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_17
+timestamp 1661296025
+transform 1 0 9357 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_18
+timestamp 1661296025
+transform 1 0 8109 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_19
+timestamp 1661296025
+transform 1 0 6861 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_20
+timestamp 1661296025
+transform 1 0 5613 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_21
+timestamp 1661296025
+transform 1 0 4365 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_22
+timestamp 1661296025
+transform 1 0 3117 0 1 0
+box -541 0 937 2556
+use sky130_fd_bd_sram__openram_sense_amp  sky130_fd_bd_sram__openram_sense_amp_23
+timestamp 1661296025
+transform 1 0 1869 0 1 0
+box -541 0 937 2556
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_0
+timestamp 1661296025
+transform 1 0 30664 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_1
+timestamp 1661296025
+transform 1 0 29416 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_2
+timestamp 1661296025
+transform 1 0 28168 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_3
+timestamp 1661296025
+transform 1 0 26920 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_4
+timestamp 1661296025
+transform 1 0 25672 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_5
+timestamp 1661296025
+transform 1 0 24424 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_6
+timestamp 1661296025
+transform 1 0 23176 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_7
+timestamp 1661296025
+transform 1 0 21928 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_8
+timestamp 1661296025
+transform 1 0 20680 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_9
+timestamp 1661296025
+transform 1 0 19432 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_10
+timestamp 1661296025
+transform 1 0 18184 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_11
+timestamp 1661296025
+transform 1 0 16936 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_12
+timestamp 1661296025
+transform 1 0 15688 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_13
+timestamp 1661296025
+transform 1 0 14440 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_14
+timestamp 1661296025
+transform 1 0 13192 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_15
+timestamp 1661296025
+transform 1 0 11944 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_16
+timestamp 1661296025
+transform 1 0 10696 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_17
+timestamp 1661296025
+transform 1 0 9448 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_18
+timestamp 1661296025
+transform 1 0 8200 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_19
+timestamp 1661296025
+transform 1 0 6952 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_20
+timestamp 1661296025
+transform 1 0 5704 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_21
+timestamp 1661296025
+transform 1 0 4456 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_22
+timestamp 1661296025
+transform 1 0 3208 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_23
+timestamp 1661296025
+transform 1 0 1960 0 1 2462
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_24
+timestamp 1661296025
+transform 1 0 30922 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_25
+timestamp 1661296025
+transform 1 0 29674 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_26
+timestamp 1661296025
+transform 1 0 28426 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_27
+timestamp 1661296025
+transform 1 0 27178 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_28
+timestamp 1661296025
+transform 1 0 25930 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_29
+timestamp 1661296025
+transform 1 0 24682 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_30
+timestamp 1661296025
+transform 1 0 23434 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_31
+timestamp 1661296025
+transform 1 0 22186 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_32
+timestamp 1661296025
+transform 1 0 20938 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_33
+timestamp 1661296025
+transform 1 0 19690 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_34
+timestamp 1661296025
+transform 1 0 18442 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_35
+timestamp 1661296025
+transform 1 0 17194 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_36
+timestamp 1661296025
+transform 1 0 15946 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_37
+timestamp 1661296025
+transform 1 0 14698 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_38
+timestamp 1661296025
+transform 1 0 13450 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_39
+timestamp 1661296025
+transform 1 0 12202 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_40
+timestamp 1661296025
+transform 1 0 10954 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_41
+timestamp 1661296025
+transform 1 0 9706 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_42
+timestamp 1661296025
+transform 1 0 8458 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_43
+timestamp 1661296025
+transform 1 0 7210 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_44
+timestamp 1661296025
+transform 1 0 5962 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_45
+timestamp 1661296025
+transform 1 0 4714 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_46
+timestamp 1661296025
+transform 1 0 3466 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_47
+timestamp 1661296025
+transform 1 0 2218 0 1 376
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_48
+timestamp 1661296025
+transform 1 0 30992 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_49
+timestamp 1661296025
+transform 1 0 29744 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_50
+timestamp 1661296025
+transform 1 0 28496 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_51
+timestamp 1661296025
+transform 1 0 27248 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_52
+timestamp 1661296025
+transform 1 0 26000 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_53
+timestamp 1661296025
+transform 1 0 24752 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_54
+timestamp 1661296025
+transform 1 0 23504 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_55
+timestamp 1661296025
+transform 1 0 22256 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_56
+timestamp 1661296025
+transform 1 0 21008 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_57
+timestamp 1661296025
+transform 1 0 19760 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_58
+timestamp 1661296025
+transform 1 0 18512 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_59
+timestamp 1661296025
+transform 1 0 17264 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_60
+timestamp 1661296025
+transform 1 0 16016 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_61
+timestamp 1661296025
+transform 1 0 14768 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_62
+timestamp 1661296025
+transform 1 0 13520 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_63
+timestamp 1661296025
+transform 1 0 12272 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_64
+timestamp 1661296025
+transform 1 0 11024 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_65
+timestamp 1661296025
+transform 1 0 9776 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_66
+timestamp 1661296025
+transform 1 0 8528 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_67
+timestamp 1661296025
+transform 1 0 7280 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_68
+timestamp 1661296025
+transform 1 0 6032 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_69
+timestamp 1661296025
+transform 1 0 4784 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_70
+timestamp 1661296025
+transform 1 0 3536 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_71
+timestamp 1661296025
+transform 1 0 2288 0 1 2310
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_72
+timestamp 1661296025
+transform 1 0 30922 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_73
+timestamp 1661296025
+transform 1 0 29674 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_74
+timestamp 1661296025
+transform 1 0 28426 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_75
+timestamp 1661296025
+transform 1 0 27178 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_76
+timestamp 1661296025
+transform 1 0 25930 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_77
+timestamp 1661296025
+transform 1 0 24682 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_78
+timestamp 1661296025
+transform 1 0 23434 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_79
+timestamp 1661296025
+transform 1 0 22186 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_80
+timestamp 1661296025
+transform 1 0 20938 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_81
+timestamp 1661296025
+transform 1 0 19690 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_82
+timestamp 1661296025
+transform 1 0 18442 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_83
+timestamp 1661296025
+transform 1 0 17194 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_84
+timestamp 1661296025
+transform 1 0 15946 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_85
+timestamp 1661296025
+transform 1 0 14698 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_86
+timestamp 1661296025
+transform 1 0 13450 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_87
+timestamp 1661296025
+transform 1 0 12202 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_88
+timestamp 1661296025
+transform 1 0 10954 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_89
+timestamp 1661296025
+transform 1 0 9706 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_90
+timestamp 1661296025
+transform 1 0 8458 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_91
+timestamp 1661296025
+transform 1 0 7210 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_92
+timestamp 1661296025
+transform 1 0 5962 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_93
+timestamp 1661296025
+transform 1 0 4714 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_94
+timestamp 1661296025
+transform 1 0 3466 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_95
+timestamp 1661296025
+transform 1 0 2218 0 1 698
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_96
+timestamp 1661296025
+transform 1 0 30910 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_97
+timestamp 1661296025
+transform 1 0 29662 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_98
+timestamp 1661296025
+transform 1 0 28414 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_99
+timestamp 1661296025
+transform 1 0 27166 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_100
+timestamp 1661296025
+transform 1 0 25918 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_101
+timestamp 1661296025
+transform 1 0 24670 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_102
+timestamp 1661296025
+transform 1 0 23422 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_103
+timestamp 1661296025
+transform 1 0 22174 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_104
+timestamp 1661296025
+transform 1 0 20926 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_105
+timestamp 1661296025
+transform 1 0 19678 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_106
+timestamp 1661296025
+transform 1 0 18430 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_107
+timestamp 1661296025
+transform 1 0 17182 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_108
+timestamp 1661296025
+transform 1 0 15934 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_109
+timestamp 1661296025
+transform 1 0 14686 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_110
+timestamp 1661296025
+transform 1 0 13438 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_111
+timestamp 1661296025
+transform 1 0 12190 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_112
+timestamp 1661296025
+transform 1 0 10942 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_113
+timestamp 1661296025
+transform 1 0 9694 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_114
+timestamp 1661296025
+transform 1 0 8446 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_115
+timestamp 1661296025
+transform 1 0 7198 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_116
+timestamp 1661296025
+transform 1 0 5950 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_117
+timestamp 1661296025
+transform 1 0 4702 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_118
+timestamp 1661296025
+transform 1 0 3454 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_119
+timestamp 1661296025
+transform 1 0 2206 0 1 1536
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_0
+timestamp 1661296025
+transform 1 0 30663 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_1
+timestamp 1661296025
+transform 1 0 29415 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_2
+timestamp 1661296025
+transform 1 0 28167 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_3
+timestamp 1661296025
+transform 1 0 26919 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_4
+timestamp 1661296025
+transform 1 0 25671 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_5
+timestamp 1661296025
+transform 1 0 24423 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_6
+timestamp 1661296025
+transform 1 0 23175 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_7
+timestamp 1661296025
+transform 1 0 21927 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_8
+timestamp 1661296025
+transform 1 0 20679 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_9
+timestamp 1661296025
+transform 1 0 19431 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_10
+timestamp 1661296025
+transform 1 0 18183 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_11
+timestamp 1661296025
+transform 1 0 16935 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_12
+timestamp 1661296025
+transform 1 0 15687 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_13
+timestamp 1661296025
+transform 1 0 14439 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_14
+timestamp 1661296025
+transform 1 0 13191 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_15
+timestamp 1661296025
+transform 1 0 11943 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_16
+timestamp 1661296025
+transform 1 0 10695 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_17
+timestamp 1661296025
+transform 1 0 9447 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_18
+timestamp 1661296025
+transform 1 0 8199 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_19
+timestamp 1661296025
+transform 1 0 6951 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_20
+timestamp 1661296025
+transform 1 0 5703 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_21
+timestamp 1661296025
+transform 1 0 4455 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_22
+timestamp 1661296025
+transform 1 0 3207 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_23
+timestamp 1661296025
+transform 1 0 1959 0 1 2457
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_24
+timestamp 1661296025
+transform 1 0 30921 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_25
+timestamp 1661296025
+transform 1 0 29673 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_26
+timestamp 1661296025
+transform 1 0 28425 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_27
+timestamp 1661296025
+transform 1 0 27177 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_28
+timestamp 1661296025
+transform 1 0 25929 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_29
+timestamp 1661296025
+transform 1 0 24681 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_30
+timestamp 1661296025
+transform 1 0 23433 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_31
+timestamp 1661296025
+transform 1 0 22185 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_32
+timestamp 1661296025
+transform 1 0 20937 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_33
+timestamp 1661296025
+transform 1 0 19689 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_34
+timestamp 1661296025
+transform 1 0 18441 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_35
+timestamp 1661296025
+transform 1 0 17193 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_36
+timestamp 1661296025
+transform 1 0 15945 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_37
+timestamp 1661296025
+transform 1 0 14697 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_38
+timestamp 1661296025
+transform 1 0 13449 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_39
+timestamp 1661296025
+transform 1 0 12201 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_40
+timestamp 1661296025
+transform 1 0 10953 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_41
+timestamp 1661296025
+transform 1 0 9705 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_42
+timestamp 1661296025
+transform 1 0 8457 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_43
+timestamp 1661296025
+transform 1 0 7209 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_44
+timestamp 1661296025
+transform 1 0 5961 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_45
+timestamp 1661296025
+transform 1 0 4713 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_46
+timestamp 1661296025
+transform 1 0 3465 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_47
+timestamp 1661296025
+transform 1 0 2217 0 1 371
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_48
+timestamp 1661296025
+transform 1 0 30991 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_49
+timestamp 1661296025
+transform 1 0 29743 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_50
+timestamp 1661296025
+transform 1 0 28495 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_51
+timestamp 1661296025
+transform 1 0 27247 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_52
+timestamp 1661296025
+transform 1 0 25999 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_53
+timestamp 1661296025
+transform 1 0 24751 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_54
+timestamp 1661296025
+transform 1 0 23503 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_55
+timestamp 1661296025
+transform 1 0 22255 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_56
+timestamp 1661296025
+transform 1 0 21007 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_57
+timestamp 1661296025
+transform 1 0 19759 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_58
+timestamp 1661296025
+transform 1 0 18511 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_59
+timestamp 1661296025
+transform 1 0 17263 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_60
+timestamp 1661296025
+transform 1 0 16015 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_61
+timestamp 1661296025
+transform 1 0 14767 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_62
+timestamp 1661296025
+transform 1 0 13519 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_63
+timestamp 1661296025
+transform 1 0 12271 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_64
+timestamp 1661296025
+transform 1 0 11023 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_65
+timestamp 1661296025
+transform 1 0 9775 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_66
+timestamp 1661296025
+transform 1 0 8527 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_67
+timestamp 1661296025
+transform 1 0 7279 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_68
+timestamp 1661296025
+transform 1 0 6031 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_69
+timestamp 1661296025
+transform 1 0 4783 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_70
+timestamp 1661296025
+transform 1 0 3535 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_71
+timestamp 1661296025
+transform 1 0 2287 0 1 2305
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_72
+timestamp 1661296025
+transform 1 0 30921 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_73
+timestamp 1661296025
+transform 1 0 29673 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_74
+timestamp 1661296025
+transform 1 0 28425 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_75
+timestamp 1661296025
+transform 1 0 27177 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_76
+timestamp 1661296025
+transform 1 0 25929 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_77
+timestamp 1661296025
+transform 1 0 24681 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_78
+timestamp 1661296025
+transform 1 0 23433 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_79
+timestamp 1661296025
+transform 1 0 22185 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_80
+timestamp 1661296025
+transform 1 0 20937 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_81
+timestamp 1661296025
+transform 1 0 19689 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_82
+timestamp 1661296025
+transform 1 0 18441 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_83
+timestamp 1661296025
+transform 1 0 17193 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_84
+timestamp 1661296025
+transform 1 0 15945 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_85
+timestamp 1661296025
+transform 1 0 14697 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_86
+timestamp 1661296025
+transform 1 0 13449 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_87
+timestamp 1661296025
+transform 1 0 12201 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_88
+timestamp 1661296025
+transform 1 0 10953 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_89
+timestamp 1661296025
+transform 1 0 9705 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_90
+timestamp 1661296025
+transform 1 0 8457 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_91
+timestamp 1661296025
+transform 1 0 7209 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_92
+timestamp 1661296025
+transform 1 0 5961 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_93
+timestamp 1661296025
+transform 1 0 4713 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_94
+timestamp 1661296025
+transform 1 0 3465 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_95
+timestamp 1661296025
+transform 1 0 2217 0 1 693
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_96
+timestamp 1661296025
+transform 1 0 30909 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_97
+timestamp 1661296025
+transform 1 0 29661 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_98
+timestamp 1661296025
+transform 1 0 28413 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_99
+timestamp 1661296025
+transform 1 0 27165 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_100
+timestamp 1661296025
+transform 1 0 25917 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_101
+timestamp 1661296025
+transform 1 0 24669 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_102
+timestamp 1661296025
+transform 1 0 23421 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_103
+timestamp 1661296025
+transform 1 0 22173 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_104
+timestamp 1661296025
+transform 1 0 20925 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_105
+timestamp 1661296025
+transform 1 0 19677 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_106
+timestamp 1661296025
+transform 1 0 18429 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_107
+timestamp 1661296025
+transform 1 0 17181 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_108
+timestamp 1661296025
+transform 1 0 15933 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_109
+timestamp 1661296025
+transform 1 0 14685 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_110
+timestamp 1661296025
+transform 1 0 13437 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_111
+timestamp 1661296025
+transform 1 0 12189 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_112
+timestamp 1661296025
+transform 1 0 10941 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_113
+timestamp 1661296025
+transform 1 0 9693 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_114
+timestamp 1661296025
+transform 1 0 8445 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_115
+timestamp 1661296025
+transform 1 0 7197 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_116
+timestamp 1661296025
+transform 1 0 5949 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_117
+timestamp 1661296025
+transform 1 0 4701 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_118
+timestamp 1661296025
+transform 1 0 3453 0 1 1531
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_119
+timestamp 1661296025
+transform 1 0 2205 0 1 1531
+box 0 0 66 74
+<< labels >>
+rlabel metal1 s 2065 1430 2099 2556 4 bl_0
+port 1 nsew
+rlabel metal1 s 2141 1442 2169 2556 4 br_0
+port 2 nsew
+rlabel metal1 s 1973 0 2019 150 4 data_0
+port 3 nsew
+rlabel metal1 s 3313 1430 3347 2556 4 bl_1
+port 4 nsew
+rlabel metal1 s 3389 1442 3417 2556 4 br_1
+port 5 nsew
+rlabel metal1 s 3221 0 3267 150 4 data_1
+port 6 nsew
+rlabel metal1 s 4561 1430 4595 2556 4 bl_2
+port 7 nsew
+rlabel metal1 s 4637 1442 4665 2556 4 br_2
+port 8 nsew
+rlabel metal1 s 4469 0 4515 150 4 data_2
+port 9 nsew
+rlabel metal1 s 5809 1430 5843 2556 4 bl_3
+port 10 nsew
+rlabel metal1 s 5885 1442 5913 2556 4 br_3
+port 11 nsew
+rlabel metal1 s 5717 0 5763 150 4 data_3
+port 12 nsew
+rlabel metal1 s 7057 1430 7091 2556 4 bl_4
+port 13 nsew
+rlabel metal1 s 7133 1442 7161 2556 4 br_4
+port 14 nsew
+rlabel metal1 s 6965 0 7011 150 4 data_4
+port 15 nsew
+rlabel metal1 s 8305 1430 8339 2556 4 bl_5
+port 16 nsew
+rlabel metal1 s 8381 1442 8409 2556 4 br_5
+port 17 nsew
+rlabel metal1 s 8213 0 8259 150 4 data_5
+port 18 nsew
+rlabel metal1 s 9553 1430 9587 2556 4 bl_6
+port 19 nsew
+rlabel metal1 s 9629 1442 9657 2556 4 br_6
+port 20 nsew
+rlabel metal1 s 9461 0 9507 150 4 data_6
+port 21 nsew
+rlabel metal1 s 10801 1430 10835 2556 4 bl_7
+port 22 nsew
+rlabel metal1 s 10877 1442 10905 2556 4 br_7
+port 23 nsew
+rlabel metal1 s 10709 0 10755 150 4 data_7
+port 24 nsew
+rlabel metal1 s 12049 1430 12083 2556 4 bl_8
+port 25 nsew
+rlabel metal1 s 12125 1442 12153 2556 4 br_8
+port 26 nsew
+rlabel metal1 s 11957 0 12003 150 4 data_8
+port 27 nsew
+rlabel metal1 s 13297 1430 13331 2556 4 bl_9
+port 28 nsew
+rlabel metal1 s 13373 1442 13401 2556 4 br_9
+port 29 nsew
+rlabel metal1 s 13205 0 13251 150 4 data_9
+port 30 nsew
+rlabel metal1 s 14545 1430 14579 2556 4 bl_10
+port 31 nsew
+rlabel metal1 s 14621 1442 14649 2556 4 br_10
+port 32 nsew
+rlabel metal1 s 14453 0 14499 150 4 data_10
+port 33 nsew
+rlabel metal1 s 15793 1430 15827 2556 4 bl_11
+port 34 nsew
+rlabel metal1 s 15869 1442 15897 2556 4 br_11
+port 35 nsew
+rlabel metal1 s 15701 0 15747 150 4 data_11
+port 36 nsew
+rlabel metal1 s 17041 1430 17075 2556 4 bl_12
+port 37 nsew
+rlabel metal1 s 17117 1442 17145 2556 4 br_12
+port 38 nsew
+rlabel metal1 s 16949 0 16995 150 4 data_12
+port 39 nsew
+rlabel metal1 s 18289 1430 18323 2556 4 bl_13
+port 40 nsew
+rlabel metal1 s 18365 1442 18393 2556 4 br_13
+port 41 nsew
+rlabel metal1 s 18197 0 18243 150 4 data_13
+port 42 nsew
+rlabel metal1 s 19537 1430 19571 2556 4 bl_14
+port 43 nsew
+rlabel metal1 s 19613 1442 19641 2556 4 br_14
+port 44 nsew
+rlabel metal1 s 19445 0 19491 150 4 data_14
+port 45 nsew
+rlabel metal1 s 20785 1430 20819 2556 4 bl_15
+port 46 nsew
+rlabel metal1 s 20861 1442 20889 2556 4 br_15
+port 47 nsew
+rlabel metal1 s 20693 0 20739 150 4 data_15
+port 48 nsew
+rlabel metal1 s 22033 1430 22067 2556 4 bl_16
+port 49 nsew
+rlabel metal1 s 22109 1442 22137 2556 4 br_16
+port 50 nsew
+rlabel metal1 s 21941 0 21987 150 4 data_16
+port 51 nsew
+rlabel metal1 s 23281 1430 23315 2556 4 bl_17
+port 52 nsew
+rlabel metal1 s 23357 1442 23385 2556 4 br_17
+port 53 nsew
+rlabel metal1 s 23189 0 23235 150 4 data_17
+port 54 nsew
+rlabel metal1 s 24529 1430 24563 2556 4 bl_18
+port 55 nsew
+rlabel metal1 s 24605 1442 24633 2556 4 br_18
+port 56 nsew
+rlabel metal1 s 24437 0 24483 150 4 data_18
+port 57 nsew
+rlabel metal1 s 25777 1430 25811 2556 4 bl_19
+port 58 nsew
+rlabel metal1 s 25853 1442 25881 2556 4 br_19
+port 59 nsew
+rlabel metal1 s 25685 0 25731 150 4 data_19
+port 60 nsew
+rlabel metal1 s 27025 1430 27059 2556 4 bl_20
+port 61 nsew
+rlabel metal1 s 27101 1442 27129 2556 4 br_20
+port 62 nsew
+rlabel metal1 s 26933 0 26979 150 4 data_20
+port 63 nsew
+rlabel metal1 s 28273 1430 28307 2556 4 bl_21
+port 64 nsew
+rlabel metal1 s 28349 1442 28377 2556 4 br_21
+port 65 nsew
+rlabel metal1 s 28181 0 28227 150 4 data_21
+port 66 nsew
+rlabel metal1 s 29521 1430 29555 2556 4 bl_22
+port 67 nsew
+rlabel metal1 s 29597 1442 29625 2556 4 br_22
+port 68 nsew
+rlabel metal1 s 29429 0 29475 150 4 data_22
+port 69 nsew
+rlabel metal1 s 30769 1430 30803 2556 4 bl_23
+port 70 nsew
+rlabel metal1 s 30845 1442 30873 2556 4 br_23
+port 71 nsew
+rlabel metal1 s 30677 0 30723 150 4 data_23
+port 72 nsew
+rlabel metal3 s 33 1535 31106 1601 4 vdd
+port 73 nsew
+rlabel metal3 s 33 697 31106 763 4 vdd
+port 73 nsew
+rlabel metal3 s 33 375 31106 441 4 gnd
+port 74 nsew
+rlabel metal3 s 33 2309 31106 2375 4 gnd
+port 74 nsew
+rlabel metal3 s 0 2464 31073 2524 4 en
+port 75 nsew
+<< properties >>
+string FIXED_BBOX 0 0 31073 2556
+<< end >>

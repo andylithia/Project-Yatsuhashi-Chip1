@@ -1,0 +1,99 @@
+* NGSPICE file created from lna_complete_2_wo_ind_flat_220831_2154.ext - technology: sky130B
+
+X0 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X1 SS VIN D1 VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 VHI VLO sky130_fd_pr__cap_mim_m3_2 l=4.4e+07u w=5e+07u
+X3 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SS VIN D1 VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 D1 VIN SS VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X6 VHI a_n6328_16092# sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2.5e+06u
+X7 D1 VIN SS VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X8 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X9 SS VIN D1 VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 D1 VIN SS VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 VLO VHI sky130_fd_pr__cap_mim_m3_1 l=4.4e+07u w=5e+07u
+X12 G_TOP VLO sky130_fd_pr__cap_mim_m3_2 l=7.5e+06u w=4.5e+06u
+X13 SS VIN D1 VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X14 SS VIN D1 VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X15 VIN VLO sky130_fd_pr__cap_mim_m3_2 l=1.15e+07u w=9.5e+06u
+X16 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X17 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X18 D1 VIN SS VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X19 D1 VIN SS VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X20 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X21 SS VIN D1 VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X22 VLO G_TOP sky130_fd_pr__cap_mim_m3_1 l=7.5e+06u w=4.5e+06u
+X23 a_n6328_16092# G1 VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X24 a_n5540_16092# G4 VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X25 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+R0 RFB_MID VOUT sky130_fd_pr__res_generic_po w=330000u l=1.28e+07u
+X26 D1 VIN SS VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X27 VOUT G2 a_n6722_16092# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X28 VOUT G8 a_n5934_16092# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X29 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X30 VLO VIN sky130_fd_pr__cap_mim_m3_1 l=1.15e+07u w=9.5e+06u
+X31 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X32 SS VIN D1 VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X33 D1 VIN SS VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X34 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X35 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X36 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X37 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X38 D1 VIN SS VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X39 VHI a_n5934_16092# sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=8e+06u
+X40 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X41 VIN RFB_MID sky130_fd_pr__cap_mim_m3_2 l=2.05e+07u w=1.15e+07u
+X42 VOUT G1 a_n6328_16092# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X43 VOUT G4 a_n5540_16092# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X44 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X45 a_n5934_16092# G8 VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+R1 VHI G_TOP sky130_fd_pr__res_generic_po w=330000u l=1.28e+07u
+X46 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+R2 BIAS_BOT VIN sky130_fd_pr__res_generic_po w=330000u l=2.068e+07u
+X47 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X48 RFB_MID VIN sky130_fd_pr__cap_mim_m3_1 l=2.05e+07u w=1.15e+07u
+X49 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X50 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X51 VHI a_n5540_16092# sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=4e+06u
+X52 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X53 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X54 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X55 VOUT G_TOP a_n57_7481# VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X56 VHI a_n6722_16092# sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=2.5e+06u
+X57 a_n57_7481# G_TOP VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X58 a_n6722_16092# G2 VOUT VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X59 SS VIN D1 VLO sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 a_n6328_16092# VOUT 3.57fF
+C1 a_n5540_16092# VHI 2.60fF
+C2 SS VIN 14.77fF
+C3 a_n6722_16092# VOUT 3.54fF
+C4 VHI VOUT 2.58fF
+C5 VIN RFB_MID 40.52fF
+C6 VHI a_n6328_16092# 1.16fF
+C7 a_n5934_16092# VOUT 4.73fF
+C8 SS m5_n800_n3000# 3.92fF
+C9 VIN m5_n800_n3000# 1.17fF
+C10 SS D1 26.96fF
+C11 a_n5540_16092# VOUT 3.94fF
+C12 D1 VIN 3.39fF
+C13 a_n57_7481# VOUT 41.75fF
+C14 G_TOP a_n57_7481# 3.11fF
+C15 VHI a_n6722_16092# 1.89fF
+C16 G_TOP VOUT 6.12fF
+C17 VHI a_n5934_16092# 4.77fF
+C18 SS VLO 11.11fF $ **FLOATING
+C19 D1 VLO 16.95fF $ **FLOATING
+C20 VIN VLO 50.92fF $ **FLOATING
+C21 RFB_MID VLO 5.66fF $ **FLOATING
+C22 a_n57_7481# VLO 17.90fF $ **FLOATING
+C23 G_TOP VLO 20.65fF $ **FLOATING
+C24 VHI VLO 432.32fF $ **FLOATING
+C25 a_n5540_16092# VLO 3.60fF $ **FLOATING
+C26 a_n5934_16092# VLO 3.33fF $ **FLOATING
+C27 a_n6328_16092# VLO 3.02fF $ **FLOATING
+C28 VOUT VLO 54.66fF $ **FLOATING
+C29 a_n6722_16092# VLO 3.12fF $ **FLOATING
+C30 G4 VLO 1.28fF $ **FLOATING
+C31 G8 VLO 1.10fF $ **FLOATING
+C32 G1 VLO 1.06fF $ **FLOATING
+C33 G2 VLO 1.29fF $ **FLOATING

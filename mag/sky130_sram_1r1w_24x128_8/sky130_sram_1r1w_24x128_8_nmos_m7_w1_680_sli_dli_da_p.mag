@@ -1,0 +1,97 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< pwell >>
+rect -26 -26 824 362
+<< scnmos >>
+rect 60 0 90 336
+rect 168 0 198 336
+rect 276 0 306 336
+rect 384 0 414 336
+rect 492 0 522 336
+rect 600 0 630 336
+rect 708 0 738 336
+<< ndiff >>
+rect 0 0 60 336
+rect 90 0 168 336
+rect 198 0 276 336
+rect 306 0 384 336
+rect 414 0 492 336
+rect 522 0 600 336
+rect 630 0 708 336
+rect 738 0 798 336
+<< poly >>
+rect 60 362 738 392
+rect 60 336 90 362
+rect 168 336 198 362
+rect 276 336 306 362
+rect 384 336 414 362
+rect 492 336 522 362
+rect 600 336 630 362
+rect 708 336 738 362
+rect 60 -26 90 0
+rect 168 -26 198 0
+rect 276 -26 306 0
+rect 384 -26 414 0
+rect 492 -26 522 0
+rect 600 -26 630 0
+rect 708 -26 738 0
+<< locali >>
+rect 112 235 790 269
+rect 8 135 42 201
+rect 112 168 146 235
+rect 220 135 254 201
+rect 328 168 362 235
+rect 436 135 470 201
+rect 544 168 578 235
+rect 652 135 686 201
+rect 756 168 790 235
+use sky130_sram_1r1w_24x128_8_contact_10  sky130_sram_1r1w_24x128_8_contact_10_0
+timestamp 1661296025
+transform 1 0 748 0 1 135
+box -26 -22 76 88
+use sky130_sram_1r1w_24x128_8_contact_10  sky130_sram_1r1w_24x128_8_contact_10_1
+timestamp 1661296025
+transform 1 0 644 0 1 135
+box -26 -22 76 88
+use sky130_sram_1r1w_24x128_8_contact_10  sky130_sram_1r1w_24x128_8_contact_10_2
+timestamp 1661296025
+transform 1 0 536 0 1 135
+box -26 -22 76 88
+use sky130_sram_1r1w_24x128_8_contact_10  sky130_sram_1r1w_24x128_8_contact_10_3
+timestamp 1661296025
+transform 1 0 428 0 1 135
+box -26 -22 76 88
+use sky130_sram_1r1w_24x128_8_contact_10  sky130_sram_1r1w_24x128_8_contact_10_4
+timestamp 1661296025
+transform 1 0 320 0 1 135
+box -26 -22 76 88
+use sky130_sram_1r1w_24x128_8_contact_10  sky130_sram_1r1w_24x128_8_contact_10_5
+timestamp 1661296025
+transform 1 0 212 0 1 135
+box -26 -22 76 88
+use sky130_sram_1r1w_24x128_8_contact_10  sky130_sram_1r1w_24x128_8_contact_10_6
+timestamp 1661296025
+transform 1 0 104 0 1 135
+box -26 -22 76 88
+use sky130_sram_1r1w_24x128_8_contact_10  sky130_sram_1r1w_24x128_8_contact_10_7
+timestamp 1661296025
+transform 1 0 0 0 1 135
+box -26 -22 76 88
+<< labels >>
+rlabel poly s 399 377 399 377 4 G
+port 1 nsew
+rlabel locali s 237 168 237 168 4 S
+port 2 nsew
+rlabel locali s 25 168 25 168 4 S
+port 2 nsew
+rlabel locali s 453 168 453 168 4 S
+port 2 nsew
+rlabel locali s 669 168 669 168 4 S
+port 2 nsew
+rlabel locali s 451 252 451 252 4 D
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -25 -26 823 392
+<< end >>

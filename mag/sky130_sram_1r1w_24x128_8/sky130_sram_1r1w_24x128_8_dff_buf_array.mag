@@ -1,0 +1,64 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< locali >>
+rect 0 1396 2554 1432
+rect 0 -18 2554 18
+<< metal1 >>
+rect 1245 1388 1309 1440
+rect 1245 -26 1309 26
+<< metal2 >>
+rect 137 538 203 590
+rect 369 0 397 1414
+rect 1249 1390 1305 1438
+rect 1858 871 1886 899
+rect 2364 489 2392 517
+rect 1249 -24 1305 24
+<< metal3 >>
+rect 1228 1365 1326 1463
+rect 1228 -49 1326 49
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_0
+timestamp 1661296025
+transform 1 0 1248 0 1 -33
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_1
+timestamp 1661296025
+transform 1 0 1248 0 1 1381
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_0
+timestamp 1661296025
+transform 1 0 1245 0 1 -32
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_1
+timestamp 1661296025
+transform 1 0 1245 0 1 1382
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_0
+timestamp 1661296025
+transform 1 0 1244 0 1 -37
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_contact_21  sky130_sram_1r1w_24x128_8_contact_21_1
+timestamp 1661296025
+transform 1 0 1244 0 1 1377
+box 0 0 66 74
+use sky130_sram_1r1w_24x128_8_dff_buf_0  sky130_sram_1r1w_24x128_8_dff_buf_0_0
+timestamp 1661296025
+transform 1 0 0 0 1 0
+box -36 -43 2590 1471
+<< labels >>
+rlabel metal3 s 1228 1365 1326 1463 4 vdd
+port 1 nsew
+rlabel metal3 s 1228 -49 1326 49 4 gnd
+port 2 nsew
+rlabel metal2 s 137 538 203 590 4 din_0
+port 3 nsew
+rlabel metal2 s 2364 489 2392 517 4 dout_0
+port 4 nsew
+rlabel metal2 s 1858 871 1886 899 4 dout_bar_0
+port 5 nsew
+rlabel metal2 s 369 0 397 1414 4 clk
+port 6 nsew
+<< properties >>
+string FIXED_BBOX 0 0 2554 1414
+<< end >>

@@ -1,0 +1,31 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< locali >>
+rect 0 2828 1536 2862
+rect 1133 2121 1167 2155
+rect 0 1414 1536 1448
+rect 1133 707 1167 741
+rect 64 669 98 703
+rect 0 0 1536 34
+use sky130_sram_1r1w_24x128_8_pinvbuf  sky130_sram_1r1w_24x128_8_pinvbuf_0
+timestamp 1661296025
+transform 1 0 0 0 1 0
+box -36 0 1536 2862
+<< labels >>
+rlabel locali s 81 686 81 686 4 in_0
+port 1 nsew
+rlabel locali s 1150 724 1150 724 4 out_0
+port 2 nsew
+rlabel locali s 1150 2138 1150 2138 4 out_1
+port 3 nsew
+rlabel locali s 768 1431 768 1431 4 vdd
+port 4 nsew
+rlabel locali s 768 2845 768 2845 4 gnd
+port 5 nsew
+rlabel locali s 768 17 768 17 4 gnd
+port 5 nsew
+<< properties >>
+string FIXED_BBOX 0 0 1536 2862
+<< end >>

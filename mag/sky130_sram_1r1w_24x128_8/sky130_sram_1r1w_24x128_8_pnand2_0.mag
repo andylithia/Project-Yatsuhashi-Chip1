@@ -1,0 +1,70 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< nwell >>
+rect -36 679 504 1471
+<< poly >>
+rect 114 225 144 1113
+rect 214 225 244 1113
+<< locali >>
+rect 0 1397 468 1431
+rect 62 1218 96 1397
+rect 262 1218 296 1397
+rect 366 1297 400 1397
+rect 162 1168 196 1218
+rect 162 1134 364 1168
+rect 212 485 246 551
+rect 112 237 146 303
+rect 330 243 364 1134
+rect 262 209 364 243
+rect 262 158 296 209
+rect 62 17 96 92
+rect 366 17 400 104
+rect 0 -17 468 17
+use sky130_sram_1r1w_24x128_8_contact_15  sky130_sram_1r1w_24x128_8_contact_15_0
+timestamp 1661296025
+transform 1 0 196 0 1 485
+box 0 0 66 66
+use sky130_sram_1r1w_24x128_8_contact_15  sky130_sram_1r1w_24x128_8_contact_15_1
+timestamp 1661296025
+transform 1 0 96 0 1 237
+box 0 0 66 66
+use sky130_sram_1r1w_24x128_8_contact_28  sky130_sram_1r1w_24x128_8_contact_28_0
+timestamp 1661296025
+transform 1 0 358 0 1 1256
+box -59 -43 109 125
+use sky130_sram_1r1w_24x128_8_contact_29  sky130_sram_1r1w_24x128_8_contact_29_0
+timestamp 1661296025
+transform 1 0 358 0 1 63
+box -26 -26 76 108
+use sky130_sram_1r1w_24x128_8_nmos_m1_w0_740_sactive_dli  sky130_sram_1r1w_24x128_8_nmos_m1_w0_740_sactive_dli_0
+timestamp 1661296025
+transform 1 0 154 0 1 51
+box -26 -26 176 174
+use sky130_sram_1r1w_24x128_8_nmos_m1_w0_740_sli_dactive  sky130_sram_1r1w_24x128_8_nmos_m1_w0_740_sli_dactive_0
+timestamp 1661296025
+transform 1 0 54 0 1 51
+box -26 -26 176 174
+use sky130_sram_1r1w_24x128_8_pmos_m1_w1_120_sli_dli  sky130_sram_1r1w_24x128_8_pmos_m1_w1_120_sli_dli_0
+timestamp 1661296025
+transform 1 0 154 0 1 1139
+box -59 -54 209 278
+use sky130_sram_1r1w_24x128_8_pmos_m1_w1_120_sli_dli  sky130_sram_1r1w_24x128_8_pmos_m1_w1_120_sli_dli_1
+timestamp 1661296025
+transform 1 0 54 0 1 1139
+box -59 -54 209 278
+<< labels >>
+rlabel locali s 347 1151 347 1151 4 Z
+port 1 nsew
+rlabel locali s 234 0 234 0 4 gnd
+port 2 nsew
+rlabel locali s 234 1414 234 1414 4 vdd
+port 3 nsew
+rlabel locali s 129 270 129 270 4 A
+port 4 nsew
+rlabel locali s 229 518 229 518 4 B
+port 5 nsew
+<< properties >>
+string FIXED_BBOX 0 0 468 1414
+<< end >>

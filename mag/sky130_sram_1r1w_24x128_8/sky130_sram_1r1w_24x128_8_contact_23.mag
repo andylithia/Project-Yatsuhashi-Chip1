@@ -1,0 +1,20 @@
+magic
+tech sky130B
+timestamp 1661296025
+<< error_p >>
+rect 0 25 23 31
+rect 0 8 3 25
+rect 0 2 23 8
+<< locali >>
+rect 3 25 20 33
+rect 3 0 20 8
+<< viali >>
+rect 3 8 20 25
+<< metal1 >>
+rect 0 25 23 31
+rect 0 8 3 25
+rect 20 8 23 25
+rect 0 2 23 8
+<< properties >>
+string FIXED_BBOX 0 0 23 33
+<< end >>

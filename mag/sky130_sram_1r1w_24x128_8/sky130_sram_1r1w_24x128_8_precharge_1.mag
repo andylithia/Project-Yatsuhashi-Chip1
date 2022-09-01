@@ -1,0 +1,86 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< error_s >>
+rect 164 661 222 667
+rect 164 627 176 661
+rect 164 621 222 627
+<< nwell >>
+rect 0 0 624 754
+<< poly >>
+rect 128 360 258 390
+rect 128 274 158 360
+rect 128 10 158 112
+<< locali >>
+rect 176 471 210 661
+<< metal1 >>
+rect 66 0 94 754
+rect 530 504 558 754
+rect 293 438 558 504
+rect 530 226 558 438
+rect 193 160 558 226
+rect 126 -1 190 51
+rect 530 0 558 160
+<< metal2 >>
+rect 0 11 624 39
+use sky130_sram_1r1w_24x128_8_contact_12  sky130_sram_1r1w_24x128_8_contact_12_0
+timestamp 1661296025
+transform 1 0 168 0 1 603
+box -59 -43 109 125
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_0
+timestamp 1661296025
+transform 1 0 164 0 1 611
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_1
+timestamp 1661296025
+transform 1 0 129 0 1 -8
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_15  sky130_sram_1r1w_24x128_8_contact_15_0
+timestamp 1661296025
+transform 1 0 125 0 1 -8
+box 0 0 66 66
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_0
+timestamp 1661296025
+transform 1 0 126 0 1 -7
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_23  sky130_sram_1r1w_24x128_8_contact_23_0
+timestamp 1661296025
+transform 1 0 270 0 1 438
+box 0 0 46 66
+use sky130_sram_1r1w_24x128_8_contact_23  sky130_sram_1r1w_24x128_8_contact_23_1
+timestamp 1661296025
+transform 1 0 70 0 1 438
+box 0 0 46 66
+use sky130_sram_1r1w_24x128_8_contact_23  sky130_sram_1r1w_24x128_8_contact_23_2
+timestamp 1661296025
+transform 1 0 170 0 1 160
+box 0 0 46 66
+use sky130_sram_1r1w_24x128_8_contact_23  sky130_sram_1r1w_24x128_8_contact_23_3
+timestamp 1661296025
+transform 1 0 70 0 1 160
+box 0 0 46 66
+use sky130_sram_1r1w_24x128_8_pmos_m1_w0_550_sli_dli  sky130_sram_1r1w_24x128_8_pmos_m1_w0_550_sli_dli_0
+timestamp 1661296025
+transform 1 0 168 0 1 416
+box -59 -54 209 164
+use sky130_sram_1r1w_24x128_8_pmos_m1_w0_550_sli_dli  sky130_sram_1r1w_24x128_8_pmos_m1_w0_550_sli_dli_1
+timestamp 1661296025
+transform 1 0 68 0 1 416
+box -59 -54 209 164
+use sky130_sram_1r1w_24x128_8_pmos_m1_w0_550_sli_dli  sky130_sram_1r1w_24x128_8_pmos_m1_w0_550_sli_dli_2
+timestamp 1661296025
+transform 1 0 68 0 1 138
+box -59 -54 209 164
+<< labels >>
+rlabel metal2 s 0 11 624 39 4 en_bar
+port 1 nsew
+rlabel locali s 193 644 193 644 4 vdd
+port 2 nsew
+rlabel metal1 s 66 0 94 754 4 bl
+port 3 nsew
+rlabel metal1 s 530 0 558 754 4 br
+port 4 nsew
+<< properties >>
+string FIXED_BBOX 0 0 624 754
+<< end >>

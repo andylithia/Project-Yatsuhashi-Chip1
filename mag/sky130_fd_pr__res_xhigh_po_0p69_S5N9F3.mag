@@ -1,5 +1,5 @@
 magic
-tech $PDK
+tech sky130B
 magscale 1 2
 timestamp 1606074388
 << pwell >>
@@ -160,8 +160,8 @@ rect 4368 -2502 4510 2502
 rect 4754 -2502 4896 2502
 rect 5140 -2502 5282 2502
 << properties >>
-string gencell sky130_fd_pr__res_xhigh_po_0p69
 string FIXED_BBOX -5393 -3045 5393 3045
-string parameters w 0.69 l 25.0 m 1 nx 28 wmin 0.690 lmin 0.50 rho 2000 val 72.811k dummy 0 dw 0.0 term 120 sterm 0.0 caplen 0 wmax 0.690 guard 1 glc 1 grc 1 gtc 1 gbc 1 compatible {sky130_fd_pr__res_xhigh_po_0p35  sky130_fd_pr__res_xhigh_po_0p69 sky130_fd_pr__res_xhigh_po_1p41  sky130_fd_pr__res_xhigh_po_2p85 sky130_fd_pr__res_xhigh_po_5p73} full_metal 1 vias 0 viagb 90 viagt 0 viagl 90 viagr 90
+string gencell sky130_fd_pr__res_xhigh_po_0p69
 string library sky130
+string parameters w 0.69 l 25.0 m 1 nx 28 wmin 0.690 lmin 0.50 rho 2000 val 72.811k dummy 0 dw 0.0 term 120 sterm 0.0 caplen 0 wmax 0.690 guard 1 glc 1 grc 1 gtc 1 gbc 1 compatible {sky130_fd_pr__res_xhigh_po_0p35  sky130_fd_pr__res_xhigh_po_0p69 sky130_fd_pr__res_xhigh_po_1p41  sky130_fd_pr__res_xhigh_po_2p85 sky130_fd_pr__res_xhigh_po_5p73} full_metal 1 vias 0 viagb 90 viagt 0 viagl 90 viagr 90
 << end >>

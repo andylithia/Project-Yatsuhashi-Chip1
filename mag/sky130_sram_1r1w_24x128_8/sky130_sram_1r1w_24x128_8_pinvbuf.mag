@@ -1,0 +1,57 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< locali >>
+rect 0 2828 1536 2862
+rect 196 2121 925 2155
+rect 1133 2121 1167 2155
+rect 0 1414 1536 1448
+rect 64 669 98 703
+rect 179 681 466 715
+rect 551 707 942 741
+rect 1133 707 1167 741
+rect 551 698 585 707
+rect 0 0 1536 34
+<< metal1 >>
+rect 182 686 210 2138
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_0
+timestamp 1661296025
+transform 1 0 167 0 1 653
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_1
+timestamp 1661296025
+transform 1 0 167 0 1 2105
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_pinv  sky130_sram_1r1w_24x128_8_pinv_0
+timestamp 1661296025
+transform 1 0 0 0 1 17
+box -36 -17 404 1471
+use sky130_sram_1r1w_24x128_8_pinv_0  sky130_sram_1r1w_24x128_8_pinv_0_0
+timestamp 1661296025
+transform 1 0 368 0 1 17
+box -36 -17 512 1471
+use sky130_sram_1r1w_24x128_8_pinv_1  sky130_sram_1r1w_24x128_8_pinv_1_0
+timestamp 1661296025
+transform 1 0 844 0 -1 2845
+box -36 -17 620 1471
+use sky130_sram_1r1w_24x128_8_pinv_1  sky130_sram_1r1w_24x128_8_pinv_1_1
+timestamp 1661296025
+transform 1 0 844 0 1 17
+box -36 -17 620 1471
+<< labels >>
+rlabel locali s 768 1431 768 1431 4 vdd
+port 1 nsew
+rlabel locali s 768 2845 768 2845 4 gnd
+port 2 nsew
+rlabel locali s 768 17 768 17 4 gnd
+port 2 nsew
+rlabel locali s 1150 2138 1150 2138 4 Z
+port 3 nsew
+rlabel locali s 1150 724 1150 724 4 Zb
+port 4 nsew
+rlabel locali s 81 686 81 686 4 A
+port 5 nsew
+<< properties >>
+string FIXED_BBOX 0 0 1536 2845
+<< end >>

@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1659501813
+timestamp 1661735813
 << metal3 >>
 rect 5150 2850 6400 3000
 rect 5150 2400 6150 2850
@@ -43,15 +43,15 @@ timestamp 1659323209
 transform 1 0 580 0 1 2400
 box -580 -2400 4940 1900
 use OSC_5GHz_1  OSC_5GHz_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/OSC
-timestamp 1659407314
+timestamp 1661649873
 transform 1 0 700 0 1 -1150
-box 5000 -5450 28100 12050
+box 5000 -10500 34011 17000
 use octal_ind_0p700n_5GHz  octal_ind_0p700n_5GHz_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
-timestamp 1659405087
+timestamp 1660787815
 transform 0 -1 -8450 1 0 20200
 box -16900 -16250 -4400 -3750
 use octal_ind_0p700n_5GHz  octal_ind_0p700n_5GHz_1
-timestamp 1659405087
+timestamp 1660787815
 transform 0 -1 -8450 -1 0 -15900
 box -16900 -16250 -4400 -3750
 << end >>

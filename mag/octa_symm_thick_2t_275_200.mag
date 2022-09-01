@@ -1,0 +1,8 @@
+magic
+tech sky130B
+timestamp 1661649517
+use octa_symm_thick_2t_0  octa_symm_thick_2t_0_0
+timestamp 1661649517
+transform 1 0 -10000 0 1 -10000
+box -11661 -13750 8850 13750
+<< end >>

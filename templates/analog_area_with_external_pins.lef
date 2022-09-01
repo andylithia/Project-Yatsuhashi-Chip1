@@ -1,0 +1,1148 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+UNITS
+  DATABASE MICRONS 1000 ;
+END UNITS
+
+MACRO analog_area
+  FOREIGN analog_area ;
+
+
+  SIZE 2920 BY 820 ;
+  CLASS BLOCK ;
+  PIN analog_la_out[0]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 100.0
+           0.0
+           100.56
+           2.0 ;
+    END
+  END analog_la_out[0]
+  PIN analog_la_out[1]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 131.0
+           0.0
+           131.56
+           2.0 ;
+    END
+  END analog_la_out[1]
+  PIN analog_la_out[2]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 162.0
+           0.0
+           162.56
+           2.0 ;
+    END
+  END analog_la_out[2]
+  PIN analog_la_out[3]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 193.0
+           0.0
+           193.56
+           2.0 ;
+    END
+  END analog_la_out[3]
+  PIN analog_la_out[4]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 224.0
+           0.0
+           224.56
+           2.0 ;
+    END
+  END analog_la_out[4]
+  PIN analog_la_out[5]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 255.0
+           0.0
+           255.56
+           2.0 ;
+    END
+  END analog_la_out[5]
+  PIN analog_la_out[6]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 286.0
+           0.0
+           286.56
+           2.0 ;
+    END
+  END analog_la_out[6]
+  PIN analog_la_out[7]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 317.0
+           0.0
+           317.56
+           2.0 ;
+    END
+  END analog_la_out[7]
+  PIN analog_la_out[8]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 348.0
+           0.0
+           348.56
+           2.0 ;
+    END
+  END analog_la_out[8]
+  PIN analog_la_out[9]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 379.0
+           0.0
+           379.56
+           2.0 ;
+    END
+  END analog_la_out[9]
+  PIN analog_la_out[10]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 410.0
+           0.0
+           410.56
+           2.0 ;
+    END
+  END analog_la_out[10]
+  PIN analog_la_out[11]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 441.0
+           0.0
+           441.56
+           2.0 ;
+    END
+  END analog_la_out[11]
+  PIN analog_la_out[12]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 472.0
+           0.0
+           472.56
+           2.0 ;
+    END
+  END analog_la_out[12]
+  PIN analog_la_out[13]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 503.0
+           0.0
+           503.56
+           2.0 ;
+    END
+  END analog_la_out[13]
+  PIN analog_la_out[14]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 534.0
+           0.0
+           534.56
+           2.0 ;
+    END
+  END analog_la_out[14]
+  PIN analog_la_out[15]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 565.0
+           0.0
+           565.56
+           2.0 ;
+    END
+  END analog_la_out[15]
+  PIN analog_la_out[16]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 596.0
+           0.0
+           596.56
+           2.0 ;
+    END
+  END analog_la_out[16]
+  PIN analog_la_out[17]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 627.0
+           0.0
+           627.56
+           2.0 ;
+    END
+  END analog_la_out[17]
+  PIN analog_la_out[18]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 658.0
+           0.0
+           658.56
+           2.0 ;
+    END
+  END analog_la_out[18]
+  PIN analog_la_out[19]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 689.0
+           0.0
+           689.56
+           2.0 ;
+    END
+  END analog_la_out[19]
+  PIN analog_la_out[20]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 720.0
+           0.0
+           720.56
+           2.0 ;
+    END
+  END analog_la_out[20]
+  PIN analog_la_out[21]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 751.0
+           0.0
+           751.56
+           2.0 ;
+    END
+  END analog_la_out[21]
+  PIN analog_la_out[22]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 782.0
+           0.0
+           782.56
+           2.0 ;
+    END
+  END analog_la_out[22]
+  PIN analog_la_out[23]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 813.0
+           0.0
+           813.56
+           2.0 ;
+    END
+  END analog_la_out[23]
+  PIN analog_la_out[24]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 844.0
+           0.0
+           844.56
+           2.0 ;
+    END
+  END analog_la_out[24]
+  PIN analog_la_out[25]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 875.0
+           0.0
+           875.56
+           2.0 ;
+    END
+  END analog_la_out[25]
+  PIN analog_la_out[26]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 906.0
+           0.0
+           906.56
+           2.0 ;
+    END
+  END analog_la_out[26]
+  PIN analog_la_out[27]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 937.0
+           0.0
+           937.56
+           2.0 ;
+    END
+  END analog_la_out[27]
+  PIN analog_la_out[28]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 968.0
+           0.0
+           968.56
+           2.0 ;
+    END
+  END analog_la_out[28]
+  PIN analog_la_out[29]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 999.0
+           0.0
+           999.56
+           2.0 ;
+    END
+  END analog_la_out[29]
+  PIN analog_la_in[0]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1030.0
+           0.0
+           1030.56
+           2.0 ;
+    END
+  END analog_la_in[0]
+  PIN analog_la_in[1]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1061.0
+           0.0
+           1061.56
+           2.0 ;
+    END
+  END analog_la_in[1]
+  PIN analog_la_in[2]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1092.0
+           0.0
+           1092.56
+           2.0 ;
+    END
+  END analog_la_in[2]
+  PIN analog_la_in[3]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1123.0
+           0.0
+           1123.56
+           2.0 ;
+    END
+  END analog_la_in[3]
+  PIN analog_la_in[4]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1154.0
+           0.0
+           1154.56
+           2.0 ;
+    END
+  END analog_la_in[4]
+  PIN analog_la_in[5]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1185.0
+           0.0
+           1185.56
+           2.0 ;
+    END
+  END analog_la_in[5]
+  PIN analog_la_in[6]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1216.0
+           0.0
+           1216.56
+           2.0 ;
+    END
+  END analog_la_in[6]
+  PIN analog_la_in[7]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1247.0
+           0.0
+           1247.56
+           2.0 ;
+    END
+  END analog_la_in[7]
+  PIN analog_la_in[8]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1278.0
+           0.0
+           1278.56
+           2.0 ;
+    END
+  END analog_la_in[8]
+  PIN analog_la_in[9]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1309.0
+           0.0
+           1309.56
+           2.0 ;
+    END
+  END analog_la_in[9]
+  PIN analog_la_in[10]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1340.0
+           0.0
+           1340.56
+           2.0 ;
+    END
+  END analog_la_in[10]
+  PIN analog_la_in[11]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1371.0
+           0.0
+           1371.56
+           2.0 ;
+    END
+  END analog_la_in[11]
+  PIN analog_la_in[12]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1402.0
+           0.0
+           1402.56
+           2.0 ;
+    END
+  END analog_la_in[12]
+  PIN analog_la_in[13]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1433.0
+           0.0
+           1433.56
+           2.0 ;
+    END
+  END analog_la_in[13]
+  PIN analog_la_in[14]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1464.0
+           0.0
+           1464.56
+           2.0 ;
+    END
+  END analog_la_in[14]
+  PIN analog_la_in[15]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1495.0
+           0.0
+           1495.56
+           2.0 ;
+    END
+  END analog_la_in[15]
+  PIN analog_la_in[16]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1526.0
+           0.0
+           1526.56
+           2.0 ;
+    END
+  END analog_la_in[16]
+  PIN analog_la_in[17]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1557.0
+           0.0
+           1557.56
+           2.0 ;
+    END
+  END analog_la_in[17]
+  PIN analog_la_in[18]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1588.0
+           0.0
+           1588.56
+           2.0 ;
+    END
+  END analog_la_in[18]
+  PIN analog_la_in[19]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1619.0
+           0.0
+           1619.56
+           2.0 ;
+    END
+  END analog_la_in[19]
+  PIN analog_la_in[20]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1650.0
+           0.0
+           1650.56
+           2.0 ;
+    END
+  END analog_la_in[20]
+  PIN analog_la_in[21]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1681.0
+           0.0
+           1681.56
+           2.0 ;
+    END
+  END analog_la_in[21]
+  PIN analog_la_in[22]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1712.0
+           0.0
+           1712.56
+           2.0 ;
+    END
+  END analog_la_in[22]
+  PIN analog_la_in[23]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1743.0
+           0.0
+           1743.56
+           2.0 ;
+    END
+  END analog_la_in[23]
+  PIN analog_la_in[24]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1774.0
+           0.0
+           1774.56
+           2.0 ;
+    END
+  END analog_la_in[24]
+  PIN analog_la_in[25]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1805.0
+           0.0
+           1805.56
+           2.0 ;
+    END
+  END analog_la_in[25]
+  PIN analog_la_in[26]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1836.0
+           0.0
+           1836.56
+           2.0 ;
+    END
+  END analog_la_in[26]
+  PIN analog_la_in[27]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1867.0
+           0.0
+           1867.56
+           2.0 ;
+    END
+  END analog_la_in[27]
+  PIN analog_la_in[28]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1898.0
+           0.0
+           1898.56
+           2.0 ;
+    END
+  END analog_la_in[28]
+  PIN analog_la_in[29]
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1929.0
+           0.0
+           1929.56
+           2.0 ;
+    END
+  END analog_la_in[29]
+  PIN gpio_analog[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2917.6
+           217.81
+           2924.0
+           218.37 ;
+    END
+  END gpio_analog[6]
+  PIN gpio_noesd[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2917.6
+           223.72
+           2924.0
+           224.28 ;
+    END
+  END gpio_noesd[6]
+  PIN io_analog[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2911.5
+           689.92
+           2920.0
+           714.92 ;
+    END
+  END io_analog[0]
+  PIN io_analog[10]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 0.0
+           701.21
+           8.5
+           726.21 ;
+    END
+  END io_analog[10]
+  PIN io_analog[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2832.97
+           811.5
+           2857.97
+           820.0 ;
+    END
+  END io_analog[1]
+  PIN io_analog[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2326.97
+           811.5
+           2351.97
+           820.0 ;
+    END
+  END io_analog[2]
+  PIN io_analog[3]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2066.97
+           811.5
+           2091.97
+           820.0 ;
+    END
+  END io_analog[3]
+  PIN io_analog[4]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1646.47
+           811.5
+           1671.47
+           820.0 ;
+      LAYER met3 ;
+      RECT 1594.97
+           811.5
+           1619.97
+           820.0 ;
+    END
+  END io_analog[4]
+  PIN io_analog[5]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1137.97
+           811.5
+           1162.97
+           820.0 ;
+      LAYER met3 ;
+      RECT 1086.47
+           811.5
+           1111.47
+           820.0 ;
+    END
+  END io_analog[5]
+  PIN io_analog[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 879.47
+           811.5
+           904.47
+           820.0 ;
+      LAYER met3 ;
+      RECT 827.97
+           811.5
+           852.97
+           820.0 ;
+    END
+  END io_analog[6]
+  PIN io_analog[7]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 600.97
+           811.5
+           625.97
+           820.0 ;
+    END
+  END io_analog[7]
+  PIN io_analog[8]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 340.97
+           811.5
+           365.97
+           820.0 ;
+    END
+  END io_analog[8]
+  PIN io_analog[9]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 80.97
+           811.5
+           105.97
+           820.0 ;
+    END
+  END io_analog[9]
+  PIN io_clamp_high[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1633.97
+           811.5
+           1644.97
+           820.0 ;
+    END
+  END io_clamp_high[0]
+  PIN io_clamp_high[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1125.47
+           811.5
+           1136.47
+           820.0 ;
+    END
+  END io_clamp_high[1]
+  PIN io_clamp_high[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 866.97
+           811.5
+           877.97
+           820.0 ;
+    END
+  END io_clamp_high[2]
+  PIN io_clamp_low[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1621.47
+           811.5
+           1632.47
+           820.0 ;
+    END
+  END io_clamp_low[0]
+  PIN io_clamp_low[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 1112.97
+           811.5
+           1123.97
+           820.0 ;
+    END
+  END io_clamp_low[1]
+  PIN io_clamp_low[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 854.47
+           811.5
+           865.47
+           820.0 ;
+    END
+  END io_clamp_low[2]
+  PIN io_in[13]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2917.6
+           235.54
+           2924.0
+           236.1 ;
+    END
+  END io_in[13]
+  PIN io_in_3v3[13]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2917.6
+           229.63
+           2924.0
+           230.19 ;
+    END
+  END io_in_3v3[13]
+  PIN io_oeb[13]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2917.6
+           247.36
+           2924.0
+           247.92 ;
+    END
+  END io_oeb[13]
+  PIN io_out[13]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2917.6
+           241.45
+           2924.0
+           242.01 ;
+    END
+  END io_out[13]
+  PIN vccd1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2911.7
+           498.92
+           2920.0
+           522.92 ;
+      LAYER met3 ;
+      RECT 2911.7
+           448.92
+           2920.0
+           472.92 ;
+    END
+  END vccd1
+  PIN vccd2
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 0.0
+           519.21
+           8.3
+           543.21 ;
+      LAYER met3 ;
+      RECT 0.0
+           469.21
+           8.3
+           493.21 ;
+    END
+  END vccd2
+  PIN vdda1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2911.7
+           2.81
+           2920.0
+           26.81 ;
+      LAYER met3 ;
+      RECT 2911.7
+           52.81
+           2920.0
+           76.81 ;
+      LAYER met4 ;
+      RECT 2820.49
+           0.0
+           2858.99
+           4.0 ;
+    END
+  END vdda1
+  PIN vssa1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 2602.97
+           811.7
+           2626.97
+           820.0 ;
+      LAYER met3 ;
+      RECT 2552.97
+           811.7
+           2576.97
+           820.0 ;
+      LAYER met4 ;
+      RECT 2862.29
+           0.0
+           2900.79
+           4.0 ;
+    END
+  END vssa1
+  PIN vssa2
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met3 ;
+      RECT 0.0
+           97.21
+           8.3
+           121.21 ;
+      LAYER met3 ;
+      RECT 0.0
+           47.21
+           8.3
+           71.21 ;
+    END
+  END vssa2
+  PIN vdda2
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met4 ;
+      RECT 30.49
+           0.0
+           68.99
+           4.0 ;
+    END
+  END vdda2
+  PIN vssd2
+    DIRECTION inout ;
+    USE signal ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met4 ;
+      RECT 72.29
+           0.0
+           110.79
+           4.0 ;
+    END
+  END vssd2
+
+
+END analog_area
+
+END LIBRARY

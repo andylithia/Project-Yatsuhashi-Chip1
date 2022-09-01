@@ -1,0 +1,26 @@
+magic
+tech sky130B
+timestamp 1662004902
+<< metal2 >>
+rect -1100 4300 -800 4400
+<< metal4 >>
+rect 1700 -1700 2900 -600
+rect -1900 -3450 -550 -3000
+rect 1400 -6700 2900 -1700
+<< metal5 >>
+rect -4500 -3000 -3000 1500
+rect -500 -3000 700 -2400
+rect -4500 -4500 700 -3000
+use lna_complete_2_wo_ind  lna_complete_2_wo_ind_0
+timestamp 1662001208
+transform 1 0 0 0 1 0
+box -10500 -7100 5450 11950
+use octa_2t_190_170_flat  octa_2t_190_170_flat_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
+timestamp 1661314321
+transform 1 0 21550 0 1 11400
+box -19700 -19500 -2700 -500
+use octa_thick_3t_250_250_flat  octa_thick_3t_250_250_flat_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
+timestamp 1661315583
+transform 0 -1 -13400 1 0 33650
+box -23550 -22500 1450 2500
+<< end >>

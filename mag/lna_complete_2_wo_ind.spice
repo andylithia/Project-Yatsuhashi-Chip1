@@ -1,0 +1,109 @@
+* NGSPICE file created from lna_complete_2_wo_ind.ext - technology: sky130B
+
+.subckt sky130_fd_pr__res_generic_po_G5R3N7 a_n271_n707#
+R0 a_n141_n577# a_75_504# sky130_fd_pr__res_generic_po w=330000u l=1.28e+07u
+.ends
+
+.subckt sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap G D S VSUBS
+X0 D G S VSUBS sky130_fd_pr__nfet_01v8 ad=4.242e+12p pd=3.198e+07u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
+X1 D G S VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X2 S G D VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 S G D VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 D S 6.34fF
+C1 D VSUBS 1.05fF
+.ends
+
+.subckt RF_nfet_12xW5p0L0p15 G sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
++ SD S
+Xsky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0 G sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
++ SD S sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap
+Xsky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1 G sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
++ SD S sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap
+Xsky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2 G sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D
++ SD S sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap
+C0 G S 2.10fF
+C1 sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D S 2.40fF
+.ends
+
+.subckt captuner_complete_1_r G8 G4 G2 G1 TOP SUB BOT
+X0 BOT_C1 G1 BOT SUB sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=5.656e+12p ps=4.264e+07u w=5.05e+06u l=150000u
+X1 BOT G4 BOT_C4 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
+X2 BOT G1 BOT_C1 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 TOP BOT_C4 sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=4e+06u
+X4 BOT_C2 G2 BOT SUB sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=0p ps=0u w=5.05e+06u l=150000u
+X5 TOP BOT_C8 sky130_fd_pr__cap_mim_m3_1 l=5e+06u w=8e+06u
+X6 BOT G8 BOT_C8 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.828e+12p ps=2.132e+07u w=5.05e+06u l=150000u
+X7 TOP BOT_C2 sky130_fd_pr__cap_mim_m3_1 l=4e+06u w=2.5e+06u
+X8 TOP BOT_C1 sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=2.5e+06u
+X9 BOT_C8 G8 BOT SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X10 BOT G2 BOT_C2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X11 BOT_C4 G4 BOT SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+C0 BOT BOT_C4 3.59fF
+C1 BOT_C8 BOT 4.38fF
+C2 BOT_C1 BOT 3.56fF
+C3 TOP BOT_C2 1.67fF
+C4 TOP BOT_C4 2.51fF
+C5 TOP BOT_C8 4.53fF
+C6 BOT_C1 TOP 1.07fF
+C7 BOT BOT_C2 3.54fF
+C8 TOP SUB 2.33fF
+C9 BOT_C4 SUB 3.66fF
+C10 BOT_C8 SUB 3.70fF
+C11 BOT_C1 SUB 3.00fF
+C12 BOT_C2 SUB 3.19fF
+.ends
+
+.subckt RF_nfet_8xW5p0L0p15_1 G sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS
++ SD sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
+Xsky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0 G sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
++ SD sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap
+Xsky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1 G sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
++ SD sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap
+C0 G sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS 1.45fF
+C1 sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/VSUBS 2.24fF
+.ends
+
+.subckt sky130_fd_pr__res_generic_po_3AUR5J a_n325_n719#
+R0 a_n195_n588# a_129_n588# sky130_fd_pr__res_generic_po w=330000u l=2.068e+07u
+.ends
+
+.subckt lna_complete_2_wo_ind
+Xsky130_fd_pr__res_generic_po_G5R3N7_1 VSUBS sky130_fd_pr__res_generic_po_G5R3N7
+XRF_nfet_12xW5p0L0p15_0 G_TOP S1 VOUT VSUBS RF_nfet_12xW5p0L0p15
+Xcaptuner_complete_1_r_0 G8 G4 G2 G1 VHI VSUBS VOUT captuner_complete_1_r
+XRF_nfet_8xW5p0L0p15_1_0 VIN VSUBS SS RF_nfet_8xW5p0L0p15_1_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D
++ RF_nfet_8xW5p0L0p15_1
+Xsky130_fd_pr__res_generic_po_3AUR5J_0 VSUBS sky130_fd_pr__res_generic_po_3AUR5J
+Xsky130_fd_pr__res_generic_po_G5R3N7_0 VSUBS sky130_fd_pr__res_generic_po_G5R3N7
+X0 VHI VSUBS sky130_fd_pr__cap_mim_m3_2 l=4.4e+07u w=5e+07u
+X1 VSUBS VHI sky130_fd_pr__cap_mim_m3_1 l=4.4e+07u w=5e+07u
+X2 VSUBS VSUBS sky130_fd_pr__cap_mim_m3_2 l=7.5e+06u w=4.5e+06u
+X3 VIN VSUBS sky130_fd_pr__cap_mim_m3_2 l=1.15e+07u w=9.5e+06u
+X4 VSUBS VSUBS sky130_fd_pr__cap_mim_m3_1 l=7.5e+06u w=4.5e+06u
+X5 VSUBS VIN sky130_fd_pr__cap_mim_m3_1 l=1.15e+07u w=9.5e+06u
+X6 VIN RFB_MID sky130_fd_pr__cap_mim_m3_2 l=2.05e+07u w=1.15e+07u
+X7 RFB_MID VIN sky130_fd_pr__cap_mim_m3_1 l=2.05e+07u w=1.15e+07u
+C0 m5_n800_n3000# SS 5.08fF
+C1 G_TOP VOUT 1.35fF
+C2 VIN SS 7.11fF
+C3 VIN RFB_MID 40.52fF
+C4 RF_nfet_8xW5p0L0p15_1_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D D1 2.37fF
+C5 D1 VSUBS 11.90fF $ **FLOATING
+C6 RFB_MID VSUBS 5.67fF
+C7 VIN VSUBS 36.97fF
+C8 SS VSUBS 9.37fF
+C9 RF_nfet_8xW5p0L0p15_1_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D VSUBS 2.72fF
+C10 VHI VSUBS 421.33fF
+C11 captuner_complete_1_r_0/BOT_C4 VSUBS 4.05fF $ **FLOATING
+C12 captuner_complete_1_r_0/BOT_C8 VSUBS 3.68fF $ **FLOATING
+C13 captuner_complete_1_r_0/BOT_C1 VSUBS 3.21fF $ **FLOATING
+C14 captuner_complete_1_r_0/BOT_C2 VSUBS 3.48fF $ **FLOATING
+C15 G4 VSUBS 1.28fF
+C16 G8 VSUBS 1.10fF
+C17 G1 VSUBS 1.06fF
+C18 G2 VSUBS 1.29fF
+C19 G_TOP VSUBS 3.56fF
+C20 VOUT VSUBS 48.87fF
+C21 S1 VSUBS 7.41fF
+.ends
+

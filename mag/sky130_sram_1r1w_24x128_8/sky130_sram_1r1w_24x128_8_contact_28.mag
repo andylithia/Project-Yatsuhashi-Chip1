@@ -1,0 +1,19 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< nwell >>
+rect -59 -43 109 125
+<< nsubdiff >>
+rect 0 58 50 82
+rect 0 24 8 58
+rect 42 24 50 58
+rect 0 0 50 24
+<< nsubdiffcont >>
+rect 8 24 42 58
+<< locali >>
+rect 8 58 42 74
+rect 8 8 42 24
+<< properties >>
+string FIXED_BBOX -59 -43 109 125
+<< end >>

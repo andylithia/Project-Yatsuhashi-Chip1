@@ -1,0 +1,53 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< nwell >>
+rect -36 679 6996 1471
+<< locali >>
+rect 0 1397 6960 1431
+rect 64 636 98 702
+rect 196 652 449 686
+rect 547 664 817 698
+rect 1503 690 1985 724
+rect 2642 690 3433 724
+rect 5153 690 5187 724
+rect 919 653 1293 687
+rect 1503 670 1537 690
+rect 0 -17 6960 17
+use sky130_sram_1r1w_24x128_8_pinv_5  sky130_sram_1r1w_24x128_8_pinv_5_0
+timestamp 1661296025
+transform 1 0 368 0 1 0
+box -36 -17 404 1471
+use sky130_sram_1r1w_24x128_8_pinv_5  sky130_sram_1r1w_24x128_8_pinv_5_1
+timestamp 1661296025
+transform 1 0 0 0 1 0
+box -36 -17 404 1471
+use sky130_sram_1r1w_24x128_8_pinv_6  sky130_sram_1r1w_24x128_8_pinv_6_0
+timestamp 1661296025
+transform 1 0 736 0 1 0
+box -36 -17 512 1471
+use sky130_sram_1r1w_24x128_8_pinv_7  sky130_sram_1r1w_24x128_8_pinv_7_0
+timestamp 1661296025
+transform 1 0 1212 0 1 0
+box -36 -17 728 1471
+use sky130_sram_1r1w_24x128_8_pinv_8  sky130_sram_1r1w_24x128_8_pinv_8_0
+timestamp 1661296025
+transform 1 0 1904 0 1 0
+box -36 -17 1484 1471
+use sky130_sram_1r1w_24x128_8_pinv_9  sky130_sram_1r1w_24x128_8_pinv_9_0
+timestamp 1661296025
+transform 1 0 3352 0 1 0
+box -36 -17 3644 1471
+<< labels >>
+rlabel locali s 5170 707 5170 707 4 Z
+port 1 nsew
+rlabel locali s 81 669 81 669 4 A
+port 2 nsew
+rlabel locali s 3480 0 3480 0 4 gnd
+port 3 nsew
+rlabel locali s 3480 1414 3480 1414 4 vdd
+port 4 nsew
+<< properties >>
+string FIXED_BBOX 0 0 6960 1414
+<< end >>

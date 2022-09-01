@@ -1,0 +1,76 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1661296025
+<< locali >>
+rect 0 1396 2554 1432
+rect 1855 724 1889 885
+rect 1855 698 2051 724
+rect 1694 690 2051 698
+rect 2276 690 2395 724
+rect 1694 664 1889 690
+rect 2361 503 2395 690
+rect 0 -18 2554 18
+<< metal1 >>
+rect 1841 859 1905 911
+rect 1543 655 1607 707
+rect 2346 477 2410 529
+<< metal2 >>
+rect 1858 871 1886 899
+rect 369 692 423 756
+rect 1549 661 1601 681
+rect 1115 609 1601 661
+rect 137 538 203 590
+rect 2364 489 2392 517
+use sky130_fd_bd_sram__openram_dff  sky130_fd_bd_sram__openram_dff_0
+timestamp 1661296025
+transform 1 0 0 0 1 0
+box -36 -43 1204 1467
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_0
+timestamp 1661296025
+transform 1 0 1844 0 1 852
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_1
+timestamp 1661296025
+transform 1 0 2349 0 1 470
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_13  sky130_sram_1r1w_24x128_8_contact_13_2
+timestamp 1661296025
+transform 1 0 1546 0 1 648
+box 0 0 58 66
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_0
+timestamp 1661296025
+transform 1 0 1840 0 1 853
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_1
+timestamp 1661296025
+transform 1 0 2346 0 1 471
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_contact_18  sky130_sram_1r1w_24x128_8_contact_18_2
+timestamp 1661296025
+transform 1 0 1543 0 1 649
+box 0 0 64 64
+use sky130_sram_1r1w_24x128_8_pinv_0  sky130_sram_1r1w_24x128_8_pinv_0_0
+timestamp 1661296025
+transform 1 0 1494 0 1 0
+box -36 -17 512 1471
+use sky130_sram_1r1w_24x128_8_pinv_1  sky130_sram_1r1w_24x128_8_pinv_1_0
+timestamp 1661296025
+transform 1 0 1970 0 1 0
+box -36 -17 620 1471
+<< labels >>
+rlabel locali s 1277 1414 1277 1414 4 vdd
+port 1 nsew
+rlabel locali s 1277 0 1277 0 4 gnd
+port 2 nsew
+rlabel metal2 s 369 692 423 756 4 clk
+port 3 nsew
+rlabel metal2 s 137 538 203 590 4 D
+port 4 nsew
+rlabel metal2 s 2364 489 2392 517 4 Q
+port 5 nsew
+rlabel metal2 s 1858 871 1886 899 4 Qb
+port 6 nsew
+<< properties >>
+string FIXED_BBOX 0 0 2554 1414
+<< end >>

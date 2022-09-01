@@ -21,8 +21,8 @@ K1 Ldeg1 Lcpli 0.9
 Lcpli vgate1 net7 0 m=1
 C1 net1 vgate1 50f m=1
 **** begin user architecture code
-.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-.include /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+.include /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 .param L=0.18
 .param Ls=0.5n
