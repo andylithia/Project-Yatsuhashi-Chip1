@@ -3,8 +3,8 @@
 **.subckt LNA5_with_output_buf_4_SP_captune
 V1 VDD GND 1.8
 V2 net3 GND dc 0.9 ac 1 portnum 1 z0 50
-I0 VDDI Vref 4m
-XM1 Vref Vref GNDI GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=2
+I0 VDDI Vref 1m
+XM1 Vref Vref GNDI GNDI sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=2.5u l=0.15u m=1
 XC7 Vref GNDI sky130_fd_pr__cap_mim_m3_1 W=20 L=30 MF=1 m=1
 Ldeg5 net1 VDDI 2n m=1
 R3 net1 VDD 3 m=1
