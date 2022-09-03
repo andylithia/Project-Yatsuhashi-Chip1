@@ -186,8 +186,8 @@ C {devices/vsource.sym} 630 -1620 0 0 {name=V1 value=1.8}
 C {devices/gnd.sym} 630 -1430 0 0 {name=l3 lab=GND}
 C {devices/vsource.sym} 615 -1020 0 0 {name=V2 value="dc 0.9 ac 1 portnum 1 z0 50"
 }
-C {devices/isource.sym} 870 -1350 0 0 {name=I0 value=4m}
-C {devices/nmos4.sym} 890 -1230 0 1 {name=XM1 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=5.05u l=0.15u m=2}
+C {devices/isource.sym} 870 -1350 0 0 {name=I0 value=1m}
+C {devices/nmos4.sym} 890 -1230 0 1 {name=XM1 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=2.5u l=0.15u m=1}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 940 -1200 0 0 {name=C7 model=cap_mim_m3_1 W=20 L=30 MF=1 spiceprefix=X}
 C {devices/ind.sym} 720 -1740 0 0 {name=Ldeg5
 m=1
