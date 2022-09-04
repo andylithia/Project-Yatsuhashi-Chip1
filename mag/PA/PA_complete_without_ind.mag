@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1661126380
+timestamp 1662263286
 << metal1 >>
 rect 1540 9540 2030 9620
 rect 1670 9120 1750 9540
@@ -261,7 +261,7 @@ timestamp 1660789662
 transform 0 -1 10000 1 0 700
 box -700 -500 7196 10000
 use hash_m1m2m3m4_W20L20_flat  hash_m1m2m3m4_W20L20_flat_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
-timestamp 1659501637
+timestamp 1662263286
 transform 1 0 1900 0 1 7640
 box 0 0 4000 4000
 use nfet_diode_1  nfet_diode_1_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON

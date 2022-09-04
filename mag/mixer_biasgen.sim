@@ -1,0 +1,250 @@
+| units: 500000 tech: sky130B format: MIT
+x IREF VHI m1_440_420# VHI l=200 w=1000 x=255 y=421 sky130_fd_pr__pfet_01v8
+x IREF m1_440_420# VHI VHI l=200 w=1000 x=513 y=421 sky130_fd_pr__pfet_01v8
+x IREF C VHI VHI l=200 w=1000 x=2577 y=421 sky130_fd_pr__pfet_01v8
+x IREF C VHI VHI l=200 w=1000 x=7220 y=421 sky130_fd_pr__pfet_01v8
+x IREF B VHI VHI l=200 w=1000 x=2061 y=421 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=8768 y=421 sky130_fd_pr__pfet_01v8
+x VHI VHI VHI VHI l=200 w=1000 x=9026 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI C VHI l=200 w=1000 x=2319 y=421 sky130_fd_pr__pfet_01v8
+x IREF IREF VHI VHI l=200 w=1000 x=4640 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI IREF VHI l=200 w=1000 x=4383 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=7478 y=421 sky130_fd_pr__pfet_01v8
+x IREF D VHI VHI l=200 w=1000 x=3093 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI D VHI l=200 w=1000 x=3867 y=421 sky130_fd_pr__pfet_01v8
+x IREF B VHI VHI l=200 w=1000 x=6704 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI C VHI l=200 w=1000 x=6962 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=1287 y=421 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=1545 y=421 sky130_fd_pr__pfet_01v8
+x IREF A VHI VHI l=200 w=1000 x=3609 y=421 sky130_fd_pr__pfet_01v8
+x IREF D VHI VHI l=200 w=1000 x=4125 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=771 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI D VHI l=200 w=1000 x=2835 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI A VHI l=200 w=1000 x=5930 y=421 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=1029 y=421 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=7736 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI A VHI l=200 w=1000 x=3351 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI D VHI l=200 w=1000 x=5414 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI A VHI l=200 w=1000 x=4898 y=421 sky130_fd_pr__pfet_01v8
+x IREF A VHI VHI l=200 w=1000 x=5156 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI B VHI l=200 w=1000 x=6446 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=8510 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI B VHI l=200 w=1000 x=1803 y=421 sky130_fd_pr__pfet_01v8
+x IREF A VHI VHI l=200 w=1000 x=6188 y=421 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=8252 y=421 sky130_fd_pr__pfet_01v8
+x VHI VHI VHI VHI l=200 w=1000 x=-3 y=421 sky130_fd_pr__pfet_01v8
+x IREF D VHI VHI l=200 w=1000 x=5672 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=7994 y=421 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=255 y=-754 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=513 y=-754 sky130_fd_pr__pfet_01v8
+x IREF B VHI VHI l=200 w=1000 x=2577 y=-754 sky130_fd_pr__pfet_01v8
+x IREF B VHI VHI l=200 w=1000 x=7220 y=-754 sky130_fd_pr__pfet_01v8
+x IREF C VHI VHI l=200 w=1000 x=2061 y=-754 sky130_fd_pr__pfet_01v8
+x IREF m1_8700_n1760# VHI VHI l=200 w=1000 x=8768 y=-754 sky130_fd_pr__pfet_01v8
+x VHI VHI VHI VHI l=200 w=1000 x=9026 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI B VHI l=200 w=1000 x=2319 y=-754 sky130_fd_pr__pfet_01v8
+x IREF IREF VHI VHI l=200 w=1000 x=4640 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI IREF VHI l=200 w=1000 x=4383 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=7478 y=-754 sky130_fd_pr__pfet_01v8
+x IREF C VHI VHI l=200 w=1000 x=3093 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI A VHI l=200 w=1000 x=3867 y=-754 sky130_fd_pr__pfet_01v8
+x IREF C VHI VHI l=200 w=1000 x=6704 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI B VHI l=200 w=1000 x=6962 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=1287 y=-754 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=1545 y=-754 sky130_fd_pr__pfet_01v8
+x IREF D VHI VHI l=200 w=1000 x=3609 y=-754 sky130_fd_pr__pfet_01v8
+x IREF A VHI VHI l=200 w=1000 x=4125 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=771 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI C VHI l=200 w=1000 x=2835 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI B VHI l=200 w=1000 x=5930 y=-754 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=1029 y=-754 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=7736 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI D VHI l=200 w=1000 x=3351 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI A VHI l=200 w=1000 x=5414 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI D VHI l=200 w=1000 x=4898 y=-754 sky130_fd_pr__pfet_01v8
+x IREF D VHI VHI l=200 w=1000 x=5156 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI C VHI l=200 w=1000 x=6446 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI m1_8700_n1760# VHI l=200 w=1000 x=8510 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI C VHI l=200 w=1000 x=1803 y=-754 sky130_fd_pr__pfet_01v8
+x IREF B VHI VHI l=200 w=1000 x=6188 y=-754 sky130_fd_pr__pfet_01v8
+x IREF R VHI VHI l=200 w=1000 x=8252 y=-754 sky130_fd_pr__pfet_01v8
+x VHI VHI VHI VHI l=200 w=1000 x=-3 y=-754 sky130_fd_pr__pfet_01v8
+x IREF A VHI VHI l=200 w=1000 x=5672 y=-754 sky130_fd_pr__pfet_01v8
+x IREF VHI R VHI l=200 w=1000 x=7994 y=-754 sky130_fd_pr__pfet_01v8
+C C IREF 3.07
+C R C 10.43
+C VHI A 9.72
+C VHI D 9.73
+C VHI B 8.74
+C VHI IREF 52.51
+C VHI R 17.47
+C A B 10.16
+C A IREF 7.19
+C D IREF 5.94
+C VHI C 8.69
+C B IREF 3.08
+C R B 10.39
+C R IREF 5.27
+C D C 10.32
+C VHI GND 115.51
+R VHI 322397
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_4415_n561#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_4615_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_4357_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_3841_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_4615_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_4357_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_3841_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_4415_n561#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_3325_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_2809_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_2293_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_3325_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_2809_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_2293_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_1777_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_1261_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_1777_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_1261_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_745_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_229_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n287_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_745_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_229_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n287_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n803_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n1319_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n1835_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n803_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n1319_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n1835_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4615_n561#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n2351_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n2867_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n3383_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n3899_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4415_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4673_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_0/w_n4811_n684#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n2351_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n2867_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n3383_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n3899_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4415_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4673_n464#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4615_n561#
+= VHI sky130_fd_pr__pfet_01v8_VM83GD_1/w_n4811_n684#
+= VHI w_n200_n700#
+R m1_8700_n1760# 3779
+= m1_8700_n1760# sky130_fd_pr__pfet_01v8_VM83GD_1/a_4099_n464#
+R D 20645
+= D sky130_fd_pr__pfet_01v8_VM83GD_0/a_1003_n464#
+= D sky130_fd_pr__pfet_01v8_VM83GD_0/a_n545_n464#
+= D sky130_fd_pr__pfet_01v8_VM83GD_1/a_487_n464#
+= D sky130_fd_pr__pfet_01v8_VM83GD_0/a_n1577_n464#
+= D sky130_fd_pr__pfet_01v8_VM83GD_1/a_n1061_n464#
+R B 20648
+= B sky130_fd_pr__pfet_01v8_VM83GD_1/a_2551_n464#
+= B sky130_fd_pr__pfet_01v8_VM83GD_0/a_2035_n464#
+= B sky130_fd_pr__pfet_01v8_VM83GD_1/a_1519_n464#
+= B sky130_fd_pr__pfet_01v8_VM83GD_0/a_n2609_n464#
+= B sky130_fd_pr__pfet_01v8_VM83GD_1/a_n2093_n464#
+R C 20648
+= C sky130_fd_pr__pfet_01v8_VM83GD_0/a_2551_n464#
+= C sky130_fd_pr__pfet_01v8_VM83GD_1/a_2035_n464#
+= C sky130_fd_pr__pfet_01v8_VM83GD_1/a_n1577_n464#
+= C sky130_fd_pr__pfet_01v8_VM83GD_0/a_n2093_n464#
+= C sky130_fd_pr__pfet_01v8_VM83GD_1/a_n2609_n464#
+R R 41705
+= R sky130_fd_pr__pfet_01v8_VM83GD_0/a_4099_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_0/a_3583_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_1/a_3583_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_0/a_3067_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_1/a_3067_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_0/a_n3125_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_0/a_n3641_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_1/a_n3125_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_1/a_n3641_n464#
+= R sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4157_n464#
+C IREF GND 2.25
+R IREF 40510
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_4157_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_3899_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_3641_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_4157_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_3899_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_3641_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_3383_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_3125_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_2867_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_2609_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_2351_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_3383_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_3125_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_2867_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_2609_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_2351_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_2093_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_1835_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_1577_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_1319_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_1061_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_803_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_2093_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_1835_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_1577_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_1319_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_1061_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_803_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_545_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_287_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_29_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n229_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n487_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n29_n464#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n29_n464#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_545_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_287_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_29_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n229_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n487_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n745_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n1003_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n1261_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n1519_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n1777_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n745_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n1003_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n1261_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n1519_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n1777_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n2035_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n2293_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n2551_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n2809_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n3067_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n3325_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n3583_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n3841_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4099_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4357_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n2035_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n2293_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n2551_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n2809_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n3067_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n3325_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n3583_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n3841_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4099_n561#
+= IREF sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4357_n561#
+= VSUBS sky130_fd_pr__pfet_01v8_VM83GD_0/VSUBS
+= VSUBS sky130_fd_pr__pfet_01v8_VM83GD_1/VSUBS
+R A 20644
+= A sky130_fd_pr__pfet_01v8_VM83GD_0/a_1519_n464#
+= A sky130_fd_pr__pfet_01v8_VM83GD_1/a_1003_n464#
+= A sky130_fd_pr__pfet_01v8_VM83GD_0/a_487_n464#
+= A sky130_fd_pr__pfet_01v8_VM83GD_1/a_n545_n464#
+= A sky130_fd_pr__pfet_01v8_VM83GD_0/a_n1061_n464#
+R m1_440_420# 3779
+= m1_440_420# sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4157_n464#

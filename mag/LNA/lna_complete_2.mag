@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1662004902
+timestamp 1662220348
 << metal2 >>
 rect -1100 4300 -800 4400
 << metal4 >>
@@ -12,7 +12,7 @@ rect -4500 -3000 -3000 1500
 rect -500 -3000 700 -2400
 rect -4500 -4500 700 -3000
 use lna_complete_2_wo_ind  lna_complete_2_wo_ind_0
-timestamp 1662001208
+timestamp 1662220348
 transform 1 0 0 0 1 0
 box -10500 -7100 5450 11950
 use octa_2t_190_170_flat  octa_2t_190_170_flat_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
