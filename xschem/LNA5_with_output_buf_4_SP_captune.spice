@@ -1,5 +1,4 @@
-** sch_path:
-*+ /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA5_with_output_buf_4_SP_captune.sch
+** sch_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA5_with_output_buf_4_SP_captune.sch
 **.subckt LNA5_with_output_buf_4_SP_captune
 V1 VDD GND 1.8
 V2 net3 GND dc 0.9 ac 1 portnum 1 z0 50
@@ -13,8 +12,8 @@ R4 net2 GNDI 3 m=1
 C17 net7 net4 0.3p m=1
 L2 VDDI net4 2.5n m=1
 XC3 net12 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
-C8 GNDI GND 200f m=1
-C19 VDD VDDI 200f m=1
+C8 GNDI GND 1 m=1
+C19 VDD VDDI 1 m=1
 R2 net12 VDDI 5 m=1
 C1 net5 net3 1n m=1
 Ldeg1 net6 net5 2n m=1
@@ -22,7 +21,7 @@ L1 net10 vmid 0.7n m=1
 Ldeg2 net9 net6 0.5n m=1
 XC4 net13 GNDI sky130_fd_pr__cap_mim_m3_1 W=40 L=60 MF=8 m=8
 R8 net13 VDDI 5 m=1
-L4 net8 GNDI 0.15n m=1
+L4 net8 GNDI 1n m=1
 V3 net7 GNDI dc 0.9 ac 1 portnum 2 z0 50
 R7 g_top_ref VDDI 5k m=1
 C5 GNDI g_top_ref 50f m=1
@@ -69,17 +68,16 @@ plot NF NFmin
 .endc
 
 
-.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
-* .include
-*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+.lib /home/al/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include /home/al/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 **** end user architecture code
 **.ends
 
 * expanding   symbol:  LNA_complete_2_wo_ind_PEX.sym # of pins=15
-** sym_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA_complete_2_wo_ind_PEX.sym
-** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA_complete_2_wo_ind_PEX.sch
-.subckt LNA_complete_2_wo_ind_PEX  VHI VOUT G4 G8 G2 G1 RFB_MID G_TOP BIAS_TOP S1 D1 SS BIAS_BOT VIN
+** sym_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA_complete_2_wo_ind_PEX.sym
+** sch_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/LNA_complete_2_wo_ind_PEX.sch
+.subckt LNA_complete_2_wo_ind_PEX VHI VOUT G4 G8 G2 G1 RFB_MID G_TOP BIAS_TOP S1 D1 SS BIAS_BOT VIN
 + VLO
 *.iopin VHI
 *.iopin VLO

@@ -1,4 +1,5 @@
-v {xschem version=3.0.0 file_version=1.2 }
+v {xschem version=3.1.0 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -123,6 +124,44 @@ N 70 190 170 190 {
 lab=vin}
 N 70 280 70 340 {
 lab=vin}
+N 270 80 300 80 {
+lab=GND}
+N 300 80 300 130 {
+lab=GND}
+N 270 130 300 130 {
+lab=GND}
+N 270 110 270 130 {
+lab=GND}
+N 270 130 270 150 {
+lab=GND}
+N 190 80 230 80 {
+lab=#net5}
+N 130 80 150 80 {
+lab=GND}
+N 130 80 130 130 {
+lab=GND}
+N 130 130 270 130 {
+lab=GND}
+N 150 110 150 130 {
+lab=GND}
+N 210 30 210 80 {
+lab=#net5}
+N 150 30 210 30 {
+lab=#net5}
+N 150 30 150 50 {
+lab=#net5}
+N 120 30 150 30 {
+lab=#net5}
+N 90 -50 90 150 {
+lab=GND}
+N 90 -50 120 -50 {
+lab=GND}
+N 120 -50 120 -30 {
+lab=GND}
+N 270 -40 270 -30 {
+lab=#net6}
+N 270 -30 270 50 {
+lab=#net6}
 C {devices/code.sym} 1800 -1470 0 0 {name=TT_MODELS only_toplevel=false
 format="tcleval(@value )" value=".lib \\\\$::SKYWATER_MODELS\\\\/sky130.lib.spice tt
 * .include \\\\$::PDKPATH\\\\/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
@@ -523,10 +562,9 @@ m=1}
 C {devices/lab_wire.sym} -600 -300 0 0 {name=l26 sig_type=std_logic lab=VDD}
 C {devices/vsource.sym} 640 -210 0 0 {name=V1 value=1.2}
 C {devices/gnd.sym} 640 -180 0 0 {name=l2 lab=GND}
-C {pmirror_tunable_64x_PEX.sym} 340 -190 0 0 {name=x4}
 C {devices/gnd.sym} 490 -90 0 0 {name=l3 lab=GND}
-C {devices/isource.sym} 270 -70 0 0 {name=I1 value=4m}
-C {devices/gnd.sym} 270 -40 0 0 {name=l4 lab=GND}
+C {devices/isource.sym} 120 0 0 0 {name=I1 value=100u}
+C {devices/gnd.sym} 90 150 0 0 {name=l4 lab=GND}
 C {devices/lab_wire.sym} 270 -110 0 0 {name=l9 sig_type=std_logic lab=vref0}
 C {devices/gnd.sym} 150 -110 0 0 {name=l32 lab=GND}
 C {devices/gnd.sym} 70 -110 0 0 {name=l33 lab=GND}
@@ -541,3 +579,38 @@ C {devices/lab_wire.sym} 450 190 0 0 {name=l7 sig_type=std_logic lab=VGATE}
 C {devices/gnd.sym} -730 80 0 0 {name=l8 lab=GND}
 C {devices/vsource.sym} 70 370 0 0 {name=V2 value="SIN(0 0.9 5G)"}
 C {devices/gnd.sym} 70 400 0 0 {name=l10 lab=GND}
+C {sky130_fd_pr/nfet_01v8.sym} 250 80 0 0 {name=M1
+L=0.15
+W=20
+nf=1 
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8
+spiceprefix=X
+}
+C {devices/gnd.sym} 270 150 0 0 {name=l4 lab=GND}
+C {sky130_fd_pr/nfet_01v8.sym} 170 80 0 1 {name=M2
+L=0.15
+W=2
+nf=1 
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8
+spiceprefix=X
+}
+C {devices/res.sym} 270 -70 0 0 {name=R1
+value=0.1
+footprint=1206
+device=resistor
+m=1}
+C {pmirror_tunable_64x_PEX.sym} 340 -190 0 0 {name=x3}

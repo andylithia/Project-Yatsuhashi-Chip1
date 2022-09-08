@@ -1,0 +1,42 @@
+** sch_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/adc_non_overlap.sch
+**.subckt adc_non_overlap
+V2 CKIN GND PULSE(0 1.8 1n 0.1n 0.1n 5n 10n)
+V3 vdd GND 1.8
+x2 CKIN net2 VGND VNB VPB VPWR net5 sky130_fd_sc_hd__nand2_2
+x1 net3 net1 VGND VNB VPB VPWR net4 sky130_fd_sc_hd__nand2_2
+x3 CKIN VGND VNB VPB VPWR net1 sky130_fd_sc_hd__inv_2
+x4 net5 net8 VGND VNB VPB VPWR CK1D sky130_fd_sc_hd__nand2_2
+x5 net6 net4 VGND VNB VPB VPWR CK2D sky130_fd_sc_hd__nand2_2
+x6 net5 VGND VNB VPB VPWR CK1 sky130_fd_sc_hd__inv_2
+x7 net4 VGND VNB VPB VPWR CK2 sky130_fd_sc_hd__inv_2
+x8 CK1 VGND VNB VPB VPWR net9 sky130_fd_sc_hd__dlygate4sd3_1
+x9 net7 VGND VNB VPB VPWR net8 sky130_fd_sc_hd__inv_2
+x10 CK2 VGND VNB VPB VPWR net10 sky130_fd_sc_hd__dlygate4sd3_1
+x11 net10 VGND VNB VPB VPWR net6 sky130_fd_sc_hd__inv_2
+x12 net11 VGND VNB VPB VPWR net3 sky130_fd_sc_hd__dlygate4sd3_1
+x13 CK1D VGND VNB VPB VPWR net11 sky130_fd_sc_hd__inv_2
+x14 net12 VGND VNB VPB VPWR net2 sky130_fd_sc_hd__dlygate4sd3_1
+x15 CK2D VGND VNB VPB VPWR net12 sky130_fd_sc_hd__inv_2
+R1 VPB vdd 0.01 m=1
+R2 VPWR vdd 0.01 m=1
+R3 GND VNB 0.01 m=1
+R4 GND VGND 0.01 m=1
+x16 net9 VGND VNB VPB VPWR net13 sky130_fd_sc_hd__dlygate4sd3_1
+x17 net13 VGND VNB VPB VPWR net7 sky130_fd_sc_hd__dlygate4sd3_1
+**** begin user architecture code
+.lib /home/al/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+.include /home/al/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+.tran 1p 25n
+.control
+run
+display
+plot CKIN CK1 CK1D CK2 CK2D
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

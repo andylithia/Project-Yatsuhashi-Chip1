@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1658690082
+timestamp 1662608262
 << metal1 >>
 rect 600 -1509 660 -1307
 << metal2 >>
@@ -19,12 +19,12 @@ rect 580 -1320 600 -1220
 rect 400 -1340 600 -1320
 << metal4 >>
 rect 400 -1600 580 -1460
-use mimcap3_W1L5  mimcap3_W1L5_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
+use mimcap3_W1L5  mimcap3_W1L5_0
 timestamp 1658688574
 transform 1 0 -700 0 1 -2400
 box -100 800 1160 1200
-use sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
-timestamp 1649977179
+use sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15  sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0 ~/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_pr/mag
+timestamp 1660669191
 transform 0 1 -550 -1 0 -1146
 box 10 10 514 1204
 << labels >>

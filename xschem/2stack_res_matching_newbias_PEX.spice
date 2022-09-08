@@ -1,5 +1,4 @@
-** sch_path:
-*+ /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/2stack_res_matching_newbias_PEX.sch
+** sch_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/2stack_res_matching_newbias_PEX.sch
 **.subckt 2stack_res_matching_newbias_PEX
 V3 net1 GND 3.3
 L1 net3 voi 2n m=1
@@ -10,15 +9,25 @@ R7 net1 net2 1m m=1
 R12 net2 net3 5 m=1
 R10 vout GND 50 m=1
 V1 bias_cascode GND 1.2
-x4 VDD VDD VDD GND GND vref0 vbiasl VDD GND pmirror_tunable_64x_PEX
-I1 vref0 GND 4m
+I1 GND net5 100u
 V9 VDD GND 1.8
 C3 VGATE vin 1.6p m=1
 V2 vin GND SIN(0 0.9 5G)
+XM1 net6 net5 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM2 net5 net5 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+R1 vref0 net6 0.1 m=1
+x3 VDD VDD VDD GND GND vref0 net7 VDD GND pmirror_tunable_64x_PEX
+R2 net7 vbiasl 0.1 m=1
+x1 VDD VDD VDD GND GND vref0 net7 VDD GND pmirror_tunable_64x_PEX
+x2 VDD VDD VDD GND GND vref0 net7 VDD GND pmirror_tunable_64x_PEX
+x4 VDD VDD VDD GND GND vref0 net7 VDD GND pmirror_tunable_64x_PEX
 **** begin user architecture code
-.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
-* .include
-*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+.lib /home/al/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include /home/al/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 
 .subckt DUT IREF_L GND VBIAS_CAS INPUT OUTPUT
@@ -503,9 +512,9 @@ plot @l1[i]
 **.ends
 
 * expanding   symbol:  pmirror_tunable_64x_PEX.sym # of pins=9
-** sym_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x_PEX.sym
-** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x_PEX.sch
-.subckt pmirror_tunable_64x_PEX  VHI G2 G4 VSUBS G8 IREF IOUT G16 G32
+** sym_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x_PEX.sym
+** sch_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/pmirror_tunable_64x_PEX.sch
+.subckt pmirror_tunable_64x_PEX VHI G2 G4 VSUBS G8 IREF IOUT G16 G32
 *.ipin G2
 *.ipin G4
 *.ipin G8

@@ -1,0 +1,24 @@
+** sch_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/untitled-13.sch
+**.subckt untitled-13
+x1 CKIN gnd gnd vdd vdd CKDLY sky130_fd_sc_hd__dlygate4sd3_1
+V2 CKIN GND PULSE(0 1.8 1n 0.1n 0.1n 2n 10n)
+V3 vdd GND 1.8
+**** begin user architecture code
+.lib /home/al/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+.include /home/al/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+.tran 1p 100n
+* .ac dec 1000 0.01e9 100e9
+.control
+run
+display
+plot CKIN CKN CKP
+plot CKIN in out
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

@@ -1,4 +1,5 @@
-v {xschem version=3.0.0 file_version=1.2 }
+v {xschem version=3.1.0 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -223,8 +224,6 @@ N 40 -1210 60 -1210 {
 lab=#net1}
 N 60 -1090 60 -1030 {
 lab=vbias}
-N 60 -970 60 -550 {
-lab=GND}
 N 150 -550 360 -550 {
 lab=GND}
 N 60 -1060 130 -1060 {
@@ -325,7 +324,50 @@ N 1330 -1230 1330 -1220 {
 lab=vbias}
 N 900 -1230 1330 -1230 {
 lab=vbias}
-C {devices/code_shown.sym} 1540 -980 0 0 {name=s2 only_toplevel=false value="
+N 60 -760 60 -550 {
+lab=GND}
+N -70 -790 20 -790 {
+lab=#net11}
+N -30 -840 -30 -790 {
+lab=#net11}
+N -110 -840 -30 -840 {
+lab=#net11}
+N -110 -840 -110 -820 {
+lab=#net11}
+N -130 -790 -110 -790 {
+lab=GND}
+N -130 -790 -130 -730 {
+lab=GND}
+N -130 -730 -110 -730 {
+lab=GND}
+N -110 -760 -110 -730 {
+lab=GND}
+N 80 -790 80 -730 {
+lab=GND}
+N 60 -790 80 -790 {
+lab=GND}
+N -110 -1000 -110 -840 {
+lab=#net11}
+N 60 -730 80 -730 {
+lab=GND}
+N -110 -730 60 -730 {
+lab=GND}
+N -110 -1210 40 -1210 {
+lab=#net1}
+N -110 -1210 -110 -1060 {
+lab=#net1}
+N 60 -970 60 -820 {
+lab=vbias}
+N 60 -1030 60 -970 {
+lab=vbias}
+C {devices/code_shown.sym} 1540 -980 0 0 {name=s2 only_toplevel=false value=".subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
+X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p ps=3.198e+07u w=5.05e+06u l=150000u
+X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p ps=2.14e+07u w=5.05e+06u l=150000u
+X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
+.ends
 
 .subckt NFET_extract_1 SD1 SD2 G1 G2 SUB
 X0 SD1 G2 SD2 SUB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5.05e+06u l=150000u
@@ -499,7 +541,7 @@ C {devices/lab_wire.sym} 1210 -910 0 0 {name=l14 sig_type=std_logic lab=vdr}
 C {devices/lab_wire.sym} 710 -910 0 0 {name=l15 sig_type=std_logic lab=vdl}
 C {sky130_fd_pr/pfet_01v8.sym} 80 -1120 0 1 {name=M2
 L=1
-W=10
+W=20
 nf=1
 mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -511,11 +553,10 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/isource.sym} 60 -1000 0 0 {name=I0 value=1m}
 C {devices/lab_wire.sym} 170 -1120 0 0 {name=l6 sig_type=std_logic lab=vbias}
 C {sky130_fd_pr/pfet_01v8.sym} 750 -1150 0 1 {name=M1
 L=1
-W=10
+W=20
 nf=1
 mult=5
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -534,7 +575,7 @@ device=resistor
 m=1}
 C {sky130_fd_pr/pfet_01v8.sym} 1230 -1150 0 0 {name=M3
 L=1
-W=10
+W=20
 nf=1
 mult=5
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -556,7 +597,7 @@ C {devices/lab_wire.sym} 730 -680 0 0 {name=l18 sig_type=std_logic lab=S1}
 C {devices/lab_wire.sym} 1250 -680 0 0 {name=l20 sig_type=std_logic lab=S2}
 C {sky130_fd_pr/pfet_01v8.sym} 310 -1120 0 0 {name=M4
 L=1
-W=10
+W=20
 nf=1
 mult=10
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -598,7 +639,7 @@ m=1}
 C {devices/lab_wire.sym} 1030 -820 0 0 {name=l21 sig_type=std_logic lab=vbiasn}
 C {sky130_fd_pr/pfet_01v8.sym} 560 -1160 0 1 {name=M5
 L=1
-W=10
+W=20
 nf=1
 mult=5
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -612,7 +653,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 1350 -1160 0 0 {name=M6
 L=1
-W=10
+W=20
 nf=1
 mult=5
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -624,3 +665,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
+C {devices/isource.sym} -110 -1030 0 0 {name=I1 value=1m}
+C {devices/nmos4.sym} -90 -790 0 1 {name=XM1 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=2.5u l=0.15u m=1}
+C {devices/nmos4.sym} 40 -790 0 0 {name=XM2 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=2.5u l=0.15u m=1}
+C {devices/nmos4.sym} -90 -790 0 1 {name=XM3 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=2.5u l=0.15u m=1}

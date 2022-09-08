@@ -1,0 +1,8 @@
+* SPICE3 file created from ESD_diode_P.ext - technology: sky130B
+
+D0 IO VHI sky130_fd_pr__diode_pd2nw_05v5 pj=2.2e+07u area=1e+13p
+D1 IO VHI sky130_fd_pr__diode_pd2nw_05v5 pj=2.2e+07u area=1e+13p
+D2 IO VHI sky130_fd_pr__diode_pd2nw_05v5 pj=2.2e+07u area=1e+13p
+D3 IO VHI sky130_fd_pr__diode_pd2nw_05v5 pj=2.2e+07u area=1e+13p
+C0 VHI IO 42.11fF
+C1 VHI VLO 22.58fF **FLOATING

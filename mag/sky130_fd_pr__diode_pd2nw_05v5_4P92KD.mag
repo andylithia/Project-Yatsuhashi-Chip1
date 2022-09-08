@@ -1,0 +1,77 @@
+magic
+tech sky130B
+timestamp 1662579390
+<< nwell >>
+rect -319 -169 319 169
+<< pwell >>
+rect -388 169 388 238
+rect -388 -169 -319 169
+rect 319 -169 388 169
+rect -388 -238 388 -169
+<< psubdiff >>
+rect -370 203 -322 220
+rect 322 203 370 220
+rect -370 172 -353 203
+rect 353 172 370 203
+rect -370 -203 -353 -172
+rect 353 -203 370 -172
+rect -370 -220 -322 -203
+rect 322 -220 370 -203
+<< nsubdiff >>
+rect -301 134 -253 151
+rect 253 134 301 151
+rect -301 103 -284 134
+rect 284 103 301 134
+rect -301 -134 -284 -103
+rect 284 -134 301 -103
+rect -301 -151 -253 -134
+rect 253 -151 301 -134
+<< psubdiffcont >>
+rect -322 203 322 220
+rect -370 -172 -353 172
+rect 353 -172 370 172
+rect -322 -220 322 -203
+<< nsubdiffcont >>
+rect -253 134 253 151
+rect -301 -103 -284 103
+rect 284 -103 301 103
+rect -253 -151 253 -134
+<< pdiode >>
+rect -250 94 250 100
+rect -250 -94 -244 94
+rect 244 -94 250 94
+rect -250 -100 250 -94
+<< pdiodec >>
+rect -244 -94 244 94
+<< locali >>
+rect -370 203 -322 220
+rect 322 203 370 220
+rect -370 172 -353 203
+rect 353 172 370 203
+rect -301 134 -253 151
+rect 253 134 301 151
+rect -301 103 -284 134
+rect 284 103 301 134
+rect -252 -94 -244 94
+rect 244 -94 252 94
+rect -301 -134 -284 -103
+rect 284 -134 301 -103
+rect -301 -151 -253 -134
+rect 253 -151 301 -134
+rect -370 -203 -353 -172
+rect 353 -203 370 -172
+rect -370 -220 -322 -203
+rect 322 -220 370 -203
+<< viali >>
+rect -244 -94 244 94
+<< metal1 >>
+rect -250 94 250 97
+rect -250 -94 -244 94
+rect 244 -94 250 94
+rect -250 -97 250 -94
+<< properties >>
+string FIXED_BBOX -292 -142 292 142
+string gencell sky130_fd_pr__diode_pd2nw_05v5
+string library sky130
+string parameters w 5 l 2 area 10.0 peri 14.0 nx 1 ny 1 dummy 0 lmin 0.45 wmin 0.45 elc 1 erc 1 etc 1 ebc 1 glc 1 grc 1 gtc 1 gbc 1 doverlap 1 compatible {sky130_fd_pr__diode_pd2nw_05v5 sky130_fd_pr__diode_pd2nw_05v5_lvt  sky130_fd_pr__diode_pd2nw_05v5_hvt sky130_fd_pr__diode_pd2nw_11v0} full_metal 1 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>

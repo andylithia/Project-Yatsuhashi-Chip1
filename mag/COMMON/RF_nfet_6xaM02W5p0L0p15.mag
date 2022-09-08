@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1661123328
+timestamp 1662473609
 << metal1 >>
 rect 13 685 43 720
 << metal2 >>
@@ -9,11 +9,11 @@ rect 0 80 10 316
 << metal3 >>
 rect 200 300 1041 350
 use nfet_3x_2  nfet_3x_2_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/LNA
-timestamp 1661123328
+timestamp 1662473609
 transform 1 0 0 0 1 30
 box 0 -30 646 690
 use nfet_3x_2  nfet_3x_2_1
-timestamp 1661123328
+timestamp 1662473609
 transform 1 0 591 0 1 30
 box 0 -30 646 690
 << labels >>

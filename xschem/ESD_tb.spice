@@ -1,0 +1,45 @@
+** sch_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/ESD_tb.sch
+**.subckt ESD_tb
+x1 vdd GND vio ESD_diode_P_PEX
+Vtest vdd GND 0.9
+V2 vio GND 1.8
+**** begin user architecture code
+.lib /home/al/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+.include /home/al/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+* .tran 1p 100n
+.op
+* .ac dec 1000 0.01e9 100e9
+.control
+run
+display
+plot vtest#branch
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  ESD_diode_P_PEX.sym # of pins=3
+** sym_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/ESD_diode_P_PEX.sym
+** sch_path: /home/al/openmpw/Project-Yatsuhashi-Chip1/xschem/ESD_diode_P_PEX.sch
+.subckt ESD_diode_P_PEX VHI VLO IO
+*.iopin VHI
+*.iopin VLO
+*.iopin IO
+**** begin user architecture code
+
+D0 IO VHI sky130_fd_pr__diode_pd2nw_05v5 pj=2.2e+07u area=1e+13p
+D1 IO VHI sky130_fd_pr__diode_pd2nw_05v5 pj=2.2e+07u area=1e+13p
+D2 IO VHI sky130_fd_pr__diode_pd2nw_05v5 pj=2.2e+07u area=1e+13p
+D3 IO VHI sky130_fd_pr__diode_pd2nw_05v5 pj=2.2e+07u area=1e+13p
+C0 VHI IO 42.11fF
+C1 VHI VLO 22.58fF
+
+
+**** end user architecture code
+.ends
+
+.GLOBAL GND
+.end

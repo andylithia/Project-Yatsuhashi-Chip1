@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1661123328
+timestamp 1662473609
 << pwell >>
 rect 2474 100 3088 1146
 << locali >>
@@ -268,7 +268,7 @@ rect 2650 -80 2850 160
 rect 600 -610 3840 -80
 rect 600 -800 2000 -610
 use RF_nfet_6xaM02W5p0L0p15  RF_nfet_6xaM02W5p0L0p15_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON
-timestamp 1661123328
+timestamp 1662473609
 transform 1 0 0 0 1 0
 box 0 0 2474 1440
 use sky130_fd_pr__res_generic_po_JFYRVD  sky130_fd_pr__res_generic_po_JFYRVD_0
