@@ -1,0 +1,33 @@
+* NGSPICE file created from ./CLASSE/NMOS_50_0p5_25_1_alternative.ext - technology: sky130B
+
+X0 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X1 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X2 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X3 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X4 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X5 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X6 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X7 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X8 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X9 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X10 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X11 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X12 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X13 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X14 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X15 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X16 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X17 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X18 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X19 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X20 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X21 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X22 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X23 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+X24 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=6e+07u l=500000u
+C0 SD2 SD1 275.66fF
+C1 G SD1 20.27fF
+C2 G SD2 20.20fF
+C3 SD2 SUB 15.43fF $ **FLOATING
+C4 SD1 SUB 13.02fF $ **FLOATING
+C5 G SUB 11.83fF $ **FLOATING

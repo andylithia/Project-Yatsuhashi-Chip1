@@ -357,9 +357,7 @@ lab=#net1}
 N -110 -1210 -110 -1060 {
 lab=#net1}
 N 60 -970 60 -820 {
-lab=vbias}
-N 60 -1030 60 -970 {
-lab=vbias}
+lab=#net12}
 C {devices/code_shown.sym} 1540 -980 0 0 {name=s2 only_toplevel=false value=".subckt sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext DRAIN GATE SOURCE SUBSTRATE
 X0 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=2.828e+12p pd=2.132e+07u as=4.242e+12p ps=3.198e+07u w=5.05e+06u l=150000u
 X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=3.03e+12p ps=2.14e+07u w=5.05e+06u l=150000u
@@ -666,6 +664,10 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/isource.sym} -110 -1030 0 0 {name=I1 value=1m}
-C {devices/nmos4.sym} -90 -790 0 1 {name=XM1 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=2.5u l=0.15u m=1}
 C {devices/nmos4.sym} 40 -790 0 0 {name=XM2 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=2.5u l=0.15u m=1}
 C {devices/nmos4.sym} -90 -790 0 1 {name=XM3 model=sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15_ext w=2.5u l=0.15u m=1}
+C {devices/res.sym} 60 -1000 0 0 {name=R1
+value=0.01
+footprint=1206
+device=resistor
+m=1}
