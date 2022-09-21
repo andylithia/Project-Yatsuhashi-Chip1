@@ -1,0 +1,94 @@
+** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/CLASSE_transistor_test.sch
+**.subckt CLASSE_transistor_test
+x1 net2 GND VG GND CLASSE_NMOS_30_0p5_30_4x_PEX
+VDS net1 GND 5
+VG VG GND 2.5
+Vmeas net1 net2 0
+.save  i(vmeas)
+**** begin user architecture code
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
+* .include /home/al/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+* .tran 1p 100n
+* .op
+* .dc VG 0 5 0.1
+.dc VDS 0 5 0.1
+* .ac dec 1000 0.01e9 100e9
+.control
+run
+display
+plot Vmeas#branch
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  CLASSE_NMOS_30_0p5_30_4x_PEX.sym # of pins=4
+** sym_path:
+*+ /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/CLASSE_NMOS_30_0p5_30_4x_PEX.sym
+** sch_path:
+*+ /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/CLASSE_NMOS_30_0p5_30_4x_PEX.sch
+.subckt CLASSE_NMOS_30_0p5_30_4x_PEX  SD1 SD2 G SUB
+*.iopin SD1
+*.iopin SD2
+*.iopin G
+*.iopin SUB
+**** begin user architecture code
+
+.subckt NMOS_30_0p5_30_4x SD2 G SD1 SUB
+    .subckt NMOS_30_0p5_30_1 SD2 G SD1 SUB
+        X0 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X1 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X2 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X3 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X4 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X5 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X6 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X7 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X8 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X9 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X10 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X11 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X12 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X13 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X14 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X15 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X16 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X17 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X18 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X19 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X20 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X21 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X22 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X23 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X24 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X25 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X26 SD1 G SD2 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X27 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X28 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        X29 SD2 G SD1 SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+        C0 SD1 SD2 195.54fF
+        C1 G SD1 19.19fF
+        C2 G SD2 18.07fF
+        C3 SD1 SUB 1.73fF $ **FLOATING
+        C4 SD2 SUB 16.40fF $ **FLOATING
+        C5 G SUB 23.59fF $ **FLOATING
+    .ends
+    XDUT_sub_0 SD2 G SD1 SUB NMOS_30_0p5_30_1
+    XDUT_sub_1 SD2 G SD1 SUB NMOS_30_0p5_30_1
+    XDUT_sub_2 SD2 G SD1 SUB NMOS_30_0p5_30_1
+    XDUT_sub_3 SD2 G SD1 SUB NMOS_30_0p5_30_1
+.ends
+
+XDUT SD2 G SD1 SUB NMOS_30_0p5_30_4x
+
+
+
+
+**** end user architecture code
+.ends
+
+.GLOBAL GND
+.end
