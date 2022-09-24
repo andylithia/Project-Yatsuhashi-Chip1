@@ -1,0 +1,40 @@
+| units: 500000 tech: sky130A format: MIT
+x G SD1 SD2 SUB l=100 w=6000 x=2914 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=2440 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=4652 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=4178 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=4810 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=2124 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=4336 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=4020 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=1492 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=1966 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=1650 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=3862 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=860 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=1176 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=3388 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=386 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=1334 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=1808 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=3072 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=3546 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=544 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=3704 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=702 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=1018 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=3230 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=228 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=2598 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD2 SD1 SUB l=100 w=6000 x=2756 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=2282 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x G SD1 SD2 SUB l=100 w=6000 x=4494 y=258 sky130_fd_pr__nfet_g5v0d10v5
+C SD1 G 20.02
+C SD1 SD2 198.43
+C G SD2 19.79
+R SD1 214743
+C SD2 GND 15.13
+R SD2 229068
+C G GND 24.46
+R G 96178
+R SUB 82435

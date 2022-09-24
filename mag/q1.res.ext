@@ -1,0 +1,245 @@
+scale 1000 1 500000
+rnode "SD2.t4" 0 5462.24 228 3258 0
+rnode "SD2.t9" 0 641.064 544 3258 0
+rnode "SD2.t14" 0 641.064 486 3258 0
+rnode "SD2.n0" 0 6057.01 489 3258 0
+rnode "SD2.t17" 0 641.064 860 3258 0
+rnode "SD2.t7" 0 641.064 802 3258 0
+rnode "SD2.n1" 0 6057.01 805 3258 0
+rnode "SD2.t16" 0 641.064 1176 3258 0
+rnode "SD2.t6" 0 641.064 1118 3258 0
+rnode "SD2.n2" 0 6057.01 1121 3258 0
+rnode "SD2.t21" 0 641.064 1492 3258 0
+rnode "SD2.t13" 0 641.064 1434 3258 0
+rnode "SD2.n3" 0 6057.01 1437 3258 0
+rnode "SD2.t12" 0 641.064 1808 3258 0
+rnode "SD2.t19" 0 641.064 1750 3258 0
+rnode "SD2.n4" 0 6057.01 1753 3258 0
+rnode "SD2.t24" 0 641.064 2124 3258 0
+rnode "SD2.t20" 0 641.064 2066 3258 0
+rnode "SD2.n5" 0 6057.01 2069 3258 0
+rnode "SD2.t2" 0 641.064 2756 3258 0
+rnode "SD2.t3" 0 641.064 2698 3258 0
+rnode "SD2.n6" 0 6057.01 2701 3258 0
+rnode "SD2.t11" 0 641.064 3072 3258 0
+rnode "SD2.t29" 0 641.064 3014 3258 0
+rnode "SD2.n7" 0 6057.01 3017 3258 0
+rnode "SD2.t15" 0 641.064 3388 3258 0
+rnode "SD2.t5" 0 641.064 3330 3258 0
+rnode "SD2.n8" 0 6057.01 3333 3258 0
+rnode "SD2.t8" 0 641.064 3704 3258 0
+rnode "SD2.t10" 0 641.064 3646 3258 0
+rnode "SD2.n9" 0 6057.01 3649 3258 0
+rnode "SD2.t22" 0 641.064 4020 3258 0
+rnode "SD2.t18" 0 641.064 3962 3258 0
+rnode "SD2.n10" 0 6057.01 3965 3258 0
+rnode "SD2.t23" 0 641.064 4336 3258 0
+rnode "SD2.t26" 0 641.064 4278 3258 0
+rnode "SD2.n11" 0 6057.01 4281 3258 0
+rnode "SD2.t27" 0 641.064 4652 3258 0
+rnode "SD2.t0" 0 641.064 4594 3258 0
+rnode "SD2.n12" 0 6057.01 4597 3258 0
+rnode "SD2.t25" 0 5494.45 4910 3258 0
+rnode "SD2.n13" 0 16497.3 4622 1765 0
+rnode "SD2.n14" 0 7223.13 4306 1765 0
+rnode "SD2.n15" 0 7223.13 3990 1765 0
+rnode "SD2.n16" 0 7223.13 3674 1765 0
+rnode "SD2.n17" 0 7223.13 3358 1765 0
+rnode "SD2.n18" 0 7223.13 3042 1765 0
+rnode "SD2.n19" 0 7223.13 2726 1765 0
+rnode "SD2.t28" 0 641.064 2440 3258 0
+rnode "SD2.t1" 0 641.064 2382 3258 0
+rnode "SD2.n20" 0 6057.56 2411 3258 0
+rnode "SD2.n21" 0 7222.58 2410 1765 0
+rnode "SD2.n22" 0 7223.13 2094 1765 0
+rnode "SD2.n23" 0 7223.13 1778 1765 0
+rnode "SD2.n24" 0 7223.13 1462 1765 0
+rnode "SD2.n25" 0 7223.13 1146 1765 0
+rnode "SD2.n26" 0 7223.13 830 1765 0
+rnode "SD2.n27" 0 7223.13 514 1765 0
+rnode "SD2" 0 9247.4 198 1765 0
+resist "SD2" "SD2.n27" 0.007
+resist "SD2.n27" "SD2.n26" 0.007
+resist "SD2.n26" "SD2.n25" 0.007
+resist "SD2.n25" "SD2.n24" 0.007
+resist "SD2.n24" "SD2.n23" 0.007
+resist "SD2.n23" "SD2.n22" 0.007
+resist "SD2.n22" "SD2.n21" 0.007
+resist "SD2.n21" "SD2.n19" 0.007
+resist "SD2.n19" "SD2.n18" 0.007
+resist "SD2.n18" "SD2.n17" 0.007
+resist "SD2.n17" "SD2.n16" 0.007
+resist "SD2.n16" "SD2.n15" 0.007
+resist "SD2.n15" "SD2.n14" 0.007
+resist "SD2.n14" "SD2.n13" 0.007
+resist "SD2.n20" "SD2.t1" 0.551
+resist "SD2.n20" "SD2.t28" 0.551
+resist "SD2.n12" "SD2.t0" 0.551
+resist "SD2.n12" "SD2.t27" 0.551
+resist "SD2.n11" "SD2.t26" 0.551
+resist "SD2.n11" "SD2.t23" 0.551
+resist "SD2.n10" "SD2.t18" 0.551
+resist "SD2.n10" "SD2.t22" 0.551
+resist "SD2.n9" "SD2.t10" 0.551
+resist "SD2.n9" "SD2.t8" 0.551
+resist "SD2.n8" "SD2.t5" 0.551
+resist "SD2.n8" "SD2.t15" 0.551
+resist "SD2.n7" "SD2.t29" 0.551
+resist "SD2.n7" "SD2.t11" 0.551
+resist "SD2.n6" "SD2.t3" 0.551
+resist "SD2.n6" "SD2.t2" 0.551
+resist "SD2.n5" "SD2.t20" 0.551
+resist "SD2.n5" "SD2.t24" 0.551
+resist "SD2.n4" "SD2.t19" 0.551
+resist "SD2.n4" "SD2.t12" 0.551
+resist "SD2.n3" "SD2.t13" 0.551
+resist "SD2.n3" "SD2.t21" 0.551
+resist "SD2.n2" "SD2.t6" 0.551
+resist "SD2.n2" "SD2.t16" 0.551
+resist "SD2.n1" "SD2.t7" 0.551
+resist "SD2.n1" "SD2.t17" 0.551
+resist "SD2.n0" "SD2.t14" 0.551
+resist "SD2.n0" "SD2.t9" 0.551
+resist "SD2.n21" "SD2.n20" 1.41324
+resist "SD2.n13" "SD2.n12" 1.41449
+resist "SD2.n14" "SD2.n11" 1.41449
+resist "SD2.n15" "SD2.n10" 1.41449
+resist "SD2.n16" "SD2.n9" 1.41449
+resist "SD2.n17" "SD2.n8" 1.41449
+resist "SD2.n18" "SD2.n7" 1.41449
+resist "SD2.n19" "SD2.n6" 1.41449
+resist "SD2.n22" "SD2.n5" 1.41449
+resist "SD2.n23" "SD2.n4" 1.41449
+resist "SD2.n24" "SD2.n3" 1.41449
+resist "SD2.n25" "SD2.n2" 1.41449
+resist "SD2.n26" "SD2.n1" 1.41449
+resist "SD2.n27" "SD2.n0" 1.41449
+resist "SD2" "SD2.t4" 1.96474
+resist "SD2.n13" "SD2.t25" 1.97249
+rnode "SD1.n0" 0 28227.1 1936 4765 0
+rnode "SD1" 0 30644.6 220 3810 0
+rnode "SD1.n1" 0 28227.7 3200 4765 0
+rnode "SD1.n2" 0 23602.4 4148 4765 0
+rnode "SD1.t18" 0 626.735 386 3258 0
+rnode "SD1.t28" 0 626.735 328 3258 0
+rnode "SD1.n3" 0 5929.9 381 3258 0
+rnode "SD1.t24" 0 626.735 702 3258 0
+rnode "SD1.t5" 0 626.735 644 3258 0
+rnode "SD1.n4" 0 5926.37 647 3258 0
+rnode "SD1.t25" 0 626.735 1018 3258 0
+rnode "SD1.t3" 0 626.735 960 3258 0
+rnode "SD1.n5" 0 5926.37 963 3258 0
+rnode "SD1.t10" 0 626.735 1334 3258 0
+rnode "SD1.t16" 0 626.735 1276 3258 0
+rnode "SD1.n6" 0 5926.37 1279 3258 0
+rnode "SD1.t17" 0 626.735 1650 3258 0
+rnode "SD1.t15" 0 626.735 1592 3258 0
+rnode "SD1.n7" 0 5926.37 1595 3258 0
+rnode "SD1.t12" 0 626.735 1966 3258 0
+rnode "SD1.t19" 0 626.735 1908 3258 0
+rnode "SD1.n8" 0 5926.37 1911 3258 0
+rnode "SD1.t21" 0 626.735 2282 3258 0
+rnode "SD1.t14" 0 626.735 2224 3258 0
+rnode "SD1.n9" 0 5926.37 2227 3258 0
+rnode "SD1.t27" 0 626.735 2914 3258 0
+rnode "SD1.t13" 0 626.735 2856 3258 0
+rnode "SD1.n10" 0 5926.37 2859 3258 0
+rnode "SD1.t29" 0 626.735 3230 3258 0
+rnode "SD1.t9" 0 626.735 3172 3258 0
+rnode "SD1.n11" 0 5926.37 3175 3258 0
+rnode "SD1.t4" 0 626.735 3546 3258 0
+rnode "SD1.t26" 0 626.735 3488 3258 0
+rnode "SD1.n12" 0 5926.37 3491 3258 0
+rnode "SD1.t8" 0 626.735 3862 3258 0
+rnode "SD1.t20" 0 626.735 3804 3258 0
+rnode "SD1.n13" 0 5926.37 3807 3258 0
+rnode "SD1.t22" 0 626.735 4178 3258 0
+rnode "SD1.t2" 0 626.735 4120 3258 0
+rnode "SD1.n14" 0 5926.37 4123 3258 0
+rnode "SD1.t23" 0 626.735 4494 3258 0
+rnode "SD1.t7" 0 626.735 4436 3258 0
+rnode "SD1.n15" 0 5926.37 4439 3258 0
+rnode "SD1.t1" 0 626.735 4810 3258 0
+rnode "SD1.t6" 0 626.735 4752 3258 0
+rnode "SD1.n16" 0 5972.89 4755 3258 0
+rnode "SD1.t11" 0 626.735 2598 3258 0
+rnode "SD1.t0" 0 626.735 2540 3258 0
+rnode "SD1.n17" 0 5926.98 2569 3258 0
+resist "SD1.n1" "SD1.n2" 0.021
+resist "SD1.n0" "SD1.n1" 0.028
+resist "SD1" "SD1.n0" 0.042
+resist "SD1.n17" "SD1.t0" 0.551
+resist "SD1.n17" "SD1.t11" 0.551
+resist "SD1.n16" "SD1.t6" 0.551
+resist "SD1.n16" "SD1.t1" 0.551
+resist "SD1.n15" "SD1.t7" 0.551
+resist "SD1.n15" "SD1.t23" 0.551
+resist "SD1.n14" "SD1.t2" 0.551
+resist "SD1.n14" "SD1.t22" 0.551
+resist "SD1.n13" "SD1.t20" 0.551
+resist "SD1.n13" "SD1.t8" 0.551
+resist "SD1.n12" "SD1.t26" 0.551
+resist "SD1.n12" "SD1.t4" 0.551
+resist "SD1.n11" "SD1.t9" 0.551
+resist "SD1.n11" "SD1.t29" 0.551
+resist "SD1.n10" "SD1.t13" 0.551
+resist "SD1.n10" "SD1.t27" 0.551
+resist "SD1.n9" "SD1.t14" 0.551
+resist "SD1.n9" "SD1.t21" 0.551
+resist "SD1.n8" "SD1.t19" 0.551
+resist "SD1.n8" "SD1.t12" 0.551
+resist "SD1.n7" "SD1.t15" 0.551
+resist "SD1.n7" "SD1.t17" 0.551
+resist "SD1.n6" "SD1.t16" 0.551
+resist "SD1.n6" "SD1.t10" 0.551
+resist "SD1.n5" "SD1.t3" 0.551
+resist "SD1.n5" "SD1.t25" 0.551
+resist "SD1.n4" "SD1.t5" 0.551
+resist "SD1.n4" "SD1.t24" 0.551
+resist "SD1.n3" "SD1.t28" 0.551
+resist "SD1.n3" "SD1.t18" 0.551
+resist "SD1.n0" "SD1.n17" 1.42671
+resist "SD1" "SD1.n3" 1.42721
+resist "SD1.n2" "SD1.n15" 1.42764
+resist "SD1.n2" "SD1.n14" 1.42764
+resist "SD1.n1" "SD1.n13" 1.42764
+resist "SD1.n1" "SD1.n12" 1.42764
+resist "SD1.n1" "SD1.n11" 1.42764
+resist "SD1.n1" "SD1.n10" 1.42764
+resist "SD1.n0" "SD1.n9" 1.42764
+resist "SD1.n0" "SD1.n8" 1.42764
+resist "SD1.n0" "SD1.n7" 1.42764
+resist "SD1" "SD1.n6" 1.42764
+resist "SD1" "SD1.n5" 1.42764
+resist "SD1" "SD1.n4" 1.42764
+resist "SD1.n2" "SD1.n16" 1.43464
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4494 258 4495 259  "SUB" "G" 200 0 "SD1.t23" 6000 0 "SD2.t0" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2282 258 2283 259  "SUB" "G" 200 0 "SD1.t21" 6000 0 "SD2.t1" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2756 258 2757 259  "SUB" "G" 200 0 "SD2.t2" 6000 0 "SD1.t13" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2598 258 2599 259  "SUB" "G" 200 0 "SD1.t11" 6000 0 "SD2.t3" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 228 258 229 259  "SUB" "G" 200 0 "SD2.t4" 6000 0 "SD1.t28" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3230 258 3231 259  "SUB" "G" 200 0 "SD1.t29" 6000 0 "SD2.t5" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1018 258 1019 259  "SUB" "G" 200 0 "SD1.t25" 6000 0 "SD2.t6" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 702 258 703 259  "SUB" "G" 200 0 "SD1.t24" 6000 0 "SD2.t7" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3704 258 3705 259  "SUB" "G" 200 0 "SD2.t8" 6000 0 "SD1.t20" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 544 258 545 259  "SUB" "G" 200 0 "SD2.t9" 6000 0 "SD1.t5" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3546 258 3547 259  "SUB" "G" 200 0 "SD1.t4" 6000 0 "SD2.t10" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3072 258 3073 259  "SUB" "G" 200 0 "SD2.t11" 6000 0 "SD1.t9" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1808 258 1809 259  "SUB" "G" 200 0 "SD2.t12" 6000 0 "SD1.t19" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1334 258 1335 259  "SUB" "G" 200 0 "SD1.t10" 6000 0 "SD2.t13" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 386 258 387 259  "SUB" "G" 200 0 "SD1.t18" 6000 0 "SD2.t14" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3388 258 3389 259  "SUB" "G" 200 0 "SD2.t15" 6000 0 "SD1.t26" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1176 258 1177 259  "SUB" "G" 200 0 "SD2.t16" 6000 0 "SD1.t16" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 860 258 861 259  "SUB" "G" 200 0 "SD2.t17" 6000 0 "SD1.t3" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3862 258 3863 259  "SUB" "G" 200 0 "SD1.t8" 6000 0 "SD2.t18" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1650 258 1651 259  "SUB" "G" 200 0 "SD1.t17" 6000 0 "SD2.t19" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1966 258 1967 259  "SUB" "G" 200 0 "SD1.t12" 6000 0 "SD2.t20" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1492 258 1493 259  "SUB" "G" 200 0 "SD2.t21" 6000 0 "SD1.t15" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4020 258 4021 259  "SUB" "G" 200 0 "SD2.t22" 6000 0 "SD1.t2" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4336 258 4337 259  "SUB" "G" 200 0 "SD2.t23" 6000 0 "SD1.t7" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2124 258 2125 259  "SUB" "G" 200 0 "SD2.t24" 6000 0 "SD1.t14" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4810 258 4811 259  "SUB" "G" 200 0 "SD1.t1" 6000 0 "SD2.t25" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4178 258 4179 259  "SUB" "G" 200 0 "SD1.t22" 6000 0 "SD2.t26" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4652 258 4653 259  "SUB" "G" 200 0 "SD2.t27" 6000 0 "SD1.t6" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2440 258 2441 259  "SUB" "G" 200 0 "SD2.t28" 6000 0 "SD1.t0" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2914 258 2915 259  "SUB" "G" 200 0 "SD1.t27" 6000 0 "SD2.t29" 6000 0
