@@ -1,0 +1,1536 @@
+* NGSPICE file created from NMOS_30_0p5_30_diff4x_1_flat.ext - technology: sky130B
+
+X0 NMOS_30_0p5_30_1_0/SD2.t59 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t25 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X1 NMOS_30_0p5_30_1_4/SD2.t59 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t25 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X2 NMOS_30_0p5_30_1_4/SD2.t119 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t117 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X3 NMOS_30_0p5_30_1_0/SD2.t58 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t21 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X4 NMOS_30_0p5_30_1_4/SD2.t58 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t27 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X5 NMOS_30_0p5_30_1_0/SD2.t57 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t13 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X6 NMOS_30_0p5_30_1_4/SD2.t118 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t82 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X7 NMOS_30_0p5_30_1_0/SD1.t100 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t119 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X8 NMOS_30_0p5_30_1_0/SD1.t20 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t56 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X9 NMOS_30_0p5_30_1_0/SD1.t29 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t55 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X10 NMOS_30_0p5_30_1_4/SD1.t10 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t57 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X11 NMOS_30_0p5_30_1_0/SD1.t16 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t54 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X12 NMOS_30_0p5_30_1_4/SD2.t56 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t17 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X13 NMOS_30_0p5_30_1_0/SD1.t2 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t53 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X14 NMOS_30_0p5_30_1_4/SD1.t38 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t55 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X15 NMOS_30_0p5_30_1_4/SD1.t105 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t117 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X16 NMOS_30_0p5_30_1_4/SD1.t72 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t116 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X17 NMOS_30_0p5_30_1_0/SD2.t118 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t80 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X18 NMOS_30_0p5_30_1_4/SD1.t11 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t54 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X19 NMOS_30_0p5_30_1_0/SD2.t117 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t76 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X20 NMOS_30_0p5_30_1_4/SD1.t87 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t115 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X21 NMOS_30_0p5_30_1_0/SD1.t11 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t52 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X22 NMOS_30_0p5_30_1_4/SD2.t114 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t118 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X23 NMOS_30_0p5_30_1_4/SD1.t18 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t53 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X24 NMOS_30_0p5_30_1_0/SD2.t51 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t38 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X25 NMOS_30_0p5_30_1_0/SD1.t64 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t116 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X26 NMOS_30_0p5_30_1_4/SD2.t113 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t76 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X27 NMOS_30_0p5_30_1_0/SD2.t50 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t36 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X28 NMOS_30_0p5_30_1_0/SD2.t49 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t28 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X29 NMOS_30_0p5_30_1_4/SD2.t112 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t62 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X30 NMOS_30_0p5_30_1_0/SD2.t48 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t30 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X31 NMOS_30_0p5_30_1_0/SD1.t113 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t115 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X32 NMOS_30_0p5_30_1_4/SD2.t111 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t84 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X33 NMOS_30_0p5_30_1_4/SD2.t52 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t4 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X34 NMOS_30_0p5_30_1_4/SD1.t77 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t110 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X35 NMOS_30_0p5_30_1_4/SD2.t51 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t29 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X36 NMOS_30_0p5_30_1_4/SD2.t50 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t53 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X37 NMOS_30_0p5_30_1_0/SD1.t8 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t47 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X38 NMOS_30_0p5_30_1_4/SD2.t49 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t39 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X39 NMOS_30_0p5_30_1_4/SD2.t48 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t12 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X40 NMOS_30_0p5_30_1_0/SD1.t1 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t46 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X41 NMOS_30_0p5_30_1_0/SD1.t78 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t114 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X42 NMOS_30_0p5_30_1_0/SD2.t113 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t71 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X43 NMOS_30_0p5_30_1_0/SD1.t24 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t45 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X44 NMOS_30_0p5_30_1_0/SD2.t112 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t72 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X45 NMOS_30_0p5_30_1_4/SD2.t47 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t19 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X46 NMOS_30_0p5_30_1_4/SD1.t6 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t46 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X47 NMOS_30_0p5_30_1_0/SD2.t111 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t108 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X48 NMOS_30_0p5_30_1_4/SD1.t71 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t109 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X49 NMOS_30_0p5_30_1_4/SD2.t108 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t101 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X50 NMOS_30_0p5_30_1_4/SD2.t107 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t96 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X51 NMOS_30_0p5_30_1_0/SD2.t110 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t90 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X52 NMOS_30_0p5_30_1_4/SD1.t108 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t106 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X53 NMOS_30_0p5_30_1_0/SD1.t39 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t44 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X54 NMOS_30_0p5_30_1_0/SD2.t109 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t104 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X55 NMOS_30_0p5_30_1_0/SD2.t43 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t44 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X56 NMOS_30_0p5_30_1_4/SD2.t45 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t5 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X57 NMOS_30_0p5_30_1_4/SD1.t30 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t44 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X58 NMOS_30_0p5_30_1_0/SD2.t108 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t62 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X59 NMOS_30_0p5_30_1_4/SD2.t105 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t102 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X60 NMOS_30_0p5_30_1_4/SD1.t54 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t43 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X61 NMOS_30_0p5_30_1_4/SD1.t24 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t42 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X62 NMOS_30_0p5_30_1_0/SD1.t101 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t107 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X63 NMOS_30_0p5_30_1_0/SD2.t42 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t15 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X64 NMOS_30_0p5_30_1_0/SD1.t81 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t106 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X65 NMOS_30_0p5_30_1_4/SD2.t104 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t93 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X66 NMOS_30_0p5_30_1_0/SD1.t112 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t105 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X67 NMOS_30_0p5_30_1_4/SD2.t41 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t36 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X68 NMOS_30_0p5_30_1_0/SD1.t6 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t41 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X69 NMOS_30_0p5_30_1_0/SD2.t104 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t84 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X70 NMOS_30_0p5_30_1_0/SD1.t99 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t103 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X71 NMOS_30_0p5_30_1_4/SD1.t95 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t103 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X72 NMOS_30_0p5_30_1_0/SD2.t102 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t77 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X73 NMOS_30_0p5_30_1_0/SD1.t95 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t101 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X74 NMOS_30_0p5_30_1_4/SD1.t74 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t102 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X75 NMOS_30_0p5_30_1_4/SD2.t40 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t7 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X76 NMOS_30_0p5_30_1_4/SD2.t39 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t31 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X77 NMOS_30_0p5_30_1_4/SD1.t63 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t101 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X78 NMOS_30_0p5_30_1_4/SD2.t38 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t58 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X79 NMOS_30_0p5_30_1_4/SD2.t100 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t60 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X80 NMOS_30_0p5_30_1_4/SD1.t45 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t37 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X81 NMOS_30_0p5_30_1_0/SD2.t100 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t106 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X82 NMOS_30_0p5_30_1_4/SD2.t99 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t66 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X83 NMOS_30_0p5_30_1_0/SD2.t99 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t109 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X84 NMOS_30_0p5_30_1_4/SD2.t98 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t111 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X85 NMOS_30_0p5_30_1_4/SD1.t46 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t36 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X86 NMOS_30_0p5_30_1_0/SD2.t98 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t118 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X87 NMOS_30_0p5_30_1_0/SD1.t97 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t97 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X88 NMOS_30_0p5_30_1_0/SD2.t96 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t83 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X89 NMOS_30_0p5_30_1_4/SD1.t32 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t35 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X90 NMOS_30_0p5_30_1_0/SD1.t67 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t95 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X91 NMOS_30_0p5_30_1_4/SD1.t88 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t97 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X92 NMOS_30_0p5_30_1_0/SD2.t40 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t22 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X93 NMOS_30_0p5_30_1_4/SD1.t59 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t34 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X94 NMOS_30_0p5_30_1_0/SD1.t27 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t39 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X95 NMOS_30_0p5_30_1_4/SD1.t86 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t96 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X96 NMOS_30_0p5_30_1_0/SD1.t70 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t94 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X97 NMOS_30_0p5_30_1_0/SD1.t60 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t93 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X98 NMOS_30_0p5_30_1_0/SD2.t92 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t85 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X99 NMOS_30_0p5_30_1_0/SD1.t7 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t38 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X100 NMOS_30_0p5_30_1_0/SD1.t86 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t91 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X101 NMOS_30_0p5_30_1_4/SD1.t114 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t95 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X102 NMOS_30_0p5_30_1_4/SD2.t33 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t40 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X103 NMOS_30_0p5_30_1_4/SD1.t112 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t94 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X104 NMOS_30_0p5_30_1_0/SD2.t90 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t96 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X105 NMOS_30_0p5_30_1_4/SD2.t32 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t13 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X106 NMOS_30_0p5_30_1_4/SD1.t69 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t93 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X107 NMOS_30_0p5_30_1_4/SD1.t20 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t31 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X108 NMOS_30_0p5_30_1_0/SD2.t37 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t40 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X109 NMOS_30_0p5_30_1_4/SD2.t92 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t78 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X110 NMOS_30_0p5_30_1_0/SD2.t36 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t3 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X111 NMOS_30_0p5_30_1_0/SD2.t35 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t19 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X112 NMOS_30_0p5_30_1_4/SD1.t33 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t30 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X113 NMOS_30_0p5_30_1_0/SD1.t92 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t89 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X114 NMOS_30_0p5_30_1_4/SD2.t29 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t55 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X115 NMOS_30_0p5_30_1_0/SD1.t98 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t88 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X116 NMOS_30_0p5_30_1_0/SD2.t34 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t12 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X117 NMOS_30_0p5_30_1_4/SD2.t28 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t47 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X118 NMOS_30_0p5_30_1_0/SD1.t65 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t87 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X119 NMOS_30_0p5_30_1_4/SD1.t80 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t91 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X120 NMOS_30_0p5_30_1_0/SD1.t14 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t33 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X121 NMOS_30_0p5_30_1_0/SD1.t23 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t32 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X122 NMOS_30_0p5_30_1_0/SD1.t0 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t31 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X123 NMOS_30_0p5_30_1_4/SD1.t75 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t90 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X124 NMOS_30_0p5_30_1_0/SD1.t5 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t30 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X125 NMOS_30_0p5_30_1_4/SD1.t89 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t89 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X126 NMOS_30_0p5_30_1_0/SD1.t10 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t29 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X127 NMOS_30_0p5_30_1_0/SD2.t28 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t4 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X128 NMOS_30_0p5_30_1_0/SD1.t49 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t27 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X129 NMOS_30_0p5_30_1_0/SD1.t110 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t86 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X130 NMOS_30_0p5_30_1_4/SD1.t97 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t88 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X131 NMOS_30_0p5_30_1_0/SD2.t26 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t56 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X132 NMOS_30_0p5_30_1_4/SD1.t1 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t27 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X133 NMOS_30_0p5_30_1_4/SD1.t41 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t26 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X134 NMOS_30_0p5_30_1_4/SD1.t48 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t25 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X135 NMOS_30_0p5_30_1_0/SD2.t25 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t57 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X136 NMOS_30_0p5_30_1_0/SD2.t85 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t94 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X137 NMOS_30_0p5_30_1_0/SD2.t24 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t32 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X138 NMOS_30_0p5_30_1_4/SD1.t44 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t24 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X139 NMOS_30_0p5_30_1_0/SD2.t23 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t54 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X140 NMOS_30_0p5_30_1_0/SD1.t61 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t84 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X141 NMOS_30_0p5_30_1_0/SD2.t22 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t9 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X142 NMOS_30_0p5_30_1_4/SD2.t23 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t37 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X143 NMOS_30_0p5_30_1_0/SD1.t46 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t21 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X144 NMOS_30_0p5_30_1_4/SD1.t109 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t87 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X145 NMOS_30_0p5_30_1_0/SD2.t20 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t42 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X146 NMOS_30_0p5_30_1_4/SD1.t68 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t86 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X147 NMOS_30_0p5_30_1_0/SD1.t51 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t19 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X148 NMOS_30_0p5_30_1_0/SD1.t53 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t18 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X149 NMOS_30_0p5_30_1_4/SD1.t8 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t22 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X150 NMOS_30_0p5_30_1_4/SD2.t21 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t2 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X151 NMOS_30_0p5_30_1_0/SD1.t48 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t17 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X152 NMOS_30_0p5_30_1_0/SD1.t17 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t16 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X153 NMOS_30_0p5_30_1_4/SD1.t0 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t20 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X154 NMOS_30_0p5_30_1_0/SD1.t37 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t15 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X155 NMOS_30_0p5_30_1_0/SD2.t83 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t93 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X156 NMOS_30_0p5_30_1_4/SD1.t103 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t85 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X157 NMOS_30_0p5_30_1_0/SD2.t82 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t107 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X158 NMOS_30_0p5_30_1_0/SD2.t14 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t33 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X159 NMOS_30_0p5_30_1_0/SD2.t81 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t68 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X160 NMOS_30_0p5_30_1_0/SD1.t103 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t80 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X161 NMOS_30_0p5_30_1_4/SD1.t3 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t19 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X162 NMOS_30_0p5_30_1_4/SD2.t84 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t85 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X163 NMOS_30_0p5_30_1_0/SD2.t13 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t47 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X164 NMOS_30_0p5_30_1_0/SD2.t12 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t50 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X165 NMOS_30_0p5_30_1_4/SD2.t83 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t110 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X166 NMOS_30_0p5_30_1_4/SD1.t49 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t18 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X167 NMOS_30_0p5_30_1_0/SD2.t11 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t59 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X168 NMOS_30_0p5_30_1_0/SD2.t10 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t58 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X169 NMOS_30_0p5_30_1_0/SD1.t74 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t79 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X170 NMOS_30_0p5_30_1_4/SD2.t82 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t90 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X171 NMOS_30_0p5_30_1_4/SD2.t17 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t34 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X172 NMOS_30_0p5_30_1_4/SD1.t119 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t81 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X173 NMOS_30_0p5_30_1_0/SD1.t69 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t78 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X174 NMOS_30_0p5_30_1_4/SD2.t16 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t56 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X175 NMOS_30_0p5_30_1_0/SD2.t77 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t79 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X176 NMOS_30_0p5_30_1_4/SD1.t98 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t80 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X177 NMOS_30_0p5_30_1_0/SD1.t31 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t9 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X178 NMOS_30_0p5_30_1_0/SD2.t76 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t73 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X179 NMOS_30_0p5_30_1_0/SD1.t34 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t8 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X180 NMOS_30_0p5_30_1_4/SD2.t79 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t79 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X181 NMOS_30_0p5_30_1_4/SD1.t52 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t15 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X182 NMOS_30_0p5_30_1_0/SD1.t41 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t7 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X183 NMOS_30_0p5_30_1_0/SD1.t88 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t75 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X184 NMOS_30_0p5_30_1_4/SD2.t78 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t81 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X185 NMOS_30_0p5_30_1_4/SD1.t26 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t14 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X186 NMOS_30_0p5_30_1_4/SD1.t28 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t13 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X187 NMOS_30_0p5_30_1_0/SD2.t74 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t87 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X188 NMOS_30_0p5_30_1_0/SD1.t105 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t73 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X189 NMOS_30_0p5_30_1_0/SD1.t115 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t72 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X190 NMOS_30_0p5_30_1_0/SD2.t71 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t63 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X191 NMOS_30_0p5_30_1_4/SD2.t77 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t91 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X192 NMOS_30_0p5_30_1_4/SD1.t115 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t76 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X193 NMOS_30_0p5_30_1_4/SD1.t14 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t12 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X194 NMOS_30_0p5_30_1_4/SD1.t21 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t11 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X195 NMOS_30_0p5_30_1_0/SD1.t111 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t70 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X196 NMOS_30_0p5_30_1_4/SD2.t75 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t104 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X197 NMOS_30_0p5_30_1_4/SD1.t83 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t74 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X198 NMOS_30_0p5_30_1_4/SD2.t73 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t106 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X199 NMOS_30_0p5_30_1_4/SD1.t64 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t72 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X200 NMOS_30_0p5_30_1_0/SD1.t114 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t69 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X201 NMOS_30_0p5_30_1_0/SD1.t35 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t6 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X202 NMOS_30_0p5_30_1_4/SD2.t10 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t42 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X203 NMOS_30_0p5_30_1_4/SD2.t9 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t15 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X204 NMOS_30_0p5_30_1_0/SD2.t68 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t89 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X205 NMOS_30_0p5_30_1_0/SD1.t119 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t67 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X206 NMOS_30_0p5_30_1_0/SD2.t66 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t66 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X207 NMOS_30_0p5_30_1_4/SD2.t8 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t22 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X208 NMOS_30_0p5_30_1_4/SD2.t7 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t50 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X209 NMOS_30_0p5_30_1_0/SD1.t102 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t65 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X210 NMOS_30_0p5_30_1_0/SD2.t64 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t91 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X211 NMOS_30_0p5_30_1_4/SD1.t35 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t6 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X212 NMOS_30_0p5_30_1_4/SD2.t71 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t99 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X213 NMOS_30_0p5_30_1_4/SD1.t57 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t5 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X214 NMOS_30_0p5_30_1_4/SD1.t43 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD2.t4 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X215 NMOS_30_0p5_30_1_4/SD2.t70 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t107 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X216 NMOS_30_0p5_30_1_0/SD2.t63 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t117 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X217 NMOS_30_0p5_30_1_0/SD2.t5 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t26 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X218 NMOS_30_0p5_30_1_4/SD2.t69 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t100 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X219 NMOS_30_0p5_30_1_4/SD2.t68 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t94 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X220 NMOS_30_0p5_30_1_4/SD1.t73 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t67 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X221 NMOS_30_0p5_30_1_0/SD1.t75 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD2.t62 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X222 NMOS_30_0p5_30_1_4/SD1.t65 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t66 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X223 NMOS_30_0p5_30_1_4/SD2.t3 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t16 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X224 NMOS_30_0p5_30_1_0/SD2.t61 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t82 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X225 NMOS_30_0p5_30_1_0/SD2.t4 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t52 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X226 NMOS_30_0p5_30_1_0/SD1.t55 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t3 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X227 NMOS_30_0p5_30_1_4/SD2.t65 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t61 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X228 NMOS_30_0p5_30_1_4/SD2.t2 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t23 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X229 NMOS_30_0p5_30_1_4/SD1.t67 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t64 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X230 NMOS_30_0p5_30_1_4/SD2.t1 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t9 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X231 NMOS_30_0p5_30_1_4/SD2.t63 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t70 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X232 NMOS_30_0p5_30_1_0/SD1.t43 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD2.t2 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X233 NMOS_30_0p5_30_1_4/SD2.t0 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_4/SD1.t51 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X234 NMOS_30_0p5_30_1_0/SD2.t1 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t18 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X235 NMOS_30_0p5_30_1_0/SD2.t60 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SD1.t116 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X236 NMOS_30_0p5_30_1_4/SD1.t92 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD2.t62 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X237 NMOS_30_0p5_30_1_0/SD2.t0 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SD1.t45 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X238 NMOS_30_0p5_30_1_4/SD2.t61 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t116 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+X239 NMOS_30_0p5_30_1_4/SD2.t60 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_4/SD1.t113 NMOS_30_0p5_30_1_0/SUB sky130_fd_pr__nfet_g5v0d10v5 ad=0p pd=0u as=0p ps=0u w=3e+07u l=500000u
+C0 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_1/G 44.21fF
+C1 NMOS_30_0p5_30_1_4/SD1 NMOS_30_0p5_30_1_0/G 54.94fF
+C2 NMOS_30_0p5_30_1_4/SD2 NMOS_30_0p5_30_1_4/SD1 847.90fF
+C3 NMOS_30_0p5_30_1_0/SD2 NMOS_30_0p5_30_1_0/G 75.53fF
+C4 NMOS_30_0p5_30_1_4/SD2 NMOS_30_0p5_30_1_0/SD2 60.66fF
+C5 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/G 46.61fF
+C6 NMOS_30_0p5_30_1_4/SD2 NMOS_30_0p5_30_1_0/SD1 45.81fF
+C7 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/G 20.93fF
+C8 NMOS_30_0p5_30_1_4/SD2 NMOS_30_0p5_30_1_1/G 47.85fF
+C9 NMOS_30_0p5_30_1_0/SD2 NMOS_30_0p5_30_1_4/SD1 60.85fF
+C10 NMOS_30_0p5_30_1_4/SD2 NMOS_30_0p5_30_1_0/G 67.79fF
+C11 NMOS_30_0p5_30_1_0/SD2 NMOS_30_0p5_30_1_0/SD1 789.80fF
+C12 NMOS_30_0p5_30_1_4/SD1 NMOS_30_0p5_30_1_1/G 46.61fF
+C13 NMOS_30_0p5_30_1_0/SD2 NMOS_30_0p5_30_1_1/G 49.41fF
+R0 NMOS_30_0p5_30_1_0/SD1.n0 NMOS_30_0p5_30_1_0/SD1.n69 1.435
+R1 NMOS_30_0p5_30_1_0/SD1.n6 NMOS_30_0p5_30_1_0/SD1.n23 1.435
+R2 NMOS_30_0p5_30_1_0/SD1.n4 NMOS_30_0p5_30_1_0/SD1.n38 1.435
+R3 NMOS_30_0p5_30_1_0/SD1.n2 NMOS_30_0p5_30_1_0/SD1.n53 1.435
+R4 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SD1.n60 1.428
+R5 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SD1.n61 1.428
+R6 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SD1.n62 1.428
+R7 NMOS_30_0p5_30_1_0/SD1.n1 NMOS_30_0p5_30_1_0/SD1.n63 1.428
+R8 NMOS_30_0p5_30_1_0/SD1.n1 NMOS_30_0p5_30_1_0/SD1.n64 1.428
+R9 NMOS_30_0p5_30_1_0/SD1.n1 NMOS_30_0p5_30_1_0/SD1.n65 1.428
+R10 NMOS_30_0p5_30_1_0/SD1.n0 NMOS_30_0p5_30_1_0/SD1.n66 1.428
+R11 NMOS_30_0p5_30_1_0/SD1.n0 NMOS_30_0p5_30_1_0/SD1.n67 1.428
+R12 NMOS_30_0p5_30_1_0/SD1.n0 NMOS_30_0p5_30_1_0/SD1.n68 1.428
+R13 NMOS_30_0p5_30_1_1/SD1 NMOS_30_0p5_30_1_0/SD1.n13 1.428
+R14 NMOS_30_0p5_30_1_1/SD1 NMOS_30_0p5_30_1_0/SD1.n14 1.428
+R15 NMOS_30_0p5_30_1_0/SD1.n10 NMOS_30_0p5_30_1_0/SD1.n15 1.428
+R16 NMOS_30_0p5_30_1_0/SD1.n10 NMOS_30_0p5_30_1_0/SD1.n16 1.428
+R17 NMOS_30_0p5_30_1_0/SD1.n7 NMOS_30_0p5_30_1_0/SD1.n17 1.428
+R18 NMOS_30_0p5_30_1_0/SD1.n7 NMOS_30_0p5_30_1_0/SD1.n18 1.428
+R19 NMOS_30_0p5_30_1_0/SD1.n7 NMOS_30_0p5_30_1_0/SD1.n19 1.428
+R20 NMOS_30_0p5_30_1_0/SD1.n7 NMOS_30_0p5_30_1_0/SD1.n20 1.428
+R21 NMOS_30_0p5_30_1_0/SD1.n6 NMOS_30_0p5_30_1_0/SD1.n21 1.428
+R22 NMOS_30_0p5_30_1_0/SD1.n6 NMOS_30_0p5_30_1_0/SD1.n22 1.428
+R23 NMOS_30_0p5_30_1_2/SD1 NMOS_30_0p5_30_1_0/SD1.n28 1.428
+R24 NMOS_30_0p5_30_1_2/SD1 NMOS_30_0p5_30_1_0/SD1.n29 1.428
+R25 NMOS_30_0p5_30_1_0/SD1.n9 NMOS_30_0p5_30_1_0/SD1.n30 1.428
+R26 NMOS_30_0p5_30_1_0/SD1.n9 NMOS_30_0p5_30_1_0/SD1.n31 1.428
+R27 NMOS_30_0p5_30_1_0/SD1.n5 NMOS_30_0p5_30_1_0/SD1.n32 1.428
+R28 NMOS_30_0p5_30_1_0/SD1.n5 NMOS_30_0p5_30_1_0/SD1.n33 1.428
+R29 NMOS_30_0p5_30_1_0/SD1.n5 NMOS_30_0p5_30_1_0/SD1.n34 1.428
+R30 NMOS_30_0p5_30_1_0/SD1.n5 NMOS_30_0p5_30_1_0/SD1.n35 1.428
+R31 NMOS_30_0p5_30_1_0/SD1.n4 NMOS_30_0p5_30_1_0/SD1.n36 1.428
+R32 NMOS_30_0p5_30_1_0/SD1.n4 NMOS_30_0p5_30_1_0/SD1.n37 1.428
+R33 NMOS_30_0p5_30_1_3/SD1 NMOS_30_0p5_30_1_0/SD1.n43 1.428
+R34 NMOS_30_0p5_30_1_3/SD1 NMOS_30_0p5_30_1_0/SD1.n44 1.428
+R35 NMOS_30_0p5_30_1_0/SD1.n8 NMOS_30_0p5_30_1_0/SD1.n45 1.428
+R36 NMOS_30_0p5_30_1_0/SD1.n8 NMOS_30_0p5_30_1_0/SD1.n46 1.428
+R37 NMOS_30_0p5_30_1_0/SD1.n3 NMOS_30_0p5_30_1_0/SD1.n47 1.428
+R38 NMOS_30_0p5_30_1_0/SD1.n3 NMOS_30_0p5_30_1_0/SD1.n48 1.428
+R39 NMOS_30_0p5_30_1_0/SD1.n3 NMOS_30_0p5_30_1_0/SD1.n49 1.428
+R40 NMOS_30_0p5_30_1_0/SD1.n3 NMOS_30_0p5_30_1_0/SD1.n50 1.428
+R41 NMOS_30_0p5_30_1_0/SD1.n2 NMOS_30_0p5_30_1_0/SD1.n51 1.428
+R42 NMOS_30_0p5_30_1_0/SD1.n2 NMOS_30_0p5_30_1_0/SD1.n52 1.428
+R43 NMOS_30_0p5_30_1_0/SD1.n1 NMOS_30_0p5_30_1_0/SD1.n70 1.427
+R44 NMOS_30_0p5_30_1_1/SD1 NMOS_30_0p5_30_1_0/SD1.n24 0.895
+R45 NMOS_30_0p5_30_1_2/SD1 NMOS_30_0p5_30_1_0/SD1.n39 0.895
+R46 NMOS_30_0p5_30_1_3/SD1 NMOS_30_0p5_30_1_0/SD1.n54 0.895
+R47 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SD1.n58 0.893
+R48 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SD1.n72 0.893
+R49 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SD1.n71 0.893
+R50 NMOS_30_0p5_30_1_1/SD1 NMOS_30_0p5_30_1_0/SD1.n11 0.893
+R51 NMOS_30_0p5_30_1_1/SD1 NMOS_30_0p5_30_1_0/SD1.n25 0.893
+R52 NMOS_30_0p5_30_1_1/SD1 NMOS_30_0p5_30_1_0/SD1.n12 0.893
+R53 NMOS_30_0p5_30_1_2/SD1 NMOS_30_0p5_30_1_0/SD1.n26 0.893
+R54 NMOS_30_0p5_30_1_2/SD1 NMOS_30_0p5_30_1_0/SD1.n40 0.893
+R55 NMOS_30_0p5_30_1_2/SD1 NMOS_30_0p5_30_1_0/SD1.n27 0.893
+R56 NMOS_30_0p5_30_1_3/SD1 NMOS_30_0p5_30_1_0/SD1.n41 0.893
+R57 NMOS_30_0p5_30_1_3/SD1 NMOS_30_0p5_30_1_0/SD1.n55 0.893
+R58 NMOS_30_0p5_30_1_3/SD1 NMOS_30_0p5_30_1_0/SD1.n42 0.893
+R59 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SD1.n59 0.891
+R60 NMOS_30_0p5_30_1_0/SD1.n60 NMOS_30_0p5_30_1_0/SD1.t40 0.551
+R61 NMOS_30_0p5_30_1_0/SD1.n60 NMOS_30_0p5_30_1_0/SD1.t27 0.551
+R62 NMOS_30_0p5_30_1_0/SD1.n61 NMOS_30_0p5_30_1_0/SD1.t22 0.551
+R63 NMOS_30_0p5_30_1_0/SD1.n61 NMOS_30_0p5_30_1_0/SD1.t49 0.551
+R64 NMOS_30_0p5_30_1_0/SD1.n62 NMOS_30_0p5_30_1_0/SD1.t18 0.551
+R65 NMOS_30_0p5_30_1_0/SD1.n62 NMOS_30_0p5_30_1_0/SD1.t1 0.551
+R66 NMOS_30_0p5_30_1_0/SD1.n63 NMOS_30_0p5_30_1_0/SD1.t26 0.551
+R67 NMOS_30_0p5_30_1_0/SD1.n63 NMOS_30_0p5_30_1_0/SD1.t20 0.551
+R68 NMOS_30_0p5_30_1_0/SD1.n64 NMOS_30_0p5_30_1_0/SD1.t13 0.551
+R69 NMOS_30_0p5_30_1_0/SD1.n64 NMOS_30_0p5_30_1_0/SD1.t43 0.551
+R70 NMOS_30_0p5_30_1_0/SD1.n65 NMOS_30_0p5_30_1_0/SD1.t33 0.551
+R71 NMOS_30_0p5_30_1_0/SD1.n65 NMOS_30_0p5_30_1_0/SD1.t46 0.551
+R72 NMOS_30_0p5_30_1_0/SD1.n66 NMOS_30_0p5_30_1_0/SD1.t3 0.551
+R73 NMOS_30_0p5_30_1_0/SD1.n66 NMOS_30_0p5_30_1_0/SD1.t37 0.551
+R74 NMOS_30_0p5_30_1_0/SD1.n67 NMOS_30_0p5_30_1_0/SD1.t38 0.551
+R75 NMOS_30_0p5_30_1_0/SD1.n67 NMOS_30_0p5_30_1_0/SD1.t6 0.551
+R76 NMOS_30_0p5_30_1_0/SD1.n68 NMOS_30_0p5_30_1_0/SD1.t45 0.551
+R77 NMOS_30_0p5_30_1_0/SD1.n68 NMOS_30_0p5_30_1_0/SD1.t24 0.551
+R78 NMOS_30_0p5_30_1_0/SD1.n69 NMOS_30_0p5_30_1_0/SD1.t36 0.551
+R79 NMOS_30_0p5_30_1_0/SD1.n69 NMOS_30_0p5_30_1_0/SD1.t16 0.551
+R80 NMOS_30_0p5_30_1_0/SD1.n59 NMOS_30_0p5_30_1_0/SD1.t4 0.551
+R81 NMOS_30_0p5_30_1_0/SD1.n59 NMOS_30_0p5_30_1_0/SD1.t31 0.551
+R82 NMOS_30_0p5_30_1_0/SD1.n71 NMOS_30_0p5_30_1_0/SD1.t57 0.551
+R83 NMOS_30_0p5_30_1_0/SD1.n71 NMOS_30_0p5_30_1_0/SD1.t23 0.551
+R84 NMOS_30_0p5_30_1_0/SD1.n72 NMOS_30_0p5_30_1_0/SD1.t50 0.551
+R85 NMOS_30_0p5_30_1_0/SD1.n72 NMOS_30_0p5_30_1_0/SD1.t14 0.551
+R86 NMOS_30_0p5_30_1_0/SD1.n58 NMOS_30_0p5_30_1_0/SD1.t47 0.551
+R87 NMOS_30_0p5_30_1_0/SD1.n58 NMOS_30_0p5_30_1_0/SD1.t51 0.551
+R88 NMOS_30_0p5_30_1_0/SD1.n13 NMOS_30_0p5_30_1_0/SD1.t73 0.551
+R89 NMOS_30_0p5_30_1_0/SD1.n13 NMOS_30_0p5_30_1_0/SD1.t103 0.551
+R90 NMOS_30_0p5_30_1_0/SD1.n14 NMOS_30_0p5_30_1_0/SD1.t107 0.551
+R91 NMOS_30_0p5_30_1_0/SD1.n14 NMOS_30_0p5_30_1_0/SD1.t114 0.551
+R92 NMOS_30_0p5_30_1_0/SD1.n15 NMOS_30_0p5_30_1_0/SD1.t77 0.551
+R93 NMOS_30_0p5_30_1_0/SD1.n15 NMOS_30_0p5_30_1_0/SD1.t98 0.551
+R94 NMOS_30_0p5_30_1_0/SD1.n16 NMOS_30_0p5_30_1_0/SD1.t108 0.551
+R95 NMOS_30_0p5_30_1_0/SD1.n16 NMOS_30_0p5_30_1_0/SD1.t67 0.551
+R96 NMOS_30_0p5_30_1_0/SD1.n17 NMOS_30_0p5_30_1_0/SD1.t118 0.551
+R97 NMOS_30_0p5_30_1_0/SD1.n17 NMOS_30_0p5_30_1_0/SD1.t112 0.551
+R98 NMOS_30_0p5_30_1_0/SD1.n18 NMOS_30_0p5_30_1_0/SD1.t82 0.551
+R99 NMOS_30_0p5_30_1_0/SD1.n18 NMOS_30_0p5_30_1_0/SD1.t102 0.551
+R100 NMOS_30_0p5_30_1_0/SD1.n19 NMOS_30_0p5_30_1_0/SD1.t89 0.551
+R101 NMOS_30_0p5_30_1_0/SD1.n19 NMOS_30_0p5_30_1_0/SD1.t105 0.551
+R102 NMOS_30_0p5_30_1_0/SD1.n20 NMOS_30_0p5_30_1_0/SD1.t79 0.551
+R103 NMOS_30_0p5_30_1_0/SD1.n20 NMOS_30_0p5_30_1_0/SD1.t75 0.551
+R104 NMOS_30_0p5_30_1_0/SD1.n21 NMOS_30_0p5_30_1_0/SD1.t85 0.551
+R105 NMOS_30_0p5_30_1_0/SD1.n21 NMOS_30_0p5_30_1_0/SD1.t110 0.551
+R106 NMOS_30_0p5_30_1_0/SD1.n22 NMOS_30_0p5_30_1_0/SD1.t84 0.551
+R107 NMOS_30_0p5_30_1_0/SD1.n22 NMOS_30_0p5_30_1_0/SD1.t92 0.551
+R108 NMOS_30_0p5_30_1_0/SD1.n23 NMOS_30_0p5_30_1_0/SD1.t96 0.551
+R109 NMOS_30_0p5_30_1_0/SD1.n23 NMOS_30_0p5_30_1_0/SD1.t97 0.551
+R110 NMOS_30_0p5_30_1_0/SD1.n24 NMOS_30_0p5_30_1_0/SD1.t66 0.551
+R111 NMOS_30_0p5_30_1_0/SD1.n24 NMOS_30_0p5_30_1_0/SD1.t115 0.551
+R112 NMOS_30_0p5_30_1_0/SD1.n12 NMOS_30_0p5_30_1_0/SD1.t71 0.551
+R113 NMOS_30_0p5_30_1_0/SD1.n12 NMOS_30_0p5_30_1_0/SD1.t70 0.551
+R114 NMOS_30_0p5_30_1_0/SD1.n25 NMOS_30_0p5_30_1_0/SD1.t116 0.551
+R115 NMOS_30_0p5_30_1_0/SD1.n25 NMOS_30_0p5_30_1_0/SD1.t64 0.551
+R116 NMOS_30_0p5_30_1_0/SD1.n11 NMOS_30_0p5_30_1_0/SD1.t106 0.551
+R117 NMOS_30_0p5_30_1_0/SD1.n11 NMOS_30_0p5_30_1_0/SD1.t101 0.551
+R118 NMOS_30_0p5_30_1_0/SD1.n28 NMOS_30_0p5_30_1_0/SD1.t25 0.551
+R119 NMOS_30_0p5_30_1_0/SD1.n28 NMOS_30_0p5_30_1_0/SD1.t55 0.551
+R120 NMOS_30_0p5_30_1_0/SD1.n29 NMOS_30_0p5_30_1_0/SD1.t52 0.551
+R121 NMOS_30_0p5_30_1_0/SD1.n29 NMOS_30_0p5_30_1_0/SD1.t11 0.551
+R122 NMOS_30_0p5_30_1_0/SD1.n30 NMOS_30_0p5_30_1_0/SD1.t56 0.551
+R123 NMOS_30_0p5_30_1_0/SD1.n30 NMOS_30_0p5_30_1_0/SD1.t34 0.551
+R124 NMOS_30_0p5_30_1_0/SD1.n31 NMOS_30_0p5_30_1_0/SD1.t12 0.551
+R125 NMOS_30_0p5_30_1_0/SD1.n31 NMOS_30_0p5_30_1_0/SD1.t53 0.551
+R126 NMOS_30_0p5_30_1_0/SD1.n32 NMOS_30_0p5_30_1_0/SD1.t42 0.551
+R127 NMOS_30_0p5_30_1_0/SD1.n32 NMOS_30_0p5_30_1_0/SD1.t10 0.551
+R128 NMOS_30_0p5_30_1_0/SD1.n33 NMOS_30_0p5_30_1_0/SD1.t44 0.551
+R129 NMOS_30_0p5_30_1_0/SD1.n33 NMOS_30_0p5_30_1_0/SD1.t8 0.551
+R130 NMOS_30_0p5_30_1_0/SD1.n34 NMOS_30_0p5_30_1_0/SD1.t30 0.551
+R131 NMOS_30_0p5_30_1_0/SD1.n34 NMOS_30_0p5_30_1_0/SD1.t2 0.551
+R132 NMOS_30_0p5_30_1_0/SD1.n35 NMOS_30_0p5_30_1_0/SD1.t21 0.551
+R133 NMOS_30_0p5_30_1_0/SD1.n35 NMOS_30_0p5_30_1_0/SD1.t39 0.551
+R134 NMOS_30_0p5_30_1_0/SD1.n36 NMOS_30_0p5_30_1_0/SD1.t59 0.551
+R135 NMOS_30_0p5_30_1_0/SD1.n36 NMOS_30_0p5_30_1_0/SD1.t35 0.551
+R136 NMOS_30_0p5_30_1_0/SD1.n37 NMOS_30_0p5_30_1_0/SD1.t32 0.551
+R137 NMOS_30_0p5_30_1_0/SD1.n37 NMOS_30_0p5_30_1_0/SD1.t41 0.551
+R138 NMOS_30_0p5_30_1_0/SD1.n38 NMOS_30_0p5_30_1_0/SD1.t58 0.551
+R139 NMOS_30_0p5_30_1_0/SD1.n38 NMOS_30_0p5_30_1_0/SD1.t17 0.551
+R140 NMOS_30_0p5_30_1_0/SD1.n39 NMOS_30_0p5_30_1_0/SD1.t28 0.551
+R141 NMOS_30_0p5_30_1_0/SD1.n39 NMOS_30_0p5_30_1_0/SD1.t29 0.551
+R142 NMOS_30_0p5_30_1_0/SD1.n27 NMOS_30_0p5_30_1_0/SD1.t19 0.551
+R143 NMOS_30_0p5_30_1_0/SD1.n27 NMOS_30_0p5_30_1_0/SD1.t48 0.551
+R144 NMOS_30_0p5_30_1_0/SD1.n40 NMOS_30_0p5_30_1_0/SD1.t15 0.551
+R145 NMOS_30_0p5_30_1_0/SD1.n40 NMOS_30_0p5_30_1_0/SD1.t7 0.551
+R146 NMOS_30_0p5_30_1_0/SD1.n26 NMOS_30_0p5_30_1_0/SD1.t9 0.551
+R147 NMOS_30_0p5_30_1_0/SD1.n26 NMOS_30_0p5_30_1_0/SD1.t5 0.551
+R148 NMOS_30_0p5_30_1_0/SD1.n43 NMOS_30_0p5_30_1_0/SD1.t93 0.551
+R149 NMOS_30_0p5_30_1_0/SD1.n43 NMOS_30_0p5_30_1_0/SD1.t61 0.551
+R150 NMOS_30_0p5_30_1_0/SD1.n44 NMOS_30_0p5_30_1_0/SD1.t94 0.551
+R151 NMOS_30_0p5_30_1_0/SD1.n44 NMOS_30_0p5_30_1_0/SD1.t88 0.551
+R152 NMOS_30_0p5_30_1_0/SD1.n45 NMOS_30_0p5_30_1_0/SD1.t72 0.551
+R153 NMOS_30_0p5_30_1_0/SD1.n45 NMOS_30_0p5_30_1_0/SD1.t60 0.551
+R154 NMOS_30_0p5_30_1_0/SD1.n46 NMOS_30_0p5_30_1_0/SD1.t76 0.551
+R155 NMOS_30_0p5_30_1_0/SD1.n46 NMOS_30_0p5_30_1_0/SD1.t81 0.551
+R156 NMOS_30_0p5_30_1_0/SD1.n47 NMOS_30_0p5_30_1_0/SD1.t62 0.551
+R157 NMOS_30_0p5_30_1_0/SD1.n47 NMOS_30_0p5_30_1_0/SD1.t78 0.551
+R158 NMOS_30_0p5_30_1_0/SD1.n48 NMOS_30_0p5_30_1_0/SD1.t91 0.551
+R159 NMOS_30_0p5_30_1_0/SD1.n48 NMOS_30_0p5_30_1_0/SD1.t111 0.551
+R160 NMOS_30_0p5_30_1_0/SD1.n49 NMOS_30_0p5_30_1_0/SD1.t63 0.551
+R161 NMOS_30_0p5_30_1_0/SD1.n49 NMOS_30_0p5_30_1_0/SD1.t69 0.551
+R162 NMOS_30_0p5_30_1_0/SD1.n50 NMOS_30_0p5_30_1_0/SD1.t68 0.551
+R163 NMOS_30_0p5_30_1_0/SD1.n50 NMOS_30_0p5_30_1_0/SD1.t119 0.551
+R164 NMOS_30_0p5_30_1_0/SD1.n51 NMOS_30_0p5_30_1_0/SD1.t109 0.551
+R165 NMOS_30_0p5_30_1_0/SD1.n51 NMOS_30_0p5_30_1_0/SD1.t65 0.551
+R166 NMOS_30_0p5_30_1_0/SD1.n52 NMOS_30_0p5_30_1_0/SD1.t90 0.551
+R167 NMOS_30_0p5_30_1_0/SD1.n52 NMOS_30_0p5_30_1_0/SD1.t86 0.551
+R168 NMOS_30_0p5_30_1_0/SD1.n53 NMOS_30_0p5_30_1_0/SD1.t83 0.551
+R169 NMOS_30_0p5_30_1_0/SD1.n53 NMOS_30_0p5_30_1_0/SD1.t99 0.551
+R170 NMOS_30_0p5_30_1_0/SD1.n54 NMOS_30_0p5_30_1_0/SD1.t87 0.551
+R171 NMOS_30_0p5_30_1_0/SD1.n54 NMOS_30_0p5_30_1_0/SD1.t74 0.551
+R172 NMOS_30_0p5_30_1_0/SD1.n42 NMOS_30_0p5_30_1_0/SD1.t80 0.551
+R173 NMOS_30_0p5_30_1_0/SD1.n42 NMOS_30_0p5_30_1_0/SD1.t95 0.551
+R174 NMOS_30_0p5_30_1_0/SD1.n55 NMOS_30_0p5_30_1_0/SD1.t117 0.551
+R175 NMOS_30_0p5_30_1_0/SD1.n55 NMOS_30_0p5_30_1_0/SD1.t100 0.551
+R176 NMOS_30_0p5_30_1_0/SD1.n41 NMOS_30_0p5_30_1_0/SD1.t104 0.551
+R177 NMOS_30_0p5_30_1_0/SD1.n41 NMOS_30_0p5_30_1_0/SD1.t113 0.551
+R178 NMOS_30_0p5_30_1_0/SD1.n70 NMOS_30_0p5_30_1_0/SD1.t54 0.551
+R179 NMOS_30_0p5_30_1_0/SD1.n70 NMOS_30_0p5_30_1_0/SD1.t0 0.551
+R180 NMOS_30_0p5_30_1_0/SD1.n56 NMOS_30_0p5_30_1_3/SD1 0.185
+R181 NMOS_30_0p5_30_1_0/SD1.n57 NMOS_30_0p5_30_1_0/SD1.n56 0.112
+R182 NMOS_30_0p5_30_1_0/SD1.n73 NMOS_30_0p5_30_1_0/SD1.n57 0.08
+R183 NMOS_30_0p5_30_1_0/SD1.n57 NMOS_30_0p5_30_1_1/SD1 0.073
+R184 NMOS_30_0p5_30_1_0/SD1.n56 NMOS_30_0p5_30_1_2/SD1 0.073
+R185 NMOS_30_0p5_30_1_0/SD1.n73 NMOS_30_0p5_30_1_0/SD1 0.073
+R186 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SD1.n1 0.041
+R187 SD1L NMOS_30_0p5_30_1_0/SD1.n73 0.04
+R188 NMOS_30_0p5_30_1_0/SD1.n10 NMOS_30_0p5_30_1_0/SD1.n7 0.028
+R189 NMOS_30_0p5_30_1_0/SD1.n9 NMOS_30_0p5_30_1_0/SD1.n5 0.028
+R190 NMOS_30_0p5_30_1_0/SD1.n8 NMOS_30_0p5_30_1_0/SD1.n3 0.028
+R191 NMOS_30_0p5_30_1_0/SD1.n1 NMOS_30_0p5_30_1_0/SD1.n0 0.028
+R192 NMOS_30_0p5_30_1_1/SD1 NMOS_30_0p5_30_1_0/SD1.n10 0.022
+R193 NMOS_30_0p5_30_1_2/SD1 NMOS_30_0p5_30_1_0/SD1.n9 0.022
+R194 NMOS_30_0p5_30_1_3/SD1 NMOS_30_0p5_30_1_0/SD1.n8 0.022
+R195 NMOS_30_0p5_30_1_0/SD1.n3 NMOS_30_0p5_30_1_0/SD1.n2 0.021
+R196 NMOS_30_0p5_30_1_0/SD1.n5 NMOS_30_0p5_30_1_0/SD1.n4 0.021
+R197 NMOS_30_0p5_30_1_0/SD1.n7 NMOS_30_0p5_30_1_0/SD1.n6 0.021
+R198 NMOS_30_0p5_30_1_0/SD2.n36 NMOS_30_0p5_30_1_0/SD2.t90 1.972
+R199 NMOS_30_0p5_30_1_0/SD2.n90 NMOS_30_0p5_30_1_0/SD2.t96 1.972
+R200 NMOS_30_0p5_30_1_0/SD2.n65 NMOS_30_0p5_30_1_0/SD2.t50 1.972
+R201 NMOS_30_0p5_30_1_0/SD2.n13 NMOS_30_0p5_30_1_0/SD2.t10 1.972
+R202 NMOS_30_0p5_30_1_1/SD2 NMOS_30_0p5_30_1_0/SD2.t94 1.82
+R203 NMOS_30_0p5_30_1_3/SD2 NMOS_30_0p5_30_1_0/SD2.t101 1.82
+R204 NMOS_30_0p5_30_1_2/SD2 NMOS_30_0p5_30_1_0/SD2.t17 1.82
+R205 NMOS_30_0p5_30_1_0/SD2 NMOS_30_0p5_30_1_0/SD2.t9 1.819
+R206 NMOS_30_0p5_30_1_0/SD2.n46 NMOS_30_0p5_30_1_0/SD2.n25 1.414
+R207 NMOS_30_0p5_30_1_0/SD2.n45 NMOS_30_0p5_30_1_0/SD2.n26 1.414
+R208 NMOS_30_0p5_30_1_0/SD2.n44 NMOS_30_0p5_30_1_0/SD2.n27 1.414
+R209 NMOS_30_0p5_30_1_0/SD2.n43 NMOS_30_0p5_30_1_0/SD2.n28 1.414
+R210 NMOS_30_0p5_30_1_0/SD2.n42 NMOS_30_0p5_30_1_0/SD2.n29 1.414
+R211 NMOS_30_0p5_30_1_0/SD2.n41 NMOS_30_0p5_30_1_0/SD2.n30 1.414
+R212 NMOS_30_0p5_30_1_0/SD2.n40 NMOS_30_0p5_30_1_0/SD2.n31 1.414
+R213 NMOS_30_0p5_30_1_0/SD2.n39 NMOS_30_0p5_30_1_0/SD2.n32 1.414
+R214 NMOS_30_0p5_30_1_0/SD2.n38 NMOS_30_0p5_30_1_0/SD2.n33 1.414
+R215 NMOS_30_0p5_30_1_0/SD2.n37 NMOS_30_0p5_30_1_0/SD2.n34 1.414
+R216 NMOS_30_0p5_30_1_0/SD2.n36 NMOS_30_0p5_30_1_0/SD2.n35 1.414
+R217 NMOS_30_0p5_30_1_0/SD2.n100 NMOS_30_0p5_30_1_0/SD2.n79 1.414
+R218 NMOS_30_0p5_30_1_0/SD2.n99 NMOS_30_0p5_30_1_0/SD2.n80 1.414
+R219 NMOS_30_0p5_30_1_0/SD2.n98 NMOS_30_0p5_30_1_0/SD2.n81 1.414
+R220 NMOS_30_0p5_30_1_0/SD2.n97 NMOS_30_0p5_30_1_0/SD2.n82 1.414
+R221 NMOS_30_0p5_30_1_0/SD2.n96 NMOS_30_0p5_30_1_0/SD2.n83 1.414
+R222 NMOS_30_0p5_30_1_0/SD2.n95 NMOS_30_0p5_30_1_0/SD2.n84 1.414
+R223 NMOS_30_0p5_30_1_0/SD2.n94 NMOS_30_0p5_30_1_0/SD2.n85 1.414
+R224 NMOS_30_0p5_30_1_0/SD2.n93 NMOS_30_0p5_30_1_0/SD2.n86 1.414
+R225 NMOS_30_0p5_30_1_0/SD2.n92 NMOS_30_0p5_30_1_0/SD2.n87 1.414
+R226 NMOS_30_0p5_30_1_0/SD2.n91 NMOS_30_0p5_30_1_0/SD2.n88 1.414
+R227 NMOS_30_0p5_30_1_0/SD2.n90 NMOS_30_0p5_30_1_0/SD2.n89 1.414
+R228 NMOS_30_0p5_30_1_0/SD2.n75 NMOS_30_0p5_30_1_0/SD2.n54 1.414
+R229 NMOS_30_0p5_30_1_0/SD2.n74 NMOS_30_0p5_30_1_0/SD2.n55 1.414
+R230 NMOS_30_0p5_30_1_0/SD2.n73 NMOS_30_0p5_30_1_0/SD2.n56 1.414
+R231 NMOS_30_0p5_30_1_0/SD2.n72 NMOS_30_0p5_30_1_0/SD2.n57 1.414
+R232 NMOS_30_0p5_30_1_0/SD2.n71 NMOS_30_0p5_30_1_0/SD2.n58 1.414
+R233 NMOS_30_0p5_30_1_0/SD2.n70 NMOS_30_0p5_30_1_0/SD2.n59 1.414
+R234 NMOS_30_0p5_30_1_0/SD2.n69 NMOS_30_0p5_30_1_0/SD2.n60 1.414
+R235 NMOS_30_0p5_30_1_0/SD2.n68 NMOS_30_0p5_30_1_0/SD2.n61 1.414
+R236 NMOS_30_0p5_30_1_0/SD2.n67 NMOS_30_0p5_30_1_0/SD2.n62 1.414
+R237 NMOS_30_0p5_30_1_0/SD2.n66 NMOS_30_0p5_30_1_0/SD2.n63 1.414
+R238 NMOS_30_0p5_30_1_0/SD2.n65 NMOS_30_0p5_30_1_0/SD2.n64 1.414
+R239 NMOS_30_0p5_30_1_0/SD2.n24 NMOS_30_0p5_30_1_0/SD2.n3 1.414
+R240 NMOS_30_0p5_30_1_0/SD2.n21 NMOS_30_0p5_30_1_0/SD2.n4 1.414
+R241 NMOS_30_0p5_30_1_0/SD2.n20 NMOS_30_0p5_30_1_0/SD2.n5 1.414
+R242 NMOS_30_0p5_30_1_0/SD2.n19 NMOS_30_0p5_30_1_0/SD2.n6 1.414
+R243 NMOS_30_0p5_30_1_0/SD2.n18 NMOS_30_0p5_30_1_0/SD2.n7 1.414
+R244 NMOS_30_0p5_30_1_0/SD2.n17 NMOS_30_0p5_30_1_0/SD2.n8 1.414
+R245 NMOS_30_0p5_30_1_0/SD2.n16 NMOS_30_0p5_30_1_0/SD2.n9 1.414
+R246 NMOS_30_0p5_30_1_0/SD2.n15 NMOS_30_0p5_30_1_0/SD2.n10 1.414
+R247 NMOS_30_0p5_30_1_0/SD2.n14 NMOS_30_0p5_30_1_0/SD2.n11 1.414
+R248 NMOS_30_0p5_30_1_0/SD2.n13 NMOS_30_0p5_30_1_0/SD2.n12 1.414
+R249 NMOS_30_0p5_30_1_0/SD2.n23 NMOS_30_0p5_30_1_0/SD2.n22 1.413
+R250 NMOS_30_0p5_30_1_0/SD2.n50 NMOS_30_0p5_30_1_0/SD2.n48 1.261
+R251 NMOS_30_0p5_30_1_0/SD2.n50 NMOS_30_0p5_30_1_0/SD2.n47 1.261
+R252 NMOS_30_0p5_30_1_0/SD2.n104 NMOS_30_0p5_30_1_0/SD2.n102 1.261
+R253 NMOS_30_0p5_30_1_0/SD2.n104 NMOS_30_0p5_30_1_0/SD2.n101 1.261
+R254 NMOS_30_0p5_30_1_0/SD2.n76 NMOS_30_0p5_30_1_0/SD2.n51 1.261
+R255 NMOS_30_0p5_30_1_0/SD2.n76 NMOS_30_0p5_30_1_0/SD2.n52 1.261
+R256 NMOS_30_0p5_30_1_0/SD2.n50 NMOS_30_0p5_30_1_0/SD2.n49 1.261
+R257 NMOS_30_0p5_30_1_0/SD2.n104 NMOS_30_0p5_30_1_0/SD2.n103 1.261
+R258 NMOS_30_0p5_30_1_0/SD2.n76 NMOS_30_0p5_30_1_0/SD2.n53 1.261
+R259 NMOS_30_0p5_30_1_0/SD2.n106 NMOS_30_0p5_30_1_0/SD2.n2 1.261
+R260 NMOS_30_0p5_30_1_0/SD2.n106 NMOS_30_0p5_30_1_0/SD2.n1 1.261
+R261 NMOS_30_0p5_30_1_0/SD2.n106 NMOS_30_0p5_30_1_0/SD2.n0 1.261
+R262 NMOS_30_0p5_30_1_0/SD2.n25 NMOS_30_0p5_30_1_0/SD2.t80 0.551
+R263 NMOS_30_0p5_30_1_0/SD2.n25 NMOS_30_0p5_30_1_0/SD2.t66 0.551
+R264 NMOS_30_0p5_30_1_0/SD2.n26 NMOS_30_0p5_30_1_0/SD2.t69 0.551
+R265 NMOS_30_0p5_30_1_0/SD2.n26 NMOS_30_0p5_30_1_0/SD2.t76 0.551
+R266 NMOS_30_0p5_30_1_0/SD2.n27 NMOS_30_0p5_30_1_0/SD2.t88 0.551
+R267 NMOS_30_0p5_30_1_0/SD2.n27 NMOS_30_0p5_30_1_0/SD2.t82 0.551
+R268 NMOS_30_0p5_30_1_0/SD2.n28 NMOS_30_0p5_30_1_0/SD2.t95 0.551
+R269 NMOS_30_0p5_30_1_0/SD2.n28 NMOS_30_0p5_30_1_0/SD2.t102 0.551
+R270 NMOS_30_0p5_30_1_0/SD2.n29 NMOS_30_0p5_30_1_0/SD2.t105 0.551
+R271 NMOS_30_0p5_30_1_0/SD2.n29 NMOS_30_0p5_30_1_0/SD2.t111 0.551
+R272 NMOS_30_0p5_30_1_0/SD2.n30 NMOS_30_0p5_30_1_0/SD2.t65 0.551
+R273 NMOS_30_0p5_30_1_0/SD2.n30 NMOS_30_0p5_30_1_0/SD2.t98 0.551
+R274 NMOS_30_0p5_30_1_0/SD2.n31 NMOS_30_0p5_30_1_0/SD2.t73 0.551
+R275 NMOS_30_0p5_30_1_0/SD2.n31 NMOS_30_0p5_30_1_0/SD2.t61 0.551
+R276 NMOS_30_0p5_30_1_0/SD2.n32 NMOS_30_0p5_30_1_0/SD2.t62 0.551
+R277 NMOS_30_0p5_30_1_0/SD2.n32 NMOS_30_0p5_30_1_0/SD2.t68 0.551
+R278 NMOS_30_0p5_30_1_0/SD2.n33 NMOS_30_0p5_30_1_0/SD2.t86 0.551
+R279 NMOS_30_0p5_30_1_0/SD2.n33 NMOS_30_0p5_30_1_0/SD2.t77 0.551
+R280 NMOS_30_0p5_30_1_0/SD2.n34 NMOS_30_0p5_30_1_0/SD2.t89 0.551
+R281 NMOS_30_0p5_30_1_0/SD2.n34 NMOS_30_0p5_30_1_0/SD2.t92 0.551
+R282 NMOS_30_0p5_30_1_0/SD2.n35 NMOS_30_0p5_30_1_0/SD2.t97 0.551
+R283 NMOS_30_0p5_30_1_0/SD2.n35 NMOS_30_0p5_30_1_0/SD2.t104 0.551
+R284 NMOS_30_0p5_30_1_0/SD2.n47 NMOS_30_0p5_30_1_0/SD2.t72 0.551
+R285 NMOS_30_0p5_30_1_0/SD2.n47 NMOS_30_0p5_30_1_0/SD2.t60 0.551
+R286 NMOS_30_0p5_30_1_0/SD2.n49 NMOS_30_0p5_30_1_0/SD2.t116 0.551
+R287 NMOS_30_0p5_30_1_0/SD2.n49 NMOS_30_0p5_30_1_0/SD2.t100 0.551
+R288 NMOS_30_0p5_30_1_0/SD2.n48 NMOS_30_0p5_30_1_0/SD2.t107 0.551
+R289 NMOS_30_0p5_30_1_0/SD2.n48 NMOS_30_0p5_30_1_0/SD2.t113 0.551
+R290 NMOS_30_0p5_30_1_0/SD2.n79 NMOS_30_0p5_30_1_0/SD2.t84 0.551
+R291 NMOS_30_0p5_30_1_0/SD2.n79 NMOS_30_0p5_30_1_0/SD2.t74 0.551
+R292 NMOS_30_0p5_30_1_0/SD2.n80 NMOS_30_0p5_30_1_0/SD2.t75 0.551
+R293 NMOS_30_0p5_30_1_0/SD2.n80 NMOS_30_0p5_30_1_0/SD2.t83 0.551
+R294 NMOS_30_0p5_30_1_0/SD2.n81 NMOS_30_0p5_30_1_0/SD2.t93 0.551
+R295 NMOS_30_0p5_30_1_0/SD2.n81 NMOS_30_0p5_30_1_0/SD2.t85 0.551
+R296 NMOS_30_0p5_30_1_0/SD2.n82 NMOS_30_0p5_30_1_0/SD2.t106 0.551
+R297 NMOS_30_0p5_30_1_0/SD2.n82 NMOS_30_0p5_30_1_0/SD2.t112 0.551
+R298 NMOS_30_0p5_30_1_0/SD2.n83 NMOS_30_0p5_30_1_0/SD2.t114 0.551
+R299 NMOS_30_0p5_30_1_0/SD2.n83 NMOS_30_0p5_30_1_0/SD2.t117 0.551
+R300 NMOS_30_0p5_30_1_0/SD2.n84 NMOS_30_0p5_30_1_0/SD2.t70 0.551
+R301 NMOS_30_0p5_30_1_0/SD2.n84 NMOS_30_0p5_30_1_0/SD2.t108 0.551
+R302 NMOS_30_0p5_30_1_0/SD2.n85 NMOS_30_0p5_30_1_0/SD2.t78 0.551
+R303 NMOS_30_0p5_30_1_0/SD2.n85 NMOS_30_0p5_30_1_0/SD2.t64 0.551
+R304 NMOS_30_0p5_30_1_0/SD2.n86 NMOS_30_0p5_30_1_0/SD2.t67 0.551
+R305 NMOS_30_0p5_30_1_0/SD2.n86 NMOS_30_0p5_30_1_0/SD2.t71 0.551
+R306 NMOS_30_0p5_30_1_0/SD2.n87 NMOS_30_0p5_30_1_0/SD2.t87 0.551
+R307 NMOS_30_0p5_30_1_0/SD2.n87 NMOS_30_0p5_30_1_0/SD2.t81 0.551
+R308 NMOS_30_0p5_30_1_0/SD2.n88 NMOS_30_0p5_30_1_0/SD2.t91 0.551
+R309 NMOS_30_0p5_30_1_0/SD2.n88 NMOS_30_0p5_30_1_0/SD2.t99 0.551
+R310 NMOS_30_0p5_30_1_0/SD2.n89 NMOS_30_0p5_30_1_0/SD2.t103 0.551
+R311 NMOS_30_0p5_30_1_0/SD2.n89 NMOS_30_0p5_30_1_0/SD2.t110 0.551
+R312 NMOS_30_0p5_30_1_0/SD2.n101 NMOS_30_0p5_30_1_0/SD2.t79 0.551
+R313 NMOS_30_0p5_30_1_0/SD2.n101 NMOS_30_0p5_30_1_0/SD2.t63 0.551
+R314 NMOS_30_0p5_30_1_0/SD2.n103 NMOS_30_0p5_30_1_0/SD2.t119 0.551
+R315 NMOS_30_0p5_30_1_0/SD2.n103 NMOS_30_0p5_30_1_0/SD2.t109 0.551
+R316 NMOS_30_0p5_30_1_0/SD2.n102 NMOS_30_0p5_30_1_0/SD2.t115 0.551
+R317 NMOS_30_0p5_30_1_0/SD2.n102 NMOS_30_0p5_30_1_0/SD2.t118 0.551
+R318 NMOS_30_0p5_30_1_0/SD2.n54 NMOS_30_0p5_30_1_0/SD2.t39 0.551
+R319 NMOS_30_0p5_30_1_0/SD2.n54 NMOS_30_0p5_30_1_0/SD2.t25 0.551
+R320 NMOS_30_0p5_30_1_0/SD2.n55 NMOS_30_0p5_30_1_0/SD2.t27 0.551
+R321 NMOS_30_0p5_30_1_0/SD2.n55 NMOS_30_0p5_30_1_0/SD2.t37 0.551
+R322 NMOS_30_0p5_30_1_0/SD2.n56 NMOS_30_0p5_30_1_0/SD2.t46 0.551
+R323 NMOS_30_0p5_30_1_0/SD2.n56 NMOS_30_0p5_30_1_0/SD2.t40 0.551
+R324 NMOS_30_0p5_30_1_0/SD2.n57 NMOS_30_0p5_30_1_0/SD2.t56 0.551
+R325 NMOS_30_0p5_30_1_0/SD2.n57 NMOS_30_0p5_30_1_0/SD2.t1 0.551
+R326 NMOS_30_0p5_30_1_0/SD2.n58 NMOS_30_0p5_30_1_0/SD2.t2 0.551
+R327 NMOS_30_0p5_30_1_0/SD2.n58 NMOS_30_0p5_30_1_0/SD2.t5 0.551
+R328 NMOS_30_0p5_30_1_0/SD2.n59 NMOS_30_0p5_30_1_0/SD2.t21 0.551
+R329 NMOS_30_0p5_30_1_0/SD2.n59 NMOS_30_0p5_30_1_0/SD2.t57 0.551
+R330 NMOS_30_0p5_30_1_0/SD2.n60 NMOS_30_0p5_30_1_0/SD2.t31 0.551
+R331 NMOS_30_0p5_30_1_0/SD2.n60 NMOS_30_0p5_30_1_0/SD2.t14 0.551
+R332 NMOS_30_0p5_30_1_0/SD2.n61 NMOS_30_0p5_30_1_0/SD2.t15 0.551
+R333 NMOS_30_0p5_30_1_0/SD2.n61 NMOS_30_0p5_30_1_0/SD2.t23 0.551
+R334 NMOS_30_0p5_30_1_0/SD2.n62 NMOS_30_0p5_30_1_0/SD2.t41 0.551
+R335 NMOS_30_0p5_30_1_0/SD2.n62 NMOS_30_0p5_30_1_0/SD2.t36 0.551
+R336 NMOS_30_0p5_30_1_0/SD2.n63 NMOS_30_0p5_30_1_0/SD2.t45 0.551
+R337 NMOS_30_0p5_30_1_0/SD2.n63 NMOS_30_0p5_30_1_0/SD2.t51 0.551
+R338 NMOS_30_0p5_30_1_0/SD2.n64 NMOS_30_0p5_30_1_0/SD2.t54 0.551
+R339 NMOS_30_0p5_30_1_0/SD2.n64 NMOS_30_0p5_30_1_0/SD2.t0 0.551
+R340 NMOS_30_0p5_30_1_0/SD2.n52 NMOS_30_0p5_30_1_0/SD2.t32 0.551
+R341 NMOS_30_0p5_30_1_0/SD2.n52 NMOS_30_0p5_30_1_0/SD2.t12 0.551
+R342 NMOS_30_0p5_30_1_0/SD2.n53 NMOS_30_0p5_30_1_0/SD2.t33 0.551
+R343 NMOS_30_0p5_30_1_0/SD2.n53 NMOS_30_0p5_30_1_0/SD2.t13 0.551
+R344 NMOS_30_0p5_30_1_0/SD2.n51 NMOS_30_0p5_30_1_0/SD2.t19 0.551
+R345 NMOS_30_0p5_30_1_0/SD2.n51 NMOS_30_0p5_30_1_0/SD2.t28 0.551
+R346 NMOS_30_0p5_30_1_0/SD2.n3 NMOS_30_0p5_30_1_0/SD2.t3 0.551
+R347 NMOS_30_0p5_30_1_0/SD2.n3 NMOS_30_0p5_30_1_0/SD2.t49 0.551
+R348 NMOS_30_0p5_30_1_0/SD2.n4 NMOS_30_0p5_30_1_0/SD2.t8 0.551
+R349 NMOS_30_0p5_30_1_0/SD2.n4 NMOS_30_0p5_30_1_0/SD2.t4 0.551
+R350 NMOS_30_0p5_30_1_0/SD2.n5 NMOS_30_0p5_30_1_0/SD2.t18 0.551
+R351 NMOS_30_0p5_30_1_0/SD2.n5 NMOS_30_0p5_30_1_0/SD2.t26 0.551
+R352 NMOS_30_0p5_30_1_0/SD2.n6 NMOS_30_0p5_30_1_0/SD2.t29 0.551
+R353 NMOS_30_0p5_30_1_0/SD2.n6 NMOS_30_0p5_30_1_0/SD2.t34 0.551
+R354 NMOS_30_0p5_30_1_0/SD2.n7 NMOS_30_0p5_30_1_0/SD2.t47 0.551
+R355 NMOS_30_0p5_30_1_0/SD2.n7 NMOS_30_0p5_30_1_0/SD2.t20 0.551
+R356 NMOS_30_0p5_30_1_0/SD2.n8 NMOS_30_0p5_30_1_0/SD2.t53 0.551
+R357 NMOS_30_0p5_30_1_0/SD2.n8 NMOS_30_0p5_30_1_0/SD2.t43 0.551
+R358 NMOS_30_0p5_30_1_0/SD2.n9 NMOS_30_0p5_30_1_0/SD2.t44 0.551
+R359 NMOS_30_0p5_30_1_0/SD2.n9 NMOS_30_0p5_30_1_0/SD2.t48 0.551
+R360 NMOS_30_0p5_30_1_0/SD2.n10 NMOS_30_0p5_30_1_0/SD2.t6 0.551
+R361 NMOS_30_0p5_30_1_0/SD2.n10 NMOS_30_0p5_30_1_0/SD2.t58 0.551
+R362 NMOS_30_0p5_30_1_0/SD2.n11 NMOS_30_0p5_30_1_0/SD2.t7 0.551
+R363 NMOS_30_0p5_30_1_0/SD2.n11 NMOS_30_0p5_30_1_0/SD2.t11 0.551
+R364 NMOS_30_0p5_30_1_0/SD2.n12 NMOS_30_0p5_30_1_0/SD2.t16 0.551
+R365 NMOS_30_0p5_30_1_0/SD2.n12 NMOS_30_0p5_30_1_0/SD2.t24 0.551
+R366 NMOS_30_0p5_30_1_0/SD2.n2 NMOS_30_0p5_30_1_0/SD2.t55 0.551
+R367 NMOS_30_0p5_30_1_0/SD2.n2 NMOS_30_0p5_30_1_0/SD2.t42 0.551
+R368 NMOS_30_0p5_30_1_0/SD2.n1 NMOS_30_0p5_30_1_0/SD2.t38 0.551
+R369 NMOS_30_0p5_30_1_0/SD2.n1 NMOS_30_0p5_30_1_0/SD2.t22 0.551
+R370 NMOS_30_0p5_30_1_0/SD2.n0 NMOS_30_0p5_30_1_0/SD2.t30 0.551
+R371 NMOS_30_0p5_30_1_0/SD2.n0 NMOS_30_0p5_30_1_0/SD2.t35 0.551
+R372 NMOS_30_0p5_30_1_0/SD2.n22 NMOS_30_0p5_30_1_0/SD2.t52 0.551
+R373 NMOS_30_0p5_30_1_0/SD2.n22 NMOS_30_0p5_30_1_0/SD2.t59 0.551
+R374 NMOS_30_0p5_30_1_0/SD2.n105 NMOS_30_0p5_30_1_0/SD2.n104 0.479
+R375 NMOS_30_0p5_30_1_0/SD2.n78 NMOS_30_0p5_30_1_0/SD2.n50 0.367
+R376 NMOS_30_0p5_30_1_0/SD2.n77 NMOS_30_0p5_30_1_0/SD2.n76 0.367
+R377 NMOS_30_0p5_30_1_0/SD2.n106 NMOS_30_0p5_30_1_0/SD2.n105 0.367
+R378 NMOS_30_0p5_30_1_0/SD2.n105 NMOS_30_0p5_30_1_0/SD2.n78 0.112
+R379 NMOS_30_0p5_30_1_0/SD2.n78 NMOS_30_0p5_30_1_0/SD2.n77 0.109
+R380 NMOS_30_0p5_30_1_0/SD2.n77 SD2L 0.011
+R381 NMOS_30_0p5_30_1_0/SD2.n37 NMOS_30_0p5_30_1_0/SD2.n36 0.007
+R382 NMOS_30_0p5_30_1_0/SD2.n38 NMOS_30_0p5_30_1_0/SD2.n37 0.007
+R383 NMOS_30_0p5_30_1_0/SD2.n39 NMOS_30_0p5_30_1_0/SD2.n38 0.007
+R384 NMOS_30_0p5_30_1_0/SD2.n40 NMOS_30_0p5_30_1_0/SD2.n39 0.007
+R385 NMOS_30_0p5_30_1_0/SD2.n41 NMOS_30_0p5_30_1_0/SD2.n40 0.007
+R386 NMOS_30_0p5_30_1_0/SD2.n42 NMOS_30_0p5_30_1_0/SD2.n41 0.007
+R387 NMOS_30_0p5_30_1_0/SD2.n43 NMOS_30_0p5_30_1_0/SD2.n42 0.007
+R388 NMOS_30_0p5_30_1_0/SD2.n44 NMOS_30_0p5_30_1_0/SD2.n43 0.007
+R389 NMOS_30_0p5_30_1_0/SD2.n45 NMOS_30_0p5_30_1_0/SD2.n44 0.007
+R390 NMOS_30_0p5_30_1_0/SD2.n46 NMOS_30_0p5_30_1_0/SD2.n45 0.007
+R391 NMOS_30_0p5_30_1_0/SD2.n91 NMOS_30_0p5_30_1_0/SD2.n90 0.007
+R392 NMOS_30_0p5_30_1_0/SD2.n92 NMOS_30_0p5_30_1_0/SD2.n91 0.007
+R393 NMOS_30_0p5_30_1_0/SD2.n93 NMOS_30_0p5_30_1_0/SD2.n92 0.007
+R394 NMOS_30_0p5_30_1_0/SD2.n94 NMOS_30_0p5_30_1_0/SD2.n93 0.007
+R395 NMOS_30_0p5_30_1_0/SD2.n95 NMOS_30_0p5_30_1_0/SD2.n94 0.007
+R396 NMOS_30_0p5_30_1_0/SD2.n96 NMOS_30_0p5_30_1_0/SD2.n95 0.007
+R397 NMOS_30_0p5_30_1_0/SD2.n97 NMOS_30_0p5_30_1_0/SD2.n96 0.007
+R398 NMOS_30_0p5_30_1_0/SD2.n98 NMOS_30_0p5_30_1_0/SD2.n97 0.007
+R399 NMOS_30_0p5_30_1_0/SD2.n99 NMOS_30_0p5_30_1_0/SD2.n98 0.007
+R400 NMOS_30_0p5_30_1_0/SD2.n100 NMOS_30_0p5_30_1_0/SD2.n99 0.007
+R401 NMOS_30_0p5_30_1_0/SD2.n66 NMOS_30_0p5_30_1_0/SD2.n65 0.007
+R402 NMOS_30_0p5_30_1_0/SD2.n67 NMOS_30_0p5_30_1_0/SD2.n66 0.007
+R403 NMOS_30_0p5_30_1_0/SD2.n68 NMOS_30_0p5_30_1_0/SD2.n67 0.007
+R404 NMOS_30_0p5_30_1_0/SD2.n69 NMOS_30_0p5_30_1_0/SD2.n68 0.007
+R405 NMOS_30_0p5_30_1_0/SD2.n70 NMOS_30_0p5_30_1_0/SD2.n69 0.007
+R406 NMOS_30_0p5_30_1_0/SD2.n71 NMOS_30_0p5_30_1_0/SD2.n70 0.007
+R407 NMOS_30_0p5_30_1_0/SD2.n72 NMOS_30_0p5_30_1_0/SD2.n71 0.007
+R408 NMOS_30_0p5_30_1_0/SD2.n73 NMOS_30_0p5_30_1_0/SD2.n72 0.007
+R409 NMOS_30_0p5_30_1_0/SD2.n74 NMOS_30_0p5_30_1_0/SD2.n73 0.007
+R410 NMOS_30_0p5_30_1_0/SD2.n75 NMOS_30_0p5_30_1_0/SD2.n74 0.007
+R411 NMOS_30_0p5_30_1_0/SD2.n14 NMOS_30_0p5_30_1_0/SD2.n13 0.007
+R412 NMOS_30_0p5_30_1_0/SD2.n15 NMOS_30_0p5_30_1_0/SD2.n14 0.007
+R413 NMOS_30_0p5_30_1_0/SD2.n16 NMOS_30_0p5_30_1_0/SD2.n15 0.007
+R414 NMOS_30_0p5_30_1_0/SD2.n17 NMOS_30_0p5_30_1_0/SD2.n16 0.007
+R415 NMOS_30_0p5_30_1_0/SD2.n18 NMOS_30_0p5_30_1_0/SD2.n17 0.007
+R416 NMOS_30_0p5_30_1_0/SD2.n19 NMOS_30_0p5_30_1_0/SD2.n18 0.007
+R417 NMOS_30_0p5_30_1_0/SD2.n20 NMOS_30_0p5_30_1_0/SD2.n19 0.007
+R418 NMOS_30_0p5_30_1_0/SD2.n21 NMOS_30_0p5_30_1_0/SD2.n20 0.007
+R419 NMOS_30_0p5_30_1_0/SD2.n23 NMOS_30_0p5_30_1_0/SD2.n21 0.007
+R420 NMOS_30_0p5_30_1_0/SD2.n24 NMOS_30_0p5_30_1_0/SD2.n23 0.007
+R421 NMOS_30_0p5_30_1_0/SD2.n50 NMOS_30_0p5_30_1_0/SD2.n46 0.004
+R422 NMOS_30_0p5_30_1_0/SD2.n104 NMOS_30_0p5_30_1_0/SD2.n100 0.004
+R423 NMOS_30_0p5_30_1_0/SD2.n76 NMOS_30_0p5_30_1_0/SD2.n75 0.004
+R424 NMOS_30_0p5_30_1_0/SD2.n106 NMOS_30_0p5_30_1_0/SD2.n24 0.004
+R425 NMOS_30_0p5_30_1_0/SD2.n50 NMOS_30_0p5_30_1_1/SD2 0.003
+R426 NMOS_30_0p5_30_1_0/SD2.n104 NMOS_30_0p5_30_1_3/SD2 0.003
+R427 NMOS_30_0p5_30_1_0/SD2.n76 NMOS_30_0p5_30_1_0/SD2 0.003
+R428 NMOS_30_0p5_30_1_2/SD2 NMOS_30_0p5_30_1_0/SD2.n106 0.003
+R429 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n69 1.435
+R430 NMOS_30_0p5_30_1_4/SD1.n5 NMOS_30_0p5_30_1_4/SD1.n43 1.435
+R431 NMOS_30_0p5_30_1_4/SD1.n7 NMOS_30_0p5_30_1_4/SD1.n28 1.435
+R432 NMOS_30_0p5_30_1_4/SD1.n9 NMOS_30_0p5_30_1_4/SD1.n24 1.435
+R433 NMOS_30_0p5_30_1_7/SD1 NMOS_30_0p5_30_1_4/SD1.n64 1.428
+R434 NMOS_30_0p5_30_1_4/SD1.n3 NMOS_30_0p5_30_1_4/SD1.n63 1.428
+R435 NMOS_30_0p5_30_1_4/SD1.n3 NMOS_30_0p5_30_1_4/SD1.n62 1.428
+R436 NMOS_30_0p5_30_1_4/SD1.n3 NMOS_30_0p5_30_1_4/SD1.n61 1.428
+R437 NMOS_30_0p5_30_1_4/SD1.n3 NMOS_30_0p5_30_1_4/SD1.n60 1.428
+R438 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n59 1.428
+R439 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n66 1.428
+R440 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n67 1.428
+R441 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n68 1.428
+R442 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n40 1.428
+R443 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n41 1.428
+R444 NMOS_30_0p5_30_1_4/SD1.n5 NMOS_30_0p5_30_1_4/SD1.n42 1.428
+R445 NMOS_30_0p5_30_1_6/SD1 NMOS_30_0p5_30_1_4/SD1.n54 1.428
+R446 NMOS_30_0p5_30_1_6/SD1 NMOS_30_0p5_30_1_4/SD1.n53 1.428
+R447 NMOS_30_0p5_30_1_4/SD1.n2 NMOS_30_0p5_30_1_4/SD1.n52 1.428
+R448 NMOS_30_0p5_30_1_4/SD1.n2 NMOS_30_0p5_30_1_4/SD1.n51 1.428
+R449 NMOS_30_0p5_30_1_4/SD1.n2 NMOS_30_0p5_30_1_4/SD1.n50 1.428
+R450 NMOS_30_0p5_30_1_4/SD1.n2 NMOS_30_0p5_30_1_4/SD1.n49 1.428
+R451 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n48 1.428
+R452 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n25 1.428
+R453 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n26 1.428
+R454 NMOS_30_0p5_30_1_4/SD1.n7 NMOS_30_0p5_30_1_4/SD1.n27 1.428
+R455 NMOS_30_0p5_30_1_5/SD1 NMOS_30_0p5_30_1_4/SD1.n39 1.428
+R456 NMOS_30_0p5_30_1_5/SD1 NMOS_30_0p5_30_1_4/SD1.n38 1.428
+R457 NMOS_30_0p5_30_1_4/SD1.n1 NMOS_30_0p5_30_1_4/SD1.n37 1.428
+R458 NMOS_30_0p5_30_1_4/SD1.n1 NMOS_30_0p5_30_1_4/SD1.n36 1.428
+R459 NMOS_30_0p5_30_1_4/SD1.n1 NMOS_30_0p5_30_1_4/SD1.n35 1.428
+R460 NMOS_30_0p5_30_1_4/SD1.n1 NMOS_30_0p5_30_1_4/SD1.n34 1.428
+R461 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n33 1.428
+R462 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n21 1.428
+R463 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n22 1.428
+R464 NMOS_30_0p5_30_1_4/SD1.n9 NMOS_30_0p5_30_1_4/SD1.n23 1.428
+R465 NMOS_30_0p5_30_1_4/SD1 NMOS_30_0p5_30_1_4/SD1.n11 1.428
+R466 NMOS_30_0p5_30_1_4/SD1 NMOS_30_0p5_30_1_4/SD1.n12 1.428
+R467 NMOS_30_0p5_30_1_4/SD1.n0 NMOS_30_0p5_30_1_4/SD1.n13 1.428
+R468 NMOS_30_0p5_30_1_4/SD1.n0 NMOS_30_0p5_30_1_4/SD1.n14 1.428
+R469 NMOS_30_0p5_30_1_4/SD1.n0 NMOS_30_0p5_30_1_4/SD1.n15 1.428
+R470 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n16 1.428
+R471 NMOS_30_0p5_30_1_7/SD1 NMOS_30_0p5_30_1_4/SD1.n65 1.427
+R472 NMOS_30_0p5_30_1_4/SD1.n0 NMOS_30_0p5_30_1_4/SD1.n73 1.427
+R473 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n44 0.895
+R474 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n29 0.895
+R475 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n20 0.895
+R476 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n45 0.894
+R477 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n46 0.894
+R478 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n30 0.894
+R479 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n31 0.894
+R480 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n18 0.894
+R481 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n17 0.894
+R482 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n55 0.893
+R483 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n56 0.893
+R484 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n57 0.893
+R485 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n58 0.893
+R486 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n47 0.893
+R487 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n32 0.893
+R488 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n19 0.893
+R489 NMOS_30_0p5_30_1_4/SD1.n65 NMOS_30_0p5_30_1_4/SD1.t84 0.551
+R490 NMOS_30_0p5_30_1_4/SD1.n65 NMOS_30_0p5_30_1_4/SD1.t87 0.551
+R491 NMOS_30_0p5_30_1_4/SD1.n64 NMOS_30_0p5_30_1_4/SD1.t61 0.551
+R492 NMOS_30_0p5_30_1_4/SD1.n64 NMOS_30_0p5_30_1_4/SD1.t97 0.551
+R493 NMOS_30_0p5_30_1_4/SD1.n63 NMOS_30_0p5_30_1_4/SD1.t78 0.551
+R494 NMOS_30_0p5_30_1_4/SD1.n63 NMOS_30_0p5_30_1_4/SD1.t92 0.551
+R495 NMOS_30_0p5_30_1_4/SD1.n62 NMOS_30_0p5_30_1_4/SD1.t99 0.551
+R496 NMOS_30_0p5_30_1_4/SD1.n62 NMOS_30_0p5_30_1_4/SD1.t80 0.551
+R497 NMOS_30_0p5_30_1_4/SD1.n61 NMOS_30_0p5_30_1_4/SD1.t60 0.551
+R498 NMOS_30_0p5_30_1_4/SD1.n61 NMOS_30_0p5_30_1_4/SD1.t65 0.551
+R499 NMOS_30_0p5_30_1_4/SD1.n60 NMOS_30_0p5_30_1_4/SD1.t116 0.551
+R500 NMOS_30_0p5_30_1_4/SD1.n60 NMOS_30_0p5_30_1_4/SD1.t67 0.551
+R501 NMOS_30_0p5_30_1_4/SD1.n59 NMOS_30_0p5_30_1_4/SD1.t111 0.551
+R502 NMOS_30_0p5_30_1_4/SD1.n59 NMOS_30_0p5_30_1_4/SD1.t95 0.551
+R503 NMOS_30_0p5_30_1_4/SD1.n66 NMOS_30_0p5_30_1_4/SD1.t102 0.551
+R504 NMOS_30_0p5_30_1_4/SD1.n66 NMOS_30_0p5_30_1_4/SD1.t71 0.551
+R505 NMOS_30_0p5_30_1_4/SD1.n67 NMOS_30_0p5_30_1_4/SD1.t106 0.551
+R506 NMOS_30_0p5_30_1_4/SD1.n67 NMOS_30_0p5_30_1_4/SD1.t75 0.551
+R507 NMOS_30_0p5_30_1_4/SD1.n68 NMOS_30_0p5_30_1_4/SD1.t93 0.551
+R508 NMOS_30_0p5_30_1_4/SD1.n68 NMOS_30_0p5_30_1_4/SD1.t108 0.551
+R509 NMOS_30_0p5_30_1_4/SD1.n69 NMOS_30_0p5_30_1_4/SD1.t82 0.551
+R510 NMOS_30_0p5_30_1_4/SD1.n69 NMOS_30_0p5_30_1_4/SD1.t103 0.551
+R511 NMOS_30_0p5_30_1_4/SD1.n55 NMOS_30_0p5_30_1_4/SD1.t104 0.551
+R512 NMOS_30_0p5_30_1_4/SD1.n55 NMOS_30_0p5_30_1_4/SD1.t69 0.551
+R513 NMOS_30_0p5_30_1_4/SD1.n56 NMOS_30_0p5_30_1_4/SD1.t118 0.551
+R514 NMOS_30_0p5_30_1_4/SD1.n56 NMOS_30_0p5_30_1_4/SD1.t98 0.551
+R515 NMOS_30_0p5_30_1_4/SD1.n57 NMOS_30_0p5_30_1_4/SD1.t91 0.551
+R516 NMOS_30_0p5_30_1_4/SD1.n57 NMOS_30_0p5_30_1_4/SD1.t114 0.551
+R517 NMOS_30_0p5_30_1_4/SD1.n58 NMOS_30_0p5_30_1_4/SD1.t117 0.551
+R518 NMOS_30_0p5_30_1_4/SD1.n58 NMOS_30_0p5_30_1_4/SD1.t119 0.551
+R519 NMOS_30_0p5_30_1_4/SD1.n40 NMOS_30_0p5_30_1_4/SD1.t7 0.551
+R520 NMOS_30_0p5_30_1_4/SD1.n40 NMOS_30_0p5_30_1_4/SD1.t30 0.551
+R521 NMOS_30_0p5_30_1_4/SD1.n41 NMOS_30_0p5_30_1_4/SD1.t22 0.551
+R522 NMOS_30_0p5_30_1_4/SD1.n41 NMOS_30_0p5_30_1_4/SD1.t41 0.551
+R523 NMOS_30_0p5_30_1_4/SD1.n42 NMOS_30_0p5_30_1_4/SD1.t58 0.551
+R524 NMOS_30_0p5_30_1_4/SD1.n42 NMOS_30_0p5_30_1_4/SD1.t54 0.551
+R525 NMOS_30_0p5_30_1_4/SD1.n43 NMOS_30_0p5_30_1_4/SD1.t17 0.551
+R526 NMOS_30_0p5_30_1_4/SD1.n43 NMOS_30_0p5_30_1_4/SD1.t49 0.551
+R527 NMOS_30_0p5_30_1_4/SD1.n54 NMOS_30_0p5_30_1_4/SD1.t16 0.551
+R528 NMOS_30_0p5_30_1_4/SD1.n54 NMOS_30_0p5_30_1_4/SD1.t57 0.551
+R529 NMOS_30_0p5_30_1_4/SD1.n53 NMOS_30_0p5_30_1_4/SD1.t34 0.551
+R530 NMOS_30_0p5_30_1_4/SD1.n53 NMOS_30_0p5_30_1_4/SD1.t45 0.551
+R531 NMOS_30_0p5_30_1_4/SD1.n52 NMOS_30_0p5_30_1_4/SD1.t31 0.551
+R532 NMOS_30_0p5_30_1_4/SD1.n52 NMOS_30_0p5_30_1_4/SD1.t52 0.551
+R533 NMOS_30_0p5_30_1_4/SD1.n51 NMOS_30_0p5_30_1_4/SD1.t56 0.551
+R534 NMOS_30_0p5_30_1_4/SD1.n51 NMOS_30_0p5_30_1_4/SD1.t46 0.551
+R535 NMOS_30_0p5_30_1_4/SD1.n50 NMOS_30_0p5_30_1_4/SD1.t53 0.551
+R536 NMOS_30_0p5_30_1_4/SD1.n50 NMOS_30_0p5_30_1_4/SD1.t28 0.551
+R537 NMOS_30_0p5_30_1_4/SD1.n49 NMOS_30_0p5_30_1_4/SD1.t15 0.551
+R538 NMOS_30_0p5_30_1_4/SD1.n49 NMOS_30_0p5_30_1_4/SD1.t21 0.551
+R539 NMOS_30_0p5_30_1_4/SD1.n48 NMOS_30_0p5_30_1_4/SD1.t12 0.551
+R540 NMOS_30_0p5_30_1_4/SD1.n48 NMOS_30_0p5_30_1_4/SD1.t18 0.551
+R541 NMOS_30_0p5_30_1_4/SD1.n44 NMOS_30_0p5_30_1_4/SD1.t42 0.551
+R542 NMOS_30_0p5_30_1_4/SD1.n44 NMOS_30_0p5_30_1_4/SD1.t33 0.551
+R543 NMOS_30_0p5_30_1_4/SD1.n45 NMOS_30_0p5_30_1_4/SD1.t29 0.551
+R544 NMOS_30_0p5_30_1_4/SD1.n45 NMOS_30_0p5_30_1_4/SD1.t26 0.551
+R545 NMOS_30_0p5_30_1_4/SD1.n46 NMOS_30_0p5_30_1_4/SD1.t2 0.551
+R546 NMOS_30_0p5_30_1_4/SD1.n46 NMOS_30_0p5_30_1_4/SD1.t24 0.551
+R547 NMOS_30_0p5_30_1_4/SD1.n47 NMOS_30_0p5_30_1_4/SD1.t50 0.551
+R548 NMOS_30_0p5_30_1_4/SD1.n47 NMOS_30_0p5_30_1_4/SD1.t48 0.551
+R549 NMOS_30_0p5_30_1_4/SD1.n25 NMOS_30_0p5_30_1_4/SD1.t76 0.551
+R550 NMOS_30_0p5_30_1_4/SD1.n25 NMOS_30_0p5_30_1_4/SD1.t105 0.551
+R551 NMOS_30_0p5_30_1_4/SD1.n26 NMOS_30_0p5_30_1_4/SD1.t90 0.551
+R552 NMOS_30_0p5_30_1_4/SD1.n26 NMOS_30_0p5_30_1_4/SD1.t112 0.551
+R553 NMOS_30_0p5_30_1_4/SD1.n27 NMOS_30_0p5_30_1_4/SD1.t62 0.551
+R554 NMOS_30_0p5_30_1_4/SD1.n27 NMOS_30_0p5_30_1_4/SD1.t72 0.551
+R555 NMOS_30_0p5_30_1_4/SD1.n28 NMOS_30_0p5_30_1_4/SD1.t94 0.551
+R556 NMOS_30_0p5_30_1_4/SD1.n28 NMOS_30_0p5_30_1_4/SD1.t89 0.551
+R557 NMOS_30_0p5_30_1_4/SD1.n39 NMOS_30_0p5_30_1_4/SD1.t70 0.551
+R558 NMOS_30_0p5_30_1_4/SD1.n39 NMOS_30_0p5_30_1_4/SD1.t73 0.551
+R559 NMOS_30_0p5_30_1_4/SD1.n38 NMOS_30_0p5_30_1_4/SD1.t79 0.551
+R560 NMOS_30_0p5_30_1_4/SD1.n38 NMOS_30_0p5_30_1_4/SD1.t88 0.551
+R561 NMOS_30_0p5_30_1_4/SD1.n37 NMOS_30_0p5_30_1_4/SD1.t66 0.551
+R562 NMOS_30_0p5_30_1_4/SD1.n37 NMOS_30_0p5_30_1_4/SD1.t115 0.551
+R563 NMOS_30_0p5_30_1_4/SD1.n36 NMOS_30_0p5_30_1_4/SD1.t81 0.551
+R564 NMOS_30_0p5_30_1_4/SD1.n36 NMOS_30_0p5_30_1_4/SD1.t86 0.551
+R565 NMOS_30_0p5_30_1_4/SD1.n35 NMOS_30_0p5_30_1_4/SD1.t101 0.551
+R566 NMOS_30_0p5_30_1_4/SD1.n35 NMOS_30_0p5_30_1_4/SD1.t83 0.551
+R567 NMOS_30_0p5_30_1_4/SD1.n34 NMOS_30_0p5_30_1_4/SD1.t107 0.551
+R568 NMOS_30_0p5_30_1_4/SD1.n34 NMOS_30_0p5_30_1_4/SD1.t64 0.551
+R569 NMOS_30_0p5_30_1_4/SD1.n33 NMOS_30_0p5_30_1_4/SD1.t96 0.551
+R570 NMOS_30_0p5_30_1_4/SD1.n33 NMOS_30_0p5_30_1_4/SD1.t77 0.551
+R571 NMOS_30_0p5_30_1_4/SD1.n29 NMOS_30_0p5_30_1_4/SD1.t110 0.551
+R572 NMOS_30_0p5_30_1_4/SD1.n29 NMOS_30_0p5_30_1_4/SD1.t63 0.551
+R573 NMOS_30_0p5_30_1_4/SD1.n30 NMOS_30_0p5_30_1_4/SD1.t113 0.551
+R574 NMOS_30_0p5_30_1_4/SD1.n30 NMOS_30_0p5_30_1_4/SD1.t68 0.551
+R575 NMOS_30_0p5_30_1_4/SD1.n31 NMOS_30_0p5_30_1_4/SD1.t85 0.551
+R576 NMOS_30_0p5_30_1_4/SD1.n31 NMOS_30_0p5_30_1_4/SD1.t74 0.551
+R577 NMOS_30_0p5_30_1_4/SD1.n32 NMOS_30_0p5_30_1_4/SD1.t100 0.551
+R578 NMOS_30_0p5_30_1_4/SD1.n32 NMOS_30_0p5_30_1_4/SD1.t109 0.551
+R579 NMOS_30_0p5_30_1_4/SD1.n21 NMOS_30_0p5_30_1_4/SD1.t40 0.551
+R580 NMOS_30_0p5_30_1_4/SD1.n21 NMOS_30_0p5_30_1_4/SD1.t32 0.551
+R581 NMOS_30_0p5_30_1_4/SD1.n22 NMOS_30_0p5_30_1_4/SD1.t51 0.551
+R582 NMOS_30_0p5_30_1_4/SD1.n22 NMOS_30_0p5_30_1_4/SD1.t3 0.551
+R583 NMOS_30_0p5_30_1_4/SD1.n23 NMOS_30_0p5_30_1_4/SD1.t13 0.551
+R584 NMOS_30_0p5_30_1_4/SD1.n23 NMOS_30_0p5_30_1_4/SD1.t59 0.551
+R585 NMOS_30_0p5_30_1_4/SD1.n24 NMOS_30_0p5_30_1_4/SD1.t19 0.551
+R586 NMOS_30_0p5_30_1_4/SD1.n24 NMOS_30_0p5_30_1_4/SD1.t14 0.551
+R587 NMOS_30_0p5_30_1_4/SD1.n11 NMOS_30_0p5_30_1_4/SD1.t5 0.551
+R588 NMOS_30_0p5_30_1_4/SD1.n11 NMOS_30_0p5_30_1_4/SD1.t6 0.551
+R589 NMOS_30_0p5_30_1_4/SD1.n12 NMOS_30_0p5_30_1_4/SD1.t25 0.551
+R590 NMOS_30_0p5_30_1_4/SD1.n12 NMOS_30_0p5_30_1_4/SD1.t8 0.551
+R591 NMOS_30_0p5_30_1_4/SD1.n13 NMOS_30_0p5_30_1_4/SD1.t37 0.551
+R592 NMOS_30_0p5_30_1_4/SD1.n13 NMOS_30_0p5_30_1_4/SD1.t10 0.551
+R593 NMOS_30_0p5_30_1_4/SD1.n14 NMOS_30_0p5_30_1_4/SD1.t55 0.551
+R594 NMOS_30_0p5_30_1_4/SD1.n14 NMOS_30_0p5_30_1_4/SD1.t38 0.551
+R595 NMOS_30_0p5_30_1_4/SD1.n15 NMOS_30_0p5_30_1_4/SD1.t4 0.551
+R596 NMOS_30_0p5_30_1_4/SD1.n15 NMOS_30_0p5_30_1_4/SD1.t11 0.551
+R597 NMOS_30_0p5_30_1_4/SD1.n16 NMOS_30_0p5_30_1_4/SD1.t47 0.551
+R598 NMOS_30_0p5_30_1_4/SD1.n16 NMOS_30_0p5_30_1_4/SD1.t20 0.551
+R599 NMOS_30_0p5_30_1_4/SD1.n20 NMOS_30_0p5_30_1_4/SD1.t9 0.551
+R600 NMOS_30_0p5_30_1_4/SD1.n20 NMOS_30_0p5_30_1_4/SD1.t44 0.551
+R601 NMOS_30_0p5_30_1_4/SD1.n19 NMOS_30_0p5_30_1_4/SD1.t36 0.551
+R602 NMOS_30_0p5_30_1_4/SD1.n19 NMOS_30_0p5_30_1_4/SD1.t43 0.551
+R603 NMOS_30_0p5_30_1_4/SD1.n18 NMOS_30_0p5_30_1_4/SD1.t23 0.551
+R604 NMOS_30_0p5_30_1_4/SD1.n18 NMOS_30_0p5_30_1_4/SD1.t1 0.551
+R605 NMOS_30_0p5_30_1_4/SD1.n17 NMOS_30_0p5_30_1_4/SD1.t39 0.551
+R606 NMOS_30_0p5_30_1_4/SD1.n17 NMOS_30_0p5_30_1_4/SD1.t35 0.551
+R607 NMOS_30_0p5_30_1_4/SD1.n73 NMOS_30_0p5_30_1_4/SD1.t27 0.551
+R608 NMOS_30_0p5_30_1_4/SD1.n73 NMOS_30_0p5_30_1_4/SD1.t0 0.551
+R609 NMOS_30_0p5_30_1_4/SD1.n70 NMOS_30_0p5_30_1_4/SD1.n4 0.273
+R610 NMOS_30_0p5_30_1_4/SD1.n70 NMOS_30_0p5_30_1_4/SD1.n6 0.161
+R611 NMOS_30_0p5_30_1_4/SD1.n71 NMOS_30_0p5_30_1_4/SD1.n8 0.161
+R612 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n72 0.161
+R613 NMOS_30_0p5_30_1_4/SD1.n72 NMOS_30_0p5_30_1_4/SD1.n71 0.112
+R614 NMOS_30_0p5_30_1_4/SD1.n71 NMOS_30_0p5_30_1_4/SD1.n70 0.112
+R615 NMOS_30_0p5_30_1_4/SD1.n72 SD2R 0.045
+R616 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_4/SD1.n3 0.04
+R617 NMOS_30_0p5_30_1_4/SD1.n3 NMOS_30_0p5_30_1_7/SD1 0.028
+R618 NMOS_30_0p5_30_1_4/SD1.n2 NMOS_30_0p5_30_1_6/SD1 0.028
+R619 NMOS_30_0p5_30_1_4/SD1.n1 NMOS_30_0p5_30_1_5/SD1 0.028
+R620 NMOS_30_0p5_30_1_4/SD1 NMOS_30_0p5_30_1_4/SD1.n0 0.028
+R621 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_4/SD1.n9 0.022
+R622 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n7 0.022
+R623 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n5 0.022
+R624 NMOS_30_0p5_30_1_4/SD1.n0 NMOS_30_0p5_30_1_4/SD1.n10 0.02
+R625 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_4/SD1.n1 0.02
+R626 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_4/SD1.n2 0.02
+R627 NMOS_30_0p5_30_1_6/SD2 NMOS_30_0p5_30_1_4/SD2.t5 1.965
+R628 NMOS_30_0p5_30_1_5/SD2 NMOS_30_0p5_30_1_4/SD2.t67 1.965
+R629 NMOS_30_0p5_30_1_4/SD2 NMOS_30_0p5_30_1_4/SD2.t46 1.965
+R630 NMOS_30_0p5_30_1_7/SD2 NMOS_30_0p5_30_1_4/SD2.t115 1.965
+R631 NMOS_30_0p5_30_1_4/SD2.n99 NMOS_30_0p5_30_1_4/SD2.t118 1.812
+R632 NMOS_30_0p5_30_1_4/SD2.n70 NMOS_30_0p5_30_1_4/SD2.t56 1.812
+R633 NMOS_30_0p5_30_1_4/SD2.n41 NMOS_30_0p5_30_1_4/SD2.t68 1.812
+R634 NMOS_30_0p5_30_1_4/SD2.n102 NMOS_30_0p5_30_1_4/SD2.t47 1.812
+R635 NMOS_30_0p5_30_1_4/SD2.n85 NMOS_30_0p5_30_1_4/SD2.n84 1.414
+R636 NMOS_30_0p5_30_1_4/SD2.n86 NMOS_30_0p5_30_1_4/SD2.n83 1.414
+R637 NMOS_30_0p5_30_1_4/SD2.n87 NMOS_30_0p5_30_1_4/SD2.n82 1.414
+R638 NMOS_30_0p5_30_1_4/SD2.n88 NMOS_30_0p5_30_1_4/SD2.n81 1.414
+R639 NMOS_30_0p5_30_1_4/SD2.n89 NMOS_30_0p5_30_1_4/SD2.n80 1.414
+R640 NMOS_30_0p5_30_1_4/SD2.n90 NMOS_30_0p5_30_1_4/SD2.n79 1.414
+R641 NMOS_30_0p5_30_1_4/SD2.n91 NMOS_30_0p5_30_1_4/SD2.n78 1.414
+R642 NMOS_30_0p5_30_1_4/SD2.n92 NMOS_30_0p5_30_1_4/SD2.n77 1.414
+R643 NMOS_30_0p5_30_1_4/SD2.n93 NMOS_30_0p5_30_1_4/SD2.n76 1.414
+R644 NMOS_30_0p5_30_1_4/SD2.n94 NMOS_30_0p5_30_1_4/SD2.n75 1.414
+R645 NMOS_30_0p5_30_1_4/SD2.n95 NMOS_30_0p5_30_1_4/SD2.n74 1.414
+R646 NMOS_30_0p5_30_1_4/SD2.n96 NMOS_30_0p5_30_1_4/SD2.n73 1.414
+R647 NMOS_30_0p5_30_1_4/SD2.n97 NMOS_30_0p5_30_1_4/SD2.n72 1.414
+R648 NMOS_30_0p5_30_1_4/SD2.n56 NMOS_30_0p5_30_1_4/SD2.n55 1.414
+R649 NMOS_30_0p5_30_1_4/SD2.n57 NMOS_30_0p5_30_1_4/SD2.n54 1.414
+R650 NMOS_30_0p5_30_1_4/SD2.n58 NMOS_30_0p5_30_1_4/SD2.n53 1.414
+R651 NMOS_30_0p5_30_1_4/SD2.n59 NMOS_30_0p5_30_1_4/SD2.n52 1.414
+R652 NMOS_30_0p5_30_1_4/SD2.n60 NMOS_30_0p5_30_1_4/SD2.n51 1.414
+R653 NMOS_30_0p5_30_1_4/SD2.n61 NMOS_30_0p5_30_1_4/SD2.n50 1.414
+R654 NMOS_30_0p5_30_1_4/SD2.n62 NMOS_30_0p5_30_1_4/SD2.n49 1.414
+R655 NMOS_30_0p5_30_1_4/SD2.n63 NMOS_30_0p5_30_1_4/SD2.n48 1.414
+R656 NMOS_30_0p5_30_1_4/SD2.n64 NMOS_30_0p5_30_1_4/SD2.n47 1.414
+R657 NMOS_30_0p5_30_1_4/SD2.n65 NMOS_30_0p5_30_1_4/SD2.n46 1.414
+R658 NMOS_30_0p5_30_1_4/SD2.n66 NMOS_30_0p5_30_1_4/SD2.n45 1.414
+R659 NMOS_30_0p5_30_1_4/SD2.n67 NMOS_30_0p5_30_1_4/SD2.n44 1.414
+R660 NMOS_30_0p5_30_1_4/SD2.n68 NMOS_30_0p5_30_1_4/SD2.n43 1.414
+R661 NMOS_30_0p5_30_1_4/SD2.n27 NMOS_30_0p5_30_1_4/SD2.n26 1.414
+R662 NMOS_30_0p5_30_1_4/SD2.n28 NMOS_30_0p5_30_1_4/SD2.n25 1.414
+R663 NMOS_30_0p5_30_1_4/SD2.n29 NMOS_30_0p5_30_1_4/SD2.n24 1.414
+R664 NMOS_30_0p5_30_1_4/SD2.n30 NMOS_30_0p5_30_1_4/SD2.n23 1.414
+R665 NMOS_30_0p5_30_1_4/SD2.n31 NMOS_30_0p5_30_1_4/SD2.n22 1.414
+R666 NMOS_30_0p5_30_1_4/SD2.n32 NMOS_30_0p5_30_1_4/SD2.n21 1.414
+R667 NMOS_30_0p5_30_1_4/SD2.n33 NMOS_30_0p5_30_1_4/SD2.n20 1.414
+R668 NMOS_30_0p5_30_1_4/SD2.n34 NMOS_30_0p5_30_1_4/SD2.n19 1.414
+R669 NMOS_30_0p5_30_1_4/SD2.n35 NMOS_30_0p5_30_1_4/SD2.n18 1.414
+R670 NMOS_30_0p5_30_1_4/SD2.n36 NMOS_30_0p5_30_1_4/SD2.n17 1.414
+R671 NMOS_30_0p5_30_1_4/SD2.n37 NMOS_30_0p5_30_1_4/SD2.n16 1.414
+R672 NMOS_30_0p5_30_1_4/SD2.n38 NMOS_30_0p5_30_1_4/SD2.n15 1.414
+R673 NMOS_30_0p5_30_1_4/SD2.n39 NMOS_30_0p5_30_1_4/SD2.n14 1.414
+R674 NMOS_30_0p5_30_1_4/SD2.n117 NMOS_30_0p5_30_1_4/SD2.n0 1.414
+R675 NMOS_30_0p5_30_1_4/SD2.n114 NMOS_30_0p5_30_1_4/SD2.n1 1.414
+R676 NMOS_30_0p5_30_1_4/SD2.n113 NMOS_30_0p5_30_1_4/SD2.n2 1.414
+R677 NMOS_30_0p5_30_1_4/SD2.n112 NMOS_30_0p5_30_1_4/SD2.n3 1.414
+R678 NMOS_30_0p5_30_1_4/SD2.n111 NMOS_30_0p5_30_1_4/SD2.n4 1.414
+R679 NMOS_30_0p5_30_1_4/SD2.n110 NMOS_30_0p5_30_1_4/SD2.n5 1.414
+R680 NMOS_30_0p5_30_1_4/SD2.n109 NMOS_30_0p5_30_1_4/SD2.n6 1.414
+R681 NMOS_30_0p5_30_1_4/SD2.n108 NMOS_30_0p5_30_1_4/SD2.n7 1.414
+R682 NMOS_30_0p5_30_1_4/SD2.n107 NMOS_30_0p5_30_1_4/SD2.n8 1.414
+R683 NMOS_30_0p5_30_1_4/SD2.n106 NMOS_30_0p5_30_1_4/SD2.n9 1.414
+R684 NMOS_30_0p5_30_1_4/SD2.n105 NMOS_30_0p5_30_1_4/SD2.n10 1.414
+R685 NMOS_30_0p5_30_1_4/SD2.n104 NMOS_30_0p5_30_1_4/SD2.n11 1.414
+R686 NMOS_30_0p5_30_1_4/SD2.n116 NMOS_30_0p5_30_1_4/SD2.n115 1.413
+R687 NMOS_30_0p5_30_1_4/SD2.n98 NMOS_30_0p5_30_1_4/SD2.n71 1.27
+R688 NMOS_30_0p5_30_1_4/SD2.n69 NMOS_30_0p5_30_1_4/SD2.n42 1.27
+R689 NMOS_30_0p5_30_1_4/SD2.n40 NMOS_30_0p5_30_1_4/SD2.n13 1.27
+R690 NMOS_30_0p5_30_1_4/SD2.n103 NMOS_30_0p5_30_1_4/SD2.n12 1.27
+R691 NMOS_30_0p5_30_1_4/SD2.n100 NMOS_30_0p5_30_1_4/SD2.n99 0.567
+R692 NMOS_30_0p5_30_1_4/SD2.n84 NMOS_30_0p5_30_1_4/SD2.t88 0.551
+R693 NMOS_30_0p5_30_1_4/SD2.n84 NMOS_30_0p5_30_1_4/SD2.t111 0.551
+R694 NMOS_30_0p5_30_1_4/SD2.n83 NMOS_30_0p5_30_1_4/SD2.t62 0.551
+R695 NMOS_30_0p5_30_1_4/SD2.n83 NMOS_30_0p5_30_1_4/SD2.t65 0.551
+R696 NMOS_30_0p5_30_1_4/SD2.n82 NMOS_30_0p5_30_1_4/SD2.t91 0.551
+R697 NMOS_30_0p5_30_1_4/SD2.n82 NMOS_30_0p5_30_1_4/SD2.t92 0.551
+R698 NMOS_30_0p5_30_1_4/SD2.n81 NMOS_30_0p5_30_1_4/SD2.t66 0.551
+R699 NMOS_30_0p5_30_1_4/SD2.n81 NMOS_30_0p5_30_1_4/SD2.t71 0.551
+R700 NMOS_30_0p5_30_1_4/SD2.n80 NMOS_30_0p5_30_1_4/SD2.t64 0.551
+R701 NMOS_30_0p5_30_1_4/SD2.n80 NMOS_30_0p5_30_1_4/SD2.t100 0.551
+R702 NMOS_30_0p5_30_1_4/SD2.n79 NMOS_30_0p5_30_1_4/SD2.t103 0.551
+R703 NMOS_30_0p5_30_1_4/SD2.n79 NMOS_30_0p5_30_1_4/SD2.t61 0.551
+R704 NMOS_30_0p5_30_1_4/SD2.n78 NMOS_30_0p5_30_1_4/SD2.t81 0.551
+R705 NMOS_30_0p5_30_1_4/SD2.n78 NMOS_30_0p5_30_1_4/SD2.t98 0.551
+R706 NMOS_30_0p5_30_1_4/SD2.n77 NMOS_30_0p5_30_1_4/SD2.t95 0.551
+R707 NMOS_30_0p5_30_1_4/SD2.n77 NMOS_30_0p5_30_1_4/SD2.t119 0.551
+R708 NMOS_30_0p5_30_1_4/SD2.n76 NMOS_30_0p5_30_1_4/SD2.t80 0.551
+R709 NMOS_30_0p5_30_1_4/SD2.n76 NMOS_30_0p5_30_1_4/SD2.t77 0.551
+R710 NMOS_30_0p5_30_1_4/SD2.n75 NMOS_30_0p5_30_1_4/SD2.t93 0.551
+R711 NMOS_30_0p5_30_1_4/SD2.n75 NMOS_30_0p5_30_1_4/SD2.t114 0.551
+R712 NMOS_30_0p5_30_1_4/SD2.n74 NMOS_30_0p5_30_1_4/SD2.t109 0.551
+R713 NMOS_30_0p5_30_1_4/SD2.n74 NMOS_30_0p5_30_1_4/SD2.t75 0.551
+R714 NMOS_30_0p5_30_1_4/SD2.n73 NMOS_30_0p5_30_1_4/SD2.t90 0.551
+R715 NMOS_30_0p5_30_1_4/SD2.n73 NMOS_30_0p5_30_1_4/SD2.t105 0.551
+R716 NMOS_30_0p5_30_1_4/SD2.n72 NMOS_30_0p5_30_1_4/SD2.t106 0.551
+R717 NMOS_30_0p5_30_1_4/SD2.n72 NMOS_30_0p5_30_1_4/SD2.t73 0.551
+R718 NMOS_30_0p5_30_1_4/SD2.n71 NMOS_30_0p5_30_1_4/SD2.t85 0.551
+R719 NMOS_30_0p5_30_1_4/SD2.n71 NMOS_30_0p5_30_1_4/SD2.t104 0.551
+R720 NMOS_30_0p5_30_1_4/SD2.n55 NMOS_30_0p5_30_1_4/SD2.t37 0.551
+R721 NMOS_30_0p5_30_1_4/SD2.n55 NMOS_30_0p5_30_1_4/SD2.t3 0.551
+R722 NMOS_30_0p5_30_1_4/SD2.n54 NMOS_30_0p5_30_1_4/SD2.t15 0.551
+R723 NMOS_30_0p5_30_1_4/SD2.n54 NMOS_30_0p5_30_1_4/SD2.t17 0.551
+R724 NMOS_30_0p5_30_1_4/SD2.n53 NMOS_30_0p5_30_1_4/SD2.t36 0.551
+R725 NMOS_30_0p5_30_1_4/SD2.n53 NMOS_30_0p5_30_1_4/SD2.t39 0.551
+R726 NMOS_30_0p5_30_1_4/SD2.n52 NMOS_30_0p5_30_1_4/SD2.t13 0.551
+R727 NMOS_30_0p5_30_1_4/SD2.n52 NMOS_30_0p5_30_1_4/SD2.t16 0.551
+R728 NMOS_30_0p5_30_1_4/SD2.n51 NMOS_30_0p5_30_1_4/SD2.t11 0.551
+R729 NMOS_30_0p5_30_1_4/SD2.n51 NMOS_30_0p5_30_1_4/SD2.t50 0.551
+R730 NMOS_30_0p5_30_1_4/SD2.n50 NMOS_30_0p5_30_1_4/SD2.t53 0.551
+R731 NMOS_30_0p5_30_1_4/SD2.n50 NMOS_30_0p5_30_1_4/SD2.t9 0.551
+R732 NMOS_30_0p5_30_1_4/SD2.n49 NMOS_30_0p5_30_1_4/SD2.t25 0.551
+R733 NMOS_30_0p5_30_1_4/SD2.n49 NMOS_30_0p5_30_1_4/SD2.t48 0.551
+R734 NMOS_30_0p5_30_1_4/SD2.n48 NMOS_30_0p5_30_1_4/SD2.t42 0.551
+R735 NMOS_30_0p5_30_1_4/SD2.n48 NMOS_30_0p5_30_1_4/SD2.t7 0.551
+R736 NMOS_30_0p5_30_1_4/SD2.n47 NMOS_30_0p5_30_1_4/SD2.t14 0.551
+R737 NMOS_30_0p5_30_1_4/SD2.n47 NMOS_30_0p5_30_1_4/SD2.t21 0.551
+R738 NMOS_30_0p5_30_1_4/SD2.n46 NMOS_30_0p5_30_1_4/SD2.t30 0.551
+R739 NMOS_30_0p5_30_1_4/SD2.n46 NMOS_30_0p5_30_1_4/SD2.t51 0.551
+R740 NMOS_30_0p5_30_1_4/SD2.n45 NMOS_30_0p5_30_1_4/SD2.t44 0.551
+R741 NMOS_30_0p5_30_1_4/SD2.n45 NMOS_30_0p5_30_1_4/SD2.t10 0.551
+R742 NMOS_30_0p5_30_1_4/SD2.n44 NMOS_30_0p5_30_1_4/SD2.t26 0.551
+R743 NMOS_30_0p5_30_1_4/SD2.n44 NMOS_30_0p5_30_1_4/SD2.t40 0.551
+R744 NMOS_30_0p5_30_1_4/SD2.n43 NMOS_30_0p5_30_1_4/SD2.t43 0.551
+R745 NMOS_30_0p5_30_1_4/SD2.n43 NMOS_30_0p5_30_1_4/SD2.t8 0.551
+R746 NMOS_30_0p5_30_1_4/SD2.n42 NMOS_30_0p5_30_1_4/SD2.t18 0.551
+R747 NMOS_30_0p5_30_1_4/SD2.n42 NMOS_30_0p5_30_1_4/SD2.t38 0.551
+R748 NMOS_30_0p5_30_1_4/SD2.n26 NMOS_30_0p5_30_1_4/SD2.t97 0.551
+R749 NMOS_30_0p5_30_1_4/SD2.n26 NMOS_30_0p5_30_1_4/SD2.t63 0.551
+R750 NMOS_30_0p5_30_1_4/SD2.n25 NMOS_30_0p5_30_1_4/SD2.t76 0.551
+R751 NMOS_30_0p5_30_1_4/SD2.n25 NMOS_30_0p5_30_1_4/SD2.t79 0.551
+R752 NMOS_30_0p5_30_1_4/SD2.n24 NMOS_30_0p5_30_1_4/SD2.t96 0.551
+R753 NMOS_30_0p5_30_1_4/SD2.n24 NMOS_30_0p5_30_1_4/SD2.t99 0.551
+R754 NMOS_30_0p5_30_1_4/SD2.n23 NMOS_30_0p5_30_1_4/SD2.t74 0.551
+R755 NMOS_30_0p5_30_1_4/SD2.n23 NMOS_30_0p5_30_1_4/SD2.t78 0.551
+R756 NMOS_30_0p5_30_1_4/SD2.n22 NMOS_30_0p5_30_1_4/SD2.t72 0.551
+R757 NMOS_30_0p5_30_1_4/SD2.n22 NMOS_30_0p5_30_1_4/SD2.t108 0.551
+R758 NMOS_30_0p5_30_1_4/SD2.n21 NMOS_30_0p5_30_1_4/SD2.t110 0.551
+R759 NMOS_30_0p5_30_1_4/SD2.n21 NMOS_30_0p5_30_1_4/SD2.t70 0.551
+R760 NMOS_30_0p5_30_1_4/SD2.n20 NMOS_30_0p5_30_1_4/SD2.t87 0.551
+R761 NMOS_30_0p5_30_1_4/SD2.n20 NMOS_30_0p5_30_1_4/SD2.t107 0.551
+R762 NMOS_30_0p5_30_1_4/SD2.n19 NMOS_30_0p5_30_1_4/SD2.t102 0.551
+R763 NMOS_30_0p5_30_1_4/SD2.n19 NMOS_30_0p5_30_1_4/SD2.t69 0.551
+R764 NMOS_30_0p5_30_1_4/SD2.n18 NMOS_30_0p5_30_1_4/SD2.t86 0.551
+R765 NMOS_30_0p5_30_1_4/SD2.n18 NMOS_30_0p5_30_1_4/SD2.t84 0.551
+R766 NMOS_30_0p5_30_1_4/SD2.n17 NMOS_30_0p5_30_1_4/SD2.t101 0.551
+R767 NMOS_30_0p5_30_1_4/SD2.n17 NMOS_30_0p5_30_1_4/SD2.t60 0.551
+R768 NMOS_30_0p5_30_1_4/SD2.n16 NMOS_30_0p5_30_1_4/SD2.t117 0.551
+R769 NMOS_30_0p5_30_1_4/SD2.n16 NMOS_30_0p5_30_1_4/SD2.t83 0.551
+R770 NMOS_30_0p5_30_1_4/SD2.n15 NMOS_30_0p5_30_1_4/SD2.t94 0.551
+R771 NMOS_30_0p5_30_1_4/SD2.n15 NMOS_30_0p5_30_1_4/SD2.t113 0.551
+R772 NMOS_30_0p5_30_1_4/SD2.n14 NMOS_30_0p5_30_1_4/SD2.t116 0.551
+R773 NMOS_30_0p5_30_1_4/SD2.n14 NMOS_30_0p5_30_1_4/SD2.t82 0.551
+R774 NMOS_30_0p5_30_1_4/SD2.n13 NMOS_30_0p5_30_1_4/SD2.t89 0.551
+R775 NMOS_30_0p5_30_1_4/SD2.n13 NMOS_30_0p5_30_1_4/SD2.t112 0.551
+R776 NMOS_30_0p5_30_1_4/SD2.n0 NMOS_30_0p5_30_1_4/SD2.t22 0.551
+R777 NMOS_30_0p5_30_1_4/SD2.n0 NMOS_30_0p5_30_1_4/SD2.t45 0.551
+R778 NMOS_30_0p5_30_1_4/SD2.n1 NMOS_30_0p5_30_1_4/SD2.t20 0.551
+R779 NMOS_30_0p5_30_1_4/SD2.n1 NMOS_30_0p5_30_1_4/SD2.t23 0.551
+R780 NMOS_30_0p5_30_1_4/SD2.n2 NMOS_30_0p5_30_1_4/SD2.t55 0.551
+R781 NMOS_30_0p5_30_1_4/SD2.n2 NMOS_30_0p5_30_1_4/SD2.t58 0.551
+R782 NMOS_30_0p5_30_1_4/SD2.n3 NMOS_30_0p5_30_1_4/SD2.t54 0.551
+R783 NMOS_30_0p5_30_1_4/SD2.n3 NMOS_30_0p5_30_1_4/SD2.t29 0.551
+R784 NMOS_30_0p5_30_1_4/SD2.n4 NMOS_30_0p5_30_1_4/SD2.t31 0.551
+R785 NMOS_30_0p5_30_1_4/SD2.n4 NMOS_30_0p5_30_1_4/SD2.t52 0.551
+R786 NMOS_30_0p5_30_1_4/SD2.n5 NMOS_30_0p5_30_1_4/SD2.t6 0.551
+R787 NMOS_30_0p5_30_1_4/SD2.n5 NMOS_30_0p5_30_1_4/SD2.t28 0.551
+R788 NMOS_30_0p5_30_1_4/SD2.n6 NMOS_30_0p5_30_1_4/SD2.t27 0.551
+R789 NMOS_30_0p5_30_1_4/SD2.n6 NMOS_30_0p5_30_1_4/SD2.t49 0.551
+R790 NMOS_30_0p5_30_1_4/SD2.n7 NMOS_30_0p5_30_1_4/SD2.t4 0.551
+R791 NMOS_30_0p5_30_1_4/SD2.n7 NMOS_30_0p5_30_1_4/SD2.t2 0.551
+R792 NMOS_30_0p5_30_1_4/SD2.n8 NMOS_30_0p5_30_1_4/SD2.t24 0.551
+R793 NMOS_30_0p5_30_1_4/SD2.n8 NMOS_30_0p5_30_1_4/SD2.t41 0.551
+R794 NMOS_30_0p5_30_1_4/SD2.n9 NMOS_30_0p5_30_1_4/SD2.t35 0.551
+R795 NMOS_30_0p5_30_1_4/SD2.n9 NMOS_30_0p5_30_1_4/SD2.t1 0.551
+R796 NMOS_30_0p5_30_1_4/SD2.n10 NMOS_30_0p5_30_1_4/SD2.t19 0.551
+R797 NMOS_30_0p5_30_1_4/SD2.n10 NMOS_30_0p5_30_1_4/SD2.t33 0.551
+R798 NMOS_30_0p5_30_1_4/SD2.n11 NMOS_30_0p5_30_1_4/SD2.t34 0.551
+R799 NMOS_30_0p5_30_1_4/SD2.n11 NMOS_30_0p5_30_1_4/SD2.t0 0.551
+R800 NMOS_30_0p5_30_1_4/SD2.n12 NMOS_30_0p5_30_1_4/SD2.t12 0.551
+R801 NMOS_30_0p5_30_1_4/SD2.n12 NMOS_30_0p5_30_1_4/SD2.t32 0.551
+R802 NMOS_30_0p5_30_1_4/SD2.n115 NMOS_30_0p5_30_1_4/SD2.t57 0.551
+R803 NMOS_30_0p5_30_1_4/SD2.n115 NMOS_30_0p5_30_1_4/SD2.t59 0.551
+R804 NMOS_30_0p5_30_1_4/SD2.n102 SD1R 0.484
+R805 NMOS_30_0p5_30_1_4/SD2.n100 NMOS_30_0p5_30_1_4/SD2.n70 0.455
+R806 NMOS_30_0p5_30_1_4/SD2.n101 NMOS_30_0p5_30_1_4/SD2.n41 0.455
+R807 NMOS_30_0p5_30_1_4/SD2.n101 NMOS_30_0p5_30_1_4/SD2.n100 0.112
+R808 SD1R NMOS_30_0p5_30_1_4/SD2.n101 0.08
+R809 NMOS_30_0p5_30_1_4/SD2.n97 NMOS_30_0p5_30_1_4/SD2.n96 0.007
+R810 NMOS_30_0p5_30_1_4/SD2.n96 NMOS_30_0p5_30_1_4/SD2.n95 0.007
+R811 NMOS_30_0p5_30_1_4/SD2.n95 NMOS_30_0p5_30_1_4/SD2.n94 0.007
+R812 NMOS_30_0p5_30_1_4/SD2.n94 NMOS_30_0p5_30_1_4/SD2.n93 0.007
+R813 NMOS_30_0p5_30_1_4/SD2.n93 NMOS_30_0p5_30_1_4/SD2.n92 0.007
+R814 NMOS_30_0p5_30_1_4/SD2.n92 NMOS_30_0p5_30_1_4/SD2.n91 0.007
+R815 NMOS_30_0p5_30_1_4/SD2.n91 NMOS_30_0p5_30_1_4/SD2.n90 0.007
+R816 NMOS_30_0p5_30_1_4/SD2.n90 NMOS_30_0p5_30_1_4/SD2.n89 0.007
+R817 NMOS_30_0p5_30_1_4/SD2.n89 NMOS_30_0p5_30_1_4/SD2.n88 0.007
+R818 NMOS_30_0p5_30_1_4/SD2.n88 NMOS_30_0p5_30_1_4/SD2.n87 0.007
+R819 NMOS_30_0p5_30_1_4/SD2.n87 NMOS_30_0p5_30_1_4/SD2.n86 0.007
+R820 NMOS_30_0p5_30_1_4/SD2.n86 NMOS_30_0p5_30_1_4/SD2.n85 0.007
+R821 NMOS_30_0p5_30_1_4/SD2.n85 NMOS_30_0p5_30_1_7/SD2 0.007
+R822 NMOS_30_0p5_30_1_4/SD2.n68 NMOS_30_0p5_30_1_4/SD2.n67 0.007
+R823 NMOS_30_0p5_30_1_4/SD2.n67 NMOS_30_0p5_30_1_4/SD2.n66 0.007
+R824 NMOS_30_0p5_30_1_4/SD2.n66 NMOS_30_0p5_30_1_4/SD2.n65 0.007
+R825 NMOS_30_0p5_30_1_4/SD2.n65 NMOS_30_0p5_30_1_4/SD2.n64 0.007
+R826 NMOS_30_0p5_30_1_4/SD2.n64 NMOS_30_0p5_30_1_4/SD2.n63 0.007
+R827 NMOS_30_0p5_30_1_4/SD2.n63 NMOS_30_0p5_30_1_4/SD2.n62 0.007
+R828 NMOS_30_0p5_30_1_4/SD2.n62 NMOS_30_0p5_30_1_4/SD2.n61 0.007
+R829 NMOS_30_0p5_30_1_4/SD2.n61 NMOS_30_0p5_30_1_4/SD2.n60 0.007
+R830 NMOS_30_0p5_30_1_4/SD2.n60 NMOS_30_0p5_30_1_4/SD2.n59 0.007
+R831 NMOS_30_0p5_30_1_4/SD2.n59 NMOS_30_0p5_30_1_4/SD2.n58 0.007
+R832 NMOS_30_0p5_30_1_4/SD2.n58 NMOS_30_0p5_30_1_4/SD2.n57 0.007
+R833 NMOS_30_0p5_30_1_4/SD2.n57 NMOS_30_0p5_30_1_4/SD2.n56 0.007
+R834 NMOS_30_0p5_30_1_4/SD2.n56 NMOS_30_0p5_30_1_6/SD2 0.007
+R835 NMOS_30_0p5_30_1_4/SD2.n39 NMOS_30_0p5_30_1_4/SD2.n38 0.007
+R836 NMOS_30_0p5_30_1_4/SD2.n38 NMOS_30_0p5_30_1_4/SD2.n37 0.007
+R837 NMOS_30_0p5_30_1_4/SD2.n37 NMOS_30_0p5_30_1_4/SD2.n36 0.007
+R838 NMOS_30_0p5_30_1_4/SD2.n36 NMOS_30_0p5_30_1_4/SD2.n35 0.007
+R839 NMOS_30_0p5_30_1_4/SD2.n35 NMOS_30_0p5_30_1_4/SD2.n34 0.007
+R840 NMOS_30_0p5_30_1_4/SD2.n34 NMOS_30_0p5_30_1_4/SD2.n33 0.007
+R841 NMOS_30_0p5_30_1_4/SD2.n33 NMOS_30_0p5_30_1_4/SD2.n32 0.007
+R842 NMOS_30_0p5_30_1_4/SD2.n32 NMOS_30_0p5_30_1_4/SD2.n31 0.007
+R843 NMOS_30_0p5_30_1_4/SD2.n31 NMOS_30_0p5_30_1_4/SD2.n30 0.007
+R844 NMOS_30_0p5_30_1_4/SD2.n30 NMOS_30_0p5_30_1_4/SD2.n29 0.007
+R845 NMOS_30_0p5_30_1_4/SD2.n29 NMOS_30_0p5_30_1_4/SD2.n28 0.007
+R846 NMOS_30_0p5_30_1_4/SD2.n28 NMOS_30_0p5_30_1_4/SD2.n27 0.007
+R847 NMOS_30_0p5_30_1_4/SD2.n27 NMOS_30_0p5_30_1_5/SD2 0.007
+R848 NMOS_30_0p5_30_1_4/SD2.n105 NMOS_30_0p5_30_1_4/SD2.n104 0.007
+R849 NMOS_30_0p5_30_1_4/SD2.n106 NMOS_30_0p5_30_1_4/SD2.n105 0.007
+R850 NMOS_30_0p5_30_1_4/SD2.n107 NMOS_30_0p5_30_1_4/SD2.n106 0.007
+R851 NMOS_30_0p5_30_1_4/SD2.n108 NMOS_30_0p5_30_1_4/SD2.n107 0.007
+R852 NMOS_30_0p5_30_1_4/SD2.n109 NMOS_30_0p5_30_1_4/SD2.n108 0.007
+R853 NMOS_30_0p5_30_1_4/SD2.n110 NMOS_30_0p5_30_1_4/SD2.n109 0.007
+R854 NMOS_30_0p5_30_1_4/SD2.n111 NMOS_30_0p5_30_1_4/SD2.n110 0.007
+R855 NMOS_30_0p5_30_1_4/SD2.n112 NMOS_30_0p5_30_1_4/SD2.n111 0.007
+R856 NMOS_30_0p5_30_1_4/SD2.n113 NMOS_30_0p5_30_1_4/SD2.n112 0.007
+R857 NMOS_30_0p5_30_1_4/SD2.n114 NMOS_30_0p5_30_1_4/SD2.n113 0.007
+R858 NMOS_30_0p5_30_1_4/SD2.n116 NMOS_30_0p5_30_1_4/SD2.n114 0.007
+R859 NMOS_30_0p5_30_1_4/SD2.n117 NMOS_30_0p5_30_1_4/SD2.n116 0.007
+R860 NMOS_30_0p5_30_1_4/SD2 NMOS_30_0p5_30_1_4/SD2.n117 0.007
+R861 NMOS_30_0p5_30_1_4/SD2.n98 NMOS_30_0p5_30_1_4/SD2.n97 0.006
+R862 NMOS_30_0p5_30_1_4/SD2.n69 NMOS_30_0p5_30_1_4/SD2.n68 0.006
+R863 NMOS_30_0p5_30_1_4/SD2.n40 NMOS_30_0p5_30_1_4/SD2.n39 0.006
+R864 NMOS_30_0p5_30_1_4/SD2.n104 NMOS_30_0p5_30_1_4/SD2.n103 0.006
+R865 NMOS_30_0p5_30_1_4/SD2.n99 NMOS_30_0p5_30_1_4/SD2.n98 0.004
+R866 NMOS_30_0p5_30_1_4/SD2.n70 NMOS_30_0p5_30_1_4/SD2.n69 0.003
+R867 NMOS_30_0p5_30_1_4/SD2.n41 NMOS_30_0p5_30_1_4/SD2.n40 0.003
+R868 NMOS_30_0p5_30_1_4/SD2.n103 NMOS_30_0p5_30_1_4/SD2.n102 0.003
+C14 NMOS_30_0p5_30_1_4/SD1 NMOS_30_0p5_30_1_0/SUB 28.80fF
+C15 NMOS_30_0p5_30_1_4/SD2 NMOS_30_0p5_30_1_0/SUB 120.20fF
+C16 NMOS_30_0p5_30_1_1/G NMOS_30_0p5_30_1_0/SUB 97.84fF $ **FLOATING
+C17 NMOS_30_0p5_30_1_0/SD1 NMOS_30_0p5_30_1_0/SUB 76.04fF
+C18 NMOS_30_0p5_30_1_0/SD2 NMOS_30_0p5_30_1_0/SUB 94.76fF
+C19 NMOS_30_0p5_30_1_0/G NMOS_30_0p5_30_1_0/SUB 98.89fF $ **FLOATING
+C20 NMOS_30_0p5_30_1_4/SD2.t46 NMOS_30_0p5_30_1_0/SUB 3.05fF $ **FLOATING
+C21 NMOS_30_0p5_30_1_4/SD2.n0 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C22 NMOS_30_0p5_30_1_4/SD2.n1 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C23 NMOS_30_0p5_30_1_4/SD2.n2 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C24 NMOS_30_0p5_30_1_4/SD2.n3 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C25 NMOS_30_0p5_30_1_4/SD2.n4 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C26 NMOS_30_0p5_30_1_4/SD2.n5 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C27 NMOS_30_0p5_30_1_4/SD2.n6 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C28 NMOS_30_0p5_30_1_4/SD2.n7 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C29 NMOS_30_0p5_30_1_4/SD2.n8 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C30 NMOS_30_0p5_30_1_4/SD2.n9 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C31 NMOS_30_0p5_30_1_4/SD2.n10 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C32 NMOS_30_0p5_30_1_4/SD2.n11 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C33 NMOS_30_0p5_30_1_4/SD2.n12 NMOS_30_0p5_30_1_0/SUB 3.36fF
+C34 NMOS_30_0p5_30_1_4/SD2.t47 NMOS_30_0p5_30_1_0/SUB 2.94fF $ **FLOATING
+C35 NMOS_30_0p5_30_1_4/SD2.n13 NMOS_30_0p5_30_1_0/SUB 3.36fF
+C36 NMOS_30_0p5_30_1_4/SD2.n14 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C37 NMOS_30_0p5_30_1_4/SD2.n15 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C38 NMOS_30_0p5_30_1_4/SD2.n16 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C39 NMOS_30_0p5_30_1_4/SD2.n17 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C40 NMOS_30_0p5_30_1_4/SD2.n18 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C41 NMOS_30_0p5_30_1_4/SD2.n19 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C42 NMOS_30_0p5_30_1_4/SD2.n20 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C43 NMOS_30_0p5_30_1_4/SD2.n21 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C44 NMOS_30_0p5_30_1_4/SD2.n22 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C45 NMOS_30_0p5_30_1_4/SD2.n23 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C46 NMOS_30_0p5_30_1_4/SD2.n24 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C47 NMOS_30_0p5_30_1_4/SD2.n25 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C48 NMOS_30_0p5_30_1_4/SD2.n26 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C49 NMOS_30_0p5_30_1_4/SD2.t67 NMOS_30_0p5_30_1_0/SUB 3.05fF $ **FLOATING
+C50 NMOS_30_0p5_30_1_5/SD2 NMOS_30_0p5_30_1_0/SUB 5.16fF
+C51 NMOS_30_0p5_30_1_4/SD2.n27 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C52 NMOS_30_0p5_30_1_4/SD2.n28 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C53 NMOS_30_0p5_30_1_4/SD2.n29 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C54 NMOS_30_0p5_30_1_4/SD2.n30 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C55 NMOS_30_0p5_30_1_4/SD2.n31 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C56 NMOS_30_0p5_30_1_4/SD2.n32 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C57 NMOS_30_0p5_30_1_4/SD2.n33 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C58 NMOS_30_0p5_30_1_4/SD2.n34 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C59 NMOS_30_0p5_30_1_4/SD2.n35 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C60 NMOS_30_0p5_30_1_4/SD2.n36 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C61 NMOS_30_0p5_30_1_4/SD2.n37 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C62 NMOS_30_0p5_30_1_4/SD2.n38 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C63 NMOS_30_0p5_30_1_4/SD2.n39 NMOS_30_0p5_30_1_0/SUB 3.92fF
+C64 NMOS_30_0p5_30_1_4/SD2.n40 NMOS_30_0p5_30_1_0/SUB 3.54fF
+C65 NMOS_30_0p5_30_1_4/SD2.t68 NMOS_30_0p5_30_1_0/SUB 2.94fF $ **FLOATING
+C66 NMOS_30_0p5_30_1_4/SD2.n41 NMOS_30_0p5_30_1_0/SUB 72.51fF
+C67 NMOS_30_0p5_30_1_4/SD2.n42 NMOS_30_0p5_30_1_0/SUB 3.36fF
+C68 NMOS_30_0p5_30_1_4/SD2.n43 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C69 NMOS_30_0p5_30_1_4/SD2.n44 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C70 NMOS_30_0p5_30_1_4/SD2.n45 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C71 NMOS_30_0p5_30_1_4/SD2.n46 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C72 NMOS_30_0p5_30_1_4/SD2.n47 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C73 NMOS_30_0p5_30_1_4/SD2.n48 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C74 NMOS_30_0p5_30_1_4/SD2.n49 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C75 NMOS_30_0p5_30_1_4/SD2.n50 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C76 NMOS_30_0p5_30_1_4/SD2.n51 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C77 NMOS_30_0p5_30_1_4/SD2.n52 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C78 NMOS_30_0p5_30_1_4/SD2.n53 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C79 NMOS_30_0p5_30_1_4/SD2.n54 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C80 NMOS_30_0p5_30_1_4/SD2.n55 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C81 NMOS_30_0p5_30_1_4/SD2.t5 NMOS_30_0p5_30_1_0/SUB 3.05fF $ **FLOATING
+C82 NMOS_30_0p5_30_1_6/SD2 NMOS_30_0p5_30_1_0/SUB 5.16fF
+C83 NMOS_30_0p5_30_1_4/SD2.n56 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C84 NMOS_30_0p5_30_1_4/SD2.n57 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C85 NMOS_30_0p5_30_1_4/SD2.n58 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C86 NMOS_30_0p5_30_1_4/SD2.n59 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C87 NMOS_30_0p5_30_1_4/SD2.n60 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C88 NMOS_30_0p5_30_1_4/SD2.n61 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C89 NMOS_30_0p5_30_1_4/SD2.n62 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C90 NMOS_30_0p5_30_1_4/SD2.n63 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C91 NMOS_30_0p5_30_1_4/SD2.n64 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C92 NMOS_30_0p5_30_1_4/SD2.n65 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C93 NMOS_30_0p5_30_1_4/SD2.n66 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C94 NMOS_30_0p5_30_1_4/SD2.n67 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C95 NMOS_30_0p5_30_1_4/SD2.n68 NMOS_30_0p5_30_1_0/SUB 3.92fF
+C96 NMOS_30_0p5_30_1_4/SD2.n69 NMOS_30_0p5_30_1_0/SUB 3.54fF
+C97 NMOS_30_0p5_30_1_4/SD2.t56 NMOS_30_0p5_30_1_0/SUB 2.94fF $ **FLOATING
+C98 NMOS_30_0p5_30_1_4/SD2.n70 NMOS_30_0p5_30_1_0/SUB 72.51fF
+C99 NMOS_30_0p5_30_1_4/SD2.t118 NMOS_30_0p5_30_1_0/SUB 2.94fF $ **FLOATING
+C100 NMOS_30_0p5_30_1_4/SD2.n71 NMOS_30_0p5_30_1_0/SUB 3.36fF
+C101 NMOS_30_0p5_30_1_4/SD2.n72 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C102 NMOS_30_0p5_30_1_4/SD2.n73 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C103 NMOS_30_0p5_30_1_4/SD2.n74 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C104 NMOS_30_0p5_30_1_4/SD2.n75 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C105 NMOS_30_0p5_30_1_4/SD2.n76 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C106 NMOS_30_0p5_30_1_4/SD2.n77 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C107 NMOS_30_0p5_30_1_4/SD2.n78 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C108 NMOS_30_0p5_30_1_4/SD2.n79 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C109 NMOS_30_0p5_30_1_4/SD2.n80 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C110 NMOS_30_0p5_30_1_4/SD2.n81 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C111 NMOS_30_0p5_30_1_4/SD2.n82 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C112 NMOS_30_0p5_30_1_4/SD2.n83 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C113 NMOS_30_0p5_30_1_4/SD2.n84 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C114 NMOS_30_0p5_30_1_4/SD2.t115 NMOS_30_0p5_30_1_0/SUB 3.05fF $ **FLOATING
+C115 NMOS_30_0p5_30_1_7/SD2 NMOS_30_0p5_30_1_0/SUB 5.16fF
+C116 NMOS_30_0p5_30_1_4/SD2.n85 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C117 NMOS_30_0p5_30_1_4/SD2.n86 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C118 NMOS_30_0p5_30_1_4/SD2.n87 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C119 NMOS_30_0p5_30_1_4/SD2.n88 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C120 NMOS_30_0p5_30_1_4/SD2.n89 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C121 NMOS_30_0p5_30_1_4/SD2.n90 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C122 NMOS_30_0p5_30_1_4/SD2.n91 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C123 NMOS_30_0p5_30_1_4/SD2.n92 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C124 NMOS_30_0p5_30_1_4/SD2.n93 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C125 NMOS_30_0p5_30_1_4/SD2.n94 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C126 NMOS_30_0p5_30_1_4/SD2.n95 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C127 NMOS_30_0p5_30_1_4/SD2.n96 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C128 NMOS_30_0p5_30_1_4/SD2.n97 NMOS_30_0p5_30_1_0/SUB 3.92fF
+C129 NMOS_30_0p5_30_1_4/SD2.n98 NMOS_30_0p5_30_1_0/SUB 3.66fF
+C130 NMOS_30_0p5_30_1_4/SD2.n99 NMOS_30_0p5_30_1_0/SUB 89.93fF
+C131 NMOS_30_0p5_30_1_4/SD2.n100 NMOS_30_0p5_30_1_0/SUB 180.05fF
+C132 NMOS_30_0p5_30_1_4/SD2.n101 NMOS_30_0p5_30_1_0/SUB 101.39fF
+C133 SD1R NMOS_30_0p5_30_1_0/SUB 94.21fF
+C134 NMOS_30_0p5_30_1_4/SD2.n102 NMOS_30_0p5_30_1_0/SUB 76.81fF
+C135 NMOS_30_0p5_30_1_4/SD2.n103 NMOS_30_0p5_30_1_0/SUB 3.54fF
+C136 NMOS_30_0p5_30_1_4/SD2.n104 NMOS_30_0p5_30_1_0/SUB 3.92fF
+C137 NMOS_30_0p5_30_1_4/SD2.n105 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C138 NMOS_30_0p5_30_1_4/SD2.n106 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C139 NMOS_30_0p5_30_1_4/SD2.n107 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C140 NMOS_30_0p5_30_1_4/SD2.n108 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C141 NMOS_30_0p5_30_1_4/SD2.n109 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C142 NMOS_30_0p5_30_1_4/SD2.n110 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C143 NMOS_30_0p5_30_1_4/SD2.n111 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C144 NMOS_30_0p5_30_1_4/SD2.n112 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C145 NMOS_30_0p5_30_1_4/SD2.n113 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C146 NMOS_30_0p5_30_1_4/SD2.n114 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C147 NMOS_30_0p5_30_1_4/SD2.n115 NMOS_30_0p5_30_1_0/SUB 3.38fF
+C148 NMOS_30_0p5_30_1_4/SD2.n116 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C149 NMOS_30_0p5_30_1_4/SD2.n117 NMOS_30_0p5_30_1_0/SUB 4.03fF
+C150 NMOS_30_0p5_30_1_4/SD1.n0 NMOS_30_0p5_30_1_0/SUB 18.13fF
+C151 NMOS_30_0p5_30_1_5/SD1 NMOS_30_0p5_30_1_0/SUB 10.62fF
+C152 NMOS_30_0p5_30_1_4/SD1.n1 NMOS_30_0p5_30_1_0/SUB 18.13fF
+C153 NMOS_30_0p5_30_1_6/SD1 NMOS_30_0p5_30_1_0/SUB 10.62fF
+C154 NMOS_30_0p5_30_1_4/SD1.n2 NMOS_30_0p5_30_1_0/SUB 18.13fF
+C155 NMOS_30_0p5_30_1_7/SD1 NMOS_30_0p5_30_1_0/SUB 10.62fF
+C156 NMOS_30_0p5_30_1_4/SD1.n3 NMOS_30_0p5_30_1_0/SUB 18.13fF
+C157 NMOS_30_0p5_30_1_4/SD1.n4 NMOS_30_0p5_30_1_0/SUB 96.41fF
+C158 NMOS_30_0p5_30_1_4/SD1.n5 NMOS_30_0p5_30_1_0/SUB 10.63fF
+C159 NMOS_30_0p5_30_1_4/SD1.n6 NMOS_30_0p5_30_1_0/SUB 60.00fF
+C160 NMOS_30_0p5_30_1_4/SD1.n7 NMOS_30_0p5_30_1_0/SUB 10.63fF
+C161 NMOS_30_0p5_30_1_4/SD1.n8 NMOS_30_0p5_30_1_0/SUB 60.00fF
+C162 NMOS_30_0p5_30_1_4/SD1.n9 NMOS_30_0p5_30_1_0/SUB 10.63fF
+C163 NMOS_30_0p5_30_1_4/SD1.n10 NMOS_30_0p5_30_1_0/SUB 60.00fF
+C164 NMOS_30_0p5_30_1_4/SD1.n11 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C165 NMOS_30_0p5_30_1_4/SD1.n12 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C166 NMOS_30_0p5_30_1_4/SD1.n13 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C167 NMOS_30_0p5_30_1_4/SD1.n14 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C168 NMOS_30_0p5_30_1_4/SD1.n15 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C169 NMOS_30_0p5_30_1_4/SD1.n16 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C170 NMOS_30_0p5_30_1_4/SD1.n17 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C171 NMOS_30_0p5_30_1_4/SD1.n18 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C172 NMOS_30_0p5_30_1_4/SD1.n19 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C173 NMOS_30_0p5_30_1_4/SD1.n20 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C174 NMOS_30_0p5_30_1_4/SD1.n21 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C175 NMOS_30_0p5_30_1_4/SD1.n22 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C176 NMOS_30_0p5_30_1_4/SD1.n23 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C177 NMOS_30_0p5_30_1_4/SD1.n24 NMOS_30_0p5_30_1_0/SUB 3.84fF
+C178 NMOS_30_0p5_30_1_4/SD1.n25 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C179 NMOS_30_0p5_30_1_4/SD1.n26 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C180 NMOS_30_0p5_30_1_4/SD1.n27 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C181 NMOS_30_0p5_30_1_4/SD1.n28 NMOS_30_0p5_30_1_0/SUB 3.84fF
+C182 NMOS_30_0p5_30_1_4/SD1.n29 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C183 NMOS_30_0p5_30_1_4/SD1.n30 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C184 NMOS_30_0p5_30_1_4/SD1.n31 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C185 NMOS_30_0p5_30_1_4/SD1.n32 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C186 NMOS_30_0p5_30_1_4/SD1.n33 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C187 NMOS_30_0p5_30_1_4/SD1.n34 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C188 NMOS_30_0p5_30_1_4/SD1.n35 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C189 NMOS_30_0p5_30_1_4/SD1.n36 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C190 NMOS_30_0p5_30_1_4/SD1.n37 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C191 NMOS_30_0p5_30_1_4/SD1.n38 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C192 NMOS_30_0p5_30_1_4/SD1.n39 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C193 NMOS_30_0p5_30_1_4/SD1.n40 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C194 NMOS_30_0p5_30_1_4/SD1.n41 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C195 NMOS_30_0p5_30_1_4/SD1.n42 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C196 NMOS_30_0p5_30_1_4/SD1.n43 NMOS_30_0p5_30_1_0/SUB 3.84fF
+C197 NMOS_30_0p5_30_1_4/SD1.n44 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C198 NMOS_30_0p5_30_1_4/SD1.n45 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C199 NMOS_30_0p5_30_1_4/SD1.n46 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C200 NMOS_30_0p5_30_1_4/SD1.n47 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C201 NMOS_30_0p5_30_1_4/SD1.n48 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C202 NMOS_30_0p5_30_1_4/SD1.n49 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C203 NMOS_30_0p5_30_1_4/SD1.n50 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C204 NMOS_30_0p5_30_1_4/SD1.n51 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C205 NMOS_30_0p5_30_1_4/SD1.n52 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C206 NMOS_30_0p5_30_1_4/SD1.n53 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C207 NMOS_30_0p5_30_1_4/SD1.n54 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C208 NMOS_30_0p5_30_1_4/SD1.n55 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C209 NMOS_30_0p5_30_1_4/SD1.n56 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C210 NMOS_30_0p5_30_1_4/SD1.n57 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C211 NMOS_30_0p5_30_1_4/SD1.n58 NMOS_30_0p5_30_1_0/SUB 3.68fF
+C212 NMOS_30_0p5_30_1_4/SD1.n59 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C213 NMOS_30_0p5_30_1_4/SD1.n60 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C214 NMOS_30_0p5_30_1_4/SD1.n61 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C215 NMOS_30_0p5_30_1_4/SD1.n62 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C216 NMOS_30_0p5_30_1_4/SD1.n63 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C217 NMOS_30_0p5_30_1_4/SD1.n64 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C218 NMOS_30_0p5_30_1_4/SD1.n65 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C219 NMOS_30_0p5_30_1_4/SD1.n66 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C220 NMOS_30_0p5_30_1_4/SD1.n67 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C221 NMOS_30_0p5_30_1_4/SD1.n68 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C222 NMOS_30_0p5_30_1_4/SD1.n69 NMOS_30_0p5_30_1_0/SUB 3.84fF
+C223 NMOS_30_0p5_30_1_4/SD1.n70 NMOS_30_0p5_30_1_0/SUB 122.39fF
+C224 NMOS_30_0p5_30_1_4/SD1.n71 NMOS_30_0p5_30_1_0/SUB 85.33fF
+C225 SD2R NMOS_30_0p5_30_1_0/SUB 29.17fF
+C226 NMOS_30_0p5_30_1_4/SD1.n72 NMOS_30_0p5_30_1_0/SUB 93.46fF
+C227 NMOS_30_0p5_30_1_4/SD1.n73 NMOS_30_0p5_30_1_0/SUB 3.81fF
+C228 NMOS_30_0p5_30_1_0/SD2.n0 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C229 NMOS_30_0p5_30_1_0/SD2.n1 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C230 NMOS_30_0p5_30_1_0/SD2.n2 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C231 NMOS_30_0p5_30_1_0/SD2.n3 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C232 NMOS_30_0p5_30_1_0/SD2.n4 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C233 NMOS_30_0p5_30_1_0/SD2.n5 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C234 NMOS_30_0p5_30_1_0/SD2.n6 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C235 NMOS_30_0p5_30_1_0/SD2.n7 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C236 NMOS_30_0p5_30_1_0/SD2.n8 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C237 NMOS_30_0p5_30_1_0/SD2.n9 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C238 NMOS_30_0p5_30_1_0/SD2.n10 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C239 NMOS_30_0p5_30_1_0/SD2.n11 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C240 NMOS_30_0p5_30_1_0/SD2.n12 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C241 NMOS_30_0p5_30_1_0/SD2.t10 NMOS_30_0p5_30_1_0/SUB 3.23fF $ **FLOATING
+C242 NMOS_30_0p5_30_1_0/SD2.n13 NMOS_30_0p5_30_1_0/SUB 9.69fF
+C243 NMOS_30_0p5_30_1_0/SD2.n14 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C244 NMOS_30_0p5_30_1_0/SD2.n15 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C245 NMOS_30_0p5_30_1_0/SD2.n16 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C246 NMOS_30_0p5_30_1_0/SD2.n17 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C247 NMOS_30_0p5_30_1_0/SD2.n18 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C248 NMOS_30_0p5_30_1_0/SD2.n19 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C249 NMOS_30_0p5_30_1_0/SD2.n20 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C250 NMOS_30_0p5_30_1_0/SD2.n21 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C251 NMOS_30_0p5_30_1_0/SD2.n22 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C252 NMOS_30_0p5_30_1_0/SD2.n23 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C253 NMOS_30_0p5_30_1_0/SD2.n24 NMOS_30_0p5_30_1_0/SUB 3.63fF
+C254 NMOS_30_0p5_30_1_0/SD2.n25 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C255 NMOS_30_0p5_30_1_0/SD2.n26 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C256 NMOS_30_0p5_30_1_0/SD2.n27 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C257 NMOS_30_0p5_30_1_0/SD2.n28 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C258 NMOS_30_0p5_30_1_0/SD2.n29 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C259 NMOS_30_0p5_30_1_0/SD2.n30 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C260 NMOS_30_0p5_30_1_0/SD2.n31 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C261 NMOS_30_0p5_30_1_0/SD2.n32 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C262 NMOS_30_0p5_30_1_0/SD2.n33 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C263 NMOS_30_0p5_30_1_0/SD2.n34 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C264 NMOS_30_0p5_30_1_0/SD2.n35 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C265 NMOS_30_0p5_30_1_0/SD2.t90 NMOS_30_0p5_30_1_0/SUB 3.23fF $ **FLOATING
+C266 NMOS_30_0p5_30_1_0/SD2.n36 NMOS_30_0p5_30_1_0/SUB 9.69fF
+C267 NMOS_30_0p5_30_1_0/SD2.n37 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C268 NMOS_30_0p5_30_1_0/SD2.n38 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C269 NMOS_30_0p5_30_1_0/SD2.n39 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C270 NMOS_30_0p5_30_1_0/SD2.n40 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C271 NMOS_30_0p5_30_1_0/SD2.n41 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C272 NMOS_30_0p5_30_1_0/SD2.n42 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C273 NMOS_30_0p5_30_1_0/SD2.n43 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C274 NMOS_30_0p5_30_1_0/SD2.n44 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C275 NMOS_30_0p5_30_1_0/SD2.n45 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C276 NMOS_30_0p5_30_1_0/SD2.n46 NMOS_30_0p5_30_1_0/SUB 3.63fF
+C277 NMOS_30_0p5_30_1_0/SD2.n47 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C278 NMOS_30_0p5_30_1_0/SD2.n48 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C279 NMOS_30_0p5_30_1_0/SD2.t94 NMOS_30_0p5_30_1_0/SUB 3.10fF $ **FLOATING
+C280 NMOS_30_0p5_30_1_1/SD2 NMOS_30_0p5_30_1_0/SUB 4.93fF
+C281 NMOS_30_0p5_30_1_0/SD2.n49 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C282 NMOS_30_0p5_30_1_0/SD2.n50 NMOS_30_0p5_30_1_0/SUB 64.27fF
+C283 NMOS_30_0p5_30_1_0/SD2.t9 NMOS_30_0p5_30_1_0/SUB 3.11fF $ **FLOATING
+C284 NMOS_30_0p5_30_1_0/SD2.n51 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C285 NMOS_30_0p5_30_1_0/SD2.n52 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C286 NMOS_30_0p5_30_1_0/SD2.n53 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C287 NMOS_30_0p5_30_1_0/SD2.n54 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C288 NMOS_30_0p5_30_1_0/SD2.n55 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C289 NMOS_30_0p5_30_1_0/SD2.n56 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C290 NMOS_30_0p5_30_1_0/SD2.n57 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C291 NMOS_30_0p5_30_1_0/SD2.n58 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C292 NMOS_30_0p5_30_1_0/SD2.n59 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C293 NMOS_30_0p5_30_1_0/SD2.n60 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C294 NMOS_30_0p5_30_1_0/SD2.n61 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C295 NMOS_30_0p5_30_1_0/SD2.n62 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C296 NMOS_30_0p5_30_1_0/SD2.n63 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C297 NMOS_30_0p5_30_1_0/SD2.n64 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C298 NMOS_30_0p5_30_1_0/SD2.t50 NMOS_30_0p5_30_1_0/SUB 3.23fF $ **FLOATING
+C299 NMOS_30_0p5_30_1_0/SD2.n65 NMOS_30_0p5_30_1_0/SUB 9.69fF
+C300 NMOS_30_0p5_30_1_0/SD2.n66 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C301 NMOS_30_0p5_30_1_0/SD2.n67 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C302 NMOS_30_0p5_30_1_0/SD2.n68 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C303 NMOS_30_0p5_30_1_0/SD2.n69 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C304 NMOS_30_0p5_30_1_0/SD2.n70 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C305 NMOS_30_0p5_30_1_0/SD2.n71 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C306 NMOS_30_0p5_30_1_0/SD2.n72 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C307 NMOS_30_0p5_30_1_0/SD2.n73 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C308 NMOS_30_0p5_30_1_0/SD2.n74 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C309 NMOS_30_0p5_30_1_0/SD2.n75 NMOS_30_0p5_30_1_0/SUB 3.63fF
+C310 NMOS_30_0p5_30_1_0/SD2.n76 NMOS_30_0p5_30_1_0/SUB 64.27fF
+C311 SD2L NMOS_30_0p5_30_1_0/SUB 3.46fF
+C312 NMOS_30_0p5_30_1_0/SD2.n77 NMOS_30_0p5_30_1_0/SUB 82.31fF
+C313 NMOS_30_0p5_30_1_0/SD2.n78 NMOS_30_0p5_30_1_0/SUB 103.78fF
+C314 NMOS_30_0p5_30_1_0/SD2.n79 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C315 NMOS_30_0p5_30_1_0/SD2.n80 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C316 NMOS_30_0p5_30_1_0/SD2.n81 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C317 NMOS_30_0p5_30_1_0/SD2.n82 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C318 NMOS_30_0p5_30_1_0/SD2.n83 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C319 NMOS_30_0p5_30_1_0/SD2.n84 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C320 NMOS_30_0p5_30_1_0/SD2.n85 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C321 NMOS_30_0p5_30_1_0/SD2.n86 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C322 NMOS_30_0p5_30_1_0/SD2.n87 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C323 NMOS_30_0p5_30_1_0/SD2.n88 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C324 NMOS_30_0p5_30_1_0/SD2.n89 NMOS_30_0p5_30_1_0/SUB 3.56fF
+C325 NMOS_30_0p5_30_1_0/SD2.t96 NMOS_30_0p5_30_1_0/SUB 3.23fF $ **FLOATING
+C326 NMOS_30_0p5_30_1_0/SD2.n90 NMOS_30_0p5_30_1_0/SUB 9.69fF
+C327 NMOS_30_0p5_30_1_0/SD2.n91 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C328 NMOS_30_0p5_30_1_0/SD2.n92 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C329 NMOS_30_0p5_30_1_0/SD2.n93 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C330 NMOS_30_0p5_30_1_0/SD2.n94 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C331 NMOS_30_0p5_30_1_0/SD2.n95 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C332 NMOS_30_0p5_30_1_0/SD2.n96 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C333 NMOS_30_0p5_30_1_0/SD2.n97 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C334 NMOS_30_0p5_30_1_0/SD2.n98 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C335 NMOS_30_0p5_30_1_0/SD2.n99 NMOS_30_0p5_30_1_0/SUB 4.24fF
+C336 NMOS_30_0p5_30_1_0/SD2.n100 NMOS_30_0p5_30_1_0/SUB 3.63fF
+C337 NMOS_30_0p5_30_1_0/SD2.n101 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C338 NMOS_30_0p5_30_1_0/SD2.n102 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C339 NMOS_30_0p5_30_1_0/SD2.t101 NMOS_30_0p5_30_1_0/SUB 3.10fF $ **FLOATING
+C340 NMOS_30_0p5_30_1_3/SD2 NMOS_30_0p5_30_1_0/SUB 4.93fF
+C341 NMOS_30_0p5_30_1_0/SD2.n103 NMOS_30_0p5_30_1_0/SUB 3.53fF
+C342 NMOS_30_0p5_30_1_0/SD2.n104 NMOS_30_0p5_30_1_0/SUB 83.69fF
+C343 NMOS_30_0p5_30_1_0/SD2.n105 NMOS_30_0p5_30_1_0/SUB 167.72fF
+C344 NMOS_30_0p5_30_1_0/SD2.n106 NMOS_30_0p5_30_1_0/SUB 64.27fF
+C345 NMOS_30_0p5_30_1_0/SD2.t17 NMOS_30_0p5_30_1_0/SUB 3.10fF $ **FLOATING
+C346 NMOS_30_0p5_30_1_2/SD2 NMOS_30_0p5_30_1_0/SUB 4.93fF
+C347 NMOS_30_0p5_30_1_0/SD1.n0 NMOS_30_0p5_30_1_0/SUB 20.32fF
+C348 NMOS_30_0p5_30_1_0/SD1.n1 NMOS_30_0p5_30_1_0/SUB 18.70fF
+C349 NMOS_30_0p5_30_1_0/SD1.n2 NMOS_30_0p5_30_1_0/SUB 15.64fF
+C350 NMOS_30_0p5_30_1_0/SD1.n3 NMOS_30_0p5_30_1_0/SUB 18.71fF
+C351 NMOS_30_0p5_30_1_0/SD1.n4 NMOS_30_0p5_30_1_0/SUB 15.64fF
+C352 NMOS_30_0p5_30_1_0/SD1.n5 NMOS_30_0p5_30_1_0/SUB 18.71fF
+C353 NMOS_30_0p5_30_1_0/SD1.n6 NMOS_30_0p5_30_1_0/SUB 15.64fF
+C354 NMOS_30_0p5_30_1_0/SD1.n7 NMOS_30_0p5_30_1_0/SUB 18.71fF
+C355 NMOS_30_0p5_30_1_0/SD1.n8 NMOS_30_0p5_30_1_0/SUB 9.35fF
+C356 NMOS_30_0p5_30_1_3/SD1 NMOS_30_0p5_30_1_0/SUB 79.68fF
+C357 NMOS_30_0p5_30_1_0/SD1.n9 NMOS_30_0p5_30_1_0/SUB 9.35fF
+C358 NMOS_30_0p5_30_1_2/SD1 NMOS_30_0p5_30_1_0/SUB 47.37fF
+C359 NMOS_30_0p5_30_1_0/SD1.n10 NMOS_30_0p5_30_1_0/SUB 9.35fF
+C360 NMOS_30_0p5_30_1_1/SD1 NMOS_30_0p5_30_1_0/SUB 47.37fF
+C361 NMOS_30_0p5_30_1_0/SD1.n11 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C362 NMOS_30_0p5_30_1_0/SD1.n12 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C363 NMOS_30_0p5_30_1_0/SD1.n13 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C364 NMOS_30_0p5_30_1_0/SD1.n14 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C365 NMOS_30_0p5_30_1_0/SD1.n15 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C366 NMOS_30_0p5_30_1_0/SD1.n16 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C367 NMOS_30_0p5_30_1_0/SD1.n17 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C368 NMOS_30_0p5_30_1_0/SD1.n18 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C369 NMOS_30_0p5_30_1_0/SD1.n19 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C370 NMOS_30_0p5_30_1_0/SD1.n20 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C371 NMOS_30_0p5_30_1_0/SD1.n21 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C372 NMOS_30_0p5_30_1_0/SD1.n22 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C373 NMOS_30_0p5_30_1_0/SD1.n23 NMOS_30_0p5_30_1_0/SUB 3.96fF
+C374 NMOS_30_0p5_30_1_0/SD1.n24 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C375 NMOS_30_0p5_30_1_0/SD1.n25 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C376 NMOS_30_0p5_30_1_0/SD1.n26 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C377 NMOS_30_0p5_30_1_0/SD1.n27 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C378 NMOS_30_0p5_30_1_0/SD1.n28 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C379 NMOS_30_0p5_30_1_0/SD1.n29 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C380 NMOS_30_0p5_30_1_0/SD1.n30 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C381 NMOS_30_0p5_30_1_0/SD1.n31 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C382 NMOS_30_0p5_30_1_0/SD1.n32 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C383 NMOS_30_0p5_30_1_0/SD1.n33 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C384 NMOS_30_0p5_30_1_0/SD1.n34 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C385 NMOS_30_0p5_30_1_0/SD1.n35 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C386 NMOS_30_0p5_30_1_0/SD1.n36 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C387 NMOS_30_0p5_30_1_0/SD1.n37 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C388 NMOS_30_0p5_30_1_0/SD1.n38 NMOS_30_0p5_30_1_0/SUB 3.96fF
+C389 NMOS_30_0p5_30_1_0/SD1.n39 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C390 NMOS_30_0p5_30_1_0/SD1.n40 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C391 NMOS_30_0p5_30_1_0/SD1.n41 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C392 NMOS_30_0p5_30_1_0/SD1.n42 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C393 NMOS_30_0p5_30_1_0/SD1.n43 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C394 NMOS_30_0p5_30_1_0/SD1.n44 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C395 NMOS_30_0p5_30_1_0/SD1.n45 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C396 NMOS_30_0p5_30_1_0/SD1.n46 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C397 NMOS_30_0p5_30_1_0/SD1.n47 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C398 NMOS_30_0p5_30_1_0/SD1.n48 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C399 NMOS_30_0p5_30_1_0/SD1.n49 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C400 NMOS_30_0p5_30_1_0/SD1.n50 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C401 NMOS_30_0p5_30_1_0/SD1.n51 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C402 NMOS_30_0p5_30_1_0/SD1.n52 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C403 NMOS_30_0p5_30_1_0/SD1.n53 NMOS_30_0p5_30_1_0/SUB 3.96fF
+C404 NMOS_30_0p5_30_1_0/SD1.n54 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C405 NMOS_30_0p5_30_1_0/SD1.n55 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C406 NMOS_30_0p5_30_1_0/SD1.n56 NMOS_30_0p5_30_1_0/SUB 97.63fF
+C407 NMOS_30_0p5_30_1_0/SD1.n57 NMOS_30_0p5_30_1_0/SUB 67.98fF
+C408 NMOS_30_0p5_30_1_0/SD1.n58 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C409 NMOS_30_0p5_30_1_0/SD1.n59 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C410 NMOS_30_0p5_30_1_0/SD1.n60 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C411 NMOS_30_0p5_30_1_0/SD1.n61 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C412 NMOS_30_0p5_30_1_0/SD1.n62 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C413 NMOS_30_0p5_30_1_0/SD1.n63 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C414 NMOS_30_0p5_30_1_0/SD1.n64 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C415 NMOS_30_0p5_30_1_0/SD1.n65 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C416 NMOS_30_0p5_30_1_0/SD1.n66 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C417 NMOS_30_0p5_30_1_0/SD1.n67 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C418 NMOS_30_0p5_30_1_0/SD1.n68 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C419 NMOS_30_0p5_30_1_0/SD1.n69 NMOS_30_0p5_30_1_0/SUB 3.96fF
+C420 NMOS_30_0p5_30_1_0/SD1.n70 NMOS_30_0p5_30_1_0/SUB 3.93fF
+C421 NMOS_30_0p5_30_1_0/SD1.n71 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C422 NMOS_30_0p5_30_1_0/SD1.n72 NMOS_30_0p5_30_1_0/SUB 3.80fF
+C423 NMOS_30_0p5_30_1_0/SD1.n73 NMOS_30_0p5_30_1_0/SUB 76.00fF
+C424 SD1L NMOS_30_0p5_30_1_0/SUB 28.74fF

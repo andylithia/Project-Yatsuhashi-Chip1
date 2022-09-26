@@ -1,0 +1,7 @@
+SD2R 328 -6741 mvndif
+SD1R 170 -6741 mvndif
+GR 228 -6829 p
+SD1L 328 258 mvndif
+SD2L 170 258 mvndif
+GL 228 170 p
+SUB 36 -6963 mvppd

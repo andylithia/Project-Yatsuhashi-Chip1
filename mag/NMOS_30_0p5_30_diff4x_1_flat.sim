@@ -1,0 +1,268 @@
+| units: 500000 tech: sky130B format: MIT
+x GL SD1L SD2L SUB l=100 w=6000 x=15650 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=21702 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=2598 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=17862 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=22334 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=2914 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=4810 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=21860 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=2440 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=15176 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=21860 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=4652 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=11810 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=17388 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=22492 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=17704 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=18336 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=21386 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=22808 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=23598 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=228 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=15808 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=3230 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=9124 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=4178 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=7860 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=17862 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=4810 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=15334 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=18494 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=17546 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=21544 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=386 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=22966 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=16124 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=10230 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=8650 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=17072 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=23598 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=9282 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=2124 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=23756 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=7386 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=4336 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=23282 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=25810 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=21228 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=9598 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=3704 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=15650 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=16282 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=25494 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=4336 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=17704 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=21702 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=17230 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=21386 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=10704 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=23914 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=3862 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=11336 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=9756 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=7544 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=15018 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=23440 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=4494 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=9756 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=24230 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=4020 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=11494 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=25652 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=2124 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=9282 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=21228 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=16756 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=10862 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=8018 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=17388 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=11494 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=1650 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=7544 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=7702 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=15018 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=25178 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=2282 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=8176 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=9914 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=11652 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=25810 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=24704 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=9440 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=14544 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=1966 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=25336 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=1492 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=15176 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=7228 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=23124 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=11178 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=14860 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=25336 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=2756 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=24862 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=18020 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=11810 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=25494 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=3388 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=23124 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=1650 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=1018 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=3862 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=14386 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=10388 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=11336 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=22650 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=9124 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=16598 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=23282 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=25020 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=1176 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=860 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=1176 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=3388 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=4020 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=14544 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=18652 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=16756 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=386 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=1808 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=11020 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=544 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=16282 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=23756 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=11020 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=9440 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=1334 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=22966 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=18494 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=24388 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=3546 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=22492 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=14702 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=22018 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=3072 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=16440 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=16914 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=17072 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=544 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=16440 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=21544 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=9914 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=14228 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=18652 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=22176 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=3704 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=22650 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=4652 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=8966 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=3230 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=24862 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=8492 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=25020 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=16914 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=702 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=1018 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=17546 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=11652 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=18178 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=18810 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=22176 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=18178 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=7702 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=2440 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=24388 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=8334 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=10862 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=3072 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=228 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=8650 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=16124 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=14702 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=7860 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=18336 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=22808 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=15334 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=10072 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=8492 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=22334 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=10388 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=8176 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=24546 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=2914 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=14860 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=25652 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=8808 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=24072 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=3546 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=15492 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=4178 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=15808 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=8808 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=18020 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=10546 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=8966 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=10546 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=24704 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=8334 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=11178 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=9598 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=10072 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=24230 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=23440 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=1334 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=7228 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=24072 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=15966 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=22018 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=2598 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=16598 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=18810 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=14228 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=10704 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=1492 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=7386 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=10230 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=15966 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=15492 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=702 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=23914 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=1808 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=24546 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=14386 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2L SD1L SUB l=100 w=6000 x=2756 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=25178 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=2282 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=8018 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1R SD2R SUB l=100 w=6000 x=860 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1L SD2L SUB l=100 w=6000 x=4494 y=258 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=1966 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2R SD1R SUB l=100 w=6000 x=17230 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+C SD1L GL 46.26
+C GR SD2L 59.66
+C GL SD2L 65.11
+C SD1R GR 57.73
+C SD1R GL 57.84
+C GR SD2R 53.53
+C SD1L SD2L 789.80
+C GL SD2R 47.75
+C SD1R SD1L 45.81
+C SD1R SD2L 60.66
+C SD2R SD2L 60.85
+C GL GR 28.28
+C SD1R SD2R 847.92
+C SD1L GR 44.48
+C SD2R GND 18.16
+R SD2R 859730
+C SD1R GND 115.04
+R SD1R 917055
+C GR GND 98.13
+R GR 385142
+C SD1L GND 24.00
+R SD1L 859730
+C SD2L GND 89.83
+R SD2L 917055
+C GL GND 98.70
+R GL 385142
+R SUB 662293
