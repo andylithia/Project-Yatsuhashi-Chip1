@@ -1,0 +1,874 @@
+| units: 500000 tech: sky130A format: MIT
+x GR SD1L SD2L SUB l=100 w=6000 x=3998 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=4314 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=4788 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=1945 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=1787 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=2419 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=4946 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=6210 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=3525 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=2893 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=3051 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=5104 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=4472 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=5262 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=5578 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=4630 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=5736 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=1629 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=3367 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=4156 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=3209 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=2735 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=2577 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=2261 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=3841 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=5420 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=6052 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=2103 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=3683 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=5894 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=10298 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=10614 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=11088 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=8245 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=8087 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=8719 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=11246 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=12510 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=9825 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=9193 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=9351 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=11404 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=10772 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=11562 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=11878 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=10930 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=12036 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=7929 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=9667 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=10456 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=9509 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=9035 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=8877 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=8561 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=10141 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=11720 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=12352 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=8403 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=9983 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=12194 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=16598 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=16914 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=17388 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=14545 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=14387 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=15019 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=17546 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=18810 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=16125 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=15493 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=15651 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=17704 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=17072 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=17862 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=18178 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=17230 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=18336 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=14229 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=15967 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=16756 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=15809 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=15335 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=15177 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=14861 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=16441 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=18020 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=18652 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=14703 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=16283 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=18494 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=22898 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=23214 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=23688 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=20845 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=20687 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=21319 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=23846 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=25110 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=22425 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=21793 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=21951 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=24004 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=23372 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=24162 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=24478 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=23530 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=24636 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=20529 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=22267 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=23056 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=22109 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=21635 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=21477 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=21161 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=22741 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=24320 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=24952 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=21003 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=22583 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=24794 y=259 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=22898 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=23214 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=23688 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=20845 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=20687 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=21319 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=23846 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=25110 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=22425 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=21793 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=21951 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=24004 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=23372 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=24162 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=24478 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=23530 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=24636 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=20529 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=22267 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=23056 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=22109 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=21635 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=21477 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=21161 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=22741 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=24320 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=24952 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=21003 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=22583 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=24794 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=16598 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=16914 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=17388 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=14545 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=14387 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=15019 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=17546 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=18810 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=16125 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=15493 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=15651 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=17704 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=17072 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=17862 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=18178 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=17230 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=18336 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=14229 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=15967 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=16756 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=15809 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=15335 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=15177 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=14861 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=16441 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=18020 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=18652 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=14703 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=16283 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=18494 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=10298 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=10614 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=11088 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=8245 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=8087 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=8719 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=11246 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=12510 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=9825 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=9193 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=9351 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=11404 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=10772 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=11562 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=11878 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=10930 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=12036 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=7929 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=9667 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=10456 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=9509 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=9035 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=8877 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=8561 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=10141 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=11720 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD1L SD2L SUB l=100 w=6000 x=12352 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=8403 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=9983 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GR SD2L SD1L SUB l=100 w=6000 x=12194 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=3998 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=4314 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=4788 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=1945 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=1787 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=2419 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=4946 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=6210 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=3525 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=2893 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=3051 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=5104 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=4472 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=5262 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=5578 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=4630 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=5736 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=1629 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=3367 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=4156 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=3209 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=2735 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=2577 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=2261 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=3841 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=5420 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD1R SD2R SUB l=100 w=6000 x=6052 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=2103 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=3683 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+x GL SD2R SD1R SUB l=100 w=6000 x=5894 y=-6741 sky130_fd_pr__nfet_g5v0d10v5
+C GR GL 28.12
+C SUB SD2L 37.37
+C SD1L SD2L 831.33
+C SD2R SD2L 57.00
+C SUB SD1L 35.63
+C SD1R SD2L 34.24
+C SD2R SUB 38.75
+C SD2R SD1L 38.57
+C GR SD2L 96.23
+C SUB SD1R 42.08
+C SD1L SD1R 64.62
+C m4_11500_n11600# SD2L 2.89
+C SD2R SD1R 832.31
+C GR SUB 60.45
+C GR SD1L 93.39
+C GL SD2L 15.64
+C GR SD2R 15.94
+C SUB GL 59.59
+C GR SD1R 13.62
+C GL SD1L 14.37
+C SD2R GL 98.22
+C GL SD1R 91.14
+C SUB GND 37.36
+R SUB 664186
+= SUB NMOS_30_0p5_30_1_3/SUB
+= SUB NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2533_n3222#
+= SUB m2_19100_5500#
+= SUB m2_19100_6100#
+= SUB m2_12800_5600#
+= SUB m2_12800_6200#
+= SUB m2_6500_5500#
+= SUB m2_6500_6100#
+= SUB m2_19100_4300#
+= SUB m2_19100_4900#
+= SUB m2_12800_4400#
+= SUB m2_12800_5000#
+= SUB m2_6500_4300#
+= SUB m2_6500_4900#
+= SUB m2_19100_2500#
+= SUB m2_19100_3100#
+= SUB m2_19100_3700#
+= SUB m2_12800_2600#
+= SUB m2_12800_3200#
+= SUB m2_12800_3800#
+= SUB m2_6500_2500#
+= SUB m2_6500_3100#
+= SUB m2_6500_3700#
+= SUB m2_19100_1300#
+= SUB m2_19100_1900#
+= SUB m2_12800_1400#
+= SUB m2_12800_2000#
+= SUB m2_6500_1300#
+= SUB m2_6500_1900#
+= SUB NMOS_30_0p5_30_1_2/SUB
+= SUB NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2533_n3222#
+= SUB m2_19100_700#
+= SUB m2_12800_800#
+= SUB NMOS_30_0p5_30_1_1/SUB
+= SUB NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2533_n3222#
+= SUB NMOS_30_0p5_30_1_0/SUB
+= SUB NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2533_n3222#
+= SUB m2_6500_700#
+= SUB NMOS_30_0p5_30_1_4/SUB
+= SUB NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2533_n3222#
+= SUB m2_19100_n1500#
+= SUB m2_19100_n900#
+= SUB m2_12800_n1500#
+= SUB m2_6500_n1500#
+= SUB m2_6500_n900#
+= SUB m2_19100_n2700#
+= SUB m2_19100_n2100#
+= SUB m2_12800_n2700#
+= SUB m2_12800_n2100#
+= SUB m2_6500_n2700#
+= SUB m2_6500_n2100#
+= SUB m2_19100_n4500#
+= SUB m2_19100_n3900#
+= SUB m2_19100_n3300#
+= SUB m2_12800_n4500#
+= SUB m2_12800_n3900#
+= SUB m2_12800_n3300#
+= SUB m2_6500_n4500#
+= SUB m2_6500_n3900#
+= SUB m2_6500_n3300#
+= SUB m2_19100_n5700#
+= SUB m2_19100_n5100#
+= SUB m2_12800_n5700#
+= SUB m2_12800_n5100#
+= SUB m2_6500_n5700#
+= SUB m2_6500_n5100#
+= SUB NMOS_30_0p5_30_1_5/SUB
+= SUB NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2533_n3222#
+= SUB m2_19100_n6900#
+= SUB m2_19100_n6300#
+= SUB NMOS_30_0p5_30_1_6/SUB
+= SUB NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2533_n3222#
+= SUB m2_12800_n6900#
+= SUB m2_12800_n6300#
+= SUB NMOS_30_0p5_30_1_7/SUB
+= SUB NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2533_n3222#
+= SUB m2_6500_n6900#
+= SUB m2_6500_n6300#
+C SD2R GND 23.27
+R SD2R 888127
+= SD2R NMOS_30_0p5_30_1_3/SD2
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2341_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2025_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1709_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1393_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1077_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_761_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_445_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_129_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n187_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n503_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n819_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1135_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1451_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1767_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2083_n3000#
+= SD2R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2399_n3000#
+= SD2R NMOS_30_0p5_30_1_1/SD2
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2341_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2025_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1709_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1393_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1077_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_761_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_445_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_129_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n187_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n503_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n819_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1135_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1451_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1767_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2083_n3000#
+= SD2R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2399_n3000#
+= SD2R NMOS_30_0p5_30_1_5/SD1
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2183_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1867_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1551_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1235_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_919_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_603_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_287_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n29_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n345_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n661_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n977_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1293_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1609_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1925_n3000#
+= SD2R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2241_n3000#
+= SD2R NMOS_30_0p5_30_1_7/SD1
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2183_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1867_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1551_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1235_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_919_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_603_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_287_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n29_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n345_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n661_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n977_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1293_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1609_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1925_n3000#
+= SD2R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2241_n3000#
+C SD1R GND 27.44
+R SD1R 888127
+= SD1R NMOS_30_0p5_30_1_3/SD1
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2183_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1867_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1551_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1235_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_919_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_603_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_287_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n29_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n345_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n661_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n977_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1293_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1609_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1925_n3000#
+= SD1R NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2241_n3000#
+= SD1R NMOS_30_0p5_30_1_1/SD1
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2183_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1867_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1551_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1235_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_919_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_603_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_287_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n29_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n345_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n661_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n977_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1293_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1609_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1925_n3000#
+= SD1R NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2241_n3000#
+= SD1R NMOS_30_0p5_30_1_5/SD2
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2341_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2025_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1709_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1393_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1077_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_761_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_445_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_129_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n187_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n503_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n819_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1135_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1451_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1767_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2083_n3000#
+= SD1R NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2399_n3000#
+= SD1R NMOS_30_0p5_30_1_7/SD2
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2341_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2025_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1709_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1393_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1077_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_761_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_445_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_129_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n187_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n503_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n819_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1135_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1451_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1767_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2083_n3000#
+= SD1R NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2399_n3000#
+C GL GND 41.55
+R GL 385140
+= GL NMOS_30_0p5_30_1_3/G
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2241_n3088#
+= GL NMOS_30_0p5_30_1_3/m1_232_126#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2083_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1925_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1767_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1609_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1451_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1293_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1135_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_977_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_819_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_661_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_503_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_345_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_187_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_29_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n129_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n287_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n445_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n603_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n761_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n919_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1077_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1235_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1393_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1551_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1709_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1867_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2025_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2183_n3088#
+= GL NMOS_30_0p5_30_1_3/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2341_n3088#
+= GL NMOS_30_0p5_30_1_1/G
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2241_n3088#
+= GL NMOS_30_0p5_30_1_1/m1_232_126#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2083_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1925_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1767_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1609_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1451_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1293_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1135_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_977_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_819_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_661_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_503_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_345_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_187_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_29_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n129_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n287_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n445_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n603_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n761_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n919_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1077_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1235_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1393_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1551_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1709_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1867_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2025_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2183_n3088#
+= GL NMOS_30_0p5_30_1_1/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2341_n3088#
+= GL NMOS_30_0p5_30_1_5/G
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2241_n3088#
+= GL NMOS_30_0p5_30_1_5/m1_232_126#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2083_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1925_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1767_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1609_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1451_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1293_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1135_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_977_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_819_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_661_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_503_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_345_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_187_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_29_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n129_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n287_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n445_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n603_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n761_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n919_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1077_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1235_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1393_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1551_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1709_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1867_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2025_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2183_n3088#
+= GL NMOS_30_0p5_30_1_5/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2341_n3088#
+= GL NMOS_30_0p5_30_1_7/G
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2241_n3088#
+= GL NMOS_30_0p5_30_1_7/m1_232_126#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2083_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1925_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1767_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1609_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1451_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1293_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1135_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_977_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_819_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_661_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_503_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_345_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_187_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_29_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n129_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n287_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n445_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n603_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n761_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n919_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1077_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1235_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1393_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1551_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1709_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1867_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2025_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2183_n3088#
+= GL NMOS_30_0p5_30_1_7/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2341_n3088#
+C SD2L GND 32.53
+R SD2L 888127
+= SD2L NMOS_30_0p5_30_1_2/SD2
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2341_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2025_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1709_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1393_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1077_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_761_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_445_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_129_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n187_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n503_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n819_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1135_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1451_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1767_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2083_n3000#
+= SD2L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2399_n3000#
+= SD2L NMOS_30_0p5_30_1_0/SD2
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2341_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2025_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1709_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1393_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1077_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_761_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_445_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_129_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n187_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n503_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n819_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1135_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1451_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1767_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2083_n3000#
+= SD2L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2399_n3000#
+= SD2L NMOS_30_0p5_30_1_4/SD1
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2183_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1867_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1551_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1235_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_919_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_603_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_287_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n29_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n345_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n661_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n977_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1293_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1609_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1925_n3000#
+= SD2L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2241_n3000#
+= SD2L NMOS_30_0p5_30_1_6/SD1
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2183_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1867_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1551_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1235_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_919_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_603_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_287_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n29_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n345_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n661_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n977_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1293_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1609_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1925_n3000#
+= SD2L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2241_n3000#
+R SD1L 888126
+= SD1L NMOS_30_0p5_30_1_2/SD1
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2183_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1867_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1551_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1235_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_919_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_603_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_287_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n29_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n345_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n661_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n977_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1293_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1609_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1925_n3000#
+= SD1L NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2241_n3000#
+= SD1L NMOS_30_0p5_30_1_0/SD1
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2183_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1867_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1551_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1235_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_919_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_603_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_287_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n29_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n345_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n661_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n977_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1293_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1609_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1925_n3000#
+= SD1L NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2241_n3000#
+= SD1L NMOS_30_0p5_30_1_4/SD2
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2341_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2025_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1709_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1393_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1077_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_761_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_445_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_129_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n187_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n503_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n819_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1135_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1451_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1767_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2083_n3000#
+= SD1L NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2399_n3000#
+= SD1L NMOS_30_0p5_30_1_6/SD2
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2341_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2025_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1709_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1393_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1077_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_761_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_445_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_129_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n187_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n503_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n819_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1135_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1451_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1767_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2083_n3000#
+= SD1L NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2399_n3000#
+C GR GND 40.72
+R GR 385139
+= GR NMOS_30_0p5_30_1_2/G
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2241_n3088#
+= GR NMOS_30_0p5_30_1_2/m1_232_126#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2083_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1925_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1767_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1609_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1451_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1293_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1135_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_977_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_819_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_661_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_503_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_345_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_187_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_29_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n129_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n287_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n445_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n603_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n761_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n919_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1077_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1235_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1393_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1551_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1709_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1867_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2025_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2183_n3088#
+= GR NMOS_30_0p5_30_1_2/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2341_n3088#
+= GR NMOS_30_0p5_30_1_0/G
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2241_n3088#
+= GR NMOS_30_0p5_30_1_0/m1_232_126#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2083_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1925_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1767_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1609_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1451_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1293_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1135_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_977_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_819_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_661_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_503_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_345_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_187_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_29_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n129_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n287_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n445_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n603_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n761_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n919_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1077_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1235_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1393_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1551_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1709_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1867_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2025_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2183_n3088#
+= GR NMOS_30_0p5_30_1_0/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2341_n3088#
+= GR NMOS_30_0p5_30_1_4/G
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2241_n3088#
+= GR NMOS_30_0p5_30_1_4/m1_232_126#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2083_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1925_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1767_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1609_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1451_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1293_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1135_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_977_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_819_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_661_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_503_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_345_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_187_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_29_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n129_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n287_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n445_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n603_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n761_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n919_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1077_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1235_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1393_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1551_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1709_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1867_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2025_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2183_n3088#
+= GR NMOS_30_0p5_30_1_4/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2341_n3088#
+= GR NMOS_30_0p5_30_1_6/G
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2241_n3088#
+= GR NMOS_30_0p5_30_1_6/m1_232_126#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_2083_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1925_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1767_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1609_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1451_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1293_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_1135_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_977_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_819_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_661_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_503_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_345_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_187_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_29_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n129_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n287_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n445_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n603_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n761_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n919_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1077_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1235_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1393_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1551_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1709_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n1867_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2025_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2183_n3088#
+= GR NMOS_30_0p5_30_1_6/sky130_fd_pr__nfet_g5v0d10v5_UDPNFN_0/a_n2341_n3088#

@@ -1,0 +1,273 @@
+timestamp 1664247789
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_g5v0d10v5 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__nfet_20v0 l=l w=w a1=as a2=ad p1=ps p2=pd
+node "m4_11500_n11600#" 2 1793.73 11500 -11600 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 630000 9600 0 0 0 0
+node "SD1R" 139 67445 1570 -6742 mvndif 0 0 0 0 0 0 0 0 0 0 0 0 21576000 751192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12664864 749208 24552000 752184 24552000 752184 41520000 57520 74560000 111400 37280000 44800 0 0
+node "SD2R" 139 55049.8 1728 -6742 mvndif 0 0 0 0 0 0 0 0 0 0 0 0 21576000 751192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12664864 749208 24552000 752184 24552000 752184 41400000 57400 56400000 87200 49100000 54600 0 0
+node "GR" 63 99811.6 1628 -6830 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 74112000 1506240 0 0 816000 64320 3739200 76384 3739200 76384 12860000 96000 2060000 11400 12100000 49400 0 0
+node "SD1L" 139 44745.6 1728 258 mvndif 0 0 0 0 0 0 0 0 0 0 0 0 21576000 751192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12664864 749208 24552000 752184 24552000 752184 41200000 57200 56400000 87200 49100000 54600 0 0
+node "SD2L" 139 65564.1 1570 258 mvndif 0 0 0 0 0 0 0 0 0 0 0 0 21576000 751192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12664864 749208 24552000 752184 24552000 752184 40880000 56880 74400000 111200 37280000 44800 0 0
+node "GL" 63 100758 1628 170 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 74112000 1506240 0 0 816000 64320 3739200 76384 3739200 76384 12820000 95800 2420000 14000 12100000 49400 0 0
+substrate "SUB" 0 0 1436 -6964 mvppd 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10573632 364608 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6885600 364864 12045440 364768 40399600 318560 0 0 0 0 0 0 0 0
+cap "SD2R" "m4_11500_n11600#" 21.4615
+cap "SD1R" "SD1L" 68168.7
+cap "SD2R" "SD1L" 39990.9
+cap "SD2R" "SD1R" 832350
+cap "GL" "GR" 28248.8
+cap "GL" "SD2L" 97333.9
+cap "SD2L" "GR" 15745.1
+cap "GL" "SD1L" 97845.2
+cap "GR" "SD1L" 16946.8
+cap "GL" "SD1R" 13752.1
+cap "GL" "SD2R" 16586.7
+cap "SD2L" "m4_11500_n11600#" 2890.88
+cap "SD1R" "GR" 93484.9
+cap "SD2R" "GR" 99273.9
+cap "SD2L" "SD1L" 832591
+cap "SD2L" "SD1R" 34601.7
+cap "SD2L" "SD2R" 57007.2
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 25110 -6742 25111 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24952 -6742 24953 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24794 -6742 24795 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24636 -6742 24637 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24478 -6742 24479 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24320 -6742 24321 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24162 -6742 24163 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24004 -6742 24005 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23846 -6742 23847 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23688 -6742 23689 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23530 -6742 23531 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23372 -6742 23373 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23214 -6742 23215 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23056 -6742 23057 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22898 -6742 22899 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22740 -6742 22741 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22582 -6742 22583 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22424 -6742 22425 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22266 -6742 22267 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22108 -6742 22109 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21950 -6742 21951 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21792 -6742 21793 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21634 -6742 21635 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21476 -6742 21477 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21318 -6742 21319 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21160 -6742 21161 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21002 -6742 21003 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 20844 -6742 20845 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 20686 -6742 20687 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 20528 -6742 20529 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18810 -6742 18811 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18652 -6742 18653 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18494 -6742 18495 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18336 -6742 18337 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18178 -6742 18179 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18020 -6742 18021 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17862 -6742 17863 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17704 -6742 17705 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17546 -6742 17547 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17388 -6742 17389 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17230 -6742 17231 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17072 -6742 17073 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16914 -6742 16915 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16756 -6742 16757 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16598 -6742 16599 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16440 -6742 16441 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16282 -6742 16283 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16124 -6742 16125 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15966 -6742 15967 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15808 -6742 15809 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15650 -6742 15651 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15492 -6742 15493 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15334 -6742 15335 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15176 -6742 15177 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15018 -6742 15019 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14860 -6742 14861 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14702 -6742 14703 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14544 -6742 14545 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14386 -6742 14387 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14228 -6742 14229 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 12510 -6742 12511 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 12352 -6742 12353 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 12194 -6742 12195 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 12036 -6742 12037 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11878 -6742 11879 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11720 -6742 11721 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11562 -6742 11563 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11404 -6742 11405 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11246 -6742 11247 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11088 -6742 11089 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10930 -6742 10931 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10772 -6742 10773 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10614 -6742 10615 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10456 -6742 10457 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10298 -6742 10299 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10140 -6742 10141 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9982 -6742 9983 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9824 -6742 9825 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9666 -6742 9667 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9508 -6742 9509 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9350 -6742 9351 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9192 -6742 9193 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9034 -6742 9035 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8876 -6742 8877 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8718 -6742 8719 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8560 -6742 8561 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8402 -6742 8403 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8244 -6742 8245 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8086 -6742 8087 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 7928 -6742 7929 -6741 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 6210 -6742 6211 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 6052 -6742 6053 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5894 -6742 5895 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5736 -6742 5737 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5578 -6742 5579 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5420 -6742 5421 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5262 -6742 5263 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5104 -6742 5105 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4946 -6742 4947 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4788 -6742 4789 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4630 -6742 4631 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4472 -6742 4473 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4314 -6742 4315 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4156 -6742 4157 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3998 -6742 3999 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3840 -6742 3841 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3682 -6742 3683 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3524 -6742 3525 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3366 -6742 3367 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3208 -6742 3209 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3050 -6742 3051 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2892 -6742 2893 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2734 -6742 2735 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2576 -6742 2577 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2418 -6742 2419 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2260 -6742 2261 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2102 -6742 2103 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1944 -6742 1945 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1786 -6742 1787 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1628 -6742 1629 -6741 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 25110 258 25111 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24952 258 24953 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24794 258 24795 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24636 258 24637 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24478 258 24479 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24320 258 24321 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24162 258 24163 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 24004 258 24005 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23846 258 23847 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23688 258 23689 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23530 258 23531 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23372 258 23373 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23214 258 23215 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 23056 258 23057 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22898 258 22899 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22740 258 22741 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22582 258 22583 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22424 258 22425 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22266 258 22267 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 22108 258 22109 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21950 258 21951 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21792 258 21793 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21634 258 21635 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21476 258 21477 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21318 258 21319 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21160 258 21161 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 21002 258 21003 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 20844 258 20845 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 20686 258 20687 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 20528 258 20529 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18810 258 18811 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18652 258 18653 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18494 258 18495 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18336 258 18337 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18178 258 18179 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 18020 258 18021 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17862 258 17863 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17704 258 17705 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17546 258 17547 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17388 258 17389 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17230 258 17231 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 17072 258 17073 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16914 258 16915 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16756 258 16757 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16598 258 16599 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16440 258 16441 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16282 258 16283 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 16124 258 16125 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15966 258 15967 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15808 258 15809 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15650 258 15651 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15492 258 15493 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15334 258 15335 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15176 258 15177 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 15018 258 15019 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14860 258 14861 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14702 258 14703 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14544 258 14545 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14386 258 14387 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 14228 258 14229 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 12510 258 12511 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 12352 258 12353 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 12194 258 12195 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 12036 258 12037 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11878 258 11879 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11720 258 11721 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11562 258 11563 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11404 258 11405 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11246 258 11247 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 11088 258 11089 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10930 258 10931 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10772 258 10773 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10614 258 10615 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10456 258 10457 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10298 258 10299 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 10140 258 10141 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9982 258 9983 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9824 258 9825 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9666 258 9667 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9508 258 9509 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9350 258 9351 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9192 258 9193 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 9034 258 9035 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8876 258 8877 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8718 258 8719 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8560 258 8561 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8402 258 8403 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8244 258 8245 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 8086 258 8087 259 l=100 w=6000 "SUB" "GR" 200 0 "SD1R" 6000 0 "SD2R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 7928 258 7929 259 l=100 w=6000 "SUB" "GR" 200 0 "SD2R" 6000 0 "SD1R" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 6210 258 6211 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 6052 258 6053 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5894 258 5895 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5736 258 5737 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5578 258 5579 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5420 258 5421 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5262 258 5263 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 5104 258 5105 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4946 258 4947 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4788 258 4789 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4630 258 4631 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4472 258 4473 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4314 258 4315 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 4156 258 4157 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3998 258 3999 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3840 258 3841 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3682 258 3683 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3524 258 3525 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3366 258 3367 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3208 258 3209 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 3050 258 3051 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2892 258 2893 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2734 258 2735 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2576 258 2577 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2418 258 2419 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2260 258 2261 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 2102 258 2103 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1944 258 1945 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1786 258 1787 259 l=100 w=6000 "SUB" "GL" 200 0 "SD1L" 6000 0 "SD2L" 6000 0
+device msubckt sky130_fd_pr__nfet_g5v0d10v5 1628 258 1629 259 l=100 w=6000 "SUB" "GL" 200 0 "SD2L" 6000 0 "SD1L" 6000 0
