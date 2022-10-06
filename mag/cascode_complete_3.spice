@@ -68,8 +68,8 @@ XNMOS_30_0p5_30_1_6 GL NMOS_30_0p5_30_1_6/SD2 NMOS_30_0p5_30_1_6/SD1 SUB x./CLAS
 XNMOS_30_0p5_30_1_7 GR NMOS_30_0p5_30_1_7/SD2 NMOS_30_0p5_30_1_7/SD1 SUB x./CLASSE/NMOS_30_0p5_30_1
 .ends
 
-.subckt cascode_1 SD2L SD4L G12R G23L G34R SD3L SD1L G12L G23R SD1R SD3R G34L SD4R
-+ VSUBS
+.subckt cascode_1 SD2L SD4L G12R G23L G34R SD3L SD1L G12L G23R SD1R SD2R SD3R G34L
++ SD4R VSUBS
 XNMOS_30_0p5_30_diff4x_2s_0 SD1R SD2L SD1L SD1R SD2R SD2L SD1R SD1L SD2R SD1L G12R
 + SD1L SD2L SD2R SD2R SD1R G12L SD2L VSUBS NMOS_30_0p5_30_diff4x_2s
 XNMOS_30_0p5_30_diff4x_2s_1 SD2R SD3L SD2L SD2R SD3R SD3L SD2R SD2L SD3R SD2L G23R
@@ -84,19 +84,19 @@ X0 a_n35_n592# a_n35_160# a_n165_n722# sky130_fd_pr__res_high_po_0p35 l=1.6e+06u
 
 .subckt cascode_complete_3
 Xsky130_fd_pr__res_generic_po_63AFTY_3 VDN VGN sky130_fd_pr__res_generic_po_63AFTY
-Xcascode_1_0 P VDN VINP MIDGATE VGP N2 VSS VINN MIDGATE VSSH P2 VGN P SUB cascode_1
+Xcascode_1_0 N VDN VINP MIDGATE VGP N2 VSS VINN MIDGATE VSSH P P2 VGN VDP SUB cascode_1
 Xsky130_fd_pr__res_high_po_0p35_FFWWQH_0 MIDGATE VSS SUB sky130_fd_pr__res_high_po_0p35_FFWWQH
 Xsky130_fd_pr__res_generic_po_63AFTY_1 N2 MIDGATE sky130_fd_pr__res_generic_po_63AFTY
 X0 P VSSH sky130_fd_pr__cap_mim_m3_2 l=2.5e+07u w=3.9e+07u
 R0 MIDGATE P2 sky130_fd_pr__res_generic_po w=330000u l=6.5e+06u
-X1 VDN P sky130_fd_pr__cap_mim_m3_2 l=2.5e+07u w=2e+07u
-R1 VGP P sky130_fd_pr__res_generic_po w=330000u l=6.5e+06u
-X2 P VSS sky130_fd_pr__cap_mim_m3_2 l=2.5e+07u w=3.9e+07u
+X1 VDN N sky130_fd_pr__cap_mim_m3_2 l=2.5e+07u w=2e+07u
+R1 VGP VDP sky130_fd_pr__res_generic_po w=330000u l=6.5e+06u
+X2 N VSS sky130_fd_pr__cap_mim_m3_2 l=2.5e+07u w=3.9e+07u
 X3 MIDGATE VSS sky130_fd_pr__cap_mim_m3_2 l=5.2e+07u w=2.3e+07u
 X4 VSSH MIDGATE SUB sky130_fd_pr__res_high_po w=350000u l=1.6e+06u
 X5 VGN VSS sky130_fd_pr__cap_mim_m3_2 l=5.2e+07u w=8e+06u
 X6 MIDGATE VSSH sky130_fd_pr__cap_mim_m3_2 l=5.2e+07u w=2.3e+07u
-X7 P P sky130_fd_pr__cap_mim_m3_2 l=2.5e+07u w=2e+07u
+X7 VDP P sky130_fd_pr__cap_mim_m3_2 l=2.5e+07u w=2e+07u
 X8 VGP VSSH sky130_fd_pr__cap_mim_m3_2 l=5.2e+07u w=8e+06u
 .ends
 
