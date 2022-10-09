@@ -1,0 +1,8 @@
+magic
+tech sky130A
+timestamp 1665269856
+use octa_1p2n_2_0  octa_1p2n_2_0_0
+timestamp 1665269856
+transform 1 0 -10000 0 1 -10000
+box -35450 -26250 28050 26250
+<< end >>
