@@ -14,33 +14,33 @@ node "SUB" 11 2598.81 0 170 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "G1" 4 1065.13 165 1192 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 118756 3552 44000 1240 209600 2760 0 0 0 0 0 0
 substrate "a_592_156#" 0 0 592 156 ppd 0 0 0 0 0 0 0 0 0 0 307040 4648 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 cap "G2" "G1" 156.358
-cap "SUB" "G1" 1023.65
-cap "G2" "SD1" 51.2078
-cap "SUB" "SD1" 402.302
-cap "SUB" "G2" 1012.08
 cap "SD2" "G1" 64.1032
-cap "SD1" "SD2" 112.02
-cap "SD1" "G1" 960.864
-cap "G2" "SD2" 824.028
-cap "SUB" "SD2" 392.099
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 874.131
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 1684.75
+cap "SD2" "G2" 824.028
+cap "SUB" "SD1" 402.302
+cap "G1" "SUB" 1023.65
+cap "G2" "SUB" 1012.08
+cap "G1" "SD1" 960.864
+cap "G2" "SD1" 51.2078
+cap "SD2" "SUB" 392.099
+cap "SD2" "SD1" 112.02
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 270.909
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 269.287
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 1684.75
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 408.415
 cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 232.918
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 269.287
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 408.415
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 270.909
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 14.6856
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 255.036
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 880.15
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 160.077
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 103.472
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 150.969
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 169.27
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 379.722
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 874.131
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 103.472
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 255.036
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 150.969
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 160.077
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 880.15
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 14.6856
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 379.722
 cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 40.1683
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 114.989
-cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 180.444
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 169.27
 cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 2.52016
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" 180.444
+cap "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 114.989
 merge "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B" -3801.02 0 0 0 0 0 0 0 0 0 0 -234320 -8544 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -332528 -12544 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/B" "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
 merge "sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "SUB"

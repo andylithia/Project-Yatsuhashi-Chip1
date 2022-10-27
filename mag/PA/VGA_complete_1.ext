@@ -1,0 +1,1477 @@
+timestamp 1662654558
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_156 1 0 -21100 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_157 1 0 -21600 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_158 1 0 -21600 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_159 1 0 -21100 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_160 1 0 -20100 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_161 1 0 -20600 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_162 1 0 -20600 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_163 1 0 -20100 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_164 1 0 -19100 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_165 1 0 -19600 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_166 1 0 -19600 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_167 1 0 -19100 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_168 1 0 -18100 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_169 1 0 -18600 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_170 1 0 -18600 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_171 1 0 -18100 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_173 1 0 -17600 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_174 1 0 -17600 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_152 1 0 -21100 0 1 16300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_153 1 0 -21600 0 1 16300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_222 1 0 -20600 0 1 16300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_232 1 0 -20100 0 1 16300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_172 1 0 -17100 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_175 1 0 -17100 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_176 1 0 -16100 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_177 1 0 -16600 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_178 1 0 -16600 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_179 1 0 -16100 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_180 1 0 -15100 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_181 1 0 -15600 0 1 15300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_182 1 0 -15600 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_183 1 0 -15100 0 1 15800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_148 1 0 -21100 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_149 1 0 -21600 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_154 1 0 -21600 0 1 16800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_155 1 0 -21100 0 1 16800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_226 1 0 -20600 0 1 16800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_227 1 0 -20600 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_233 1 0 -20100 0 1 16800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_234 1 0 -20100 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_150 1 0 -21600 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_151 1 0 -21100 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_228 1 0 -20600 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_235 1 0 -20100 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_144 1 0 -21100 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_145 1 0 -21600 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_146 1 0 -21600 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_147 1 0 -21100 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_229 1 0 -20600 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_230 1 0 -20600 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_236 1 0 -20100 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_237 1 0 -20100 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_140 1 0 -21100 0 1 19300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_141 1 0 -21600 0 1 19300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_231 1 0 -20600 0 1 19300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_238 1 0 -20100 0 1 19300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_136 1 0 -21100 0 1 20300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_137 1 0 -21600 0 1 20300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_142 1 0 -21600 0 1 19800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_143 1 0 -21100 0 1 19800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_223 1 0 -20600 0 1 19800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_224 1 0 -20600 0 1 20300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_239 1 0 -20100 0 1 20300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_240 1 0 -20100 0 1 19800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_138 1 0 -21600 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_139 1 0 -21100 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_225 1 0 -20600 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_241 1 0 -20100 0 1 20800
+use pmirror_pfet_64x_complete pmirror_pfet_64x_complete_0 0 1 -12800 -1 0 20150
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_208 1 0 -4100 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_209 1 0 -4100 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_42 1 0 -6100 0 1 19300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_206 1 0 -4100 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_207 1 0 -4100 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_39 1 0 -6100 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_40 1 0 -6100 0 1 20300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_41 1 0 -6100 0 1 19800
+use sky130_fd_pr__res_generic_po_3TQ83P sky130_fd_pr__res_generic_po_3TQ83P_0 1 0 -4826 0 1 20086
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_7 1 0 -4100 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_205 1 0 -3600 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_204 1 0 -3600 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_201 1 0 -3100 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_196 1 0 -3100 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_200 1 0 -2600 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_197 1 0 -2600 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_199 1 0 -2100 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_198 1 0 -2100 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_135 1 0 -1600 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_132 1 0 -1600 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_134 1 0 -1100 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_131 1 0 -1100 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_133 1 0 -600 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_130 1 0 -600 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_203 1 0 -3600 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_190 1 0 -3100 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_191 1 0 -2600 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_192 1 0 -2100 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_184 1 0 -1600 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_185 1 0 -1100 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_186 1 0 -600 0 1 18300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_202 1 0 -3600 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_195 1 0 -3100 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_194 1 0 -2600 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_193 1 0 -2100 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_189 1 0 -1600 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_188 1 0 -1100 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_187 1 0 -600 0 1 18800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_0 1 0 -1100 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_1 1 0 -1600 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_2 1 0 -2100 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_3 1 0 -2600 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_4 1 0 -3100 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_5 1 0 -3600 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_6 1 0 -600 0 1 20800
+use rfbcsa_1 rfbcsa_1_0 1 0 600 0 1 18200
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_31 1 0 3900 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_34 1 0 3900 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_32 1 0 4400 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_33 1 0 4900 0 1 17800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_35 1 0 4400 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_36 1 0 4900 0 1 17300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_26 1 0 3900 0 1 19800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_27 1 0 4400 0 1 19800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_37 1 0 4900 0 1 19800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_11 1 0 3400 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_12 1 0 3900 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_15 1 0 3900 0 1 20300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_13 1 0 4400 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_14 1 0 4900 0 1 20800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_23 1 0 4400 0 1 20300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_25 1 0 4900 0 1 20300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_93 1 0 -20600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_96 1 0 -20600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_97 1 0 -21600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_98 1 0 -21100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_99 1 0 -21100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_100 1 0 -21600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_89 1 0 -19600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_92 1 0 -19600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_94 1 0 -20100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_95 1 0 -20100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_85 1 0 -18600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_88 1 0 -18600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_90 1 0 -19100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_91 1 0 -19100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_81 1 0 -17600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_84 1 0 -17600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_86 1 0 -18100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_87 1 0 -18100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_77 1 0 -16600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_78 1 0 -16100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_79 1 0 -16100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_80 1 0 -16600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_82 1 0 -17100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_83 1 0 -17100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_73 1 0 -15600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_74 1 0 -15100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_75 1 0 -15100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_76 1 0 -15600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_53 1 0 -14100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_54 1 0 -14600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_65 1 0 -14100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_66 1 0 -14600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_51 1 0 -13600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_52 1 0 -13100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_60 1 0 -13600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_61 1 0 -13100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_48 1 0 -11600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_49 1 0 -12100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_50 1 0 -12600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_55 1 0 -12100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_59 1 0 -12600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_72 1 0 -11600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_44 1 0 -10600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_47 1 0 -11100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_69 1 0 -10600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_71 1 0 -11100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_45 1 0 -10100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_46 1 0 -9600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_68 1 0 -9600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_70 1 0 -10100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_43 1 0 -9100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_62 1 0 -8600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_67 1 0 -9100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_102 1 0 -8600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_56 1 0 -7100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_63 1 0 -8100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_64 1 0 -7600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_101 1 0 -8100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_103 1 0 -7600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_104 1 0 -7100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_38 1 0 -6100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_57 1 0 -6600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_58 1 0 -6100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_105 1 0 -6600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_8 1 0 -4100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_112 1 0 -4100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_9 1 0 -3600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_10 1 0 -3100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_111 1 0 -3100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_113 1 0 -3600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_106 1 0 -1600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_107 1 0 -2600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_108 1 0 -2100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_114 1 0 -1600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_115 1 0 -2600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_116 1 0 -2100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_109 1 0 -1100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_110 1 0 -600 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_118 1 0 -1100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_119 1 0 -600 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_16 1 0 -100 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_17 1 0 400 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_117 1 0 -100 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_121 1 0 400 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_18 1 0 900 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_19 1 0 1400 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_120 1 0 1400 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_122 1 0 900 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_20 1 0 1900 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_21 1 0 2400 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_22 1 0 2900 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_123 1 0 2900 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_124 1 0 1900 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_125 1 0 2400 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_24 1 0 3400 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_28 1 0 3900 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_127 1 0 3900 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_128 1 0 3400 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_29 1 0 4400 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_30 1 0 4900 0 1 21300
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_126 1 0 4400 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_129 1 0 4900 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_214 1 0 7400 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_213 1 0 6900 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_212 1 0 6400 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_211 1 0 5900 0 1 21800
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_210 1 0 5400 0 1 21800
+use octal_ind_0p700n_5GHz octal_ind_0p700n_5GHz_0 0 -1 -20900 -1 0 -15900
+parameters sky130_fd_pr__cap_mim_m3_1 w=w l=l
+parameters sky130_fd_pr__cap_mim_m3_2 w=w l=l
+node "m4_1100_15800#" 0 1533.65 1100 15800 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2650000 7200 0 0 0 0
+node "D" 0 1688.25 6050 16100 mim 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20760000 21200 0 0 0 0
+node "G8" 0 244.81 -12800 15500 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130000 2200 0 0 0 0 0 0
+node "G4" 1 147.628 -13000 15500 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200000 3200 0 0 0 0 0 0
+node "G2" 1 134.707 -13200 15500 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 270000 4200 0 0 0 0 0 0
+node "G16" 1 128.728 -13400 15500 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 340000 5200 0 0 0 0 0 0
+node "IREF" 0 841.985 -11350 17100 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26600 660 62400 1000 480000 2800 0 0
+node "G32" 1 148.9 -13600 15500 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 410000 6200 0 0 0 0 0 0
+node "m3_n4900_18350#" 0 2239.36 -4900 18350 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5510000 12600 0 0 0 0 0 0
+node "VLO" 0 5083.91 -20400 15400 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24300000 19800 3600000 10600 24300000 19800 0 0
+node "OUT" 0 6909.1 5950 16000 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23690000 19500 3220000 10600 23000000 19200 0 0
+node "m2_n9500_17950#" 1 10228.7 -9500 17950 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 765000 4300 1420000 5700 11660000 14800 15080000 18200 0 0
+node "VHI" 7 4042.71 -14800 15450 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6120000 36400 3520000 10400 24705000 20000 0 0 0 0
+node "m1_n4700_19630#" 1 1492.6 -4700 19630 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19800 580 37800 780 48600 900 4872000 12400 0 0 0 0
+node "m1_n5129_19663#" 0 37.6517 -5129 19663 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12528 492 0 0 0 0 0 0 0 0 0 0
+node "m1_n4805_20437#" 0 37.5918 -4805 20437 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12528 492 0 0 0 0 0 0 0 0 0 0
+node "m1_n5021_20437#" 0 37.5645 -5021 20437 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12528 492 0 0 0 0 0 0 0 0 0 0
+node "IN" 1 353.851 -4600 20430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11700 440 71700 1260 220000 2280 0 0 0 0 0 0
+node "IN_DUMMY" 1 440.447 -5140 20430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11700 440 71700 1260 218400 2280 0 0 0 0 0 0
+node "m1_n21500_12200#" 0 52870.2 -21500 12200 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42985600 352200 0 0 0 0 0 0 0 0 0 0
+node "m1_n5500_18200#" 0 52914.4 -5500 18200 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39601000 338400 0 0 0 0 0 0 0 0 0 0
+node "li_n5380_19510#" 988 5644.54 -5380 19510 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 236200 8600 1559240 24928 0 0 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_n5500_18200#" "m1_n4700_19630#" 799.688
+cap "m1_n5500_18200#" "OUT" 17782.4
+cap "VLO" "G32" 9.36984
+cap "m1_n5500_18200#" "IN" 2.65759
+cap "VHI" "VLO" 82270.6
+cap "m1_n21500_12200#" "VLO" 18479
+cap "m3_n4900_18350#" "m1_n5500_18200#" 3637.43
+cap "m1_n5021_20437#" "IN_DUMMY" 49.1442
+cap "G2" "IREF" 7.3953
+cap "IN" "m1_n4700_19630#" 106.929
+cap "m1_n5500_18200#" "m2_n9500_17950#" 104.173
+cap "m1_n4805_20437#" "m1_n4700_19630#" 9.93581
+cap "VHI" "G32" 1448.05
+cap "m1_n5129_19663#" "IN_DUMMY" 11.2292
+cap "G32" "G16" 1461.2
+cap "VHI" "G8" 102.001
+cap "IN_DUMMY" "li_n5380_19510#" 498.037
+cap "m1_n21500_12200#" "G32" 289.89
+cap "VHI" "G16" 524.247
+cap "m1_n5129_19663#" "m1_n5021_20437#" 3.46923
+cap "m1_n21500_12200#" "G8" 19.5711
+cap "m3_n4900_18350#" "m1_n4700_19630#" 10614.9
+cap "IN" "m1_n4805_20437#" 87.9506
+cap "m1_n5021_20437#" "li_n5380_19510#" 119.098
+cap "VHI" "m1_n21500_12200#" 10741.9
+cap "m1_n21500_12200#" "G16" 126.643
+cap "G8" "G4" 618.2
+cap "m1_n5129_19663#" "li_n5380_19510#" 253.317
+cap "VHI" "G4" 209.698
+cap "m3_n4900_18350#" "IN" 21.2964
+cap "m3_n4900_18350#" "m1_n4805_20437#" 3.79128
+cap "m1_n21500_12200#" "G4" 32.9769
+cap "m1_n5500_18200#" "m4_1100_15800#" 406.883
+cap "m1_n5500_18200#" "IN_DUMMY" 2.80824
+cap "VHI" "G2" 268.89
+cap "G2" "G16" 1180.2
+cap "m1_n21500_12200#" "G2" 105.785
+cap "G2" "G4" 899.2
+cap "m1_n5500_18200#" "li_n5380_19510#" 456.406
+cap "m1_n5500_18200#" "D" 2184.85
+cap "m1_n5021_20437#" "m1_n4700_19630#" 0.037535
+cap "IN" "IN_DUMMY" 219.436
+cap "m1_n5129_19663#" "m1_n4700_19630#" 6.63959
+cap "m1_n4805_20437#" "IN_DUMMY" 0.826185
+cap "m1_n4700_19630#" "li_n5380_19510#" 655.887
+cap "m1_n5021_20437#" "IN" 0.825637
+cap "m1_n5021_20437#" "m1_n4805_20437#" 63.2571
+cap "OUT" "D" 75739.8
+cap "IN" "li_n5380_19510#" 541.507
+cap "m3_n4900_18350#" "m1_n5021_20437#" 1.15482
+cap "m1_n4805_20437#" "li_n5380_19510#" 118.995
+cap "G32" "IREF" 27.0058
+cap "m3_n4900_18350#" "li_n5380_19510#" 182.557
+cap "m1_n5129_19663#" "m2_n9500_17950#" 0.671808
+cap "VHI" "IREF" 15.6483
+cap "G16" "IREF" 38.5658
+cap "m2_n9500_17950#" "li_n5380_19510#" 19.8526
+cap "m1_n21500_12200#" "IREF" 4.97131
+device csubckt sky130_fd_pr__cap_mim_m3_2 -19200 15500 -19199 15501 w=4100 l=4300 "None" "VLO" 16000 0 "VHI" 1010 0
+device csubckt sky130_fd_pr__cap_mim_m3_2 6050 16100 6051 16101 w=4000 l=4400 "None" "OUT" 16000 0 "D" 1010 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -4850 18400 -4849 18401 w=4800 l=1000 "None" "m1_n4700_19630#" 11200 0 "m3_n4900_18350#" 1010 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -19200 15500 -19199 15501 w=4100 l=4300 "None" "VHI" 16000 0 "VLO" 1010 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 6050 16100 6051 16101 w=4000 l=4400 "None" "D" 16000 0 "OUT" 1010 0
+cap "m1_n5500_18200#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 12.4684
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "m1_n5500_18200#" 8.84362
+cap "m1_n5500_18200#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 2.13693
+cap "hash_m1m2m3_W2p5L2p5_156/m1_100_n1100#" "VHI" 66.58
+cap "hash_m1m2m3_W2p5L2p5_160/m1_100_n1100#" "VHI" 129.597
+cap "VHI" "hash_m1m2m3_W2p5L2p5_164/m1_100_n1100#" 131.358
+cap "VLO" "hash_m1m2m3_W2p5L2p5_164/m1_100_n1100#" 62.8623
+cap "VLO" "hash_m1m2m3_W2p5L2p5_164/m1_100_n1100#" 436.298
+cap "hash_m1m2m3_W2p5L2p5_173/m1_100_n1100#" "VHI" 240.24
+cap "hash_m1m2m3_W2p5L2p5_173/m1_100_n1100#" "VLO" 43.3651
+cap "hash_m1m2m3_W2p5L2p5_173/m1_100_n1100#" "VLO" 281.206
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 3.10937
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "hash_m1m2m3_W2p5L2p5_32/m1_100_n1100#" 6.17315
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "m1_n5500_18200#" 2.87901
+cap "hash_m1m2m3_W2p5L2p5_156/m1_100_n1100#" "VHI" 6.48022
+cap "VHI" "hash_m1m2m3_W2p5L2p5_156/m1_100_n1100#" 282.003
+cap "hash_m1m2m3_W2p5L2p5_160/m1_100_n1100#" "VHI" 381.866
+cap "hash_m1m2m3_W2p5L2p5_164/m1_100_n1100#" "VLO" 80.4311
+cap "hash_m1m2m3_W2p5L2p5_164/m1_100_n1100#" "VLO" 326.604
+cap "hash_m1m2m3_W2p5L2p5_164/m1_100_n1100#" "VHI" 384.862
+cap "VLO" "hash_m1m2m3_W2p5L2p5_173/m1_100_n1100#" 61.6648
+cap "VLO" "hash_m1m2m3_W2p5L2p5_173/m1_100_n1100#" 206.267
+cap "VHI" "hash_m1m2m3_W2p5L2p5_173/m1_100_n1100#" 405.751
+cap "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_3/a_n73_n300#" 1.15985
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/G32" 0.422079
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/VHI" 0.522472
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/VHI" 14.8077
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G2" -0.522447
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/G16" 0.638218
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/G2" 0.132504
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_3/a_n73_n300#" 0.388143
+cap "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#" "pmirror_pfet_64x_complete_0/G32" 0.078838
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/VHI" 0.191334
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/G4" 0.649006
+cap "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_4/a_n73_n300#" "pmirror_pfet_64x_complete_0/G32" 0.376658
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_3/a_n73_n300#" 0.808563
+cap "pmirror_pfet_64x_complete_0/G8" "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#" 0.491322
+cap "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#" "pmirror_pfet_64x_complete_0/G16" 0.0801247
+cap "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#" "pmirror_pfet_64x_complete_0/VHI" 22.6987
+cap "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#" "pmirror_pfet_64x_complete_0/G2" -7.10543e-15
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_4/a_n73_n300#" 0.786968
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/VHI" 10.7459
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/G32" 0.418983
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/G2" 0.0972976
+cap "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#" "pmirror_pfet_64x_complete_0/G4" 0.537834
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/G32" 0.0935277
+cap "pmirror_pfet_64x_complete_0/G4" "m1_n21500_12200#" -5.56151
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "pmirror_pfet_64x_complete_0/G32" 0.110494
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/VHI" 16.7558
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 5.22731
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "pmirror_pfet_64x_complete_0/G4" 23.371
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/G8" 0.150521
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/G32" 0.0400919
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G8" 149.269
+cap "pmirror_pfet_64x_complete_0/VHI" "m1_n21500_12200#" 199.698
+cap "pmirror_pfet_64x_complete_0/G8" "m1_n21500_12200#" -0.87403
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/G4" -14.0551
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/G16" 0.144423
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "pmirror_pfet_64x_complete_0/G16" 0.170609
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/VHI" -2.89651
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "pmirror_pfet_64x_complete_0/VHI" -4.20012
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/G32" 0.0814525
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/G8" 17.8843
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 0.0816099
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "m1_n21500_12200#" 5.48028
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "m1_n21500_12200#" 5.17837
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/G16" 0.0557877
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/G8" 0.0451791
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/VHI" 101.921
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/IREF" 2.71371
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G32" 13.4428
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/G32" 0.128664
+cap "pmirror_pfet_64x_complete_0/G2" "m1_n21500_12200#" -2.80337
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/G16" 0.112123
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 0.189767
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/VHI" 149.154
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/G8" -13.6054
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/IREF" 0.644311
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/G4" 0.032747
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" 2.22965
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/IOUT" 0.273147
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/VHI" 2.47024
+cap "pmirror_pfet_64x_complete_0/VHI" "m1_n21500_12200#" 0.810169
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" -2.06129
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" -5.20739
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/G2" 0.0685347
+cap "pmirror_pfet_64x_complete_0/G8" "m1_n21500_12200#" 0.268299
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/VHI" 10.7847
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 0.617582
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" 3.98436
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" 0.601913
+cap "pmirror_pfet_64x_complete_0/G2" "m1_n21500_12200#" 0.0537628
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "m1_n21500_12200#" 0.169508
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/IREF" 1.26434
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G4" 4.84935
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/G2" 0.665917
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" 5.50209
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 22.1208
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/G4" 0.202585
+cap "pmirror_pfet_64x_complete_0/G4" "m1_n21500_12200#" 0.218353
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/G4" 0.0682286
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/IOUT" 0.0385591
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/G4" 3.22807
+cap "pmirror_pfet_64x_complete_0/G8" "pmirror_pfet_64x_complete_0/VHI" 2.19235
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/G4" 2.83623
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G1" "pmirror_pfet_64x_complete_0/IOUT" 13.9939
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/IOUT" 32.2068
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/w_2660_730#" 38.4366
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_n194_50#" 25.8189
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" 16.9707
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 41.7659
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 9.43986
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 83.7822
+cap "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 84.3999
+cap "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 29.9926
+cap "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" "rfbcsa_1_0/NDRAIN" 18.3602
+cap "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" "rfbcsa_1_0/NDRAIN" 24.747
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "rfbcsa_1_0/NDRAIN" 14.6067
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "rfbcsa_1_0/NDRAIN" 708
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" 0.106768
+cap "rfbcsa_1_0/NDRAIN" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 9.73778
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 0.0711787
+cap "rfbcsa_1_0/NDRAIN" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 472
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "rfbcsa_1_0/NDRAIN" 19.0365
+cap "OUT" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 2.34591
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 68.9653
+cap "rfbcsa_1_0/NDRAIN" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 24.4057
+cap "OUT" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 1.06966
+cap "OUT" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 137.496
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "OUT" 117.124
+cap "rfbcsa_1_0/NDRAIN" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 47.2344
+cap "rfbcsa_1_0/NDRAIN" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 178.527
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "OUT" 27.9908
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 121.962
+cap "hash_m1m2m3_W2p5L2p5_33/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 5.01357
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "D" 12.0233
+cap "hash_m1m2m3_W2p5L2p5_33/m1_100_n1100#" "OUT" -2.27374e-13
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "OUT" 7.12492
+cap "VHI" "hash_m1m2m3_W2p5L2p5_158/m1_100_n1100#" 6.991
+cap "hash_m1m2m3_W2p5L2p5_158/m1_100_n1100#" "VHI" 110.481
+cap "hash_m1m2m3_W2p5L2p5_163/m1_100_n1100#" "VHI" -1.10845e-12
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/VHI" 2.06903
+cap "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#" "pmirror_pfet_64x_complete_0/G16" 0.164434
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_2/a_n73_n300#" 1.67051
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/VHI" 0.00248665
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/G16" 0.422589
+cap "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_2/a_n73_n300#" 0.0577122
+cap "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_1/a_n73_n300#" 0.898032
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#" 4.56919
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/VHI" 20.6733
+cap "pmirror_pfet_64x_complete_0/G32" "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#" 0.532296
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_2/a_n73_n300#" 0.388143
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_1/a_n73_n300#" 2.63322
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/G16" 0.505714
+cap "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#" "pmirror_pfet_64x_complete_0/VHI" 41.9681
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/VHI" 16.2681
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/VHI" 20.1626
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#" 2.04731
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/G2" 0.321686
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/G8" -0.0438858
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/G32" -14.1819
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G32" 41.3414
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 5.94235
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 3.80252
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 12.3382
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 0.485536
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 0.240839
+cap "pmirror_pfet_64x_complete_0/IREF" "m1_n21500_12200#" -0.923029
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/IREF" -2.19982
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" -1.75964
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 1.71321
+cap "pmirror_pfet_64x_complete_0/G2" "m1_n21500_12200#" 0.586603
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/G4" -0.112738
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G4" 0.0353941
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/G32" 1.16717
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 0.527572
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 3.11567
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/VHI" 9.18457
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "m1_n21500_12200#" 13.8996
+cap "pmirror_pfet_64x_complete_0/VHI" "m1_n21500_12200#" 338.172
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/VHI" 65.4847
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/G8" -0.0803587
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G16" 1.06928
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/G32" -0.431665
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/G32" -0.116641
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/VHI" 11.4945
+cap "pmirror_pfet_64x_complete_0/G32" "m1_n21500_12200#" -16.7549
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 0.0175645
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/G32" 4.21096
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/VHI" 93.6036
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 0.070381
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 3.63727
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 0.897613
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/IREF" 2.16348
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/VHI" 5.77498
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/G2" -14.8845
+cap "pmirror_pfet_64x_complete_0/G16" "m1_n21500_12200#" -3.27378
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 0.0128701
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G2" 0.519005
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "m1_n21500_12200#" 49.3209
+cap "pmirror_pfet_64x_complete_0/G4" "pmirror_pfet_64x_complete_0/G32" -0.0902753
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 6.63383
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G8" 1.93904
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/VHI" 136.242
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/VHI" 100.984
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/IOUT" 24.1007
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "pmirror_pfet_64x_complete_0/IOUT" 0.148645
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 0.073103
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" -43.7886
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 0.725639
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/IREF" 4.82255
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G16" -1.6586
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G32" 6.50327
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/IREF" 225.828
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/VHI" -134.415
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "pmirror_pfet_64x_complete_0/IREF" 152.789
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/G2" 0.288275
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" -1.28624
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/IOUT" 1.35763
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "m1_n21500_12200#" 1.07499
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G8" -0.421995
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/G32" 3.64422
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 2.63276
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/IREF" 115.722
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G4" -0.935566
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" -22.7304
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" -0.412348
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" -66.7879
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/G32" 0.221262
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/VHI" 4.94625
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" -0.312849
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G2" -1.36321
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/G32" 3.16125
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/IOUT" 3.81805
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 222.582
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" -57.1564
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" -27.1587
+cap "pmirror_pfet_64x_complete_0/G16" "pmirror_pfet_64x_complete_0/IREF" 15.134
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" -0.362705
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/IREF" 712.953
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 0.425346
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/G16" 0.219439
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/VHI" -2.32218
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G32" -1.79362
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/IOUT" 72.5563
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/VHI" 1.06506
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/IOUT" 12.742
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/G8" 1.93128
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" -0.000115985
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" -3.50461
+cap "pmirror_pfet_64x_complete_0/G2" "pmirror_pfet_64x_complete_0/VHI" 1.95444
+cap "m1_n21500_12200#" "pmirror_pfet_64x_complete_0/IOUT" 6.67406e-05
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/G4" 2.28665
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/IREF" 201.129
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/VHI" -15.2142
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 126.746
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 0.306092
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 19.5676
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/IOUT" 8.16135
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/IREF" 5.03787
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/IOUT" 273.516
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/IREF" 4.32093
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G1" 107.023
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "pmirror_pfet_64x_complete_0/IOUT" 1.43711
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G1" 0.184006
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/IREF" 4.50886
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G1" -25.6011
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 10.7952
+cap "pmirror_pfet_64x_complete_0/w_2660_730#" "pmirror_pfet_64x_complete_0/IOUT" 71.8097
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_n194_n482#" 0.919103
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 27.9781
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "pmirror_pfet_64x_complete_0/IOUT" 7.22382
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/sky130_fd_pr__res_xhigh_po_0p35_M33Z8U_0/a_n194_50#" 5.35538
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 224.173
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 33.3294
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 24.6396
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 0.0155119
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "m3_n4900_18350#" 81.3882
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 63.192
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "m3_n4900_18350#" 150.147
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 0.0295466
+cap "m1_n4700_19630#" "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#" 60.9753
+cap "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#" "rfbcsa_1_0/NGATE" 130.205
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#" 0.0273306
+cap "rfbcsa_1_0/NDRAIN" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" 73.9962
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" 0.0103413
+cap "rfbcsa_1_0/NGATE" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" 89.701
+cap "m1_n4700_19630#" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" 19.6491
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/D" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" 25.0946
+cap "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/D" 77.5739
+cap "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" "rfbcsa_1_0/NDRAIN" 462.534
+cap "rfbcsa_1_0/NDRAIN" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/D" 0.0774667
+cap "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" "rfbcsa_1_0/NGATE" 232.704
+cap "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 0.420055
+cap "rfbcsa_1_0/NGATE" "rfbcsa_1_0/NDRAIN" 4.13512
+cap "rfbcsa_1_0/NDRAIN" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/G" 0.95774
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/D" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 48.368
+cap "rfbcsa_1_0/NDRAIN" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 391.364
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/G" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 153.132
+cap "rfbcsa_1_0/NDRAIN" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/D" 0.0141191
+cap "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 0.280037
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "rfbcsa_1_0/NDRAIN" 651.812
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "OUT" 2.34591
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 0.0266288
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "OUT" 1.06966
+cap "OUT" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 137.496
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "OUT" 117.124
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" 0.00147733
+cap "OUT" "rfbcsa_1_0/NDRAIN" 2.27374e-13
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "rfbcsa_1_0/NDRAIN" 401.691
+cap "OUT" "rfbcsa_1_0/NDRAIN" -2.27374e-13
+cap "VHI" "hash_m1m2m3_W2p5L2p5_148/m1_100_n1100#" 7.50405
+cap "VHI" "hash_m1m2m3_W2p5L2p5_148/m1_100_n1100#" 110.819
+cap "hash_m1m2m3_W2p5L2p5_234/m1_100_n1100#" "VHI" -9.09495e-13
+cap "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" "pmirror_pfet_64x_complete_0/sky130_fd_pr__pfet_01v8_Y3CBJH_1/a_n73_n300#" 0.178212
+cap "pmirror_pfet_64x_complete_0/G16" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 2.78285e-05
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G32" -4.44089e-16
+cap "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" "pmirror_pfet_64x_complete_0/G32" 0.0345434
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 1.50342
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 3.70668
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 2.30582
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 1.46486
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 1.59049
+cap "pmirror_pfet_64x_complete_0/VHI" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 46.5188
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 3.75434
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/VHI" 57.5471
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 2.7867
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 8.23562
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 13.4503
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" -0.356333
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 1.51341
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G32" 1.09944
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/G32" 0.497625
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 4.2206
+cap "pmirror_pfet_64x_complete_0/VHI" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 378.693
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/G2" 0.0304032
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 19.0954
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G2" 0.0581446
+cap "pmirror_pfet_64x_complete_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 0.00137477
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 15.6834
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 0.132369
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/G32" 0.124614
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G16" 0.490996
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/G16" 0.106158
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G32" 0.878474
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 1.84513
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 0.0587556
+cap "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 3.03175
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 6.36164
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 307.848
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 2.0067
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 8.00687
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 174.043
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" -0.0725907
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/G16" 0.0796912
+cap "pmirror_pfet_64x_complete_0/IREF" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 0.0560885
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/G16" 0.404887
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/G2" 0.122923
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" 1.28886
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" "pmirror_pfet_64x_complete_0/VHI" -7.01147
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 21.2902
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/VHI" 0.576633
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 4.6429
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/VHI" 6.29963
+cap "pmirror_pfet_64x_complete_0/IREF" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 0.322993
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" "pmirror_pfet_64x_complete_0/IREF" 0.023366
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/IREF" 0.0443514
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/VHI" -33.462
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" -0.732077
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 48.1256
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" -2.12113
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" 6.02436
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/IREF" 2.67974
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 8.61279
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/VHI" 5.57711
+cap "pmirror_pfet_64x_complete_0/IOUT" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 14.0336
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" -3.8712
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 67.073
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/IREF" 2.30888
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 2.19713
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" -0.0880632
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 0.237826
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 0.526888
+cap "pmirror_pfet_64x_complete_0/IREF" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" 0.0225303
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/IREF" -0.00778252
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/VHI" 22.5857
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 0.724023
+cap "pmirror_pfet_64x_complete_0/IOUT" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 6.81766
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 24.857
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G1" -69.7949
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 8.69293
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 75.6395
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 49.4679
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G1" 233.256
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 1.22335
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 74.4215
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" 15.2675
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 74.4691
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/IOUT" 699.707
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 6.81402
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "m2_n9500_17950#" 425.459
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "m3_n4900_18350#" 0.73351
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 0.0271133
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "m3_n4900_18350#" 218.48
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" 0.567423
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" 3.35426
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" 0.567423
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 0.614845
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 227.657
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "m2_n9500_17950#" 471.251
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" "m3_n4900_18350#" 0.593356
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" 1.13485
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "m3_n4900_18350#" 0.725591
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 0.268802
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "m3_n4900_18350#" 587.803
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" "m3_n4900_18350#" 2.74286
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" 0.268802
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 562.289
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" "m3_n4900_18350#" 0.759167
+cap "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "m3_n4900_18350#" 806.625
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" 1060.47
+cap "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/S" 0.0454058
+cap "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#" "rfbcsa_1_0/NGATE" 755.187
+cap "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#" "m1_n4700_19630#" 972.956
+cap "rfbcsa_1_0/NGATE" "rfbcsa_1_0/NDRAIN" 151.033
+cap "rfbcsa_1_0/NDRAIN" "m1_n4700_19630#" 91.4808
+cap "rfbcsa_1_0/NGATE" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" 800.418
+cap "m1_n4700_19630#" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" 437.384
+cap "rfbcsa_1_0/NDRAIN" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" 96.7561
+cap "rfbcsa_1_0/NGATE" "m1_n4700_19630#" 80.8192
+cap "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" "m1_n4700_19630#" 1.02602
+cap "rfbcsa_1_0/NDRAIN" "m1_n4700_19630#" 1.17805
+cap "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" "rfbcsa_1_0/NGATE" 619.505
+cap "rfbcsa_1_0/NDRAIN" "rfbcsa_1_0/NGATE" 78.1308
+cap "rfbcsa_1_0/NDRAIN" "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" 42.4198
+cap "m1_n4700_19630#" "rfbcsa_1_0/NGATE" 18.4483
+cap "rfbcsa_1_0/NDRAIN" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/G" 26.0744
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "rfbcsa_1_0/NDRAIN" 243.943
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/G" 665.032
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/S" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 28.7414
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "OUT" 1.46602
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "OUT" 3.11035
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/G" 73.8894
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "rfbcsa_1_0/NDRAIN" 469.789
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "OUT" 161.937
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "OUT" 126.394
+cap "rfbcsa_1_0/sky130_fd_pr__res_generic_po_JFYRVD_0/a_75_284#" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" 0.0211929
+cap "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "rfbcsa_1_0/NDRAIN" 365.767
+cap "hash_m1m2m3_W2p5L2p5_33/m1_100_n1100#" "OUT" 2.27374e-13
+cap "VHI" "hash_m1m2m3_W2p5L2p5_146/m1_100_n1100#" 2.19498
+cap "hash_m1m2m3_W2p5L2p5_146/m1_100_n1100#" "VHI" 315.303
+cap "hash_m1m2m3_W2p5L2p5_237/m1_100_n1100#" "VHI" 602.999
+cap "hash_m1m2m3_W2p5L2p5_85/m1_100_n1100#" "VLO" 541.58
+cap "VHI" "hash_m1m2m3_W2p5L2p5_85/m1_100_n1100#" 607.946
+cap "hash_m1m2m3_W2p5L2p5_85/m1_100_n1100#" "VLO" 489.046
+cap "hash_m1m2m3_W2p5L2p5_81/m1_100_n1100#" "VHI" 754.841
+cap "hash_m1m2m3_W2p5L2p5_81/m1_100_n1100#" "VLO" 307.43
+cap "hash_m1m2m3_W2p5L2p5_81/m1_100_n1100#" "VLO" 352.597
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 0.0905532
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/VHI" 2.37487
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 8.08622
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 0.0118056
+cap "pmirror_pfet_64x_complete_0/VHI" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 741.933
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 1.83304
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" 0.222081
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "pmirror_pfet_64x_complete_0/VHI" 0.155144
+cap "pmirror_pfet_64x_complete_0/VHI" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 1766.47
+cap "pmirror_pfet_64x_complete_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 25.671
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 70.8004
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 63.9363
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/VHI" -6.37317
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 43.6756
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 22.7292
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 0.410827
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/VHI" -2.49682
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 55.3559
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 0.555397
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 2.61278
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 43.3839
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/VHI" 0.196375
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 1.26177
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/IOUT" 9.0547
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G4" 6.38926
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G2" 15.705
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/VHI" -9.38493
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 91.8706
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/IOUT" 118.616
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 2.15959
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IREF" 0.622811
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/VHI" 1867.16
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 6.5438
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/VHI" -18.0853
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/VHI" 3.30749
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" -5.55992
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 22.6159
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 5.59724
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "pmirror_pfet_64x_complete_0/IOUT" 3.40381
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 122.23
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 47.0178
+cap "pmirror_pfet_64x_complete_0/IOUT" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 80.7318
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 41.6143
+cap "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" "pmirror_pfet_64x_complete_0/IOUT" 683.545
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" -2.88557
+cap "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 859.145
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" -3.82502
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "pmirror_pfet_64x_complete_0/IOUT" 7.96139
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/IOUT" 113.155
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "pmirror_pfet_64x_complete_0/IOUT" 194.532
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/IOUT" 29.0869
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" -17.4222
+cap "pmirror_pfet_64x_complete_0/IOUT" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" 1242.3
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n541_n553#" "m2_n9500_17950#" 3.5395
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" "m2_n9500_17950#" 0.708818
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n541_n553#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 6.21372
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" 0.340964
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "m2_n9500_17950#" 1134.24
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" 0.000221233
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 0.0983647
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 3.89093
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 0.0474276
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" -52.3814
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 0.464349
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "m3_n4900_18350#" 0.881485
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" 0.0189942
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" 0.964625
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 21.7635
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 20.3116
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" -0.0242391
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" -38.256
+cap "m2_n9500_17950#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" 0.0101388
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 14.994
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" 4.99123
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 0.418234
+cap "m3_n4900_18350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" 0.704577
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 11.1032
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" -0.278265
+cap "m2_n9500_17950#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 105.872
+cap "m3_n4900_18350#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 3.42689
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 93.6414
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" -0.0498737
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" -1.05891
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" 0.948084
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "m3_n4900_18350#" 191.852
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" 4.10546
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" 0.259905
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 134.355
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 0.467006
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" 11.7397
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 4.92017
+cap "m3_n4900_18350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 3.02057
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" -0.285529
+cap "m3_n4900_18350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" 0.881485
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 11.7975
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" -0.15084
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 86.8874
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" -67.2835
+cap "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" 10.9006
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" -0.0466167
+cap "m3_n4900_18350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 0.732157
+cap "hash_m1m2m3_W2p5L2p5_206/m1_100_n1100#" "m3_n4900_18350#" 384.288
+cap "hash_m1m2m3_W2p5L2p5_206/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 0.806904
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "hash_m1m2m3_W2p5L2p5_206/m1_100_n1100#" 0.0427423
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" "hash_m1m2m3_W2p5L2p5_206/m1_100_n1100#" 122.33
+cap "m1_n4700_19630#" "hash_m1m2m3_W2p5L2p5_202/m1_100_n1100#" 127.417
+cap "rfbcsa_1_0/NGATE" "hash_m1m2m3_W2p5L2p5_202/m1_100_n1100#" 390.276
+cap "hash_m1m2m3_W2p5L2p5_193/m1_100_n1100#" "m1_n4700_19630#" 41.3066
+cap "hash_m1m2m3_W2p5L2p5_193/m1_100_n1100#" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/S" 31.8648
+cap "hash_m1m2m3_W2p5L2p5_193/m1_100_n1100#" "rfbcsa_1_0/NGATE" 208.379
+cap "rfbcsa_1_0/NGATE" "hash_m1m2m3_W2p5L2p5_187/m1_100_n1100#" 267.44
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/S" "hash_m1m2m3_W2p5L2p5_187/m1_100_n1100#" 203.507
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/G" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 191.516
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/S" 109.642
+cap "OUT" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 2.30499
+cap "OUT" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 4.98804
+cap "rfbcsa_1_0/NDRAIN" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 4.20668
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/G" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 2.07976
+cap "hash_m1m2m3_W2p5L2p5_26/m1_100_n1100#" "OUT" 614.024
+cap "hash_m1m2m3_W2p5L2p5_26/m1_100_n1100#" "rfbcsa_1_0/NDRAIN" 486.323
+cap "OUT" "hash_m1m2m3_W2p5L2p5_26/m1_100_n1100#" 375.967
+cap "OUT" "hash_m1m2m3_W2p5L2p5_37/m1_100_n1100#" 957.253
+cap "D" "hash_m1m2m3_W2p5L2p5_37/m1_100_n1100#" 312.086
+cap "OUT" "hash_m1m2m3_W2p5L2p5_37/m1_100_n1100#" 242.54
+cap "OUT" "hash_m1m2m3_W2p5L2p5_214/m1_100_n1100#" -15.3797
+cap "hash_m1m2m3_W2p5L2p5_214/m1_100_n1100#" "D" 25.1804
+cap "VHI" "hash_m1m2m3_W2p5L2p5_136/m1_100_n1100#" 3.0428
+cap "VHI" "hash_m1m2m3_W2p5L2p5_239/m1_100_n1100#" 4.86215
+cap "hash_m1m2m3_W2p5L2p5_85/m1_100_n1100#" "VHI" 4.94419
+cap "hash_m1m2m3_W2p5L2p5_85/m1_100_n1100#" "VLO" 1.83156
+cap "hash_m1m2m3_W2p5L2p5_85/m1_100_n1100#" "VLO" 2.99607
+cap "VLO" "hash_m1m2m3_W2p5L2p5_81/m1_100_n1100#" 1.37318
+cap "VLO" "hash_m1m2m3_W2p5L2p5_81/m1_100_n1100#" 2.24618
+cap "VHI" "hash_m1m2m3_W2p5L2p5_81/m1_100_n1100#" 7.1411
+cap "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 7.27612
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 0.489873
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/IOUT" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 0.522164
+cap "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 38.7619
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 0.250478
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" 0.444268
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 0.0842439
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" 0.418292
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G8" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 0.324608
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 0.211237
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G16" 0.150092
+cap "pmirror_pfet_64x_complete_0/IOUT" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" 1.07375
+cap "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" 43.6774
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 9.61655
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 18.4064
+cap "pmirror_pfet_64x_complete_0/IOUT" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 3.58798
+cap "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" 0.283771
+cap "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/G32" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" 0.579677
+cap "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" "pmirror_pfet_64x_complete_0/IOUT" 9.04496
+cap "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 0.103945
+cap "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" 2.2633
+cap "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" "m2_n9500_17950#" 5.99257
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" 0.428631
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" 0.331237
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" 96.717
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" 10.9935
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" 0.0431503
+cap "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" 0.101791
+cap "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" 53.6924
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" 7.17333
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" 0.428631
+cap "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_345_350#" 0.0146419
+cap "hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/G" 0.00912806
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_0/G" "hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#" 0.0193179
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/G" "hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#" 0.00490951
+cap "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/G" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" 0.0173512
+cap "OUT" "hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#" 3.60999
+cap "hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#" "D" 9.68268
+cap "hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#" "OUT" 10.83
+cap "hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#" "D" 29.048
+merge "hash_m1m2m3_W2p5L2p5_213/SUB" "hash_m1m2m3_W2p5L2p5_213/m1_100_n1100#" -196253 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -144160 -8480 -12534464 -441680 0 -119600 -1163200 -269160 0 0 -920000 -2700 0 0
+merge "hash_m1m2m3_W2p5L2p5_213/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_214/SUB"
+merge "hash_m1m2m3_W2p5L2p5_214/SUB" "hash_m1m2m3_W2p5L2p5_214/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_214/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_210/SUB"
+merge "hash_m1m2m3_W2p5L2p5_210/SUB" "hash_m1m2m3_W2p5L2p5_210/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_210/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_211/SUB"
+merge "hash_m1m2m3_W2p5L2p5_211/SUB" "hash_m1m2m3_W2p5L2p5_211/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_211/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_212/SUB"
+merge "hash_m1m2m3_W2p5L2p5_212/SUB" "hash_m1m2m3_W2p5L2p5_212/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_212/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_129/SUB"
+merge "hash_m1m2m3_W2p5L2p5_129/SUB" "hash_m1m2m3_W2p5L2p5_129/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_129/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_126/SUB"
+merge "hash_m1m2m3_W2p5L2p5_126/SUB" "hash_m1m2m3_W2p5L2p5_126/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_126/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_30/SUB"
+merge "hash_m1m2m3_W2p5L2p5_30/SUB" "hash_m1m2m3_W2p5L2p5_30/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_30/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_29/SUB"
+merge "hash_m1m2m3_W2p5L2p5_29/SUB" "hash_m1m2m3_W2p5L2p5_29/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_29/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_127/SUB"
+merge "hash_m1m2m3_W2p5L2p5_127/SUB" "hash_m1m2m3_W2p5L2p5_127/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_127/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_28/SUB"
+merge "hash_m1m2m3_W2p5L2p5_28/SUB" "hash_m1m2m3_W2p5L2p5_28/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_28/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_128/SUB"
+merge "hash_m1m2m3_W2p5L2p5_128/SUB" "hash_m1m2m3_W2p5L2p5_128/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_128/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_24/SUB"
+merge "hash_m1m2m3_W2p5L2p5_24/SUB" "hash_m1m2m3_W2p5L2p5_24/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_24/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_123/SUB"
+merge "hash_m1m2m3_W2p5L2p5_123/SUB" "hash_m1m2m3_W2p5L2p5_123/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_123/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_22/SUB"
+merge "hash_m1m2m3_W2p5L2p5_22/SUB" "hash_m1m2m3_W2p5L2p5_22/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_22/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_125/SUB"
+merge "hash_m1m2m3_W2p5L2p5_125/SUB" "hash_m1m2m3_W2p5L2p5_125/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_125/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_124/SUB"
+merge "hash_m1m2m3_W2p5L2p5_124/SUB" "hash_m1m2m3_W2p5L2p5_124/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_124/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_21/SUB"
+merge "hash_m1m2m3_W2p5L2p5_21/SUB" "hash_m1m2m3_W2p5L2p5_21/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_21/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_20/SUB"
+merge "hash_m1m2m3_W2p5L2p5_20/SUB" "hash_m1m2m3_W2p5L2p5_20/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_20/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_120/SUB"
+merge "hash_m1m2m3_W2p5L2p5_120/SUB" "hash_m1m2m3_W2p5L2p5_120/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_120/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_19/SUB"
+merge "hash_m1m2m3_W2p5L2p5_19/SUB" "hash_m1m2m3_W2p5L2p5_19/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_19/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_122/SUB"
+merge "hash_m1m2m3_W2p5L2p5_122/SUB" "hash_m1m2m3_W2p5L2p5_122/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_122/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_18/SUB"
+merge "hash_m1m2m3_W2p5L2p5_18/SUB" "hash_m1m2m3_W2p5L2p5_18/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_18/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_121/SUB"
+merge "hash_m1m2m3_W2p5L2p5_121/SUB" "hash_m1m2m3_W2p5L2p5_121/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_121/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_117/SUB"
+merge "hash_m1m2m3_W2p5L2p5_117/SUB" "hash_m1m2m3_W2p5L2p5_117/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_117/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_17/SUB"
+merge "hash_m1m2m3_W2p5L2p5_17/SUB" "hash_m1m2m3_W2p5L2p5_17/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_17/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_16/SUB"
+merge "hash_m1m2m3_W2p5L2p5_16/SUB" "hash_m1m2m3_W2p5L2p5_16/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_16/m1_100_n1100#" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/D"
+merge "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/D" "hash_m1m2m3_W2p5L2p5_119/SUB"
+merge "hash_m1m2m3_W2p5L2p5_119/SUB" "hash_m1m2m3_W2p5L2p5_119/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_119/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_118/SUB"
+merge "hash_m1m2m3_W2p5L2p5_118/SUB" "hash_m1m2m3_W2p5L2p5_118/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_118/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_110/SUB"
+merge "hash_m1m2m3_W2p5L2p5_110/SUB" "hash_m1m2m3_W2p5L2p5_110/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_110/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_109/SUB"
+merge "hash_m1m2m3_W2p5L2p5_109/SUB" "hash_m1m2m3_W2p5L2p5_109/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_109/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_114/SUB"
+merge "hash_m1m2m3_W2p5L2p5_114/SUB" "hash_m1m2m3_W2p5L2p5_114/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_114/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_106/SUB"
+merge "hash_m1m2m3_W2p5L2p5_106/SUB" "hash_m1m2m3_W2p5L2p5_106/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_106/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_116/SUB"
+merge "hash_m1m2m3_W2p5L2p5_116/SUB" "hash_m1m2m3_W2p5L2p5_116/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_116/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_115/SUB"
+merge "hash_m1m2m3_W2p5L2p5_115/SUB" "hash_m1m2m3_W2p5L2p5_115/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_115/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_108/SUB"
+merge "hash_m1m2m3_W2p5L2p5_108/SUB" "hash_m1m2m3_W2p5L2p5_108/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_108/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_107/SUB"
+merge "hash_m1m2m3_W2p5L2p5_107/SUB" "hash_m1m2m3_W2p5L2p5_107/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_107/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_111/SUB"
+merge "hash_m1m2m3_W2p5L2p5_111/SUB" "hash_m1m2m3_W2p5L2p5_111/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_111/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_10/SUB"
+merge "hash_m1m2m3_W2p5L2p5_10/SUB" "hash_m1m2m3_W2p5L2p5_10/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_10/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_113/SUB"
+merge "hash_m1m2m3_W2p5L2p5_113/SUB" "hash_m1m2m3_W2p5L2p5_113/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_113/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_9/SUB"
+merge "hash_m1m2m3_W2p5L2p5_9/SUB" "hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_112/SUB"
+merge "hash_m1m2m3_W2p5L2p5_112/SUB" "hash_m1m2m3_W2p5L2p5_112/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_112/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_8/SUB"
+merge "hash_m1m2m3_W2p5L2p5_8/SUB" "hash_m1m2m3_W2p5L2p5_8/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_8/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_345_350#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_345_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n411_350#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n411_350#" "hash_m1m2m3_W2p5L2p5_105/SUB"
+merge "hash_m1m2m3_W2p5L2p5_105/SUB" "hash_m1m2m3_W2p5L2p5_105/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_105/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_58/SUB"
+merge "hash_m1m2m3_W2p5L2p5_58/SUB" "hash_m1m2m3_W2p5L2p5_58/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_58/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_57/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_57/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_104/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_104/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_103/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_103/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_56/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_56/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_101/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_101/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_64/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_64/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_63/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_63/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_102/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_102/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_62/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_62/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_67/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_67/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_43/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_43/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_70/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_70/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_68/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_68/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_46/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_46/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_45/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_45/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_71/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_71/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_69/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_69/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_47/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_47/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_44/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_44/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_72/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_72/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_59/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_59/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_55/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_55/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_50/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_50/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_49/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_49/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_48/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_61/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_61/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_60/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_60/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_52/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_51/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_51/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_65/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_65/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_66/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_66/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_53/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_54/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_54/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_76/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_76/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_75/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_75/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_74/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_74/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_73/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_73/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_83/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_83/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_82/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_82/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_80/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_80/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_79/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_79/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_78/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_77/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_77/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_87/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_87/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_86/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_86/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_84/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_84/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_81/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_81/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_91/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_91/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_90/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_90/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_88/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_88/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_85/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_85/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_95/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_95/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_94/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_94/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_92/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_92/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_89/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_89/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_100/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_100/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_99/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_99/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_98/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_98/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_97/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_97/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_96/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_96/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_93/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_93/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_241/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_241/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_225/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_225/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_139/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_139/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_138/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_138/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_240/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_240/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_239/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_239/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_224/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_224/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_223/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_223/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_143/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_143/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_142/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_142/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_137/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_137/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_136/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_136/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_238/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_238/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_231/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_231/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_141/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_141/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_140/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_140/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_237/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_237/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_236/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_236/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_230/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_230/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_229/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_229/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_147/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_147/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_146/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_146/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_145/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_145/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_144/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_144/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_235/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_235/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_228/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_228/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_151/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_151/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_150/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_150/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_234/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_234/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_233/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_233/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_227/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_227/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_226/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_226/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_155/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_155/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_154/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_154/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_149/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_149/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_148/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_148/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_183/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_183/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_182/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_182/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_181/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_181/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_180/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_180/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_179/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_178/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_178/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_177/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_177/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_176/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_175/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_175/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_172/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_172/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_174/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_174/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_173/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_173/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_171/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_171/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_168/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_168/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_232/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_232/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_222/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_222/m1_100_n1100#" "VLO"
+merge "VLO" "hash_m1m2m3_W2p5L2p5_153/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_153/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_152/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_152/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_170/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_170/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_169/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_169/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_167/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_167/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_166/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_166/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_165/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_165/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_164/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_164/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_163/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_163/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_162/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_162/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_161/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_161/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_160/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_160/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_159/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_159/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_158/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_158/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_157/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_157/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_156/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_156/m1_100_n1100#" "m1_n21500_12200#"
+merge "m1_n21500_12200#" "hash_m1m2m3_W2p5L2p5_57/SUB"
+merge "hash_m1m2m3_W2p5L2p5_57/SUB" "hash_m1m2m3_W2p5L2p5_38/SUB"
+merge "hash_m1m2m3_W2p5L2p5_38/SUB" "hash_m1m2m3_W2p5L2p5_38/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_38/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_104/SUB"
+merge "hash_m1m2m3_W2p5L2p5_104/SUB" "hash_m1m2m3_W2p5L2p5_56/SUB"
+merge "hash_m1m2m3_W2p5L2p5_56/SUB" "hash_m1m2m3_W2p5L2p5_103/SUB"
+merge "hash_m1m2m3_W2p5L2p5_103/SUB" "hash_m1m2m3_W2p5L2p5_101/SUB"
+merge "hash_m1m2m3_W2p5L2p5_101/SUB" "hash_m1m2m3_W2p5L2p5_64/SUB"
+merge "hash_m1m2m3_W2p5L2p5_64/SUB" "hash_m1m2m3_W2p5L2p5_63/SUB"
+merge "hash_m1m2m3_W2p5L2p5_63/SUB" "hash_m1m2m3_W2p5L2p5_102/SUB"
+merge "hash_m1m2m3_W2p5L2p5_102/SUB" "hash_m1m2m3_W2p5L2p5_62/SUB"
+merge "hash_m1m2m3_W2p5L2p5_62/SUB" "hash_m1m2m3_W2p5L2p5_67/SUB"
+merge "hash_m1m2m3_W2p5L2p5_67/SUB" "hash_m1m2m3_W2p5L2p5_43/SUB"
+merge "hash_m1m2m3_W2p5L2p5_43/SUB" "hash_m1m2m3_W2p5L2p5_70/SUB"
+merge "hash_m1m2m3_W2p5L2p5_70/SUB" "hash_m1m2m3_W2p5L2p5_68/SUB"
+merge "hash_m1m2m3_W2p5L2p5_68/SUB" "hash_m1m2m3_W2p5L2p5_46/SUB"
+merge "hash_m1m2m3_W2p5L2p5_46/SUB" "hash_m1m2m3_W2p5L2p5_45/SUB"
+merge "hash_m1m2m3_W2p5L2p5_45/SUB" "hash_m1m2m3_W2p5L2p5_71/SUB"
+merge "hash_m1m2m3_W2p5L2p5_71/SUB" "hash_m1m2m3_W2p5L2p5_69/SUB"
+merge "hash_m1m2m3_W2p5L2p5_69/SUB" "hash_m1m2m3_W2p5L2p5_47/SUB"
+merge "hash_m1m2m3_W2p5L2p5_47/SUB" "hash_m1m2m3_W2p5L2p5_44/SUB"
+merge "hash_m1m2m3_W2p5L2p5_44/SUB" "hash_m1m2m3_W2p5L2p5_72/SUB"
+merge "hash_m1m2m3_W2p5L2p5_72/SUB" "hash_m1m2m3_W2p5L2p5_59/SUB"
+merge "hash_m1m2m3_W2p5L2p5_59/SUB" "hash_m1m2m3_W2p5L2p5_55/SUB"
+merge "hash_m1m2m3_W2p5L2p5_55/SUB" "hash_m1m2m3_W2p5L2p5_50/SUB"
+merge "hash_m1m2m3_W2p5L2p5_50/SUB" "hash_m1m2m3_W2p5L2p5_49/SUB"
+merge "hash_m1m2m3_W2p5L2p5_49/SUB" "hash_m1m2m3_W2p5L2p5_48/SUB"
+merge "hash_m1m2m3_W2p5L2p5_48/SUB" "hash_m1m2m3_W2p5L2p5_61/SUB"
+merge "hash_m1m2m3_W2p5L2p5_61/SUB" "hash_m1m2m3_W2p5L2p5_60/SUB"
+merge "hash_m1m2m3_W2p5L2p5_60/SUB" "hash_m1m2m3_W2p5L2p5_52/SUB"
+merge "hash_m1m2m3_W2p5L2p5_52/SUB" "hash_m1m2m3_W2p5L2p5_51/SUB"
+merge "hash_m1m2m3_W2p5L2p5_51/SUB" "hash_m1m2m3_W2p5L2p5_65/SUB"
+merge "hash_m1m2m3_W2p5L2p5_65/SUB" "hash_m1m2m3_W2p5L2p5_53/SUB"
+merge "hash_m1m2m3_W2p5L2p5_53/SUB" "hash_m1m2m3_W2p5L2p5_66/SUB"
+merge "hash_m1m2m3_W2p5L2p5_66/SUB" "hash_m1m2m3_W2p5L2p5_54/SUB"
+merge "hash_m1m2m3_W2p5L2p5_54/SUB" "hash_m1m2m3_W2p5L2p5_76/SUB"
+merge "hash_m1m2m3_W2p5L2p5_76/SUB" "hash_m1m2m3_W2p5L2p5_75/SUB"
+merge "hash_m1m2m3_W2p5L2p5_75/SUB" "hash_m1m2m3_W2p5L2p5_74/SUB"
+merge "hash_m1m2m3_W2p5L2p5_74/SUB" "hash_m1m2m3_W2p5L2p5_73/SUB"
+merge "hash_m1m2m3_W2p5L2p5_73/SUB" "hash_m1m2m3_W2p5L2p5_83/SUB"
+merge "hash_m1m2m3_W2p5L2p5_83/SUB" "hash_m1m2m3_W2p5L2p5_82/SUB"
+merge "hash_m1m2m3_W2p5L2p5_82/SUB" "hash_m1m2m3_W2p5L2p5_80/SUB"
+merge "hash_m1m2m3_W2p5L2p5_80/SUB" "hash_m1m2m3_W2p5L2p5_79/SUB"
+merge "hash_m1m2m3_W2p5L2p5_79/SUB" "hash_m1m2m3_W2p5L2p5_78/SUB"
+merge "hash_m1m2m3_W2p5L2p5_78/SUB" "hash_m1m2m3_W2p5L2p5_77/SUB"
+merge "hash_m1m2m3_W2p5L2p5_77/SUB" "hash_m1m2m3_W2p5L2p5_87/SUB"
+merge "hash_m1m2m3_W2p5L2p5_87/SUB" "hash_m1m2m3_W2p5L2p5_86/SUB"
+merge "hash_m1m2m3_W2p5L2p5_86/SUB" "hash_m1m2m3_W2p5L2p5_84/SUB"
+merge "hash_m1m2m3_W2p5L2p5_84/SUB" "hash_m1m2m3_W2p5L2p5_81/SUB"
+merge "hash_m1m2m3_W2p5L2p5_81/SUB" "hash_m1m2m3_W2p5L2p5_91/SUB"
+merge "hash_m1m2m3_W2p5L2p5_91/SUB" "hash_m1m2m3_W2p5L2p5_90/SUB"
+merge "hash_m1m2m3_W2p5L2p5_90/SUB" "hash_m1m2m3_W2p5L2p5_88/SUB"
+merge "hash_m1m2m3_W2p5L2p5_88/SUB" "hash_m1m2m3_W2p5L2p5_85/SUB"
+merge "hash_m1m2m3_W2p5L2p5_85/SUB" "hash_m1m2m3_W2p5L2p5_95/SUB"
+merge "hash_m1m2m3_W2p5L2p5_95/SUB" "hash_m1m2m3_W2p5L2p5_94/SUB"
+merge "hash_m1m2m3_W2p5L2p5_94/SUB" "hash_m1m2m3_W2p5L2p5_92/SUB"
+merge "hash_m1m2m3_W2p5L2p5_92/SUB" "hash_m1m2m3_W2p5L2p5_89/SUB"
+merge "hash_m1m2m3_W2p5L2p5_89/SUB" "hash_m1m2m3_W2p5L2p5_100/SUB"
+merge "hash_m1m2m3_W2p5L2p5_100/SUB" "hash_m1m2m3_W2p5L2p5_99/SUB"
+merge "hash_m1m2m3_W2p5L2p5_99/SUB" "hash_m1m2m3_W2p5L2p5_98/SUB"
+merge "hash_m1m2m3_W2p5L2p5_98/SUB" "hash_m1m2m3_W2p5L2p5_97/SUB"
+merge "hash_m1m2m3_W2p5L2p5_97/SUB" "hash_m1m2m3_W2p5L2p5_96/SUB"
+merge "hash_m1m2m3_W2p5L2p5_96/SUB" "hash_m1m2m3_W2p5L2p5_93/SUB"
+merge "hash_m1m2m3_W2p5L2p5_93/SUB" "rfbcsa_1_0/li_2540_1080#"
+merge "rfbcsa_1_0/li_2540_1080#" "hash_m1m2m3_W2p5L2p5_25/SUB"
+merge "hash_m1m2m3_W2p5L2p5_25/SUB" "hash_m1m2m3_W2p5L2p5_25/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_25/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_23/SUB"
+merge "hash_m1m2m3_W2p5L2p5_23/SUB" "hash_m1m2m3_W2p5L2p5_23/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_23/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_14/SUB"
+merge "hash_m1m2m3_W2p5L2p5_14/SUB" "hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_13/SUB"
+merge "hash_m1m2m3_W2p5L2p5_13/SUB" "hash_m1m2m3_W2p5L2p5_13/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_13/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_15/SUB"
+merge "hash_m1m2m3_W2p5L2p5_15/SUB" "hash_m1m2m3_W2p5L2p5_15/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_15/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_12/SUB"
+merge "hash_m1m2m3_W2p5L2p5_12/SUB" "hash_m1m2m3_W2p5L2p5_12/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_12/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_37/SUB"
+merge "hash_m1m2m3_W2p5L2p5_37/SUB" "hash_m1m2m3_W2p5L2p5_37/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_37/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_27/SUB"
+merge "hash_m1m2m3_W2p5L2p5_27/SUB" "hash_m1m2m3_W2p5L2p5_27/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_27/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_26/SUB"
+merge "hash_m1m2m3_W2p5L2p5_26/SUB" "hash_m1m2m3_W2p5L2p5_26/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_26/m1_100_n1100#" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub"
+merge "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/sub" "hash_m1m2m3_W2p5L2p5_11/SUB"
+merge "hash_m1m2m3_W2p5L2p5_11/SUB" "hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#" "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/B"
+merge "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/B" "hash_m1m2m3_W2p5L2p5_6/SUB"
+merge "hash_m1m2m3_W2p5L2p5_6/SUB" "hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_1/SUB"
+merge "hash_m1m2m3_W2p5L2p5_1/SUB" "hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_0/SUB"
+merge "hash_m1m2m3_W2p5L2p5_0/SUB" "hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_4/SUB"
+merge "hash_m1m2m3_W2p5L2p5_4/SUB" "hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_3/SUB"
+merge "hash_m1m2m3_W2p5L2p5_3/SUB" "hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_2/SUB"
+merge "hash_m1m2m3_W2p5L2p5_2/SUB" "hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_5/SUB"
+merge "hash_m1m2m3_W2p5L2p5_5/SUB" "hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_7/SUB"
+merge "hash_m1m2m3_W2p5L2p5_7/SUB" "hash_m1m2m3_W2p5L2p5_7/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_7/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_41/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_41/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_40/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_40/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_39/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_187/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_187/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_188/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_188/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_189/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_189/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_186/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_186/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_185/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_185/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_184/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_184/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_193/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_193/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_194/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_194/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_195/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_195/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_192/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_192/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_191/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_191/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_190/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_190/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_202/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_202/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_203/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_203/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_207/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_207/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_206/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_206/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_42/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_36/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_36/m1_100_n1100#" "m1_n5500_18200#"
+merge "m1_n5500_18200#" "hash_m1m2m3_W2p5L2p5_35/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_35/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_33/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_33/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_32/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_32/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_34/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_34/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_31/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_130/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_130/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_133/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_131/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_131/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_134/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_134/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_132/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_132/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_135/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_135/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_198/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_198/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_199/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_197/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_197/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_200/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_200/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_196/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_196/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_201/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_201/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_204/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_204/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_205/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_209/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_209/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_208/m1_100_n1100#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_345_n423#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_345_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_n423#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n87_n423#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n87_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n411_n423#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n411_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n541_n553#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n541_n553#" "li_n5380_19510#"
+merge "li_n5380_19510#" "hash_m1m2m3_W2p5L2p5_41/SUB"
+merge "hash_m1m2m3_W2p5L2p5_41/SUB" "hash_m1m2m3_W2p5L2p5_40/SUB"
+merge "hash_m1m2m3_W2p5L2p5_40/SUB" "hash_m1m2m3_W2p5L2p5_39/SUB"
+merge "hash_m1m2m3_W2p5L2p5_39/SUB" "hash_m1m2m3_W2p5L2p5_241/SUB"
+merge "hash_m1m2m3_W2p5L2p5_241/SUB" "hash_m1m2m3_W2p5L2p5_225/SUB"
+merge "hash_m1m2m3_W2p5L2p5_225/SUB" "hash_m1m2m3_W2p5L2p5_139/SUB"
+merge "hash_m1m2m3_W2p5L2p5_139/SUB" "hash_m1m2m3_W2p5L2p5_138/SUB"
+merge "hash_m1m2m3_W2p5L2p5_138/SUB" "hash_m1m2m3_W2p5L2p5_240/SUB"
+merge "hash_m1m2m3_W2p5L2p5_240/SUB" "hash_m1m2m3_W2p5L2p5_239/SUB"
+merge "hash_m1m2m3_W2p5L2p5_239/SUB" "hash_m1m2m3_W2p5L2p5_224/SUB"
+merge "hash_m1m2m3_W2p5L2p5_224/SUB" "hash_m1m2m3_W2p5L2p5_223/SUB"
+merge "hash_m1m2m3_W2p5L2p5_223/SUB" "hash_m1m2m3_W2p5L2p5_143/SUB"
+merge "hash_m1m2m3_W2p5L2p5_143/SUB" "hash_m1m2m3_W2p5L2p5_142/SUB"
+merge "hash_m1m2m3_W2p5L2p5_142/SUB" "hash_m1m2m3_W2p5L2p5_137/SUB"
+merge "hash_m1m2m3_W2p5L2p5_137/SUB" "hash_m1m2m3_W2p5L2p5_136/SUB"
+merge "hash_m1m2m3_W2p5L2p5_136/SUB" "rfbcsa_1_0/SUB"
+merge "rfbcsa_1_0/SUB" "hash_m1m2m3_W2p5L2p5_187/SUB"
+merge "hash_m1m2m3_W2p5L2p5_187/SUB" "hash_m1m2m3_W2p5L2p5_188/SUB"
+merge "hash_m1m2m3_W2p5L2p5_188/SUB" "hash_m1m2m3_W2p5L2p5_189/SUB"
+merge "hash_m1m2m3_W2p5L2p5_189/SUB" "hash_m1m2m3_W2p5L2p5_186/SUB"
+merge "hash_m1m2m3_W2p5L2p5_186/SUB" "hash_m1m2m3_W2p5L2p5_185/SUB"
+merge "hash_m1m2m3_W2p5L2p5_185/SUB" "hash_m1m2m3_W2p5L2p5_184/SUB"
+merge "hash_m1m2m3_W2p5L2p5_184/SUB" "hash_m1m2m3_W2p5L2p5_193/SUB"
+merge "hash_m1m2m3_W2p5L2p5_193/SUB" "hash_m1m2m3_W2p5L2p5_194/SUB"
+merge "hash_m1m2m3_W2p5L2p5_194/SUB" "hash_m1m2m3_W2p5L2p5_195/SUB"
+merge "hash_m1m2m3_W2p5L2p5_195/SUB" "hash_m1m2m3_W2p5L2p5_192/SUB"
+merge "hash_m1m2m3_W2p5L2p5_192/SUB" "hash_m1m2m3_W2p5L2p5_191/SUB"
+merge "hash_m1m2m3_W2p5L2p5_191/SUB" "hash_m1m2m3_W2p5L2p5_190/SUB"
+merge "hash_m1m2m3_W2p5L2p5_190/SUB" "hash_m1m2m3_W2p5L2p5_202/SUB"
+merge "hash_m1m2m3_W2p5L2p5_202/SUB" "hash_m1m2m3_W2p5L2p5_203/SUB"
+merge "hash_m1m2m3_W2p5L2p5_203/SUB" "hash_m1m2m3_W2p5L2p5_207/SUB"
+merge "hash_m1m2m3_W2p5L2p5_207/SUB" "hash_m1m2m3_W2p5L2p5_206/SUB"
+merge "hash_m1m2m3_W2p5L2p5_206/SUB" "hash_m1m2m3_W2p5L2p5_42/SUB"
+merge "hash_m1m2m3_W2p5L2p5_42/SUB" "hash_m1m2m3_W2p5L2p5_238/SUB"
+merge "hash_m1m2m3_W2p5L2p5_238/SUB" "hash_m1m2m3_W2p5L2p5_231/SUB"
+merge "hash_m1m2m3_W2p5L2p5_231/SUB" "hash_m1m2m3_W2p5L2p5_141/SUB"
+merge "hash_m1m2m3_W2p5L2p5_141/SUB" "hash_m1m2m3_W2p5L2p5_140/SUB"
+merge "hash_m1m2m3_W2p5L2p5_140/SUB" "hash_m1m2m3_W2p5L2p5_237/SUB"
+merge "hash_m1m2m3_W2p5L2p5_237/SUB" "hash_m1m2m3_W2p5L2p5_236/SUB"
+merge "hash_m1m2m3_W2p5L2p5_236/SUB" "hash_m1m2m3_W2p5L2p5_230/SUB"
+merge "hash_m1m2m3_W2p5L2p5_230/SUB" "hash_m1m2m3_W2p5L2p5_229/SUB"
+merge "hash_m1m2m3_W2p5L2p5_229/SUB" "hash_m1m2m3_W2p5L2p5_147/SUB"
+merge "hash_m1m2m3_W2p5L2p5_147/SUB" "hash_m1m2m3_W2p5L2p5_146/SUB"
+merge "hash_m1m2m3_W2p5L2p5_146/SUB" "hash_m1m2m3_W2p5L2p5_145/SUB"
+merge "hash_m1m2m3_W2p5L2p5_145/SUB" "hash_m1m2m3_W2p5L2p5_144/SUB"
+merge "hash_m1m2m3_W2p5L2p5_144/SUB" "hash_m1m2m3_W2p5L2p5_36/SUB"
+merge "hash_m1m2m3_W2p5L2p5_36/SUB" "hash_m1m2m3_W2p5L2p5_35/SUB"
+merge "hash_m1m2m3_W2p5L2p5_35/SUB" "hash_m1m2m3_W2p5L2p5_33/SUB"
+merge "hash_m1m2m3_W2p5L2p5_33/SUB" "hash_m1m2m3_W2p5L2p5_32/SUB"
+merge "hash_m1m2m3_W2p5L2p5_32/SUB" "hash_m1m2m3_W2p5L2p5_34/SUB"
+merge "hash_m1m2m3_W2p5L2p5_34/SUB" "hash_m1m2m3_W2p5L2p5_31/SUB"
+merge "hash_m1m2m3_W2p5L2p5_31/SUB" "hash_m1m2m3_W2p5L2p5_130/SUB"
+merge "hash_m1m2m3_W2p5L2p5_130/SUB" "hash_m1m2m3_W2p5L2p5_133/SUB"
+merge "hash_m1m2m3_W2p5L2p5_133/SUB" "hash_m1m2m3_W2p5L2p5_131/SUB"
+merge "hash_m1m2m3_W2p5L2p5_131/SUB" "hash_m1m2m3_W2p5L2p5_134/SUB"
+merge "hash_m1m2m3_W2p5L2p5_134/SUB" "hash_m1m2m3_W2p5L2p5_132/SUB"
+merge "hash_m1m2m3_W2p5L2p5_132/SUB" "hash_m1m2m3_W2p5L2p5_135/SUB"
+merge "hash_m1m2m3_W2p5L2p5_135/SUB" "hash_m1m2m3_W2p5L2p5_198/SUB"
+merge "hash_m1m2m3_W2p5L2p5_198/SUB" "hash_m1m2m3_W2p5L2p5_199/SUB"
+merge "hash_m1m2m3_W2p5L2p5_199/SUB" "hash_m1m2m3_W2p5L2p5_197/SUB"
+merge "hash_m1m2m3_W2p5L2p5_197/SUB" "hash_m1m2m3_W2p5L2p5_200/SUB"
+merge "hash_m1m2m3_W2p5L2p5_200/SUB" "hash_m1m2m3_W2p5L2p5_196/SUB"
+merge "hash_m1m2m3_W2p5L2p5_196/SUB" "hash_m1m2m3_W2p5L2p5_201/SUB"
+merge "hash_m1m2m3_W2p5L2p5_201/SUB" "hash_m1m2m3_W2p5L2p5_204/SUB"
+merge "hash_m1m2m3_W2p5L2p5_204/SUB" "hash_m1m2m3_W2p5L2p5_205/SUB"
+merge "hash_m1m2m3_W2p5L2p5_205/SUB" "hash_m1m2m3_W2p5L2p5_209/SUB"
+merge "hash_m1m2m3_W2p5L2p5_209/SUB" "hash_m1m2m3_W2p5L2p5_208/SUB"
+merge "hash_m1m2m3_W2p5L2p5_208/SUB" "pmirror_pfet_64x_complete_0/SUB"
+merge "pmirror_pfet_64x_complete_0/SUB" "hash_m1m2m3_W2p5L2p5_235/SUB"
+merge "hash_m1m2m3_W2p5L2p5_235/SUB" "hash_m1m2m3_W2p5L2p5_228/SUB"
+merge "hash_m1m2m3_W2p5L2p5_228/SUB" "hash_m1m2m3_W2p5L2p5_151/SUB"
+merge "hash_m1m2m3_W2p5L2p5_151/SUB" "hash_m1m2m3_W2p5L2p5_150/SUB"
+merge "hash_m1m2m3_W2p5L2p5_150/SUB" "hash_m1m2m3_W2p5L2p5_234/SUB"
+merge "hash_m1m2m3_W2p5L2p5_234/SUB" "hash_m1m2m3_W2p5L2p5_233/SUB"
+merge "hash_m1m2m3_W2p5L2p5_233/SUB" "hash_m1m2m3_W2p5L2p5_227/SUB"
+merge "hash_m1m2m3_W2p5L2p5_227/SUB" "hash_m1m2m3_W2p5L2p5_226/SUB"
+merge "hash_m1m2m3_W2p5L2p5_226/SUB" "hash_m1m2m3_W2p5L2p5_155/SUB"
+merge "hash_m1m2m3_W2p5L2p5_155/SUB" "hash_m1m2m3_W2p5L2p5_154/SUB"
+merge "hash_m1m2m3_W2p5L2p5_154/SUB" "hash_m1m2m3_W2p5L2p5_149/SUB"
+merge "hash_m1m2m3_W2p5L2p5_149/SUB" "hash_m1m2m3_W2p5L2p5_148/SUB"
+merge "hash_m1m2m3_W2p5L2p5_148/SUB" "hash_m1m2m3_W2p5L2p5_183/SUB"
+merge "hash_m1m2m3_W2p5L2p5_183/SUB" "hash_m1m2m3_W2p5L2p5_182/SUB"
+merge "hash_m1m2m3_W2p5L2p5_182/SUB" "hash_m1m2m3_W2p5L2p5_181/SUB"
+merge "hash_m1m2m3_W2p5L2p5_181/SUB" "hash_m1m2m3_W2p5L2p5_180/SUB"
+merge "hash_m1m2m3_W2p5L2p5_180/SUB" "hash_m1m2m3_W2p5L2p5_179/SUB"
+merge "hash_m1m2m3_W2p5L2p5_179/SUB" "hash_m1m2m3_W2p5L2p5_178/SUB"
+merge "hash_m1m2m3_W2p5L2p5_178/SUB" "hash_m1m2m3_W2p5L2p5_177/SUB"
+merge "hash_m1m2m3_W2p5L2p5_177/SUB" "hash_m1m2m3_W2p5L2p5_176/SUB"
+merge "hash_m1m2m3_W2p5L2p5_176/SUB" "hash_m1m2m3_W2p5L2p5_175/SUB"
+merge "hash_m1m2m3_W2p5L2p5_175/SUB" "hash_m1m2m3_W2p5L2p5_172/SUB"
+merge "hash_m1m2m3_W2p5L2p5_172/SUB" "hash_m1m2m3_W2p5L2p5_174/SUB"
+merge "hash_m1m2m3_W2p5L2p5_174/SUB" "hash_m1m2m3_W2p5L2p5_173/SUB"
+merge "hash_m1m2m3_W2p5L2p5_173/SUB" "hash_m1m2m3_W2p5L2p5_171/SUB"
+merge "hash_m1m2m3_W2p5L2p5_171/SUB" "hash_m1m2m3_W2p5L2p5_168/SUB"
+merge "hash_m1m2m3_W2p5L2p5_168/SUB" "hash_m1m2m3_W2p5L2p5_232/SUB"
+merge "hash_m1m2m3_W2p5L2p5_232/SUB" "hash_m1m2m3_W2p5L2p5_222/SUB"
+merge "hash_m1m2m3_W2p5L2p5_222/SUB" "hash_m1m2m3_W2p5L2p5_153/SUB"
+merge "hash_m1m2m3_W2p5L2p5_153/SUB" "hash_m1m2m3_W2p5L2p5_152/SUB"
+merge "hash_m1m2m3_W2p5L2p5_152/SUB" "hash_m1m2m3_W2p5L2p5_170/SUB"
+merge "hash_m1m2m3_W2p5L2p5_170/SUB" "hash_m1m2m3_W2p5L2p5_169/SUB"
+merge "hash_m1m2m3_W2p5L2p5_169/SUB" "hash_m1m2m3_W2p5L2p5_167/SUB"
+merge "hash_m1m2m3_W2p5L2p5_167/SUB" "hash_m1m2m3_W2p5L2p5_166/SUB"
+merge "hash_m1m2m3_W2p5L2p5_166/SUB" "hash_m1m2m3_W2p5L2p5_165/SUB"
+merge "hash_m1m2m3_W2p5L2p5_165/SUB" "hash_m1m2m3_W2p5L2p5_164/SUB"
+merge "hash_m1m2m3_W2p5L2p5_164/SUB" "hash_m1m2m3_W2p5L2p5_163/SUB"
+merge "hash_m1m2m3_W2p5L2p5_163/SUB" "hash_m1m2m3_W2p5L2p5_162/SUB"
+merge "hash_m1m2m3_W2p5L2p5_162/SUB" "hash_m1m2m3_W2p5L2p5_161/SUB"
+merge "hash_m1m2m3_W2p5L2p5_161/SUB" "hash_m1m2m3_W2p5L2p5_160/SUB"
+merge "hash_m1m2m3_W2p5L2p5_160/SUB" "hash_m1m2m3_W2p5L2p5_159/SUB"
+merge "hash_m1m2m3_W2p5L2p5_159/SUB" "hash_m1m2m3_W2p5L2p5_158/SUB"
+merge "hash_m1m2m3_W2p5L2p5_158/SUB" "hash_m1m2m3_W2p5L2p5_157/SUB"
+merge "hash_m1m2m3_W2p5L2p5_157/SUB" "hash_m1m2m3_W2p5L2p5_156/SUB"
+merge "hash_m1m2m3_W2p5L2p5_156/SUB" "octal_ind_0p700n_5GHz_0/SUB"
+merge "octal_ind_0p700n_5GHz_0/SUB" "SUB"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" -38.4958 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5888 -440 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_n423#" "m1_n5129_19663#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n87_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" -38.5402 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5888 -440 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n195_350#" "m1_n5021_20437#"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_350#" "IN" -120.478 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2944 -220 0 0 0 0 0 0 0 0 0 0
+merge "pmirror_pfet_64x_complete_0/IOUT" "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" -14782 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60400 -3100 0 0 -1800000 -2800 -7826439 -54695 0 0
+merge "octal_ind_0p700n_5GHz_0/m4_n31600_n24000#" "m2_n9500_17950#"
+merge "pmirror_pfet_64x_complete_0/pmirror_pfet_64x_flat_0/VHI" "pmirror_pfet_64x_complete_0/VHI" -4702.43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1440000 -10200 -1320000 -5000 -22035000 -14350 0 0 0 0
+merge "pmirror_pfet_64x_complete_0/VHI" "VHI"
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_350#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" -38.3807 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5888 -440 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_21_350#" "m1_n4805_20437#"
+merge "pmirror_pfet_64x_complete_0/IREF" "IREF" -1264.66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11700 -440 0 0 0 0 0 0
+merge "rfbcsa_1_0/RF_nfet_6xaM02W5p0L0p15_0/nfet_3x_2_1/S" "rfbcsa_1_0/NDRAIN" -3390.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16943700 -16340 0 0 0 0
+merge "rfbcsa_1_0/NDRAIN" "D"
+merge "D" "m4_1100_15800#"
+merge "pmirror_pfet_64x_complete_0/G32" "G32" -187.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5500 -320 0 0 0 0 0 0
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_n303_350#" "IN_DUMMY" -191.426 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2944 -220 0 0 0 0 0 0 0 0 0 0
+merge "pmirror_pfet_64x_complete_0/G2" "G2" -89.9974 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6000 -340 0 0 0 0 0 0
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_237_n423#" "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" -1641.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5888 -440 0 0 0 0 -1850000 -4700 0 0 0 0
+merge "sky130_fd_pr__res_generic_po_3TQ83P_0/a_129_n423#" "m1_n4700_19630#"
+merge "pmirror_pfet_64x_complete_0/G4" "G4" -117.168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6000 -340 0 0 0 0 0 0
+merge "pmirror_pfet_64x_complete_0/G16" "G16" -118.297 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6000 -340 0 0 0 0 0 0
+merge "pmirror_pfet_64x_complete_0/G8" "G8" -131.065 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6000 -340 0 0 0 0 0 0
+merge "rfbcsa_1_0/NGATE" "m3_n4900_18350#" -2399.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -91000 -1220 0 0 0 0 0 0

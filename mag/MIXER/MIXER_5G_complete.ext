@@ -1,0 +1,580 @@
+timestamp 1666835237
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_0 0 1 54420 1 0 -15300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_1 0 1 50420 1 0 -21300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_18 0 1 54420 1 0 -17300
+use MIXER_5G_core MIXER_5G_core_0 1 0 19360 0 1 4500
+use mixer_biasgen mixer_biasgen_0 1 0 36020 0 -1 6080
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_17 0 1 38420 1 0 -1300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_16 0 1 40420 1 0 -1300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_15 0 1 42420 1 0 -1300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_14 0 1 44420 1 0 -1300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_13 0 1 46420 1 0 -1300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_12 0 1 48420 1 0 -1300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_11 0 1 50420 1 0 -1300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_10 0 1 52420 1 0 -1300
+use hash_m1m2m3m4_W10L10_flat hash_m1m2m3m4_W10L10_flat_4 0 1 52420 1 0 -3300
+use octa_ind_700p_thinner octa_ind_700p_thinner_1 -1 0 14420 0 -1 22700
+node "m5_20200_8300#" 0 2757.91 20200 8300 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7840000 22000 0 0
+node "m4_22200_n1500#" 0 2449.9 22200 -1500 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4480000 9200 0 0 0 0
+node "m4_21980_8100#" 0 2186.27 21980 8100 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4547200 10160 0 0 0 0
+node "m4_6720_22700#" 0 31176.9 6720 22700 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 89624000 83760 0 0 0 0
+node "m3_14200_n1100#" 0 10421.1 14200 -1100 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10640000 19600 13440000 16000 0 0 0 0
+node "m3_28600_2200#" 0 2702.89 28600 2200 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5280000 15200 0 0 0 0 0 0
+node "m3_26540_3500#" 1 1821.42 26540 3500 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1526800 8680 503200 3640 0 0 0 0
+node "m3_26540_4120#" 1 1337.5 26540 4120 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1450800 8280 503200 3640 0 0 0 0
+node "m3_28600_5000#" 0 3241.42 28600 5000 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6720000 18400 0 0 0 0 0 0
+node "m3_17120_6700#" 0 2975.59 17120 6700 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3640000 10560 0 0 0 0 0 0
+node "m2_34820_5400#" 1 107787 34820 5400 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 320000 2760 250000 2000 48089900 74838 310866678 314933 0 0
+node "m2_34020_5200#" 3 1789.94 34020 5200 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330000 5000 160000 1600 2568000 13640 0 0 0 0
+node "m2_34120_5900#" 2 2364.46 34120 5900 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 278000 3960 1960000 10120 816000 3640 0 0 0 0
+node "m2_34320_6600#" 3 1423.64 34320 6600 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 310000 4600 160000 1600 3008000 15840 0 0 0 0
+node "m2_34320_7200#" 3 16931.4 34320 7200 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 339000 5180 160000 1600 20420000 29200 29970000 28800 0 0
+node "m2_30000_n1400#" 1 33901.6 30000 -1400 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24960000 67200 22860000 35400 15408000 22440 31270000 51640 0 0
+node "m1_n1800_n10300#" 2 579.294 -1800 -10300 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161600 3200 0 0 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m4_21980_8100#" "m4_6720_22700#" 1435.4
+cap "m3_28600_5000#" "m2_30000_n1400#" 7836.8
+cap "m3_26540_3500#" "m2_34320_6600#" 104.107
+cap "m3_28600_5000#" "m2_34020_5200#" 1773.4
+cap "m4_6720_22700#" "m2_30000_n1400#" 5703.16
+cap "m3_28600_5000#" "m2_34820_5400#" 314.378
+cap "m3_28600_5000#" "m2_34320_6600#" 1924.77
+cap "m4_6720_22700#" "m2_34320_7200#" 107.447
+cap "m2_34020_5200#" "m2_30000_n1400#" 866.323
+cap "m3_28600_2200#" "m3_26540_3500#" 200.447
+cap "m2_34320_7200#" "m2_30000_n1400#" 3487.8
+cap "m2_34820_5400#" "m2_30000_n1400#" 2612.94
+cap "m4_6720_22700#" "m2_34320_6600#" 9.07692
+cap "m2_34320_7200#" "m2_34020_5200#" 0.637207
+cap "m2_30000_n1400#" "m2_34320_6600#" 1682.01
+cap "m2_34820_5400#" "m2_34020_5200#" 1375.06
+cap "m3_26540_4120#" "m3_26540_3500#" 1371.45
+cap "m2_34320_7200#" "m2_34820_5400#" 50.9079
+cap "m2_34020_5200#" "m2_34320_6600#" 1442.38
+cap "m3_28600_2200#" "m3_28600_5000#" 533.9
+cap "m2_34320_7200#" "m2_34320_6600#" 1722.64
+cap "m2_34820_5400#" "m2_34320_6600#" 77.4764
+cap "m3_26540_4120#" "m3_28600_5000#" 256.412
+cap "m3_28600_2200#" "m2_30000_n1400#" 7527.23
+cap "m3_26540_4120#" "m4_6720_22700#" 12.0234
+cap "m4_21980_8100#" "m5_20200_8300#" 6553.37
+cap "m3_28600_2200#" "m2_34020_5200#" 125.21
+cap "m4_6720_22700#" "m5_20200_8300#" 4454.66
+cap "m3_28600_2200#" "m2_34820_5400#" 314.378
+cap "m3_26540_4120#" "m2_30000_n1400#" 179.615
+cap "m3_28600_2200#" "m2_34320_6600#" 10.7541
+cap "m3_26540_4120#" "m2_34020_5200#" 70.3886
+cap "m2_34120_5900#" "m2_30000_n1400#" 1139.06
+cap "m3_26540_4120#" "m2_34320_6600#" 663.349
+cap "m2_34120_5900#" "m2_34020_5200#" 1795.83
+cap "m2_34120_5900#" "m2_34320_7200#" 1612.21
+cap "m4_22200_n1500#" "m2_30000_n1400#" 6541.78
+cap "m2_34120_5900#" "m2_34820_5400#" 64.5625
+cap "m3_17120_6700#" "m5_20200_8300#" 169.228
+cap "m2_34120_5900#" "m2_34320_6600#" 2346.62
+cap "m3_26540_3500#" "m3_28600_5000#" 37.199
+cap "m3_14200_n1100#" "m2_30000_n1400#" 227.42
+cap "m3_26540_3500#" "m2_30000_n1400#" 490.488
+cap "m3_26540_3500#" "m2_34020_5200#" 675.001
+cap "m3_14200_n1100#" "m2_34820_5400#" 3502.43
+cap "m4_6720_22700#" "m3_28600_5000#" 486.53
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 7.71746
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 12.3358
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 0.745888
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 25.4127
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" "MIXER_5G_core_0/S2" 121.475
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 12.7063
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" "MIXER_5G_core_0/RF2" 92.6595
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 18.8709
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 10.8923
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 80.8882
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 93.1881
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 25.407
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 12.7044
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 47.7831
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 14.5203
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 101.349
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" 18.3218
+cap "hash_m1m2m3m4_W10L10_flat_17/m1_0_n1700#" "m2_34820_5400#" 23.796
+cap "hash_m1m2m3m4_W10L10_flat_17/m1_0_n1700#" "m2_34820_5400#" 15.8907
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 679.57
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "m3_14200_n1100#" 72.9474
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" -6.30421
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "MIXER_5G_core_0/RF2" 625.015
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" -0.887579
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 512.533
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 8.96517
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" -12.0357
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 3.31292
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 277.73
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/RF2" 4.5714
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" -6.2215
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 64.557
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/S2" 1.66697
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/S2" 172.78
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "MIXER_5G_core_0/S2" 150.413
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 1.8886
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 23.1862
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" -7.98273
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 229.167
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 28.8311
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "MIXER_5G_core_0/S2" 78.5026
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 182.298
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" -2.94693
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 0.572287
+cap "hash_m1m2m3m4_W10L10_flat_17/m1_0_n1700#" "m2_34820_5400#" 13.7676
+cap "m2_34820_5400#" "hash_m1m2m3m4_W10L10_flat_17/m1_0_n1700#" 15.0387
+cap "m3_14200_n1100#" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 12.304
+cap "m3_14200_n1100#" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 41.0419
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 266.93
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 14.8721
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 371.476
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" -3.28328
+cap "MIXER_5G_core_0/IF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" -0.0498918
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 1.03373
+cap "MIXER_5G_core_0/IF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 0.284815
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" -0.162588
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/G" 44.1318
+cap "MIXER_5G_core_0/IF2" "MIXER_5G_core_0/RF2" 0.824384
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" -0.0242836
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "MIXER_5G_core_0/RF2" -1.77636e-15
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "MIXER_5G_core_0/RF2" 199.807
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/G" -1.93161
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "MIXER_5G_core_0/RF2" 9.44911
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD2" "MIXER_5G_core_0/RF2" 0.412192
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" -7.49304
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "MIXER_5G_core_0/RF2" 33.8728
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/S2" 0.121242
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/RF2" -2.27374e-13
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/S2" 2.0799
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 1.66169
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 0.15626
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" 1.03307
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/G" 0.0152102
+cap "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" 0.0797434
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.00244788
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 0.0805798
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/DR" 0.633949
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/DR" 1.02902
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" -0.0300837
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 4.72871
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "MIXER_5G_core_0/DR" 61.1581
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/LO2" 4.46238
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/DR" 0.180066
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/DR" 174.026
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 132.318
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 0.029808
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/DR" 93.0032
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/DR" 551.36
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/LO2" 14.5207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/IF1" 12.6156
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/IF2" 52.0881
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" 97.2534
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 33.5457
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "MIXER_5G_core_0/IF2" 2.28752
+cap "MIXER_5G_core_0/RF2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 3.23364
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" 1.03776
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/G2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" 1.09751
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.0144503
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.00755353
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.141233
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.0511076
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.0140976
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.117383
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.00622869
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.830207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 141.191
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/DR" 0.632285
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.830207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 15.7606
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" -178.534
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.830207
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" -0.0501396
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/DR" 11.9421
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.830207
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 0.153916
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/LO1" -3.02758
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 5.93873
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 70.3746
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.830207
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 39.9161
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 137.656
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.830207
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" -17.1546
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 13.5833
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/LO1" -0.557882
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 4.07958
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 196.482
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/DR" 254.024
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 21.3095
+cap "MIXER_5G_core_0/LO2" "m2_30000_n1400#" 0.453592
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 2.14115
+cap "m2_34020_5200#" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 10.2378
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 280.747
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.830207
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 452.62
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" -72.5607
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 0.860363
+cap "MIXER_5G_core_0/LO1" "m2_34020_5200#" 1.77636e-15
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 350.269
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "m2_34020_5200#" -50.5037
+cap "MIXER_5G_core_0/DR" "m2_30000_n1400#" 66.4687
+cap "MIXER_5G_core_0/LO2" "m2_30000_n1400#" 0.28852
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "m2_34020_5200#" 3.03474
+cap "MIXER_5G_core_0/DR" "m2_34020_5200#" 44.686
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/DR" 418.843
+cap "MIXER_5G_core_0/LO2" "m2_34020_5200#" 1.42109e-14
+cap "MIXER_5G_core_0/DL" "MIXER_5G_core_0/IF1" 2.77899
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.0315942
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 0.00508732
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.265484
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.0167533
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 0.0520802
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.00202214
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.0195055
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.830207
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 0.0908548
+cap "MIXER_5G_core_0/LO2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" -3.02758
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/LO1" 39.9161
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.830207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/LO1" 0.393772
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 70.3035
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.830207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 18.9758
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" 143.717
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" -0.0300837
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 5.93873
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" -178.534
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.830207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 11.9571
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.830207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.830207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 4.07958
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 165.391
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" -10.2899
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 432.722
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 21.3095
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "MIXER_5G_core_0/LO1" 120.756
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" 15.9054
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" -72.5607
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 272.939
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 136.073
+cap "MIXER_5G_core_0/LO1" "m2_30000_n1400#" 0.453592
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 0.830207
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/LO2" -0.557882
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 2.14115
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "m2_34320_6600#" 29.5274
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "m2_34320_6600#" -5.26923
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "m2_30000_n1400#" 59.6267
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 1.87761
+cap "MIXER_5G_core_0/LO1" "m2_34320_6600#" -2.84217e-14
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 302.628
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "m2_34320_6600#" 86.627
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "m2_34320_6600#" -74.368
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" 293.294
+cap "MIXER_5G_core_0/LO1" "m2_30000_n1400#" 0.28852
+cap "m2_34320_6600#" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 5.90981
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "m2_34020_5200#" 7.62931
+cap "MIXER_5G_core_0/LO2" "m2_34320_6600#" 8.88178e-16
+cap "mixer_biasgen_0/B" "mixer_biasgen_0/VHI" 10.4784
+cap "mixer_biasgen_0/B" "mixer_biasgen_0/A" -0.331479
+cap "mixer_biasgen_0/A" "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4157_n464#" 14.5529
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/A" 0.0496146
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/A" 337.271
+cap "mixer_biasgen_0/A" "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4357_n561#" 22.8226
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/B" 5.76306
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/A" 0.00349745
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4157_n464#" "mixer_biasgen_0/A" 3.58911
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/A" 8.87309
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4357_n561#" "mixer_biasgen_0/A" 0.0156388
+cap "MIXER_5G_core_0/DL" "m3_17120_6700#" 164.168
+cap "MIXER_5G_core_0/DL" "MIXER_5G_core_0/VL" -14.0367
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "MIXER_5G_core_0/RF1" 44.1318
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/VL" 14.69
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "MIXER_5G_core_0/VL" -3.28328
+cap "MIXER_5G_core_0/IF1" "MIXER_5G_core_0/RF1" 0.824384
+cap "MIXER_5G_core_0/DL" "MIXER_5G_core_0/RF1" 371.476
+cap "MIXER_5G_core_0/IF1" "MIXER_5G_core_0/VL" -0.0498918
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "MIXER_5G_core_0/RF1" 199.807
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "MIXER_5G_core_0/VL" -1.93161
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/G" "MIXER_5G_core_0/RF1" 33.8728
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "MIXER_5G_core_0/VL" -0.0242836
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "MIXER_5G_core_0/VL" -7.49304
+cap "MIXER_5G_core_0/VL" "MIXER_5G_core_0/RF1" 8.84295
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/SD2" "MIXER_5G_core_0/RF1" 0.412192
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 0.00247492
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/G" 0.0184535
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 1.01398
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" 4.79974
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" 0.881077
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" -0.0501396
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/LO1" 0.143641
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB" 177.148
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/LO1" 107.873
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/LO1" 6.04502
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB" 135.969
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" -2.73611
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "MIXER_5G_core_0/LO1" 378.36
+cap "MIXER_5G_core_0/LO1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 0.178491
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 26.6301
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" -1.55604
+cap "mixer_biasgen_0/C" "mixer_biasgen_0/R" 0.811428
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/R" 0.32935
+cap "mixer_biasgen_0/B" "mixer_biasgen_0/R" 4.45303
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/B" 18.3335
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/R" 12.241
+cap "mixer_biasgen_0/A" "mixer_biasgen_0/R" 3.29909
+cap "mixer_biasgen_0/B" "mixer_biasgen_0/A" -0.331479
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/C" -19.55
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/C" -405.337
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/B" 35.2439
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4357_n561#" "mixer_biasgen_0/A" 51.1651
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4157_n464#" "mixer_biasgen_0/A" 20.2053
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/VHI" 93.4271
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/D" 24.0679
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/B" -449.65
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/D" -14.1062
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/A" 452.831
+cap "mixer_biasgen_0/B" "mixer_biasgen_0/A" -2.27374e-13
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/C" 85.8207
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/A" -5.89932
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4357_n561#" "mixer_biasgen_0/B" 0.0139823
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/A" 25.0576
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/C" 9.97102
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/B" 0.223472
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4357_n561#" "mixer_biasgen_0/A" 0.62783
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4157_n464#" "mixer_biasgen_0/A" 13.3492
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/VHI" -1.13687e-13
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/B" 0.964955
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4157_n464#" "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4357_n561#" -0.807969
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/D" 10.328
+cap "mixer_biasgen_0/VHI" "mixer_biasgen_0/A" 12.367
+cap "mixer_biasgen_0/R" "mixer_biasgen_0/A" 0.964955
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4357_n561#" "mixer_biasgen_0/B" 0.00469592
+cap "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_0/a_n4157_n464#" "mixer_biasgen_0/VHI" -4.97529
+cap "m3_17120_6700#" "MIXER_5G_core_0/DL" 107.658
+cap "MIXER_5G_core_0/VL" "m3_17120_6700#" 254.08
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 6.58789
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/DL" 226.558
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 6.58789
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/S" 6.58789
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/S" 6.58789
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/G1" 33.5676
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/VL" 757.62
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/VL" 623.937
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 8.96517
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 5.83454
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/VL" -1.07129
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 112.421
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" 5.83454
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_0/RF_nfet_12xW5p0L0p15_fingered_1/G1" 22.8941
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD2" "MIXER_5G_core_0/VL" -0.887515
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "MIXER_5G_core_0/RF1" 4.57123
+cap "MIXER_5G_core_0/RF1" "MIXER_5G_core_0/S1" 174.954
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF1" 66.8201
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "MIXER_5G_core_0/S1" 1.78724
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -6.20582
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/S1" 179.133
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "MIXER_5G_core_0/S1" 152.075
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -7.98273
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 23.1862
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/S1" 181.992
+cap "MIXER_5G_core_0/S1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 2.04486
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" -2.94693
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 28.8311
+cap "MIXER_5G_core_0/S1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 0.65203
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/S1" 93.4358
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "MIXER_5G_core_0/S1" 79.5357
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB" 270.792
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB" "MIXER_5G_core_0/LO1" -0.372674
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/LO1" -1.19411
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 16.7491
+cap "mixer_biasgen_0/w_n200_n700#" "mixer_biasgen_0/R" 10.6378
+cap "mixer_biasgen_0/C" "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4357_n561#" 0.37989
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/R" 1.77306
+cap "mixer_biasgen_0/w_n200_n700#" "mixer_biasgen_0/R" 9.82351
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/w_n200_n700#" 281.146
+cap "mixer_biasgen_0/C" "mixer_biasgen_0/R" 0.0127396
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/C" -5.68434e-14
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4357_n561#" 4.47863
+cap "mixer_biasgen_0/C" "mixer_biasgen_0/w_n200_n700#" 119.113
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/R" 1.75091
+cap "mixer_biasgen_0/C" "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4357_n561#" 0.0212219
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/w_n200_n700#" 1.63035
+cap "mixer_biasgen_0/C" "mixer_biasgen_0/R" 0.266428
+cap "mixer_biasgen_0/D" "mixer_biasgen_0/sky130_fd_pr__pfet_01v8_VM83GD_1/a_n4357_n561#" 0.0363225
+cap "mixer_biasgen_0/C" "mixer_biasgen_0/w_n200_n700#" 1.13634
+cap "MIXER_5G_core_0/VL" "m4_6720_22700#" 0.318262
+cap "MIXER_5G_core_0/VL" "MIXER_5G_core_0/RF1" -46.0507
+cap "MIXER_5G_core_0/VL" "m4_6720_22700#" 7.95656
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "m4_6720_22700#" 0.00657166
+cap "MIXER_5G_core_0/VL" "m4_6720_22700#" 1.70532
+cap "MIXER_5G_core_0/VL" "MIXER_5G_core_0/RF1" -31.2137
+cap "MIXER_5G_core_0/VL" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 22.2731
+cap "MIXER_5G_core_0/VL" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD2" 0.74564
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 56.9804
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF1" 91.7118
+cap "MIXER_5G_core_0/S1" "m4_6720_22700#" 0.920032
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/S1" 196.497
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 80.8882
+cap "MIXER_5G_core_0/S1" "m4_6720_22700#" 0.565163
+cap "MIXER_5G_core_0/S1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 140.363
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" 49.0037
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/S1" 156.504
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/G" 47.9518
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SD2" 32.8422
+cap "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "m4_6720_22700#" 0.730852
+cap "m4_6720_22700#" "MIXER_5G_core_0/S1" 0.558591
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" 1.82713
+cap "MIXER_5G_core_0/DR" "MIXER_5G_core_0/VL" 40.015
+cap "m4_6720_22700#" "MIXER_5G_core_0/VL" 0.180536
+cap "MIXER_5G_core_0/VL" "m4_6720_22700#" 6.31875
+cap "m4_6720_22700#" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD1" 0.0107663
+cap "m4_6720_22700#" "MIXER_5G_core_0/VL" 4.2921
+cap "MIXER_5G_core_0/S1" "m4_6720_22700#" 1.50728
+cap "MIXER_5G_core_0/S1" "m4_6720_22700#" 0.182373
+cap "m4_6720_22700#" "MIXER_5G_core_0/VL" 1.07303
+cap "MIXER_5G_core_0/S1" "m4_6720_22700#" 0.915135
+cap "m4_6720_22700#" "MIXER_5G_core_0/VL" 6.31875
+cap "MIXER_5G_core_0/VL" "m4_6720_22700#" 3.61071
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 181.752
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 1536.36
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 1536.36
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 225.648
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 520.184
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 3348.17
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 3348.17
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 615.846
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 241.343
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 92.719
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 1757.05
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 800.433
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 800.433
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 1757.05
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 291.545
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 115.589
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 520.184
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 3348.17
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 3348.17
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 615.846
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 315.655
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 2235.36
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 2235.36
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 379.523
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 3.39232
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 5.37366
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 169.801
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 169.801
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 169.801
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 169.801
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 169.801
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 639.098
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 3449.6
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 3449.6
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 577.56
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 96.3204
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 96.3204
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 96.3204
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 96.3204
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 96.3204
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 90.8164
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 5.77714
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 6.31875
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 6.31875
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 6.31875
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 6.31875
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 6.31875
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 6.31875
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 6.31875
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 6.31875
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 6.31875
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 0.541607
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 10.1844
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 11.1392
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 11.1392
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 11.1392
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 11.1392
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 11.1392
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 11.1392
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 11.1392
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 11.1392
+cap "octa_ind_700p_thinner_1/m4_7500_n1381#" "m4_6720_22700#" 11.1392
+cap "m4_6720_22700#" "octa_ind_700p_thinner_1/m4_7500_n1381#" 0.954787
+merge "octa_ind_700p_thinner_1/m4_7500_n1381#" "mixer_biasgen_0/D" -29607.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -66219280 -85206 0 -8071 0 0
+merge "mixer_biasgen_0/D" "m2_34320_7200#"
+merge "m2_34320_7200#" "MIXER_5G_core_0/DR"
+merge "MIXER_5G_core_0/DR" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD1" "m4_6720_22700#"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_1/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" -496.473 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32000 -1680 0 0 0 0 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/G" "MIXER_5G_core_0/RF1"
+merge "MIXER_5G_core_0/RF1" "m3_17120_6700#"
+merge "MIXER_5G_core_0/LO2" "m3_28600_2200#" -1476.27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2073600 -9984 0 0 0 0 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/G" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/G2" -3158.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2833600 -10521 -641600 -3601 0 0 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/G2" "MIXER_5G_core_0/RF2"
+merge "MIXER_5G_core_0/RF2" "m3_14200_n1100#"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB" -47161.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32000 -10878400 -51462 -7004000 -65282 -4418400 -21442 -5950500 -30423 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "m5_20200_8300#"
+merge "m5_20200_8300#" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/B" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/SUB" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SUB"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SUB" "hash_m1m2m3m4_W10L10_flat_4/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_4/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_10/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_10/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_11/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_11/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_12/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_12/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_13/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_13/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_14/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_14/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_15/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_15/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_16/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_16/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_17/m1_0_n1700#"
+merge "hash_m1m2m3m4_W10L10_flat_17/m1_0_n1700#" "MIXER_5G_core_0/VL"
+merge "MIXER_5G_core_0/VL" "m2_30000_n1400#"
+merge "octa_ind_700p_thinner_1/SUB" "mixer_biasgen_0/SUB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mixer_biasgen_0/SUB" "hash_m1m2m3m4_W10L10_flat_10/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_10/SUB" "hash_m1m2m3m4_W10L10_flat_11/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_11/SUB" "hash_m1m2m3m4_W10L10_flat_12/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_12/SUB" "hash_m1m2m3m4_W10L10_flat_13/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_13/SUB" "hash_m1m2m3m4_W10L10_flat_14/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_14/SUB" "hash_m1m2m3m4_W10L10_flat_15/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_15/SUB" "hash_m1m2m3m4_W10L10_flat_16/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_16/SUB" "hash_m1m2m3m4_W10L10_flat_17/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_17/SUB" "MIXER_5G_core_0/SUB"
+merge "MIXER_5G_core_0/SUB" "hash_m1m2m3m4_W10L10_flat_4/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_4/SUB" "hash_m1m2m3m4_W10L10_flat_0/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_0/SUB" "hash_m1m2m3m4_W10L10_flat_18/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_18/SUB" "hash_m1m2m3m4_W10L10_flat_1/SUB"
+merge "hash_m1m2m3m4_W10L10_flat_1/SUB" "SUB"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/SD1" -1229.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -448000 -6680 0 0 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "MIXER_5G_core_0/S2"
+merge "MIXER_5G_core_0/S2" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD1"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_3/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "m4_22200_n1500#"
+merge "mixer_biasgen_0/A" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" -3713.67 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2000 -240 0 0 -1521400 -14160 0 0 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_5/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/DL"
+merge "MIXER_5G_core_0/DL" "m2_34820_5400#"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_1/SD1" "MIXER_5G_core_0/S1" -2035 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -515200 -11320 0 0 0 0
+merge "MIXER_5G_core_0/S1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD1"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/SD1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_2/RF_nfet_12xW5p0L0p15_fingered_0/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_0/D" "m4_21980_8100#"
+merge "hash_m1m2m3m4_W10L10_flat_18/m1_0_n1700#" "hash_m1m2m3m4_W10L10_flat_0/m1_0_n1700#" -2923.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4000 0 -1760 0 -4000 0 -1920 0 0 0 0
+merge "mixer_biasgen_0/B" "m2_34020_5200#" -59.678 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -200 0 0 0 0 0 0 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" -1020.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3020 -503200 -3640 0 0 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_1/SD2" "m3_26540_4120#"
+merge "mixer_biasgen_0/R" "m2_34120_5900#" -1537.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10000 -400 -1136080 -4801 -816000 -3640 0 0 0 0
+merge "mixer_biasgen_0/C" "m2_34320_6600#" -120.699 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2000 -240 0 0 0 0 0 0 0 0
+merge "MIXER_5G_core_0/IF1" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" -1109.79 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3500 -503200 -3640 0 0 0 0
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/RF_nfet_12xW5p0L0p15_fingered_1/sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15_fingered_2/S" "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2"
+merge "MIXER_5G_core_0/RF_nfet_12xW5p0L0p15_fingered_2x_4/SD2" "m3_26540_3500#"
+merge "MIXER_5G_core_0/LO1" "m3_28600_5000#" -2086.48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2073600 -12384 0 0 0 0 0 0

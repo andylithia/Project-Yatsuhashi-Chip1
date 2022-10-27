@@ -1,0 +1,154 @@
+timestamp 1662263286
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use octa_ind_thick_1p8n_flat_mod1 octa_ind_thick_1p8n_flat_mod1_0 0 1 65600 -1 0 -23300
+use octa_ind_3t_140_160_flat octa_ind_3t_140_160_flat_0 0 -1 -24800 1 0 49100
+use PA_complete_without_ind PA_complete_without_ind_0 1 0 1 0 1 0
+parameters sky130_fd_pr__cap_mim_m3_1 w=w l=l
+parameters sky130_fd_pr__cap_mim_m3_2 w=w l=l
+node "m4_13800_1200#" 0 81090.5 13800 1200 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 260720000 112800 153160000 63200 0 0
+node "m4_n5200_12000#" 0 3063.78 -5200 12000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5520000 11600 0 0 0 0
+node "m3_n1400_2600#" 1 9648.49 -1400 2600 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3200000 9600 5280000 11200 10280000 21200 0 0
+node "m3_12800_8000#" 0 90153.1 12800 8000 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 125840000 56400 40000000 28000 277520000 118000 0 0
+node "m3_12000_20200#" 0 21952.9 12000 20200 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30400000 23600 123200000 48000 0 0 0 0
+node "w_5167_1026#" 5647 0 5167 1026 pw 27014144 20952 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m3_12800_8000#" "m3_12000_20200#" 322312
+device csubckt sky130_fd_pr__cap_mim_m3_2 13000 8200 13001 8201 w=6800 l=10800 "None" "m3_12800_8000#" 33600 0 "m3_12000_20200#" 800 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 13000 8200 13001 8201 w=6800 l=10800 "None" "m3_12000_20200#" 33600 0 "m3_12800_8000#" 800 0
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 219.092
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 484.044
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" -12.5151
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 2.71223
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 48.6611
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 1723.47
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 1763.79
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 1763.79
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 1145.93
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 1763.79
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 1763.79
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 752.4
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3449.6
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 2235.36
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 1536.36
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 3449.6
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 3348.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 2235.36
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 3348.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 1536.36
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 3449.6
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 3348.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 2235.36
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 3348.17
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 1536.36
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/S" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G" 0.0773224
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" 0.00732964
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" 0.0513075
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G" "PA_complete_without_ind_0/PA_core_1_0/VSUB" 0.120346
+cap "PA_complete_without_ind_0/OUTPUT" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 20.8793
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 811.488
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 807.17
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 807.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 507.258
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 807.17
+cap "m4_13800_1200#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 807.17
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#" 313.44
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/S" 144.607
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" 103.668
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/VSUB" 0.326451
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" 2.22294
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" 20.474
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/S" 201.698
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 44.712
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/S" 9.41809
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 1.13316
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/SD" 0.516364
+cap "m3_n1400_2600#" "PA_complete_without_ind_0/INPUT" 274.82
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 231.778
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_1/S" 161.129
+cap "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 2.23443
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/SG" "PA_complete_without_ind_0/PA_core_1_0/GATE" 0.316489
+cap "PA_complete_without_ind_0/INPUT" "PA_complete_without_ind_0/IREF_L" 53.229
+cap "m3_n1400_2600#" "PA_complete_without_ind_0/IREF_L" 186.768
+cap "m3_n1400_2600#" "PA_complete_without_ind_0/INPUT" 532.85
+cap "PA_complete_without_ind_0/IREF_L" "PA_complete_without_ind_0/INPUT" 139.633
+cap "PA_complete_without_ind_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" 402.167
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 57.8983
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" "PA_complete_without_ind_0/nfet_diode_1_0/GND" 134.687
+cap "PA_complete_without_ind_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_300#" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" 12.4849
+cap "PA_complete_without_ind_0/nfet_diode_1_0/GND" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 1.45519e-11
+cap "PA_complete_without_ind_0/nfet_diode_1_0/GND" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" 0.234576
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/SD" 1.55105
+cap "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" "PA_complete_without_ind_0/IREF_L" 31.8808
+cap "PA_complete_without_ind_0/IREF_L" "PA_complete_without_ind_0/INPUT" -28.3788
+cap "PA_complete_without_ind_0/IREF_L" "m3_n1400_2600#" 140.241
+cap "PA_complete_without_ind_0/IREF_L" "PA_complete_without_ind_0/INPUT" 82.9727
+cap "PA_complete_without_ind_0/nfet_diode_1_0/IREF_L" "PA_complete_without_ind_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n732#" 5.48316
+cap "PA_complete_without_ind_0/nfet_diode_1_0/IREF_L" "PA_complete_without_ind_0/sky130_fd_pr__res_high_po_0p35_ZE2H5K_0/a_n35_n732#" 10.761
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "m3_12800_8000#" 20.8163
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "m3_12000_20200#" 12.9145
+cap "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_3v_dnwell_cascode_0/DNW" "m3_12800_8000#" 12.3016
+cap "PA_complete_without_ind_0/VGATE_CAS" "m3_12800_8000#" 1.75747
+cap "PA_complete_without_ind_0/VGATE_CAS" "m3_12800_8000#" 20.8164
+cap "PA_complete_without_ind_0/VGATE_CAS" "m3_12000_20200#" 12.9145
+cap "m3_12800_8000#" "PA_complete_without_ind_0/VGATE_CAS" 24.6033
+cap "m3_12800_8000#" "PA_complete_without_ind_0/VGATE_CAS" 41.6325
+cap "m3_12000_20200#" "PA_complete_without_ind_0/VGATE_CAS" 25.8291
+cap "PA_complete_without_ind_0/VGATE_CAS" "m3_12000_20200#" 25.829
+cap "PA_complete_without_ind_0/VGATE_CAS" "m3_12800_8000#" 24.6031
+cap "PA_complete_without_ind_0/VGATE_CAS" "m3_12800_8000#" 41.6327
+cap "m3_12800_8000#" "PA_complete_without_ind_0/VGATE_CAS" 22.8459
+cap "m3_12800_8000#" "PA_complete_without_ind_0/VGATE_CAS" 38.6588
+cap "m3_12000_20200#" "PA_complete_without_ind_0/VGATE_CAS" 23.9841
+cap "PA_complete_without_ind_0/VGATE_CAS" "m3_12800_8000#" 21.0884
+cap "m3_12000_20200#" "PA_complete_without_ind_0/VGATE_CAS" 22.1392
+cap "m3_12800_8000#" "PA_complete_without_ind_0/VGATE_CAS" 35.6852
+cap "PA_complete_without_ind_0/IREF_L" "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" 12.6084
+cap "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" 44.1295
+cap "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" 44.1295
+cap "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" 44.1295
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m3_12800_8000#" 79.7255
+cap "m3_12800_8000#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 221.9
+cap "m3_12800_8000#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 221.9
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m3_12800_8000#" 221.9
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m3_12800_8000#" 221.9
+cap "m3_12800_8000#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 221.9
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m3_12800_8000#" 221.9
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m3_12800_8000#" 221.9
+cap "m3_12800_8000#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 221.9
+cap "m3_12800_8000#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 221.9
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m3_12800_8000#" 221.9
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m3_12800_8000#" 221.9
+cap "m3_12800_8000#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 221.9
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m3_12800_8000#" 221.9
+cap "m3_12800_8000#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 221.9
+cap "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" 47.3915
+merge "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_0/G" "PA_complete_without_ind_0/IREF_L" -14549.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3200000 -13600 -2759400 -18998 -5120600 -14601 0 0
+merge "PA_complete_without_ind_0/IREF_L" "m4_n5200_12000#"
+merge "m4_n5200_12000#" "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#"
+merge "octa_ind_3t_140_160_flat_0/m4_n35900_n24000#" "PA_complete_without_ind_0/PA_core_1_0/GATE"
+merge "PA_complete_without_ind_0/PA_core_1_0/GATE" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G"
+merge "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_3/G" "PA_complete_without_ind_0/INPUT"
+merge "PA_complete_without_ind_0/INPUT" "m3_n1400_2600#"
+merge "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/SD" -1057.59 -39524784 -32150 0 0 0 0 0 0 0 0 0 0 -60320 -2254 -595428 -20532 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -447935 -22763 -722643 -22781 -62580 -2266 -98000 -2800 0 0 0 0 0 0
+merge "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_6/SD" "PA_complete_without_ind_0/PA_core_1_0/MID"
+merge "PA_complete_without_ind_0/PA_core_1_0/MID" "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S"
+merge "PA_complete_without_ind_0/PA_core_1_0/RF_nfet_driver_64x8_0/RF_nfet_8xW5p0L0p15_8/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "PA_complete_without_ind_0/w_5166_1026#"
+merge "PA_complete_without_ind_0/w_5166_1026#" "w_5167_1026#"
+merge "PA_complete_without_ind_0/OUTPUT" "m3_12800_8000#" -79580.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -159851800 -105003 -148627302 -90361 0 0
+merge "m3_12800_8000#" "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#"
+merge "octa_ind_thick_1p8n_flat_mod1_0/m4_n11400_n22800#" "m4_13800_1200#"
+merge "octa_ind_3t_140_160_flat_0/SUB" "PA_complete_without_ind_0/SUB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "PA_complete_without_ind_0/SUB" "octa_ind_thick_1p8n_flat_mod1_0/SUB"
+merge "octa_ind_thick_1p8n_flat_mod1_0/SUB" "SUB"

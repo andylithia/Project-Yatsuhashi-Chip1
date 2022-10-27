@@ -1,0 +1,18 @@
+timestamp 1660789662
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_3 1 0 400 0 1 -600
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_2 1 0 -100 0 1 -600
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_1 1 0 400 0 1 -100
+use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_0 1 0 -100 0 1 -100
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#" -2176.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4000 0 -1760 0 -4000 0 0 0 0 0 0
+merge "hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_0/SUB" "hash_m1m2m3_W2p5L2p5_1/SUB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hash_m1m2m3_W2p5L2p5_1/SUB" "hash_m1m2m3_W2p5L2p5_2/SUB"
+merge "hash_m1m2m3_W2p5L2p5_2/SUB" "hash_m1m2m3_W2p5L2p5_3/SUB"
+merge "hash_m1m2m3_W2p5L2p5_3/SUB" "SUB"

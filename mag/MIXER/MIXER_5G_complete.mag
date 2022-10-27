@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1662605449
+timestamp 1666835237
 << metal1 >>
 rect -1800 -9900 -1300 -9800
 rect -1800 -9920 -1680 -9900
@@ -407,7 +407,7 @@ tri 25320 -19300 25406 -19214 ne
 rect 25406 -19300 45434 -19214
 tri 45434 -19300 47434 -17300 nw
 use MIXER_5G_core  MIXER_5G_core_0
-timestamp 1662605449
+timestamp 1666835237
 transform 1 0 19360 0 1 4500
 box -1160 -4800 9880 3800
 use hash_m1m2m3m4_W10L10_flat  hash_m1m2m3m4_W10L10_flat_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/COMMON

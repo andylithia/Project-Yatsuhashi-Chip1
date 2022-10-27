@@ -1,4 +1,4 @@
-timestamp 1659754370
+timestamp 1662654558
 version 8.3
 tech sky130B
 style ngspice()
@@ -13,28 +13,28 @@ node "m1_814_110#" 4 4.68199 814 110 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "m1_420_110#" 4 4.37366 420 110 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 60 0 0 0 0 0 0 0 0 0 0
 node "G" 8 1661.35 140 -60 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172944 4224 158400 4080 458400 8440 0 0 0 0 0 0
 node "sub" 12 1451.37 26 100 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 344088 11492 0 0 0 0 0 0 0 0 0 0
-substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_814_110#" "m1_420_110#" 2.7229
-cap "D" "sub" 253.933
-cap "sub" "S" 220.368
-cap "G" "sub" 1249.73
-cap "D" "S" 1010.34
-cap "D" "G" 1481.85
-cap "sub" "m1_814_110#" 2.94928
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_420_110#" "m1_814_110#" 2.7229
 cap "D" "m1_814_110#" 0.00661139
-cap "G" "S" 1607.46
-cap "m1_814_110#" "S" 1.52322
-cap "G" "m1_814_110#" 0.229123
+cap "sub" "G" 1249.73
 cap "sub" "m1_420_110#" 3.4112
+cap "sub" "D" 253.933
+cap "m1_420_110#" "G" 0.224047
+cap "D" "G" 1481.85
+cap "S" "m1_814_110#" 1.52322
 cap "D" "m1_420_110#" 0.00661139
+cap "sub" "S" 220.368
+cap "sub" "m1_814_110#" 2.94928
+cap "S" "G" 1607.46
+cap "G" "m1_814_110#" 0.229123
 cap "S" "m1_420_110#" 1.43707
-cap "G" "m1_420_110#" 0.224047
+cap "D" "S" 1010.34
 cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/GATE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN" 206.852
-cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/GATE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE" 527.374
-cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE" -1116.57
 cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/GATE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE" 92.2145
-cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN" -302.547
-cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE" -237.714
+cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE" -302.547
+cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/GATE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE" 527.374
+cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN" -1116.57
+cap "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE" -237.714
 merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/DRAIN" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/DRAIN" -937.935 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -713664 -5856 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/DRAIN" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN"
 merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/DRAIN" "D"
@@ -44,8 +44,8 @@ merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/GATE" "G"
 merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SUBSTRATE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SUBSTRATE" -2798.09 0 0 0 0 0 0 0 0 0 0 -117160 -4272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -65960 -4016 -322538 -11936 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SUBSTRATE" "m1_420_110#"
 merge "m1_420_110#" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE"
-merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE" "VSUBS"
-merge "VSUBS" "m1_814_110#"
+merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SUBSTRATE" "SUB"
+merge "SUB" "m1_814_110#"
 merge "m1_814_110#" "sub"
 merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_0/SOURCE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE" -1015.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -713664 -5856 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_1/SOURCE" "sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15_2/SOURCE"

@@ -1,6 +1,6 @@
-timestamp 1659106999
+timestamp 1662654558
 version 8.3
-tech sky130A
+tech sky130B
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
@@ -11,26 +11,19 @@ use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15 sky130_fd_pr__rf_pfet_01v8_aF04W5p
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15 sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2 1 0 1888 0 1 97
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15 sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1 -1 0 2010 0 1 97
 use sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15 sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0 1 0 1200 0 1 97
-node "SD" 2 434.275 980 1060 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 157200 5360 0 0 0 0 0 0
+node "SD" 2 392.744 980 1060 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 157200 5360 0 0 0 0 0 0
 node "G" 1 890.336 1289 1170 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 506520 5122 0 0 0 0 0 0 0 0 0 0
 node "S" 10182 12605.3 1060 -80 nw 0 0 0 0 3553200 8160 0 0 388800 9880 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 353600 9320 514000 9760 0 0 0 0 0 0 0 0 0 0
-substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "SD" "G" 116.052
+cap "SD" "S" 600.386
 cap "S" "G" 579.352
-cap "SD" "G" 148.651
-cap "SD" "S" 680.042
-cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" 245.015
+cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" 243.903
 cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" 295.305
-cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" 245.166
-cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" 266.042
-cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" 226.878
-cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" 180.625
-merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/VSUBS" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/VSUBS" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/VSUBS"
-merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/VSUBS" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/VSUBS"
-merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/VSUBS" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/VSUBS"
-merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/VSUBS" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/VSUBS"
-merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/VSUBS" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/VSUBS"
-merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/VSUBS" "VSUBS"
+cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" 226.18
+cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 181.704
+cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" 246.35
+cap "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 226.878
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/GATE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/GATE" -1460.27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -111244 -4648 0 0 0 0 0 0 0 0 0 0
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/GATE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/GATE"
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/GATE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/GATE"
@@ -52,7 +45,14 @@ merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" "sky130_fd_pr__rf_pfe
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/BULK" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE"
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK"
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "S"
-merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/DRAIN" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/DRAIN" -1697.59 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -99000 -4140 0 0 0 0 0 0
+merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/SUB" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SUB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SUB" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SUB"
+merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SUB" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SUB"
+merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SUB" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/SUB"
+merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/SUB" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SUB"
+merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SUB" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SUB"
+merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SUB" "SUB"
+merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/DRAIN" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/DRAIN" -1563.82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -99000 -4140 0 0 0 0 0 0
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/DRAIN" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/DRAIN"
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/DRAIN" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/DRAIN"
 merge "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/DRAIN" "sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/DRAIN"

@@ -1,0 +1,30 @@
+timestamp 1662581340
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0 1 0 1076 0 1 2774
+parameters sky130_fd_pr__diode_pw2nd_05v5 a=area p=pj
+node "VHI" 4362 77414.4 -40 1760 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1262400 41360 1792000 37440 1792000 37440 2325500 26420 0 0 0 0 0 0
+substrate "VLO" 0 0 3310 1776 ppd 0 0 0 0 0 0 0 0 0 0 690880 40640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3149272 77588 5672600 91568 5734700 103940 6553900 70760 0 0 0 0 0 0
+device ndiode sky130_fd_pr__diode_pw2nd_05v5 3412 1878 3413 1879 a=400000 p=4400 "VLO" "VLO" 352 0 "VLO" 66 0
+device ndiode sky130_fd_pr__diode_pw2nd_05v5 3412 2410 3413 2411 a=400000 p=4400 "VLO" "VLO" 352 0 "VLO" 66 0
+device ndiode sky130_fd_pr__diode_pw2nd_05v5 3412 2942 3413 2943 a=400000 p=4400 "VLO" "VLO" 352 0 "VLO" 66 0
+device ndiode sky130_fd_pr__diode_pw2nd_05v5 3412 3474 3413 3475 a=400000 p=4400 "VLO" "VLO" 352 0 "VLO" 66 0
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_698#" 1.01794
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_698#" 510.188
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" -498.125
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" 94.8524
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" 60.4156
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_698#" 317.856
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" -454.511
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_698#" -4.8865
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" -78.4398
+cap "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" 41.6231
+merge "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/w_n1138_n1036#" "VHI" -6547.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -690880 -40640 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_n898#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_n366#" -10241.8 0 0 0 0 0 0 0 0 0 0 -220592 -13248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1115510 -38368 -2462964 -35656 -1425120 -28072 -2204800 -18394 0 0 0 0 0 0
+merge "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_n366#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_166#"
+merge "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_166#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_698#"
+merge "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1000_698#" "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#"
+merge "sky130_fd_pr__diode_pd2nw_05v5_PZH3ZX_0/a_n1240_n1138#" "VLO"

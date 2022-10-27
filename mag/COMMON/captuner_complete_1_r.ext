@@ -1,4 +1,4 @@
-timestamp 1661140795
+timestamp 1661915753
 version 8.3
 tech sky130B
 style ngspice()
@@ -6,7 +6,7 @@ scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
 parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
 parameters sky130_fd_pr__cap_mim_m3_1 w=w l=l
-node "TOP" 1 2325.42 -440 -840 mim 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4934000 21960 0 0 0 0
+node "TOP" 1 2433.03 -440 -840 mim 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5135600 22280 0 0 0 0
 node "BOT_C4" 5377 3658.42 1320 92 ndif 0 0 0 0 0 0 0 0 113120 4264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69224 4208 103376 4184 217600 2040 1015200 4680 0 0 0 0 0 0
 node "BOT_C8" 5377 3695.72 926 92 ndif 0 0 0 0 0 0 0 0 113120 4264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69224 4208 103376 4184 124800 1480 2156000 7960 0 0 0 0 0 0
 node "BOT_C1" 5377 2998.97 532 92 ndif 0 0 0 0 0 0 0 0 113120 4264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69224 4208 103376 4184 249600 2440 326400 2440 0 0 0 0 0 0
@@ -17,51 +17,51 @@ node "G8" 3623 923.841 939 0 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "G1" 3623 875.096 545 0 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 91520 5184 0 0 13736 944 42156 1240 26400 680 0 0 0 0 0 0 0 0
 node "G2" 3623 950.111 151 0 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 91520 5184 0 0 13736 944 42156 1240 26400 680 0 0 0 0 0 0 0 0
 substrate "SUB" 0 0 26 92 ppd 0 0 0 0 0 0 0 0 0 0 292900 10680 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164900 10040 620704 17152 782400 7600 0 0 0 0 0 0 0 0
-cap "BOT_C8" "G4" 143.042
-cap "G8" "BOT" 660.381
-cap "BOT_C4" "G2" 5.88665
-cap "TOP" "BOT" 587.734
-cap "G8" "BOT_C2" 11.3014
-cap "BOT_C2" "TOP" 1667.9
-cap "G8" "BOT_C1" 15.2722
-cap "G2" "BOT" 658.857
-cap "TOP" "BOT_C1" 1073.97
+cap "BOT_C2" "G2" 504.893
+cap "G1" "TOP" 99.3745
+cap "TOP" "BOT_C8" 4544.44
+cap "BOT_C2" "BOT" 3539.8
+cap "G4" "G2" 3.96317
+cap "G4" "BOT" 659.453
+cap "G1" "BOT_C1" 536.585
+cap "BOT_C1" "BOT_C8" 380.125
+cap "BOT_C4" "BOT_C8" 372.024
+cap "G1" "BOT_C4" 11.2949
+cap "G8" "BOT_C8" 658.77
 cap "G8" "G1" 58.8924
-cap "TOP" "G1" 99.0948
-cap "BOT_C4" "BOT" 3589.88
-cap "G2" "BOT_C2" 504.893
+cap "G2" "BOT" 658.857
+cap "BOT_C2" "TOP" 1671.2
+cap "G4" "TOP" 73.9672
+cap "BOT_C2" "BOT_C1" 342.332
+cap "BOT_C2" "BOT_C4" 46.0369
+cap "G2" "TOP" 100.482
+cap "BOT_C2" "G8" 11.3014
+cap "G1" "BOT_C8" 150.051
+cap "G4" "BOT_C1" 5.51716
+cap "G4" "BOT_C4" 503.965
+cap "TOP" "BOT" 595.505
 cap "G8" "G4" 61.7688
 cap "G2" "BOT_C1" 4.87126
-cap "BOT_C8" "G8" 658.77
-cap "G4" "TOP" 73.9672
-cap "BOT_C4" "BOT_C2" 46.0369
-cap "G2" "G1" 58.8944
-cap "BOT_C8" "TOP" 4530.4
-cap "BOT_C4" "BOT_C1" 131.894
-cap "BOT_C4" "G1" 11.2949
-cap "G2" "G4" 3.96317
-cap "BOT_C2" "BOT" 3539.8
-cap "BOT_C8" "G2" 142.543
+cap "G2" "BOT_C4" 5.88665
+cap "G8" "G2" 6.33878
 cap "BOT_C1" "BOT" 3560.52
-cap "BOT_C4" "G4" 503.965
-cap "BOT" "G1" 660.103
-cap "BOT_C4" "BOT_C8" 372.024
-cap "BOT_C2" "BOT_C1" 342.332
+cap "BOT_C4" "BOT" 3589.88
+cap "G8" "BOT" 660.381
+cap "BOT_C2" "BOT_C8" 222.698
 cap "BOT_C2" "G1" 15.2346
-cap "G8" "TOP" 90.3943
-cap "G4" "BOT" 659.453
-cap "BOT_C8" "BOT" 4377.7
-cap "BOT_C1" "G1" 536.585
-cap "G4" "BOT_C2" 5.49663
-cap "G2" "G8" 6.33878
-cap "BOT_C8" "BOT_C2" 222.698
-cap "G4" "BOT_C1" 5.51716
-cap "G2" "TOP" 98.2734
-cap "BOT_C8" "BOT_C1" 380.125
-cap "G4" "G1" 6.35652
-cap "BOT_C4" "G8" 15.1581
-cap "BOT_C8" "G1" 150.051
-cap "BOT_C4" "TOP" 2513.49
+cap "G4" "BOT_C8" 143.042
+cap "G1" "G4" 6.35652
+cap "BOT_C1" "TOP" 1074.71
+cap "TOP" "BOT_C4" 2513.49
+cap "G1" "G2" 58.8944
+cap "G2" "BOT_C8" 142.543
+cap "G8" "TOP" 90.4514
+cap "BOT" "BOT_C8" 4377.7
+cap "G1" "BOT" 660.103
+cap "BOT_C1" "BOT_C4" 131.894
+cap "G8" "BOT_C1" 15.2722
+cap "BOT_C2" "G4" 5.49663
+cap "G8" "BOT_C4" 15.1581
 device csubckt sky130_fd_pr__cap_mim_m3_1 520 -800 521 -799 w=500 l=400 "None" "TOP" 1640 0 "BOT_C1" 66 0
 device csubckt sky130_fd_pr__cap_mim_m3_1 1640 -1040 1641 -1039 w=800 l=1000 "None" "TOP" 3440 0 "BOT_C4" 66 0
 device csubckt sky130_fd_pr__cap_mim_m3_1 -440 -840 -439 -839 w=500 l=800 "None" "TOP" 2440 0 "BOT_C2" 66 0

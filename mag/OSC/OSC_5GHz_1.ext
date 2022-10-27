@@ -1,0 +1,87 @@
+timestamp 1662654558
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use octa_symm_thick_2t_275_200_flat octa_symm_thick_2t_275_200_flat_0 1 0 70322 0 1 26500
+use OSC_5GHz_wo_ind OSC_5GHz_wo_ind_0 1 0 15900 0 1 5000
+node "m4_20300_3600#" 0 20375.9 20300 3600 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32120000 29600 50000000 34000 0 0
+node "m4_20300_8200#" 0 20375.9 20300 8200 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32120000 29600 50000000 34000 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m4_20300_3600#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 144.077
+cap "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" "m4_20300_3600#" 99.0857
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C1" "OSC_5GHz_wo_ind_0/I2" 15.4953
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.0285973
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.00379976
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.0225516
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 3.77953
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.0354356
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.00744825
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.244728
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C1" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" -27.4616
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 212.566
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C1" "OSC_5GHz_wo_ind_0/I2" 208.472
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.244728
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.244728
+cap "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" "m4_20300_3600#" 247.318
+cap "m4_20300_3600#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 248.853
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.0441786
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.0493679
+cap "OSC_5GHz_wo_ind_0/I2" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" 0.040867
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" "OSC_5GHz_wo_ind_0/I2" 0.223854
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C1" "OSC_5GHz_wo_ind_0/I2" 3.22809
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.0539609
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 0.294443
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "OSC_5GHz_wo_ind_0/I2" 0.788835
+cap "OSC_5GHz_wo_ind_0/I2" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" 0.0579021
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" "OSC_5GHz_wo_ind_0/I2" 0.033281
+cap "OSC_5GHz_wo_ind_0/I2" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C1" 21.5214
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_3/C0" "OSC_5GHz_wo_ind_0/I2" 36.3831
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "OSC_5GHz_wo_ind_0/I2" 0.188007
+cap "m4_20300_3600#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 141.324
+cap "m4_20300_3600#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 126.912
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "OSC_5GHz_wo_ind_0/m3_1300_1450#" 5.35865
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "m4_20300_3600#" 2.74185
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" "m4_20300_3600#" 0.972273
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "m4_20300_3600#" 0.546682
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "OSC_5GHz_wo_ind_0/m3_1300_1450#" 1.12999
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" "m4_20300_3600#" 0.186033
+cap "OSC_5GHz_wo_ind_0/I1" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" 0.312418
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C1" "OSC_5GHz_wo_ind_0/I1" 0.785975
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" "OSC_5GHz_wo_ind_0/I1" 1.2908
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "OSC_5GHz_wo_ind_0/I1" 0.922123
+cap "OSC_5GHz_wo_ind_0/I1" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C1" 6.28183
+cap "OSC_5GHz_wo_ind_0/I1" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" 6.08098
+cap "OSC_5GHz_wo_ind_0/I1" "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" 0.211797
+cap "OSC_5GHz_wo_ind_0/XCP_1_0/RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/DRAIN" "OSC_5GHz_wo_ind_0/I1" 0.352364
+cap "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" "m4_20300_8200#" 70.6622
+cap "m4_20300_8200#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 55.8115
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.0192876
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.0497995
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.0260967
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C1" "OSC_5GHz_wo_ind_0/I1" 14.8225
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.0421957
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.033071
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.0318717
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.0523507
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.0475604
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.004023
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 3.76862
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.000990632
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C1" "OSC_5GHz_wo_ind_0/I1" 182.771
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C1" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" -22.9253
+cap "OSC_5GHz_wo_ind_0/I1" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" 0.244728
+cap "OSC_5GHz_wo_ind_0/I1" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" 208.276
+cap "OSC_5GHz_wo_ind_0/I1" "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" 0.244728
+cap "OSC_5GHz_wo_ind_0/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1_1/C0" "OSC_5GHz_wo_ind_0/I1" 0.244728
+cap "m4_20300_8200#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 247.318
+cap "m4_20300_8200#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 248.853
+cap "m4_20300_8200#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 214.739
+cap "m4_20300_8200#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" 198.013
+merge "OSC_5GHz_wo_ind_0/m3_n250_650#" "OSC_5GHz_wo_ind_0/m3_1300_1450#" -37259.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36120000 -28200 -113252830 -79947 0 0
+merge "OSC_5GHz_wo_ind_0/m3_1300_1450#" "m4_20300_8200#"
+merge "m4_20300_8200#" "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#"
+merge "octa_symm_thick_2t_275_200_flat_0/m4_n10900_n28536#" "m4_20300_3600#"
+merge "OSC_5GHz_wo_ind_0/SUB" "octa_symm_thick_2t_275_200_flat_0/SUB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "octa_symm_thick_2t_275_200_flat_0/SUB" "SUB"

@@ -1,6 +1,6 @@
-timestamp 1659108117
+timestamp 1662654558
 version 8.3
-tech sky130A
+tech sky130B
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
@@ -8,144 +8,144 @@ use RF_pfet_28xW5p0L0p15 RF_pfet_28xW5p0L0p15_1 1 0 -962 0 -1 3090
 use RF_pfet_28xW5p0L0p15 RF_pfet_28xW5p0L0p15_0 1 0 -980 0 1 100
 use RF_nfet_8xW5p0L0p15 RF_nfet_8xW5p0L0p15_1 1 0 -870 0 -1 5360
 use RF_nfet_8xW5p0L0p15 RF_nfet_8xW5p0L0p15_0 1 0 -870 0 1 -2200
-node "G1" 8 1727.04 -1210 1340 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 389500 7220 532000 8720 127100 1900 0 0 0 0 0 0
-node "G2" 9 1658.3 -1210 1740 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 326100 7060 586100 9100 115700 1720 0 0 0 0 0 0
-node "VH" 5 2064.67 2720 260 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 223200 4200 376600 5660 0 0 0 0 0 0 0 0
-node "VL" 5 2494.99 -1390 40 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 290200 5040 553200 6620 0 0 0 0 0 0 0 0
-substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "G1" "VH" 61.0459
-cap "G2" "VH" 83.1918
-cap "G2" "G1" 2897.51
-cap "G1" "VL" 99.6005
-cap "G2" "VL" 81.1038
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_pfet_28xW5p0L0p15_1/SD" 9.44351
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_1/S" 0.353121
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_pfet_28xW5p0L0p15_1/G" 0.547972
-cap "RF_pfet_28xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_1/S" 65.0276
+node "G1" 8 1664.04 -1210 1340 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 389500 7220 532000 8720 127100 1900 0 0 0 0 0 0
+node "G2" 9 1593.41 -1210 1740 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 326100 7060 586100 9100 115700 1720 0 0 0 0 0 0
+node "VH" 5 1925.87 2720 260 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 223200 4200 376600 5660 0 0 0 0 0 0 0 0
+node "VL" 5 2328.35 -1390 40 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 290200 5040 553200 6620 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VH" "G1" 57.7535
+cap "VL" "G2" 78.6783
+cap "VH" "G2" 80.5855
+cap "G1" "G2" 2847.78
+cap "G1" "VL" 96.8157
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_pfet_28xW5p0L0p15_1/G" 0.35968
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 618.22
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/SD" 1226.98
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" "RF_pfet_28xW5p0L0p15_1/G" 0.35968
 cap "RF_nfet_8xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 0.353121
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 9.44351
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 1233.39
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" "RF_pfet_28xW5p0L0p15_1/G" 0.547972
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_1/S" 0.353121
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_pfet_28xW5p0L0p15_1/SD" 9.44351
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_pfet_28xW5p0L0p15_1/G" 0.547972
 cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_pfet_28xW5p0L0p15_1/SD" 9.44351
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/S" 140.507
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_pfet_28xW5p0L0p15_1/G" 0.547972
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 105.024
 cap "RF_nfet_8xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 0.353121
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 622.752
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_pfet_28xW5p0L0p15_1/G" 0.35968
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" "RF_pfet_28xW5p0L0p15_1/SD" 9.44351
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_pfet_28xW5p0L0p15_1/G" 0.35968
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_pfet_28xW5p0L0p15_1/G" 0.35968
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.353121
+cap "RF_pfet_28xW5p0L0p15_0/S" "RF_pfet_28xW5p0L0p15_1/G" 227.926
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_pfet_28xW5p0L0p15_1/SD" 9.44351
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.353121
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_pfet_28xW5p0L0p15_1/SD" 9.44351
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 0.353121
+cap "RF_pfet_28xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_1/S" 65.5391
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_pfet_28xW5p0L0p15_1/SD" 9.44351
 cap "RF_pfet_28xW5p0L0p15_0/S" "RF_pfet_28xW5p0L0p15_1/SD" 41.3737
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 9.44351
-cap "RF_pfet_28xW5p0L0p15_0/S" "RF_pfet_28xW5p0L0p15_1/G" 310.709
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_pfet_28xW5p0L0p15_1/G" 0.547972
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_1/S" 0.353121
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" 2.72071
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 38.3312
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 7.10815
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/SOURCE" 5.85936
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" 2.72071
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 0.95581
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 7.10815
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/SD" 183.599
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 545.611
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 5.85936
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 0.375914
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 7.15549
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 444.096
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 0.95581
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/SOURCE" 0.375914
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 118.535
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 1.52837
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 7.15549
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 2.72071
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 7.10815
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/G" 187.11
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 0.375914
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/G" 145.716
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 5.98624
 cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 5.85936
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 7.15549
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 2.72071
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_nfet_8xW5p0L0p15_0/S" 0.706986
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" 5.85936
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/SOURCE" 0.375914
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 282.612
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 0.95581
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" 7.15549
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 2.72071
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_nfet_8xW5p0L0p15_1/S" 106.232
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/SD" 502.287
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 2.72071
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_nfet_8xW5p0L0p15_1/S" 457.617
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 0.95581
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 5.98624
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/SD" 161.322
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 6.02607
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 6.02607
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 0.95581
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/S" 40.3725
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 2.72071
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 6.02607
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 0.375914
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 0.375914
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 1.52837
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 0.375914
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_1/SOURCE" "RF_pfet_28xW5p0L0p15_1/G" 5.98624
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_2/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 5.85936
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_0/SOURCE" "RF_pfet_28xW5p0L0p15_1/SD" 5.85936
 cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 0.375914
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_0/S" 0.00322426
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 1.89189e-05
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 2.72071
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/SOURCE" 5.85936
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_pfet_28xW5p0L0p15_1/G" 0.0094893
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 254.51
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 7.10815
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 0.375914
-cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 2.72071
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_nfet_8xW5p0L0p15_0/S" 0.861934
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 5.85936
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/SOURCE" 7.15549
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 0.95581
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 1.65756e-05
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/SOURCE" 0.375914
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_0/S" 0.0036847
 cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 5.85936
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 466.443
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 7.15549
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 0.95581
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 7.10815
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_pfet_28xW5p0L0p15_1/SD" 2.50036e-05
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 7.15549
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 7.10815
 cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" 0.375914
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 244.524
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 524.555
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 1622.99
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/S" 44.7838
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 11.0902
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 142.047
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 243.096
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/S" 304.681
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 310.21
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 21.5982
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 700.604
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/S" 130.285
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 346.001
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_pfet_28xW5p0L0p15_1/SD" 0.00101588
-cap "RF_nfet_8xW5p0L0p15_0/S" "RF_pfet_28xW5p0L0p15_1/SD" 0.694252
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/SD" 672.72
-cap "RF_nfet_8xW5p0L0p15_0/S" "RF_pfet_28xW5p0L0p15_1/S" 0.14674
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 431.925
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/G" 194.65
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 5.85936
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/SOURCE" 5.85936
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 6.02607
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_pfet_28xW5p0L0p15_1/G" 0.849676
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" 5.85936
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 463.69
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 6.02607
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 2.72071
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_4/SOURCE" 6.02607
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 2.72071
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_3/SOURCE" 6.02607
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 2.72071
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 0.95581
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 0.95581
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 2.50036e-05
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.00883135
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 0.95581
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 5.98624
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 5.98624
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_5/SOURCE" 0.375914
+cap "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "RF_nfet_8xW5p0L0p15_0/S" 0.762279
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" 231.034
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/SOURCE" 5.98624
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 1603.94
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_nfet_8xW5p0L0p15_1/S" 115.296
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/S" 477.192
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/S" 11.0902
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/S" 179.677
+cap "RF_pfet_28xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/S" 45.5279
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/S" 312.023
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 120.289
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/S" 209.774
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/SD" 654.354
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/S" 277.2
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 20.6437
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 644.774
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_0/S" 0.668731
 cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_pfet_28xW5p0L0p15_1/G" 0.00263345
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 8.39577
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 58.6281
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 51.6747
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 16.9793
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/S" 381.384
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.000909095
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_pfet_28xW5p0L0p15_1/S" 0.170802
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/S" 279.614
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/SD" 7.30333
+cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 38.0104
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 12.4228
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/S" 16.0047
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 61.4251
 cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 13.8113
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/S" 16.0427
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/S" 11.2796
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/G" 2.74882
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/S" 136.719
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 7.25507
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/S" 9.15898
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/S" 15.0648
-cap "RF_pfet_28xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_1/S" 0.0529427
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_nfet_8xW5p0L0p15_1/S" 0.00245475
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/S" 19.5879
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/S" 0.0724851
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 3.7125e-05
-cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/S" 31.2703
-cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/SD" 0.698086
-merge "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_1/S" -2824.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -222400 -4920 0 0 0 0 0 0 0 0 0 0
-merge "RF_nfet_8xW5p0L0p15_1/S" "VL"
-merge "VL" "RF_pfet_28xW5p0L0p15_0/VSUBS"
-merge "RF_pfet_28xW5p0L0p15_0/VSUBS" "RF_pfet_28xW5p0L0p15_1/VSUBS"
-merge "RF_pfet_28xW5p0L0p15_1/VSUBS" "VSUBS"
-merge "RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" -5296.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -290464 -7080 -2427 -222 -5520 -304 0 0 0 0 0 0
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_nfet_8xW5p0L0p15_1/S" 9.03313
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/S" 11.0993
+cap "RF_pfet_28xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_1/S" 9.39135
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/S" 136.247
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_nfet_8xW5p0L0p15_1/S" 7.16886
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/SD" 2.69027
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 0.0788119
+cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 13.0955
+cap "RF_pfet_28xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_1/SD" 0.654269
+cap "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/SD" 20.2901
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_pfet_28xW5p0L0p15_1/SD" 3.7125e-05
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/S" 0.0610331
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_1/G" 0.00286889
+merge "RF_pfet_28xW5p0L0p15_0/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" -5026.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -290464 -7080 -2427 -222 -5520 -304 0 0 0 0 0 0
 merge "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/G"
 merge "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/SD"
 merge "RF_nfet_8xW5p0L0p15_1/SD" "RF_pfet_28xW5p0L0p15_0/G"
 merge "RF_pfet_28xW5p0L0p15_0/G" "RF_pfet_28xW5p0L0p15_1/SD"
 merge "RF_pfet_28xW5p0L0p15_1/SD" "G1"
-merge "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_0/S" -2927.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -223200 -4200 0 0 0 0 0 0 0 0 0 0
+merge "RF_pfet_28xW5p0L0p15_1/S" "RF_pfet_28xW5p0L0p15_0/S" -2820.94 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -223200 -4200 0 0 0 0 0 0 0 0 0 0
 merge "RF_pfet_28xW5p0L0p15_0/S" "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK"
 merge "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/BULK" "VH"
-merge "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "RF_nfet_8xW5p0L0p15_0/SD" -5307.43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -285700 -6980 -800 -180 -11400 -500 0 0 0 0 0 0
+merge "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_1/S" -2780.03 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -245000 -4960 0 0 0 0 0 0 0 0 0 0
+merge "RF_nfet_8xW5p0L0p15_1/S" "VL"
+merge "VL" "RF_pfet_28xW5p0L0p15_0/SUB"
+merge "RF_pfet_28xW5p0L0p15_0/SUB" "RF_pfet_28xW5p0L0p15_1/SUB"
+merge "RF_pfet_28xW5p0L0p15_1/SUB" "SUB"
+merge "RF_pfet_28xW5p0L0p15_1/sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15_6/GATE" "RF_nfet_8xW5p0L0p15_0/SD" -5033.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -285700 -6980 -800 -180 -11400 -500 0 0 0 0 0 0
 merge "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_1/G"
 merge "RF_nfet_8xW5p0L0p15_1/G" "RF_pfet_28xW5p0L0p15_0/SD"
 merge "RF_pfet_28xW5p0L0p15_0/SD" "RF_pfet_28xW5p0L0p15_1/G"

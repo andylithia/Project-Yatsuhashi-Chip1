@@ -1,0 +1,93 @@
+timestamp 1662577679
+version 8.3
+tech sky130B
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use octa_thick_3t_250_250_flat octa_thick_3t_250_250_flat_0 0 -1 -26800 1 0 67300
+use octa_2t_190_170_flat octa_2t_190_170_flat_0 1 0 43100 0 1 22800
+use lna_complete_2_wo_ind lna_complete_2_wo_ind_0 1 0 0 0 1 0
+node "m4_2800_n13400#" 0 12108.7 2800 -13400 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35280000 30400 0 0 0 0
+node "m4_n700_n4600#" 0 30373.9 -700 -4600 v4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3960000 8000 96080000 78400 0 0
+node "m2_n2200_8600#" 0 307.55 -2200 8600 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120000 1600 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m4_2800_n13400#" "m4_n700_n4600#" 4.99983
+cap "lna_complete_2_wo_ind_0/VLO" "m4_n700_n4600#" 7.86474
+cap "m4_n700_n4600#" "lna_complete_2_wo_ind_0/VLO" 8.02229
+cap "lna_complete_2_wo_ind_0/SS" "lna_complete_2_wo_ind_0/VIN" 25.477
+cap "lna_complete_2_wo_ind_0/SS" "lna_complete_2_wo_ind_0/VIN" 5.23781
+cap "m4_n700_n4600#" "lna_complete_2_wo_ind_0/VLO" 7.06489
+cap "m4_n700_n4600#" "lna_complete_2_wo_ind_0/VLO" 489.068
+cap "lna_complete_2_wo_ind_0/VLO" "m4_n700_n4600#" 448.643
+cap "m4_n700_n4600#" "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" 305.565
+cap "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" "m4_n700_n4600#" 1.667
+cap "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" "lna_complete_2_wo_ind_0/m5_n800_n3000#" 0.187375
+cap "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" "lna_complete_2_wo_ind_0/SS" 269.192
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/a_n500_2230#" "lna_complete_2_wo_ind_0/SS" -83.4847
+cap "lna_complete_2_wo_ind_0/VIN" "lna_complete_2_wo_ind_0/SS" 57.4298
+cap "lna_complete_2_wo_ind_0/VIN" "lna_complete_2_wo_ind_0/SS" 44.7942
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/SD" "lna_complete_2_wo_ind_0/VIN" 237.569
+cap "lna_complete_2_wo_ind_0/VLO" "m4_n700_n4600#" 11.7749
+cap "lna_complete_2_wo_ind_0/VLO" "m4_n700_n4600#" 25.4856
+cap "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" "m4_n700_n4600#" 111.943
+cap "m4_n700_n4600#" "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" 2.58358
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/SD" "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" 4.99756
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/G" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/SD" 115.469
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/SD" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/G" 36.2186
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/SD" "lna_complete_2_wo_ind_0/VIN" 15.7354
+cap "lna_complete_2_wo_ind_0/VIN" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/SD" 0.238988
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "lna_complete_2_wo_ind_0/VIN" 41.9851
+cap "lna_complete_2_wo_ind_0/VIN" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/SD" 398.622
+cap "lna_complete_2_wo_ind_0/VIN" "lna_complete_2_wo_ind_0/D1" 59.2579
+cap "m4_n700_n4600#" "lna_complete_2_wo_ind_0/VLO" 69.8541
+cap "m4_n700_n4600#" "lna_complete_2_wo_ind_0/BIAS_BOT" 386.746
+cap "m4_n700_n4600#" "lna_complete_2_wo_ind_0/VLO" 90.9468
+cap "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" "m4_n700_n4600#" 2.50794
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/G" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/SD" -7.45237e-15
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/SD" "lna_complete_2_wo_ind_0/VIN" 1.13687e-13
+cap "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/SD" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" -2.57953
+cap "lna_complete_2_wo_ind_0/VIN" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 34.2725
+cap "lna_complete_2_wo_ind_0/VIN" "lna_complete_2_wo_ind_0/D1" 48.9744
+cap "octa_2t_190_170_flat_0/m4_n35400_n28000#" "octa_2t_190_170_flat_0/m4_n35400_n28000#" 184.038
+cap "lna_complete_2_wo_ind_0/BIAS_BOT" "lna_complete_2_wo_ind_0/VLO" 398.814
+cap "lna_complete_2_wo_ind_0/VLO" "lna_complete_2_wo_ind_0/VLO" 56.2756
+cap "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_3AUR5J_0/a_n325_n719#" "lna_complete_2_wo_ind_0/VLO" 2.22056
+cap "octa_2t_190_170_flat_0/m4_n35400_n28000#" "octa_2t_190_170_flat_0/m4_n35400_n28000#" 1258.85
+cap "octa_2t_190_170_flat_0/m4_n35400_n28000#" "octa_2t_190_170_flat_0/m4_n35400_n28000#" 2481.25
+cap "octa_2t_190_170_flat_0/m4_n35400_n28000#" "lna_complete_2_wo_ind_0/D1" 1447.98
+cap "lna_complete_2_wo_ind_0/VLO" "lna_complete_2_wo_ind_0/BIAS_BOT" 56.8002
+cap "lna_complete_2_wo_ind_0/VLO" "lna_complete_2_wo_ind_0/VLO" 52.9479
+cap "lna_complete_2_wo_ind_0/VLO" "lna_complete_2_wo_ind_0/BIAS_BOT" 114.12
+cap "lna_complete_2_wo_ind_0/VLO" "lna_complete_2_wo_ind_0/VLO" 1.66452
+cap "lna_complete_2_wo_ind_0/G_TOP" "lna_complete_2_wo_ind_0/RF_nfet_12xW5p0L0p15_0/SD" 8.50015e-16
+cap "lna_complete_2_wo_ind_0/RF_nfet_12xW5p0L0p15_0/S" "lna_complete_2_wo_ind_0/G_TOP" 3.75743
+cap "octa_2t_190_170_flat_0/m4_n35400_n28000#" "lna_complete_2_wo_ind_0/m2_0_6300#" 346.187
+cap "lna_complete_2_wo_ind_0/sky130_fd_pr__res_generic_po_G5R3N7_1/a_n271_n707#" "lna_complete_2_wo_ind_0/G_TOP" 0.167668
+cap "lna_complete_2_wo_ind_0/G_TOP" "lna_complete_2_wo_ind_0/RF_nfet_12xW5p0L0p15_0/S" 46.1227
+cap "lna_complete_2_wo_ind_0/G_TOP" "lna_complete_2_wo_ind_0/RF_nfet_12xW5p0L0p15_0/SD" 34.0005
+cap "lna_complete_2_wo_ind_0/RF_nfet_12xW5p0L0p15_0/S" "lna_complete_2_wo_ind_0/G_TOP" -5.68434e-14
+cap "octa_2t_190_170_flat_0/m4_n35400_n28000#" "lna_complete_2_wo_ind_0/m2_0_6300#" 336.827
+cap "lna_complete_2_wo_ind_0/m2_0_6300#" "octa_2t_190_170_flat_0/m4_n35400_n28000#" 208.65
+cap "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" 95.815
+cap "lna_complete_2_wo_ind_0/VHI" "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" 232.765
+cap "lna_complete_2_wo_ind_0/VHI" "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" 232.765
+cap "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" "lna_complete_2_wo_ind_0/VHI" 232.765
+cap "lna_complete_2_wo_ind_0/VHI" "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" 66.5043
+cap "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" 11.0946
+cap "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#" 16.6418
+merge "octa_thick_3t_250_250_flat_0/SUB" "lna_complete_2_wo_ind_0/SUB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "lna_complete_2_wo_ind_0/SUB" "octa_2t_190_170_flat_0/SUB"
+merge "octa_2t_190_170_flat_0/SUB" "SUB"
+merge "lna_complete_2_wo_ind_0/VLO" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/SD" -10953.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3960000 -8000 -25800000 -28100 0 0
+merge "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_1/SD" "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/SD"
+merge "lna_complete_2_wo_ind_0/RF_nfet_8xW5p0L0p15_1_0/SD" "lna_complete_2_wo_ind_0/m5_n800_n3000#"
+merge "lna_complete_2_wo_ind_0/m5_n800_n3000#" "lna_complete_2_wo_ind_0/SS"
+merge "lna_complete_2_wo_ind_0/SS" "m4_n700_n4600#"
+merge "lna_complete_2_wo_ind_0/G_TOP" "lna_complete_2_wo_ind_0/BIAS_TOP" -247.642 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64000 -1440 0 0 0 0 0 0 0 0
+merge "lna_complete_2_wo_ind_0/BIAS_TOP" "m2_n2200_8600#"
+merge "lna_complete_2_wo_ind_0/m2_0_6300#" "lna_complete_2_wo_ind_0/RF_nfet_12xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" -5253.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3200000 -11600 -7820000 -8000 0 0
+merge "lna_complete_2_wo_ind_0/RF_nfet_12xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "lna_complete_2_wo_ind_0/D1"
+merge "lna_complete_2_wo_ind_0/D1" "octa_2t_190_170_flat_0/m4_n35400_n28000#"
+merge "lna_complete_2_wo_ind_0/VOUT" "lna_complete_2_wo_ind_0/VHI" -12972.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360000 -7500 -22216095 -45037 0 0
+merge "lna_complete_2_wo_ind_0/VHI" "octa_thick_3t_250_250_flat_0/m4_n44100_n27200#"
+merge "lna_complete_2_wo_ind_0/VIN" "m4_2800_n13400#" -3702.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8400000 -11200 0 0 0 0

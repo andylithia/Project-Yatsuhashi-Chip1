@@ -1,4 +1,4 @@
-timestamp 1660307541
+timestamp 1660789662
 version 8.3
 tech sky130B
 style ngspice()
@@ -41,244 +41,244 @@ use hash_m1m2m3_W2p5L2p5 hash_m1m2m3_W2p5L2p5_7 1 0 3400 0 1 4140
 node "SG" 7 12252.7 440 -3760 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1036800 21840 4278400 20320 15030400 39920 0 0
 node "D" 13 7308.87 0 -2020 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1462800 21640 704000 9520 3782000 24680 0 0 0 0
 node "G" 8 7625.57 400 -2000 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1280000 11800 480000 7200 4720000 24400 0 0 0 0 0 0
-substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 cap "G" "D" 6418.34
-cap "SG" "D" 6756.43
-cap "SG" "G" 3427.2
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/SD" 824.137
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/S" 383.321
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/SD" 16.2687
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/S" 565.388
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/SD" 56.031
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/SD" 1242.1
-cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 40.7305
-cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 1094.6
+cap "G" "SG" 3427.2
+cap "D" "SG" 6756.43
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/G" 383.321
+cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_3/S" 824.137
+cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_3/G" 16.2687
+cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_3/S" 1242.1
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/G" 565.388
+cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_3/G" 56.031
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 40.7305
 cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 506.552
-cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_8/G" 0.00402598
-cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_4/G" 0.267066
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 1094.6
+cap "RF_nfet_8xW5p0L0p15_8/G" "RF_nfet_8xW5p0L0p15_4/S" 0.00402598
 cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_4/SD" 17.4366
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/SD" 814.35
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/S" 650.954
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.528842
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.254075
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "RF_nfet_8xW5p0L0p15_3/G" 0.528842
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.235042
+cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_4/G" 0.267066
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/G" 650.954
 cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.254075
 cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/SD" 1674.49
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_3/G" 2034.59
-cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_3/S" 1296.1
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/S" 1040.23
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.528842
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" 0.528842
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/G" 0.235042
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/SD" 814.35
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "RF_nfet_8xW5p0L0p15_3/G" 0.528842
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "RF_nfet_8xW5p0L0p15_3/G" 0.528842
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "RF_nfet_8xW5p0L0p15_3/G" 0.399925
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/G" 0.528842
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
 cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.079987
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.399925
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.2938
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.254075
-cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.105377
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/G" 1040.23
+cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/SD" 2034.59
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "RF_nfet_8xW5p0L0p15_3/G" 0.528842
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/G" 0.2938
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_3/G" 0.079987
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/G" 0.254075
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/SD" 1296.1
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.254075
+cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.00622391
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.254075
 cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.254075
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.254075
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.528842
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.254075
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.254075
 cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.528842
-cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 1807.86
-cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 0.00622391
-cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 833.86
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" 0.528842
 cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 1149.18
-cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.174088
-cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.128918
-cap "RF_nfet_8xW5p0L0p15_4/SD" "RF_nfet_8xW5p0L0p15_8/G" 36.9711
-cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_4/G" 0.141444
-cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_8/G" 0.897695
+cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.105377
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.254075
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.128918
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 833.86
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 1807.86
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.174088
 cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_4/SD" 398.962
-cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_3/SD" 45.6048
+cap "RF_nfet_8xW5p0L0p15_8/G" "RF_nfet_8xW5p0L0p15_4/SD" 36.9711
+cap "RF_nfet_8xW5p0L0p15_8/G" "RF_nfet_8xW5p0L0p15_4/S" 0.897695
+cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_4/G" 0.141444
 cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/SD" 189.102
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/SD" 403.389
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/SD" 62.9785
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_0/SD" 308.676
+cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_3/G" 62.9785
+cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_3/SD" 45.6048
 cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/G" 903.69
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/SD" 946.314
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_0/SD" 742.033
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/SD" 64.9814
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/SD" 403.389
+cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_3/S" 308.676
+cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_3/S" 946.314
 cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_0/SD" 36.188
-cap "RF_nfet_8xW5p0L0p15_3/G" "RF_nfet_8xW5p0L0p15_3/S" 1153.38
-cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_3/SD" 34.5593
-cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/S" 1210.77
+cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_3/G" 64.9814
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/G" 1153.38
+cap "RF_nfet_8xW5p0L0p15_3/SD" "RF_nfet_8xW5p0L0p15_0/SD" 34.5593
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_0/SD" 742.033
 cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 55.1138
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 407.678
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 24.7071
-cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 441.899
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_3/S" 1210.77
 cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 35.4519
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_3/S" 441.899
+cap "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 24.7071
+cap "RF_nfet_8xW5p0L0p15_3/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 407.678
+cap "RF_nfet_8xW5p0L0p15_8/G" "RF_nfet_8xW5p0L0p15_4/SD" 24.2089
+cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_6/G" 0.173551
 cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_10/G" -0.00926178
 cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_4/SD" 272.767
-cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_6/G" 0.173551
 cap "RF_nfet_8xW5p0L0p15_4/SD" "RF_nfet_8xW5p0L0p15_10/G" 9.14806
-cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_8/G" -0.00926178
-cap "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_4/G" 0.231219
-cap "RF_nfet_8xW5p0L0p15_4/SD" "RF_nfet_8xW5p0L0p15_8/G" 24.2089
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/G" 0.165584
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
-cap "RF_nfet_8xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_0/SD" 489.952
+cap "RF_nfet_8xW5p0L0p15_8/G" "RF_nfet_8xW5p0L0p15_4/S" -0.00926178
+cap "RF_nfet_8xW5p0L0p15_4/G" "RF_nfet_8xW5p0L0p15_4/S" 0.231219
 cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/S" 670.058
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.149345
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" 0.377156
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 0.149345
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.377156
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
 cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/SD" 1706.09
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.149345
-cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/G" 0.377156
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.211573
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
+cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.149345
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/G" 0.165584
+cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.377156
+cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_1/S" 489.952
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
+cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 0.149345
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
+cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" 0.377156
 cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_1/S" 859.291
-cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/G" 0.0469359
+cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
+cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/G" 0.377156
+cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_0/G" 1841.65
 cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
 cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/G" 0.211573
+cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/G" 0.0469359
 cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "RF_nfet_8xW5p0L0p15_0/G" 0.377156
+cap "RF_nfet_8xW5p0L0p15_1/S" "RF_nfet_8xW5p0L0p15_0/G" 867.795
+cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
+cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
 cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.149345
-cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/G" 0.149345
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_1/S" 867.795
 cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "RF_nfet_8xW5p0L0p15_0/G" 0.285632
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/SD" 1841.65
-cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.149345
-cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.0717603
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.149345
+cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.149345
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.0717603
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 695.97
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 1606.77
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.377156
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" 0.149345
 cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.00366545
-cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.10241
-cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.149345
-cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.149345
-cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.377156
-cap "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.0915243
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 696.444
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 1606.77
-cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.149345
-cap "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 695.97
-cap "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 0.377156
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.149345
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_11/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/G" 0.377156
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 696.444
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/S" 0.10241
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_7/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/G" 0.0915243
+cap "RF_nfet_8xW5p0L0p15_6/SD" "RF_nfet_8xW5p0L0p15_10/G" 53.6738
 cap "RF_nfet_8xW5p0L0p15_7/S" "RF_nfet_8xW5p0L0p15_10/G" 0.837719
 cap "RF_nfet_8xW5p0L0p15_7/S" "RF_nfet_8xW5p0L0p15_6/G" 0.146313
-cap "RF_nfet_8xW5p0L0p15_7/S" "RF_nfet_8xW5p0L0p15_6/SD" 312.102
-cap "RF_nfet_8xW5p0L0p15_10/G" "RF_nfet_8xW5p0L0p15_6/SD" 53.6738
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 0.502316
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/S" 466.817
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
-cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/SD" 1183.69
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/SD" 120.508
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 0.502316
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 4.65587
+cap "RF_nfet_8xW5p0L0p15_6/SD" "RF_nfet_8xW5p0L0p15_7/S" 312.102
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
 cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.502316
-cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 0.502316
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/S" 721.234
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_0/G" 120.508
+cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/S" 466.817
+cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
+cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_0/S" 1183.69
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 0.502316
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
 cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
-cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
-cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
 cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 0.502316
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/SD" "RF_nfet_8xW5p0L0p15_0/S" 1852.1
-cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.502316
-cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 4.65587
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
 cap "RF_nfet_8xW5p0L0p15_0/G" "RF_nfet_8xW5p0L0p15_0/SD" 224.571
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 4.65587
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 208.664
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.502316
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/G" 721.234
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 0.502316
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/SD" 1852.1
+cap "RF_nfet_8xW5p0L0p15_6/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" "RF_nfet_8xW5p0L0p15_0/G" 4.65587
 cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 0.502316
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" "RF_nfet_8xW5p0L0p15_0/S" 0.502316
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 4.65587
-cap "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" 640.681
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 208.664
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 0.502316
 cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" 4.65587
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/S" 1617.49
-cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_0/S" 640.681
-cap "RF_nfet_8xW5p0L0p15_6/S" "RF_nfet_8xW5p0L0p15_10/G" 0.0147732
-cap "RF_nfet_8xW5p0L0p15_6/SD" "RF_nfet_8xW5p0L0p15_10/G" 0.329941
-cap "RF_nfet_8xW5p0L0p15_6/SD" "RF_nfet_8xW5p0L0p15_6/S" 83.0038
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 0.502316
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 1617.49
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.502316
+cap "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/G" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_1/D" 4.65587
+cap "RF_nfet_8xW5p0L0p15_0/S" "RF_nfet_8xW5p0L0p15_10/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 0.502316
+cap "RF_nfet_8xW5p0L0p15_10/G" "RF_nfet_8xW5p0L0p15_6/SD" 0.329941
+cap "RF_nfet_8xW5p0L0p15_6/S" "RF_nfet_8xW5p0L0p15_6/SD" 83.0038
+cap "RF_nfet_8xW5p0L0p15_10/G" "RF_nfet_8xW5p0L0p15_6/S" 0.0147732
 cap "RF_nfet_8xW5p0L0p15_6/G" "RF_nfet_8xW5p0L0p15_6/S" 0.319864
 cap "RF_nfet_8xW5p0L0p15_2/S" "RF_nfet_8xW5p0L0p15_2/SD" 26.2186
-cap "RF_nfet_8xW5p0L0p15_2/S" "RF_nfet_8xW5p0L0p15_2/G" 18.5964
-cap "RF_nfet_8xW5p0L0p15_2/S" "RF_nfet_8xW5p0L0p15_2/G" 2.97098
+cap "RF_nfet_8xW5p0L0p15_2/G" "RF_nfet_8xW5p0L0p15_2/S" 18.5964
+cap "RF_nfet_8xW5p0L0p15_2/G" "RF_nfet_8xW5p0L0p15_2/S" 2.97098
 cap "RF_nfet_8xW5p0L0p15_2/S" "RF_nfet_8xW5p0L0p15_2/SD" 39.116
-cap "RF_nfet_8xW5p0L0p15_5/G" "RF_nfet_8xW5p0L0p15_2/S" 20.4146
-cap "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" 42.2837
-cap "RF_nfet_8xW5p0L0p15_9/G" "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 22.3058
-cap "RF_nfet_8xW5p0L0p15_9/G" "RF_nfet_8xW5p0L0p15_5/S" 4.3341e-05
+cap "RF_nfet_8xW5p0L0p15_2/S" "RF_nfet_8xW5p0L0p15_5/G" 20.4146
+cap "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_9/G" 22.3058
+cap "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" 42.2837
 cap "RF_nfet_8xW5p0L0p15_5/SD" "RF_nfet_8xW5p0L0p15_5/S" 0.00045029
-merge "hash_m1m2m3_W2p5L2p5_7/VSUBS" "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" -54312.2 0 0 0 0 0 0 0 0 0 0 -656000 -19840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -456800 -19040 -802680 -69920 0 -9680 -1036800 -43840 0 0 0 0 0 0
+cap "RF_nfet_8xW5p0L0p15_9/G" "RF_nfet_8xW5p0L0p15_5/S" 4.3341e-05
+merge "hash_m1m2m3_W2p5L2p5_7/SUB" "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" -54312.2 0 0 0 0 0 0 0 0 0 0 -656000 -19840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -456800 -19040 -802680 -69920 0 -9680 -1036800 -43840 0 0 0 0 0 0
 merge "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "hash_m1m2m3_W2p5L2p5_7/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_7/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_6/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_6/VSUBS" "hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_5/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_5/VSUBS" "hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_4/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_4/VSUBS" "hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_3/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_3/VSUBS" "hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_2/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_2/VSUBS" "hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_1/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_1/VSUBS" "hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_0/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_0/VSUBS" "hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_7/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_6/SUB"
+merge "hash_m1m2m3_W2p5L2p5_6/SUB" "hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_6/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_5/SUB"
+merge "hash_m1m2m3_W2p5L2p5_5/SUB" "hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_5/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_4/SUB"
+merge "hash_m1m2m3_W2p5L2p5_4/SUB" "hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_4/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_3/SUB"
+merge "hash_m1m2m3_W2p5L2p5_3/SUB" "hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_3/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_2/SUB"
+merge "hash_m1m2m3_W2p5L2p5_2/SUB" "hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_2/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_1/SUB"
+merge "hash_m1m2m3_W2p5L2p5_1/SUB" "hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_1/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_0/SUB"
+merge "hash_m1m2m3_W2p5L2p5_0/SUB" "hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#"
 merge "hash_m1m2m3_W2p5L2p5_0/m1_100_n1100#" "RF_nfet_8xW5p0L0p15_9/S"
 merge "RF_nfet_8xW5p0L0p15_9/S" "RF_nfet_8xW5p0L0p15_5/S"
 merge "RF_nfet_8xW5p0L0p15_5/S" "RF_nfet_8xW5p0L0p15_2/S"
-merge "RF_nfet_8xW5p0L0p15_2/S" "hash_m1m2m3_W2p5L2p5_22/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_22/VSUBS" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D"
+merge "RF_nfet_8xW5p0L0p15_2/S" "hash_m1m2m3_W2p5L2p5_22/SUB"
+merge "hash_m1m2m3_W2p5L2p5_22/SUB" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D"
 merge "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D"
 merge "RF_nfet_8xW5p0L0p15_1/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "hash_m1m2m3_W2p5L2p5_22/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_22/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_21/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_21/VSUBS" "hash_m1m2m3_W2p5L2p5_21/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_21/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_20/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_20/VSUBS" "hash_m1m2m3_W2p5L2p5_20/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_20/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_19/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_19/VSUBS" "hash_m1m2m3_W2p5L2p5_19/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_22/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_21/SUB"
+merge "hash_m1m2m3_W2p5L2p5_21/SUB" "hash_m1m2m3_W2p5L2p5_21/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_21/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_20/SUB"
+merge "hash_m1m2m3_W2p5L2p5_20/SUB" "hash_m1m2m3_W2p5L2p5_20/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_20/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_19/SUB"
+merge "hash_m1m2m3_W2p5L2p5_19/SUB" "hash_m1m2m3_W2p5L2p5_19/m1_100_n1100#"
 merge "hash_m1m2m3_W2p5L2p5_19/m1_100_n1100#" "RF_nfet_8xW5p0L0p15_10/S"
-merge "RF_nfet_8xW5p0L0p15_10/S" "hash_m1m2m3_W2p5L2p5_18/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_18/VSUBS" "hash_m1m2m3_W2p5L2p5_18/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_18/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_17/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_17/VSUBS" "hash_m1m2m3_W2p5L2p5_17/m1_100_n1100#"
+merge "RF_nfet_8xW5p0L0p15_10/S" "hash_m1m2m3_W2p5L2p5_18/SUB"
+merge "hash_m1m2m3_W2p5L2p5_18/SUB" "hash_m1m2m3_W2p5L2p5_18/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_18/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_17/SUB"
+merge "hash_m1m2m3_W2p5L2p5_17/SUB" "hash_m1m2m3_W2p5L2p5_17/m1_100_n1100#"
 merge "hash_m1m2m3_W2p5L2p5_17/m1_100_n1100#" "RF_nfet_8xW5p0L0p15_6/S"
 merge "RF_nfet_8xW5p0L0p15_6/S" "RF_nfet_8xW5p0L0p15_0/S"
-merge "RF_nfet_8xW5p0L0p15_0/S" "hash_m1m2m3_W2p5L2p5_15/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_15/VSUBS" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D"
+merge "RF_nfet_8xW5p0L0p15_0/S" "hash_m1m2m3_W2p5L2p5_15/SUB"
+merge "hash_m1m2m3_W2p5L2p5_15/SUB" "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D"
 merge "RF_nfet_8xW5p0L0p15_3/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/D" "hash_m1m2m3_W2p5L2p5_15/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_15/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_8/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_8/VSUBS" "hash_m1m2m3_W2p5L2p5_8/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_15/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_8/SUB"
+merge "hash_m1m2m3_W2p5L2p5_8/SUB" "hash_m1m2m3_W2p5L2p5_8/m1_100_n1100#"
 merge "hash_m1m2m3_W2p5L2p5_8/m1_100_n1100#" "RF_nfet_8xW5p0L0p15_11/S"
 merge "RF_nfet_8xW5p0L0p15_11/S" "RF_nfet_8xW5p0L0p15_7/S"
 merge "RF_nfet_8xW5p0L0p15_7/S" "RF_nfet_8xW5p0L0p15_1/S"
-merge "RF_nfet_8xW5p0L0p15_1/S" "hash_m1m2m3_W2p5L2p5_14/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_14/VSUBS" "hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_13/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_13/VSUBS" "hash_m1m2m3_W2p5L2p5_13/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_13/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_12/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_12/VSUBS" "hash_m1m2m3_W2p5L2p5_12/m1_100_n1100#"
+merge "RF_nfet_8xW5p0L0p15_1/S" "hash_m1m2m3_W2p5L2p5_14/SUB"
+merge "hash_m1m2m3_W2p5L2p5_14/SUB" "hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_14/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_13/SUB"
+merge "hash_m1m2m3_W2p5L2p5_13/SUB" "hash_m1m2m3_W2p5L2p5_13/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_13/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_12/SUB"
+merge "hash_m1m2m3_W2p5L2p5_12/SUB" "hash_m1m2m3_W2p5L2p5_12/m1_100_n1100#"
 merge "hash_m1m2m3_W2p5L2p5_12/m1_100_n1100#" "RF_nfet_8xW5p0L0p15_8/S"
-merge "RF_nfet_8xW5p0L0p15_8/S" "hash_m1m2m3_W2p5L2p5_11/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_11/VSUBS" "hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_10/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_10/VSUBS" "hash_m1m2m3_W2p5L2p5_10/m1_100_n1100#"
-merge "hash_m1m2m3_W2p5L2p5_10/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_9/VSUBS"
-merge "hash_m1m2m3_W2p5L2p5_9/VSUBS" "hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#"
+merge "RF_nfet_8xW5p0L0p15_8/S" "hash_m1m2m3_W2p5L2p5_11/SUB"
+merge "hash_m1m2m3_W2p5L2p5_11/SUB" "hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_11/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_10/SUB"
+merge "hash_m1m2m3_W2p5L2p5_10/SUB" "hash_m1m2m3_W2p5L2p5_10/m1_100_n1100#"
+merge "hash_m1m2m3_W2p5L2p5_10/m1_100_n1100#" "hash_m1m2m3_W2p5L2p5_9/SUB"
+merge "hash_m1m2m3_W2p5L2p5_9/SUB" "hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#"
 merge "hash_m1m2m3_W2p5L2p5_9/m1_100_n1100#" "SG"
 merge "SG" "RF_nfet_8xW5p0L0p15_4/S"
 merge "RF_nfet_8xW5p0L0p15_4/S" "RF_nfet_8xW5p0L0p15_3/S"
-merge "RF_nfet_8xW5p0L0p15_3/S" "VSUBS"
+merge "RF_nfet_8xW5p0L0p15_3/S" "SUB"
 merge "RF_nfet_8xW5p0L0p15_2/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" -16449.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -89168 -14357 0 0 0 0 0 0 0 0
 merge "RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_2/S" "RF_nfet_8xW5p0L0p15_9/SD"
 merge "RF_nfet_8xW5p0L0p15_9/SD" "RF_nfet_8xW5p0L0p15_10/SD"
