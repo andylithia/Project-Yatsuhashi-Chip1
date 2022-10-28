@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1662654558
+timestamp 1666841414
 << pwell >>
 rect -5370 19520 -5330 19530
 << locali >>
@@ -2855,86 +2855,6 @@ box 100 -1100 600 -600
 use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_214
 timestamp 1660275339
 transform 1 0 7400 0 1 21800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_222
-timestamp 1660275339
-transform 1 0 -20600 0 1 16300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_223
-timestamp 1660275339
-transform 1 0 -20600 0 1 19800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_224
-timestamp 1660275339
-transform 1 0 -20600 0 1 20300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_225
-timestamp 1660275339
-transform 1 0 -20600 0 1 20800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_226
-timestamp 1660275339
-transform 1 0 -20600 0 1 16800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_227
-timestamp 1660275339
-transform 1 0 -20600 0 1 17300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_228
-timestamp 1660275339
-transform 1 0 -20600 0 1 17800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_229
-timestamp 1660275339
-transform 1 0 -20600 0 1 18300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_230
-timestamp 1660275339
-transform 1 0 -20600 0 1 18800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_231
-timestamp 1660275339
-transform 1 0 -20600 0 1 19300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_232
-timestamp 1660275339
-transform 1 0 -20100 0 1 16300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_233
-timestamp 1660275339
-transform 1 0 -20100 0 1 16800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_234
-timestamp 1660275339
-transform 1 0 -20100 0 1 17300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_235
-timestamp 1660275339
-transform 1 0 -20100 0 1 17800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_236
-timestamp 1660275339
-transform 1 0 -20100 0 1 18300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_237
-timestamp 1660275339
-transform 1 0 -20100 0 1 18800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_238
-timestamp 1660275339
-transform 1 0 -20100 0 1 19300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_239
-timestamp 1660275339
-transform 1 0 -20100 0 1 20300
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_240
-timestamp 1660275339
-transform 1 0 -20100 0 1 19800
-box 100 -1100 600 -600
-use hash_m1m2m3_W2p5L2p5  hash_m1m2m3_W2p5L2p5_241
-timestamp 1660275339
-transform 1 0 -20100 0 1 20800
 box 100 -1100 600 -600
 use octal_ind_0p700n_5GHz  octal_ind_0p700n_5GHz_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND
 timestamp 1660787815

@@ -1,7 +1,7 @@
 magic
 tech sky130B
 magscale 1 2
-timestamp 1662263286
+timestamp 1666841098
 << metal3 >>
 rect 12000 23800 20000 24000
 rect 12000 20400 12200 23800
@@ -94,7 +94,7 @@ rect 40800 -10800 41000 -4200
 rect 47200 -10800 47400 600
 rect 40800 -16800 47400 -10800
 use PA_complete_without_ind  PA_complete_without_ind_0
-timestamp 1662263286
+timestamp 1666841098
 transform 1 0 1 0 1 0
 box -9600 -4000 17800 12600
 use octa_ind_3t_140_160_flat  octa_ind_3t_140_160_flat_0 ~/openmpw/Project-Yatsuhashi-Chip1/mag/IND

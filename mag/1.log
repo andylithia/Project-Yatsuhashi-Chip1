@@ -1,0 +1,124 @@
+box 572457 -1 572459 1
+feedback add "Label \"vssa1\" attached to more than one unconnected node: m4_572458_0#" pale
+box 510593 122339 510595 122341
+feedback add "Label \"vssa1\" attached to more than one unconnected node: dw_458560_74700#" pale
+box 138132 44674 139132 44874
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/mixer_biasgen_0/VHI" pale
+box 138132 53704 139132 53904
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/mixer_biasgen_0/VHI" pale
+box 135960 44674 136960 44874
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/mixer_biasgen_0/VHI" pale
+box 135960 53704 136960 53904
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/mixer_biasgen_0/VHI" pale
+box 138132 55474 139132 55674
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/mixer_biasgen_0/VHI" pale
+box 138132 64504 139132 64704
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/mixer_biasgen_0/VHI" pale
+box 135960 55474 136960 55674
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/mixer_biasgen_0/VHI" pale
+box 135960 64504 136960 64704
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/mixer_biasgen_0/VHI" pale
+box 454912 72370 454942 73970
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 454816 72370 454846 73970
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 454720 72370 454750 73970
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 454624 72370 454654 73970
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 454528 72370 454558 73970
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 454432 72370 454462 73970
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 454336 72370 454366 73970
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 454240 72370 454270 73970
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 453666 74722 453736 75322
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 435519 78764 435585 79464
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 434763 78764 434829 79464
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 430032 79284 430232 79344
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 429662 79284 429862 79344
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 429292 79284 429492 79344
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 428922 79284 429122 79344
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 428598 79284 428798 79344
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 428228 79284 428428 79344
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 427858 79284 428058 79344
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 427488 79284 427688 79344
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 428598 80484 428798 80544
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 430032 81444 430232 81504
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 429662 81444 429862 81504
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 429292 81444 429492 81504
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 428922 81444 429122 81504
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 428598 81444 428798 81504
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 428228 81444 428428 81504
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 427858 81444 428058 81504
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 427488 81444 427688 81504
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 428657 82337 428727 82437
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 129186 85239 129252 86639
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 128646 85239 128712 86639
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
+box 9196 102334 9226 102840
+feedback add "device missing 1 terminal;
+ connecting remainder to node RX_top_0/OSC_5GHz_1_0/OSC_5GHz_wo_ind_0/XCP_1_0/RF_nfet_8xW5p0L0p15_0/sky130_fd_pr__rf_nfet_01v8_aM04_W5p00L0p15_notap_0/D" pale
