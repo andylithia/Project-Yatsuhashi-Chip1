@@ -1,6 +1,7 @@
 ** sch_path: /home/andylithia/openmpw/Project-Yatsuhashi-Chip1/xschem/zptest_tran.sch
 **.subckt zptest_tran
 V1 net6 GND 1.8
+.save i(v1)
 Ldeg3 net2 net1 0.3n m=1
 C2 net3 vin 1n m=1
 R1 vgate1 vbias1 2k m=1
@@ -42,12 +43,13 @@ C8 net1 GND 10p m=1
 R5 net19 net7 2k m=1
 XC17 net19 vgate1 sky130_fd_pr__cap_mim_m3_1 W=10 L=100 MF=1 m=1
 V4 vsrc GND dc 0 ac 1 SIN(0 0.01 5G)
+.save i(v4)
 R6 vin vsrc 50 m=1
 R7 GND vout 50 m=1
 **** begin user architecture code
-.lib /home/andylithia/openmpw/pdk_1/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.lib /home/andylithia/openmpw/pdk_1/sky130B/libs.tech/ngspice/sky130.lib.spice tt
 * .include
-*+ /home/andylithia/openmpw/pdk_1/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
+*+ /home/andylithia/openmpw/pdk_1/sky130B/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 
 
